@@ -56,7 +56,7 @@ Evidence-Grounded Explanation & Streamlit Display
 - Filter results by publication date and remove duplicate papers.
 - Return paper metadata, including titles, authors, publication dates, abstracts, and source links where available.
 
-### Person 2 — Retrieval · Chong Yao
+### Person 2 — Retrieval · Naila
 
 **Folder:** `retrieval/`
 
