@@ -1,1 +1,0 @@
-"""TODO: OpenAlex provider adapter."""
