@@ -1,0 +1,9 @@
+{
+  "benchmark": "scifact",
+  "seed": 42,
+  "search": {"providers": ["arxiv", "semantic_scholar", "openalex"], "published_after": null, "published_before": null},
+  "retrieval": {"candidate_k": 100},
+  "ranking": {"rrf_k": 60, "cross_encoder_enabled": false},
+  "evaluation": {"k_values": [5, 10, 20]},
+  "output_dir": "outputs"
+}
