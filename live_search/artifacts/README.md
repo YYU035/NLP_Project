@@ -1,38 +1,43 @@
-# Preserved research evidence
+# Retrieval experiments
 
-These files support academic grading, label reconciliation and reproducibility.
-They describe historical runs; their recommendations may predate the finalized
-OpenAlex/KeyBERT, OpenAIRE/KeyBERT, arXiv/spaCy policy. They are not separate
-experiments merely because reports or derived analyses repeat their records.
+The experiments use ten scientific claims. The main routing comparisons and
+depth study use publication dates from 2020-01-01 to 2026-10-30. Counts below
+are deduplicated claim-paper pairs unless stated otherwise.
 
-| Artifact | Evidence |
-|---|---|
-| `query-evaluation-20261030/` | Original/concept search coverage, controls and responses |
-| `provider-diagnostics-20261030/`, `provider-diagnostics-followup-20261030/` | Provider access/syntax diagnostics and archived responses |
-| `arxiv-concepts-20261031/` | Full-claim/spaCy comparison; original 250-row provisional labels |
-| `gemini-relevance-20261031/` | Blinded dataset, prompt, manual check; API judgments were not run |
-| `openaire-experiment-20261101/` | Original/spaCy OpenAIRE results and unresolved assessment exports |
-| `keybert-experiment-20261101/` | spaCy/KeyBERT OpenAlex/OpenAIRE comparison, labels and final analysis |
-| `arxiv-keybert-20261101/` | arXiv spaCy/KeyBERT comparison and assessment export |
-| `integration-readiness-20261101/` | Frozen plans, 12 conflicts and 47-example review sample |
-| `depth-approved-run/` | Actual frozen depth run: ten top-30 requests/provider, 30 total |
-| `fallback-approved-run/` | Actual frozen arXiv run: ten primary + five fallback requests |
-| `readiness-live-results-20261101/` | Offline analysis of the preceding two runs; assessment exports |
-| Root `*.json` | Earlier smoke tests and local query audits |
+| Experiment | Main finding | Results |
+|---|---|---|
+| Original claim vs spaCy, top 10 | arXiv returned 10 vs 40 pairs; OpenAlex returned 100 with each method, with only nine shared | [Report](arxiv-concepts-20261031/report.md) |
+| OpenAIRE discovery | Original and spaCy queries retrieved 112 pairs in total, including 94 not in the earlier OpenAlex/arXiv results | [Report](openaire-experiment-20261101/report.md) |
+| spaCy vs KeyBERT, top 10 | OpenAlex had 47 vs 67 provisionally labelled evidence candidates. OpenAIRE's comparison remains incomplete because many spaCy results are unlabelled | [Comparison](keybert-experiment-20261101/final_strategy_comparison.md) |
+| arXiv spaCy vs KeyBERT, top 10 | spaCy retrieved 40 pairs, KeyBERT 12; their union contained 42 | [Report](arxiv-keybert-20261101/report.md) |
+| Depth and arXiv relaxation | Top 30 added 24 known provisional evidence candidates over top 10. Relaxation added 14 unlabelled candidates and reduced arXiv zero-result claims from six to two | [Report](readiness-live-results-20261101/report.md) |
 
-Keep CSV labels, manifests, plan versions, raw response archives, checksums,
-query drafts, reports and mappings together. Unrun drafts are evidence of
-pre-retrieval development, not additional live experiments. Numeric canonical
-identities depend on the frozen historical record order; never join labels by
-row number, title alone or rank. Unknown/conflicting labels are not irrelevant.
+## Current decisions
 
-`local-models/` is ignored: download the pinned weights using
-`python -m paper_search.model_setup`. Runtime SQLite caches and `runtime/` are
-also ignored; saved CSV/JSON judgments and reports remain eligible for Git.
-The local Gemini cache currently contains no API judgments; it is not a label
-source needed for the recorded evaluation. New ad hoc outputs should go under
-the ignored repository-level `outputs/`, and be reviewed before being retained
-as formal research evidence.
+- Use KeyBERT for OpenAlex and OpenAIRE, and spaCy for arXiv.
+- Retrieve up to 30 papers per provider, then deduplicate across providers.
+- Keep arXiv relaxation off until its additional candidates are assessed.
 
-Start with the [latest results](readiness-live-results-20261101/report.md).
-No further live calls are required to review the saved candidate papers.
+The depth study fetched top 30 once per claim/provider and compared its 10/20/30
+prefixes offline. These prefixes needed no extra requests and do not measure
+separate request latencies. The depth run used 30 requests; the relaxation run
+used 15. Both completed without API failures.
+
+Labels are provisional AI-assisted judgments, not validated ground truth.
+Unknown and conflicting labels are not counted as irrelevant. More candidates
+do not establish better accuracy, and many deeper results remain unassessed.
+OpenAIRE descriptions may not be abstracts; PDF links were not downloaded.
+
+## Files to use
+
+- [Detailed depth results and input hashes](readiness-live-results-20261101/results.json)
+- [Depth run and response archive](depth-approved-run/)
+- [Relaxation run and response archive](fallback-approved-run/)
+- [14 relaxation additions for assessment](readiness-live-results-20261101/fallback_new_for_assessment.csv)
+- [All 341 new or unresolved pairs](readiness-live-results-20261101/new_unresolved_for_assessment.csv)
+- [12 conflicting labels](integration-readiness-20261101/conflicting_labels_12.csv)
+- [47-example manual review sample](integration-readiness-20261101/manual_validation_47.csv)
+
+Match labels by claim ID and canonical paper identity, not CSV row position.
+Local model weights and runtime caches are ignored. Earlier reports may describe
+previous query choices; use the comparisons above for the current design.

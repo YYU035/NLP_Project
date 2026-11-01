@@ -1,32 +1,30 @@
-# Research commands (not the production entry point)
+# Research scripts
 
-Person 2 should import `paper_search.retrieval`, not these scripts. Run scripts
-from the repository root after editable installation. Preserve their paths:
-tests, reports and frozen experiment instructions refer to them.
+Run these from the module directory after installation. Normal retrieval uses
+`paper_search.retrieval`; these scripts prepare or analyse experiments.
 
-| Script | Purpose |
+| Scripts | Purpose |
 |---|---|
-| `query_examples.py` | Original deterministic-query examples, no retrieval |
-| `query_audit.py`, `query_audit_cases.py` | Recorded before/after query audit and claims |
-| `run_query_evaluation.py` | Original/concept coverage experiment and controls |
-| `provider_diagnostics.py` | Historical provider syntax/access diagnosis |
-| `compare_arxiv_concepts.py` | Legacy full-claim vs arXiv concept rendering |
-| `experiment_openaire.py` | Original vs spaCy OpenAIRE experiment |
-| `experiment_keybert.py` | Matched spaCy/KeyBERT experiment; old model-setup command retained |
-| `experiment_arxiv_keybert.py` | Matched arXiv spaCy/KeyBERT experiment |
-| `evaluate_relevance.py` | Separate free-only Gemini evaluation tooling |
-| `prepare_integration_readiness.py` | Offline conflict audit, blinded sample and frozen plans |
-| `run_readiness_experiment.py` | Explicit opt-in depth/fallback experiments |
-| `analyze_readiness_runs.py` | Offline label joins, counts and assessment exports |
+| `query_examples.py`, `query_audit.py`, `query_audit_cases.py` | Generate query examples and compare reformulations |
+| `provider_diagnostics.py` | Investigate provider syntax, metadata and access errors |
+| `run_query_evaluation.py`, `compare_arxiv_concepts.py` | Compare original claims with concept queries |
+| `experiment_openaire.py` | Compare original and spaCy queries on OpenAIRE |
+| `experiment_keybert.py`, `experiment_arxiv_keybert.py` | Compare spaCy and KeyBERT retrieval |
+| `evaluate_relevance.py` | Prepare and optionally run the separate Gemini relevance evaluation |
+| `prepare_integration_readiness.py` | Prepare review samples and fixed experiment plans |
+| `run_readiness_experiment.py` | Run the planned depth or arXiv relaxation comparison |
+| `analyze_readiness_runs.py` | Join saved results with labels and export assessment files |
 
-These are reproducibility tools, not automatically run on import. Some commands
-can overwrite generated reports; follow the corresponding protocol and use a
-fresh output directory. Live commands require explicit opt-in. Completed
-experiments do not need to be repeated for setup or integration.
+For example, reanalyse the saved depth and relaxation runs without API calls:
 
-Model setup is now independent: `python -m paper_search.model_setup` downloads
-the same pinned weights without preparing or running an experiment. The old
-`experiment_keybert.py download-model` command delegates to that helper.
+```powershell
+.venv\Scripts\python.exe scripts/analyze_readiness_runs.py --depth artifacts/depth-approved-run --fallback artifacts/fallback-approved-run --output outputs/readiness-review
+```
 
-See the [artifact index](../artifacts/README.md), the
-[integration contract](../docs/retrieval_integration.md) and the root README.
+Use a new output directory. Completed results are in the
+[experiment summary](../artifacts/README.md); no rerun is needed for integration.
+Live retrieval commands require an explicit opt-in flag. The Gemini evaluator
+has its own free-tier checks; it is not part of the retrieval pipeline.
+
+For model setup, use `python -m paper_search.model_setup` rather than an
+experiment script.
