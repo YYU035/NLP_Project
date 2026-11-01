@@ -1,6 +1,6 @@
 # Scientific paper retrieval
 
-The retrieval module finds scientific papers for an NLP RAG project and passes
+The retrieval module finds scientific papers and passes
 normalized candidates to downstream ranking. It returns the original claim,
 paper metadata and retrieval provenance.
 
