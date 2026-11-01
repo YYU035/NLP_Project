@@ -1,0 +1,39 @@
+{
+  "historical_pairs": 450,
+  "status_counts": {
+    "consensus_provisional": 336,
+    "conflict": 12,
+    "unresolved": 102
+  },
+  "conflicts": [
+    "c01:59",
+    "c02:7",
+    "c03:86",
+    "c03:98",
+    "c04:105",
+    "c05:15",
+    "c05:16",
+    "c06:149",
+    "c08:22",
+    "c09:202",
+    "c10:30",
+    "c10:43"
+  ],
+  "unresolved_openaire": 94,
+  "sample_size": 47,
+  "sample_strata": {
+    "unresolved_openaire": 18,
+    "provisional_label_2": 5,
+    "conflicting_labels": 12,
+    "provisional_label_0": 5,
+    "provisional_label_1": 5,
+    "new_arxiv_unlabelled": 2
+  },
+  "source_hashes": {
+    "artifacts\\arxiv-keybert-20261101\\results.json": "9dfd4d55a1eef3fbeafb673460a72e68bb38a8c7bc5da5f8cb88a76d33e9c262",
+    "artifacts\\arxiv-concepts-20261031\\manual_assessment_provisional_250.csv": "447cc664416ba0deaf8af51caab45e55a8e7587abd72454ea461f5c6c8cf3e1c",
+    "artifacts\\keybert-experiment-20261101\\keybert_new_pairs_provisional_labels.csv": "89907109df78670e0c375967c2df3e0057b26bbb5882dd8660888def55c647ef",
+    "artifacts\\gemini-relevance-20261031\\manual_validation_30_filled.csv": "8d22c3a1c5c845cc8228bd41677a6bdc88173ccc95c5e1ab9ec843afa1f598c8",
+    "artifacts\\gemini-relevance-20261031\\manifest.json": "9123b3cf4ba4eade22c5afdd95f4ceb5621fcfb6a8ff7c9ab9194f3a6358dc62"
+  }
+}

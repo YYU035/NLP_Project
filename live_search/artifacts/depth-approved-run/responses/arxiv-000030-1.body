@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T9QsB/Mbx1S4pzMcEGqThOM06Zg</id>
+  <title>arXiv Query: search_query=(all:Exercise AND all:memory) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-11-01T11:59:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:Exercise+AND+all:memory)+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>115</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15879v1</id>
+    <title>BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation</title>
+    <updated>2026-02-03T08:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.15879v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15879v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T08:45:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qing Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Jiang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Jipeng Guo</name>
+    </author>
+    <author>
+      <name>Yejiang Wang</name>
+    </author>
+    <author>
+      <name>Xinghe Cheng</name>
+    </author>
+    <author>
+      <name>Zezheng Wu</name>
+    </author>
+    <author>
+      <name>Jiapu Wang</name>
+    </author>
+    <author>
+      <name>Jingwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28575v1</id>
+    <title>TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment</title>
+    <updated>2026-09-23T12:25:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.28575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting outgoing drafts against the record, answering with current beliefs while preserving supersession history, and governing sensitive recall. The suite extends LoCoMo's corpora and harness, pairing every detect/block metric with a matched do-not-over-detect control: surface-matched hard negatives price false intervention, so no track can be gamed by flagging everything. The benchmark itself is validated first: independent, gold-blind double annotation with adjudication, judge decoy calibration, and a separability audit. On the human-validated Track B v1.0 key (161 items, post-adjudication kappa = 0.85), no tested configuration simultaneously achieves high contradiction recall, high hard-negative specificity, and high attribution: flat-RAG baselines detect 0.76-0.97 of true contradictions but falsely flag 16-43% of surface-matched safe drafts depending on backend, while a deployed coherence-oriented system almost never over-flags (0.98-1.00 specificity) yet catches 42% of true contradictions -- a trade-off no recall-only score can see. A 13-configuration baseline ladder localizes causes: every gold contradiction is detectable from its evidence alone (recall 1.000), calibrated models nearly solve the track given the full transcript -- consistent with substantial retrieval-coverage gaps -- and draft-only floors reveal model-dependent style priors. A system's TWIST profile, beside its recall score, measures whether memory knows when to intervene and when not to.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T12:25:28Z</published>
+    <arxiv:comment>conversational memory, LLM agents, agent memory systems, benchmark, contradiction detection, belief revision, supersession, intervention quality, hard negatives, retrieval-augmented generation, evaluation methodology, memory governance, long-term memory, human annotation</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Subrat Panda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10034v1</id>
+    <title>Continual Learning from Synthetic Data for a Humanoid Exercise Robot</title>
+    <updated>2021-02-19T17:05:25Z</updated>
+    <link href="https://arxiv.org/abs/2102.10034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to detect and correct physical exercises, a Grow-When-Required Network (GWR) with recurrent connections, episodic memory and a novel subnode mechanism is developed in order to learn spatiotemporal relationships of body movements and poses. Once an exercise is performed, the information of pose and movement per frame is stored in the GWR. For every frame, the current pose and motion pair is compared against a predicted output of the GWR, allowing for feedback not only on the pose but also on the velocity of the motion. In a practical scenario, a physical exercise is performed by an expert like a physiotherapist and then used as a reference for a humanoid robot like Pepper to give feedback on a patient's execution of the same exercise. This approach, however, comes with two challenges. First, the distance from the humanoid robot and the position of the user in the camera's view of the humanoid robot have to be considered by the GWR as well, requiring a robustness against the user's positioning in the field of view of the humanoid robot. Second, since both the pose and motion are dependent on the body measurements of the original performer, the expert's exercise cannot be easily used as a reference. This paper tackles the first challenge by designing an architecture that allows for tolerances in translation and rotations regarding the center of the field of view. For the second challenge, we allow the GWR to grow online on incremental data. For evaluation, we created a novel exercise dataset with virtual avatars called the Virtual-Squat dataset. Overall, we claim that our novel architecture based on the GWR can use a learned exercise reference for different body variations through continual online learning, while preventing catastrophic forgetting, enabling for an engaging long-term human-robot interaction with a humanoid robot.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-19T17:05:25Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Nicolas Duczek</name>
+    </author>
+    <author>
+      <name>Matthias Kerzel</name>
+    </author>
+    <author>
+      <name>Stefan Wermter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.11548v1</id>
+    <title>Real-Time Fitness Exercise Classification and Counting from Video Frames</title>
+    <updated>2024-11-18T13:06:29Z</updated>
+    <link href="https://arxiv.org/abs/2411.11548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.11548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a novel method for real-time exercise classification using a Bidirectional Long Short-Term Memory (BiLSTM) neural network. Existing exercise recognition approaches often rely on synthetic datasets, raw coordinate inputs sensitive to user and camera variations, and fail to fully exploit the temporal dependencies in exercise movements. These issues limit their generalizability and robustness in real-world conditions, where lighting, camera angles, and user body types vary.
+  To address these challenges, we propose a BiLSTM-based model that leverages invariant features, such as joint angles, alongside raw coordinates. By using both angles and (x, y, z) coordinates, the model adapts to changes in perspective, user positioning, and body differences, improving generalization. Training on 30-frame sequences enables the BiLSTM to capture the temporal context of exercises and recognize patterns evolving over time.
+  We compiled a dataset combining synthetic data from the InfiniteRep dataset and real-world videos from Kaggle and other sources. This dataset includes four common exercises: squat, push-up, shoulder press, and bicep curl. The model was trained and validated on these diverse datasets, achieving an accuracy of over 99% on the test set. To assess generalizability, the model was tested on 2 separate test sets representative of typical usage conditions. Comparisons with the previous approach from the literature are present in the result section showing that the proposed model is the best-performing one.
+  The classifier is integrated into a web application providing real-time exercise classification and repetition counting without manual exercise selection.
+  Demo and datasets are available at the following GitHub Repository: https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T13:06:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Riccardo Riccio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12476v2</id>
+    <title>Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents</title>
+    <updated>2026-08-26T10:53:12Z</updated>
+    <link href="https://arxiv.org/abs/2608.12476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-revival after retraction or deletion, and exact claim closure over a fresh view at one verified head.
+  On a prespecified hash-frozen 3,600-case GPM-ReleaseBench, GPM matches all complete outcomes; the strongest of three intentionally simple complete policies matches 1,800/3,600 and makes unmatched releases on 50% of violation cases. A separate sealed end-to-end service evaluation exercises real ingestion and release across eight query families. In its publicly disclosed V3 arm, the governed lane is correct on 2,400/2,400 clusters versus 600/2,400 for ungoverned local Qwen2.5-7B; it repairs all 1,800 baseline failures with no regression (one-sided 95% lower bounds 99.875% and 99.834%). A later V5 reseal over Chinese- and English-command arms, with generation-date pinning and no post-freeze reducer amendment, again obtains 2,400/2,400 per arm. A production-code-independent finite model explores 331,776 semantic and 1,990,656 query states without a full-contract counterexample, and a 100,000-trace three-engine differential yields zero mismatches.
+  These are bounded contract and implementation results, not open-world model accuracy or evidence of world truth. Governed answers in the sealed service evaluation are deterministic service outputs; the 7B result is the ungoverned comparison, not a claim that a language model itself became perfectly accurate.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-12T18:00:42Z</published>
+    <arxiv:comment>23 pages, 2 figures, 11 tables. Includes a sealed end-to-end governed-memory service evaluation with an ungoverned local Qwen2.5-7B comparison</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Guodong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02349v2</id>
+    <title>Detecting and measuring respiratory events in horses during exercise with a microphone: deep learning vs. standard signal processing</title>
+    <updated>2026-07-13T10:01:05Z</updated>
+    <link href="https://arxiv.org/abs/2508.02349v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02349v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monitoring respiration parameters such as respiratory rate could be beneficial to understand the impact of training on equine health and performance and ultimately improve equine welfare. In this work, we compare deep learning-based methods to an adapted signal processing method to automatically detect cyclic respiratory events and extract the dynamic respiratory rate from microphone recordings during high intensity exercise in Standardbred trotters. Our deep learning models are able to detect exhalation sounds (median F1 score of 0.94) in noisy microphone signals and show promising results on unlabelled signals at lower exercising intensity, where the exhalation sounds are less recognisable. Temporal convolutional networks were better at detecting exhalation events and estimating dynamic respiratory rates (median F1: 0.94, Mean Absolute Error (MAE) $\pm$ Confidence Intervals (CI): 1.44$\pm$1.04 bpm, Limits Of Agreements (LOA): 0.63$\pm$7.06 bpm) than long short-term memory networks (median F1: 0.90, MAE$\pm$CI: 3.11$\pm$1.58 bpm) and signal processing methods (MAE$\pm$CI: 2.36$\pm$1.11 bpm). This work is the first to automatically detect equine respiratory sounds and automatically compute dynamic respiratory rates in exercising horses. In the future, our models will be validated on lower exercising intensity sounds and different microphone placements will be evaluated in order to find the best combination for regular monitoring.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-04T12:34:34Z</published>
+    <arxiv:comment>version accepted at BMC Veterinary Research</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>BMC Vet Res (2026)</arxiv:journal_ref>
+    <author>
+      <name>Jeanne I. M. Parmentier</name>
+      <arxiv:affiliation>Utrecht University</arxiv:affiliation>
+      <arxiv:affiliation>University of Twente</arxiv:affiliation>
+      <arxiv:affiliation>Inertia Technology B.V</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rhana M. Aarts</name>
+      <arxiv:affiliation>Utrecht University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elin Hernlund</name>
+      <arxiv:affiliation>Swedish University of Agricultural Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marie Rhodin</name>
+      <arxiv:affiliation>Swedish University of Agricultural Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Berend Jan van der Zwaag</name>
+      <arxiv:affiliation>University of Twente</arxiv:affiliation>
+      <arxiv:affiliation>Inertia Technology B.V</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1186/s12917-026-05614-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1186/s12917-026-05614-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09079v1</id>
+    <title>The effect of intelligent monitoring of physical exercise on executive function in children with ADHD</title>
+    <updated>2025-03-12T05:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2503.09079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Children with ADHD often struggle with executive function (EF) and motor skills, impacting their academics and social life. While medications are commonly used, they have side effects, leading to interest in non-drug treatments. Physical activity (PA) has shown promise in improving cognitive and motor skills in children with ADHD. This study examined the short- and long-term effects of three PA interventions: a specific skill training group (EG1), a low-demand exercise group (EG2), and a control group (CG) over 12 weeks. EG1 showed significant improvements in motor tasks and working memory (15\% improvement, p&lt;0.05), while EG2 and CG showed smaller changes. Long-term PA improved working memory, but short-term PA had limited effects on balance and manual dexterity. These findings suggest that skill training has an immediate impact on motor performance, while more complex motor skills require longer interventions. Smart devices tracked progress, confirming sustained engagement and improvement in EG1. This research highlights PA as a promising non-pharmacological treatment for ADHD, warranting further exploration of its effects on other cognitive domains.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T05:22:42Z</published>
+    <arxiv:comment>12</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Liwen Lin</name>
+    </author>
+    <author>
+      <name>Nan Lib</name>
+    </author>
+    <author>
+      <name>Shuchen Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00032v2</id>
+    <title>Ken Utilization Layer: Hebbian Replay Within a Student's Ken for Adaptive Exercise Recommendation</title>
+    <updated>2025-11-17T15:10:41Z</updated>
+    <link href="https://arxiv.org/abs/2507.00032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.00032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adaptive exercise recommendation (ER) aims to choose the next activity that matches a learner's evolving Zone of Proximal Development (ZPD). We present KUL-Rec, a biologically inspired ER system that couples a fast Hebbian memory with slow replay-based consolidation to enable continual, few-shot personalization from sparse interactions. The model operates in an embedding space, allowing a single architecture to handle both tabular knowledge-tracing logs and open-ended short-answer text. We align evaluation with tutoring needs using bidirectional ranking and rank-sensitive metrics (nDCG, Recall@K). Across ten public datasets, KUL-Rec improves macro nDCG (0.316 vs. 0.265 for the strongest baseline) and Recall@10 (0.305 vs. 0.211), while achieving low inference latency and an $\approx99$\% reduction in peak GPU memory relative to a competitive graph-based model. In a 13-week graduate course, KUL-Rec personalized weekly short-answer quizzes generated by a retrieval-augmented pipeline and the personalized quizzes were associated with lower perceived difficulty and higher helpfulness (p &lt; .05). An embedding robustness audit highlights that encoder choice affects semantic alignment, motivating routine audits when deploying open-response assessment. Together, these results indicate that Hebbian replay with bounded consolidation offers a practical path to real-time, interpretable ER that scales across data modalities and classroom settings.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T00:06:28Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Grey Kuling</name>
+    </author>
+    <author>
+      <name>Marinka Zitnik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08122v1</id>
+    <title>MemoryKT: An Integrative Memory-and-Forgetting Method for Knowledge Tracing</title>
+    <updated>2025-08-11T15:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2508.08122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge Tracing (KT) is committed to capturing students' knowledge mastery from their historical interactions. Simulating students' memory states is a promising approach to enhance both the performance and interpretability of knowledge tracing models. Memory consists of three fundamental processes: encoding, storage, and retrieval. Although forgetting primarily manifests during the storage stage, most existing studies rely on a single, undifferentiated forgetting mechanism, overlooking other memory processes as well as personalized forgetting patterns. To address this, this paper proposes memoryKT, a knowledge tracing model based on a novel temporal variational autoencoder. The model simulates memory dynamics through a three-stage process: (i) Learning the distribution of students' knowledge memory features, (ii) Reconstructing their exercise feedback, while (iii) Embedding a personalized forgetting module within the temporal workflow to dynamically modulate memory storage strength. This jointly models the complete encoding-storage-retrieval cycle, significantly enhancing the model's perception capability for individual differences. Extensive experiments on four public datasets demonstrate that our proposed approach significantly outperforms state-of-the-art baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T15:59:59Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingrong Lin</name>
+    </author>
+    <author>
+      <name>Ke Deng</name>
+    </author>
+    <author>
+      <name>Zhengyang Wu</name>
+    </author>
+    <author>
+      <name>Zetao Zheng</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01224v1</id>
+    <title>AutoMem: Automated Learning of Memory as a Cognitive Skill</title>
+    <updated>2026-07-01T17:57:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.01224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exercising it. Both axes resist manual optimization: episodes in long-horizon tasks run for thousands of steps, and a single memory mistake can hide long before it surfaces, making human review of full trajectories impractical. We introduce AutoMem, a framework that automates both axes. In the first loop, a strong LLM reviews complete agent trajectories and iteratively revises the memory structure that shapes how the agent interacts with its memory files. In the second loop, the agent's own good memory decisions are identified from many episodes and used as training signal to sharpen the model's memory proficiency directly. Across three procedurally generated long-horizon games (Crafter, MiniHack, and NetHack), optimizing memory alone--without modifying the model's task-action behavior--improved the base agent's performance ~2x-4x, bringing a 32B open-weight model competitive with frontier systems such as Claude Opus 4.5 and Gemini 3.1 Pro Thinking. Our results show that memory management is an independently learnable skill, and a high-leverage objective yielding large gains on long-horizon tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T17:57:03Z</published>
+    <arxiv:comment>Project Website: https://autolearnmem.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shengguang Wu</name>
+    </author>
+    <author>
+      <name>Hao Zhu</name>
+    </author>
+    <author>
+      <name>Yuhui Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohan Wang</name>
+    </author>
+    <author>
+      <name>Serena Yeung-Levy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00226v2</id>
+    <title>Gravitational wave memory in wormhole spacetimes</title>
+    <updated>2022-11-30T15:26:40Z</updated>
+    <link href="https://arxiv.org/abs/2207.00226v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00226v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gravitational wave memory is studied in the context of a certain class of braneworld wormholes. Unlike other wormhole geometries, this novel class of wormholes do not require any exotic matter fields for its traversability. First, we study geodesics in this wormhole spacetime, in the presence of a gravitational wave pulse. The resulting evolution of the geodesic separation shows the presence of displacement and velocity memory effects. Motivated by the same, we study the memory effects at null infinity using the Bondi-Sachs formalism, adapted for braneworld wormhole. Our analysis provides a non-trivial change of the Bondi mass after the passage of a burst of gravitational radiation and hence manifests the memory effect at null infinity. In both of these exercises, the presence of extra dimension and the wormhole nature of the spacetime geometry gets imprinted in the memory effect. Since future gravitational wave detectors will be able to probe the memory effect, the present work provides another avenue to search for compact objects other than black holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-01T06:39:42Z</published>
+    <arxiv:comment>Some additions and clarifications, matches with the published version in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 106, 104057, 2022</arxiv:journal_ref>
+    <author>
+      <name>Indranil Chakraborty</name>
+    </author>
+    <author>
+      <name>Soumya Bhattacharya</name>
+    </author>
+    <author>
+      <name>Sumanta Chakraborty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.106.104057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.106.104057" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13680v1</id>
+    <title>ChatGPT, Can You Generate Solutions for my Coding Exercises? An Evaluation on its Effectiveness in an undergraduate Java Programming Course</title>
+    <updated>2023-05-23T04:38:37Z</updated>
+    <link href="https://arxiv.org/abs/2305.13680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we assess the efficacy of employing the ChatGPT language model to generate solutions for coding exercises within an undergraduate Java programming course. ChatGPT, a large-scale, deep learning-driven natural language processing model, is capable of producing programming code based on textual input. Our evaluation involves analyzing ChatGPT-generated solutions for 80 diverse programming exercises and comparing them to the correct solutions. Our findings indicate that ChatGPT accurately generates Java programming solutions, which are characterized by high readability and well-structured organization. Additionally, the model can produce alternative, memory-efficient solutions. However, as a natural language processing model, ChatGPT struggles with coding exercises containing non-textual descriptions or class files, leading to invalid solutions. In conclusion, ChatGPT holds potential as a valuable tool for students seeking to overcome programming challenges and explore alternative approaches to solving coding problems. By understanding its limitations, educators can design coding exercises that minimize the potential for misuse as a cheating aid while maintaining their validity as assessment tools.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T04:38:37Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Eng Lieh Ouh</name>
+    </author>
+    <author>
+      <name>Benjamin Kok Siew Gan</name>
+    </author>
+    <author>
+      <name>Kyong Jin Shim</name>
+    </author>
+    <author>
+      <name>Swavek Wlodkowski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04589v1</id>
+    <title>StegoMemory: Agentic Memory Acts as Covert Steganographic Channel</title>
+    <updated>2026-10-03T15:23:18Z</updated>
+    <link href="https://arxiv.org/abs/2610.04589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Is agentic memory robust against stealthy steganographic attacks? We carry out a large-scale red-teaming exercise to test whether agents can encode attacker-controlled strings in one session and recover them in another without triggering safety oversight. Following SHADE-Arena-style tasks, we embed malicious side tasks to encode secret strings using steganography within otherwise benign tasks and evaluate them using independent task-completion and safety oversight. We test 14,000 attack trials spanning 91 model-attack configurations, 13 models, and 7 steganographic schemes: Acrostic, Mesostic, Telestich, Word-choice, Capitalization, Position-based, and Homoglyph. 41.2% of trials successfully encode the target payload in the generated response, while 29.8% survive the memory-write step with the encoding intact. Overall, 25.4% of trials yield a recoverable payload at retrieval, and 20.1% achieve exact-match recovery, including synthetic API keys and cryptographic material never exposed to the receiver. Among the exact-match transmissions, 71.4% also pass primary task-completion scoring and are independently judged safe by the oversight model, corresponding to 14.4% of all trials in which a successful covert transmission would appear to be an ordinary, benign interaction under task-level evaluation. Our results demonstrate that agentic memory can function as a persistent cross-session covert channel. The results further show that the principal bottleneck occurs at memory persistence rather than retrieval: once a steganographic payload survives the memory-write stage, a substantial fraction remains recoverable. We therefore argue that memory integrity, information-flow control, and covert-channel detection should be explicit security requirements for agentic systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T15:23:18Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Snehasis Mukhopadhyay</name>
+    </author>
+    <author>
+      <name>Arun Nair</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.14532v1</id>
+    <title>GMM: Generalized OS Memory Management for Programmable XPUs</title>
+    <updated>2026-10-10T03:44:35Z</updated>
+    <link href="https://arxiv.org/abs/2610.14532v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.14532v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the AI boom, the fast evolving programmable XPU devices utilize high-bandwidth local memory to accelerate domain-specific tasks offloaded from the host CPU, resulting in a proliferation of XPU memory management systems implemented in proprietary drivers. However, existing OS core memory management (MM) continues to lack a high-level software abstraction, excluding the XPUs from leveraging OS advanced memory features. The XPU manufacturers have to reimplement independent XPU MM drivers, exacerbating the fragmented XPU software ecosystem.
+  This paper presents GMM, generalized memory management that provides unified MM subsystems for XPUs. By adding an explicit logical mapping abstraction, GMM 1) provides universal NUMA-aware memory API for XPUs; 2) allows ease of XPU MM delegation; 3) enables sharing of advanced XPU memory features. Lightweight XPU MM drivers are implemented for two representative XPU manufacturers, Nvidia and Huawei. Both GMM-based drivers obtain competitive performance compared with their vendor-supplied drivers. GMM also obtains up to 41% higher fault-driven page migration throughput. Two real-world industrial case studies are exercised, where GMM reduces XPU memory utilization by 10% with up to 22.6x faster inference serving switch latency.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-10T03:44:35Z</published>
+    <arxiv:comment>17 pages, 16 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Weixi Zhu</name>
+    </author>
+    <author>
+      <name>Bin Wang</name>
+    </author>
+    <author>
+      <name>Zhiyuan Fang</name>
+    </author>
+    <author>
+      <name>Jiahua Wang</name>
+    </author>
+    <author>
+      <name>Yao Guo</name>
+    </author>
+    <author>
+      <name>Gingfung Yeung</name>
+    </author>
+    <author>
+      <name>Adam Barker</name>
+    </author>
+    <author>
+      <name>Xinwei Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.13112v1</id>
+    <title>Recall and Learn: A Memory-augmented Solver for Math Word Problems</title>
+    <updated>2021-09-27T14:59:08Z</updated>
+    <link href="https://arxiv.org/abs/2109.13112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.13112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we tackle the math word problem, namely, automatically answering a mathematical problem according to its textual description. Although recent methods have demonstrated their promising results, most of these methods are based on template-based generation scheme which results in limited generalization capability. To this end, we propose a novel human-like analogical learning method in a recall and learn manner. Our proposed framework is composed of modules of memory, representation, analogy, and reasoning, which are designed to make a new exercise by referring to the exercises learned in the past. Specifically, given a math word problem, the model first retrieves similar questions by a memory module and then encodes the unsolved problem and each retrieved question using a representation module. Moreover, to solve the problem in a way of analogy, an analogy module and a reasoning module with a copy mechanism are proposed to model the interrelationship between the problem and each retrieved question. Extensive experiments on two well-known datasets show the superiority of our proposed algorithm as compared to other state-of-the-art competitors from both overall performance comparison and micro-scope studies.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-27T14:59:08Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shifeng Huang</name>
+    </author>
+    <author>
+      <name>Jiawei Wang</name>
+    </author>
+    <author>
+      <name>Jiao Xu</name>
+    </author>
+    <author>
+      <name>Da Cao</name>
+    </author>
+    <author>
+      <name>Ming Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01836v1</id>
+    <title>Temporal Graph Memory Networks For Knowledge Tracing</title>
+    <updated>2024-09-23T07:47:02Z</updated>
+    <link href="https://arxiv.org/abs/2410.01836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tracing a student's knowledge growth given the past exercise answering is a vital objective in automatic tutoring systems to customize the learning experience. Yet, achieving this objective is a non-trivial task as it involves modeling the knowledge state across multiple knowledge components (KCs) while considering their temporal and relational dynamics during the learning process. Knowledge tracing methods have tackled this task by either modeling KCs' temporal dynamics using recurrent models or relational dynamics across KCs and questions using graph models. Albeit, there is a lack of methods that could learn joint embedding between relational and temporal dynamics of the task. Moreover, many methods that count for the impact of a student's forgetting behavior during the learning process use hand-crafted features, limiting their generalization on different scenarios. In this paper, we propose a novel method that jointly models the relational and temporal dynamics of the knowledge state using a deep temporal graph memory network. In addition, we propose a generic technique for representing a student's forgetting behavior using temporal decay constraints on the graph memory module. We demonstrate the effectiveness of our proposed method using multiple knowledge tracing benchmarks while comparing it to state-of-the-art methods.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-23T07:47:02Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Seif Gad</name>
+    </author>
+    <author>
+      <name>Sherif Abdelfattah</name>
+    </author>
+    <author>
+      <name>Ghodai Abdelrahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.20354v1</id>
+    <title>Understanding NVIDIA Grace-Blackwell Unified Memory Through Placement-Controlled Microbenchmarks</title>
+    <updated>2026-10-14T15:30:19Z</updated>
+    <link href="https://arxiv.org/abs/2610.20354v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.20354v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>NVIDIA Grace--Blackwell systems make CPU--GPU memory increasingly unified at the programming level, but unified addressability does not make the memory system uniform. A CUDA managed allocation on GB200 may be served from GPU-local HBM, accessed through host/system memory, demand-migrated, prefetched, reused after GPU access, or evicted and reloaded under capacity pressure. The problem is that these states share a programming interface while exercising different hardware paths and runtime mechanisms, making a single ``Unified Memory bandwidth'' number misleading.
+  This paper presents a placement-controlled microbenchmark study of CUDA Unified Memory on NVIDIA GB200, using GH200 as a Grace--Hopper baseline and GB10/DGX Spark as a validation platform. Our methodology separates local HBM access, host/system-memory access, explicit movement, managed first touch, prefetch, reuse, access-pattern sensitivity, oversubscription, and CPU--GPU handoff, then summarizes the observations with a measurement-calibrated model of compute, access, migration, eviction, synchronization, and handoff costs. On GB200, a 1~GB STREAM-style triad reaches 3963~GB/s from local HBM but 304~GB/s through host-mapped CPU/system memory; for a 256~MB streaming kernel, cold CPU-initialized managed memory reaches 14.1~GB/s, while managed prefetch and reuse reach 4606~GB/s and 4504~GB/s. Below the capacity boundary, prefetched and reused managed memory remain above 4.6~TB/s, but at 125\% of CUDA-visible memory they fall to 968~GB/s and 1214~GB/s, showing that Grace--Blackwell unified memory must be understood through placement, access history, locality, reuse, and capacity pressure.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-14T15:30:19Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Nathan Graddon</name>
+    </author>
+    <author>
+      <name>Aaron Jarmusch</name>
+    </author>
+    <author>
+      <name>Sunita Chandrasekaran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.04617v1</id>
+    <title>MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents</title>
+    <updated>2026-07-06T02:54:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.04617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.04617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-lived AI agents require continuity across interactions, but continuity cannot be obtained by simply extending the prompt window. An agent must preserve useful prior experience, retrieve it selectively, distinguish personal context from external evidence, and revise memory when the underlying situation changes. We propose an architectural memory substrate organized along two orthogonal axes: a representational axis spanning structured records, vector representations, and graph relations; and a temporal axis spanning short-term traces, medium-term abstractions, and long-term semantic commitments. Its key design constraint is synchronized structured-vector-graph memory: structured records govern eligibility, vector representations support recall, and graph relations adjudicate support, contradiction, and supersession before gated context projection. Its central claim is that reliable personalization is a memory design problem: useful memory is structured, selectively exposed, continuously consolidated, and epistemically labeled rather than stored as undifferentiated conversation history. Beyond the framework, we instantiate MRMS as a lightweight prototype implementing structured records, vector retrieval, temporal policies, and graph-based revision. The prototype exercises the core substrate mechanisms through pre-generation memory selection, revision, boundary enforcement, and evidence attribution under controlled long-lived interaction scenarios with explicit evidence requirements.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-06T02:54:37Z</published>
+    <arxiv:comment>11 pages, 1 figure, 7 tables; technical report</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jizhizi Li</name>
+    </author>
+    <author>
+      <name>Amy Shi-Nash</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.07125v3</id>
+    <title>An exercise in experimental mathematics: calculation of the algebraic entropy of a map</title>
+    <updated>2024-01-24T15:05:31Z</updated>
+    <link href="https://arxiv.org/abs/2308.07125v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.07125v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We illustrate the use of the notion of derived recurrences introduced earlier to evaluate the algebraic entropy of self-maps of projective spaces. We in particular give an example, where a complete proof is still awaited, but where different approaches are in such perfect agreement that we can trust we get to an exact result. This is an instructive example of experimental mathematics.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-14T13:11:40Z</published>
+    <arxiv:comment>Version formatted for Open Communication in Nonlinear Physics (OCNMP) Special issue in Memory of Professor Decio Levi</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>Open Communications in Nonlinear Mathematical Physics, Special Issue in Memory of Decio Levi (February 15, 2024) ocnmp:11727</arxiv:journal_ref>
+    <author>
+      <name>C. M. Viallet</name>
+    </author>
+    <arxiv:doi>10.46298/ocnmp.11727</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.46298/ocnmp.11727" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16408v1</id>
+    <title>An Edge-Host-Cloud Architecture for Robot-Agnostic, Caregiver-in-the-Loop Personalized Cognitive Exercise: Multi-Site Deployment in Dementia Care</title>
+    <updated>2026-04-01T00:41:20Z</updated>
+    <link href="https://arxiv.org/abs/2604.16408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Speaking Memories, a distributed, stakeholder-in-the-loop robotic interaction platform for personalized cognitive exercise support. Rather than a single robot-centric system, Speaking Memories is designed as a generalizable robotics architecture that integrates caregiver-authored knowledge, local edge intelligence, and embodied robotic agents into a unified socio-technical loop. The platform fuses auditory, visual, and textual signals to enable emotion-aware, personalized dialogue, while decoupling multimodal perception and reasoning from robot-specific hardware through a local edge interaction server. This design achieves low-latency, privacy-preserving operation and supports scalable deployment across heterogeneous robotic embodiments. Caregivers and family members contribute structured biographical knowledge via a secure cloud portal, which conditions downstream dialogue policies and enables longitudinal personalization across interaction sessions. Beyond real-time interaction, the system incorporates an automated multimodal evaluation layer that continuously analyzes user responses, affective cues, and engagement patterns, producing structured interaction metrics at scale. These metrics support systematic assessment of interaction quality, enable data-driven model fine-tuning, and lay the foundation for future clinician- and caregiver-informed personalization and intervention planning. We evaluate the platform through real-world deployments, measuring end-to-end latency, dialogue coherence, interaction stability, and stakeholder-reported usability and engagement. Results demonstrate sub-6-second response latency, robust multimodal synchronization, and consistently positive feedback from both participants and caregivers. Furthermore, subsets of the dataset can be shared upon request, subject to participant consent and IRB constraints.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T00:41:20Z</published>
+    <arxiv:comment>21 pages, 6 figures, 10 tables, submitted to IEEE Transactions on Robotics (T-RO)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenzheng Zhao</name>
+    </author>
+    <author>
+      <name>Ruth Palan Lopez</name>
+    </author>
+    <author>
+      <name>Shu Fen Wung</name>
+    </author>
+    <author>
+      <name>Fengpei Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.18426v1</id>
+    <title>Spatio-Spectroscopic Representation Learning using Unsupervised Convolutional Long-Short Term Memory Networks</title>
+    <updated>2026-02-20T18:48:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.18426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.18426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Integral Field Spectroscopy (IFS) surveys offer a unique new landscape in which to learn in both spatial and spectroscopic dimensions and could help uncover previously unknown insights into galaxy evolution. In this work, we demonstrate a new unsupervised deep learning framework using Convolutional Long-Short Term Memory Network Autoencoders to encode generalized feature representations across both spatial and spectroscopic dimensions spanning $19$ optical emission lines (3800A $&lt; λ&lt;$ 8000A) among a sample of $\sim 9000$ galaxies from the MaNGA IFS survey. As a demonstrative exercise, we assess our model on a sample of $290$ Active Galactic Nuclei (AGN) and highlight scientifically interesting characteristics of some highly anomalous AGN.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-20T18:48:36Z</published>
+    <arxiv:comment>This manuscript was previously submitted to ICML for peer review. Reviewers noted that while the underlying VAE-based architecture builds on established methods, its application to spatially-resolved IFS data is promising for unsupervised representation learning in astronomy. This version is released for community visibility. Reviewer decisions: Weak accept and Weak reject (Final: Reject)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Kameswara Bharadwaj Mantha</name>
+    </author>
+    <author>
+      <name>Lucy Fortson</name>
+    </author>
+    <author>
+      <name>Ramanakumar Sankar</name>
+    </author>
+    <author>
+      <name>Claudia Scarlata</name>
+    </author>
+    <author>
+      <name>Chris Lintott</name>
+    </author>
+    <author>
+      <name>Sandor Kruk</name>
+    </author>
+    <author>
+      <name>Mike Walmsley</name>
+    </author>
+    <author>
+      <name>Hugh Dickinson</name>
+    </author>
+    <author>
+      <name>Karen Masters</name>
+    </author>
+    <author>
+      <name>Brooke Simmons</name>
+    </author>
+    <author>
+      <name>Rebecca Smethurst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.24667v1</id>
+    <title>Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating</title>
+    <updated>2026-07-27T17:08:27Z</updated>
+    <link href="https://arxiv.org/abs/2607.24667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.24667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the future (SnapKV). We recast the choice as an estimation problem on a hidden signal, whether an item will be reused, placing existing methods on one axis, the commit lag $H$: online filters and learned predictors commit at $H=0$, while Belady's offline optimum sits where the whole future is known. The missing regime in between, fixed-lag smoothing, waits a bounded number of steps, observes which items a correct near-future prediction attended to, and only then commits. This measurement, demonstrated utility, turns Belady's unobservable future request into something we read off the model itself. We instantiate it as a training-free policy, RMM, a strict generalization of H2O that reduces to it exactly when the measurement is uniform. In controlled settings where reuse is endogenous and separated in time, demonstrated utility identifies used memory far better than accumulated attention, and a small bounded memory behaves like a much larger one. But on independent third-party benchmarks, run inside NVIDIA's KVPress harness against its own SnapKV, H2O, and StreamingLLM implementations, the advantage mostly disappears: RMM is on par with H2O for single-turn question answering and loses to both H2O and SnapKV in a streaming multi-turn setting. The cause is simple: on natural text the model is correct about most tokens, so weighting attention by correctness barely changes it, and demonstrated utility collapses onto accumulated attention unless reuse is sharp and endogenous, which standard benchmarks do not exercise. Our contribution is the framework and an honest map of when measuring beats accumulating, not a new state of the art.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-27T17:08:27Z</published>
+    <arxiv:comment>8 pages, 3 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Maruthi Vemula</name>
+    </author>
+    <author>
+      <name>Neeraj Praneeth Gajula</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29630v1</id>
+    <title>Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory</title>
+    <updated>2026-05-28T09:02:48Z</updated>
+    <link href="https://arxiv.org/abs/2605.29630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a system-agnostic protocol that pins the BM25 floor by construction -- every distractor shares the answer's entity tokens -- and stratifies queries by discriminator tag, so any lift over BM25 is attributable to the embedder. Applied to an open-source agent-memory testbed across 5 tags x 3 embedders x 5 collision degrees with paired-bootstrap 95% CIs, the protocol reveals a two-axis pattern: a 256-d hash trigram helps only on closed-vocabulary lexical tags at deep collision; MiniLM-384 dominates both axes; and a 2.7x-parameter BGE-large does not uniformly improve on MiniLM -- it wins on intent-style queries but loses on lexical ones. Encoder capacity alone is not the binding constraint. The synthetic intent-tag null replicates on LongMemEval (n=500) as a single-session-preference recall cliff. Adaptive vector-weight routing on LoCoMo is a measured null: 11.7pp of oracle headroom exists, but no signal we tested recovers it. All 26 result tables and 37 reproduce scripts are version-controlled and verified by a public registry; the protocol is exercised on a deterministically governed memory testbed (event-sourced decision log, DAG-state-machine schema lifecycle) so every reported CI is reproducible byte-for-byte from the ingest stream.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T09:02:48Z</published>
+    <arxiv:comment>48 pages with appendix; 6-page body, mandatory Limitations, References, and 7 appendices. Code, benchmarks, and 37 reproduce scripts: https://github.com/youwangd/engram (see paper/REPRODUCIBILITY.md). Apache 2.0</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Youwang Deng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.03480v1</id>
+    <title>In-Memory Indexing and Querying of Provenance in Data Preparation Pipelines</title>
+    <updated>2025-11-05T14:05:07Z</updated>
+    <link href="https://arxiv.org/abs/2511.03480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.03480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data provenance has numerous applications in the context of data preparation pipelines. It can be used for debugging faulty pipelines, interpreting results, verifying fairness, and identifying data quality issues, which may affect the sources feeding the pipeline execution. In this paper, we present an indexing mechanism to efficiently capture and query pipeline provenance. Our solution leverages tensors to capture fine-grained provenance of data processing operations, using minimal memory. In addition to record-level lineage relationships, we provide finer granularity at the attribute level. This is achieved by augmenting tensors, which capture retrospective provenance, with prospective provenance information, drawing connections between input and output schemas of data processing operations. We demonstrate how these two types of provenance (retrospective and prospective) can be combined to answer a broad range of provenance queries efficiently, and show effectiveness through evaluation exercises using both real and synthetic data.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-05T14:05:07Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Khalid Belhajjame</name>
+    </author>
+    <author>
+      <name>Haroun Mezrioui</name>
+    </author>
+    <author>
+      <name>Yuyan Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.30688v1</id>
+    <title>An Agent Architecture with Tools and Memory for Selective Correction of Wrist PPG Heart Rate Estimates</title>
+    <updated>2026-10-22T03:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2610.30688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.30688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wrist photoplethysmography (PPG) heart rate estimates are vulnerable to motion artifacts, and corrections that reduce mean error can worsen individual windows. We propose an agent architecture with tools and memory around a fixed heart rate estimator. Pulse, motion, and limited historical evidence generate candidate estimates, whose predicted benefits and harms guide selection. An independent risk gate determines whether to retain, correct, or reject each output. We trained the architecture on PPG-DaLiA and tested it on Wrist Exercise, GalaxyPPG, and WildPPG with frozen weights. Across these four public datasets, mean absolute error (MAE), macro-averaged over ten estimators, decreased by up to 44.5%, with the largest reduction on GalaxyPPG. Beneficial and harmful corrections decreased and increased absolute error by more than 1 bpm, respectively. Their ten-estimator macro-averaged proportions ranged from 16.06% to 36.64% and from 1.68% to 6.77%, respectively, across the four datasets. At 60% and 80% target coverage, numerical correction on the same accepted windows contributed more to total error reduction than window selection. We implemented real-time wearable acquisition, Bluetooth reception, and smartphone deployment of a selected estimator and the framework. In backend analysis of four prototype recordings from one participant, ten-estimator macro-averaged MAE decreased from 9.09 to 4.45 bpm without additional rejection. Under the evaluated conditions, the architecture improved average accuracy while quantifying correction benefits and harms, supporting wearable heart rate analysis that considers error, correction risk, and coverage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T03:59:06Z</published>
+    <arxiv:comment>71 pages, including 48 pages of Supplementary Information</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Wang</name>
+    </author>
+    <author>
+      <name>Shuhan Yi</name>
+    </author>
+    <author>
+      <name>Zhen Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26515v2</id>
+    <title>Sharp Minimax Regret for Infinite-Memory Logistic Prediction</title>
+    <updated>2026-09-07T23:25:11Z</updated>
+    <link href="https://arxiv.org/abs/2608.26515v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26515v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We determine the minimax cumulative log-loss regret of a finite-alphabet, exogenously driven source with genuinely infinite input memory: independent Rademacher inputs $(U_t)$ are observed sequentially and the next binary mark has logit $\sum_{j\ge1}θ_jU_{t+1-j}$, the unknown coefficients obeying a summable envelope $|θ_j|\le r_j$, $\sum_jr_j\le B$. At horizon $T$, lag $j$ can move the logit by at most $r_j$ and is exercised in only $n_{T,j}=(T-j+1)_+$ rounds, and the two limitations combine into the sum $Γ_T(r)=\sum_{j\le T}\log(1+n_{T,j}r_j^{2})$. One coordinate-localised Bayesian mixture achieves $R_T(r)\le CΓ_T(r)$ for \emph{every} summable envelope with $C$ universal. Our main result is a matching nonasymptotic converse for the canonical exponential and polynomial envelopes; its new ingredients are a modular finite-sample information bound for logistic experiments with an exogenous random design, and a conditioning estimate for the overlapping Toeplitz lag matrix obtained by exhibiting each off-diagonal Gram sum as a sum of independent Rademacher variables indexed by the edges of a forest, needing neither local asymptotic normality nor any spectral theorem for random Toeplitz matrices. So $Γ_T(r)$ is the minimax regret scale here, giving $Θ(α^{-1}\log^{2}T)$ for $r_j=Ae^{-αj}$ and $Θ(T^{1/(2s)})$ for $r_j=Aj^{-s}$, $s&gt;1$ --- the latter without the extra $(\log T)^{1-1/(2s)}$ factor any window-truncation analysis pays. We also show memory decay cannot determine regret, and that a profile-scaled online Newton predictor attains $O_B(Γ_T(r))$ in polynomial time per round.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T01:31:46Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Vaneet Aggarwal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09661v1</id>
+    <title>Memory-, Circuit-, and Ansatz-Efficient VQLS for CFD on Hybrid Quantum-HPC Systems</title>
+    <updated>2026-08-10T14:37:59Z</updated>
+    <link href="https://arxiv.org/abs/2608.09661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fluid dynamics workloads are dominated by repeated solves of large, structured linear systems, motivating the search for quantum acceleration. The Variational Quantum Linear Solver (VQLS) is a leading near-term candidate, but practical deployment on hybrid quantum--high--performance computing (HPC) systems faces three persistent challenges: (i) the linear-combination-of-unitaries (LCU) encoding of the system matrix explodes in memory and runtime as the problem size grows, (ii) ansatz selection is largely empirical, with no clear link between standard circuit metrics and solver convergence, and (iii) end-to-end VQLS pipelines have rarely been exercised on production HPC hardware at non-trivial qubit counts. This work addresses these challenges through three contributions. First, we benchmark four matrix-encoding strategies---naive LCU, PennyLane-integrated, Fast Walsh--Hadamard Transform (FWHT)-based parallel Pauli decomposition, and an singular value decomposition (SVD)-based two-term LCU---and show that the FWHT approach reduces peak memory by up to $1298\times$ on an $11\times 11$ Hele--Shaw grid, while the SVD-based coherent VQLS delivers over $10{,}000\times$ per-iteration speedup over standard Pauli-based VQLS at 8 qubits. Second, we evaluate 11 ansatz families with gradient-free and gradient-based optimizers on canonical Hele--Shaw flow, and find that expressibility and entanglement metrics correlate only weakly with VQLS convergence, motivating problem-aware ansatz design. Third, we deploy the full workflow on the OLCF Frontier supercomputer and successfully simulate a 15-qubit tridiagonal Toeplitz system on a single node. Together, these results establish a practical baseline for VQLS in hybrid quantum--HPC computation fluid dynamic (CFD) workflows and identify the remaining bottlenecks for larger problems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T14:37:59Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Chao Lu</name>
+    </author>
+    <author>
+      <name>Muralikrishnan Gopalakrishnan Meena</name>
+    </author>
+    <author>
+      <name>Eduardo Antonio Coello Perez</name>
+    </author>
+    <author>
+      <name>Kalyana Chakravarthi Gottiparthi</name>
+    </author>
+    <author>
+      <name>Seongmin Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.16024v2</id>
+    <title>Evaluation of vulnerability reproducibility in container-based Cyber Range</title>
+    <updated>2020-11-05T23:29:41Z</updated>
+    <link href="https://arxiv.org/abs/2010.16024v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.16024v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A cyber range, a practical and highly educational information security exercise system, is difficult to implement in educational institutions because of the high cost of implementing and maintaining it. Therefore, there is a need for a cyber range that can be adopted and maintained at a low cost. Recently, container type virtualization is gaining attention as it can create a high-speed and high-density exercise environment. However, existing researches have not clearly shown the advantages of container virtualization for building exercise environments. And it is not clear whether the sufficient vulnerabilities are reproducible, which is required to conduct incident scenarios in cyber range. In this paper, we compare container virtualization with existing virtualization type and confirm that the amount of memory, CPU, and storage consumption can be reduced to less than 1/10 of the conventional virtualization methods. We also compare and verify the reproducibility of the vulnerabilities used in common exercise scenarios and confirm that 99.3% of the vulnerabilities are reproducible. The container-based cyber range can be used as a new standard to replace existing methods.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T02:22:21Z</published>
+    <arxiv:comment>14 pages, 7 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ryotaro Nakata</name>
+    </author>
+    <author>
+      <name>Akira Otsuka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.06730v1</id>
+    <title>Impact of Orientation on the Bias of SRAM-Based PUFs</title>
+    <updated>2023-08-13T09:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2308.06730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.06730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the impact of memory orientation on the bias pattern of SRAM-based PUFs. We designed and fabricated a 65nm CMOS chip that contains eleven SRAM macros that exercise different memory- and chip-level parameters. At the memory level, several parameters passed to the SRAM compiler are considered, including the number of addresses, the number of words, the aspect ratio, and the chosen bitcell. Chip-level decisions are considered during the floorplan, including the location and rotation of each SRAM macro in the testchip. In this study, we conduct a comprehensive analysis of different memory orientations and their effect on the biasing direction. Physical measurements performed on 50 fabricated chips revealed that specific memory orientations, namely R270 and MY90, exhibit a distinct negative biasing direction compared to other orientations. Importantly, this biasing direction remains consistent regardless of memory type, column mux ratio, memory size, or the utilization of SRAMs with different bitcells. Overall, this study highlights the significance of careful physical implementation and memory orientation selection in designing SRAM-based PUFs. Our findings can guide designers in the selection of SRAM memories with properties that make for better PUFs that potentially require less error correction effort to compensate for instability.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-13T09:10:47Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zain Ul Abideen</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Tiago Diadami Perez</name>
+    </author>
+    <author>
+      <name>Geert-Jan Schrijen</name>
+    </author>
+    <author>
+      <name>Samuel Pagliarini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.23608v2</id>
+    <title>Autonomous Learning with High-Dimensional Computing Architecture Similar to von Neumann's</title>
+    <updated>2026-02-21T18:55:53Z</updated>
+    <link href="https://arxiv.org/abs/2503.23608v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.23608v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We model human and animal learning by computing with high-dimensional vectors (H = 10,000 for example). The architecture resembles traditional (von Neumann) computing with numbers, but the instructions refer to vectors and operate on them in superposition. The architecture includes a high-capacity memory for vectors, analogue of the random-access memory (RAM) for numbers. The model's ability to learn from data reminds us of deep learning, but with an architecture closer to biology. The architecture agrees with an idea from psychology that human memory and learning involve a short-term working memory and a long-term data store. Neuroscience provides us with a model of the long-term memory, namely, the cortex of the cerebellum. With roots in psychology, biology, and traditional computing, a theory of computing with vectors can help us understand how brains compute. Application to learning by robots seems inevitable, but there is likely to be more, including language. Ultimately we want to compute with no more material and energy than used by brains. To that end, we need a mathematical theory that agrees with psychology and biology, and is suitable for nanotechnology. We also need to exercise the theory in large-scale experiments. Computing with vectors is described here in terms familiar to us from traditional computing with numbers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-30T22:20:08Z</published>
+    <arxiv:comment>20 pages including references, all contained in a single .tex file</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pentti Kanerva</name>
+    </author>
+  </entry>
+</feed>

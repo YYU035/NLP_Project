@@ -1,0 +1,36 @@
+﻿id,provider,variant,claim_id,dated,status,result_count,total_hits,seconds,relaxation
+arxiv-control-id,arxiv,known_id,,False,success,1,1,1.3207160000456497,none
+semantic-single-control,semantic_scholar,one_no_retry_control,,False,http_error,,,0.5201558000408113,none
+epmc-tnf-covid,europe_pmc,keyword_topic,,False,success,3,41882,3.253228399902582,none
+arxiv-control-title,arxiv,known_positive_or_date_control,,False,success,3,36,2.716164799989201,none
+epmc-exercise-oa,europe_pmc,keyword_oa_topic,,False,success,3,69085,0.7417046999325976,none
+arxiv-control-title-dated,arxiv,known_positive_or_date_control,,True,success,3,33,2.707605200004764,none
+arxiv-control-electron,arxiv,known_positive_or_date_control,,True,success,3,73718,3.0598720000125468,none
+epmc-one-xml,europe_pmc_xml,single_oa_xml_availability,,False,success,,,4.6126389999408275,none
+core-graph-neural,core,keyword_topic,,False,http_error,,,0.3410756998928264,none
+arxiv-c01-current-dated,arxiv,current,c01,True,zero_results,0,0,3.136411700048484,none
+openaire-graph-neural,openaire,keyword_topic,,False,success,3,37621,1.5783105000155047,none
+arxiv-c01-current-all-years,arxiv,current,c01,False,zero_results,0,0,2.9940264000324532,none
+openaire-tnf-covid,openaire,keyword_topic,,False,success,3,2346,1.512688299990259,none
+crossref-battery,crossref,bibliographic_topic,,False,success,3,418150,0.9561242999043316,none
+arxiv-c01-broad-dated,arxiv,broad,c01,True,zero_results,0,0,2.8188791999127716,"Drops negated risk predicate and older-adult population; topic discovery only, not an equivalent scientific claim."
+crossref-one-doi,crossref,doi_enrichment,,False,success,1,1,0.6420520999236032,none
+arxiv-c01-broad-all-years,arxiv,broad,c01,False,zero_results,0,0,3.074443700024858,"Drops negated risk predicate and older-adult population; topic discovery only, not an equivalent scientific claim."
+arxiv-c01-phrases-dated,arxiv,phrases,c01,True,zero_results,0,0,3.0087325000204146,"Drops negated risk predicate and older-adult population; topic discovery only, not an equivalent scientific claim."
+arxiv-c01-phrases-all-years,arxiv,phrases,c01,False,zero_results,0,0,3.0092903999611735,"Drops negated risk predicate and older-adult population; topic discovery only, not an equivalent scientific claim."
+arxiv-c02-current-dated,arxiv,current,c02,True,zero_results,0,0,3.1191735001048073,none
+arxiv-c02-current-all-years,arxiv,current,c02,False,zero_results,0,0,2.9165595000376925,none
+arxiv-c02-broad-dated,arxiv,broad,c02,True,success,3,236,2.948810400092043,"Drops retention predicate, 90%, 500 cycles, and -5 °C; keeps the literal battery terminology."
+arxiv-c02-broad-all-years,arxiv,broad,c02,False,success,3,292,3.0141108999960124,"Drops retention predicate, 90%, 500 cycles, and -5 °C; keeps the literal battery terminology."
+arxiv-c02-phrases-dated,arxiv,phrases,c02,True,success,3,207,4.856610700022429,"Drops retention predicate, 90%, 500 cycles, and -5 °C; keeps the literal battery terminology."
+arxiv-c02-phrases-all-years,arxiv,phrases,c02,False,success,3,258,1.263228700030595,"Drops retention predicate, 90%, 500 cycles, and -5 °C; keeps the literal battery terminology."
+arxiv-c08-current-dated,arxiv,current,c08,True,zero_results,0,0,3.0673057000385597,none
+arxiv-c08-current-all-years,arxiv,current,c08,False,zero_results,0,0,2.932799700065516,none
+arxiv-c08-broad-dated,arxiv,broad,c08,True,success,3,363,2.9428839000174776,Drops improvement assertion and random-forest comparator; topic discovery only.
+arxiv-c08-broad-all-years,arxiv,broad,c08,False,success,3,388,3.518214700045064,Drops improvement assertion and random-forest comparator; topic discovery only.
+arxiv-c08-phrases-dated,arxiv,phrases,c08,True,success,3,154,2.524502499960363,Drops improvement assertion and random-forest comparator; topic discovery only.
+arxiv-c08-phrases-all-years,arxiv,phrases,c08,False,success,3,159,3.1629632000112906,Drops improvement assertion and random-forest comparator; topic discovery only.
+arxiv-covid-topic,arxiv,literal_sensitivity,c01,True,success,3,9118,2.779487799969502,Drops all TNF/predicate/population constraints.
+arxiv-tnf-alpha,arxiv,literal_sensitivity,c01,False,success,3,15,3.030252799973823,Single literal target; all other constraints removed.
+arxiv-tnf-family,arxiv,literal_sensitivity,c01,False,success,3,68,3.067084100097418,Drops α specificity; TNF is not an asserted synonym.
+arxiv-tnf-family-covid,arxiv,literal_sensitivity,c01,True,success,1,1,2.9738409999990836,Drops α specificity and predicate/population; diagnostic relaxation only.

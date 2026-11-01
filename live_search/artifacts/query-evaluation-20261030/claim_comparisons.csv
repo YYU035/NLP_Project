@@ -1,0 +1,11 @@
+﻿claim_id,domain,original_unique,reformulated_unique,overlap,additional,lost,jaccard,status,observed_original_unique,observed_reformulated_unique,original_zero,reformulated_zero,original_logical_requests,reformulated_logical_requests,original_api_requests,reformulated_api_requests,logical_budget_matched,wire_budget_matched,original_latency_seconds,reformulated_latency_seconds,extra_query_api_requests,extra_query_latency_seconds,repeat_original_overhead_requests,precision_at_k,recall_at_k,relevance_labels
+c01,biomedical,,,,,,,incomplete_provider_failure,5,6,,,3,6,5,10,False,False,8.486379500012845,17.397484899964184,5,8.911105399951339,3,,,unavailable; coverage only
+c02,battery_engineering,,,,,,,incomplete_provider_failure,5,8,,,3,6,5,10,False,False,9.8585775999818,19.785602499963716,5,9.927024899981916,5,,,unavailable; coverage only
+c03,power_electronics,,,,,,,incomplete_provider_failure,5,8,False,,3,6,4,9,False,False,6.183915399946272,15.0867358999094,5,8.902820499963127,5,,,unavailable; coverage only
+c04,climate,,,,,,,incomplete_provider_failure,5,7,,,3,6,5,10,False,False,9.576232200139202,18.604256700142287,5,9.028024500003085,5,,,unavailable; coverage only
+c05,astronomy,,,,,,,incomplete_provider_failure,5,5,,,3,3,5,5,True,True,9.44585979997646,9.44585979997646,0,0,0,,,unavailable; coverage only
+c06,agriculture,,,,,,,incomplete_provider_failure,5,6,,,3,6,5,10,False,False,8.928134500049055,18.75001390010584,5,9.821879400056787,5,,,unavailable; coverage only
+c07,nutrition_uncertainty,,,,,,,incomplete_provider_failure,5,5,,,3,3,5,5,True,True,9.483521100017242,9.483521100017242,0,0,0,,,unavailable; coverage only
+c08,computer_science,,,,,,,incomplete_provider_failure,5,7,,,3,6,5,10,False,False,8.122853300068527,17.873296199948527,5,9.75044289988,4,,,unavailable; coverage only
+c09,catalysis,,,,,,,incomplete_provider_failure,5,6,,,3,6,5,10,False,False,9.466022900189273,17.709010199992917,5,8.242987299803644,5,,,unavailable; coverage only
+c10,general_science,,,,,,,incomplete_provider_failure,10,10,,,3,3,5,5,True,True,8.695337999844924,8.695337999844924,0,0,0,,,unavailable; coverage only

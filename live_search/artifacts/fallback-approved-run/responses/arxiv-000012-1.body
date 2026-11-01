@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T6dRuMKwzW8YmStPrmJKdjM2wJw</id>
+  <title>arXiv Query: search_query=(all:"graph neural networks" AND all:"molecular property prediction") AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T12:01:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22graph+neural+networks%22+AND+all:%22molecular+property+prediction%22)+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>154</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.02089v1</id>
+    <title>Bayesian Graph Neural Networks for Molecular Property Prediction</title>
+    <updated>2020-11-25T22:32:54Z</updated>
+    <link href="https://arxiv.org/abs/2012.02089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.02089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks for molecular property prediction are frequently underspecified by data and fail to generalise to new scaffolds at test time. A potential solution is Bayesian learning, which can capture our uncertainty in the model parameters. This study benchmarks a set of Bayesian methods applied to a directed MPNN, using the QM9 regression dataset. We find that capturing uncertainty in both readout and message passing parameters yields enhanced predictive accuracy, calibration, and performance on a downstream molecular search task.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T22:32:54Z</published>
+    <arxiv:comment>Presented at NeurIPS 2020 Machine Learning for Molecules workshop</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>George Lamb</name>
+    </author>
+    <author>
+      <name>Brooks Paige</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04444v2</id>
+    <title>Comparison of Atom Representations in Graph Neural Networks for Molecular Property Prediction</title>
+    <updated>2021-02-12T09:08:20Z</updated>
+    <link href="https://arxiv.org/abs/2012.04444v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.04444v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks have recently become a standard method for analysing chemical compounds. In the field of molecular property prediction, the emphasis is now put on designing new model architectures, and the importance of atom featurisation is oftentimes belittled. When contrasting two graph neural networks, the use of different atom features possibly leads to the incorrect attribution of the results to the network architecture. To provide a better understanding of this issue, we compare multiple atom representations for graph models and evaluate them on the prediction of free energy, solubility, and metabolic stability. To the best of our knowledge, this is the first methodological study that focuses on the relevance of atom representation to the predictive performance of graph neural networks.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-23T15:01:44Z</published>
+    <arxiv:comment>Machine Learning for Molecules Workshop at NeurIPS 2020 (spotlight talk)</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Agnieszka Pocha</name>
+    </author>
+    <author>
+      <name>Tomasz Danel</name>
+    </author>
+    <author>
+      <name>Łukasz Maziarka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.11323v2</id>
+    <title>KA-GNN: Kolmogorov-Arnold Graph Neural Networks for Molecular Property Prediction</title>
+    <updated>2024-12-18T06:23:29Z</updated>
+    <link href="https://arxiv.org/abs/2410.11323v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.11323v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As key models in geometric deep learning, graph neural networks have demonstrated enormous power in molecular data analysis. Recently, a specially-designed learning scheme, known as Kolmogorov-Arnold Network (KAN), shows unique potential for the improvement of model accuracy, efficiency, and explainability. Here we propose the first non-trivial Kolmogorov-Arnold Network-based Graph Neural Networks (KA-GNNs), including KAN-based graph convolutional networks(KA-GCN) and KAN-based graph attention network (KA-GAT). The essential idea is to utilizes KAN's unique power to optimize GNN architectures at three major levels, including node embedding, message passing, and readout. Further, with the strong approximation capability of Fourier series, we develop Fourier series-based KAN model and provide a rigorous mathematical prove of the robust approximation capability of this Fourier KAN architecture. To validate our KA-GNNs, we consider seven most-widely-used benchmark datasets for molecular property prediction and extensively compare with existing state-of-the-art models. It has been found that our KA-GNNs can outperform traditional GNN models. More importantly, our Fourier KAN module can not only increase the model accuracy but also reduce the computational time. This work not only highlights the great power of KA-GNNs in molecular property prediction but also provides a novel geometric deep learning framework for the general non-Euclidean data analysis.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-15T06:44:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Longlong Li</name>
+    </author>
+    <author>
+      <name>Yipeng Zhang</name>
+    </author>
+    <author>
+      <name>Guanghui Wang</name>
+    </author>
+    <author>
+      <name>Kelin Xia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.13607v3</id>
+    <title>Multi-View Graph Neural Networks for Molecular Property Prediction</title>
+    <updated>2020-06-12T06:09:52Z</updated>
+    <link href="https://arxiv.org/abs/2005.13607v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.13607v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The crux of molecular property prediction is to generate meaningful representations of the molecules. One promising route is to exploit the molecular graph structure through Graph Neural Networks (GNNs). It is well known that both atoms and bonds significantly affect the chemical properties of a molecule, so an expressive model shall be able to exploit both node (atom) and edge (bond) information simultaneously. Guided by this observation, we present Multi-View Graph Neural Network (MV-GNN), a multi-view message passing architecture to enable more accurate predictions of molecular properties. In MV-GNN, we introduce a shared self-attentive readout component and disagreement loss to stabilize the training process. This readout component also renders the whole architecture interpretable. We further boost the expressive power of MV-GNN by proposing a cross-dependent message passing scheme that enhances information communication of the two views, which results in the MV-GNN^cross variant. Lastly, we theoretically justify the expressiveness of the two proposed models in terms of distinguishing non-isomorphism graphs. Extensive experiments demonstrate that MV-GNN models achieve remarkably superior performance over the state-of-the-art models on a variety of challenging benchmarks. Meanwhile, visualization results of the node importance are consistent with prior knowledge, which confirms the interpretability power of MV-GNN models.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-17T04:46:07Z</published>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <author>
+      <name>Hehuan Ma</name>
+    </author>
+    <author>
+      <name>Yatao Bian</name>
+    </author>
+    <author>
+      <name>Yu Rong</name>
+    </author>
+    <author>
+      <name>Wenbing Huang</name>
+    </author>
+    <author>
+      <name>Tingyang Xu</name>
+    </author>
+    <author>
+      <name>Weiyang Xie</name>
+    </author>
+    <author>
+      <name>Geyan Ye</name>
+    </author>
+    <author>
+      <name>Junzhou Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.12187v1</id>
+    <title>Graph Neural Network Architecture Search for Molecular Property Prediction</title>
+    <updated>2020-08-27T15:30:57Z</updated>
+    <link href="https://arxiv.org/abs/2008.12187v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.12187v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting the properties of a molecule from its structure is a challenging task. Recently, deep learning methods have improved the state of the art for this task because of their ability to learn useful features from the given data. By treating molecule structure as graphs, where atoms and bonds are modeled as nodes and edges, graph neural networks (GNNs) have been widely used to predict molecular properties. However, the design and development of GNNs for a given data set rely on labor-intensive design and tuning of the network architectures. Neural architecture search (NAS) is a promising approach to discover high-performing neural network architectures automatically. To that end, we develop an NAS approach to automate the design and development of GNNs for molecular property prediction. Specifically, we focus on automated development of message-passing neural networks (MPNNs) to predict the molecular properties of small molecules in quantum mechanics and physical chemistry data sets from the MoleculeNet benchmark. We demonstrate the superiority of the automatically discovered MPNNs by comparing them with manually designed GNNs from the MoleculeNet benchmark. We study the relative importance of the choices in the MPNN search space, demonstrating that customizing the architecture is critical to enhancing performance in molecular property prediction and that the proposed approach can perform customization automatically with minimal manual effort.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-27T15:30:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shengli Jiang</name>
+    </author>
+    <author>
+      <name>Prasanna Balaprakash</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.04119v2</id>
+    <title>Quantitative Evaluation of Explainable Graph Neural Networks for Molecular Property Prediction</title>
+    <updated>2021-07-12T04:12:24Z</updated>
+    <link href="https://arxiv.org/abs/2107.04119v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.04119v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in machine learning have led to graph neural network-based methods for drug discovery, yielding promising results in molecular design, chemical synthesis planning, and molecular property prediction. However, current graph neural networks (GNNs) remain of limited acceptance in drug discovery is limited due to their lack of interpretability. Although this major weakness has been mitigated by the development of explainable artificial intelligence (XAI) techniques, the "ground truth" assignment in most explainable tasks ultimately rests with subjective judgments by humans so that the quality of model interpretation is hard to evaluate in quantity. In this work, we first build three levels of benchmark datasets to quantitatively assess the interpretability of the state-of-the-art GNN models. Then we implemented recent XAI methods in combination with different GNN algorithms to highlight the benefits, limitations, and future opportunities for drug discovery. As a result, GradInput and IG generally provide the best model interpretability for GNNs, especially when combined with GraphNet and CMPNN. The integrated and developed XAI package is fully open-sourced and can be used by practitioners to train new models on other drug discovery tasks.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-01T04:49:29Z</published>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <author>
+      <name>Jiahua Rao</name>
+    </author>
+    <author>
+      <name>Shuangjia Zheng</name>
+    </author>
+    <author>
+      <name>Yuedong Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02628v1</id>
+    <title>Contrastive Dual-Interaction Graph Neural Network for Molecular Property Prediction</title>
+    <updated>2024-05-04T10:09:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.02628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Molecular property prediction is a key component of AI-driven drug discovery and molecular characterization learning. Despite recent advances, existing methods still face challenges such as limited ability to generalize, and inadequate representation of learning from unlabeled data, especially for tasks specific to molecular structures. To address these limitations, we introduce DIG-Mol, a novel self-supervised graph neural network framework for molecular property prediction. This architecture leverages the power of contrast learning with dual interaction mechanisms and unique molecular graph enhancement strategies. DIG-Mol integrates a momentum distillation network with two interconnected networks to efficiently improve molecular characterization. The framework's ability to extract key information about molecular structure and higher-order semantics is supported by minimizing loss of contrast. We have established DIG-Mol's state-of-the-art performance through extensive experimental evaluation in a variety of molecular property prediction tasks. In addition to demonstrating superior transferability in a small number of learning scenarios, our visualizations highlight DIG-Mol's enhanced interpretability and representation capabilities. These findings confirm the effectiveness of our approach in overcoming challenges faced by traditional methods and mark a significant advance in molecular property prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-04T10:09:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zexing Zhao</name>
+    </author>
+    <author>
+      <name>Guangsi Shi</name>
+    </author>
+    <author>
+      <name>Xiaopeng Wu</name>
+    </author>
+    <author>
+      <name>Ruohua Ren</name>
+    </author>
+    <author>
+      <name>Xiaojun Gao</name>
+    </author>
+    <author>
+      <name>Fuyi Li</name>
+    </author>
+    <arxiv:doi>10.1109/JBHI.2024.3464674</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JBHI.2024.3464674" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20906v1</id>
+    <title>MMGNN: Multi-level, multi-color graph neural networks for molecular property prediction</title>
+    <updated>2026-06-18T20:03:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.20906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and require deep propagation to capture long-range effects. We introduce the Multi-level, Multi-color Graph Neural Network (MMGNN), a hierarchical framework that decomposes a molecular graph into overlapping atom-type-pair-specific subgraphs while preserving atom-level resolution. MMGNN-2D constructs chemical-colored subgraphs from covalent connectivity, whereas MMGNN-3D constructs geometric-colored subgraphs from spatial proximity and augments their edges with distance, angular, and torsional descriptors. Both variants apply a shared communicative message-passing backbone to each subgraph and combine the resulting representations through atom-wise aggregation and molecular readout. We evaluated MMGNN on five classification and three regression benchmarks from MoleculeNet using common scaffold splits and five independent runs. MMGNN-2D achieved the highest macro-average AUC-ROC of 0.838 across the classification datasets and the lowest RMSE on ESOL (0.803). MMGNN-3D obtained the highest mean AUC-ROC on BBBP (0.956) and the lowest RMSE on FreeSolv (1.793), indicating complementary strengths of topological and geometric representations. Structural and leave-one-out analyses further illustrate how the subgraph decomposition affects learned representations and atom-type-pair sensitivities. These results support overlapping interaction-specific graph decomposition as a competitive strategy for molecular property prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T20:03:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Trung Nguyen</name>
+    </author>
+    <author>
+      <name>Duc Duy Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15165v1</id>
+    <title>Explaining Graph Neural Networks with Large Language Models: A Counterfactual Perspective for Molecular Property Prediction</title>
+    <updated>2024-10-19T17:34:36Z</updated>
+    <link href="https://arxiv.org/abs/2410.15165v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15165v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Graph Neural Networks (GNNs) have become successful in molecular property prediction tasks such as toxicity analysis. However, due to the black-box nature of GNNs, their outputs can be concerning in high-stakes decision-making scenarios, e.g., drug discovery. Facing such an issue, Graph Counterfactual Explanation (GCE) has emerged as a promising approach to improve GNN transparency. However, current GCE methods usually fail to take domain-specific knowledge into consideration, which can result in outputs that are not easily comprehensible by humans. To address this challenge, we propose a novel GCE method, LLM-GCE, to unleash the power of large language models (LLMs) in explaining GNNs for molecular property prediction. Specifically, we utilize an autoencoder to generate the counterfactual graph topology from a set of counterfactual text pairs (CTPs) based on an input graph. Meanwhile, we also incorporate a CTP dynamic feedback module to mitigate LLM hallucination, which provides intermediate feedback derived from the generated counterfactuals as an attempt to give more faithful guidance. Extensive experiments demonstrate the superior performance of LLM-GCE. Our code is released on https://github.com/YinhanHe123/new\_LLM4GNNExplanation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-19T17:34:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>EMNLP 2024 (Findings)</arxiv:journal_ref>
+    <author>
+      <name>Yinhan He</name>
+    </author>
+    <author>
+      <name>Zaiyi Zheng</name>
+    </author>
+    <author>
+      <name>Patrick Soga</name>
+    </author>
+    <author>
+      <name>Yaozhen Zhu</name>
+    </author>
+    <author>
+      <name>yushun Dong</name>
+    </author>
+    <author>
+      <name>Jundong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.13994v1</id>
+    <title>HiGNN: Hierarchical Informative Graph Neural Networks for Molecular Property Prediction Equipped with Feature-Wise Attention</title>
+    <updated>2022-08-30T05:16:15Z</updated>
+    <link href="https://arxiv.org/abs/2208.13994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.13994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Elucidating and accurately predicting the druggability and bioactivities of molecules plays a pivotal role in drug design and discovery and remains an open challenge. Recently, graph neural networks (GNN) have made remarkable advancements in graph-based molecular property prediction. However, current graph-based deep learning methods neglect the hierarchical information of molecules and the relationships between feature channels. In this study, we propose a well-designed hierarchical informative graph neural networks framework (termed HiGNN) for predicting molecular property by utilizing a co-representation learning of molecular graphs and chemically synthesizable BRICS fragments. Furthermore, a plug-and-play feature-wise attention block is first designed in HiGNN architecture to adaptively recalibrate atomic features after the message passing phase. Extensive experiments demonstrate that HiGNN achieves state-of-the-art predictive performance on many challenging drug discovery-associated benchmark datasets. In addition, we devise a molecule-fragment similarity mechanism to comprehensively investigate the interpretability of HiGNN model at the subgraph level, indicating that HiGNN as a powerful deep learning tool can help chemists and pharmacists identify the key components of molecules for designing better molecules with desired properties or functions. The source code is publicly available at https://github.com/idruglab/hignn.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-30T05:16:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Weimin Zhu</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>DuanCheng Zhao</name>
+    </author>
+    <author>
+      <name>Jianrong Xu</name>
+    </author>
+    <author>
+      <name>Ling Wang</name>
+    </author>
+  </entry>
+</feed>

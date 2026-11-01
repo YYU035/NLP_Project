@@ -1,0 +1,287 @@
+{
+  "status": "prepared_not_run",
+  "top_k": 30,
+  "prefixes": [
+    10,
+    20,
+    30
+  ],
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "logical_requests": 30,
+  "max_http_attempts": 30,
+  "max_retries": 0,
+  "arxiv_fallback": false,
+  "plans": [
+    {
+      "claim_id": "c01",
+      "claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "expression of TNF-α risk of COVID-19 older adults",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c01",
+      "claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "expression of TNF-α risk of COVID-19 older adults",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c01",
+      "claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"TNF-α\" \"COVID-19\"",
+      "required_phrases": [
+        "TNF-α",
+        "COVID-19"
+      ]
+    },
+    {
+      "claim_id": "c02",
+      "claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "lithium-ion batteries 90% capacity -5 °C",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c02",
+      "claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "lithium-ion batteries 90% capacity -5 °C",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c02",
+      "claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"lithium-ion batteries\" \"capacity\"",
+      "required_phrases": [
+        "lithium-ion batteries",
+        "capacity"
+      ]
+    },
+    {
+      "claim_id": "c03",
+      "claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "efficiency of SiC MOSFETs silicon devices 100 kHz",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c03",
+      "claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "efficiency of SiC MOSFETs silicon devices 100 kHz",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c03",
+      "claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"SiC MOSFETs\" \"silicon devices\"",
+      "required_phrases": [
+        "SiC MOSFETs",
+        "silicon devices"
+      ]
+    },
+    {
+      "claim_id": "c04",
+      "claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "atmospheric CO2 concentrations ocean acidification coastal waters",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c04",
+      "claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "atmospheric CO2 concentrations ocean acidification coastal waters",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c04",
+      "claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"elevated atmospheric CO2 concentrations\" \"ocean acidification\"",
+      "required_phrases": [
+        "elevated atmospheric CO2 concentrations",
+        "ocean acidification"
+      ]
+    },
+    {
+      "claim_id": "c05",
+      "claim": "The presence of dark matter increases the rotational velocity of spiral galaxies.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "dark matter rotational velocity of spiral galaxies",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c05",
+      "claim": "The presence of dark matter increases the rotational velocity of spiral galaxies.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "dark matter rotational velocity of spiral galaxies",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c05",
+      "claim": "The presence of dark matter increases the rotational velocity of spiral galaxies.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"dark matter\" \"rotational velocity\"",
+      "required_phrases": [
+        "dark matter",
+        "rotational velocity"
+      ]
+    },
+    {
+      "claim_id": "c06",
+      "claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "deficit irrigation wheat yield drought conditions",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c06",
+      "claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "deficit irrigation wheat yield drought conditions",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c06",
+      "claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"deficit irrigation\" \"water use\"",
+      "required_phrases": [
+        "deficit irrigation",
+        "water use"
+      ]
+    },
+    {
+      "claim_id": "c07",
+      "claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "vitamin D supplementation respiratory infections older adults",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c07",
+      "claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "vitamin D supplementation respiratory infections older adults",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c07",
+      "claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"vitamin D supplementation\" \"respiratory infections\"",
+      "required_phrases": [
+        "vitamin D supplementation",
+        "respiratory infections"
+      ]
+    },
+    {
+      "claim_id": "c08",
+      "claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "graph neural networks molecular property prediction random forests",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c08",
+      "claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "graph neural networks molecular property prediction random forests",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c08",
+      "claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"graph neural networks\" \"molecular property prediction\"",
+      "required_phrases": [
+        "graph neural networks",
+        "molecular property prediction"
+      ]
+    },
+    {
+      "claim_id": "c09",
+      "claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "platinum nanoparticles hydrogen evolution acidic solutions",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c09",
+      "claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "platinum nanoparticles hydrogen evolution acidic solutions",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c09",
+      "claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"platinum nanoparticles\" \"hydrogen evolution\"",
+      "required_phrases": [
+        "platinum nanoparticles",
+        "hydrogen evolution"
+      ]
+    },
+    {
+      "claim_id": "c10",
+      "claim": "Exercise improves memory.",
+      "provider": "openalex",
+      "strategy": "keybert",
+      "query": "Exercise memory",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c10",
+      "claim": "Exercise improves memory.",
+      "provider": "openaire",
+      "strategy": "keybert",
+      "query": "Exercise memory",
+      "required_phrases": []
+    },
+    {
+      "claim_id": "c10",
+      "claim": "Exercise improves memory.",
+      "provider": "arxiv",
+      "strategy": "spacy",
+      "query": "\"Exercise\" \"memory\"",
+      "required_phrases": [
+        "Exercise",
+        "memory"
+      ]
+    }
+  ]
+}

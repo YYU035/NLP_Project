@@ -1,0 +1,1594 @@
+{
+  "started_at_utc": "2026-10-30T09:17:38.219524+00:00",
+  "options": {
+    "max_results": 5,
+    "from_publication_date": "2020-01-01",
+    "to_publication_date": "2026-10-30",
+    "matched_budget": true
+  },
+  "providers": [
+    "openalex",
+    "arxiv",
+    "semantic_scholar"
+  ],
+  "timeout_seconds": 15.0,
+  "cases": [
+    {
+      "id": "c01",
+      "domain": "biomedical",
+      "claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults."
+    },
+    {
+      "id": "c02",
+      "domain": "battery_engineering",
+      "claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C."
+    },
+    {
+      "id": "c03",
+      "domain": "power_electronics",
+      "claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz."
+    },
+    {
+      "id": "c04",
+      "domain": "climate",
+      "claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters."
+    },
+    {
+      "id": "c05",
+      "domain": "astronomy",
+      "claim": "The presence of dark matter increases the rotational velocity of spiral galaxies."
+    },
+    {
+      "id": "c06",
+      "domain": "agriculture",
+      "claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions."
+    },
+    {
+      "id": "c07",
+      "domain": "nutrition_uncertainty",
+      "claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults."
+    },
+    {
+      "id": "c08",
+      "domain": "computer_science",
+      "claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests."
+    },
+    {
+      "id": "c09",
+      "domain": "catalysis",
+      "claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions."
+    },
+    {
+      "id": "c10",
+      "domain": "general_science",
+      "claim": "Exercise improves memory."
+    }
+  ],
+  "generation": {
+    "c01": {
+      "queries": [
+        "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+        "the expression of TNF-α does not increase the risk of COVID-19 in older adults."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "results",
+            "start": 4,
+            "end": 11,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "this study",
+            "start": 15,
+            "end": 25,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "expression",
+            "start": 40,
+            "end": 50,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "TNF-α",
+            "start": 54,
+            "end": 59,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "risk",
+            "start": 82,
+            "end": 86,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "COVID-19",
+            "start": 90,
+            "end": 98,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "older adults",
+            "start": 102,
+            "end": 114,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "The",
+            "DET"
+          ],
+          [
+            "results",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "this",
+            "DET"
+          ],
+          [
+            "study",
+            "NOUN"
+          ],
+          [
+            "show",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "the",
+            "DET"
+          ],
+          [
+            "expression",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "TNF",
+            "PROPN"
+          ],
+          [
+            "-",
+            "PROPN"
+          ],
+          [
+            "α",
+            "PROPN"
+          ],
+          [
+            "does",
+            "AUX"
+          ],
+          [
+            "not",
+            "PART"
+          ],
+          [
+            "increase",
+            "VERB"
+          ],
+          [
+            "the",
+            "DET"
+          ],
+          [
+            "risk",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "COVID-19",
+            "NOUN"
+          ],
+          [
+            "in",
+            "ADP"
+          ],
+          [
+            "older",
+            "ADJ"
+          ],
+          [
+            "adults",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "expression of TNF-α",
+            "start": 40,
+            "end": 59,
+            "kind": "composed_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "risk of COVID-19",
+            "start": 82,
+            "end": 98,
+            "kind": "composed_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "older adults",
+            "start": 102,
+            "end": 114,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "The results of this study show that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults."
+    },
+    "c02": {
+      "queries": [
+        "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+        "lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "this study",
+            "start": 3,
+            "end": 13,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "lithium-ion batteries",
+            "start": 35,
+            "end": 56,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "90% capacity",
+            "start": 64,
+            "end": 76,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "500 cycles",
+            "start": 83,
+            "end": 93,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "-5 °C",
+            "start": 97,
+            "end": 102,
+            "kind": "scientific_expression",
+            "dependency": null
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "In",
+            "ADP"
+          ],
+          [
+            "this",
+            "DET"
+          ],
+          [
+            "study",
+            "NOUN"
+          ],
+          [
+            ",",
+            "PUNCT"
+          ],
+          [
+            "we",
+            "PRON"
+          ],
+          [
+            "demonstrate",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "lithium",
+            "NOUN"
+          ],
+          [
+            "-",
+            "PUNCT"
+          ],
+          [
+            "ion",
+            "NOUN"
+          ],
+          [
+            "batteries",
+            "NOUN"
+          ],
+          [
+            "retain",
+            "VERB"
+          ],
+          [
+            "90",
+            "NUM"
+          ],
+          [
+            "%",
+            "NOUN"
+          ],
+          [
+            "capacity",
+            "NOUN"
+          ],
+          [
+            "after",
+            "ADP"
+          ],
+          [
+            "500",
+            "NUM"
+          ],
+          [
+            "cycles",
+            "NOUN"
+          ],
+          [
+            "at",
+            "ADP"
+          ],
+          [
+            "-5",
+            "PUNCT"
+          ],
+          [
+            "°",
+            "PROPN"
+          ],
+          [
+            "C",
+            "PROPN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "lithium-ion batteries",
+            "start": 35,
+            "end": 56,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "90% capacity",
+            "start": 64,
+            "end": 76,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "500 cycles",
+            "start": 83,
+            "end": 93,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "-5 °C",
+            "start": 97,
+            "end": 102,
+            "kind": "scientific_expression",
+            "dependency": null
+          }
+        ],
+        "removed_prefix": "In this study, we demonstrate that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C."
+    },
+    "c03": {
+      "queries": [
+        "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+        "the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "Our experiments",
+            "start": 0,
+            "end": 15,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "efficiency",
+            "start": 30,
+            "end": 40,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "SiC MOSFETs",
+            "start": 44,
+            "end": 55,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "silicon devices",
+            "start": 82,
+            "end": 97,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "100 kHz",
+            "start": 101,
+            "end": 108,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "Our",
+            "PRON"
+          ],
+          [
+            "experiments",
+            "NOUN"
+          ],
+          [
+            "show",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "the",
+            "DET"
+          ],
+          [
+            "efficiency",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "SiC",
+            "NOUN"
+          ],
+          [
+            "MOSFETs",
+            "PROPN"
+          ],
+          [
+            "is",
+            "AUX"
+          ],
+          [
+            "not",
+            "PART"
+          ],
+          [
+            "lower",
+            "ADJ"
+          ],
+          [
+            "than",
+            "ADP"
+          ],
+          [
+            "that",
+            "PRON"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "silicon",
+            "NOUN"
+          ],
+          [
+            "devices",
+            "NOUN"
+          ],
+          [
+            "at",
+            "ADP"
+          ],
+          [
+            "100",
+            "NUM"
+          ],
+          [
+            "kHz",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "efficiency of SiC MOSFETs",
+            "start": 30,
+            "end": 55,
+            "kind": "composed_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "silicon devices",
+            "start": 82,
+            "end": 97,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "100 kHz",
+            "start": 101,
+            "end": 108,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "Our experiments show that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz."
+    },
+    "c04": {
+      "queries": [
+        "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+        "elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "This study",
+            "start": 0,
+            "end": 10,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "elevated atmospheric CO2 concentrations",
+            "start": 29,
+            "end": 68,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "ocean acidification",
+            "start": 78,
+            "end": 97,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "coastal waters",
+            "start": 101,
+            "end": 115,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "This",
+            "DET"
+          ],
+          [
+            "study",
+            "NOUN"
+          ],
+          [
+            "demonstrates",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "elevated",
+            "ADJ"
+          ],
+          [
+            "atmospheric",
+            "ADJ"
+          ],
+          [
+            "CO2",
+            "PROPN"
+          ],
+          [
+            "concentrations",
+            "NOUN"
+          ],
+          [
+            "increase",
+            "VERB"
+          ],
+          [
+            "ocean",
+            "NOUN"
+          ],
+          [
+            "acidification",
+            "NOUN"
+          ],
+          [
+            "in",
+            "ADP"
+          ],
+          [
+            "coastal",
+            "ADJ"
+          ],
+          [
+            "waters",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "elevated atmospheric CO2 concentrations",
+            "start": 29,
+            "end": 68,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "ocean acidification",
+            "start": 78,
+            "end": 97,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "coastal waters",
+            "start": 101,
+            "end": 115,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "This study demonstrates that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters."
+    },
+    "c05": {
+      "queries": [
+        "The presence of dark matter increases the rotational velocity of spiral galaxies."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "presence",
+            "start": 4,
+            "end": 12,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "dark matter",
+            "start": 16,
+            "end": 27,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "rotational velocity",
+            "start": 42,
+            "end": 61,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "spiral galaxies",
+            "start": 65,
+            "end": 80,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "The",
+            "DET"
+          ],
+          [
+            "presence",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "dark",
+            "ADJ"
+          ],
+          [
+            "matter",
+            "NOUN"
+          ],
+          [
+            "increases",
+            "VERB"
+          ],
+          [
+            "the",
+            "DET"
+          ],
+          [
+            "rotational",
+            "ADJ"
+          ],
+          [
+            "velocity",
+            "NOUN"
+          ],
+          [
+            "of",
+            "ADP"
+          ],
+          [
+            "spiral",
+            "ADJ"
+          ],
+          [
+            "galaxies",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "abstained",
+        "query": null,
+        "reason": "no_useful_focused_alternative",
+        "selected_concepts": [
+          {
+            "text": "presence of dark matter",
+            "start": 4,
+            "end": 27,
+            "kind": "composed_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "rotational velocity",
+            "start": 42,
+            "end": 61,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "spiral galaxies",
+            "start": 65,
+            "end": 80,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": null,
+        "recall_risks": []
+      },
+      "normalized_claim": "The presence of dark matter increases the rotational velocity of spiral galaxies."
+    },
+    "c06": {
+      "queries": [
+        "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+        "deficit irrigation reduces water use without decreasing wheat yield under drought conditions."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "Experimental results",
+            "start": 0,
+            "end": 20,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "deficit irrigation",
+            "start": 31,
+            "end": 49,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "water use",
+            "start": 58,
+            "end": 67,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "wheat yield",
+            "start": 87,
+            "end": 98,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "drought conditions",
+            "start": 105,
+            "end": 123,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "Experimental",
+            "ADJ"
+          ],
+          [
+            "results",
+            "NOUN"
+          ],
+          [
+            "show",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "deficit",
+            "NOUN"
+          ],
+          [
+            "irrigation",
+            "NOUN"
+          ],
+          [
+            "reduces",
+            "VERB"
+          ],
+          [
+            "water",
+            "NOUN"
+          ],
+          [
+            "use",
+            "NOUN"
+          ],
+          [
+            "without",
+            "ADP"
+          ],
+          [
+            "decreasing",
+            "VERB"
+          ],
+          [
+            "wheat",
+            "NOUN"
+          ],
+          [
+            "yield",
+            "NOUN"
+          ],
+          [
+            "under",
+            "ADP"
+          ],
+          [
+            "drought",
+            "NOUN"
+          ],
+          [
+            "conditions",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "deficit irrigation",
+            "start": 31,
+            "end": 49,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "water use",
+            "start": 58,
+            "end": 67,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "wheat yield",
+            "start": 87,
+            "end": 98,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "drought conditions",
+            "start": 105,
+            "end": 123,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "Experimental results show that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions."
+    },
+    "c07": {
+      "queries": [
+        "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "Preliminary findings",
+            "start": 0,
+            "end": 20,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "vitamin D supplementation",
+            "start": 34,
+            "end": 59,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "respiratory infections",
+            "start": 71,
+            "end": 93,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "older adults",
+            "start": 97,
+            "end": 109,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "Preliminary",
+            "ADJ"
+          ],
+          [
+            "findings",
+            "NOUN"
+          ],
+          [
+            "suggest",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "vitamin",
+            "NOUN"
+          ],
+          [
+            "D",
+            "ADJ"
+          ],
+          [
+            "supplementation",
+            "NOUN"
+          ],
+          [
+            "may",
+            "AUX"
+          ],
+          [
+            "reduce",
+            "VERB"
+          ],
+          [
+            "respiratory",
+            "ADJ"
+          ],
+          [
+            "infections",
+            "NOUN"
+          ],
+          [
+            "in",
+            "ADP"
+          ],
+          [
+            "older",
+            "ADJ"
+          ],
+          [
+            "adults",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "abstained",
+        "query": null,
+        "reason": "no_useful_focused_alternative",
+        "selected_concepts": [
+          {
+            "text": "Preliminary findings",
+            "start": 0,
+            "end": 20,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "vitamin D supplementation",
+            "start": 34,
+            "end": 59,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "respiratory infections",
+            "start": 71,
+            "end": 93,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "older adults",
+            "start": 97,
+            "end": 109,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": null,
+        "recall_risks": []
+      },
+      "normalized_claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults."
+    },
+    "c08": {
+      "queries": [
+        "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+        "graph neural networks improve molecular property prediction compared with random forests."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "Our results",
+            "start": 0,
+            "end": 11,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "graph neural networks",
+            "start": 22,
+            "end": 43,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "molecular property prediction",
+            "start": 52,
+            "end": 81,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "random forests",
+            "start": 96,
+            "end": 110,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "Our",
+            "PRON"
+          ],
+          [
+            "results",
+            "NOUN"
+          ],
+          [
+            "show",
+            "VERB"
+          ],
+          [
+            "that",
+            "PRON"
+          ],
+          [
+            "graph",
+            "NOUN"
+          ],
+          [
+            "neural",
+            "ADJ"
+          ],
+          [
+            "networks",
+            "NOUN"
+          ],
+          [
+            "improve",
+            "VERB"
+          ],
+          [
+            "molecular",
+            "ADJ"
+          ],
+          [
+            "property",
+            "NOUN"
+          ],
+          [
+            "prediction",
+            "NOUN"
+          ],
+          [
+            "compared",
+            "VERB"
+          ],
+          [
+            "with",
+            "ADP"
+          ],
+          [
+            "random",
+            "ADJ"
+          ],
+          [
+            "forests",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "graph neural networks improve molecular property prediction compared with random forests.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "graph neural networks",
+            "start": 22,
+            "end": 43,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "molecular property prediction",
+            "start": 52,
+            "end": 81,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "random forests",
+            "start": 96,
+            "end": 110,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "Our results show that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests."
+    },
+    "c09": {
+      "queries": [
+        "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+        "platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "platinum nanoparticles",
+            "start": 30,
+            "end": 52,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "hydrogen evolution",
+            "start": 64,
+            "end": 82,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "25 °C",
+            "start": 86,
+            "end": 91,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "acidic solutions",
+            "start": 95,
+            "end": 111,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "It",
+            "PRON"
+          ],
+          [
+            "has",
+            "AUX"
+          ],
+          [
+            "been",
+            "AUX"
+          ],
+          [
+            "demonstrated",
+            "VERB"
+          ],
+          [
+            "that",
+            "SCONJ"
+          ],
+          [
+            "platinum",
+            "NOUN"
+          ],
+          [
+            "nanoparticles",
+            "NOUN"
+          ],
+          [
+            "accelerate",
+            "VERB"
+          ],
+          [
+            "hydrogen",
+            "NOUN"
+          ],
+          [
+            "evolution",
+            "NOUN"
+          ],
+          [
+            "at",
+            "ADP"
+          ],
+          [
+            "25",
+            "NUM"
+          ],
+          [
+            "°",
+            "NOUN"
+          ],
+          [
+            "C",
+            "PROPN"
+          ],
+          [
+            "in",
+            "ADP"
+          ],
+          [
+            "acidic",
+            "ADJ"
+          ],
+          [
+            "solutions",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "built",
+        "query": "platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+        "reason": "concept_anchored_assertion_without_reporting_frame",
+        "selected_concepts": [
+          {
+            "text": "platinum nanoparticles",
+            "start": 30,
+            "end": 52,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "hydrogen evolution",
+            "start": 64,
+            "end": 82,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          },
+          {
+            "text": "25 °C",
+            "start": 86,
+            "end": 91,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          },
+          {
+            "text": "acidic solutions",
+            "start": 95,
+            "end": 111,
+            "kind": "noun_phrase",
+            "dependency": "pobj"
+          }
+        ],
+        "removed_prefix": "It has been demonstrated that ",
+        "recall_risks": [
+          "retained_populations_and_conditions_may_limit_recall",
+          "provider_tokenization_and_default_term_matching_may_limit_recall"
+        ]
+      },
+      "normalized_claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions."
+    },
+    "c10": {
+      "queries": [
+        "Exercise improves memory."
+      ],
+      "mode": "original_plus_concepts",
+      "extraction": {
+        "status": "ok",
+        "concepts": [
+          {
+            "text": "Exercise",
+            "start": 0,
+            "end": 8,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "memory",
+            "start": 18,
+            "end": 24,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          }
+        ],
+        "warnings": [],
+        "model": "en_core_web_sm",
+        "model_version": "3.8.0",
+        "pos_tags": [
+          [
+            "Exercise",
+            "NOUN"
+          ],
+          [
+            "improves",
+            "VERB"
+          ],
+          [
+            "memory",
+            "NOUN"
+          ],
+          [
+            ".",
+            "PUNCT"
+          ]
+        ]
+      },
+      "construction": {
+        "status": "abstained",
+        "query": null,
+        "reason": "insufficient_meaningful_concepts",
+        "selected_concepts": [
+          {
+            "text": "Exercise",
+            "start": 0,
+            "end": 8,
+            "kind": "noun_phrase",
+            "dependency": "nsubj"
+          },
+          {
+            "text": "memory",
+            "start": 18,
+            "end": 24,
+            "kind": "noun_phrase",
+            "dependency": "dobj"
+          }
+        ],
+        "removed_prefix": null,
+        "recall_risks": []
+      },
+      "normalized_claim": "Exercise improves memory."
+    }
+  },
+  "control_queries": {
+    "c01": [
+      "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults."
+    ],
+    "c02": [
+      "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C."
+    ],
+    "c03": [
+      "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz."
+    ],
+    "c04": [
+      "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters."
+    ],
+    "c05": [
+      "The presence of dark matter increases the rotational velocity of spiral galaxies."
+    ],
+    "c06": [
+      "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions."
+    ],
+    "c07": [
+      "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults."
+    ],
+    "c08": [
+      "Our results show that graph neural networks improve molecular property prediction compared with random forests."
+    ],
+    "c09": [
+      "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions."
+    ],
+    "c10": [
+      "Exercise improves memory."
+    ]
+  },
+  "relevance_labels": null,
+  "method": "shared original; fresh original-repeat for matched budget"
+}

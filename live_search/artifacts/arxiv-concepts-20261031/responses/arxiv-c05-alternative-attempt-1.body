@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HAFPUl2OUz3u2NChor9objUu0wg</id>
+  <title>arXiv Query: search_query=(all:"dark matter" AND all:"rotational velocity") AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-31T06:01:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22dark+matter%22+AND+all:%22rotational+velocity%22)+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>104</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2006.16635v1</id>
+    <title>Dark matter neutrinos: A proposed mechanism for the stellar rotational velocity curve of the Milky Way</title>
+    <updated>2020-06-30T09:59:40Z</updated>
+    <link href="https://arxiv.org/abs/2006.16635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.16635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The inconsistency of the observed rotational velocity curve of the Milky Way with the current theory of gravitational dynamics is well documented. The curve implies the presence of significantly more mass, or dark matter, than is observable. Current models estimate the amount of dark matter to be of the order of 85% of total matter. This paper explores relativistic neutrinos as a potential source of dark matter and proposes a crude binary star accretion model mechanism at the centre of the Milky Way for their production. The results show this to be consistent with the current theory of gravitation, the observed velocity curve of the Milky Way and current estimates of the proportion of dark matter to baryonic matter of the order of 85%.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-30T09:59:40Z</published>
+    <arxiv:comment>6 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andrew Panteli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23008v4</id>
+    <title>Empirical Relationship Between Dark Matter and Baryon Profiles for Solving the Core-Cusp and Diversity Problems of Galaxies</title>
+    <updated>2026-08-04T07:29:43Z</updated>
+    <link href="https://arxiv.org/abs/2512.23008v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23008v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rotation velocity profiles of galaxies (rotation curves) remain unexpectedly flat at large distances, where visible matter alone should make the rotation velocity decrease with radius. To explain this missing gravity, conventional frameworks assume unseen mass or alternative gravitational effects. While the dark matter hypothesis has become the standard paradigm, this framework faces persistent small-scale challenges, such as the core-cusp and diversity problems, and struggles to explain the observed correlation between dark matter and baryons, as evidenced by the Radial Acceleration Relation and the baryonic Tully-Fisher relation. Here, we introduce a simple empirical law for the dark matter in a single galaxy, stating that the dark matter energy density $ρ_{\mathrm{DM}}$ is related to the baryonic gravitational potential $U_b$ and the total baryonic mass of the galaxy $M_b$ as $ρ_{\mathrm{DM}} = K M_b^{-3/2} (U_b/c^2)^2$. When applied to 122 galaxies from the SPARC database with a single fitting parameter $K$, this empirical equation reproduces both the diverse inner structures and outer flat regions of the observed rotation curves, resolving the core-cusp and diversity problems. In each galaxy, the observed velocity data for various distances were well fitted, with the minimum $χ^2/\mathrm{dof}$ value around unity, by the rotation curve calculated from this empirical equation. The fitted $K$ values for the 122 galaxies were concentrated within a narrow range, and the minimum $χ^2/\mathrm{dof}$ values were significantly reduced for galaxies with specific stellar mass-to-light ratio data given by the THINGS survey. These results demonstrate the validity of the empirical law. The success of the empirical law may suggest the existence of new fields interacting with baryons.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-28T17:16:59Z</published>
+    <arxiv:comment>Companion paper to "Effective Field Theory for a Baryon-Correlated Dark Matter Profile" (arXiv:2605.20217v2)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Kento Kamada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05865v2</id>
+    <title>Preliminary Study on Dark Matter-Dominated Systems: Further Analysis for galactic dark matter halos with Pressure</title>
+    <updated>2024-08-28T00:31:00Z</updated>
+    <link href="https://arxiv.org/abs/2112.05865v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.05865v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low surface brightness galaxies are an excellent laboratory where stars and baryonic matter act as tracers of the gravitational potential of the dark matter halo. If dark matter is modeled as a perfect fluid, then spherically symmetric and static dark matter halos in hydrostatic equilibrium demand that dark matter should have an intrinsic pressure that counteracts the gravitational attraction that the dark matter halo exerts on itself. This static fluid (dark matter-dominated system, where the presence of baryons is negligible) has a specific equation of state for each rotational velocity profile of the stars in galaxies. In this work, we study the dark matter equation of state needed for the self-gravitating object to produce a gravitational potential such that the tracers follow the Universal Rotational Velocity Profile for stars of spiral galaxies proposed by Persic et al. (1996) and analyze the properties of the self-gravitating structures that emerge from this equation of state.The resulting configurations explaining the observed rotational speeds are found to be unstable. We conclude that the halo is not in hydrostatic equilibrium, it is nonspherically symmetric, or it is not static if the universal velocity profile should be valid for fitting the rotational velocity curve of the galaxies.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-10T23:19:20Z</published>
+    <arxiv:comment>16 pages, 7 figures, 3 tables. Published in The Astrophysical Journal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andrés Aceña</name>
+    </author>
+    <author>
+      <name>Juan Barranco</name>
+    </author>
+    <author>
+      <name>Argelia Bernal</name>
+    </author>
+    <author>
+      <name>Ericson López</name>
+    </author>
+    <author>
+      <name>Mario Llerena</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.04044v1</id>
+    <title>A possible tension between galaxy rotational velocity and observed physical properties</title>
+    <updated>2022-12-08T02:45:18Z</updated>
+    <link href="https://arxiv.org/abs/2212.04044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.04044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrepancy between the mass of galaxies and their rotational velocity is one of the most puzzling scientific phenomena. Despite over a century of research, this phenomenon is not fully understood. Common explanations include dark matter and MOND, among other theories. Here we report on another observation that shows tension between the physics of galaxy rotation and its rotational velocity. We compare the brightness of galaxies, and find that galaxies that spin in the same direction as the Milky Way have different brightness than galaxies that spin in the opposite direction. While such difference in brightness is expected due to Doppler shift, it is expected to be subtle. The results show that the difference in brightness is large enough to be detected by Earth-based telescopes. That observed difference corresponds to physical properties of galaxies with far greater rotational velocity than the rotational velocity of the Milky Way. The difference is consistent in both the Northern galactic pole and the Southern galactic pole, and is not observed in parts of the sky that are perpendicular to the galactic pole. The differences are observed by several different instruments such DECam, SDSS, Pan-STARRS, and HST. The observation is also consistent across annotation methods, including different computer-based methods, manual annotation, or crowdsourcing annotations through Galaxy Zoo, all show similar results. Another possible explanation to the observation is parity violation in the large-scale structure, such that the magnitude of the parity violation was stronger in the earlier Universe. It can also be linked to other anomalies such as the Ho tension. Analysis of Ho using Ia supernovae shows smaller Ho tension when the spin directions of the host galaxies are consistent, although these results are based on a small number of supernovae, and may not be statistically significant.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-08T02:45:18Z</published>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Lior Shamir</name>
+    </author>
+    <author>
+      <name>Darius McAdam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.04356v3</id>
+    <title>A new constant behind the rotational velocity of galaxies</title>
+    <updated>2022-01-14T22:01:28Z</updated>
+    <link href="https://arxiv.org/abs/2107.04356v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.04356v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present work is devoted to study the dynamical evolution of the galaxies in scalar-GaussBonnet gravity in relationship with the MOND paradigm. This study is useful for giving meaning to the presence of a new gravitational constant. The stability of dark matter is strongly dependent on matter energy density. We interested in calculating the maximum rotational velocity of galaxies. We show that rotating galaxies can be described by a new parameter which depends on both on the minimum value of scalar fields and the effective mass of this field. According to the observation data, we have shown that this parameter is a constant.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-09T10:48:50Z</published>
+    <arxiv:comment>13 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>JCAP01(2022)015</arxiv:journal_ref>
+    <author>
+      <name>M. Bousder</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2022/01/015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2022/01/015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.02229v1</id>
+    <title>A note on shock wave in the dark matter medium</title>
+    <updated>2022-02-02T19:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2202.02229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.02229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Employing Newton's stellar balance equation and using the flat rotation velocity of satellite galaxies, we have found the velocity of sound in the dark matter medium. What is interesting is that the velocity of satellite galaxies is very much larger than the velocity of sound in the dark matter medium. This indicates that there will be shock wave in the dark matter medium due to the supersonic movement of satellite galaxies.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-02T19:42:03Z</published>
+    <arxiv:comment>4 pages. Submitted in Phys.Lett.B on 25.11.21</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Mofazzal Azam</name>
+    </author>
+    <author>
+      <name>M Sami</name>
+    </author>
+    <author>
+      <name>Farook Rahaman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00161v1</id>
+    <title>Ubiquitous Corotation of Dark Matter Halos: Implications for Direct Detection</title>
+    <updated>2026-07-31T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2608.00161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cosmological simulations have recently begun to quantify the halo-to-halo variance in the phase-space distribution of dark matter around the Sun. We use a sample of nearly one hundred Milky Way-like galaxies from the TNG50 simulation to determine what aspects of this variance control the predictions for dark matter direct detection. Contrary to the isotropy assumed in the standard halo model, we find the dark matter median azimuthal velocity is nonzero and preferentially corotating, i.e., in the direction of the baryonic disk's rotation, ranging from 6-70 km/s (16th-84th percentile). This corotation suppresses predicted scattering rates in laboratory experiments searching for dark matter lighter than 50 GeV and significantly affects the expected daily modulation amplitude for directional detectors. In particular, this induces a 21% uncertainty on the upper limit of the dark matter-nucleon interaction cross section at peak sensitivity for a typical isotropic ton-scale experiment. This uncertainty is not irreducible, however: it is strongly correlated with the rotational velocity. If studies of the Milky Way's formation history determine the rotation speed, this astrophysical uncertainty is reduced to 7%.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T18:00:00Z</published>
+    <arxiv:comment>7 pages, 3 figures; 2 pages of end matter with 4 additional figures. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Dylan Folsom</name>
+    </author>
+    <author>
+      <name>Carlos Blanco</name>
+    </author>
+    <author>
+      <name>Mariangela Lisanti</name>
+    </author>
+    <author>
+      <name>Mark Vogelsberger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.03024v3</id>
+    <title>On self-gravitating strange dark matter halos around galaxies</title>
+    <updated>2020-09-18T08:15:53Z</updated>
+    <link href="https://arxiv.org/abs/2007.03024v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.03024v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new family of nonrelativistic, Newtonian, non-quantum equilibrium configurations describing galactic halos is introduced, by considering strange quark matter conglomerates with masses larger than about 8 GeV as new possible components of the dark matter. Originally introduced to explain the state of matter in neutron stars, such conglomerates may also form in the high-density and temperature conditions of the primordial Universe and then decouple from ordinary baryonic matter, providing the fundamental components of dark matter for the formation of pristine gravitational potential wells and the subsequent evolution of cosmic structures. The obtained results for halo mass and radius are consistent with the rotational velocity curve observed in the Galaxy. Additionally, the average density of such dark matter halos is similar to that derived for halos of dwarf spheroidal galaxies, which can therefore be interpreted as downscaled versions of larger dark matter distributions around Milky Way-sized galaxies and hint for a common origin of the two families of cosmic structures.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-06T19:15:08Z</published>
+    <arxiv:comment>11 pages, 8 figures, 1 table. Accepted for publication on Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Phys. Rev. D 102, 083015 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Marco Merafina</name>
+    </author>
+    <author>
+      <name>Francesco G. Saturni</name>
+    </author>
+    <author>
+      <name>Catalina Curceanu</name>
+    </author>
+    <author>
+      <name>Raffaele Del Grande</name>
+    </author>
+    <author>
+      <name>Kristian Piscicchia</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.102.083015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.102.083015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.01245v1</id>
+    <title>Spiral structure of the galactic disk and its influence on the rotational velocity curve</title>
+    <updated>2021-12-02T13:51:04Z</updated>
+    <link href="https://arxiv.org/abs/2112.01245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.01245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The most spiral galaxies have a flat rotational velocity curve, according to the different observational techniques used in several wavelengths domain. In this work, we show that non-linear terms are able to balance the dispersive effect of the wave, thus reviving the observed rotational curve profiles without inclusion of any other but baryonic matter concentrated in the bulge and disk. In order to prove that the considered model is able to restore a flat rotational curve, Milky Way has been chosen as the best mapped galaxy to apply on. Using the gravitational N-body simulations with up to $10^7$ particles, we test this dynamical model in the case of the Milky Way with two different approaches. Within the direct approach, as an input condition in the simulation runs we set the spiral surface density distribution which is previously obtained as an explicit solution to non-linear Schrödinger equation (instead of a widely used exponential disk approximation). In the evolutionary approach, we initialize the runs with different initial mass and rotational velocity distributions, in order to capture the natural formation of spiral arms, and to determine their role in the disk evolution. In both cases we are able to reproduce the stable and non-expanding disk structures at the simulation end times of $\sim10^9$ years, with no halo inclusion. Although the given model doesn't take into account the velocity dispersion of stars and finite disk thickness, the results presented here still imply that non-linear effects can significantly alter the amount of dark matter which is required to keep the galactic disk in stable configuration.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-02T13:51:04Z</published>
+    <arxiv:comment>Accepted for publication in Astronomische Nachrichten. 6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Miroslava Vukcevic</name>
+    </author>
+    <author>
+      <name>Vladimir Zekovic</name>
+    </author>
+    <author>
+      <name>Marko Radeta</name>
+    </author>
+    <arxiv:doi>10.1002/asna.20210108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/asna.20210108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.11235v2</id>
+    <title>The Data Behind Dark Matter: Exploring Galactic Rotation</title>
+    <updated>2023-08-08T19:47:05Z</updated>
+    <link href="https://arxiv.org/abs/2207.11235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.11235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dark matter is estimated to make up ~84% of all normal/baryonic matter, but cannot be directly imaged. Despite the fact that dark matter cannot be directly observed yet, its influence on the motion of stars and gas in spiral galaxies have been detected. One way to show motion in galaxies are rotation curves that are plots of velocity measurements of how fast stars and gas move in a galaxy around the center of mass. According to Newton's Law of Gravitation, the rotational velocity is an indication of the amount of visible and non-visible mass in the galaxy. Given that the visible matter is measurable using photometry, dark matter mass can therefore be estimated, offering an insight into the size distribution in galaxies. In order to gain a greater appreciation of the research scientists' findings about dark matter, their method should be easily reproduced by any curious individual. Our interactive workshop is an excellent educational tool to investigate how dark matter impacts the rotation of visible matter by providing a guide to produce galactic rotation curves. The Python-based notebooks are set up to walk you through the whole process of producing rotation curves using an online database (SPARC) and to allow you to learn about each component of the galaxy. The three steps of the rotation curve building process is plotting the measured velocity data, constructing the rotation curves for each component, and fitting the total velocity to the measured values.</summary>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-17T20:20:02Z</published>
+    <arxiv:comment>6 pages, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.ed-ph"/>
+    <arxiv:journal_ref>Journal of Open Source Education (2023), 6(66), 184</arxiv:journal_ref>
+    <author>
+      <name>A. N. Villano</name>
+    </author>
+    <author>
+      <name>Kitty C. Harris</name>
+    </author>
+    <author>
+      <name>Judit Bergfalk</name>
+    </author>
+    <author>
+      <name>Raphael Hatami</name>
+    </author>
+    <author>
+      <name>Francis Vititoe</name>
+    </author>
+    <author>
+      <name>Julia Johnston</name>
+    </author>
+    <arxiv:doi>10.21105/jose.00184</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21105/jose.00184" title="doi"/>
+  </entry>
+</feed>

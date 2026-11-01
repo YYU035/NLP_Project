@@ -1,0 +1,168 @@
+{
+  "status": "prepared_not_run",
+  "top_k": 10,
+  "trigger_unique_below": 5,
+  "max_fallbacks": 2,
+  "max_retries": 0,
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "max_logical_requests": 18,
+  "plans": [
+    {
+      "claim_id": "c01",
+      "primary": "\"TNF-\u03b1\" \"COVID-19\"",
+      "required_phrases": [
+        "TNF-\u03b1",
+        "COVID-19"
+      ],
+      "optional_phrases": [],
+      "attempts": []
+    },
+    {
+      "claim_id": "c02",
+      "primary": "\"lithium-ion batteries\" \"capacity\"",
+      "required_phrases": [
+        "lithium-ion batteries",
+        "capacity"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "lithium-ion batteries capacity",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:\"lithium-ion\" AND all:batteries AND all:capacity"
+        }
+      ]
+    },
+    {
+      "claim_id": "c03",
+      "primary": "\"SiC MOSFETs\" \"silicon devices\"",
+      "required_phrases": [
+        "SiC MOSFETs",
+        "silicon devices"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "SiC MOSFETs silicon devices",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:SiC AND all:MOSFETs AND all:silicon AND all:devices"
+        }
+      ]
+    },
+    {
+      "claim_id": "c04",
+      "primary": "\"elevated atmospheric CO2 concentrations\" \"ocean acidification\"",
+      "required_phrases": [
+        "elevated atmospheric CO2 concentrations",
+        "ocean acidification"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "elevated atmospheric CO2 concentrations ocean acidification",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:elevated AND all:atmospheric AND all:CO2 AND all:concentrations AND all:ocean AND all:acidification"
+        }
+      ]
+    },
+    {
+      "claim_id": "c05",
+      "primary": "\"dark matter\" \"rotational velocity\"",
+      "required_phrases": [
+        "dark matter",
+        "rotational velocity"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "dark matter rotational velocity",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:dark AND all:matter AND all:rotational AND all:velocity"
+        }
+      ]
+    },
+    {
+      "claim_id": "c06",
+      "primary": "\"deficit irrigation\" \"water use\"",
+      "required_phrases": [
+        "deficit irrigation",
+        "water use"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "deficit irrigation water use",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:deficit AND all:irrigation AND all:water AND all:use"
+        }
+      ]
+    },
+    {
+      "claim_id": "c07",
+      "primary": "\"vitamin D supplementation\" \"respiratory infections\"",
+      "required_phrases": [
+        "vitamin D supplementation",
+        "respiratory infections"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "vitamin D supplementation respiratory infections",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:vitamin AND all:D AND all:supplementation AND all:respiratory AND all:infections"
+        }
+      ]
+    },
+    {
+      "claim_id": "c08",
+      "primary": "\"graph neural networks\" \"molecular property prediction\"",
+      "required_phrases": [
+        "graph neural networks",
+        "molecular property prediction"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "graph neural networks molecular property prediction",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:graph AND all:neural AND all:networks AND all:molecular AND all:property AND all:prediction"
+        }
+      ]
+    },
+    {
+      "claim_id": "c09",
+      "primary": "\"platinum nanoparticles\" \"hydrogen evolution\"",
+      "required_phrases": [
+        "platinum nanoparticles",
+        "hydrogen evolution"
+      ],
+      "optional_phrases": [],
+      "attempts": [
+        {
+          "query": "platinum nanoparticles hydrogen evolution",
+          "reason": "required_terms_kept_phrase_order_relaxed",
+          "omitted_phrases": [],
+          "rendered": "all:platinum AND all:nanoparticles AND all:hydrogen AND all:evolution"
+        }
+      ]
+    },
+    {
+      "claim_id": "c10",
+      "primary": "\"Exercise\" \"memory\"",
+      "required_phrases": [
+        "Exercise",
+        "memory"
+      ],
+      "optional_phrases": [],
+      "attempts": []
+    }
+  ]
+}

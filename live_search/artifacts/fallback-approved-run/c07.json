@@ -1,0 +1,174 @@
+{
+  "original_claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+  "top_k": 10,
+  "limit_scope": "per_provider",
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "papers": [
+    {
+      "identity": "arxiv:2301.02660",
+      "identity_aliases": [
+        "arxiv:2301.02660",
+        "arxiv:http://arxiv.org/abs/2301.02660v1"
+      ],
+      "original_claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+      "paper": {
+        "title": "Decreased serum vitamin D level as a prognostic marker in patients with COVID-19",
+        "authors": [
+          "Ruyi Qu",
+          "Qiuji Yang",
+          "Yingying Bi",
+          "Jiajing Cheng",
+          "Mengna He",
+          "Xin Wei",
+          "Yiqi Yuan",
+          "Yuxin Yang",
+          "Jinlong Qin"
+        ],
+        "abstract": "Background: The corona virus disease 2019 (COVID-19) pandemic, which is caused by severe acute respiratory syndrome coronavirus 2, is still localized outbreak and has resulted in a high rate of infection and severe disease in older patients with comorbidities. The vitamin D status of the population has been found to be an important factor that could influence outcome of COVID-19. However, whether vitamin D can lessen the symptoms or severity of COVID-19 still remains controversial. Methods: A total of 719 patients with confirmed COVID-19 were enrolled retrospectively in this study from April 13 to June 6, 2022 at Shanghai Forth People's Hospital. The circulating levels of 25(OH)D3, inflammatory factors, and clinical parameters were assayed. Time to viral RNA clearance (TVRC), classification and prognosis of COVID-19 were used to evaluate the severity of COVID-19 infection. Results: The median age was 76 years (interquartile range, IQR, 64.5-84.6), 44.1% of patients were male, and the TVRC was 11 days (IQR, 7-16) in this population. The median level of 25(OH)D3 was 27.15 (IQR, 19.31-38.89) nmol/L. Patients with lower serum 25(OH)D3 had prolonged time to viral clearance, more obvious inflammatory response, more severe respiratory symptoms and higher risks of impaired hepatic and renal function. Multiple regression analyses revealed that serum 25(OH)D3 level was negatively associated with TVRC independently. ROC curve showed the serum vitamin D level could predict the severity classification and prognosis of COVID-19 significantly.Conclusions: Serum 25(OH)D3 level is independently associated with the severity of COVID-19 in elderly, and it could be used as a predictor of the severity of COVID-19. In addition, supplementation with vitamin D might provide beneficial effects in old patients with COVID-19.",
+        "year": 2022,
+        "publication_date": "2022-12-25",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2301.02660v1",
+        "landing_url": "https://arxiv.org/abs/2301.02660v1",
+        "pdf_url": "https://arxiv.org/pdf/2301.02660v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2301.02660v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2301.02660v1",
+          "query_id": "arxiv-000011",
+          "rank": 1
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Decreased serum vitamin D level as a prognostic marker in patients with COVID-19",
+          "authors": [
+            "Ruyi Qu",
+            "Qiuji Yang",
+            "Yingying Bi",
+            "Jiajing Cheng",
+            "Mengna He",
+            "Xin Wei",
+            "Yiqi Yuan",
+            "Yuxin Yang",
+            "Jinlong Qin"
+          ],
+          "abstract": "Background: The corona virus disease 2019 (COVID-19) pandemic, which is caused by severe acute respiratory syndrome coronavirus 2, is still localized outbreak and has resulted in a high rate of infection and severe disease in older patients with comorbidities. The vitamin D status of the population has been found to be an important factor that could influence outcome of COVID-19. However, whether vitamin D can lessen the symptoms or severity of COVID-19 still remains controversial. Methods: A total of 719 patients with confirmed COVID-19 were enrolled retrospectively in this study from April 13 to June 6, 2022 at Shanghai Forth People's Hospital. The circulating levels of 25(OH)D3, inflammatory factors, and clinical parameters were assayed. Time to viral RNA clearance (TVRC), classification and prognosis of COVID-19 were used to evaluate the severity of COVID-19 infection. Results: The median age was 76 years (interquartile range, IQR, 64.5-84.6), 44.1% of patients were male, and the TVRC was 11 days (IQR, 7-16) in this population. The median level of 25(OH)D3 was 27.15 (IQR, 19.31-38.89) nmol/L. Patients with lower serum 25(OH)D3 had prolonged time to viral clearance, more obvious inflammatory response, more severe respiratory symptoms and higher risks of impaired hepatic and renal function. Multiple regression analyses revealed that serum 25(OH)D3 level was negatively associated with TVRC independently. ROC curve showed the serum vitamin D level could predict the severity classification and prognosis of COVID-19 significantly.Conclusions: Serum 25(OH)D3 level is independently associated with the severity of COVID-19 in elderly, and it could be used as a predictor of the severity of COVID-19. In addition, supplementation with vitamin D might provide beneficial effects in old patients with COVID-19.",
+          "year": 2022,
+          "publication_date": "2022-12-25",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2301.02660v1",
+          "landing_url": "https://arxiv.org/abs/2301.02660v1",
+          "pdf_url": "https://arxiv.org/pdf/2301.02660v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2301.02660v1"
+          ]
+        }
+      ]
+    }
+  ],
+  "providers": {
+    "arxiv": {
+      "provider": "arxiv",
+      "status": "success",
+      "seconds": 11.258232699998189,
+      "error": null,
+      "queries": [
+        {
+          "id": "arxiv-000010",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "primary",
+          "query": "\"vitamin D supplementation\" \"respiratory infections\"",
+          "notes": [],
+          "status": "zero_results",
+          "returned": 0,
+          "seconds": 5.114206400001422,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:\"vitamin D supplementation\" AND all:\"respiratory infections\") AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 5.109573100002308,
+              "response_file": "responses/arxiv-000010-1.body",
+              "sha256": "61995a3219007162cb30e0d9c8daf339bf19e6d4a3a0daafe57440411027f1b3"
+            }
+          ]
+        },
+        {
+          "id": "arxiv-000011",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "fallback_1",
+          "query": "vitamin D supplementation respiratory infections",
+          "notes": [
+            "required_terms_kept_phrase_order_relaxed"
+          ],
+          "status": "success",
+          "returned": 1,
+          "seconds": 6.143805200001225,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:vitamin AND all:D AND all:supplementation AND all:respiratory AND all:infections) AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 6.138716400000703,
+              "response_file": "responses/arxiv-000011-1.body",
+              "sha256": "ba18faabe1633813ffe58bb0b04dd195a1fa4da37beb6025a91b3bafb59fd0c3"
+            }
+          ]
+        }
+      ],
+      "records": [
+        {
+          "paper": {
+            "title": "Decreased serum vitamin D level as a prognostic marker in patients with COVID-19",
+            "authors": [
+              "Ruyi Qu",
+              "Qiuji Yang",
+              "Yingying Bi",
+              "Jiajing Cheng",
+              "Mengna He",
+              "Xin Wei",
+              "Yiqi Yuan",
+              "Yuxin Yang",
+              "Jinlong Qin"
+            ],
+            "abstract": "Background: The corona virus disease 2019 (COVID-19) pandemic, which is caused by severe acute respiratory syndrome coronavirus 2, is still localized outbreak and has resulted in a high rate of infection and severe disease in older patients with comorbidities. The vitamin D status of the population has been found to be an important factor that could influence outcome of COVID-19. However, whether vitamin D can lessen the symptoms or severity of COVID-19 still remains controversial. Methods: A total of 719 patients with confirmed COVID-19 were enrolled retrospectively in this study from April 13 to June 6, 2022 at Shanghai Forth People's Hospital. The circulating levels of 25(OH)D3, inflammatory factors, and clinical parameters were assayed. Time to viral RNA clearance (TVRC), classification and prognosis of COVID-19 were used to evaluate the severity of COVID-19 infection. Results: The median age was 76 years (interquartile range, IQR, 64.5-84.6), 44.1% of patients were male, and the TVRC was 11 days (IQR, 7-16) in this population. The median level of 25(OH)D3 was 27.15 (IQR, 19.31-38.89) nmol/L. Patients with lower serum 25(OH)D3 had prolonged time to viral clearance, more obvious inflammatory response, more severe respiratory symptoms and higher risks of impaired hepatic and renal function. Multiple regression analyses revealed that serum 25(OH)D3 level was negatively associated with TVRC independently. ROC curve showed the serum vitamin D level could predict the severity classification and prognosis of COVID-19 significantly.Conclusions: Serum 25(OH)D3 level is independently associated with the severity of COVID-19 in elderly, and it could be used as a predictor of the severity of COVID-19. In addition, supplementation with vitamin D might provide beneficial effects in old patients with COVID-19.",
+            "year": 2022,
+            "publication_date": "2022-12-25",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2301.02660v1",
+            "landing_url": "https://arxiv.org/abs/2301.02660v1",
+            "pdf_url": "https://arxiv.org/pdf/2301.02660v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2301.02660v1"
+            ]
+          },
+          "query_id": "arxiv-000011",
+          "rank": 1
+        }
+      ]
+    }
+  },
+  "seconds": 11.258520600000338,
+  "http_attempts": 2
+}

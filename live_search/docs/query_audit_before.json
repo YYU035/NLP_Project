@@ -1,0 +1,118 @@
+{
+  "captured_at_utc": "2026-10-30T08:50:37.886903+00:00",
+  "spacy_version": "3.8.18",
+  "examples": [
+    {
+      "domain": "biomedical",
+      "claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+      "before_queries": [
+        "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+        "\"results\" of \"this study\" show that \"expression\" of \"TNF-α\" does not increase \"risk\" of \"COVID-19\" in \"older adults\"."
+      ]
+    },
+    {
+      "domain": "immunology",
+      "claim": "The CRISPR-Cas9 system may reduce IL-6 in HER2+ cells.",
+      "before_queries": [
+        "The CRISPR-Cas9 system may reduce IL-6 in HER2+ cells.",
+        "\"CRISPR-Cas9 system\" may reduce \"IL-6\" in \"HER2+\" \"cells\"."
+      ]
+    },
+    {
+      "domain": "battery_engineering",
+      "claim": "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+      "before_queries": [
+        "In this study, we demonstrate that lithium-ion batteries retain 90% capacity after 500 cycles at -5 °C.",
+        "In \"this study\", we demonstrate that \"lithium-ion batteries\" retain \"90% capacity\" after \"500 cycles\" at -5 \"°C\"."
+      ]
+    },
+    {
+      "domain": "power_electronics",
+      "claim": "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+      "before_queries": [
+        "Our experiments show that the efficiency of SiC MOSFETs is not lower than that of silicon devices at 100 kHz.",
+        "\"Our experiments\" show that \"efficiency\" of \"SiC MOSFETs\" is not lower than that of \"silicon devices\" at \"100 kHz\"."
+      ]
+    },
+    {
+      "domain": "climate",
+      "claim": "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+      "before_queries": [
+        "This study demonstrates that elevated atmospheric CO2 concentrations increase ocean acidification in coastal waters.",
+        "\"This study\" demonstrates that \"elevated atmospheric CO2 concentrations\" increase \"ocean acidification\" in \"coastal waters\"."
+      ]
+    },
+    {
+      "domain": "astronomy",
+      "claim": "The presence of dark matter increases the rotational velocity of spiral galaxies.",
+      "before_queries": [
+        "The presence of dark matter increases the rotational velocity of spiral galaxies.",
+        "\"presence\" of \"dark matter\" increases \"rotational velocity\" of \"spiral galaxies\"."
+      ]
+    },
+    {
+      "domain": "agriculture",
+      "claim": "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+      "before_queries": [
+        "Experimental results show that deficit irrigation reduces water use without decreasing wheat yield under drought conditions.",
+        "\"Experimental results\" show that \"deficit irrigation\" reduces \"water use\" without decreasing \"wheat yield\" under \"drought conditions\"."
+      ]
+    },
+    {
+      "domain": "nutrition_uncertainty",
+      "claim": "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+      "before_queries": [
+        "Preliminary findings suggest that vitamin D supplementation may reduce respiratory infections in older adults.",
+        "\"Preliminary findings\" suggest that \"vitamin D supplementation\" may reduce \"respiratory infections\" in \"older adults\"."
+      ]
+    },
+    {
+      "domain": "computer_science",
+      "claim": "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+      "before_queries": [
+        "Our results show that graph neural networks improve molecular property prediction compared with random forests.",
+        "\"Our results\" show that \"graph neural networks\" improve \"molecular property prediction\" compared with \"random forests\"."
+      ]
+    },
+    {
+      "domain": "catalysis",
+      "claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+      "before_queries": [
+        "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+        "It has been demonstrated that \"platinum nanoparticles\" accelerate \"hydrogen evolution\" at \"25 °C\" in \"acidic solutions\"."
+      ]
+    },
+    {
+      "domain": "mathematics",
+      "claim": "Every continuous function on a compact interval is uniformly continuous.",
+      "before_queries": [
+        "Every continuous function on a compact interval is uniformly continuous.",
+        "\"Every continuous function\" on \"compact interval\" is uniformly continuous."
+      ]
+    },
+    {
+      "domain": "general_science",
+      "claim": "Exercise improves memory.",
+      "before_queries": [
+        "Exercise improves memory.",
+        "\"Exercise\" improves \"memory\"."
+      ]
+    },
+    {
+      "domain": "chemistry_numbers",
+      "claim": "At 1e-3 M, NaCl does not alter protein stability at pH 7.4.",
+      "before_queries": [
+        "At 1e-3 M, NaCl does not alter protein stability at pH 7.4.",
+        "At \"1e-3 M\", \"NaCl\" does not alter \"protein stability\" at \"pH\" \"7.4\"."
+      ]
+    },
+    {
+      "domain": "biomedical_population",
+      "claim": "This study shows that vitamin A supplementation does not reduce mortality in children under five years of age.",
+      "before_queries": [
+        "This study shows that vitamin A supplementation does not reduce mortality in children under five years of age.",
+        "\"This study\" shows that vitamin \"A supplementation\" does not reduce \"mortality\" in \"children\" \"under five years of age\"."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "original_claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+  "top_k": 10,
+  "limit_scope": "per_provider",
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "papers": [
+    {
+      "identity": "arxiv:2110.08006",
+      "identity_aliases": [
+        "arxiv:2110.08006",
+        "arxiv:http://arxiv.org/abs/2110.08006v1"
+      ],
+      "original_claim": "It has been demonstrated that platinum nanoparticles accelerate hydrogen evolution at 25 °C in acidic solutions.",
+      "paper": {
+        "title": "Magnetically collected platinum/nickel alloy nanoparticles -- insight into low noble metal content catalysts for hydrogen evolution reaction",
+        "authors": [
+          "Sebastian Ekeroth",
+          "Joakim Ekspong",
+          "Sachin Sharma",
+          "Robert Boyd",
+          "Nils Brenning",
+          "Eduardo Gracia-Espino",
+          "Ludvig Edman",
+          "Ulf Helmerssona",
+          "Thomas Wågberg"
+        ],
+        "abstract": "The hydrogen evolution reaction (HER) is a key process in electrochemical water splitting. To lower the cost and environmental impact of this process, it is highly motivated to develop electrocatalysts with low or no content of noble metals. Here we report on a novel and ingenious synthesis of hybrid PtxNi1-x electrocatalysts in the form of a nanoparticle-necklace structure named nanotrusses, with very low noble metal content. The nanotruss structure possesses important features, such as good conductivity, high surface area, strong interlinking and substrate adhesion, which renders for an excellent HER activity. Specifically, the best performing Pt0.05Ni0.95 sample, demonstrates a Tafel slope of 30 mV dec-1 in 0.5 M H2SO4, and an overpotential of 20 mV at a current density of 10 mA cm-2 with high stability. The impressive catalytic performance is further rationalized in a theoretical study, which provides insight into the mechanism for how such small platinum content can allow for close-to-optimal adsorption energies for hydrogen.",
+        "year": 2021,
+        "publication_date": "2021-10-15",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2110.08006v1",
+        "landing_url": "https://arxiv.org/abs/2110.08006v1",
+        "pdf_url": "https://arxiv.org/pdf/2110.08006v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2110.08006v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2110.08006v1",
+          "query_id": "arxiv-000014",
+          "rank": 1
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Magnetically collected platinum/nickel alloy nanoparticles -- insight into low noble metal content catalysts for hydrogen evolution reaction",
+          "authors": [
+            "Sebastian Ekeroth",
+            "Joakim Ekspong",
+            "Sachin Sharma",
+            "Robert Boyd",
+            "Nils Brenning",
+            "Eduardo Gracia-Espino",
+            "Ludvig Edman",
+            "Ulf Helmerssona",
+            "Thomas Wågberg"
+          ],
+          "abstract": "The hydrogen evolution reaction (HER) is a key process in electrochemical water splitting. To lower the cost and environmental impact of this process, it is highly motivated to develop electrocatalysts with low or no content of noble metals. Here we report on a novel and ingenious synthesis of hybrid PtxNi1-x electrocatalysts in the form of a nanoparticle-necklace structure named nanotrusses, with very low noble metal content. The nanotruss structure possesses important features, such as good conductivity, high surface area, strong interlinking and substrate adhesion, which renders for an excellent HER activity. Specifically, the best performing Pt0.05Ni0.95 sample, demonstrates a Tafel slope of 30 mV dec-1 in 0.5 M H2SO4, and an overpotential of 20 mV at a current density of 10 mA cm-2 with high stability. The impressive catalytic performance is further rationalized in a theoretical study, which provides insight into the mechanism for how such small platinum content can allow for close-to-optimal adsorption energies for hydrogen.",
+          "year": 2021,
+          "publication_date": "2021-10-15",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2110.08006v1",
+          "landing_url": "https://arxiv.org/abs/2110.08006v1",
+          "pdf_url": "https://arxiv.org/pdf/2110.08006v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2110.08006v1"
+          ]
+        }
+      ]
+    }
+  ],
+  "providers": {
+    "arxiv": {
+      "provider": "arxiv",
+      "status": "success",
+      "seconds": 5.823280099997646,
+      "error": null,
+      "queries": [
+        {
+          "id": "arxiv-000013",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "primary",
+          "query": "\"platinum nanoparticles\" \"hydrogen evolution\"",
+          "notes": [],
+          "status": "zero_results",
+          "returned": 0,
+          "seconds": 3.470325700000103,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:\"platinum nanoparticles\" AND all:\"hydrogen evolution\") AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 3.464417700000922,
+              "response_file": "responses/arxiv-000013-1.body",
+              "sha256": "cc686b83d1c414580b8537bcf07bbe337ca057fab5064cd900ccf95ad86b2e00"
+            }
+          ]
+        },
+        {
+          "id": "arxiv-000014",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "fallback_1",
+          "query": "platinum nanoparticles hydrogen evolution",
+          "notes": [
+            "required_terms_kept_phrase_order_relaxed"
+          ],
+          "status": "success",
+          "returned": 1,
+          "seconds": 2.3527748999986215,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:platinum AND all:nanoparticles AND all:hydrogen AND all:evolution) AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 2.303554100002657,
+              "response_file": "responses/arxiv-000014-1.body",
+              "sha256": "9aa4bb7ece3763fe38750af5a59d9a10be411e76c9c17cc4e2876c39f522ad51"
+            }
+          ]
+        }
+      ],
+      "records": [
+        {
+          "paper": {
+            "title": "Magnetically collected platinum/nickel alloy nanoparticles -- insight into low noble metal content catalysts for hydrogen evolution reaction",
+            "authors": [
+              "Sebastian Ekeroth",
+              "Joakim Ekspong",
+              "Sachin Sharma",
+              "Robert Boyd",
+              "Nils Brenning",
+              "Eduardo Gracia-Espino",
+              "Ludvig Edman",
+              "Ulf Helmerssona",
+              "Thomas Wågberg"
+            ],
+            "abstract": "The hydrogen evolution reaction (HER) is a key process in electrochemical water splitting. To lower the cost and environmental impact of this process, it is highly motivated to develop electrocatalysts with low or no content of noble metals. Here we report on a novel and ingenious synthesis of hybrid PtxNi1-x electrocatalysts in the form of a nanoparticle-necklace structure named nanotrusses, with very low noble metal content. The nanotruss structure possesses important features, such as good conductivity, high surface area, strong interlinking and substrate adhesion, which renders for an excellent HER activity. Specifically, the best performing Pt0.05Ni0.95 sample, demonstrates a Tafel slope of 30 mV dec-1 in 0.5 M H2SO4, and an overpotential of 20 mV at a current density of 10 mA cm-2 with high stability. The impressive catalytic performance is further rationalized in a theoretical study, which provides insight into the mechanism for how such small platinum content can allow for close-to-optimal adsorption energies for hydrogen.",
+            "year": 2021,
+            "publication_date": "2021-10-15",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2110.08006v1",
+            "landing_url": "https://arxiv.org/abs/2110.08006v1",
+            "pdf_url": "https://arxiv.org/pdf/2110.08006v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2110.08006v1"
+            ]
+          },
+          "query_id": "arxiv-000014",
+          "rank": 1
+        }
+      ]
+    }
+  },
+  "seconds": 5.823639499998535,
+  "http_attempts": 2
+}

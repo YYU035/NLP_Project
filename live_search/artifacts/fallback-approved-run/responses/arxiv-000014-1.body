@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VixyEa0k0N3GkYtFPP7bqNE6DGE</id>
+  <title>arXiv Query: search_query=(all:platinum AND all:nanoparticles AND all:hydrogen AND all:evolution) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T12:01:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:platinum+AND+(all:nanoparticles+AND+(all:hydrogen+AND+all:evolution)))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.08006v1</id>
+    <title>Magnetically collected platinum/nickel alloy nanoparticles -- insight into low noble metal content catalysts for hydrogen evolution reaction</title>
+    <updated>2021-10-15T11:03:41Z</updated>
+    <link href="https://arxiv.org/abs/2110.08006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.08006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hydrogen evolution reaction (HER) is a key process in electrochemical water splitting. To lower the cost and environmental impact of this process, it is highly motivated to develop electrocatalysts with low or no content of noble metals. Here we report on a novel and ingenious synthesis of hybrid PtxNi1-x electrocatalysts in the form of a nanoparticle-necklace structure named nanotrusses, with very low noble metal content. The nanotruss structure possesses important features, such as good conductivity, high surface area, strong interlinking and substrate adhesion, which renders for an excellent HER activity. Specifically, the best performing Pt0.05Ni0.95 sample, demonstrates a Tafel slope of 30 mV dec-1 in 0.5 M H2SO4, and an overpotential of 20 mV at a current density of 10 mA cm-2 with high stability. The impressive catalytic performance is further rationalized in a theoretical study, which provides insight into the mechanism for how such small platinum content can allow for close-to-optimal adsorption energies for hydrogen.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-15T11:03:41Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Sebastian Ekeroth</name>
+    </author>
+    <author>
+      <name>Joakim Ekspong</name>
+    </author>
+    <author>
+      <name>Sachin Sharma</name>
+    </author>
+    <author>
+      <name>Robert Boyd</name>
+    </author>
+    <author>
+      <name>Nils Brenning</name>
+    </author>
+    <author>
+      <name>Eduardo Gracia-Espino</name>
+    </author>
+    <author>
+      <name>Ludvig Edman</name>
+    </author>
+    <author>
+      <name>Ulf Helmerssona</name>
+    </author>
+    <author>
+      <name>Thomas Wågberg</name>
+    </author>
+  </entry>
+</feed>

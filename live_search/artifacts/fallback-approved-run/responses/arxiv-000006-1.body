@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xeL9Vw7Vi91H5/kWeU/wsZwsJIo</id>
+  <title>arXiv Query: search_query=(all:elevated AND all:atmospheric AND all:CO2 AND all:concentrations AND all:ocean AND all:acidification) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T12:00:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:elevated+AND+(all:atmospheric+AND+(all:CO2+AND+(all:concentrations+AND+(all:ocean+AND+all:acidification)))))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>0</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+</feed>

@@ -1,0 +1,850 @@
+{
+  "original_claim": "Exercise improves memory.",
+  "top_k": 10,
+  "limit_scope": "per_provider",
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "papers": [
+    {
+      "identity": "arxiv:2602.15879",
+      "identity_aliases": [
+        "arxiv:2602.15879",
+        "arxiv:http://arxiv.org/abs/2602.15879v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation",
+        "authors": [
+          "Qing Yang",
+          "Yuhao Jiang",
+          "Rui Wang",
+          "Jipeng Guo",
+          "Yejiang Wang",
+          "Xinghe Cheng",
+          "Zezheng Wu",
+          "Jiapu Wang",
+          "Jingwei Zhang"
+        ],
+        "abstract": "Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.",
+        "year": 2026,
+        "publication_date": "2026-02-03",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2602.15879v1",
+        "landing_url": "https://arxiv.org/abs/2602.15879v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.15879v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2602.15879v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2602.15879v1",
+          "query_id": "arxiv-000015",
+          "rank": 1
+        }
+      ],
+      "source_records": [
+        {
+          "title": "BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation",
+          "authors": [
+            "Qing Yang",
+            "Yuhao Jiang",
+            "Rui Wang",
+            "Jipeng Guo",
+            "Yejiang Wang",
+            "Xinghe Cheng",
+            "Zezheng Wu",
+            "Jiapu Wang",
+            "Jingwei Zhang"
+          ],
+          "abstract": "Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.",
+          "year": 2026,
+          "publication_date": "2026-02-03",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2602.15879v1",
+          "landing_url": "https://arxiv.org/abs/2602.15879v1",
+          "pdf_url": "https://arxiv.org/pdf/2602.15879v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2602.15879v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2609.28575",
+      "identity_aliases": [
+        "arxiv:2609.28575",
+        "arxiv:http://arxiv.org/abs/2609.28575v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+        "authors": [
+          "Subrat Panda"
+        ],
+        "abstract": "Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting outgoing drafts against the record, answering with current beliefs while preserving supersession history, and governing sensitive recall. The suite extends LoCoMo's corpora and harness, pairing every detect/block metric with a matched do-not-over-detect control: surface-matched hard negatives price false intervention, so no track can be gamed by flagging everything. The benchmark itself is validated first: independent, gold-blind double annotation with adjudication, judge decoy calibration, and a separability audit. On the human-validated Track B v1.0 key (161 items, post-adjudication kappa = 0.85), no tested configuration simultaneously achieves high contradiction recall, high hard-negative specificity, and high attribution: flat-RAG baselines detect 0.76-0.97 of true contradictions but falsely flag 16-43% of surface-matched safe drafts depending on backend, while a deployed coherence-oriented system almost never over-flags (0.98-1.00 specificity) yet catches 42% of true contradictions -- a trade-off no recall-only score can see. A 13-configuration baseline ladder localizes causes: every gold contradiction is detectable from its evidence alone (recall 1.000), calibrated models nearly solve the track given the full transcript -- consistent with substantial retrieval-coverage gaps -- and draft-only floors reveal model-dependent style priors. A system's TWIST profile, beside its recall score, measures whether memory knows when to intervene and when not to.",
+        "year": 2026,
+        "publication_date": "2026-09-23",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2609.28575v1",
+        "landing_url": "https://arxiv.org/abs/2609.28575v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.28575v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2609.28575v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2609.28575v1",
+          "query_id": "arxiv-000015",
+          "rank": 2
+        }
+      ],
+      "source_records": [
+        {
+          "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+          "authors": [
+            "Subrat Panda"
+          ],
+          "abstract": "Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting outgoing drafts against the record, answering with current beliefs while preserving supersession history, and governing sensitive recall. The suite extends LoCoMo's corpora and harness, pairing every detect/block metric with a matched do-not-over-detect control: surface-matched hard negatives price false intervention, so no track can be gamed by flagging everything. The benchmark itself is validated first: independent, gold-blind double annotation with adjudication, judge decoy calibration, and a separability audit. On the human-validated Track B v1.0 key (161 items, post-adjudication kappa = 0.85), no tested configuration simultaneously achieves high contradiction recall, high hard-negative specificity, and high attribution: flat-RAG baselines detect 0.76-0.97 of true contradictions but falsely flag 16-43% of surface-matched safe drafts depending on backend, while a deployed coherence-oriented system almost never over-flags (0.98-1.00 specificity) yet catches 42% of true contradictions -- a trade-off no recall-only score can see. A 13-configuration baseline ladder localizes causes: every gold contradiction is detectable from its evidence alone (recall 1.000), calibrated models nearly solve the track given the full transcript -- consistent with substantial retrieval-coverage gaps -- and draft-only floors reveal model-dependent style priors. A system's TWIST profile, beside its recall score, measures whether memory knows when to intervene and when not to.",
+          "year": 2026,
+          "publication_date": "2026-09-23",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2609.28575v1",
+          "landing_url": "https://arxiv.org/abs/2609.28575v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.28575v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2609.28575v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2102.10034",
+      "identity_aliases": [
+        "arxiv:2102.10034",
+        "arxiv:http://arxiv.org/abs/2102.10034v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Continual Learning from Synthetic Data for a Humanoid Exercise Robot",
+        "authors": [
+          "Nicolas Duczek",
+          "Matthias Kerzel",
+          "Stefan Wermter"
+        ],
+        "abstract": "In order to detect and correct physical exercises, a Grow-When-Required Network (GWR) with recurrent connections, episodic memory and a novel subnode mechanism is developed in order to learn spatiotemporal relationships of body movements and poses. Once an exercise is performed, the information of pose and movement per frame is stored in the GWR. For every frame, the current pose and motion pair is compared against a predicted output of the GWR, allowing for feedback not only on the pose but also on the velocity of the motion. In a practical scenario, a physical exercise is performed by an expert like a physiotherapist and then used as a reference for a humanoid robot like Pepper to give feedback on a patient's execution of the same exercise. This approach, however, comes with two challenges. First, the distance from the humanoid robot and the position of the user in the camera's view of the humanoid robot have to be considered by the GWR as well, requiring a robustness against the user's positioning in the field of view of the humanoid robot. Second, since both the pose and motion are dependent on the body measurements of the original performer, the expert's exercise cannot be easily used as a reference. This paper tackles the first challenge by designing an architecture that allows for tolerances in translation and rotations regarding the center of the field of view. For the second challenge, we allow the GWR to grow online on incremental data. For evaluation, we created a novel exercise dataset with virtual avatars called the Virtual-Squat dataset. Overall, we claim that our novel architecture based on the GWR can use a learned exercise reference for different body variations through continual online learning, while preventing catastrophic forgetting, enabling for an engaging long-term human-robot interaction with a humanoid robot.",
+        "year": 2021,
+        "publication_date": "2021-02-19",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2102.10034v1",
+        "landing_url": "https://arxiv.org/abs/2102.10034v1",
+        "pdf_url": "https://arxiv.org/pdf/2102.10034v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2102.10034v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2102.10034v1",
+          "query_id": "arxiv-000015",
+          "rank": 3
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Continual Learning from Synthetic Data for a Humanoid Exercise Robot",
+          "authors": [
+            "Nicolas Duczek",
+            "Matthias Kerzel",
+            "Stefan Wermter"
+          ],
+          "abstract": "In order to detect and correct physical exercises, a Grow-When-Required Network (GWR) with recurrent connections, episodic memory and a novel subnode mechanism is developed in order to learn spatiotemporal relationships of body movements and poses. Once an exercise is performed, the information of pose and movement per frame is stored in the GWR. For every frame, the current pose and motion pair is compared against a predicted output of the GWR, allowing for feedback not only on the pose but also on the velocity of the motion. In a practical scenario, a physical exercise is performed by an expert like a physiotherapist and then used as a reference for a humanoid robot like Pepper to give feedback on a patient's execution of the same exercise. This approach, however, comes with two challenges. First, the distance from the humanoid robot and the position of the user in the camera's view of the humanoid robot have to be considered by the GWR as well, requiring a robustness against the user's positioning in the field of view of the humanoid robot. Second, since both the pose and motion are dependent on the body measurements of the original performer, the expert's exercise cannot be easily used as a reference. This paper tackles the first challenge by designing an architecture that allows for tolerances in translation and rotations regarding the center of the field of view. For the second challenge, we allow the GWR to grow online on incremental data. For evaluation, we created a novel exercise dataset with virtual avatars called the Virtual-Squat dataset. Overall, we claim that our novel architecture based on the GWR can use a learned exercise reference for different body variations through continual online learning, while preventing catastrophic forgetting, enabling for an engaging long-term human-robot interaction with a humanoid robot.",
+          "year": 2021,
+          "publication_date": "2021-02-19",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2102.10034v1",
+          "landing_url": "https://arxiv.org/abs/2102.10034v1",
+          "pdf_url": "https://arxiv.org/pdf/2102.10034v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2102.10034v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2411.11548",
+      "identity_aliases": [
+        "arxiv:2411.11548",
+        "arxiv:http://arxiv.org/abs/2411.11548v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Real-Time Fitness Exercise Classification and Counting from Video Frames",
+        "authors": [
+          "Riccardo Riccio"
+        ],
+        "abstract": "This paper introduces a novel method for real-time exercise classification using a Bidirectional Long Short-Term Memory (BiLSTM) neural network. Existing exercise recognition approaches often rely on synthetic datasets, raw coordinate inputs sensitive to user and camera variations, and fail to fully exploit the temporal dependencies in exercise movements. These issues limit their generalizability and robustness in real-world conditions, where lighting, camera angles, and user body types vary. To address these challenges, we propose a BiLSTM-based model that leverages invariant features, such as joint angles, alongside raw coordinates. By using both angles and (x, y, z) coordinates, the model adapts to changes in perspective, user positioning, and body differences, improving generalization. Training on 30-frame sequences enables the BiLSTM to capture the temporal context of exercises and recognize patterns evolving over time. We compiled a dataset combining synthetic data from the InfiniteRep dataset and real-world videos from Kaggle and other sources. This dataset includes four common exercises: squat, push-up, shoulder press, and bicep curl. The model was trained and validated on these diverse datasets, achieving an accuracy of over 99% on the test set. To assess generalizability, the model was tested on 2 separate test sets representative of typical usage conditions. Comparisons with the previous approach from the literature are present in the result section showing that the proposed model is the best-performing one. The classifier is integrated into a web application providing real-time exercise classification and repetition counting without manual exercise selection. Demo and datasets are available at the following GitHub Repository: https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting.",
+        "year": 2024,
+        "publication_date": "2024-11-18",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2411.11548v1",
+        "landing_url": "https://arxiv.org/abs/2411.11548v1",
+        "pdf_url": "https://arxiv.org/pdf/2411.11548v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2411.11548v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2411.11548v1",
+          "query_id": "arxiv-000015",
+          "rank": 4
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Real-Time Fitness Exercise Classification and Counting from Video Frames",
+          "authors": [
+            "Riccardo Riccio"
+          ],
+          "abstract": "This paper introduces a novel method for real-time exercise classification using a Bidirectional Long Short-Term Memory (BiLSTM) neural network. Existing exercise recognition approaches often rely on synthetic datasets, raw coordinate inputs sensitive to user and camera variations, and fail to fully exploit the temporal dependencies in exercise movements. These issues limit their generalizability and robustness in real-world conditions, where lighting, camera angles, and user body types vary. To address these challenges, we propose a BiLSTM-based model that leverages invariant features, such as joint angles, alongside raw coordinates. By using both angles and (x, y, z) coordinates, the model adapts to changes in perspective, user positioning, and body differences, improving generalization. Training on 30-frame sequences enables the BiLSTM to capture the temporal context of exercises and recognize patterns evolving over time. We compiled a dataset combining synthetic data from the InfiniteRep dataset and real-world videos from Kaggle and other sources. This dataset includes four common exercises: squat, push-up, shoulder press, and bicep curl. The model was trained and validated on these diverse datasets, achieving an accuracy of over 99% on the test set. To assess generalizability, the model was tested on 2 separate test sets representative of typical usage conditions. Comparisons with the previous approach from the literature are present in the result section showing that the proposed model is the best-performing one. The classifier is integrated into a web application providing real-time exercise classification and repetition counting without manual exercise selection. Demo and datasets are available at the following GitHub Repository: https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting.",
+          "year": 2024,
+          "publication_date": "2024-11-18",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2411.11548v1",
+          "landing_url": "https://arxiv.org/abs/2411.11548v1",
+          "pdf_url": "https://arxiv.org/pdf/2411.11548v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2411.11548v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2608.12476",
+      "identity_aliases": [
+        "arxiv:2608.12476",
+        "arxiv:http://arxiv.org/abs/2608.12476v2"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+        "authors": [
+          "Guodong Xu"
+        ],
+        "abstract": "Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-revival after retraction or deletion, and exact claim closure over a fresh view at one verified head. On a prespecified hash-frozen 3,600-case GPM-ReleaseBench, GPM matches all complete outcomes; the strongest of three intentionally simple complete policies matches 1,800/3,600 and makes unmatched releases on 50% of violation cases. A separate sealed end-to-end service evaluation exercises real ingestion and release across eight query families. In its publicly disclosed V3 arm, the governed lane is correct on 2,400/2,400 clusters versus 600/2,400 for ungoverned local Qwen2.5-7B; it repairs all 1,800 baseline failures with no regression (one-sided 95% lower bounds 99.875% and 99.834%). A later V5 reseal over Chinese- and English-command arms, with generation-date pinning and no post-freeze reducer amendment, again obtains 2,400/2,400 per arm. A production-code-independent finite model explores 331,776 semantic and 1,990,656 query states without a full-contract counterexample, and a 100,000-trace three-engine differential yields zero mismatches. These are bounded contract and implementation results, not open-world model accuracy or evidence of world truth. Governed answers in the sealed service evaluation are deterministic service outputs; the 7B result is the ungoverned comparison, not a claim that a language model itself became perfectly accurate.",
+        "year": 2026,
+        "publication_date": "2026-08-12",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2608.12476v2",
+        "landing_url": "https://arxiv.org/abs/2608.12476v2",
+        "pdf_url": "https://arxiv.org/pdf/2608.12476v2",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2608.12476v2"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2608.12476v2",
+          "query_id": "arxiv-000015",
+          "rank": 5
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+          "authors": [
+            "Guodong Xu"
+          ],
+          "abstract": "Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-revival after retraction or deletion, and exact claim closure over a fresh view at one verified head. On a prespecified hash-frozen 3,600-case GPM-ReleaseBench, GPM matches all complete outcomes; the strongest of three intentionally simple complete policies matches 1,800/3,600 and makes unmatched releases on 50% of violation cases. A separate sealed end-to-end service evaluation exercises real ingestion and release across eight query families. In its publicly disclosed V3 arm, the governed lane is correct on 2,400/2,400 clusters versus 600/2,400 for ungoverned local Qwen2.5-7B; it repairs all 1,800 baseline failures with no regression (one-sided 95% lower bounds 99.875% and 99.834%). A later V5 reseal over Chinese- and English-command arms, with generation-date pinning and no post-freeze reducer amendment, again obtains 2,400/2,400 per arm. A production-code-independent finite model explores 331,776 semantic and 1,990,656 query states without a full-contract counterexample, and a 100,000-trace three-engine differential yields zero mismatches. These are bounded contract and implementation results, not open-world model accuracy or evidence of world truth. Governed answers in the sealed service evaluation are deterministic service outputs; the 7B result is the ungoverned comparison, not a claim that a language model itself became perfectly accurate.",
+          "year": 2026,
+          "publication_date": "2026-08-12",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2608.12476v2",
+          "landing_url": "https://arxiv.org/abs/2608.12476v2",
+          "pdf_url": "https://arxiv.org/pdf/2608.12476v2",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2608.12476v2"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "doi:10.1186/s12917-026-05614-5",
+      "identity_aliases": [
+        "arxiv:2508.02349",
+        "arxiv:http://arxiv.org/abs/2508.02349v2",
+        "doi:10.1186/s12917-026-05614-5"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Detecting and measuring respiratory events in horses during exercise with a microphone: deep learning vs. standard signal processing",
+        "authors": [
+          "Jeanne I. M. Parmentier",
+          "Rhana M. Aarts",
+          "Elin Hernlund",
+          "Marie Rhodin",
+          "Berend Jan van der Zwaag"
+        ],
+        "abstract": "Monitoring respiration parameters such as respiratory rate could be beneficial to understand the impact of training on equine health and performance and ultimately improve equine welfare. In this work, we compare deep learning-based methods to an adapted signal processing method to automatically detect cyclic respiratory events and extract the dynamic respiratory rate from microphone recordings during high intensity exercise in Standardbred trotters. Our deep learning models are able to detect exhalation sounds (median F1 score of 0.94) in noisy microphone signals and show promising results on unlabelled signals at lower exercising intensity, where the exhalation sounds are less recognisable. Temporal convolutional networks were better at detecting exhalation events and estimating dynamic respiratory rates (median F1: 0.94, Mean Absolute Error (MAE) $\\pm$ Confidence Intervals (CI): 1.44$\\pm$1.04 bpm, Limits Of Agreements (LOA): 0.63$\\pm$7.06 bpm) than long short-term memory networks (median F1: 0.90, MAE$\\pm$CI: 3.11$\\pm$1.58 bpm) and signal processing methods (MAE$\\pm$CI: 2.36$\\pm$1.11 bpm). This work is the first to automatically detect equine respiratory sounds and automatically compute dynamic respiratory rates in exercising horses. In the future, our models will be validated on lower exercising intensity sounds and different microphone placements will be evaluated in order to find the best combination for regular monitoring.",
+        "year": 2025,
+        "publication_date": "2025-08-04",
+        "doi": "https://doi.org/10.1186/s12917-026-05614-5",
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2508.02349v2",
+        "landing_url": "https://arxiv.org/abs/2508.02349v2",
+        "pdf_url": "https://arxiv.org/pdf/2508.02349v2",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2508.02349v2"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2508.02349v2",
+          "query_id": "arxiv-000015",
+          "rank": 6
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Detecting and measuring respiratory events in horses during exercise with a microphone: deep learning vs. standard signal processing",
+          "authors": [
+            "Jeanne I. M. Parmentier",
+            "Rhana M. Aarts",
+            "Elin Hernlund",
+            "Marie Rhodin",
+            "Berend Jan van der Zwaag"
+          ],
+          "abstract": "Monitoring respiration parameters such as respiratory rate could be beneficial to understand the impact of training on equine health and performance and ultimately improve equine welfare. In this work, we compare deep learning-based methods to an adapted signal processing method to automatically detect cyclic respiratory events and extract the dynamic respiratory rate from microphone recordings during high intensity exercise in Standardbred trotters. Our deep learning models are able to detect exhalation sounds (median F1 score of 0.94) in noisy microphone signals and show promising results on unlabelled signals at lower exercising intensity, where the exhalation sounds are less recognisable. Temporal convolutional networks were better at detecting exhalation events and estimating dynamic respiratory rates (median F1: 0.94, Mean Absolute Error (MAE) $\\pm$ Confidence Intervals (CI): 1.44$\\pm$1.04 bpm, Limits Of Agreements (LOA): 0.63$\\pm$7.06 bpm) than long short-term memory networks (median F1: 0.90, MAE$\\pm$CI: 3.11$\\pm$1.58 bpm) and signal processing methods (MAE$\\pm$CI: 2.36$\\pm$1.11 bpm). This work is the first to automatically detect equine respiratory sounds and automatically compute dynamic respiratory rates in exercising horses. In the future, our models will be validated on lower exercising intensity sounds and different microphone placements will be evaluated in order to find the best combination for regular monitoring.",
+          "year": 2025,
+          "publication_date": "2025-08-04",
+          "doi": "https://doi.org/10.1186/s12917-026-05614-5",
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2508.02349v2",
+          "landing_url": "https://arxiv.org/abs/2508.02349v2",
+          "pdf_url": "https://arxiv.org/pdf/2508.02349v2",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2508.02349v2"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2503.09079",
+      "identity_aliases": [
+        "arxiv:2503.09079",
+        "arxiv:http://arxiv.org/abs/2503.09079v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "The effect of intelligent monitoring of physical exercise on executive function in children with ADHD",
+        "authors": [
+          "Liwen Lin",
+          "Nan Lib",
+          "Shuchen Zhao"
+        ],
+        "abstract": "Children with ADHD often struggle with executive function (EF) and motor skills, impacting their academics and social life. While medications are commonly used, they have side effects, leading to interest in non-drug treatments. Physical activity (PA) has shown promise in improving cognitive and motor skills in children with ADHD. This study examined the short- and long-term effects of three PA interventions: a specific skill training group (EG1), a low-demand exercise group (EG2), and a control group (CG) over 12 weeks. EG1 showed significant improvements in motor tasks and working memory (15\\% improvement, p<0.05), while EG2 and CG showed smaller changes. Long-term PA improved working memory, but short-term PA had limited effects on balance and manual dexterity. These findings suggest that skill training has an immediate impact on motor performance, while more complex motor skills require longer interventions. Smart devices tracked progress, confirming sustained engagement and improvement in EG1. This research highlights PA as a promising non-pharmacological treatment for ADHD, warranting further exploration of its effects on other cognitive domains.",
+        "year": 2025,
+        "publication_date": "2025-03-12",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2503.09079v1",
+        "landing_url": "https://arxiv.org/abs/2503.09079v1",
+        "pdf_url": "https://arxiv.org/pdf/2503.09079v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2503.09079v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2503.09079v1",
+          "query_id": "arxiv-000015",
+          "rank": 7
+        }
+      ],
+      "source_records": [
+        {
+          "title": "The effect of intelligent monitoring of physical exercise on executive function in children with ADHD",
+          "authors": [
+            "Liwen Lin",
+            "Nan Lib",
+            "Shuchen Zhao"
+          ],
+          "abstract": "Children with ADHD often struggle with executive function (EF) and motor skills, impacting their academics and social life. While medications are commonly used, they have side effects, leading to interest in non-drug treatments. Physical activity (PA) has shown promise in improving cognitive and motor skills in children with ADHD. This study examined the short- and long-term effects of three PA interventions: a specific skill training group (EG1), a low-demand exercise group (EG2), and a control group (CG) over 12 weeks. EG1 showed significant improvements in motor tasks and working memory (15\\% improvement, p<0.05), while EG2 and CG showed smaller changes. Long-term PA improved working memory, but short-term PA had limited effects on balance and manual dexterity. These findings suggest that skill training has an immediate impact on motor performance, while more complex motor skills require longer interventions. Smart devices tracked progress, confirming sustained engagement and improvement in EG1. This research highlights PA as a promising non-pharmacological treatment for ADHD, warranting further exploration of its effects on other cognitive domains.",
+          "year": 2025,
+          "publication_date": "2025-03-12",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2503.09079v1",
+          "landing_url": "https://arxiv.org/abs/2503.09079v1",
+          "pdf_url": "https://arxiv.org/pdf/2503.09079v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2503.09079v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2507.00032",
+      "identity_aliases": [
+        "arxiv:2507.00032",
+        "arxiv:http://arxiv.org/abs/2507.00032v2"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Ken Utilization Layer: Hebbian Replay Within a Student's Ken for Adaptive Exercise Recommendation",
+        "authors": [
+          "Grey Kuling",
+          "Marinka Zitnik"
+        ],
+        "abstract": "Adaptive exercise recommendation (ER) aims to choose the next activity that matches a learner's evolving Zone of Proximal Development (ZPD). We present KUL-Rec, a biologically inspired ER system that couples a fast Hebbian memory with slow replay-based consolidation to enable continual, few-shot personalization from sparse interactions. The model operates in an embedding space, allowing a single architecture to handle both tabular knowledge-tracing logs and open-ended short-answer text. We align evaluation with tutoring needs using bidirectional ranking and rank-sensitive metrics (nDCG, Recall@K). Across ten public datasets, KUL-Rec improves macro nDCG (0.316 vs. 0.265 for the strongest baseline) and Recall@10 (0.305 vs. 0.211), while achieving low inference latency and an $\\approx99$\\% reduction in peak GPU memory relative to a competitive graph-based model. In a 13-week graduate course, KUL-Rec personalized weekly short-answer quizzes generated by a retrieval-augmented pipeline and the personalized quizzes were associated with lower perceived difficulty and higher helpfulness (p < .05). An embedding robustness audit highlights that encoder choice affects semantic alignment, motivating routine audits when deploying open-response assessment. Together, these results indicate that Hebbian replay with bounded consolidation offers a practical path to real-time, interpretable ER that scales across data modalities and classroom settings.",
+        "year": 2025,
+        "publication_date": "2025-06-18",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2507.00032v2",
+        "landing_url": "https://arxiv.org/abs/2507.00032v2",
+        "pdf_url": "https://arxiv.org/pdf/2507.00032v2",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2507.00032v2"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2507.00032v2",
+          "query_id": "arxiv-000015",
+          "rank": 8
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Ken Utilization Layer: Hebbian Replay Within a Student's Ken for Adaptive Exercise Recommendation",
+          "authors": [
+            "Grey Kuling",
+            "Marinka Zitnik"
+          ],
+          "abstract": "Adaptive exercise recommendation (ER) aims to choose the next activity that matches a learner's evolving Zone of Proximal Development (ZPD). We present KUL-Rec, a biologically inspired ER system that couples a fast Hebbian memory with slow replay-based consolidation to enable continual, few-shot personalization from sparse interactions. The model operates in an embedding space, allowing a single architecture to handle both tabular knowledge-tracing logs and open-ended short-answer text. We align evaluation with tutoring needs using bidirectional ranking and rank-sensitive metrics (nDCG, Recall@K). Across ten public datasets, KUL-Rec improves macro nDCG (0.316 vs. 0.265 for the strongest baseline) and Recall@10 (0.305 vs. 0.211), while achieving low inference latency and an $\\approx99$\\% reduction in peak GPU memory relative to a competitive graph-based model. In a 13-week graduate course, KUL-Rec personalized weekly short-answer quizzes generated by a retrieval-augmented pipeline and the personalized quizzes were associated with lower perceived difficulty and higher helpfulness (p < .05). An embedding robustness audit highlights that encoder choice affects semantic alignment, motivating routine audits when deploying open-response assessment. Together, these results indicate that Hebbian replay with bounded consolidation offers a practical path to real-time, interpretable ER that scales across data modalities and classroom settings.",
+          "year": 2025,
+          "publication_date": "2025-06-18",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2507.00032v2",
+          "landing_url": "https://arxiv.org/abs/2507.00032v2",
+          "pdf_url": "https://arxiv.org/pdf/2507.00032v2",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2507.00032v2"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "arxiv:2508.08122",
+      "identity_aliases": [
+        "arxiv:2508.08122",
+        "arxiv:http://arxiv.org/abs/2508.08122v1"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "MemoryKT: An Integrative Memory-and-Forgetting Method for Knowledge Tracing",
+        "authors": [
+          "Mingrong Lin",
+          "Ke Deng",
+          "Zhengyang Wu",
+          "Zetao Zheng",
+          "Jie Li"
+        ],
+        "abstract": "Knowledge Tracing (KT) is committed to capturing students' knowledge mastery from their historical interactions. Simulating students' memory states is a promising approach to enhance both the performance and interpretability of knowledge tracing models. Memory consists of three fundamental processes: encoding, storage, and retrieval. Although forgetting primarily manifests during the storage stage, most existing studies rely on a single, undifferentiated forgetting mechanism, overlooking other memory processes as well as personalized forgetting patterns. To address this, this paper proposes memoryKT, a knowledge tracing model based on a novel temporal variational autoencoder. The model simulates memory dynamics through a three-stage process: (i) Learning the distribution of students' knowledge memory features, (ii) Reconstructing their exercise feedback, while (iii) Embedding a personalized forgetting module within the temporal workflow to dynamically modulate memory storage strength. This jointly models the complete encoding-storage-retrieval cycle, significantly enhancing the model's perception capability for individual differences. Extensive experiments on four public datasets demonstrate that our proposed approach significantly outperforms state-of-the-art baselines.",
+        "year": 2025,
+        "publication_date": "2025-08-11",
+        "doi": null,
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2508.08122v1",
+        "landing_url": "https://arxiv.org/abs/2508.08122v1",
+        "pdf_url": "https://arxiv.org/pdf/2508.08122v1",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2508.08122v1"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2508.08122v1",
+          "query_id": "arxiv-000015",
+          "rank": 9
+        }
+      ],
+      "source_records": [
+        {
+          "title": "MemoryKT: An Integrative Memory-and-Forgetting Method for Knowledge Tracing",
+          "authors": [
+            "Mingrong Lin",
+            "Ke Deng",
+            "Zhengyang Wu",
+            "Zetao Zheng",
+            "Jie Li"
+          ],
+          "abstract": "Knowledge Tracing (KT) is committed to capturing students' knowledge mastery from their historical interactions. Simulating students' memory states is a promising approach to enhance both the performance and interpretability of knowledge tracing models. Memory consists of three fundamental processes: encoding, storage, and retrieval. Although forgetting primarily manifests during the storage stage, most existing studies rely on a single, undifferentiated forgetting mechanism, overlooking other memory processes as well as personalized forgetting patterns. To address this, this paper proposes memoryKT, a knowledge tracing model based on a novel temporal variational autoencoder. The model simulates memory dynamics through a three-stage process: (i) Learning the distribution of students' knowledge memory features, (ii) Reconstructing their exercise feedback, while (iii) Embedding a personalized forgetting module within the temporal workflow to dynamically modulate memory storage strength. This jointly models the complete encoding-storage-retrieval cycle, significantly enhancing the model's perception capability for individual differences. Extensive experiments on four public datasets demonstrate that our proposed approach significantly outperforms state-of-the-art baselines.",
+          "year": 2025,
+          "publication_date": "2025-08-11",
+          "doi": null,
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2508.08122v1",
+          "landing_url": "https://arxiv.org/abs/2508.08122v1",
+          "pdf_url": "https://arxiv.org/pdf/2508.08122v1",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2508.08122v1"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "doi:10.1103/physrevd.106.104057",
+      "identity_aliases": [
+        "arxiv:2207.00226",
+        "arxiv:http://arxiv.org/abs/2207.00226v2",
+        "doi:10.1103/physrevd.106.104057"
+      ],
+      "original_claim": "Exercise improves memory.",
+      "paper": {
+        "title": "Gravitational wave memory in wormhole spacetimes",
+        "authors": [
+          "Indranil Chakraborty",
+          "Soumya Bhattacharya",
+          "Sumanta Chakraborty"
+        ],
+        "abstract": "Gravitational wave memory is studied in the context of a certain class of braneworld wormholes. Unlike other wormhole geometries, this novel class of wormholes do not require any exotic matter fields for its traversability. First, we study geodesics in this wormhole spacetime, in the presence of a gravitational wave pulse. The resulting evolution of the geodesic separation shows the presence of displacement and velocity memory effects. Motivated by the same, we study the memory effects at null infinity using the Bondi-Sachs formalism, adapted for braneworld wormhole. Our analysis provides a non-trivial change of the Bondi mass after the passage of a burst of gravitational radiation and hence manifests the memory effect at null infinity. In both of these exercises, the presence of extra dimension and the wormhole nature of the spacetime geometry gets imprinted in the memory effect. Since future gravitational wave detectors will be able to probe the memory effect, the present work provides another avenue to search for compact objects other than black holes.",
+        "year": 2022,
+        "publication_date": "2022-07-01",
+        "doi": "https://doi.org/10.1103/PhysRevD.106.104057",
+        "source": "arxiv",
+        "source_id": "http://arxiv.org/abs/2207.00226v2",
+        "landing_url": "https://arxiv.org/abs/2207.00226v2",
+        "pdf_url": "https://arxiv.org/pdf/2207.00226v2",
+        "pdf_urls": [
+          "https://arxiv.org/pdf/2207.00226v2"
+        ]
+      },
+      "provenance": [
+        {
+          "provider": "arxiv",
+          "source_id": "http://arxiv.org/abs/2207.00226v2",
+          "query_id": "arxiv-000015",
+          "rank": 10
+        }
+      ],
+      "source_records": [
+        {
+          "title": "Gravitational wave memory in wormhole spacetimes",
+          "authors": [
+            "Indranil Chakraborty",
+            "Soumya Bhattacharya",
+            "Sumanta Chakraborty"
+          ],
+          "abstract": "Gravitational wave memory is studied in the context of a certain class of braneworld wormholes. Unlike other wormhole geometries, this novel class of wormholes do not require any exotic matter fields for its traversability. First, we study geodesics in this wormhole spacetime, in the presence of a gravitational wave pulse. The resulting evolution of the geodesic separation shows the presence of displacement and velocity memory effects. Motivated by the same, we study the memory effects at null infinity using the Bondi-Sachs formalism, adapted for braneworld wormhole. Our analysis provides a non-trivial change of the Bondi mass after the passage of a burst of gravitational radiation and hence manifests the memory effect at null infinity. In both of these exercises, the presence of extra dimension and the wormhole nature of the spacetime geometry gets imprinted in the memory effect. Since future gravitational wave detectors will be able to probe the memory effect, the present work provides another avenue to search for compact objects other than black holes.",
+          "year": 2022,
+          "publication_date": "2022-07-01",
+          "doi": "https://doi.org/10.1103/PhysRevD.106.104057",
+          "source": "arxiv",
+          "source_id": "http://arxiv.org/abs/2207.00226v2",
+          "landing_url": "https://arxiv.org/abs/2207.00226v2",
+          "pdf_url": "https://arxiv.org/pdf/2207.00226v2",
+          "pdf_urls": [
+            "https://arxiv.org/pdf/2207.00226v2"
+          ]
+        }
+      ]
+    }
+  ],
+  "providers": {
+    "arxiv": {
+      "provider": "arxiv",
+      "status": "success",
+      "seconds": 4.80202090000239,
+      "error": null,
+      "queries": [
+        {
+          "id": "arxiv-000015",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "primary",
+          "query": "\"Exercise\" \"memory\"",
+          "notes": [],
+          "status": "success",
+          "returned": 10,
+          "seconds": 4.801813400001265,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:Exercise AND all:memory) AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 4.142158900001959,
+              "response_file": "responses/arxiv-000015-1.body",
+              "sha256": "79e4e9e1c677ee072815d2b8bdb620f522d7e12b5b82831e196a85205b36a620"
+            }
+          ]
+        }
+      ],
+      "records": [
+        {
+          "paper": {
+            "title": "BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation",
+            "authors": [
+              "Qing Yang",
+              "Yuhao Jiang",
+              "Rui Wang",
+              "Jipeng Guo",
+              "Yejiang Wang",
+              "Xinghe Cheng",
+              "Zezheng Wu",
+              "Jiapu Wang",
+              "Jingwei Zhang"
+            ],
+            "abstract": "Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.",
+            "year": 2026,
+            "publication_date": "2026-02-03",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2602.15879v1",
+            "landing_url": "https://arxiv.org/abs/2602.15879v1",
+            "pdf_url": "https://arxiv.org/pdf/2602.15879v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2602.15879v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 1
+        },
+        {
+          "paper": {
+            "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+            "authors": [
+              "Subrat Panda"
+            ],
+            "abstract": "Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting outgoing drafts against the record, answering with current beliefs while preserving supersession history, and governing sensitive recall. The suite extends LoCoMo's corpora and harness, pairing every detect/block metric with a matched do-not-over-detect control: surface-matched hard negatives price false intervention, so no track can be gamed by flagging everything. The benchmark itself is validated first: independent, gold-blind double annotation with adjudication, judge decoy calibration, and a separability audit. On the human-validated Track B v1.0 key (161 items, post-adjudication kappa = 0.85), no tested configuration simultaneously achieves high contradiction recall, high hard-negative specificity, and high attribution: flat-RAG baselines detect 0.76-0.97 of true contradictions but falsely flag 16-43% of surface-matched safe drafts depending on backend, while a deployed coherence-oriented system almost never over-flags (0.98-1.00 specificity) yet catches 42% of true contradictions -- a trade-off no recall-only score can see. A 13-configuration baseline ladder localizes causes: every gold contradiction is detectable from its evidence alone (recall 1.000), calibrated models nearly solve the track given the full transcript -- consistent with substantial retrieval-coverage gaps -- and draft-only floors reveal model-dependent style priors. A system's TWIST profile, beside its recall score, measures whether memory knows when to intervene and when not to.",
+            "year": 2026,
+            "publication_date": "2026-09-23",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2609.28575v1",
+            "landing_url": "https://arxiv.org/abs/2609.28575v1",
+            "pdf_url": "https://arxiv.org/pdf/2609.28575v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2609.28575v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 2
+        },
+        {
+          "paper": {
+            "title": "Continual Learning from Synthetic Data for a Humanoid Exercise Robot",
+            "authors": [
+              "Nicolas Duczek",
+              "Matthias Kerzel",
+              "Stefan Wermter"
+            ],
+            "abstract": "In order to detect and correct physical exercises, a Grow-When-Required Network (GWR) with recurrent connections, episodic memory and a novel subnode mechanism is developed in order to learn spatiotemporal relationships of body movements and poses. Once an exercise is performed, the information of pose and movement per frame is stored in the GWR. For every frame, the current pose and motion pair is compared against a predicted output of the GWR, allowing for feedback not only on the pose but also on the velocity of the motion. In a practical scenario, a physical exercise is performed by an expert like a physiotherapist and then used as a reference for a humanoid robot like Pepper to give feedback on a patient's execution of the same exercise. This approach, however, comes with two challenges. First, the distance from the humanoid robot and the position of the user in the camera's view of the humanoid robot have to be considered by the GWR as well, requiring a robustness against the user's positioning in the field of view of the humanoid robot. Second, since both the pose and motion are dependent on the body measurements of the original performer, the expert's exercise cannot be easily used as a reference. This paper tackles the first challenge by designing an architecture that allows for tolerances in translation and rotations regarding the center of the field of view. For the second challenge, we allow the GWR to grow online on incremental data. For evaluation, we created a novel exercise dataset with virtual avatars called the Virtual-Squat dataset. Overall, we claim that our novel architecture based on the GWR can use a learned exercise reference for different body variations through continual online learning, while preventing catastrophic forgetting, enabling for an engaging long-term human-robot interaction with a humanoid robot.",
+            "year": 2021,
+            "publication_date": "2021-02-19",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2102.10034v1",
+            "landing_url": "https://arxiv.org/abs/2102.10034v1",
+            "pdf_url": "https://arxiv.org/pdf/2102.10034v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2102.10034v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 3
+        },
+        {
+          "paper": {
+            "title": "Real-Time Fitness Exercise Classification and Counting from Video Frames",
+            "authors": [
+              "Riccardo Riccio"
+            ],
+            "abstract": "This paper introduces a novel method for real-time exercise classification using a Bidirectional Long Short-Term Memory (BiLSTM) neural network. Existing exercise recognition approaches often rely on synthetic datasets, raw coordinate inputs sensitive to user and camera variations, and fail to fully exploit the temporal dependencies in exercise movements. These issues limit their generalizability and robustness in real-world conditions, where lighting, camera angles, and user body types vary. To address these challenges, we propose a BiLSTM-based model that leverages invariant features, such as joint angles, alongside raw coordinates. By using both angles and (x, y, z) coordinates, the model adapts to changes in perspective, user positioning, and body differences, improving generalization. Training on 30-frame sequences enables the BiLSTM to capture the temporal context of exercises and recognize patterns evolving over time. We compiled a dataset combining synthetic data from the InfiniteRep dataset and real-world videos from Kaggle and other sources. This dataset includes four common exercises: squat, push-up, shoulder press, and bicep curl. The model was trained and validated on these diverse datasets, achieving an accuracy of over 99% on the test set. To assess generalizability, the model was tested on 2 separate test sets representative of typical usage conditions. Comparisons with the previous approach from the literature are present in the result section showing that the proposed model is the best-performing one. The classifier is integrated into a web application providing real-time exercise classification and repetition counting without manual exercise selection. Demo and datasets are available at the following GitHub Repository: https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting.",
+            "year": 2024,
+            "publication_date": "2024-11-18",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2411.11548v1",
+            "landing_url": "https://arxiv.org/abs/2411.11548v1",
+            "pdf_url": "https://arxiv.org/pdf/2411.11548v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2411.11548v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 4
+        },
+        {
+          "paper": {
+            "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+            "authors": [
+              "Guodong Xu"
+            ],
+            "abstract": "Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-revival after retraction or deletion, and exact claim closure over a fresh view at one verified head. On a prespecified hash-frozen 3,600-case GPM-ReleaseBench, GPM matches all complete outcomes; the strongest of three intentionally simple complete policies matches 1,800/3,600 and makes unmatched releases on 50% of violation cases. A separate sealed end-to-end service evaluation exercises real ingestion and release across eight query families. In its publicly disclosed V3 arm, the governed lane is correct on 2,400/2,400 clusters versus 600/2,400 for ungoverned local Qwen2.5-7B; it repairs all 1,800 baseline failures with no regression (one-sided 95% lower bounds 99.875% and 99.834%). A later V5 reseal over Chinese- and English-command arms, with generation-date pinning and no post-freeze reducer amendment, again obtains 2,400/2,400 per arm. A production-code-independent finite model explores 331,776 semantic and 1,990,656 query states without a full-contract counterexample, and a 100,000-trace three-engine differential yields zero mismatches. These are bounded contract and implementation results, not open-world model accuracy or evidence of world truth. Governed answers in the sealed service evaluation are deterministic service outputs; the 7B result is the ungoverned comparison, not a claim that a language model itself became perfectly accurate.",
+            "year": 2026,
+            "publication_date": "2026-08-12",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2608.12476v2",
+            "landing_url": "https://arxiv.org/abs/2608.12476v2",
+            "pdf_url": "https://arxiv.org/pdf/2608.12476v2",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2608.12476v2"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 5
+        },
+        {
+          "paper": {
+            "title": "Detecting and measuring respiratory events in horses during exercise with a microphone: deep learning vs. standard signal processing",
+            "authors": [
+              "Jeanne I. M. Parmentier",
+              "Rhana M. Aarts",
+              "Elin Hernlund",
+              "Marie Rhodin",
+              "Berend Jan van der Zwaag"
+            ],
+            "abstract": "Monitoring respiration parameters such as respiratory rate could be beneficial to understand the impact of training on equine health and performance and ultimately improve equine welfare. In this work, we compare deep learning-based methods to an adapted signal processing method to automatically detect cyclic respiratory events and extract the dynamic respiratory rate from microphone recordings during high intensity exercise in Standardbred trotters. Our deep learning models are able to detect exhalation sounds (median F1 score of 0.94) in noisy microphone signals and show promising results on unlabelled signals at lower exercising intensity, where the exhalation sounds are less recognisable. Temporal convolutional networks were better at detecting exhalation events and estimating dynamic respiratory rates (median F1: 0.94, Mean Absolute Error (MAE) $\\pm$ Confidence Intervals (CI): 1.44$\\pm$1.04 bpm, Limits Of Agreements (LOA): 0.63$\\pm$7.06 bpm) than long short-term memory networks (median F1: 0.90, MAE$\\pm$CI: 3.11$\\pm$1.58 bpm) and signal processing methods (MAE$\\pm$CI: 2.36$\\pm$1.11 bpm). This work is the first to automatically detect equine respiratory sounds and automatically compute dynamic respiratory rates in exercising horses. In the future, our models will be validated on lower exercising intensity sounds and different microphone placements will be evaluated in order to find the best combination for regular monitoring.",
+            "year": 2025,
+            "publication_date": "2025-08-04",
+            "doi": "https://doi.org/10.1186/s12917-026-05614-5",
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2508.02349v2",
+            "landing_url": "https://arxiv.org/abs/2508.02349v2",
+            "pdf_url": "https://arxiv.org/pdf/2508.02349v2",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2508.02349v2"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 6
+        },
+        {
+          "paper": {
+            "title": "The effect of intelligent monitoring of physical exercise on executive function in children with ADHD",
+            "authors": [
+              "Liwen Lin",
+              "Nan Lib",
+              "Shuchen Zhao"
+            ],
+            "abstract": "Children with ADHD often struggle with executive function (EF) and motor skills, impacting their academics and social life. While medications are commonly used, they have side effects, leading to interest in non-drug treatments. Physical activity (PA) has shown promise in improving cognitive and motor skills in children with ADHD. This study examined the short- and long-term effects of three PA interventions: a specific skill training group (EG1), a low-demand exercise group (EG2), and a control group (CG) over 12 weeks. EG1 showed significant improvements in motor tasks and working memory (15\\% improvement, p<0.05), while EG2 and CG showed smaller changes. Long-term PA improved working memory, but short-term PA had limited effects on balance and manual dexterity. These findings suggest that skill training has an immediate impact on motor performance, while more complex motor skills require longer interventions. Smart devices tracked progress, confirming sustained engagement and improvement in EG1. This research highlights PA as a promising non-pharmacological treatment for ADHD, warranting further exploration of its effects on other cognitive domains.",
+            "year": 2025,
+            "publication_date": "2025-03-12",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2503.09079v1",
+            "landing_url": "https://arxiv.org/abs/2503.09079v1",
+            "pdf_url": "https://arxiv.org/pdf/2503.09079v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2503.09079v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 7
+        },
+        {
+          "paper": {
+            "title": "Ken Utilization Layer: Hebbian Replay Within a Student's Ken for Adaptive Exercise Recommendation",
+            "authors": [
+              "Grey Kuling",
+              "Marinka Zitnik"
+            ],
+            "abstract": "Adaptive exercise recommendation (ER) aims to choose the next activity that matches a learner's evolving Zone of Proximal Development (ZPD). We present KUL-Rec, a biologically inspired ER system that couples a fast Hebbian memory with slow replay-based consolidation to enable continual, few-shot personalization from sparse interactions. The model operates in an embedding space, allowing a single architecture to handle both tabular knowledge-tracing logs and open-ended short-answer text. We align evaluation with tutoring needs using bidirectional ranking and rank-sensitive metrics (nDCG, Recall@K). Across ten public datasets, KUL-Rec improves macro nDCG (0.316 vs. 0.265 for the strongest baseline) and Recall@10 (0.305 vs. 0.211), while achieving low inference latency and an $\\approx99$\\% reduction in peak GPU memory relative to a competitive graph-based model. In a 13-week graduate course, KUL-Rec personalized weekly short-answer quizzes generated by a retrieval-augmented pipeline and the personalized quizzes were associated with lower perceived difficulty and higher helpfulness (p < .05). An embedding robustness audit highlights that encoder choice affects semantic alignment, motivating routine audits when deploying open-response assessment. Together, these results indicate that Hebbian replay with bounded consolidation offers a practical path to real-time, interpretable ER that scales across data modalities and classroom settings.",
+            "year": 2025,
+            "publication_date": "2025-06-18",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2507.00032v2",
+            "landing_url": "https://arxiv.org/abs/2507.00032v2",
+            "pdf_url": "https://arxiv.org/pdf/2507.00032v2",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2507.00032v2"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 8
+        },
+        {
+          "paper": {
+            "title": "MemoryKT: An Integrative Memory-and-Forgetting Method for Knowledge Tracing",
+            "authors": [
+              "Mingrong Lin",
+              "Ke Deng",
+              "Zhengyang Wu",
+              "Zetao Zheng",
+              "Jie Li"
+            ],
+            "abstract": "Knowledge Tracing (KT) is committed to capturing students' knowledge mastery from their historical interactions. Simulating students' memory states is a promising approach to enhance both the performance and interpretability of knowledge tracing models. Memory consists of three fundamental processes: encoding, storage, and retrieval. Although forgetting primarily manifests during the storage stage, most existing studies rely on a single, undifferentiated forgetting mechanism, overlooking other memory processes as well as personalized forgetting patterns. To address this, this paper proposes memoryKT, a knowledge tracing model based on a novel temporal variational autoencoder. The model simulates memory dynamics through a three-stage process: (i) Learning the distribution of students' knowledge memory features, (ii) Reconstructing their exercise feedback, while (iii) Embedding a personalized forgetting module within the temporal workflow to dynamically modulate memory storage strength. This jointly models the complete encoding-storage-retrieval cycle, significantly enhancing the model's perception capability for individual differences. Extensive experiments on four public datasets demonstrate that our proposed approach significantly outperforms state-of-the-art baselines.",
+            "year": 2025,
+            "publication_date": "2025-08-11",
+            "doi": null,
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2508.08122v1",
+            "landing_url": "https://arxiv.org/abs/2508.08122v1",
+            "pdf_url": "https://arxiv.org/pdf/2508.08122v1",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2508.08122v1"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 9
+        },
+        {
+          "paper": {
+            "title": "Gravitational wave memory in wormhole spacetimes",
+            "authors": [
+              "Indranil Chakraborty",
+              "Soumya Bhattacharya",
+              "Sumanta Chakraborty"
+            ],
+            "abstract": "Gravitational wave memory is studied in the context of a certain class of braneworld wormholes. Unlike other wormhole geometries, this novel class of wormholes do not require any exotic matter fields for its traversability. First, we study geodesics in this wormhole spacetime, in the presence of a gravitational wave pulse. The resulting evolution of the geodesic separation shows the presence of displacement and velocity memory effects. Motivated by the same, we study the memory effects at null infinity using the Bondi-Sachs formalism, adapted for braneworld wormhole. Our analysis provides a non-trivial change of the Bondi mass after the passage of a burst of gravitational radiation and hence manifests the memory effect at null infinity. In both of these exercises, the presence of extra dimension and the wormhole nature of the spacetime geometry gets imprinted in the memory effect. Since future gravitational wave detectors will be able to probe the memory effect, the present work provides another avenue to search for compact objects other than black holes.",
+            "year": 2022,
+            "publication_date": "2022-07-01",
+            "doi": "https://doi.org/10.1103/PhysRevD.106.104057",
+            "source": "arxiv",
+            "source_id": "http://arxiv.org/abs/2207.00226v2",
+            "landing_url": "https://arxiv.org/abs/2207.00226v2",
+            "pdf_url": "https://arxiv.org/pdf/2207.00226v2",
+            "pdf_urls": [
+              "https://arxiv.org/pdf/2207.00226v2"
+            ]
+          },
+          "query_id": "arxiv-000015",
+          "rank": 10
+        }
+      ]
+    }
+  },
+  "seconds": 4.804789699999674,
+  "http_attempts": 1
+}

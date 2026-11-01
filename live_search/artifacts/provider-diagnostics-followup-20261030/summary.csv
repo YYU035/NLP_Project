@@ -1,0 +1,8 @@
+﻿id,provider,variant,claim_id,dated,status,result_count,total_hits,seconds,relaxation
+arxiv-id-date-exclusion,arxiv,known_id_outside_date_range,,True,zero_results,0,0,0.8624641000060365,none
+arxiv-c01-saved-focused-True,arxiv,saved_focused,c01,True,zero_results,0,0,2.7627460999647155,none
+arxiv-c01-saved-focused-False,arxiv,saved_focused,c01,False,zero_results,0,0,3.3762958999723196,none
+arxiv-c02-saved-focused-True,arxiv,saved_focused,c02,True,zero_results,0,0,2.5862133000046015,none
+arxiv-c02-saved-focused-False,arxiv,saved_focused,c02,False,zero_results,0,0,3.0689737000502646,none
+arxiv-c08-saved-focused-True,arxiv,saved_focused,c08,True,zero_results,0,0,3.0005052000051364,none
+arxiv-c08-saved-focused-False,arxiv,saved_focused,c08,False,zero_results,0,0,2.9171250000363216,none

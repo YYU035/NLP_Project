@@ -1,0 +1,25 @@
+{
+  "runs": {
+    "depth": {
+      "saved_claims": 10,
+      "last_claim_saved_utc": "2026-11-01T11:59:32.796973+00:00",
+      "command": ".venv\\Scripts\\python.exe scripts/run_readiness_experiment.py depth --plan artifacts/integration-readiness-20261101/depth_plan.json --output artifacts/depth-approved-run --run-live"
+    },
+    "fallback": {
+      "saved_claims": 10,
+      "last_claim_saved_utc": "2026-11-01T12:01:19.497169+00:00",
+      "command": ".venv\\Scripts\\python.exe scripts/run_readiness_experiment.py fallback --plan artifacts/integration-readiness-20261101/fallback_plan.json --output artifacts/fallback-approved-run --run-live"
+    }
+  },
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "validation": "263 pytest tests passed; Ruff passed",
+  "source_code_sha256_at_analysis": {
+    "scripts/run_readiness_experiment.py": "ceecc592ff778f2862bd0e970e833052c756b0f2d9724d0ded08f8c6d5c4c893",
+    "scripts/analyze_readiness_runs.py": "5cdfbd8a70f77a5f2237ba07213778ba6801c527bdb5ef65ca0edfc3364bea05",
+    "src/paper_search/retrieval.py": "5967ca64de615b894c26dc84687dc6bff9fc0655be751c5e28acfea38a38d9fd",
+    "src/paper_search/arxiv_fallback.py": "4a5e2c387cf6ee2cc846e58d2be1ff04db078b59211909e5e5411d00b551c8bd"
+  },
+  "live_runner_modified": false,
+  "production_routing_modified": false,
+  "fallback_enabled_in_production": false
+}

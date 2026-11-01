@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/O0rLStUYiJXlWqdfn7MH8SjDnOc</id>
+  <title>arXiv Query: search_query=(all:"lithium-ion batteries" AND all:capacity) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T09:23:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22lithium-ion+batteries%22+AND+all:capacity)+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>207</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20189v1</id>
+    <title>High mechanical strength Si anode synthesis with interlayer bonded expanded graphite structure for lithium-ion batteries</title>
+    <updated>2025-06-25T07:29:53Z</updated>
+    <link href="https://arxiv.org/abs/2506.20189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite advancements in silicon-based anodes for high-capacity lithium-ion batteries, their widespread commercial adoption is still hindered by significant volume expansion during cycling, especially at high active mass loadings crucial for practical use. The root of these challenges lies in the mechanical instability of the material, which subsequently leads to the structural failure of the electrode. Here, we present a novel synthesis of a composite combining expanded graphite and silicon nanoparticles. This composite features a unique interlayer-bonded graphite structure, achieved through the application of a modified spark plasma sintering method. Notably, this innovative structure not only facilitates efficient ion and electron transport but also provides exceptional mechanical strength (Vickers hardness: up to 658 MPa, Young's modulus: 11.6 GPa). This strength effectively accommodates silicon expansion, resulting in an impressive areal capacity of 2.9 mA h cm-2 (736 mA h g-1) and a steady cycle life (93% after 100 cycles). Such outstanding performance is paired with features appropriate for large-scale industrial production of silicon batteries, such as active mass loading of at least 3.9 mg cm-2, a high-tap density electrode material of 1.68 g cm-3 (secondary clusters: 1.12 g cm-3), and a production yield of up to 1 kg per day.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-25T07:29:53Z</published>
+    <arxiv:comment>48 pages, 6 main figures, 16 supporting figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>W. Lai, J. H. Lee, ... B. Oezyilmaz, High mechanical strength Si anode synthesis with interlayer bonded expanded graphite structure for lithium-ion batteries, Journal of Energy Chemistry 93 (2024) 253-263</arxiv:journal_ref>
+    <author>
+      <name>Wenhui Lai</name>
+    </author>
+    <author>
+      <name>Jong Hak Lee</name>
+    </author>
+    <author>
+      <name>Lu Shi</name>
+    </author>
+    <author>
+      <name>Yuqing Liu</name>
+    </author>
+    <author>
+      <name>Yanhui Pu</name>
+    </author>
+    <author>
+      <name>Yong Kang Ong</name>
+    </author>
+    <author>
+      <name>Carlos Limpo</name>
+    </author>
+    <author>
+      <name>Ting Xiong</name>
+    </author>
+    <author>
+      <name>Yifan Rao</name>
+    </author>
+    <author>
+      <name>Chorng Haur Sow</name>
+    </author>
+    <author>
+      <name>Barbaros Özyilmaz</name>
+    </author>
+    <arxiv:doi>10.1016/j.jechem.2024.02.021.</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jechem.2024.02.021." title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00035v1</id>
+    <title>Modified Gaussian Process Regression Models for Cyclic Capacity Prediction of Lithium-ion Batteries</title>
+    <updated>2020-12-31T19:05:27Z</updated>
+    <link href="https://arxiv.org/abs/2101.00035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the development of machine learning-enabled data-driven models for effective capacity predictions for lithium-ion batteries under different cyclic conditions. To achieve this, a model structure is first proposed with the considerations of battery ageing tendency and the corresponding operational temperature and depth-of-discharge. Then based on a systematic understanding of covariance functions within the Gaussian process regression, two related data-driven models are developed. Specifically, by modifying the isotropic squared exponential kernel with an automatic relevance determination structure, 'Model A' could extract the highly relevant input features for capacity predictions. Through coupling the Arrhenius law and a polynomial equation into a compositional kernel, 'Model B' is capable of considering the electrochemical and empirical knowledge of battery degradation. The developed models are validated and compared on the Nickel Manganese Cobalt Oxide (NMC) lithium-ion batteries with various cycling patterns. Experimental results demonstrate that the modified Gaussian process regression model considering the battery electrochemical and empirical ageing signature outperforms other counterparts and is able to achieve satisfactory results for both one-step and multi-step predictions. The proposed technique is promising for battery capacity predictions under various cycling cases.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-31T19:05:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kailong Liu</name>
+    </author>
+    <author>
+      <name>Xiaosong Hu</name>
+    </author>
+    <author>
+      <name>Zhongbao Wei</name>
+    </author>
+    <author>
+      <name>Yi Li</name>
+    </author>
+    <author>
+      <name>Yan Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.23858v1</id>
+    <title>Incremental capacity-based multi-feature fusion model for predicting state-of-health of lithium-ion batteries</title>
+    <updated>2025-03-31T09:05:56Z</updated>
+    <link href="https://arxiv.org/abs/2503.23858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.23858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lithium-ion batteries have become an indispensable part of human industrial production and daily life. For the safe use, management and maintenance of lithium-ion batteries, the state of health (SOH) of lithium-ion batteries is an important indicator so that the SOH estimation is of significant practical value. In order to accurately predict SOH, this paper proposes a fusion prediction model which combines particle swarm optimization (PSO) algorithm, bi-directional long-short time memory network (BiLSTM) and adaptive boosting (AdaBoost) algorithm. In the proposed prediction model, indirect health indicators (HIs), which characterize battery degradation, are obtained with the help of incremental capacity analysis (ICA), and is fed into BiLSTM to extract time-series features, whose parameters are optimized by employing PSO algorithm. On this basis, the AdaBoost algorithm is applied to reduce the risk of overfitting the PSO-BiLSTM model. The study based on lithium-ion battery data from Center for Advanced Life Cycle Engineering (CALCE) shows that the PSO-BiLSTM-AdaBoost model has higher accuracy, better robustness, and generalization ability.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-31T09:05:56Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Chenyu Jia</name>
+    </author>
+    <author>
+      <name>Guangshu Xia</name>
+    </author>
+    <author>
+      <name>Yuanhao Shi</name>
+    </author>
+    <author>
+      <name>Jianfang Jia</name>
+    </author>
+    <author>
+      <name>Jie Wen</name>
+    </author>
+    <author>
+      <name>Jianchao Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16036v1</id>
+    <title>Transformer-based Capacity Prediction for Lithium-ion Batteries with Data Augmentation</title>
+    <updated>2024-07-22T20:21:40Z</updated>
+    <link href="https://arxiv.org/abs/2407.16036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lithium-ion batteries are pivotal to technological advancements in transportation, electronics, and clean energy storage. The optimal operation and safety of these batteries require proper and reliable estimation of battery capacities to monitor the state of health. Current methods for estimating the capacities fail to adequately account for long-term temporal dependencies of key variables (e.g., voltage, current, and temperature) associated with battery aging and degradation. In this study, we explore the usage of transformer networks to enhance the estimation of battery capacity. We develop a transformer-based battery capacity prediction model that accounts for both long-term and short-term patterns in battery data. Further, to tackle the data scarcity issue, data augmentation is used to increase the data size, which helps to improve the performance of the model. Our proposed method is validated with benchmark datasets. Simulation results show the effectiveness of data augmentation and the transformer network in improving the accuracy and robustness of battery capacity prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-22T20:21:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gift Modekwe</name>
+    </author>
+    <author>
+      <name>Saif Al-Wahaibi</name>
+    </author>
+    <author>
+      <name>Qiugang Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.06177v1</id>
+    <title>Impedance-based Capacity Estimation for Lithium-Ion Batteries Using Generative Adversarial Network</title>
+    <updated>2021-07-02T15:46:11Z</updated>
+    <link href="https://arxiv.org/abs/2107.06177v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.06177v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a fully unsupervised methodology for the reliable extraction of latent variables representing the characteristics of lithium-ion batteries (LIBs) from electrochemical impedance spectroscopy (EIS) data using information maximizing generative adversarial networks. Meaningful representations can be obtained from EIS data even when measured with direct current and without relaxation, which are difficult to express when using circuit models. The extracted latent variables were investigated as capacity degradation progressed and were used to estimate the discharge capacity of the batteries by employing Gaussian process regression. The proposed method was validated under various conditions of EIS data during charging and discharging. The results indicate that the proposed model provides more robust capacity estimations than the direct capacity estimations obtained from EIS. We demonstrate that the latent variables extracted from the EIS data measured with direct current and without relaxation reliably represent the degradation characteristics of LIBs.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T15:46:11Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Seongyoon Kim</name>
+    </author>
+    <author>
+      <name>Yun Young Choi</name>
+    </author>
+    <author>
+      <name>Jung-Il Choi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.09152v1</id>
+    <title>Self-protecting aqueous lithium-ion batteries with smart ther-moresponsive separators</title>
+    <updated>2022-03-17T08:18:34Z</updated>
+    <link href="https://arxiv.org/abs/2203.09152v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.09152v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Capacity degradation and destructive hazards are two core challenges for lithium-ion batteries at high temperatures, which need to be solved urgently. Adding flame retardants or fire extinguishing agents can only achieve one-time self-protection in case of emergency overheating. Herein, smart self-protecting aqueous lithium-ion batteries were developed using thermoresponsive separators through in-situ polymerization on the hydrophilic separator. The thermoresponsive separator will close the lithium ions transport channel at high temperatures and reopen when the battery cools down; more importantly, the transition is reversible. We studied the lithium salts influence on the thermoresponsive properties of the hydrogels and selected suitable lithium salt (LiNO3) and concentration (1 M) in the electrolyte to achieve self-protection without sacrificing battery performance. In addition, the shut-off temperature can be tuned by adjusting the hydrophilic and hydrophobic moiety ratio in the hydrogel according to actual demands. This self-protecting lithium-ion battery shows promise for smart energy storage devices with safe and extended lifespan.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-17T08:18:34Z</published>
+    <arxiv:comment>6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Yuewang Yang</name>
+      <arxiv:affiliation>Department of Mechanical and Aerospace Engineering, The Hong Kong University of Sci-ence and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China</arxiv:affiliation>
+      <arxiv:affiliation>These authors contributed equally to this work</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhaowen Bai</name>
+      <arxiv:affiliation>Department of Mechanical Engineering, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China</arxiv:affiliation>
+      <arxiv:affiliation>These authors contributed equally to this work</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sijing Liu</name>
+      <arxiv:affiliation>Department of Mechanical and Aerospace Engineering, The Hong Kong University of Sci-ence and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China</arxiv:affiliation>
+      <arxiv:affiliation>These authors contributed equally to this work</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yinggang Zhu</name>
+      <arxiv:affiliation>Department of Mechanical Engineering, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiongzhi Zheng</name>
+      <arxiv:affiliation>Department of Mechanical and Aerospace Engineering, The Hong Kong University of Sci-ence and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Guohua Chen</name>
+      <arxiv:affiliation>Department of Mechanical Engineering, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Baoling Huang</name>
+      <arxiv:affiliation>Department of Mechanical and Aerospace Engineering, The Hong Kong University of Sci-ence and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.22843v1</id>
+    <title>Intelligent Degradation Monitoring in Lithium-ion Batteries via Discharge Incremental Capacity Feature Estimation</title>
+    <updated>2026-09-19T07:25:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.22843v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.22843v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate and timely detection of degradation in lithium-ion batteries is crucial to ensure safety, reliability, and longevity in high-demand applications such as electric vehicles and energy storage systems. Traditional incremental capacity (IC) analysis methods require low-current cycling for discharge measurements, limiting their practical use in real-time battery management. This paper proposes a novel neural network-based framework that predicts discharge IC features directly from charging signals, eliminating the need for low-current discharge. Trained on a comprehensive dataset of 53 battery cells cycled under diverse fast-charging protocols, the model demonstrates robust generalization ability, effectively estimating degradation indicators on unseen battery data. Among several architectures evaluated, the LSTM model provides the best balance of prediction accuracy and computational efficiency. The proposed approach enables real-time integration into Battery Management Systems (BMS), enhancing degradation monitoring without disrupting normal battery operation. This paper presents a study to bridge IC analysis with practical, fast-charging scenarios, marking a significant step towards intelligent and scalable battery health monitoring.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-19T07:25:45Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Amir Madmolilvand</name>
+    </author>
+    <author>
+      <name>Farzaneh Abdollahi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.07824v1</id>
+    <title>Cerberus: A Deep Learning Hybrid Model for Lithium-Ion Battery Aging Estimation and Prediction Based on Relaxation Voltage Curves</title>
+    <updated>2023-08-15T15:07:32Z</updated>
+    <link href="https://arxiv.org/abs/2308.07824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.07824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The degradation process of lithium-ion batteries is intricately linked to their entire lifecycle as power sources and energy storage devices, encompassing aspects such as performance delivery and cycling utilization. Consequently, the accurate and expedient estimation or prediction of the aging state of lithium-ion batteries has garnered extensive attention. Nonetheless, prevailing research predominantly concentrates on either aging estimation or prediction, neglecting the dynamic fusion of both facets. This paper proposes a hybrid model for capacity aging estimation and prediction based on deep learning, wherein salient features highly pertinent to aging are extracted from charge and discharge relaxation processes. By amalgamating historical capacity decay data, the model dynamically furnishes estimations of the present capacity and forecasts of future capacity for lithium-ion batteries. Our approach is validated against a novel dataset involving charge and discharge cycles at varying rates. Specifically, under a charging condition of 0.25C, a mean absolute percentage error (MAPE) of 0.29% is achieved. This outcome underscores the model's adeptness in harnessing relaxation processes commonly encountered in the real world and synergizing with historical capacity records within battery management systems (BMS), thereby affording estimations and prognostications of capacity decline with heightened precision.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-15T15:07:32Z</published>
+    <arxiv:comment>3 figures, 1 table, 9 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yue Xiang</name>
+    </author>
+    <author>
+      <name>Bo Jiang</name>
+    </author>
+    <author>
+      <name>Haifeng Dai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.15237v1</id>
+    <title>Insights into the defect-driven heterogeneous structural evolution of Ni-rich layered cathode in lithium-ion batteries</title>
+    <updated>2024-04-23T17:13:05Z</updated>
+    <link href="https://arxiv.org/abs/2404.15237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.15237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, considerable efforts have been made on research and improvement for Ni-rich lithium-ion batteries to meet the demand from vehicles and grid-level large-scale energy storage. Development of next-generation high-performance lithium-ion batteries requires a comprehensive understanding on the underlying electrochemical mechanisms associated with its structural evolution. In this work, advanced operando neutron diffraction and four-dimensional scanning transmission electron microscopy techniques are applied to clarify the structural evolution of electrodes in two distinct full cells with identical LiNi0.8Co0.1Mn0.1O2 cathode but different anode counterparts. It is found that both of cathodes in two cells exhibit non-intrinsic two-phase-like behavior at the early charge stage, indicating selective Li+ extraction from cathodes. But the heterogeneous evolution of cathode is less serious with graphite-silicon blended anode than that with graphite anode due to the different delithiation rate. Moreover, it is revealed that the formation of heterogeneous structure is led by the distribution of defects including Li/Ni disordering and microcracks, which should be inhibited by assembling appropriate anode to avoid potential threaten on cell performance. The present work unveils the origin of inhomogeneity in Ni-rich lithium-ion batteries and highlights the significance of kinetics control in electrodes for batteries with higher capacity and longer life.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-23T17:13:05Z</published>
+    <arxiv:comment>29 pages and 5 figures for manuscript; 30 pages, 14 figures and 4 tables for supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zhongyuan Huang</name>
+    </author>
+    <author>
+      <name>Ziwei Chen</name>
+    </author>
+    <author>
+      <name>Maolin Yang</name>
+    </author>
+    <author>
+      <name>Mihai Chu</name>
+    </author>
+    <author>
+      <name>Zenan Li</name>
+    </author>
+    <author>
+      <name>Sihao Deng</name>
+    </author>
+    <author>
+      <name>Lunhua He</name>
+    </author>
+    <author>
+      <name>Lei Jin</name>
+    </author>
+    <author>
+      <name>Rafal E. Dunin-Borkowski</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Tingting Yang</name>
+    </author>
+    <author>
+      <name>Yinguo Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.04520v1</id>
+    <title>Structured electrode additive manufacturing for lithium-ion batteries</title>
+    <updated>2021-09-09T19:07:37Z</updated>
+    <link href="https://arxiv.org/abs/2109.04520v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.04520v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A thick electrode with high areal capacity has been developed as a strategy for high-energy-density lithium-ion batteries, but thick electrodes have difficulties in manufacturing and limitations in ion transport. Here, we reported a new manufacturing approach for ultra-thick electrode with aligned structure, called structure electrode additive manufacturing or SEAM, which aligns active materials to the through-thicknesses direction of electrodes using shear flow and a designed printing path. The ultra-thick electrodes with high loading of active materials, low tortuous structure, and good structure stability resulting from a simple and scalable SEAM lead to rapid ion transport and fast electrolyte infusion, delivering a higher areal capacity than slurry-casted thick electrodes. SEAM shows strengths in design flexibility and scalability, which allows the production of practical high energy/power density structure electrodes.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-09T19:07:37Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Soyeon Park</name>
+      <arxiv:affiliation>Kelvin</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kaiyue Deng</name>
+      <arxiv:affiliation>Kelvin</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Baohui Shi</name>
+      <arxiv:affiliation>Kelvin</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuanyuan Shang</name>
+      <arxiv:affiliation>Kelvin</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Kun</name>
+      <arxiv:affiliation>Kelvin</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Fu</name>
+    </author>
+    <arxiv:doi>10.1021/acs.nanolett.2c03545</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.nanolett.2c03545" title="doi"/>
+  </entry>
+</feed>

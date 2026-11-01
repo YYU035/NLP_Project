@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yBc5vx7iZAPj463yoqSvPnD54NE</id>
+  <title>arXiv Query: search_query=(all:"dark matter" AND all:rotational AND all:"velocity of spiral galaxies") AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T09:23:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22dark+matter%22+AND+(all:rotational+AND+all:%22velocity+of+spiral+galaxies%22))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.33157v1</id>
+    <title>Dark Matter and MOND successes and degeneracies in reproducing SPARC rotation curves and weak lensing data</title>
+    <updated>2026-10-23T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.33157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.33157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The observed rotation velocities of spiral galaxies at large scales exceed those predicted by their baryonic components, motivating the need for dark matter (DM) or Modified Newtonian Dynamics (MOND). We fit the rotation curves of 147 late-type galaxies from the SPARC database, using a suite of models including Cold Dark Matter (CDM) models with and without baryonic feedback, Warm DM, Fuzzy DM, and MOND. We also combine SPARC kinematics with weak-lensing data to extend the mean rotation curves to ~1 Mpc. On a galaxy-by-galaxy basis, the inner SPARC rotation curves marginally favour CDM models with baryonic feedback, although accounting for the uncertainties in distances and inclinations increases the degeneracy among DM-based models and MOND. All DM models predict host halo masses larger than abundance-matching expectations, with only the CDM model with baryonic feedback reducing the scatter around the mean luminosity-halo mass relation. MOND is able to reproduce the flatness of the mean galactic rotation curves on scales up to 1 Mpc, providing stellar mass-to-light ratios within observational uncertainties. In contrast, all DM models, without the contribution of mass external to the bound halo, struggle to explain the flat rotation curves. The inclusion of the current weak-lensing data tends to favour MOND over DM models, at least at the largest scales. Future observations from BIG-SPARC, the Square Kilometre Array, and most importantly, upcoming weak-lensing surveys such as EUCLID and Rubin will provide more stringent and independent tests of these competing frameworks</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-23T18:00:01Z</published>
+    <arxiv:comment>MNRAS, Accepted, 26 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Amy Smith</name>
+    </author>
+    <author>
+      <name>Francesco Shankar</name>
+    </author>
+    <author>
+      <name>Daeun Jeong</name>
+    </author>
+    <author>
+      <name>Nicola Menci</name>
+    </author>
+    <author>
+      <name>Andrea Lapi</name>
+    </author>
+    <author>
+      <name>Hao Fu</name>
+    </author>
+    <author>
+      <name>Xinyu Dai</name>
+    </author>
+    <author>
+      <name>Mariangela Bernardi</name>
+    </author>
+    <author>
+      <name>Arianna Di Cintio</name>
+    </author>
+    <author>
+      <name>Annagrazia Puglisi</name>
+    </author>
+    <author>
+      <name>Alexander Belyaev</name>
+    </author>
+    <author>
+      <name>Hendrik Ulbricht</name>
+    </author>
+    <author>
+      <name>Ivette Fuentes-Guridi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.03955v1</id>
+    <title>Test of conformal gravity as an alternative to dark matter from the observations of elliptical galaxies</title>
+    <updated>2025-06-04T13:44:49Z</updated>
+    <link href="https://arxiv.org/abs/2506.03955v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.03955v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As an alternative gravitational theory to General Relativity (GR), the Conformal Gravity (CG) has recently been successfully verified by observations of Type Ia supernovae (SN Ia) and the rotation curves of spiral galaxies. The observations of galaxies only pertain to the non-relativistic form of gravity. In this context, within the framework of the Newtonian theory of gravity (the non-relativistic form of GR), dark matter is postulated to account for the observations. On the other hand, the non-relativistic form of CG predicts an additional potential: besides the Newtonian potential, there is a so-called linear potential term, characterized by the parameter $γ^*$, as an alternative to dark matter in Newtonian gravity. To test CG in its non-relativistic form, much work has been done by fitting the predictions to the observations of circular velocity (rotation curves) for spiral galaxies. In this paper, we test CG with the observations from elliptical galaxies. Instead of the circular velocities for spiral galaxies, we use the velocity dispersion for elliptical galaxies. By replacing the Newtonian potential with that predicted by non-relativistic form of CG in Hamiltonian, we directly extend the Jeans equation derived in Newtonian theory to that for CG. By comparing the results derived from the ellipticals with that from spirals, we find that the extra potential predicted by CG is not sufficient to account for the observations of ellipticals. Furthermore, we discover a strong correlation between $γ^*$ and the stellar mass $M^*$ in dwarf spheroidal galaxies. This finding implies that the variation in $γ^*$ violates a fundamental prediction of Conformal Gravity (CG), which posits that $γ^*$ should be a universal constant.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-04T13:44:49Z</published>
+    <arxiv:comment>22 pages, 6 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Research in Astronomy and Astrophysics, 25:065015 (14pp), 2025 June</arxiv:journal_ref>
+    <author>
+      <name>Li-Xue Yue</name>
+    </author>
+    <author>
+      <name>Da-Ming Chen</name>
+    </author>
+    <arxiv:doi>10.1088/1674-4527/add865</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1674-4527/add865" title="doi"/>
+  </entry>
+</feed>

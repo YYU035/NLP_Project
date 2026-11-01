@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YtRuC5rGRrT5rwlPvVRIEoNEm1Q</id>
+  <title>arXiv Query: search_query=(all:Exercise AND all:improves AND all:memory) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-31T06:02:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:Exercise+AND+(all:improves+AND+all:memory))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>22</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15879v1</id>
+    <title>BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation</title>
+    <updated>2026-02-03T08:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.15879v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15879v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T08:45:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qing Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Jiang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Jipeng Guo</name>
+    </author>
+    <author>
+      <name>Yejiang Wang</name>
+    </author>
+    <author>
+      <name>Xinghe Cheng</name>
+    </author>
+    <author>
+      <name>Zezheng Wu</name>
+    </author>
+    <author>
+      <name>Jiapu Wang</name>
+    </author>
+    <author>
+      <name>Jingwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.11548v1</id>
+    <title>Real-Time Fitness Exercise Classification and Counting from Video Frames</title>
+    <updated>2024-11-18T13:06:29Z</updated>
+    <link href="https://arxiv.org/abs/2411.11548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.11548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a novel method for real-time exercise classification using a Bidirectional Long Short-Term Memory (BiLSTM) neural network. Existing exercise recognition approaches often rely on synthetic datasets, raw coordinate inputs sensitive to user and camera variations, and fail to fully exploit the temporal dependencies in exercise movements. These issues limit their generalizability and robustness in real-world conditions, where lighting, camera angles, and user body types vary.
+  To address these challenges, we propose a BiLSTM-based model that leverages invariant features, such as joint angles, alongside raw coordinates. By using both angles and (x, y, z) coordinates, the model adapts to changes in perspective, user positioning, and body differences, improving generalization. Training on 30-frame sequences enables the BiLSTM to capture the temporal context of exercises and recognize patterns evolving over time.
+  We compiled a dataset combining synthetic data from the InfiniteRep dataset and real-world videos from Kaggle and other sources. This dataset includes four common exercises: squat, push-up, shoulder press, and bicep curl. The model was trained and validated on these diverse datasets, achieving an accuracy of over 99% on the test set. To assess generalizability, the model was tested on 2 separate test sets representative of typical usage conditions. Comparisons with the previous approach from the literature are present in the result section showing that the proposed model is the best-performing one.
+  The classifier is integrated into a web application providing real-time exercise classification and repetition counting without manual exercise selection.
+  Demo and datasets are available at the following GitHub Repository: https://github.com/RiccardoRiccio/Fitness-AI-Trainer-With-Automatic-Exercise-Recognition-and-Counting.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T13:06:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Riccardo Riccio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02349v2</id>
+    <title>Detecting and measuring respiratory events in horses during exercise with a microphone: deep learning vs. standard signal processing</title>
+    <updated>2026-07-13T10:01:05Z</updated>
+    <link href="https://arxiv.org/abs/2508.02349v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02349v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monitoring respiration parameters such as respiratory rate could be beneficial to understand the impact of training on equine health and performance and ultimately improve equine welfare. In this work, we compare deep learning-based methods to an adapted signal processing method to automatically detect cyclic respiratory events and extract the dynamic respiratory rate from microphone recordings during high intensity exercise in Standardbred trotters. Our deep learning models are able to detect exhalation sounds (median F1 score of 0.94) in noisy microphone signals and show promising results on unlabelled signals at lower exercising intensity, where the exhalation sounds are less recognisable. Temporal convolutional networks were better at detecting exhalation events and estimating dynamic respiratory rates (median F1: 0.94, Mean Absolute Error (MAE) $\pm$ Confidence Intervals (CI): 1.44$\pm$1.04 bpm, Limits Of Agreements (LOA): 0.63$\pm$7.06 bpm) than long short-term memory networks (median F1: 0.90, MAE$\pm$CI: 3.11$\pm$1.58 bpm) and signal processing methods (MAE$\pm$CI: 2.36$\pm$1.11 bpm). This work is the first to automatically detect equine respiratory sounds and automatically compute dynamic respiratory rates in exercising horses. In the future, our models will be validated on lower exercising intensity sounds and different microphone placements will be evaluated in order to find the best combination for regular monitoring.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-04T12:34:34Z</published>
+    <arxiv:comment>version accepted at BMC Veterinary Research</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>BMC Vet Res (2026)</arxiv:journal_ref>
+    <author>
+      <name>Jeanne I. M. Parmentier</name>
+      <arxiv:affiliation>Utrecht University</arxiv:affiliation>
+      <arxiv:affiliation>University of Twente</arxiv:affiliation>
+      <arxiv:affiliation>Inertia Technology B.V</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rhana M. Aarts</name>
+      <arxiv:affiliation>Utrecht University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elin Hernlund</name>
+      <arxiv:affiliation>Swedish University of Agricultural Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marie Rhodin</name>
+      <arxiv:affiliation>Swedish University of Agricultural Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Berend Jan van der Zwaag</name>
+      <arxiv:affiliation>University of Twente</arxiv:affiliation>
+      <arxiv:affiliation>Inertia Technology B.V</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1186/s12917-026-05614-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1186/s12917-026-05614-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09079v1</id>
+    <title>The effect of intelligent monitoring of physical exercise on executive function in children with ADHD</title>
+    <updated>2025-03-12T05:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2503.09079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Children with ADHD often struggle with executive function (EF) and motor skills, impacting their academics and social life. While medications are commonly used, they have side effects, leading to interest in non-drug treatments. Physical activity (PA) has shown promise in improving cognitive and motor skills in children with ADHD. This study examined the short- and long-term effects of three PA interventions: a specific skill training group (EG1), a low-demand exercise group (EG2), and a control group (CG) over 12 weeks. EG1 showed significant improvements in motor tasks and working memory (15\% improvement, p&lt;0.05), while EG2 and CG showed smaller changes. Long-term PA improved working memory, but short-term PA had limited effects on balance and manual dexterity. These findings suggest that skill training has an immediate impact on motor performance, while more complex motor skills require longer interventions. Smart devices tracked progress, confirming sustained engagement and improvement in EG1. This research highlights PA as a promising non-pharmacological treatment for ADHD, warranting further exploration of its effects on other cognitive domains.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T05:22:42Z</published>
+    <arxiv:comment>12</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Liwen Lin</name>
+    </author>
+    <author>
+      <name>Nan Lib</name>
+    </author>
+    <author>
+      <name>Shuchen Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00032v2</id>
+    <title>Ken Utilization Layer: Hebbian Replay Within a Student's Ken for Adaptive Exercise Recommendation</title>
+    <updated>2025-11-17T15:10:41Z</updated>
+    <link href="https://arxiv.org/abs/2507.00032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.00032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adaptive exercise recommendation (ER) aims to choose the next activity that matches a learner's evolving Zone of Proximal Development (ZPD). We present KUL-Rec, a biologically inspired ER system that couples a fast Hebbian memory with slow replay-based consolidation to enable continual, few-shot personalization from sparse interactions. The model operates in an embedding space, allowing a single architecture to handle both tabular knowledge-tracing logs and open-ended short-answer text. We align evaluation with tutoring needs using bidirectional ranking and rank-sensitive metrics (nDCG, Recall@K). Across ten public datasets, KUL-Rec improves macro nDCG (0.316 vs. 0.265 for the strongest baseline) and Recall@10 (0.305 vs. 0.211), while achieving low inference latency and an $\approx99$\% reduction in peak GPU memory relative to a competitive graph-based model. In a 13-week graduate course, KUL-Rec personalized weekly short-answer quizzes generated by a retrieval-augmented pipeline and the personalized quizzes were associated with lower perceived difficulty and higher helpfulness (p &lt; .05). An embedding robustness audit highlights that encoder choice affects semantic alignment, motivating routine audits when deploying open-response assessment. Together, these results indicate that Hebbian replay with bounded consolidation offers a practical path to real-time, interpretable ER that scales across data modalities and classroom settings.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T00:06:28Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Grey Kuling</name>
+    </author>
+    <author>
+      <name>Marinka Zitnik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01224v1</id>
+    <title>AutoMem: Automated Learning of Memory as a Cognitive Skill</title>
+    <updated>2026-07-01T17:57:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.01224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exercising it. Both axes resist manual optimization: episodes in long-horizon tasks run for thousands of steps, and a single memory mistake can hide long before it surfaces, making human review of full trajectories impractical. We introduce AutoMem, a framework that automates both axes. In the first loop, a strong LLM reviews complete agent trajectories and iteratively revises the memory structure that shapes how the agent interacts with its memory files. In the second loop, the agent's own good memory decisions are identified from many episodes and used as training signal to sharpen the model's memory proficiency directly. Across three procedurally generated long-horizon games (Crafter, MiniHack, and NetHack), optimizing memory alone--without modifying the model's task-action behavior--improved the base agent's performance ~2x-4x, bringing a 32B open-weight model competitive with frontier systems such as Claude Opus 4.5 and Gemini 3.1 Pro Thinking. Our results show that memory management is an independently learnable skill, and a high-leverage objective yielding large gains on long-horizon tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T17:57:03Z</published>
+    <arxiv:comment>Project Website: https://autolearnmem.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shengguang Wu</name>
+    </author>
+    <author>
+      <name>Hao Zhu</name>
+    </author>
+    <author>
+      <name>Yuhui Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohan Wang</name>
+    </author>
+    <author>
+      <name>Serena Yeung-Levy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29630v1</id>
+    <title>Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory</title>
+    <updated>2026-05-28T09:02:48Z</updated>
+    <link href="https://arxiv.org/abs/2605.29630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a system-agnostic protocol that pins the BM25 floor by construction -- every distractor shares the answer's entity tokens -- and stratifies queries by discriminator tag, so any lift over BM25 is attributable to the embedder. Applied to an open-source agent-memory testbed across 5 tags x 3 embedders x 5 collision degrees with paired-bootstrap 95% CIs, the protocol reveals a two-axis pattern: a 256-d hash trigram helps only on closed-vocabulary lexical tags at deep collision; MiniLM-384 dominates both axes; and a 2.7x-parameter BGE-large does not uniformly improve on MiniLM -- it wins on intent-style queries but loses on lexical ones. Encoder capacity alone is not the binding constraint. The synthetic intent-tag null replicates on LongMemEval (n=500) as a single-session-preference recall cliff. Adaptive vector-weight routing on LoCoMo is a measured null: 11.7pp of oracle headroom exists, but no signal we tested recovers it. All 26 result tables and 37 reproduce scripts are version-controlled and verified by a public registry; the protocol is exercised on a deterministically governed memory testbed (event-sourced decision log, DAG-state-machine schema lifecycle) so every reported CI is reproducible byte-for-byte from the ingest stream.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T09:02:48Z</published>
+    <arxiv:comment>48 pages with appendix; 6-page body, mandatory Limitations, References, and 7 appendices. Code, benchmarks, and 37 reproduce scripts: https://github.com/youwangd/engram (see paper/REPRODUCIBILITY.md). Apache 2.0</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Youwang Deng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.30688v1</id>
+    <title>An Agent Architecture with Tools and Memory for Selective Correction of Wrist PPG Heart Rate Estimates</title>
+    <updated>2026-10-22T03:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2610.30688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.30688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wrist photoplethysmography (PPG) heart rate estimates are vulnerable to motion artifacts, and corrections that reduce mean error can worsen individual windows. We propose an agent architecture with tools and memory around a fixed heart rate estimator. Pulse, motion, and limited historical evidence generate candidate estimates, whose predicted benefits and harms guide selection. An independent risk gate determines whether to retain, correct, or reject each output. We trained the architecture on PPG-DaLiA and tested it on Wrist Exercise, GalaxyPPG, and WildPPG with frozen weights. Across these four public datasets, mean absolute error (MAE), macro-averaged over ten estimators, decreased by up to 44.5%, with the largest reduction on GalaxyPPG. Beneficial and harmful corrections decreased and increased absolute error by more than 1 bpm, respectively. Their ten-estimator macro-averaged proportions ranged from 16.06% to 36.64% and from 1.68% to 6.77%, respectively, across the four datasets. At 60% and 80% target coverage, numerical correction on the same accepted windows contributed more to total error reduction than window selection. We implemented real-time wearable acquisition, Bluetooth reception, and smartphone deployment of a selected estimator and the framework. In backend analysis of four prototype recordings from one participant, ten-estimator macro-averaged MAE decreased from 9.09 to 4.45 bpm without additional rejection. Under the evaluated conditions, the architecture improved average accuracy while quantifying correction benefits and harms, supporting wearable heart rate analysis that considers error, correction risk, and coverage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T03:59:06Z</published>
+    <arxiv:comment>71 pages, including 48 pages of Supplementary Information</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Wang</name>
+    </author>
+    <author>
+      <name>Shuhan Yi</name>
+    </author>
+    <author>
+      <name>Zhen Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.14063v1</id>
+    <title>Auditing LLM Program Search for Bermudan Stopping with Primal--Dual Certificates</title>
+    <updated>2026-10-07T09:00:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.14063v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.14063v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM program-search agents are usually judged by the score that drives their search. We study LLM-driven search over Python exercise policies for Bermudan options, an optimal stopping problem where a trusted evaluator owns the simulation and a dual upper bound~$U$. For any policy, $0 \le V^\star - L_π\le U - L_π$; we report Monte Carlo estimates of both bounds with their sampling error. We audit 24 generation attempts from two pipelines, a six-pair feedback-representation ablation, and a holdout evaluated after selection was frozen. No selected generated program improves on Ridge LSMC consistently or by more than Monte Carlo uncertainty; holdout gap scores lie within $0.002$ of it. On six one-dimensional puts, a high-precision binomial reference places Ridge within Monte Carlo noise of optimal and attributes 99\% of the estimated gap to dual-bound looseness, so this dual audits validity but cannot certify progress at the search's scale. Structured memory showed no benefit over score-only memory in this ablation. Whether search ``worked'' depends on reporting rules: retaining the initial reference, freezing selection before holdout, and counting failures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T09:00:25Z</published>
+    <arxiv:comment>Accepted at the MATH-AI Workshop at NeurIPS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhua Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01579v1</id>
+    <title>ASafePlace: User-Led Personalization of VR Relaxation via an Art Therapy Activity</title>
+    <updated>2026-02-02T03:21:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.01579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To overcome the lack of deep personalization in standard biofeedback methods, we introduce ASafePlace, a system utilizing an AI-powered, art-therapy-inspired exercise called The Safe Place, to create a personalized VR biofeedback experience. In our system, users sketch a personal sanctuary from memory, which is then transformed into a customized 360 virtual environment with personalized audio guidance for relaxation training. A study with 52 participants showed this approach effectively reduced anxiety and increased user presence, while the integration of art-therapy-inspired activity and biofeedback produced strong improvements in physiological relaxation, measured by heart rate variability and respiration rate. Qualitative results showed how participants' sense of familiarity and presence was enhanced by the symbolic elements and natural sanctuaries created from their autobiographical memories. Our findings demonstrate that art-therapy-inspired activity is a powerful tool for creating highly effective and individualized relaxation experiences, naturally connecting the virtual environment to a user's core memories and emotions.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T03:21:08Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Chuyang Zhang</name>
+    </author>
+    <author>
+      <name>Bin Yu</name>
+    </author>
+    <author>
+      <name>Yuchao Wang</name>
+    </author>
+    <author>
+      <name>Mansi Yuan</name>
+    </author>
+    <author>
+      <name>Wanqi Wang</name>
+    </author>
+    <author>
+      <name>Seungwoo Je</name>
+    </author>
+    <author>
+      <name>Pengcheng An</name>
+    </author>
+  </entry>
+</feed>

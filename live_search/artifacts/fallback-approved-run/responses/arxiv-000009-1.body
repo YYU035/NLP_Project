@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KDmTfiPzaux+0O4en97MoYtsEpA</id>
+  <title>arXiv Query: search_query=(all:deficit AND all:irrigation AND all:water AND all:use) AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T12:00:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:deficit+AND+(all:irrigation+AND+(all:water+AND+all:use)))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19746v1</id>
+    <title>A Multiobjective Water Allocation Model for Economic Efficiency and Environmental Sustainability: Case Study</title>
+    <updated>2026-01-27T16:08:49Z</updated>
+    <link href="https://arxiv.org/abs/2601.19746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The management of irrigation water systems has become increasingly complex due to competing demands for agricultural production, groundwater sustainability, and environmental flow requirements, particularly under hydrologic variability and climate uncertainty. Addressing these challenges requires optimization frameworks that can jointly determine optimal crop allocation, groundwater pumping, and environmental flow releases while maintaining economic and hydrological feasibility. However, existing hydro-economic models, including the widely used Lewis and Randall formulation, may overestimate net benefits by allowing infeasible negative pumping and surface water allocations. We extend the Lewis and Randall framework by reformulating groundwater pumping and surface water use as non-negative, demand-driven decision variables and by explicitly incorporating environmental flow and canal capacity constraints. Three models are developed to maximize economic benefit, minimize environmental deficits, and a multiobjective model that evaluates the trade-offs between these two objectives. An illustrative test case examining optimal crop area allocation and environmental flow management across dry, average, and wet years, using data from the Rajshahi Barind Tract in northwestern Bangladesh, is presented. The results show that the proposed formulation produces economically and hydrologically consistent solutions, identifying optimal strategies when either net benefits or environmental protection is prioritized, as well as Pareto-optimal trade-offs when both objectives are considered together. These findings provide practical insights for balancing farm income, groundwater sustainability, and ecological protection, offering a robust decision-support tool for irrigation management in water-limited river basins.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T16:08:49Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Nahid Sultana</name>
+    </author>
+    <author>
+      <name>M M Rizvi</name>
+    </author>
+    <author>
+      <name>Indu Wadhawan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.11210v1</id>
+    <title>River interlinking alters land-atmosphere feedback and changes the Indian summer monsoon</title>
+    <updated>2022-10-20T12:45:21Z</updated>
+    <link href="https://arxiv.org/abs/2210.11210v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.11210v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive river interlinking projects are proposed to offset observed increasing trends of extremes, such as droughts and floods in India, the second highest populated country.These river interlinking projects involve water transfer from surplus to deficit river basins through reservoirs and canals, but without an in-depth understanding of the hydro-meteorological consequences. Using information theory-based causal delineation techniques, a coupled regional climate model, and multiple reanalysis datasets, we show that causal pathways exist across different basins in India due to strong land-atmosphere feedback, which disputes the generally practiced assumption of hydrological independence between river basins. The causal information from one basin's land crosses the basin boundary through the atmosphere. We further find that increased irrigation from the transferred water reduces mean rainfall in September by up to 12% in many parts of India most of which are already water stressed.We observe more drying in La Nina years as compared to El Nino years. Reduced September precipitation can lead to drying of rivers post monsoon augmenting the water stress across country rendering interlinking dysfunctional. These findings demand model-guided impact assessment studies of large scale hydrological projects across the globe considering land-atmosphere interactions.</summary>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-20T12:45:21Z</published>
+    <arxiv:primary_category term="physics.ao-ph"/>
+    <author>
+      <name>Tejasvi Chauhan</name>
+    </author>
+    <author>
+      <name>Anjana Devanand</name>
+    </author>
+    <author>
+      <name>M. K. Roxy</name>
+    </author>
+    <author>
+      <name>Karumuri Ashok</name>
+    </author>
+    <author>
+      <name>Subimal Ghosh</name>
+    </author>
+  </entry>
+</feed>

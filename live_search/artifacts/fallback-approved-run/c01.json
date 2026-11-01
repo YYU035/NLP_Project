@@ -1,0 +1,47 @@
+{
+  "original_claim": "The results of this study show that the expression of TNF-α does not increase the risk of COVID-19 in older adults.",
+  "top_k": 10,
+  "limit_scope": "per_provider",
+  "from_publication_date": "2020-01-01",
+  "to_publication_date": "2026-10-30",
+  "papers": [],
+  "providers": {
+    "arxiv": {
+      "provider": "arxiv",
+      "status": "zero_results",
+      "seconds": 1.0413730000000214,
+      "error": null,
+      "queries": [
+        {
+          "id": "arxiv-000001",
+          "provider": "arxiv",
+          "strategy": "spacy",
+          "stage": "primary",
+          "query": "\"TNF-α\" \"COVID-19\"",
+          "notes": [],
+          "status": "zero_results",
+          "returned": 0,
+          "seconds": 1.041212700001779,
+          "error": null,
+          "attempts": [
+            {
+              "endpoint": "https://export.arxiv.org/api/query",
+              "parameters": {
+                "search_query": "(all:\"TNF-α\" AND all:\"COVID-19\") AND submittedDate:[202001010000 TO 202610302359]",
+                "start": "0",
+                "max_results": "10"
+              },
+              "status": 200,
+              "seconds": 1.0341592999975546,
+              "response_file": "responses/arxiv-000001-1.body",
+              "sha256": "624e5d0b81897ad556ff1f3a14c5553a78c802376d6980fb5b825ea56e8f3f1a"
+            }
+          ]
+        }
+      ],
+      "records": []
+    }
+  },
+  "seconds": 1.0416205000001355,
+  "http_attempts": 1
+}

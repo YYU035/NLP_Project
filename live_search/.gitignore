@@ -1,0 +1,74 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.env
+.env.*
+!.env.example
+# Selected research evidence and dependencies of the submitted offline tests.
+# Unselected historical runs and new ad hoc artifact directories stay local.
+/artifacts/*
+!/artifacts/README.md
+!/artifacts/arxiv-concepts-20261031/
+!/artifacts/arxiv-keybert-20261101/
+!/artifacts/keybert-experiment-20261101/
+!/artifacts/openaire-experiment-20261101/
+!/artifacts/integration-readiness-20261101/
+!/artifacts/readiness-live-results-20261101/
+!/artifacts/depth-approved-run/
+!/artifacts/fallback-approved-run/
+# Earlier reports/data are referenced by retained documentation.
+!/artifacts/query-evaluation-20261030/
+!/artifacts/provider-diagnostics-20261030/
+!/artifacts/provider-diagnostics-followup-20261030/
+# Older raw diagnostics are not needed for the final routing/depth analysis.
+/artifacts/query-evaluation-20261030/responses/
+/artifacts/provider-diagnostics-20261030/responses/
+/artifacts/provider-diagnostics-followup-20261030/responses/
+# Preserve the actual KeyBERT run, not its unrun intermediate query drafts.
+/artifacts/keybert-experiment-20261101/queries_initial.json
+/artifacts/keybert-experiment-20261101/queries_candidate_fix.json
+/artifacts/keybert-experiment-20261101/query_review_initial.md
+/artifacts/keybert-experiment-20261101/query_review_candidate_fix.md
+# Label-source mapping and manual checks are needed by the readiness tests.
+# Unrun Gemini judgments/metrics and its database remain local.
+!/artifacts/gemini-relevance-20261031/
+/artifacts/gemini-relevance-20261031/*
+!/artifacts/gemini-relevance-20261031/manifest.json
+!/artifacts/gemini-relevance-20261031/manual_validation_30.csv
+!/artifacts/gemini-relevance-20261031/manual_validation_30_filled.csv
+!/artifacts/gemini-relevance-20261031/prompt.txt
+# Already excluded by /artifacts/*; explicit for clarity and future edits.
+/artifacts/local-models/
+/artifacts/runtime/
+/outputs/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.sqlite-*
+*.log
+*.tmp
+*.bak
+*.safetensors
+pytorch_model*.bin
+*.pt
+*.pth
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+/secrets/
+/credentials/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/30SKIDNmLAiP2AG7cwj1KaauC7k</id>
+  <title>arXiv Query: search_query=(all:In AND all:this AND all:study AND all:we AND all:demonstrate AND all:that AND all:"lithium-ion" AND all:batteries AND all:retain AND all:"90%" AND all:capacity AND all:after AND all:500 AND all:cycles AND all:at AND all:"-5" AND all:"°C") AND submittedDate:"202001010000 TO 202610302359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-31T06:01:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:In+AND+(all:this+AND+(all:study+AND+(all:we+AND+(all:demonstrate+AND+(all:that+AND+(all:%22lithium-ion%22+AND+(all:batteries+AND+(all:retain+AND+(all:%2290%25%22+AND+(all:capacity+AND+(all:after+AND+(all:500+AND+(all:cycles+AND+(all:at+AND+(all:%22-5%22+AND+all:%22%C2%B0C%22))))))))))))))))+AND+submittedDate:%22202001010000+TO+202610302359%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>0</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+</feed>
