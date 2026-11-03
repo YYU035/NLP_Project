@@ -7,12 +7,18 @@ from explanation_frontend.providers import FixtureProvider
 APP = str(Path(__file__).parents[1] / "app.py")
 
 
+def verification_app():
+    app = AppTest.from_file(APP).run()
+    app.radio(key="workspace").set_value("Verify evidence").run()
+    return app
+
+
 def button(at, label):
     return next(b for b in at.button if b.label == label)
 
 
 def test_demo_conflict_subset_and_changed_claim():
-    at = AppTest.from_file(APP).run()
+    at = verification_app()
     assert not at.exception
     button(at, "Verify claim").click().run()
     assert not at.exception
@@ -31,7 +37,7 @@ def test_demo_conflict_subset_and_changed_claim():
 
 
 def test_total_failure_shows_no_scientific_verdict():
-    at = AppTest.from_file(APP).run()
+    at = verification_app()
     at.selectbox(key="scenario").set_value("failure").run()
     button(at, "Verify claim").click().run()
     assert not at.exception
@@ -41,7 +47,7 @@ def test_total_failure_shows_no_scientific_verdict():
 
 def test_sessions_are_isolated_and_live_does_not_silently_demo(monkeypatch):
     monkeypatch.delenv("EXPLANATION_PIPELINE_FACTORY", raising=False)
-    a, b = AppTest.from_file(APP).run(), AppTest.from_file(APP).run()
+    a, b = verification_app(), verification_app()
     button(a, "Verify claim").click().run()
     assert a.metric and not b.metric
     b.selectbox(key="mode").set_value("Live").run()
@@ -52,7 +58,7 @@ def test_sessions_are_isolated_and_live_does_not_silently_demo(monkeypatch):
 
 
 def test_untrusted_passage_is_text_and_source_status_remains_visible():
-    at = AppTest.from_file(APP).run()
+    at = verification_app()
     at.selectbox(key="scenario").set_value("untrusted").run()
     button(at, "Verify claim").click().run()
     assert not at.exception
@@ -61,7 +67,7 @@ def test_untrusted_passage_is_text_and_source_status_remains_visible():
 
 
 def test_live_subset_is_background_cached_and_cancellable():
-    at = AppTest.from_file(APP).run()
+    at = verification_app()
     at.selectbox(key="mode").set_value("Live").run()
     snapshot = FixtureProvider().run_fixture("conflict").model_copy(update={"mode": "live"})
     gate = threading.Event()

@@ -4,6 +4,43 @@ An independently runnable Streamlit workspace for inspecting scientific claim ve
 
 All implementation, configuration, fixtures, tests, environments and generated files stay inside this directory. No upstream module has been implemented or changed here.
 
+## New workflow — 4 November 2026
+
+The sidebar now separates **Find papers**, **Verify evidence**, and **Evaluate explanations**.
+
+- **Find papers:** load the recorded real search (32 candidates), upload a native Person 1 RetrievalResult/discovery export, or perform live discovery. Browse ten papers per page beside an inspectable detail panel. Query/provider diagnostics, aliases, all origins and original normalized records remain available. Filtering does not erase selections. All candidates are **Not yet verified**.
+- **Verify evidence:** the existing template/LLM and subset workflow is split into Verdict & explanation / Papers & passages / Run details tabs. Prepare a frozen paper selection directly from discovery; ranking and verification are still the downstream owners' responsibility.
+- **Evaluate explanations:** upload blinded review_packets.jsonl and submit explicit human scores against exact evidence. Reviewer ID, usefulness rating and acknowledgement are required. Export scores as CSV/JSON before closing the session. Unreviewed outputs remain pending; the synthetic practice set is clearly labelled.
+
+The optional retrieval package and pinned local MiniLM/spaCy models are installed in this local environment. A live smoke run returned **9 candidates, 3 HTTP attempts, all three providers successful** for the public test claim “Physical exercise improves memory”, with a per-provider limit of three. It generated no scientific verdict. Its result is saved in ignored outputs/live-discovery-smoke.json, as a smoke check rather than a retrieval-quality experiment.
+
+The recorded sample is copied byte-for-byte from live_search/artifacts/depth-approved-run/c01.json at Raghavi's upstream commit `259d2a9e90fb8e9d5988f030a156733f4f3576d1`. It is cached, contains no verification labels, and does not imply a new search or endorsement of its claim. The native payload supplies no retrieval timestamp, so the app leaves that unknown.
+
+### Live discovery setup on another machine
+
+After normal setup:
+
+```powershell
+.\explanation_frontend\setup-discovery.ps1
+.\explanation_frontend\run.ps1
+```
+
+This installs requirements-discovery-lock.txt, including the private GitHub package at the reviewed revision. Git must have access to the group repository. It explicitly downloads MiniLM revision `2a7cca6ad7605f3183bce07f677bda658059bbe9` into .models/all-MiniLM-L6-v2; dependencies include en_core_web_sm 3.8.0. Weights/caches remain ignored inside this module. Use -SkipModels only when pinned weights are already present.
+
+Choose Find papers → Live search. Optional OPENALEX_API_KEY and OPENAIRE_TOKEN are read by the upstream settings. One async service/event loop per session preserves provider pacing and query cache across requests; arXiv fallback stays off. Thirty means candidates **per provider**, not a globally ranked top 30. The UI distinguishes partial results, successful empty search and complete outage. The bridge has a 115-second deadline and the UI a 120-second bound. Cancellation discards the result; abandoned work must finish before a new search. Release live search connection closes the HTTP resources.
+
+### Selected-search verification
+
+Prepare selected papers for verification moves a frozen selection into Verify evidence → Selected search and locks its original claim. When Persons 2–4 are ready, configure:
+
+```powershell
+$env:EXPLANATION_VERIFY_DISCOVERY_FACTORY = 'explanation_frontend.your_bridge:create_provider'
+```
+
+The trusted factory returns a provider exposing run_from_discovery(discovery_snapshot, selected_IDs) and aggregate(verification_snapshot, selected_IDs). FromDiscoveryProvider supplies the guarded seam using injected verify_selected(handoff) and aggregate(snapshot, IDs) functions. The former is the owners' ranking → passage selection → verification pipeline returning a mapped RunSnapshot; the latter reuses its cached response.
+
+Returned snapshots must preserve the exact claim and a subset of selected canonical IDs. The adapter attaches the full original discovery payload/selection to optional RunSnapshot.discovery_context, preserving aliases, origins and cached/live provenance. No search is repeated. Existing version-1 verification exports remain replayable: absent discovery context does not change their hashes. The actual downstream factory remains unconfigured until the owners supply their functions.
+
 ## Run now
 
 The local Python 3.12 virtual environment is already installed. From the project root in PowerShell:
@@ -14,7 +51,7 @@ The local Python 3.12 virtual environment is already installed. From the project
 
 Open [the local app](http://127.0.0.1:8501). Stop it with Ctrl+C. The launcher binds to your machine only and disables Streamlit usage telemetry. If port 8501 is occupied, use `-Port 8502`.
 
-Choose Demo → conflict → Verify claim. Uncheck paper 2: the provisional result remains CONFLICTING, while the selected result becomes SUPPORTED. Uncheck all: the selected result becomes INSUFFICIENT with EMPTY_SELECTION. Change the claim: the prior result disappears. The failure scenario shows PROCESSING FAILURE, not a scientific verdict. All demo papers/claims/findings are synthetic.
+Choose Verify evidence → Demo → conflict → Verify claim. Under Papers & passages, uncheck paper 2: the provisional result remains CONFLICTING, while the selected result becomes SUPPORTED. Uncheck all: the selected result becomes INSUFFICIENT with EMPTY_SELECTION. Change the claim: the prior result disappears. The failure scenario shows PROCESSING FAILURE, not a scientific verdict. All demo papers/claims/findings are synthetic.
 
 Demo only accepts the scenario's fixed claim; it cannot verify arbitrary scientific text. Use cached real outputs or the configured live bridge for real claims.
 
@@ -96,6 +133,6 @@ Human reviewers score factual support, citation support/completeness, verdict ag
 
 ## Current limits and remaining external work
 
-Real upstream wiring awaits the four teammates' functions and agreed payload mappings. Real-model smoke testing requires API configuration. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
+Person 1 discovery is connected through its pinned package. Downstream verification awaits Persons 2–4's functions and agreed mappings. Real explanation-model smoke testing requires OpenAI API configuration. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
 
 API references used: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing), [Streamlit fragments](https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment), [OpenAI Chat API](https://developers.openai.com/api/reference/resources/chat).

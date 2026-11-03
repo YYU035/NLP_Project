@@ -62,9 +62,19 @@ An unchanged replay selection uses its saved selected aggregation exactly. A cha
 
 The verifier's verdict is authoritative. Template explanations quote whole eligible primary passages. LLM statements must match whole allowed passages exactly, retain both conflict sides, and match the selected snapshot/aggregation context. Generated free-form text, fabricated references, partial quotations and unapproved corrections fail closed to the template. The current scope is intentionally extractive; semantic citation support still needs independent human review. No automated validator here proves the underlying paper true, relevant, authentic or scientifically sound.
 
+## Discovery handoff now implemented
+
+discovery.py validates the actual Person 1 RetrievalResult schema at Raghavi revision 259d2a9. It preserves normalized source records, identity aliases and provider/query origins. DiscoverySnapshot is independent of RunSnapshot: candidates have no scientific verdict. Native payloads and checksum-protected discovery exports are accepted; absent retrieval dates remain unknown. Query reformulations never replace original_claim.
+
+LiveDiscoveryBridge keeps one async service/event loop per session, with explicit close and deadlines. It injects the pinned local KeyBERT model path, leaves arXiv fallback disabled and preserves upstream provider policy. Preparing selected candidates for verification does not repeat search.
+
+FromDiscoveryProvider is the downstream-only seam: verify_selected receives discovery-selection-1.0 (original_claim, selected full candidate entries and provider diagnostics) and returns a mapped RunSnapshot. Owners must retain the canonical identities. aggregate receives that cached snapshot plus selected IDs. The adapter checks claim/selection lineage and attaches optional discovery_context, preserving source data and original selection. Cached discovery stays cached in its provenance even when verification is newly computed.
+
+Original verification replay hashes remain compatible when discovery_context is absent. EXPLANATION_VERIFY_DISCOVERY_FACTORY configures the selected-search bridge separately. Until it is supplied, the UI reports missing integration rather than fabricating scientific verdicts.
+
 ## Still to settle with owners
 
-- Final import paths and exact mapping into these local schemas; fixed benchmark split/version.
+- Persons 2–4 import paths and exact downstream mapping; fixed benchmark split/version. Person 1 discovery is connected through its pinned dependency.
 - Source ID/version conventions, zero/one-based sentence indices, retraction/eligibility handling and available safe status codes.
 - Person 4 aggregation rules and latency on real cached outputs; threshold/checkpoint revision.
 - Actual replacement-evidence approval method, if corrections are included.

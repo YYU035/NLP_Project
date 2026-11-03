@@ -6,6 +6,9 @@ if (-not (Test-Path -LiteralPath $modulePython)) {
 }
 $env:PYTHONDONTWRITEBYTECODE = '1'
 $env:STREAMLIT_BROWSER_GATHER_USAGE_STATS = 'false'
+$env:HF_HOME = Join-Path $PSScriptRoot '.model-cache/huggingface'
+$env:TORCH_HOME = Join-Path $PSScriptRoot '.model-cache/torch'
+$env:HF_HUB_DISABLE_TELEMETRY = '1'
 Push-Location $PSScriptRoot
 try {
     & $modulePython -m streamlit run app.py --server.address 127.0.0.1 --server.port $Port

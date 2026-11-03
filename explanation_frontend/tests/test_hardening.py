@@ -7,6 +7,8 @@ from explanation_frontend.providers import FixtureProvider
 from explanation_frontend.templates import build_template
 from explanation_frontend.validation import validate_explanation
 from explanation_frontend.providers import IntegratedProvider
+from explanation_frontend.export import import_snapshot, export_snapshot
+from explanation_frontend.models import digest
 
 
 def test_unvalidated_limitations_cannot_smuggle_a_scientific_claim():
@@ -60,3 +62,15 @@ def test_typed_verifier_response_preserved_for_subset_aggregation():
         select=lambda *a: {}, verify=lambda *a: original_response, aggregate=aggregate, pack=lambda *a: live)
     result = provider.run(snapshot.claim, {})
     assert provider.aggregate(result, []).aggregated_verdict == "INSUFFICIENT"
+
+
+def test_original_v1_exports_replay_after_optional_discovery_field_added():
+    snapshot = FixtureProvider().run_fixture("supported")
+    context = make_context(snapshot, list(snapshot.papers), snapshot.provisional)
+    data = json.loads(export_snapshot(context, build_template(context)))
+    data["snapshot"].pop("discovery_context", None)
+    legacy_hash = digest(data["snapshot"])
+    data["snapshot_hash"] = legacy_hash
+    data["explanation"]["context_key"] = digest({"snapshot": legacy_hash,
+        "selection": context.selected_paper_ids, "aggregation": context.aggregation.model_dump(mode="json")})
+    assert import_snapshot(json.dumps(data)).snapshot.claim == snapshot.claim

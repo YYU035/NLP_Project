@@ -1,5 +1,17 @@
 # Implementation and evaluation status — 31 October 2026
 
+## Forward implementation — 4 November 2026
+
+The updated suite passes **81 tests**. The app now separates paper discovery, verification and human explanation review. Real recorded discovery uses the exact upstream schema and source revision; it never creates scientific labels. Old version-1 verification exports retain their checksums when optional discovery context is absent.
+
+A live discovery smoke run for the public test claim “Physical exercise improves memory” returned **9 candidates**, **3 HTTP attempts**, and success from OpenAlex/OpenAIRE/arXiv at a per-provider limit of three. The recorded service time was **79.58 seconds**, including its generation/provider work; this single run is not a speed benchmark or quality experiment. Completion was recorded at 2026-11-03T16:09:45Z (4 November, 00:09 Singapore time). The versioned result is saved in ignored outputs/live-discovery-smoke.json. No scientific verdict, PDF verification, OpenAI generation or human study score was produced by that smoke run.
+
+The pinned retrieval dependency and local MiniLM/spaCy models were installed inside this module environment. pip check passes. setup-discovery.ps1 reproduces optional setup without global Git or model-cache changes. The base lock file remains lean; the optional full environment is recorded separately.
+
+AppTest and browser checks covered recorded paper browsing, compact detail/provenance inspection, navigation, the retained verification/citation flow and a blank blinded human-review form. Input state is preserved across workspaces. A fresh code review found a selected-search mode-switch claim mismatch; a regression test reproduced it and the fix restores the exact locked source claim. Human reviews remain genuinely pending; automated form tests do not constitute study reviews.
+
+Source-control work is on local codex/explanation-frontend based on GitHub main. Only explanation_frontend files enter its commits. No upstream branch merge, push or teammate-folder change was performed. Downstream verification factories and the real explanation-quality study remain external integration/evaluation work.
+
 ## What was executed
 
 The module test suite currently passes 52 tests under Python 3.12.15, Streamlit 1.58.0 and Pydantic 2.12.5. It exercises snapshot linkage, selection isolation, explanations, malformed/unavailable generations, HTTP-independent LLM injection, export/replay, request identity, timeout handling, per-session state, UI flows, live subset background/caching behavior, the injected integration adapter and evaluation summaries.

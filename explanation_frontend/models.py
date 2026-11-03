@@ -119,6 +119,7 @@ class RunSnapshot(Model):
     provisional: AggregationResponse
     stage_statuses: dict[str, str] = Field(default_factory=dict)
     explicit_replacements: dict[str, str] = Field(default_factory=dict)
+    discovery_context: dict | None = None
 
     @model_validator(mode="after")
     def check_links(self):
@@ -151,11 +152,19 @@ class RunSnapshot(Model):
         for pid, text in self.explicit_replacements.items():
             if pid not in passages or passages[pid].text != text:
                 raise ValueError("Replacement must be an exact supplied passage")
+        if self.discovery_context is not None:
+            from .discovery import DiscoverySnapshot
+            discovery = DiscoverySnapshot.model_validate(self.discovery_context)
+            if discovery.result.original_claim != self.claim or not set(self.papers) <= set(discovery.selected_paper_ids):
+                raise ValueError("Verification is outside its original discovery claim/selection")
         return self
 
     @property
     def fingerprint(self) -> str:
-        return digest(self.model_dump(mode="json"))
+        data = self.model_dump(mode="json")
+        if self.discovery_context is None:
+            data.pop("discovery_context")  # preserve original 1.0 replay hashes
+        return digest(data)
 
 
 def digest(value: object) -> str:

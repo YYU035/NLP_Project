@@ -102,3 +102,41 @@ class IntegratedProvider:
         result = AggregationResponse.model_validate(self.aggregate_fn(self._cached_response, sorted(set(paper_ids))))
         make_context(snapshot, paper_ids, result)
         return result
+
+
+class FromDiscoveryProvider:
+    """Downstream-only seam: reuse candidate handoff, never repeat live search.
+
+    verify_selected(handoff) runs the owners' ranking → passage selection → verification
+    and returns a mapped RunSnapshot. aggregate(snapshot, IDs) reuses that response.
+    There is deliberately no guessed import of unfinished teammate modules.
+    """
+    def __init__(self, *, verify_selected: Callable, aggregate: Callable):
+        self.verify_selected, self.aggregate_fn = verify_selected, aggregate
+        self._snapshot = None
+
+    def run_from_discovery(self, discovery, paper_ids: list[str]) -> RunSnapshot:
+        from .discovery import discovery_handoff
+        if not paper_ids:
+            raise ValueError("Select candidates before running verification")
+        handoff = discovery_handoff(discovery, paper_ids)
+        output = self.verify_selected(handoff)
+        snapshot = output if isinstance(output, RunSnapshot) else RunSnapshot.model_validate(output)
+        if snapshot.claim != discovery.result.original_claim or not set(snapshot.papers) <= set(paper_ids):
+            raise ValueError("Downstream result changed the claim or selected identities")
+        data = snapshot.model_dump(mode="json")
+        source = discovery.model_dump(mode="json")
+        source["selected_paper_ids"] = sorted(set(paper_ids))
+        data.update(mode=discovery.mode, discovery_context=source)
+        self._snapshot = RunSnapshot.model_validate(data)
+        return self._snapshot
+
+    def aggregate(self, snapshot: RunSnapshot, paper_ids: list[str]) -> AggregationResponse:
+        if self._snapshot is None or snapshot.fingerprint != self._snapshot.fingerprint:
+            raise ValueError("No matching cached verification response")
+        if not set(paper_ids) <= set(snapshot.papers):
+            raise ValueError("Unknown selected paper")
+        result = self.aggregate_fn(snapshot, sorted(set(paper_ids)))
+        result = result if isinstance(result, AggregationResponse) else AggregationResponse.model_validate(result)
+        make_context(snapshot, paper_ids, result)
+        return result
