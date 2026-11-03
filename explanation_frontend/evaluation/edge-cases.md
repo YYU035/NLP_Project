@@ -1,0 +1,18 @@
+# Person 5 edge-case outcomes
+
+The supplied Edge Cases tab groups 27 IDs without the individual downloadable triggers or priorities. Group membership is retained here; exact individual mapping/priorities must be reconciled with that checklist. These are proposed scenario groups, not 27 confirmed project defects. A passing automated check below means the specified local behavior passed, not that scientific correctness was established.
+
+| IDs | Trigger exercised | First relevant stage | Expected and observed handling | Status / evidence |
+| --- | --- | --- | --- | --- |
+| EX01–EX06, EX08 (7) | Fake citation, existing irrelevant reference, appended unsupported clause, changed number, dropped qualification, changed verdict, fabricated correction, omitted conflict side | Explanation validation | Raw output rejected; template displayed; invalid raw preserved only for evaluation | Passed: test_core.py, test_runtime.py, test_hardening.py |
+| OP01–OP03, OP06–OP08 (6) | Timeout, changed claim, partial/total failure, duplicate request identity, abandoned late result, unavailable live factory and unavailable generation | State/provider/UI | Results remain scoped; failures visible; no silent demo fallback; cancelled output discarded; cached background subset work | Passed: test_runtime.py, test_app.py. Actual upstream simultaneous outages remain blocked on upstream integration |
+| SE01–SE03, SE05, SE07 (5) | Untrusted instruction/HTML in passage, exception containing a secret, unsafe URL, two sessions | Prompt, renderer, exception boundary, session state | Source text rendered as text; exception bodies omitted; bad URLs not clickable; results isolated | Passed: test_runtime.py and test_app.py. Independent penetration testing of deployed/authenticated service is outside this local app |
+| SE08 (1) | Spreadsheet export formula execution | Export | App exports JSON, not a spreadsheet | Explicitly outside scope; reviewer CSV uses generated safe output/reviewer IDs, no untrusted case text |
+| UI01 (1) | Model/relevance scores mistaken for truth probability | Presentation | Score type and non-probability wording visible | Passed: rendered UI inspected; typed confidence and finite-score validation tests |
+| UI02, UI06 (2) | Cached/synthetic freshness or paper authority implied | Provenance/presentation | Original timestamp/mode/version shown; replay separately labelled; recency/access/count do not establish truth | Passed: replay tests and real demo browser inspection; real-source status availability awaits Person 1 |
+| UI03 (1) | Conflict/uncertainty hidden by headline | Aggregation/explanation | Both conflict sides retained; subset delta scoped; abstract/truncated/incomplete warnings retained | Passed: test_core.py, test_runtime.py, test_app.py |
+| UI04–UI05 (2) | Colour-only state/inaccessible evidence controls; stale result after claim edit | UI/state | Text verdicts and labelled controls, inspectable evidence, old result cleared | Passed: AppTest and browser interaction. Complete screen-reader/accessibility audit not performed |
+| UI07 (1) | Narrow finding becomes personalised recommendation | Explanation gate | Extra or strengthened text rejected; whole source quotation only | Passed: bad-generation tests. Upstream quoted content itself remains untrusted evidence |
+| UI08 (1) | Export loses claim, evidence, source version, selection or mode | Export/replay | Full versioned bundle, hash and context/citation checks | Passed: test_runtime.py round-trip and tamper tests |
+
+Unexecuted real LLM/network/model/GPU tests are blocked by external configuration and upstream availability, not passed. Human semantic support/usefulness is pending. Preserve these distinctions when reporting the capstone's results.

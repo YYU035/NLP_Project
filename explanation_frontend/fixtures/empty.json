@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "run_id": "synthetic-empty-v1",
+  "claim": "In the simulated benchmark, method A reduces latency relative to method B.",
+  "created_at": "2026-10-31T09:00:00Z",
+  "retrieved_at": "2026-10-31T09:00:00Z",
+  "mode": "demo",
+  "source_snapshot_id": "synthetic-empty-v1",
+  "filters": {
+    "corpus": "synthetic"
+  },
+  "search_complete": true,
+  "papers": {},
+  "stage_statuses": {
+    "search": "fixture",
+    "retrieval": "fixture",
+    "passage_selection": "fixture",
+    "verification": "fixture"
+  },
+  "verification": {
+    "per_paper_verdicts": {},
+    "per_passage_labels": {},
+    "processing_failures": [],
+    "evidence_passages": [],
+    "model_settings": {
+      "checkpoint": "synthetic-no-model",
+      "revision": "fixture-v1",
+      "max_length": 512,
+      "threshold": null,
+      "seed": 0
+    }
+  },
+  "provisional": {
+    "claim": "In the simulated benchmark, method A reduces latency relative to method B.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": null,
+    "verdict_delta_reason": "Synthetic all-paper baseline.",
+    "status": "ok",
+    "sufficiency_cause": "NO_RETRIEVAL"
+  }
+}
