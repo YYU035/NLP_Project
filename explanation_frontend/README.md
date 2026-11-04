@@ -1,6 +1,6 @@
 # Explanation frontend — Person 5
 
-An independently runnable Streamlit workspace for inspecting scientific claim verification. It includes template explanations, an optional guarded OpenAI explanation generator, passage-level citations, paper selection and verdict changes, processing states, JSON export/replay, and paired explanation-evaluation tools.
+An independently runnable Streamlit workspace for inspecting scientific claim verification. It includes template explanations, an optional local Apache-2.0 explanation model, passage-level citations, paper selection and verdict changes, processing states, JSON export/replay, and paired explanation-evaluation tools.
 
 All implementation, configuration, fixtures, tests, environments and generated files stay inside this directory. No upstream module has been implemented or changed here.
 
@@ -27,7 +27,7 @@ After normal setup:
 
 This installs requirements-discovery-lock.txt, including the private GitHub package at the reviewed revision. Git must have access to the group repository. It explicitly downloads MiniLM revision `2a7cca6ad7605f3183bce07f677bda658059bbe9` into .models/all-MiniLM-L6-v2; dependencies include en_core_web_sm 3.8.0. Weights/caches remain ignored inside this module. Use -SkipModels only when pinned weights are already present.
 
-Choose Find papers → Live search. Optional OPENALEX_API_KEY and OPENAIRE_TOKEN are read by the upstream settings. One async service/event loop per session preserves provider pacing and query cache across requests; arXiv fallback stays off. Thirty means candidates **per provider**, not a globally ranked top 30. The UI distinguishes partial results, successful empty search and complete outage. The bridge has a 115-second deadline and the UI a 120-second bound. Cancellation discards the result; abandoned work must finish before a new search. Release live search connection closes the HTTP resources.
+Choose Find papers → Live search. This frontend intentionally clears all provider credentials and uses only the free, anonymous catalogue-search paths; configured keys are ignored. One async service/event loop per session preserves provider pacing and query cache across requests; arXiv fallback stays off. Thirty means candidates **per provider**, not a globally ranked top 30. The UI distinguishes partial results, successful empty search and complete outage. The bridge has a 115-second deadline and the UI a 120-second bound. Cancellation discards the result; abandoned work must finish before a new search. Release live search connection closes the HTTP resources.
 
 ### Selected-search verification
 
@@ -66,24 +66,26 @@ Python 3.12 is tested. Supply its executable explicitly if your system's default
 
 The installer creates .venv, pip cache and temporary files locally. requirements.txt pins direct dependencies; requirements-lock.txt records the tested Windows/Python 3.12 environment and transitive versions. Other platforms can create a virtual environment and install requirements.txt; their resolved dependency versions should be recorded separately.
 
-## Optional LLM explanations
+## Optional local open-source explanations
 
-Templates work without credentials. Set these in the terminal that starts the app:
+The paid/proprietary hosted explanation client has been removed. Templates require no model and work fully offline. The optional LLM is **Qwen/Qwen2.5-0.5B-Instruct**, released under **Apache-2.0**, run directly on this computer with the open-source PyTorch and Transformers libraries. No hosted inference endpoint, API key, subscription or paid account is used.
+
+The local model is pinned to revision `7ae557604adf67be50417f59c2c2f167def9a775`. Download it explicitly once:
 
 ```powershell
-$env:OPENAI_API_KEY = '<your key>'
-$env:EXPLANATION_LLM_MODEL = '<a model available to your account with Chat Completions JSON output>'
-$env:EXPLANATION_LLM_TIMEOUT = '20'
+.\explanation_frontend\setup-local-llm.ps1
 .\explanation_frontend\run.ps1
 ```
 
-.env.example documents the variables; .env files are deliberately not auto-loaded. Do not commit your key. The client uses OpenAI Chat Completions with JSON output, 3,000 completion tokens, a bounded per-attempt timeout and at most one retry for HTTP 429/5xx. Model compatibility and account access must be verified with your chosen model. No specific model is silently chosen.
+This installs requirements-local-llm.txt and downloads publicly available weights/tokenizer/license files into this module's ignored .models directory. The download uses the public model repository without authentication. After setup, inference loads local files only with remote code disabled. Claim/evidence text stays on this computer. Runtime never downloads a missing model or switches to cloud inference.
 
-Click Generate LLM explanation only when you want to send the exact claim and selected evidence to OpenAI. Checkbox changes do not automatically make LLM calls. Generated statements must be WHOLE exact supplied passages, with valid passage IDs and matching verdict. Free-form paraphrases, missing qualifiers, invented citations and unsupported corrections fall back visibly to the template. Prompt injection is constrained by the output gate; arbitrary source markup is displayed as text.
+The weight file is approximately 988 MB. Its size and SHA-256 checksum are checked before activation. The attempted download on this machine was stopped while incomplete because it was slow; run the setup command to finish installation before using real local generation. Templates work without it. No real local-model quality or inference result is claimed yet.
 
-This deliberately conservative first version is extractive. It does not independently establish semantic relevance or scientific truth. The evaluation harness retains rejected raw model output for human assessment; the normal app never renders that raw output.
+The installed model directory is the default; optional EXPLANATION_LOCAL_MODEL_PATH selects a local copy of the same pinned revision, and EXPLANATION_LOCAL_TIMEOUT controls the generation time limit (default 60 seconds, maximum 120). .env.example documents these settings; no .env file is auto-loaded. CPU compute, memory and electricity are local operating costs; there are no per-request inference charges.
 
-Corrections are withheld unless the upstream snapshot explicitly supplies approved replacement evidence. Merely finding a different number in a passage is insufficient. See contracts.md before enabling this upstream feature.
+Generate local LLM explanation uses deterministic greedy decoding, a bounded token budget and no silent input truncation. The existing grounding gate remains: statements must be whole supplied passages with valid IDs and a matching verdict; unsupported corrections/qualifier changes/fabricated citations fail visibly to the template. The small CPU model may produce malformed or unsupported output, which is retained only for evaluation and withheld from normal display. No quality advantage over templates is assumed.
+
+See API_POLICY.md for the remaining free public discovery endpoints and explicit setup-only downloads.
 
 ## Cached real results and live integration
 
@@ -112,7 +114,7 @@ $env:PYTHONDONTWRITEBYTECODE = '1'
 
 The synthetic harness produces 60 blinded packets for 30 stress cases, a private method key, raw/displayed records, automatic status summary, and blank sheets for two reviewers. It is NOT a real LLM experiment. Do not use its scripted acceptance rates as evidence of model performance.
 
-To run the paired real experiment, create a frozen-case manifest (see evaluation/rubric.md), configure the model and run:
+To run the paired real experiment, create a frozen-case manifest (see evaluation/rubric.md), install the local open-source model and run:
 
 ```powershell
 .\explanation_frontend\.venv\Scripts\python.exe -m explanation_frontend.evaluation.run --mode llm --cases explanation_frontend/outputs/heldout-cases.jsonl --out explanation_frontend/outputs/real-study
@@ -133,6 +135,6 @@ Human reviewers score factual support, citation support/completeness, verdict ag
 
 ## Current limits and remaining external work
 
-Person 1 discovery is connected through its pinned package. Downstream verification awaits Persons 2–4's functions and agreed mappings. Real explanation-model smoke testing requires OpenAI API configuration. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
+Person 1 discovery is connected through its pinned package. Downstream verification awaits Persons 2–4's functions and agreed mappings. Explanation generation is local; evaluation of its scientific usefulness still requires human review. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
 
-API references used: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing), [Streamlit fragments](https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment), [OpenAI Chat API](https://developers.openai.com/api/reference/resources/chat).
+API references used: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing), [Streamlit fragments](https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment), [Qwen model/license](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).

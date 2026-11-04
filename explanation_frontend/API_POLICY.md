@@ -1,0 +1,35 @@
+# Free/open-source operation — 4 November 2026
+
+The proprietary hosted explanation client has been removed. No subscription, paid inference API, API key or hosted model endpoint is used by this frontend's explanation workflow.
+
+## Explanation and evaluation
+
+- Templates, citation checking, replay and human-review forms run locally with no external request.
+- Optional generation uses Qwen/Qwen2.5-0.5B-Instruct, Apache-2.0, at revision 7ae557604adf67be50417f59c2c2f167def9a775, through open-source PyTorch/Transformers on CPU.
+- Inference uses local_files_only=True and trust_remote_code=False. It cannot download a missing model or fall back to a hosted service. The evaluation CLI's --mode llm uses the same local client.
+- setup-local-llm.ps1 explicitly downloads public model/tokenizer/license files once from Hugging Face, without an account token. Hugging Face hosted inference is not used. Weights and caches stay in this module's ignored directories.
+- Missing weights, generation failures or invalid/unsupported output leave the template available. A small local model's scientific usefulness is an evaluation question, not an assumed quality improvement.
+
+## Remaining public discovery endpoints
+
+| Endpoint | Purpose | Credential/payment policy |
+| --- | --- | --- |
+| https://api.openalex.org/works | Public paper metadata | Anonymous basic queries only; credentials are cleared. OpenAlex offers paid higher-volume access, but this app cannot use that account configuration. |
+| https://api.openaire.eu/graph/v3/research-products | Public OpenAIRE research metadata | The pinned upstream client's anonymous path; credentials are cleared. |
+| https://export.arxiv.org/api/query | Public arXiv metadata | No API account or payment credentials. |
+
+Only these three discovery providers are enabled by this frontend factory. The installed upstream package's optional evaluators and other providers are not imported or called by this workflow. Scientific claim text is sent to these public catalogues only when the user requests Live search; explanation text/evidence is never sent to hosted inference.
+
+Provider pacing and rate limits remain in force. Quota, availability or authentication failures are reported as partial/unavailable search; there is no paid upgrade, credit purchase, payment fallback or credential forwarding. Catalogues are external services with their own operating terms; anonymous access can become unavailable. Cached and template modes remain usable offline.
+
+Links to paper landing pages/PDF metadata are inspectable links. This frontend does not fetch arbitrary paper URLs or execute their contents.
+
+## Sources checked
+
+- [Qwen model and Apache-2.0 license](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
+- [OpenAlex free anonymous basic API access](https://help.openalex.org/api/authentication/)
+- [OpenAlex open-source code statement](https://explore.openalex.org/about)
+- [OpenAIRE public Graph API](https://graph.openaire.eu/docs/apis/graph-api/)
+- [arXiv API access](https://info.arxiv.org/help/api/index.html)
+
+The discovery package is pinned to teammate source revision 259d2a9. No teammate source file was edited to enforce this frontend policy.

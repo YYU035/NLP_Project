@@ -95,3 +95,13 @@ def test_live_subset_is_background_cached_and_cancellable():
     assert any(m.value == "SUPPORTED" for m in at.metric)
     at.run()
     assert calls == [["demo:alpha"]]
+
+
+def test_local_llm_missing_weights_leaves_template_and_requires_no_hosted_key(monkeypatch, tmp_path):
+    monkeypatch.setenv("EXPLANATION_LOCAL_MODEL_PATH", str(tmp_path / "absent"))
+    at = verification_app()
+    button(at, "Verify claim").click().run()
+    button(at, "Generate local LLM explanation").click().run()
+    assert not at.exception
+    assert any("setup-local-llm" in error.value for error in at.error)
+    assert any(metric.value == "CONFLICTING" for metric in at.metric)

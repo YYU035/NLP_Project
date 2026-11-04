@@ -1,5 +1,9 @@
 # Implementation ledger
 
+Current policy (4 November 2026): hosted proprietary inference has been removed. Generation uses a pinned Apache-2.0 model locally; only free anonymous public catalogue discovery remains. Earlier entries below describe the superseded implementation, not current setup instructions. See API_POLICY.md.
+
+API-removal verification: 88 tests pass, dependency/whitespace checks pass, scripted evaluation remains reproducible, and fresh review found no important remaining paid-inference path. Current generation weights are not fully installed: the slow 988 MB public download was stopped before completion. The marker/checksum gate prevents incomplete weights from being activated. Explicit setup is provided; templates remain fully offline and usable.
+
 Scope: every created or modified file remains inside explanation_frontend/.
 
 Ruling: execute the accepted plan in this workspace without Git/worktree mutations, because the user expressly limited writes to this directory. No shared schema or teammate files will be changed.

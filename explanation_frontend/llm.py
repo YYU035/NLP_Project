@@ -1,12 +1,12 @@
-"""Explicit, bounded OpenAI generation with a conservative display gate."""
+"""Offline open-source model generation with a conservative grounding gate."""
 from __future__ import annotations
 
 import json
 import os
 import time
 from typing import Literal, Protocol
-from urllib.error import HTTPError
-from urllib.request import Request, urlopen
+from pathlib import Path
+import threading
 
 from pydantic import Field
 
@@ -52,45 +52,61 @@ class GenerationResult(Model):
     settings: dict[str, str | int | float] = Field(default_factory=dict)
 
 
-class OpenAIClient:
-    """No SDK/global cache; API key is never included in output or exception messages."""
-    def __init__(self, api_key: str, model: str, timeout: float = 20):
-        if not api_key or not model or not 1 <= timeout <= 60:
-            raise ValueError("Configure OPENAI_API_KEY, EXPLANATION_LLM_MODEL and a 1–60 second timeout")
-        self._api_key = api_key
-        self.model, self.timeout = model, timeout
+LOCAL_MODEL_ID = "Qwen/Qwen2.5-0.5B-Instruct"
+LOCAL_MODEL_REVISION = "7ae557604adf67be50417f59c2c2f167def9a775"
+
+
+class LocalContextLimit(ValueError):
+    """A local prompt is too long to process without discarding evidence."""
+
+
+class LocalTransformersClient:
+    """Apache-2.0 weights executed locally; no hosted inference or HTTP client.
+
+    Setup is an explicit public model download. Runtime loading is local-only,
+    with remote code disabled, no truncation and deterministic CPU generation.
+    """
+    def __init__(self, model_path: str | Path, *, timeout: float = 60,
+                 max_context_tokens: int = 3072, max_new_tokens: int = 512):
+        self.path = Path(model_path).expanduser().resolve()
+        revision_file = self.path / "pinned_revision.txt"
+        if not revision_file.is_file() or revision_file.read_text(encoding="utf-8").strip() != LOCAL_MODEL_REVISION:
+            raise ValueError("Run setup-local-llm.ps1 to download the pinned open-source weights")
+        if not 1 <= timeout <= 120 or not 1 <= max_context_tokens <= 8192 or not 1 <= max_new_tokens <= 1024:
+            raise ValueError("Invalid local generation limits")
+        self.model = LOCAL_MODEL_ID + "@" + LOCAL_MODEL_REVISION
+        self.timeout = timeout
+        self.max_context_tokens, self.max_new_tokens = max_context_tokens, max_new_tokens
+        self._tokenizer = self._model = None
+        self._lock = threading.Lock()
+        self.settings = {"backend": "local_transformers", "license": "Apache-2.0", "device": "cpu",
+                         "max_attempts": 1, "max_new_tokens": max_new_tokens, "max_context_tokens": max_context_tokens,
+                         "timeout_seconds": timeout, "decoding": "greedy", "seed": 0, "network": "disabled for inference"}
 
     @classmethod
     def from_env(cls):
-        return cls(os.environ.get("OPENAI_API_KEY", ""), os.environ.get("EXPLANATION_LLM_MODEL", ""),
-                   float(os.environ.get("EXPLANATION_LLM_TIMEOUT", "20")))
+        path = os.environ.get("EXPLANATION_LOCAL_MODEL_PATH", str(Path(__file__).parent / ".models" / "Qwen2.5-0.5B-Instruct"))
+        return cls(path, timeout=float(os.environ.get("EXPLANATION_LOCAL_TIMEOUT", "60")))
 
     def complete(self, messages: list[dict]) -> str:
-        body = json.dumps({"model": self.model, "messages": messages,
-                           "response_format": {"type": "json_object"}, "max_completion_tokens": 3000}).encode()
-        request = Request("https://api.openai.com/v1/chat/completions", data=body,
-                          headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"})
-        for attempt in range(2):
-            try:
-                with urlopen(request, timeout=self.timeout) as response:
-                    payload = response.read(1_000_001)
-                    if len(payload) > 1_000_000:
-                        raise ValueError("Response exceeds limit")
-                    result = json.loads(payload)
-                    choice = result["choices"][0]
-                    if choice.get("finish_reason") != "stop":
-                        raise ValueError("Incomplete output")
-                    return choice["message"]["content"]
-            except HTTPError as error:
-                if attempt == 0 and (error.code == 429 or error.code >= 500):
-                    error.close()
-                    time.sleep(0.25)
-                    continue
-                error.close()
-                raise RuntimeError("LLM request failed") from None
-            except Exception:
-                raise RuntimeError("LLM request failed") from None
-        raise RuntimeError("LLM request failed")
+        import torch
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        with self._lock:
+            if self._tokenizer is None:
+                self._tokenizer = AutoTokenizer.from_pretrained(str(self.path), local_files_only=True, trust_remote_code=False)
+            inputs = self._tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True,
+                                                         return_tensors="pt", return_dict=True)
+            prompt_length = inputs["input_ids"].shape[-1]
+            if prompt_length > self.max_context_tokens:
+                raise LocalContextLimit("Local context limit exceeded; no evidence was silently truncated")
+            if self._model is None:
+                self._model = AutoModelForCausalLM.from_pretrained(str(self.path), local_files_only=True,
+                                                                  trust_remote_code=False, dtype=torch.float32)
+                self._model.eval()
+            with torch.inference_mode():
+                generated = self._model.generate(**inputs, max_new_tokens=self.max_new_tokens,
+                    do_sample=False, max_time=self.timeout, pad_token_id=self._tokenizer.eos_token_id)
+            return self._tokenizer.decode(generated[0][prompt_length:], skip_special_tokens=True)
 
 
 def generate_llm(context: ExplanationContext, client: LLMClient, *, max_context_chars: int = 60_000) -> GenerationResult:
@@ -111,6 +127,9 @@ def generate_llm(context: ExplanationContext, client: LLMClient, *, max_context_
     else:
         try:
             raw = client.complete([{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": encoded}])
+        except LocalContextLimit:
+            status, issues = "context_limit", ["LOCAL_TOKEN_LIMIT_NO_SILENT_TRUNCATION"]
+            omitted = [p.passage_id for p in context.aggregation.primary_evidence]
         except Exception:
             # Never export or render provider exception bodies (which may contain credentials).
             issues = ["LLM_UNAVAILABLE"]
@@ -130,5 +149,4 @@ def generate_llm(context: ExplanationContext, client: LLMClient, *, max_context_
     return GenerationResult(status=status, displayed=displayed, validation=validation, raw=raw,
                             issues=issues, omitted_passage_ids=omitted, model=client.model,
                             elapsed_seconds=time.monotonic() - started,
-                            settings={"max_completion_tokens": 3000, "timeout_seconds": getattr(client, "timeout", 0),
-                                      "max_attempts": 2, "decoding": "provider default"})
+                            settings=getattr(client, "settings", {"backend": "injected test client", "max_attempts": 1}))

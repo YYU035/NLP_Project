@@ -216,10 +216,18 @@ def _service_factory():
     os.environ.setdefault("HF_HUB_DISABLE_TELEMETRY", "1")
     from paper_search.retrieval import RetrievalService
     from paper_search.keybert_queries import KeyBERTQueryGenerator
+    from paper_search.config import Settings
     model_path = Path(os.environ.get("EXPLANATION_DISCOVERY_MODEL_PATH", str(Path(__file__).parent / ".models" / "all-MiniLM-L6-v2")))
     if not model_path.is_dir():
         raise RuntimeError("Discovery model is not installed; run setup-discovery.ps1")
-    return RetrievalService(generator=KeyBERTQueryGenerator(model_path), arxiv_fallback=False)
+    settings = Settings.from_environment()
+    settings = settings.model_copy(update={
+        "openalex_api_key": None, "openaire_token": None, "semantic_scholar_api_key": None,
+        "semantic_scholar_enabled": False,
+        "openaire_enabled": settings.openaire_enabled if "PAPER_SEARCH_OPENAIRE_ENABLED" in os.environ else True,
+    })
+    return RetrievalService(settings=settings, generator=KeyBERTQueryGenerator(model_path), arxiv_fallback=False,
+                            providers=("openalex", "openaire", "arxiv"))
 
 
 def _release(loop, resources, thread):

@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 
 from explanation_frontend.export import export_snapshot, import_snapshot
-from explanation_frontend.llm import OpenAIClient, generate_llm
+from explanation_frontend.llm import LocalTransformersClient, generate_llm
 from explanation_frontend.models import make_context, digest
 from explanation_frontend.providers import FixtureProvider, fixture_names, replay_aggregate
 from explanation_frontend.state import Workspace, start_job, poll_job
@@ -370,15 +370,15 @@ def render_verification():
                     st.text("Check codes: " + ", ".join(generated.issues))
                 if generated.omitted_passage_ids:
                     st.text("Passages omitted from generation: " + ", ".join(generated.omitted_passage_ids))
-            if st.button("Generate LLM explanation", disabled=busy or aggregation.status == "failed" or not aggregation.primary_evidence,
-                         help="Sends the exact claim and selected evidence to the configured OpenAI model. Templates require no key."):
+            if st.button("Generate local LLM explanation", disabled=busy or aggregation.status == "failed" or not aggregation.primary_evidence,
+                         help="Runs the downloaded Apache-2.0 model on this computer. Claims and evidence remain local."):
                 try:
-                    client = OpenAIClient.from_env()
+                    client = LocalTransformersClient.from_env()
                     ss.llm_job = start_job(lambda c=context, cl=client: generate_llm(c, cl), context.key,
-                                          timeout=client.timeout * 2 + 5)
+                                          timeout=client.timeout + 30)
                     st.rerun()
                 except (ValueError, TypeError):
-                    st.error("Configure OPENAI_API_KEY, EXPLANATION_LLM_MODEL and a valid timeout in the server environment.")
+                    st.error("Run setup-local-llm.ps1 to install the free open-source model locally, or continue using the template explanation.")
             st.download_button("Download replayable result", export_snapshot(context, explanation),
                                file_name="evidence-result.json", mime="application/json")
             st.caption("Exports include your exact claim and evidence. Source checksums detect accidental changes, not authenticity.")

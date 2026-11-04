@@ -5,7 +5,7 @@ import time
 import pytest
 
 from explanation_frontend.export import export_snapshot, import_snapshot
-from explanation_frontend.llm import generate_llm, OpenAIClient
+from explanation_frontend.llm import generate_llm, LocalTransformersClient, LocalContextLimit
 from explanation_frontend.models import Explanation, make_context
 from explanation_frontend.providers import FixtureProvider, IntegratedProvider
 from explanation_frontend.state import Workspace, start_job, poll_job
@@ -84,11 +84,18 @@ def test_llm_timeout_redacts_exception_and_context_overflow_skips_call():
     assert len(result.omitted_passage_ids) == 2
 
 
-def test_empty_llm_configuration_never_exposes_keys(monkeypatch):
-    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
-    monkeypatch.delenv("EXPLANATION_LLM_MODEL", raising=False)
-    with pytest.raises(ValueError, match="Configure"):
-        OpenAIClient.from_env()
+def test_missing_local_weights_fail_without_an_api_fallback(monkeypatch, tmp_path):
+    monkeypatch.setenv("EXPLANATION_LOCAL_MODEL_PATH", str(tmp_path / "not-installed"))
+    with pytest.raises(ValueError, match="setup-local-llm"):
+        LocalTransformersClient.from_env()
+
+
+def test_local_token_limit_is_explicit_and_preserves_the_template():
+    context = ctx("conflict")
+    result = generate_llm(context, FakeClient(error=LocalContextLimit("input too long")))
+    assert result.status == "context_limit"
+    assert len(result.omitted_passage_ids) == 2
+    assert result.displayed == build_template(context)
 
 
 def test_conflict_side_cannot_be_omitted():

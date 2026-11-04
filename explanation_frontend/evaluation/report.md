@@ -1,5 +1,13 @@
 # Implementation and evaluation status — 31 October 2026
 
+## Free/open-source revision — 4 November 2026
+
+The hosted explanation client was removed at the user's request. The optional LLM path and paired-evaluation mode now load the pinned Apache-2.0 Qwen2.5-0.5B-Instruct model locally with remote code disabled and local-files-only loading. Templates remain the default fallback. Catalogue search explicitly clears provider credentials and retains only anonymous OpenAlex/OpenAIRE/arXiv requests. Earlier references to API configuration below are historical.
+
+The model license, setup instructions and remaining endpoint policy are recorded in API_POLICY.md. Added tests exercise missing/pinned local weights, credential-free configuration, local-only loading, input-limit rejection, and suppression of catalogue credentials.
+
+Validation: **88 tests passed**, dependency/whitespace checks passed, and the 30-case scripted evaluation harness still runs. A fresh independent review found no important API-removal defects. The real local-generation smoke test was **not performed**: the public weight transfer was slow and was stopped while incomplete. No revision marker was activated; incomplete weights remain ignored and cannot be loaded by the app. Run setup-local-llm.ps1 to complete the explicit download before real generation. Templates and cached workflows are usable now.
+
 ## Forward implementation — 4 November 2026
 
 The updated suite passes **81 tests**. The app now separates paper discovery, verification and human explanation review. Real recorded discovery uses the exact upstream schema and source revision; it never creates scientific labels. Old version-1 verification exports retain their checksums when optional discovery context is absent.

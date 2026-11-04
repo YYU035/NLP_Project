@@ -16,7 +16,7 @@ import statistics
 import time
 
 from ..export import import_snapshot
-from ..llm import OpenAIClient, generate_llm
+from ..llm import LocalTransformersClient, generate_llm
 from ..models import make_context
 from ..providers import FixtureProvider, replay_aggregate
 from ..templates import build_template
@@ -59,7 +59,7 @@ def run_study(cases: list[dict], *, mode: str, seed: int = 19) -> dict:
     if len(set(ids)) != len(ids):
         raise ValueError("Duplicate case IDs")
     rng, packets, keys, records = random.Random(seed), [], [], []
-    client = OpenAIClient.from_env() if mode == "llm" else None
+    client = LocalTransformersClient.from_env() if mode == "llm" else None
     for index, case in enumerate(cases, 1):
         if "snapshot_file" in case:
             bundle = import_snapshot(Path(case["snapshot_file"]).read_bytes())
