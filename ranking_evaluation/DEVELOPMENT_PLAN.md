@@ -1,7 +1,8 @@
 # Person 3 — Hybrid Ranking & Evaluation 开发计划与记录
 
-负责人：Yu Yue  
-工作分支：`yuyue`  
+负责人：Yu Yue
+
+工作分支：`yuyue`
 创建日期：2026-11-04（Asia/Shanghai）
 
 ## 目标与当前状态
@@ -121,3 +122,4 @@ Git 历史提供提交痕迹；本日志解释每次工作做了什么、如何�
 - 验证：基础分支推送后 `git status --short --branch` 显示 `yuyue...origin/yuyue`，工作区干净；计划文档提交前执行 `git diff --check`。
 - 本次没有实现排名算法，没有运行模型、在线 API 或评估实验。Person 1 文档中的历史测试数量不作为本次验证结果。
 - 下一步：P1 输入输出结构及模拟样例 → P2 RRF 与关键边界验证 → P3 指标。
+- 文档首次检查发现两处 Markdown 换行尾空格，已清理；重新执行差异检查确认。
