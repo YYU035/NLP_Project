@@ -1,0 +1,11 @@
+# Personal development records remain local.
+.local/
+DEVELOPMENT_PLAN.md
+VALIDATION_REVIEW.md
+PERSON2_HANDOFF.md
+PERSON4_HANDOFF.md
+
+# Machine-specific smoke records and environment snapshots remain local.
+experiments/cpu-smoke-*.json
+experiments/cpu-smoke-requirements.txt
+experiments/scifact-data-audit-*.json

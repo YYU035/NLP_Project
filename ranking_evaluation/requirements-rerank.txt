@@ -1,0 +1,4 @@
+# Optional; model weights must be provisioned separately.
+sentence-transformers==5.1.2
+transformers==4.57.1
+torch==2.9.0

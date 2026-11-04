@@ -1,0 +1,6 @@
+{
+  "ks": [5, 10, 20],
+  "rrf_constants": [60],
+  "rerank_depths": [10, 20, 50],
+  "repeats": 1
+}
