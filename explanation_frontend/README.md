@@ -135,10 +135,42 @@ Human reviewers score factual support, citation support/completeness, verdict ag
 
 ## Current limits and remaining external work
 
-Person 1 discovery is connected through its pinned package. Downstream verification awaits Persons 2–4's functions and agreed mappings. Explanation generation is local; evaluation of its scientific usefulness still requires human review. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
+Person 1 discovery and Yu Yue's RRF runtime are connected through pinned implementations. Real Person 2 branch rankings and downstream evidence/verification functions and agreed mappings are still pending. Explanation generation is local; evaluation of its scientific usefulness still requires human review. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
 
 API references used: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing), [Streamlit fragments](https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment), [Qwen model/license](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).
 
 ## Connected ranking workflow
 
 The paper browser now accepts Person 2 `RankingInput` or Yu Yue RRF-only `RankingOutput`, runs the pinned local RRF implementation, displays ranks/scores and retains the output through selected-paper verification handoffs and replay exports. See [RANKING_INTEGRATION.md](RANKING_INTEGRATION.md) for steps and remaining owner dependencies. No model/API is called by RRF; actual BM25/SBERT results must be supplied.
+
+## Person-by-person integration checklist (5 November 2026)
+
+Owner: **Kireeti, Person 5**. Published branch: **kireeti**. This checklist distinguishes implemented frontend connections from real teammate outputs that have not yet been supplied or validated. The checked GitHub heads remain main `8956098`, Raghavi `259d2a9`, and Yu Yue `a91e257`. This branch changes only `explanation_frontend/` relative to main; teammates' modules remain on their branches or optional dependencies.
+
+| Integration | Connected and checked in Person 5 | Remaining task and responsible owner |
+| --- | --- | --- |
+| Person 1 — Raghavi: discovery → candidate browser | Native RetrievalResult import, pinned live discovery bridge, recorded real search, exact claim, canonical IDs/aliases, provider/query provenance, metadata/PDF links, selection, export and handoff | **[PENDING — Person 1 + Kireeti]** Validate full-text availability, freshness/retraction metadata and agreed source/version handling on real team outputs. PDF links alone are not inspected full text. |
+| Person 2 — Naila: BM25/SBERT → ranking input | Downloadable RankingInput contract; import accepts unique ordered canonical IDs and branch timings; exact candidate/claim matching; unknown/duplicate IDs rejected | **[PENDING — Person 2]** Supply runnable BM25/SBERT retrieval and real ordered lists. **[PENDING — Person 2 + Kireeti]** Connect its callable and test automatic retrieval → RRF on real claims. Empty downloaded lists are placeholders. |
+| Person 3 — Yu Yue: RRF → ranked browser | Pinned unchanged RRF runtime runs locally; RankingInput/RankingOutput import, recomputation checks, final/branch rank and score display, ranked selection, export/replay and ranked downstream handoff | **[PENDING — Yu Yue + Kireeti]** Validate optional cross-encoder environment and its reported CPU NaN issue before enabling it; current integration accepts RRF-only results. **[PENDING — Persons 2–3 + Kireeti]** Validate rankings using actual Person 2 outputs. |
+| Evidence passage selection — ownership to confirm | Frontend passage/evidence schemas, paper/passage identity checks, scoped citation rendering and fixtures exist | **[PENDING — Persons 3–4 + team]** Confirm who owns passage selection: the task split and new ranking README assign it differently. **[PENDING — evidence owner + Kireeti]** Map real extracted passage text, IDs, sections, sentence offsets, source versions and truncation flags into the frontend. |
+| Person 4 — Chong Yao: verifier/aggregator → verdict/explanation | IntegratedProvider and FromDiscoveryProvider seams; ranked selected-paper handoff; original claim/identity checks; cached subset aggregation interface; asynchronous jobs, deadlines and stale-result protection | **[PENDING — Person 4]** Supply runnable passage verification and cached subset aggregation. **[PENDING — Person 4 + Kireeti]** Implement the real factory/mapping, configure EXPLANATION_VERIFY_DISCOVERY_FACTORY or EXPLANATION_PIPELINE_FACTORY, and validate thresholds, conflicts, failures and subset latency. No fixture result counts as this integration. |
+| Person 5 — Kireeti: evidence → explanation/UI/evaluation | Streamlit discovery/verification/review workspaces, grounded templates, citation/verdict gates, conflict and insufficient-evidence displays, snapshot export/replay, review packets and evaluation harness | **[PENDING — Kireeti]** Finish optional local Qwen download and verify actual inference if using the LLM comparison. **[PENDING — Kireeti + reviewers]** Freeze real held-out cases, collect human reviews and report real explanation/citation quality. Templates already work offline. |
+| Whole team: full chain | Individual boundaries and synthetic/recorded regression workflows are available | **[PENDING — all owners + Kireeti]** Run real discovery → BM25/SBERT → RRF → passage selection → verification/aggregation → explanations, including conflict, empty/partial failure, truncation and changed selections. Confirm strict downstream parsers accept the additive ranking_context handoff field. |
+
+### Execution checklist
+
+- [x] Connect Person 1 candidate discovery and preserve source provenance.
+- [x] Connect Yu Yue's RRF implementation without an API or model call.
+- [x] Preserve ranking context and final order through selection, exports and verification handoffs.
+- [x] Provide frontend contracts, adapters and explicit missing-integration errors.
+- [x] Validate the current implementation: **100 tests passed**; **pip check passed** in the local development environment. Ranking-specific tests require the optional paper_search dependency.
+- [ ] **[PENDING — Person 2]** Deliver real BM25/SBERT results and retrieval callable.
+- [ ] **[PENDING — Persons 3–4]** Confirm passage owner and deliver real extracted evidence.
+- [ ] **[PENDING — Person 4]** Deliver verifier and cached aggregator outputs/callables.
+- [ ] **[PENDING — Kireeti + module owners]** Configure real factories and run the automatic full-chain acceptance checks.
+- [ ] **[PENDING — Kireeti, optional]** Complete and smoke-test local Qwen inference; validate cross-encoder with Yu Yue separately.
+- [ ] **[PENDING — Kireeti + human reviewers]** Complete real-case explanation evaluation and document results.
+
+**Completion assessment:** the standalone frontend and discovery/RRF boundaries are implemented and regression-tested. Full scientific pipeline integration is incomplete until real retrieval, passage and verification outputs pass the shared workflow. An overall percentage would conflate working frontend features with missing external modules, so the owner-specific statuses above are the completion measure.
+
+Start integration using [RANKING_INTEGRATION.md](RANKING_INTEGRATION.md); use [contracts.md](contracts.md) for verification/evidence mappings and [API_POLICY.md](API_POLICY.md) for the free public discovery and local-only inference policy. No proprietary or paid inference API is required by Person 5.
