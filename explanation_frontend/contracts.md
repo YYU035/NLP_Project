@@ -56,7 +56,7 @@ The server environment variable `EXPLANATION_PIPELINE_FACTORY=your_bridge:create
 
 JSON export contains the full snapshot and SHA-256 checksum, selected IDs, selected aggregation and final displayable explanation. Import validates the schema, exact claim, checksum, citation scope and grounding. The checksum detects accidental modification, not forgery or source authenticity. Original demo/live mode remains in the snapshot; the interface separately labels CACHED REPLAY.
 
-An unchanged replay selection uses its saved selected aggregation exactly. A changed selection uses the explicit local replay policy (presence of supporting/contradicting paper verdicts, conflict flags, max score); it is labelled and is not a claim of equivalence with Person 4's future algorithm. Live mode always delegates changed selections to Person 4.
+An unchanged replay selection uses its saved selected aggregation exactly. A changed selection uses the explicit local replay policy (presence of supporting/contradicting paper verdicts, conflict flags, max score); it is labelled and is not a claim of equivalence with Person 4's published algorithm. Live mode always delegates changed selections to Person 4.
 
 ## Explanation policy
 
@@ -83,3 +83,7 @@ Original verification replay hashes remain compatible when discovery_context is 
 ## Ranking context extension
 
 DiscoverySnapshot has optional `ranking_context` containing the unchanged Person 3 RankingOutput schema at a91e257. Absent context preserves legacy snapshot fingerprints. Connected inputs must match the entire loaded DiscoveryResult; RRF rows are recomputed to validate scores, ranks, identities and metadata. Reranking is currently rejected. Only output IDs may be selected. The selected-paper handoff adds nullable `ranking_context` and orders full selected records by final rank. Consumers should accept that additive field; strict downstream parsers will need their owners to update. Existing verification replay retains this context inside discovery_context. See RANKING_INTEGRATION.md for operational details.
+
+## Published Person 4 contract (5 November 2026)
+
+The claim_verifier module is now available on chong_yao_claim_verification at 1ac06b675e3d0719a63cb8efe98eda4f2c5fd576. Its verify/aggregate APIs match the planned two-stage boundary but are not drop-in frontend schemas. Lists must be converted to checked ID maps; abstract maps to abstract_only; tokenizer_max_length maps to max_length. Operational failures and insufficiency causes require explicit mapping. Keep the original upstream VerificationResponse cached for aggregate calls. Packaging, immutable model revision/offline loading, conflict_flag behavior and preservation of both sides in capped primary evidence still require validation. See README.md for the current owner checklist and source findings. No real verifier execution is claimed by this documentation update.
