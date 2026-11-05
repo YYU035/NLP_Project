@@ -138,3 +138,7 @@ Human reviewers score factual support, citation support/completeness, verdict ag
 Person 1 discovery is connected through its pinned package. Downstream verification awaits Persons 2–4's functions and agreed mappings. Explanation generation is local; evaluation of its scientific usefulness still requires human review. Scientific explanation-quality conclusions require frozen real cases and actual human reviews. The supplied detailed downloadable edge-case checklist was unavailable; the grouped 27 Person 5 IDs are covered in evaluation/edge-cases.md without inventing individual priorities. General paper-search/QA features, spreadsheet export, arbitrary PDF upload and independent scientific verification are outside this module.
 
 API references used: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing), [Streamlit fragments](https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment), [Qwen model/license](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).
+
+## Connected ranking workflow
+
+The paper browser now accepts Person 2 `RankingInput` or Yu Yue RRF-only `RankingOutput`, runs the pinned local RRF implementation, displays ranks/scores and retains the output through selected-paper verification handoffs and replay exports. See [RANKING_INTEGRATION.md](RANKING_INTEGRATION.md) for steps and remaining owner dependencies. No model/API is called by RRF; actual BM25/SBERT results must be supplied.

@@ -8,6 +8,7 @@ from .discovery import (LiveDiscoveryBridge, import_discovery, export_discovery,
                         discovery_handoff, filter_candidates)
 from .state import start_job, poll_job
 from .validation import safe_url
+from .ranking import connect_ranking, ranking_request, ranked_candidates
 
 
 def render_discovery():
@@ -24,7 +25,8 @@ def render_discovery():
 
     def install(snapshot):
         ss.discovery_snapshot = snapshot
-        ss.discovery_claim = snapshot.result.original_claim
+        if ss.get("discovery_claim") != snapshot.result.original_claim:
+            ss.discovery_claim = snapshot.result.original_claim
         ss.discovery_selection = {p.identity: p.identity in snapshot.selected_paper_ids for p in snapshot.result.papers}
         ss.discovery_page = 1
         ss.discovery_filter = ""
@@ -137,6 +139,36 @@ def render_discovery():
 
     snapshot = ss.discovery_snapshot
     result = snapshot.result
+    with st.expander("Connect BM25/SBERT rankings and Person 3 RRF"):
+        st.write("Download the input contract for Person 2 to fill with ordered canonical IDs. Upload their RankingInput to run Yu Yue's pinned RRF locally, or upload an RRF-only RankingOutput. No API or model is called.")
+        st.caption("The downloaded branch lists are empty placeholders. Ranking scores measure retrieval relevance, not truth. Cross-encoder integration remains pending.")
+        st.download_button("Download Person 2 ranking input", json.dumps(ranking_request(snapshot), indent=2),
+                           "ranking-input-unfilled.json", "application/json")
+        upload = st.file_uploader("RankingInput or RRF RankingOutput for this exact search", type=["json"],
+                                  key=f"ranking-upload:{snapshot.result.original_claim}")
+        if st.button("Connect ranking", disabled=upload is None or busy):
+            try:
+                ranking = connect_ranking(upload.getvalue(), result)
+                updated = snapshot.model_dump(mode="json")
+                updated["ranking_context"] = ranking
+                updated["selected_paper_ids"] = [r["entry"]["identity"] for r in ranking["papers"]]
+                install(type(snapshot).model_validate(updated))
+                st.rerun()
+            except Exception:
+                st.error("Ranking rejected. Check the exact search payload, unique canonical IDs, RRF rows and configuration. Install discovery dependencies if paper_search is unavailable. Cross-encoder outputs are not enabled.")
+        if snapshot.ranking_context is not None:
+            st.download_button("Download connected ranking output", json.dumps(snapshot.ranking_context, indent=2),
+                               "ranking-output.json", "application/json")
+            if st.button("Restore discovery order", disabled=busy):
+                install(snapshot.model_copy(update={"ranking_context": None,
+                    "selected_paper_ids": [p.identity for p in result.papers]}))
+                st.rerun()
+    if snapshot.ranking_context is not None:
+        ranking = snapshot.ranking_context
+        st.info(f"RRF ranking connected: {len(ranking['papers'])} displayed papers. Papers outside the ranked output are excluded from selection. No scientific verification has run.")
+        st.caption(f"Ranking stage only: {ranking['ranking_seconds']:.4f}s; excludes discovery, retrieval and model loading.")
+        for warning in ranking["warnings"]:
+            st.text(warning)
     st.caption("LIVE DISCOVERY" if snapshot.mode == "live" else "CACHED DISCOVERY · not a current search")
     st.text("Source: " + snapshot.source_reference)
     st.text("Retrieval time: " + (snapshot.retrieved_at.isoformat() if snapshot.retrieved_at else "not supplied by the native saved payload"))
@@ -177,6 +209,7 @@ def render_discovery():
     st.toggle("PDF metadata link available", key="discovery_pdf_only", on_change=reset_page)
     candidates = filter_candidates(result, text=ss.discovery_filter, providers=ss.discovery_provider_filter,
                                    pdf_only=ss.discovery_pdf_only)
+    candidates = ranked_candidates(candidates, snapshot.ranking_context)
     st.caption(f"Showing {len(candidates)} matching candidates. Filtering does not change the scientific claim or rerank evidence.")
     if not candidates:
         st.info("No papers match this view. Existing selections are retained.")
@@ -196,6 +229,9 @@ def render_discovery():
                     st.checkbox(f"Include candidate {(ss.discovery_page - 1) * 10 + offset}", key=key,
                                 on_change=select_paper, args=(pid, key))
                     st.text(entry.paper.title or "Title unavailable")
+                    if snapshot.ranking_context is not None:
+                        row = next(r for r in snapshot.ranking_context["papers"] if r["entry"]["identity"] == pid)
+                        st.text(f"RRF rank {row['rank']} · score {row['rrf_score']:.6f} · BM25 rank {row['bm25_rank']} · SBERT rank {row['sbert_rank']}")
                     st.text(f"{entry.paper.year or 'Year unavailable'} · {', '.join(sorted({o.provider for o in entry.provenance}))}")
                     st.text("Not yet verified")
         with right:
@@ -228,7 +264,7 @@ def render_discovery():
                 st.json([record.model_dump(mode="json") for record in entry.source_records])
     st.divider()
     st.subheader("Continue to evidence verification")
-    st.info("These papers have not been ranked, checked for evidence, or assigned scientific verdicts. Export the selected candidate handoff for Persons 2–4, then load their completed result in Verify evidence.")
+    st.info("These papers have not been checked for evidence or assigned scientific verdicts. The selected handoff retains any connected ranking and original provenance. The real evidence/verification adapter from Persons 3–4 remains required.")
     st.button("Prepare selected papers for verification", disabled=not selected or busy, on_click=prepare_verification)
     st.download_button("Download search snapshot", export_discovery(snapshot, selected), "discovery-result.json", "application/json")
     st.download_button("Download selected-paper handoff", json.dumps(discovery_handoff(snapshot, selected), indent=2, ensure_ascii=False),

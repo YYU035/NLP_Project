@@ -142,9 +142,16 @@ class DiscoverySnapshot(Model):
     source_reference: str
     result: DiscoveryResult
     selected_paper_ids: list[str] = Field(default_factory=list)
+    ranking_context: dict | None = None
 
     @model_validator(mode="after")
     def check_selection(self):
+        if self.ranking_context is not None:
+            from .ranking import connect_ranking
+            connect_ranking(json.dumps(self.ranking_context), self.result)
+            ranked = {r["entry"]["identity"] for r in self.ranking_context["papers"]}
+            if not set(self.selected_paper_ids) <= ranked:
+                raise ValueError("Selection references a paper outside ranking output")
         if not set(self.selected_paper_ids) <= {p.identity for p in self.result.papers}:
             raise ValueError("Selection references unknown candidate")
         for value in [self.imported_at, self.retrieved_at]:
@@ -154,7 +161,10 @@ class DiscoverySnapshot(Model):
 
     @property
     def fingerprint(self):
-        return digest(self.model_dump(mode="json"))
+        data = self.model_dump(mode="json")
+        if self.ranking_context is None:
+            data.pop("ranking_context", None)
+        return digest(data)
 
 
 def import_discovery(raw: str | bytes, *, source_reference: str = "Uploaded native RetrievalResult") -> DiscoverySnapshot:
@@ -184,12 +194,18 @@ def export_discovery(snapshot: DiscoverySnapshot, paper_ids: list[str]) -> str:
 
 
 def discovery_handoff(snapshot: DiscoverySnapshot, paper_ids: list[str]) -> dict:
+    from .ranking import ranked_candidates
     if not set(paper_ids) <= {p.identity for p in snapshot.result.papers}:
         raise ValueError("Unknown selected candidate")
+    if snapshot.ranking_context is not None and not set(paper_ids) <= {
+        row["entry"]["identity"] for row in snapshot.ranking_context["papers"]
+    }:
+        raise ValueError("Selection references a paper outside ranking output")
     return {"handoff_version": "discovery-selection-1.0", "original_claim": snapshot.result.original_claim,
             "discovery_hash": snapshot.fingerprint, "verification_status": "not_yet_verified",
             "source_reference": snapshot.source_reference,
-            "papers": [p.model_dump(mode="json") for p in snapshot.result.papers if p.identity in paper_ids],
+            "ranking_context": snapshot.ranking_context,
+            "papers": [p.model_dump(mode="json") for p in ranked_candidates(snapshot.result.papers, snapshot.ranking_context) if p.identity in paper_ids],
             "providers": {k: v.model_dump(mode="json") for k, v in snapshot.result.providers.items()},
             "from_publication_date": str(snapshot.result.from_publication_date) if snapshot.result.from_publication_date else None,
             "to_publication_date": str(snapshot.result.to_publication_date) if snapshot.result.to_publication_date else None}

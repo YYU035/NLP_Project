@@ -79,3 +79,7 @@ Original verification replay hashes remain compatible when discovery_context is 
 - Person 4 aggregation rules and latency on real cached outputs; threshold/checkpoint revision.
 - Actual replacement-evidence approval method, if corrections are included.
 - The downloadable detailed edge-case checklist, whose individual trigger/priority mapping was not present in the supplied tab.
+
+## Ranking context extension
+
+DiscoverySnapshot has optional `ranking_context` containing the unchanged Person 3 RankingOutput schema at a91e257. Absent context preserves legacy snapshot fingerprints. Connected inputs must match the entire loaded DiscoveryResult; RRF rows are recomputed to validate scores, ranks, identities and metadata. Reranking is currently rejected. Only output IDs may be selected. The selected-paper handoff adds nullable `ranking_context` and orders full selected records by final rank. Consumers should accept that additive field; strict downstream parsers will need their owners to update. Existing verification replay retains this context inside discovery_context. See RANKING_INTEGRATION.md for operational details.
