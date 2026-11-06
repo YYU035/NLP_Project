@@ -47,3 +47,15 @@ Branch: **kireeti**. All source additions are under explanation_frontend. No tea
 - The added conflict policy must be reviewed with Chong Yao. Original typed per-paper/passages remain cached for traceability; no extra inference occurs on paper-subset changes.
 - Two real smoke claims establish functioning wiring, not calibrated scientific accuracy. Human/held-out evaluation, full-text work and optional reranker/Qwen comparisons remain pending.
 - Changed offline replay selections still use the documented local replay policy; the exact owner's native cache is session-owned and is not reconstructed from an export.
+
+## Team-wide QC follow-up - 6 November 2026
+
+- Added isolated upstream test runners (evaluation/team_qc.py), independent contract probes, frozen development-corpus checks, strict source-sentence coverage diagnostics, real optional reranker QC and offline human review-bundle generation.
+- Completed pinned public Qwen download and real offline inference: all 12 raw outputs failed the schema, all displayed fallbacks passed. No automatic repair or fabricated quality score was added; the UI now labels this optional path experimental.
+- Fixed frontend paper display order to match ranking, relative replay paths to use their manifest directory, unknown paper-version provenance, and unknown retrieval-time labelling. Moved bulky ranking JSON into a collapsed diagnostic. Added non-stale generation token/thread settings.
+- Re-read the task/edge-case document; Person 3 explicitly owns passage selection. The fallback remains provisional. TEAM_QC_REPORT.md records that gap, real metrics, failures and suggested next steps for every owner.
+- Created proposed Naila cutoff-tie and Yu Yue Windows-provenance patches under qc_suggestions. Only scratch test copies were patched; teammate source branches and the product's pinned copies are unchanged.
+- Prepared 24 paired raw-output packets and 48 blank human-review rows, with a private method key, escaped offline HTML and a local ZIP. Raw/generated/review artifacts and model weights remain ignored under this folder.
+- Machine-readable summary and the pre-inference frozen development manifest are versioned under evaluation. Current frontend suite: 116 passing tests; dependency check passes. Dataset is development only and already used by an owner for calibration; no claim of independent final-test performance or completed human review.
+
+- Additional compatibility fix: known early integrated replays regain only the exact missing source-authenticity safety note. Both saved real smoke exports now validate; arbitrary limitation tampering remains rejected. Added a regression and an explicit English-model scope caption.

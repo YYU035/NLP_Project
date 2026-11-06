@@ -74,3 +74,20 @@ def test_original_v1_exports_replay_after_optional_discovery_field_added():
     data["explanation"]["context_key"] = digest({"snapshot": legacy_hash,
         "selection": context.selected_paper_ids, "aggregation": context.aggregation.model_dump(mode="json")})
     assert import_snapshot(json.dumps(data)).snapshot.claim == snapshot.claim
+
+
+def test_legacy_integrated_replay_restores_only_the_known_safety_note():
+    from explanation_frontend.templates import AUTOMATIC_SELECTION_LIMITATION
+    source = FixtureProvider().run_fixture('supported').model_dump(mode='json')
+    source['stage_statuses']['passages'] = 'frontend_abstract_windows_v1'
+    snapshot = RunSnapshot.model_validate(source)
+    context = make_context(snapshot, list(snapshot.papers), snapshot.provisional)
+    data = json.loads(export_snapshot(context, build_template(context)))
+    data['explanation']['limitations'].remove(AUTOMATIC_SELECTION_LIMITATION)
+    migrated = import_snapshot(json.dumps(data))
+    assert AUTOMATIC_SELECTION_LIMITATION in migrated.explanation.limitations
+    assert migrated.snapshot_hash == snapshot.fingerprint
+    assert migrated.explanation.statements == build_template(context).statements
+    data['explanation']['limitations'] = ['All systems are safe.']
+    with pytest.raises(ValueError):
+        import_snapshot(json.dumps(data))

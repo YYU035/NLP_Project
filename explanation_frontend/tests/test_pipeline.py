@@ -50,8 +50,11 @@ def test_whole_chain_preserves_claim_rank_passages_subset_and_export():
     ids = [p.identity for p in discovery.result.papers]
     snapshot = pipeline.run_from_discovery(discovery, ids)
     assert snapshot.claim == discovery.result.original_claim
+    assert all(p.source_version is None for p in snapshot.papers.values())
     assert snapshot.provisional.aggregated_verdict == 'CONFLICTING'
     assert snapshot.discovery_context['ranking_context']['papers']
+    assert list(snapshot.papers) == [r['entry']['identity'] for r in
+        snapshot.discovery_context['ranking_context']['papers']]
     for p in snapshot.verification.evidence_passages:
         original = next(x for x in discovery.result.papers if x.identity == p.paper_id).paper.abstract
         assert p.text in original
@@ -130,7 +133,8 @@ def test_builtin_streamlit_selection_to_verdict_and_cached_checkbox_change(monke
         app.run()
     assert not app.exception
     assert any(m.value == 'CONFLICTING' for m in app.metric)
-    app.checkbox[0].uncheck().run()
+    current = app.session_state['snapshot']
+    app.checkbox(key=f'paper:{current.fingerprint}:{ids[0]}').uncheck().run()
     if 'aggregation_job' in app.session_state:
         app.session_state['aggregation_job'].future.result(timeout=20)
         app.run()

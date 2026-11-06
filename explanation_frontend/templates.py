@@ -1,11 +1,13 @@
 """Conservative deterministic explanation baseline."""
 from .models import Explanation, ExplanationContext, Statement
 
+AUTOMATIC_SELECTION_LIMITATION = "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked."
+
 
 def build_template(context: ExplanationContext) -> Explanation:
     limitations = ["This result concerns only the selected retrieved evidence, not all scientific literature."]
     if context.snapshot.stage_statuses.get("passages") == "frontend_abstract_windows_v1":
-        limitations.append("Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.")
+        limitations.append(AUTOMATIC_SELECTION_LIMITATION)
     if context.snapshot.mode == "demo":
         limitations.append("Synthetic demonstration: these are invented test papers and findings.")
     if not context.snapshot.search_complete:

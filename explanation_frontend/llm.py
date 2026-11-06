@@ -92,11 +92,15 @@ class LocalTransformersClient:
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM
         with self._lock:
+            self.settings.pop("prompt_tokens", None)
+            self.settings.pop("generated_tokens", None)
+            self.settings["cpu_threads"] = torch.get_num_threads()
             if self._tokenizer is None:
                 self._tokenizer = AutoTokenizer.from_pretrained(str(self.path), local_files_only=True, trust_remote_code=False)
             inputs = self._tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True,
                                                          return_tensors="pt", return_dict=True)
             prompt_length = inputs["input_ids"].shape[-1]
+            self.settings["prompt_tokens"] = prompt_length
             if prompt_length > self.max_context_tokens:
                 raise LocalContextLimit("Local context limit exceeded; no evidence was silently truncated")
             if self._model is None:
@@ -106,6 +110,7 @@ class LocalTransformersClient:
             with torch.inference_mode():
                 generated = self._model.generate(**inputs, max_new_tokens=self.max_new_tokens,
                     do_sample=False, max_time=self.timeout, pad_token_id=self._tokenizer.eos_token_id)
+            self.settings["generated_tokens"] = generated.shape[-1] - prompt_length
             return self._tokenizer.decode(generated[0][prompt_length:], skip_special_tokens=True)
 
 

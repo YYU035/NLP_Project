@@ -32,4 +32,6 @@ subset_result = adapter.aggregate(snapshot, selected_paper_ids)
 - **[ADDED BY KIREETI]** safe_aggregate preserves internal and across-paper conflict sides before applying a five-passage cap. This explicit policy needs Chong Yao/team review. The base adapter still rejects unresolved conflicts.
 - **[ADDED BY KIREETI]** Exact abstract-span fallback provides missing evidence inputs without claiming full-text inspection.
 - **[VERIFIED]** Recorded and fresh public-search smoke checks passed with actual NLI; synthetic regression tests cover operational failures and UI/adapter contracts.
-- **[PENDING]** Final passage-owner agreement, policy acceptance, held-out scientific evaluation, full-text handling, optional cross-encoder and Qwen comparisons. No scientific-quality benchmark is inferred from smoke checks.
+- **[PENDING]** Person 3 approval/replacement of the provisional selector, policy acceptance, untouched scientific evaluation and full-text handling. Cross-encoder numerical/development checks and 12 Qwen generation QC attempts are complete; Qwen schema quality and human comparison remain pending. No scientific-quality benchmark is inferred from smoke checks.
+
+TEAM_QC_REPORT.md records the native five-test real-model pass, foreign-passage contract gap, heuristic neutral-label caveat and 12/24 oracle-rationale development label agreement. These findings should guide further scientific validation.

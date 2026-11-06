@@ -52,7 +52,7 @@ class FixtureLLM:
         return json.dumps(data, ensure_ascii=False)
 
 
-def run_study(cases: list[dict], *, mode: str, seed: int = 19) -> dict:
+def run_study(cases: list[dict], *, mode: str, seed: int = 19, manifest_base: Path | None = None) -> dict:
     if mode not in {"fixture", "llm"}:
         raise ValueError("Unknown evaluation mode")
     ids = [case["case_id"] for case in cases]
@@ -62,7 +62,10 @@ def run_study(cases: list[dict], *, mode: str, seed: int = 19) -> dict:
     client = LocalTransformersClient.from_env() if mode == "llm" else None
     for index, case in enumerate(cases, 1):
         if "snapshot_file" in case:
-            bundle = import_snapshot(Path(case["snapshot_file"]).read_bytes())
+            path = Path(case["snapshot_file"])
+            if not path.is_absolute() and manifest_base is not None:
+                path = manifest_base / path
+            bundle = import_snapshot(path.read_bytes())
             snapshot = bundle.snapshot
             selected = case.get("selected", bundle.selected_paper_ids)
             aggregate = bundle.aggregation if sorted(selected) == bundle.selected_paper_ids else replay_aggregate(snapshot, selected)
@@ -166,7 +169,7 @@ def main():
         for case in cases:
             if "snapshot_file" in case:
                 case["snapshot_file"] = str((args.cases.parent / case["snapshot_file"]).resolve())
-        result = run_study(cases, mode=args.mode, seed=args.seed)
+        result = run_study(cases, mode=args.mode, seed=args.seed, manifest_base=args.cases.resolve().parent)
         summary = result["summary"]
         for key in ("records", "review_packets", "private_key"):
             (output / f"{key}.jsonl").write_text("\n".join(json.dumps(row, ensure_ascii=False) for row in result[key]) + "\n", encoding="utf-8")

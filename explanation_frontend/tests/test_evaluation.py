@@ -53,3 +53,19 @@ def test_review_summary_compares_methods_without_inventing_missing_reviews():
     summary = summarize_reviews([row], method_key=key)
     assert summary["by_method"]["template"]["completed_reviews"] == 1
     assert summary["by_method"]["llm"]["completed_reviews"] == 0
+
+
+def test_snapshot_paths_resolve_relative_to_manifest_directory(tmp_path):
+    from explanation_frontend.providers import FixtureProvider
+    from explanation_frontend.models import make_context
+    from explanation_frontend.templates import build_template
+    from explanation_frontend.export import export_snapshot
+    directory = tmp_path / 'snapshots'
+    directory.mkdir()
+    snapshot = FixtureProvider().run_fixture('supported')
+    context = make_context(snapshot, list(snapshot.papers), snapshot.provisional)
+    (directory / 'run.json').write_text(export_snapshot(context, build_template(context)), encoding='utf-8')
+    result = run_study([{'case_id': 'relative', 'snapshot_file': 'snapshots/run.json'}],
+                       mode='fixture', manifest_base=tmp_path)
+    assert result['summary']['cases'] == 1
+    assert result['review_packets'][0]['claim'] == snapshot.claim

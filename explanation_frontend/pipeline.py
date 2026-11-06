@@ -131,10 +131,11 @@ class LocalPipeline:
         passages = {pid: select_abstract(claim, pid, entry_map[pid].paper.abstract) for pid in ordered}
         metadata = [Paper(paper_id=p.identity, title=p.paper.title or "Title unavailable",
                     authors=p.paper.authors, year=p.paper.year, url=p.paper.landing_url,
-                    source_version=source.source_reference, source_status="unverified",
+                    source_status="unverified",
                     retrieval_scores={**branch_scores.get(p.identity, {}),
                         **({"rrf": next(r["rrf_score"] for r in ranking["papers"] if r["entry"]["identity"] == p.identity)}
-                           if any(r["entry"]["identity"] == p.identity for r in ranking["papers"]) else {})}) for p in entries]
+                           if any(r["entry"]["identity"] == p.identity for r in ranking["papers"]) else {})})
+                    for p in [entry_map[pid] for pid in ordered]]
         if any(passages.values()):
             with _MODEL_LOCK:
                 verifier = self.verifier or local_verifier()

@@ -16,9 +16,9 @@ Live search payloads require provider/query provenance. Yu Yue's synthetic and f
 ## Remaining owner handoffs
 
 - Person 2: connected to the actual runtime and local embeddings; frozen retrieval-quality evaluation remains pending.
-- Yu Yue: RRF connected; optional cross-encoder remains disabled pending numerical/dependency validation.
+- Yu Yue: RRF connected; optional cross-encoder now passes numerical QC here and improved the small development sample, but remains disabled pending broader quality/protocol review.
 - Chong Yao: real local NLI and cached aggregation connected, with a documented frontend conflict policy. Team acceptance and broader validation remain pending.
-- Passage owner: confirm/replace Kireeti's explicit abstract-span fallback. Full-text evidence is not implemented.
+- Passage owner: Person 3 owns this stage per the current task document and must approve/replace Kireeti's explicit abstract-span fallback. Full-text evidence is not implemented.
 - Team: human scientific explanation evaluation, held-out benchmarks and full-text/status handling remain pending.
 
 Ranking-stage timing excludes discovery, branch indexing, model loading and serialization. Naila query times exclude index construction. The pipeline separately records its own integration duration. These must not be labelled interchangeably as end-to-end timings.

@@ -1,0 +1,20 @@
+--- a/ranking_evaluation/evaluate.py
++++ b/ranking_evaluation/evaluate.py
+@@ -104,7 +104,7 @@
+                            scorer=scorer, top_n=args.top_n)
+     root = Path(__file__).resolve().parents[1]
+     source_hashes = {
+-        str(path.relative_to(root)): hashlib.sha256(path.read_bytes()).hexdigest()
++        path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+         for folder in (root / "ranking_evaluation", root / "live_search/src/paper_search")
+         for path in sorted(folder.rglob("*.py"))
+     }
+@@ -124,7 +124,7 @@
+         "model": {"id": args.model_id, "revision": args.model_revision,
+                   "identity_note": "ID/revision supplied by caller; local file hashes identify actual bytes",
+                   "files_sha256": {
+-                      str(path.relative_to(args.model_path)): hashlib.sha256(path.read_bytes()).hexdigest()
++                      path.relative_to(args.model_path).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+                       for path in sorted(args.model_path.rglob("*"))
+                       if path.is_file() and ".cache" not in path.relative_to(args.model_path).parts
+                   },

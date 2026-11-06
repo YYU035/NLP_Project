@@ -135,6 +135,7 @@ def render_verification():
     st.text_area("Scientific claim", key="claim", height=100, on_change=invalidate, max_chars=20_000,
                  disabled=ss.mode == "Selected search",
                  help="The exact claim is preserved. Editing it clears the previous result.")
+    st.caption("Use one clear factual statement. The current models are English-language models; other or mixed languages have not been validated.")
 
     left, right = st.columns([1, 4])
     with left:
@@ -267,8 +268,14 @@ def render_verification():
             st.caption("CACHED REPLAY" if ss.mode == "Cached replay" else "SYNTHETIC DEMO" if snapshot.mode == "demo" else "VERIFIED SAVED DISCOVERY" if snapshot.discovery_context and snapshot.mode == "cached" else "LIVE SEARCH")
             if snapshot.discovery_context:
                 st.text("Discovery source: " + snapshot.discovery_context["source_reference"])
-            st.text(f"Retrieved: {snapshot.retrieved_at.isoformat()} | original mode: {snapshot.mode} | search complete: {snapshot.search_complete}")
-            st.text("Filters: " + str(snapshot.filters))
+            retrieval_time = ("unknown; snapshot bookkeeping time: " if snapshot.filters.get("retrieval_timestamp", "").startswith("unknown")
+                              else "retrieved: ") + snapshot.retrieved_at.isoformat()
+            st.text(f"Discovery time {retrieval_time} | original mode: {snapshot.mode} | search complete: {snapshot.search_complete}")
+            st.json({k: v for k, v in snapshot.filters.items() if k != "ranking_output_json"})
+            if "ranking_output_json" in snapshot.filters:
+                with st.expander("Original ranking output and provenance"):
+                    # This field is data, including in uploaded replay files.
+                    st.text(snapshot.filters["ranking_output_json"])
             with st.expander("Processing and model settings"):
                 st.json(snapshot.stage_statuses)
                 st.json(snapshot.verification.model_settings.model_dump())
@@ -372,6 +379,7 @@ def render_verification():
                     st.text("Check codes: " + ", ".join(generated.issues))
                 if generated.omitted_passage_ids:
                     st.text("Passages omitted from generation: " + ", ".join(generated.omitted_passage_ids))
+            st.caption("Optional experimental generation: the current small model failed the strict output schema in QC. Templates remain the default; invalid output is withheld.")
             if st.button("Generate local LLM explanation", disabled=busy or aggregation.status == "failed" or not aggregation.primary_evidence,
                          help="Runs the downloaded Apache-2.0 model on this computer. Claims and evidence remain local."):
                 try:

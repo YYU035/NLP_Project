@@ -32,6 +32,14 @@ def import_snapshot(raw: str | bytes) -> ReplayBundle:
     if bundle.snapshot_hash != bundle.snapshot.fingerprint:
         raise ValueError("Snapshot checksum mismatch")
     context = make_context(bundle.snapshot, bundle.selected_paper_ids, bundle.aggregation)
+    # Early integrated exports predate this one safety note. Restore only the
+    # exact known omission; do not accept arbitrary user-supplied limitations.
+    from .templates import build_template, AUTOMATIC_SELECTION_LIMITATION
+    expected = build_template(context).limitations
+    legacy = [note for note in expected if note != AUTOMATIC_SELECTION_LIMITATION]
+    if AUTOMATIC_SELECTION_LIMITATION in expected and bundle.explanation.limitations == legacy:
+        bundle = bundle.model_copy(update={"explanation": bundle.explanation.model_copy(
+            update={"limitations": expected})})
     if not validate_explanation(bundle.explanation, context).displayable:
         raise ValueError("Replay explanation fails grounding checks")
     return bundle

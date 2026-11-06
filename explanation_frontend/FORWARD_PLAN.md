@@ -11,11 +11,13 @@
 
 ## Pending team acceptance / quality work
 
-1. Passage owner approves/replaces the provisional selector; preserve source text and dataset sentence indices in any benchmark implementation.
+1. Yu Yue (Person 3, confirmed by the current task document) approves/replaces the provisional selector; preserve source text and dataset sentence indices in any benchmark implementation.
 2. Chong Yao reviews the frontend internal-conflict and five-passage-cap policy with both evidence sides preserved.
 3. Person 1/team supplies full-text acquisition and eligibility/retraction/freshness/source-version policy.
 4. Freeze real held-out cases and collect human scientific explanation/citation reviews. Smoke checks are not accuracy benchmarks.
-5. Optional cross-encoder remains disabled until numerical/dependency validation; optional local Qwen comparison still needs completed setup and evaluation.
+5. Optional cross-encoder passed finite-score and small development checks but remains disabled pending broader review. Qwen installation is complete; all 12 raw QC generations failed schema, so templates remain default and human evaluation is pending.
 6. Team reviews/merges kireeti into the shared branch after inspecting INTEGRATION_CHANGELOG.md. No main-branch merge was performed by this integration work.
 
 All implementation changes stay in explanation_frontend. No hosted/proprietary inference or paid API dependency is introduced.
+
+See TEAM_QC_REPORT.md for the executed team-wide QC, development metrics and owner-specific next steps. Review packet: outputs/review_packet/index.html.

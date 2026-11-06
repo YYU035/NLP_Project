@@ -1,3 +1,7 @@
+# Team-wide QC update - 6 November 2026
+
+See ../TEAM_QC_REPORT.md and team_qc_summary.json for the latest 116-test frontend validation, upstream test results, real development retrieval/NLI/selector/reranker diagnostics and 12 unsuccessful Qwen generations with safe fallbacks. Human reviews remain zero; 48 blank rows are prepared. Earlier local-generation/weight-download statements below are historical milestones, not current installation status.
+
 # Latest integration validation - 6 November 2026
 
 The integrated discovery/retrieval/RRF/abstract-selection/local-NLI/template workflow now passes 113 tests, dependency checks, and separate recorded/fresh-search real-model smoke checks. See end-to-end-smoke.md for measured scope, commands and limitations. The older counts below are historical milestones. The new tests and smoke checks do not supply human evaluation results, evidence-F1 or scientific accuracy claims; optional Qwen generation remains pending.
