@@ -1,3 +1,9 @@
+# Current integration status - 6 November 2026
+
+The built-in factory explanation_frontend.pipeline:create_provider now connects real discovery, local Naila BM25/SBERT, Yu Yue RRF, frontend exact-abstract selection, Chong Yao offline NLI and cached aggregation. Earlier notes about missing callables below describe initial development boundaries; the current additions and policy ledger is INTEGRATION_CHANGELOG.md. Frontend source folders remain isolated; teammate runtimes are pinned copies/dependencies.
+
+The missing passage stage is filled by an explicitly provisional exact-span selector. The frontend conflict policy preserves both sides of internal/across-paper conflicts. These additions need team acceptance and must not be represented as unchanged owner algorithms. Original claim/IDs, source metadata, exact text/offsets, model revisions and full ranking output are retained in snapshots. Pipeline rank output is also serialized in filters.ranking_output_json for runs containing unranked no-text candidates. Built-in adapters use the same local RunSnapshot schema and citation validators described below.
+
 # Person 5 handoff contract — local schema 1.0
 
 The authoritative team requirements are the Project Role/Task Split and Edge Cases tabs. These local types are proposed integration mappings, not a claim that shared/ has implemented them. The complete machine-readable types are in models.py. fixtures/conflict.json is a full example; all fixtures are synthetic.
@@ -76,7 +82,7 @@ Original verification replay hashes remain compatible when discovery_context is 
 
 - Persons 2–4 import paths and exact downstream mapping; fixed benchmark split/version. Person 1 discovery is connected through its pinned dependency.
 - Source ID/version conventions, zero/one-based sentence indices, retraction/eligibility handling and available safe status codes.
-- Person 4 aggregation rules and latency on real cached outputs; threshold/checkpoint revision.
+- Team review of the frontend conflict policy and broader cached latency/held-out evaluation; checkpoint and threshold are now explicitly pinned in the built-in pipeline.
 - Actual replacement-evidence approval method, if corrections are included.
 - The downloadable detailed edge-case checklist, whose individual trigger/priority mapping was not present in the supplied tab.
 

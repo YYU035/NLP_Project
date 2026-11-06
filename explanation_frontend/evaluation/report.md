@@ -1,3 +1,7 @@
+# Latest integration validation - 6 November 2026
+
+The integrated discovery/retrieval/RRF/abstract-selection/local-NLI/template workflow now passes 113 tests, dependency checks, and separate recorded/fresh-search real-model smoke checks. See end-to-end-smoke.md for measured scope, commands and limitations. The older counts below are historical milestones. The new tests and smoke checks do not supply human evaluation results, evidence-F1 or scientific accuracy claims; optional Qwen generation remains pending.
+
 # Implementation and evaluation status — 31 October 2026
 
 ## Free/open-source revision — 4 November 2026

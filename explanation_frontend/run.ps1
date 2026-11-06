@@ -5,6 +5,7 @@ if (-not (Test-Path -LiteralPath $modulePython)) {
     throw 'Run setup.ps1 with a Python 3.12 executable first; see README.md.'
 }
 $env:PYTHONDONTWRITEBYTECODE = '1'
+$env:PYTHONUTF8 = '1'
 $env:STREAMLIT_BROWSER_GATHER_USAGE_STATS = 'false'
 $env:HF_HOME = Join-Path $PSScriptRoot '.model-cache/huggingface'
 $env:TORCH_HOME = Join-Path $PSScriptRoot '.model-cache/torch'

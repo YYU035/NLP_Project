@@ -33,3 +33,9 @@ Links to paper landing pages/PDF metadata are inspectable links. This frontend d
 - [arXiv API access](https://info.arxiv.org/help/api/index.html)
 
 The discovery package is pinned to teammate source revision 259d2a9. No teammate source file was edited to enforce this frontend policy.
+
+## Integrated local retrieval and NLI - 6 November 2026
+
+The built-in pipeline now runs local Naila BM25/SBERT and Yu Yue RRF, exact abstract-span selection, and Chong Yao NLI verification. NLI uses the MIT-licensed model MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli at b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7. setup-pipeline.ps1/pipeline_setup.py explicitly download its public model files once; the weight checksum is verified before activation. Tokenizers/models load with local_files_only=True and trust_remote_code=False at runtime. The upstream constructor that can download revision main is not invoked. Anonymous Hugging Face file download is setup-only, not hosted inference.
+
+Verify evidence -> Live explicitly requests public discovery, so its claim is sent to the same three catalogues listed above. All downstream processing remains on this computer. Recorded discovery -> local verification, cached subsets, templates and replay require no external requests. No paid/proprietary API or additional credentials were added.

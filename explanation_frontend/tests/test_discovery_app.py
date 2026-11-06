@@ -72,7 +72,7 @@ def test_navigation_restores_exact_claim_and_source_mode():
 
 
 def test_selected_search_handoff_opens_verification_without_running_or_fabricating_results(monkeypatch):
-    monkeypatch.delenv("EXPLANATION_VERIFY_DISCOVERY_FACTORY", raising=False)
+    monkeypatch.setenv("EXPLANATION_VERIFY_DISCOVERY_FACTORY", "")
     app = AppTest.from_file(APP).run()
     button(app, "Load recorded search").click().run()
     app.checkbox[0].uncheck().run()

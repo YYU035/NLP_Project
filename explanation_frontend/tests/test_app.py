@@ -46,7 +46,7 @@ def test_total_failure_shows_no_scientific_verdict():
 
 
 def test_sessions_are_isolated_and_live_does_not_silently_demo(monkeypatch):
-    monkeypatch.delenv("EXPLANATION_PIPELINE_FACTORY", raising=False)
+    monkeypatch.setenv("EXPLANATION_PIPELINE_FACTORY", "")
     a, b = verification_app(), verification_app()
     button(a, "Verify claim").click().run()
     assert a.metric and not b.metric

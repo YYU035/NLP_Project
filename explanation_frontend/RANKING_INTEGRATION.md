@@ -1,6 +1,6 @@
-# Ranking integration
+# Ranking integration - current status, 6 November 2026
 
-Person 1 discovery → Person 2 branch rankings → Yu Yue RRF → Person 5 ranked browser and selected-paper handoff is connected. RRF runs locally; it makes no API calls and loads no model.
+The built-in pipeline now computes Naila BM25/SBERT branch rankings automatically and invokes Yu Yue RRF. You do not need to exchange ranking files to run the app. Manual imports below remain useful for teammate handoffs and inspection. Naila is pinned at 2bc7d81292313498fd70dd13656024d00cf3dda4. See INTEGRATION_CHANGELOG.md for the schema bridge and local encoder policy.
 
 1. Start the frontend using the existing README instructions. Load a recorded, uploaded or live search.
 2. Expand **Connect BM25/SBERT rankings and Person 3 RRF**. Download **Person 2 ranking input** and send the file to the retrieval owner. The empty `bm25_ranking` and `sbert_ranking` lists are placeholders, not computed results.
@@ -15,9 +15,10 @@ Live search payloads require provider/query provenance. Yu Yue's synthetic and f
 
 ## Remaining owner handoffs
 
-- Person 2 **[PENDING]**: real BM25/SBERT retrieval code and ordered branch results. This frontend does not manufacture those results from discovery order.
-- Yu Yue **[CONNECTED]**: RRF schema/runtime, ranked metadata display, import/export, selection and downstream lineage. **[PENDING]**: validated optional cross-encoder environment; reranker outputs are explicitly rejected for now because the shared environment has a reported CPU NaN issue and different dependency pins.
-- Person 4 **[AVAILABLE, NOT CONNECTED]**: `claim_verifier` on `chong_yao_claim_verification` at `1ac06b6` now publishes verify/aggregate callables. **[PENDING — Kireeti + Person 4]**: schema/status mapping, isolated imports, pinned local model setup and real conflict/failure/subset acceptance tests; then configure `EXPLANATION_VERIFY_DISCOVERY_FACTORY`. **[PENDING — evidence owner]**: real passage extraction remains missing. See the README adapter-readiness table. No verification verdict is produced by RRF.
-- Team **[PENDING]**: confirm passage-selection ownership because the task split and new ranking README differ; run the full chain on real outputs and perform human explanation evaluation.
+- Person 2: connected to the actual runtime and local embeddings; frozen retrieval-quality evaluation remains pending.
+- Yu Yue: RRF connected; optional cross-encoder remains disabled pending numerical/dependency validation.
+- Chong Yao: real local NLI and cached aggregation connected, with a documented frontend conflict policy. Team acceptance and broader validation remain pending.
+- Passage owner: confirm/replace Kireeti's explicit abstract-span fallback. Full-text evidence is not implemented.
+- Team: human scientific explanation evaluation, held-out benchmarks and full-text/status handling remain pending.
 
-Ranking-stage timing excludes discovery, branch retrieval, model loading and serialization. Scores are retrieval relevance signals, not probabilities that a claim is true. Saved ranking data is validated structurally and against its branch lists, not authenticated as an owner's scientific output.
+Ranking-stage timing excludes discovery, branch indexing, model loading and serialization. Naila query times exclude index construction. The pipeline separately records its own integration duration. These must not be labelled interchangeably as end-to-end timings.

@@ -1,3 +1,7 @@
+# Implementation update - 6 November 2026
+
+The integrated local pipeline is now implemented in pipeline.py with Naila retrieval, Yu Yue RRF, provisional exact-span abstract selection and Chong Yao offline NLI/cached aggregation. INTEGRATION_CHANGELOG.md is the current source/policy ledger; README.md contains the current owner checklist. Earlier standalone implementation notes below remain architectural history, not an assertion that these stages are still absent.
+
 # Implementation ledger
 
 Current policy (4 November 2026): hosted proprietary inference has been removed. Generation uses a pinned Apache-2.0 model locally; only free anonymous public catalogue discovery remains. Earlier entries below describe the superseded implementation, not current setup instructions. See API_POLICY.md.

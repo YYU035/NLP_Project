@@ -71,7 +71,8 @@ def render_verification():
     def load_live_provider():
         # This is trusted server configuration, never a path or code supplied by a paper/upload.
         selected_search = ss.mode == "Selected search"
-        spec = os.environ.get("EXPLANATION_VERIFY_DISCOVERY_FACTORY" if selected_search else "EXPLANATION_PIPELINE_FACTORY", "")
+        spec = os.environ.get("EXPLANATION_VERIFY_DISCOVERY_FACTORY" if selected_search else "EXPLANATION_PIPELINE_FACTORY",
+                              "explanation_frontend.pipeline:create_provider")
         if not spec or ":" not in spec:
             raise ValueError("Configure the trusted upstream pipeline factory first")
         module, name = spec.split(":", 1)
@@ -100,13 +101,14 @@ def render_verification():
             st.selectbox("Synthetic scenario", fixture_names(), key="scenario", on_change=change_scenario)
             st.info("Demo uses invented papers and fixed claims. It makes no scientific finding.")
         elif ss.mode == "Live":
-            st.info("Live requires your teammates' configured pipeline. There is no automatic demo fallback.")
+            st.info("Live uses public discovery, local BM25/SBERT ranking, abstract selection and local NLI. Run setup-pipeline.ps1 first; no model downloads occur during verification.")
         elif ss.mode == "Selected search":
             pending = ss.get("pending_discovery")
             if pending:
                 st.info(f"{len(pending['ids'])} selected candidates are ready for the downstream ranking, evidence selection and verification bridge.")
             else:
                 st.info("Prepare a paper selection in Find papers first.")
+            st.caption("The built-in selector uses exact spans from provider abstracts/descriptions. Full text, authenticity and scientific quality are not independently checked.")
         else:
             upload = st.file_uploader("Replay a result JSON (up to 10 MB)", type=["json"])
             if upload and st.button("Load replay"):
@@ -168,15 +170,15 @@ def render_verification():
                             raise ValueError("No discovery selection")
                         source, ids = pending["snapshot"], list(pending["ids"])
                         ss.pipeline_expected_mode = source.mode
-                        ss.pipeline_job = start_job(lambda s=source, selected=ids, p=provider: p.run_from_discovery(s, selected), token, timeout=90)
+                        ss.pipeline_job = start_job(lambda s=source, selected=ids, p=provider: p.run_from_discovery(s, selected), token, timeout=300)
                     else:
                         ss.pipeline_expected_mode = "live"
-                        ss.pipeline_job = start_job(lambda claim=ss.claim, p=provider: p.run(claim, {}), token, timeout=90)
+                        ss.pipeline_job = start_job(lambda claim=ss.claim, p=provider: p.run(claim, {}), token, timeout=300)
                     st.rerun()
             except Exception:
                 ss.operation_error = ("Demo accepts only the scenario's exact synthetic claim. Choose a scenario again to restore it."
-                                      if ss.mode == "Demo" else "Downstream pipeline is unavailable. Configure EXPLANATION_VERIFY_DISCOVERY_FACTORY and the owners' handoff."
-                                      if ss.mode == "Selected search" else "Live pipeline is unavailable. Configure its factory and verify the upstream handoff.")
+                                      if ss.mode == "Demo" else "Local pipeline is unavailable. Run setup-pipeline.ps1 and prepare a valid paper selection; check any custom factory configuration."
+                                      if ss.mode == "Selected search" else "Live pipeline is unavailable. Run setup-pipeline.ps1 and check discovery access or any custom factory configuration.")
 
 
     @st.fragment(run_every=0.5 if any(name in ss for name in ("pipeline_job", "llm_job", "aggregation_job")) or ss.retired_jobs else None)

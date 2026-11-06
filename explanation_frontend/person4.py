@@ -86,7 +86,8 @@ class Person4Adapter:
         if data["aggregated_verdict"] == "INSUFFICIENT":
             data["sufficiency_cause"] = "EMPTY_SELECTION" if not selected else "NO_PASSAGE_ABOVE_THRESHOLD"
         # Do not silently reinterpret upstream internal conflicts as unanimity.
-        if any(v.conflict_flag for pid, v in verification.per_paper_verdicts.items() if pid in selected):
+        if (any(v.conflict_flag for pid, v in verification.per_paper_verdicts.items() if pid in selected)
+                and data["aggregated_verdict"] != "CONFLICTING"):
             raise ValueError("Upstream internal-conflict aggregation requires owner agreement")
         return AggregationResponse.model_validate(data)
 
