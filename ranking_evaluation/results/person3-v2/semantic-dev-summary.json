@@ -1,0 +1,650 @@
+[
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "oracle_gold_papers",
+    "paper_depth": null,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.008018224034458399,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 199,
+      "predicted": 531,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 153
+    },
+    "micro": {
+      "precision": 0.3747645951035782,
+      "recall": 0.5437158469945356,
+      "f1": 0.443701226309922
+    },
+    "macro": {
+      "precision": 0.37240374873353593,
+      "recall": 0.5977646909827761,
+      "f1": 0.42822652416017476
+    },
+    "complete_rationale_document_recall": 0.7320574162679426,
+    "claims_any_complete_rationale_rate": 0.7393617021276596,
+    "claims_all_gold_documents_complete_rate": 0.7127659574468085,
+    "no_gold_claims_predicted_sentences": 0,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "bm25",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.03422729205340147,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 168,
+      "predicted": 1333,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 129
+    },
+    "micro": {
+      "precision": 0.12603150787696923,
+      "recall": 0.45901639344262296,
+      "f1": 0.19776339022954678
+    },
+    "macro": {
+      "precision": 0.17790584120371356,
+      "recall": 0.538975430597771,
+      "f1": 0.23362584213318685
+    },
+    "complete_rationale_document_recall": 0.6172248803827751,
+    "claims_any_complete_rationale_rate": 0.6702127659574468,
+    "claims_all_gold_documents_complete_rate": 0.6382978723404256,
+    "no_gold_claims_predicted_sentences": 543,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "bm25",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.051147421821951866,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 184,
+      "predicted": 1938,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 140
+    },
+    "micro": {
+      "precision": 0.09494324045407637,
+      "recall": 0.5027322404371585,
+      "f1": 0.1597222222222222
+    },
+    "macro": {
+      "precision": 0.15008015712102699,
+      "recall": 0.5685093718338399,
+      "f1": 0.2031418705483637
+    },
+    "complete_rationale_document_recall": 0.6698564593301436,
+    "claims_any_complete_rationale_rate": 0.7127659574468085,
+    "claims_all_gold_documents_complete_rate": 0.6702127659574468,
+    "no_gold_claims_predicted_sentences": 807,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "sbert",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.038271059980615973,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 173,
+      "predicted": 1752,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 132
+    },
+    "micro": {
+      "precision": 0.09874429223744292,
+      "recall": 0.4726775956284153,
+      "f1": 0.16336166194523136
+    },
+    "macro": {
+      "precision": 0.13415362710575476,
+      "recall": 0.5336562816616008,
+      "f1": 0.18765865587384117
+    },
+    "complete_rationale_document_recall": 0.631578947368421,
+    "claims_any_complete_rationale_rate": 0.6595744680851063,
+    "claims_all_gold_documents_complete_rate": 0.648936170212766,
+    "no_gold_claims_predicted_sentences": 793,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "sbert",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.05905195605009794,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 186,
+      "predicted": 2734,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 142
+    },
+    "micro": {
+      "precision": 0.06803218727139722,
+      "recall": 0.5081967213114754,
+      "f1": 0.12
+    },
+    "macro": {
+      "precision": 0.11340941399018457,
+      "recall": 0.5618604356636272,
+      "f1": 0.16179805022279986
+    },
+    "complete_rationale_document_recall": 0.6794258373205742,
+    "claims_any_complete_rationale_rate": 0.7021276595744681,
+    "claims_all_gold_documents_complete_rate": 0.6702127659574468,
+    "no_gold_claims_predicted_sentences": 1264,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "rrf",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.03393070795573294,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 180,
+      "predicted": 1647,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 138
+    },
+    "micro": {
+      "precision": 0.1092896174863388,
+      "recall": 0.4918032786885246,
+      "f1": 0.17883755588673622
+    },
+    "macro": {
+      "precision": 0.15243226041098382,
+      "recall": 0.5607839412360689,
+      "f1": 0.20951922892300667
+    },
+    "complete_rationale_document_recall": 0.6602870813397129,
+    "claims_any_complete_rationale_rate": 0.7074468085106383,
+    "claims_all_gold_documents_complete_rate": 0.6702127659574468,
+    "no_gold_claims_predicted_sentences": 739,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "rrf",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.058071205858141184,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 192,
+      "predicted": 2537,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 147
+    },
+    "micro": {
+      "precision": 0.07567993693338589,
+      "recall": 0.5245901639344263,
+      "f1": 0.132276954874268
+    },
+    "macro": {
+      "precision": 0.12535995837125247,
+      "recall": 0.5884561803444782,
+      "f1": 0.17565128865479843
+    },
+    "complete_rationale_document_recall": 0.7033492822966507,
+    "claims_any_complete_rationale_rate": 0.7340425531914894,
+    "claims_all_gold_documents_complete_rate": 0.6968085106382979,
+    "no_gold_claims_predicted_sentences": 1140,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "rrf_ce_top20",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.038933651987463236,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 187,
+      "predicted": 1521,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 142
+    },
+    "micro": {
+      "precision": 0.12294543063773833,
+      "recall": 0.5109289617486339,
+      "f1": 0.1981981981981982
+    },
+    "macro": {
+      "precision": 0.1734971883908054,
+      "recall": 0.5798125633232016,
+      "f1": 0.23076741788724087
+    },
+    "complete_rationale_document_recall": 0.6794258373205742,
+    "claims_any_complete_rationale_rate": 0.7180851063829787,
+    "claims_all_gold_documents_complete_rate": 0.675531914893617,
+    "no_gold_claims_predicted_sentences": 711,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_sentence",
+    "ranking_method": "rrf_ce_top20",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 0
+    },
+    "selection_seconds": 0.06026676599867642,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 190,
+      "predicted": 2423,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 145
+    },
+    "micro": {
+      "precision": 0.07841518778373917,
+      "recall": 0.5191256830601093,
+      "f1": 0.13624955181068482
+    },
+    "macro": {
+      "precision": 0.12787508458626282,
+      "recall": 0.583137031408308,
+      "f1": 0.17913547377558578
+    },
+    "complete_rationale_document_recall": 0.69377990430622,
+    "claims_any_complete_rationale_rate": 0.723404255319149,
+    "claims_all_gold_documents_complete_rate": 0.6914893617021277,
+    "no_gold_claims_predicted_sentences": 1103,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "oracle_gold_papers",
+    "paper_depth": null,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.012948241084814072,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 272,
+      "predicted": 1123,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 178
+    },
+    "micro": {
+      "precision": 0.24220837043633126,
+      "recall": 0.7431693989071039,
+      "f1": 0.3653458697112156
+    },
+    "macro": {
+      "precision": 0.24035587639311043,
+      "recall": 0.7746327254305978,
+      "f1": 0.3479731036833665
+    },
+    "complete_rationale_document_recall": 0.8516746411483254,
+    "claims_any_complete_rationale_rate": 0.8563829787234043,
+    "claims_all_gold_documents_complete_rate": 0.8351063829787234,
+    "no_gold_claims_predicted_sentences": 0,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "bm25",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.02518484415486455,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 230,
+      "predicted": 2858,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 151
+    },
+    "micro": {
+      "precision": 0.08047585724282715,
+      "recall": 0.6284153005464481,
+      "f1": 0.14267990074441686
+    },
+    "macro": {
+      "precision": 0.10300121210819402,
+      "recall": 0.6950987841945289,
+      "f1": 0.16521647139725465
+    },
+    "complete_rationale_document_recall": 0.722488038277512,
+    "claims_any_complete_rationale_rate": 0.776595744680851,
+    "claims_all_gold_documents_complete_rate": 0.7446808510638298,
+    "no_gold_claims_predicted_sentences": 1178,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "bm25",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.04614767199382186,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 250,
+      "predicted": 4221,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 162
+    },
+    "micro": {
+      "precision": 0.059227671167969675,
+      "recall": 0.6830601092896175,
+      "f1": 0.10900370612600828
+    },
+    "macro": {
+      "precision": 0.08643089520471059,
+      "recall": 0.731193009118541,
+      "f1": 0.13963653519076863
+    },
+    "complete_rationale_document_recall": 0.7751196172248804,
+    "claims_any_complete_rationale_rate": 0.8191489361702128,
+    "claims_all_gold_documents_complete_rate": 0.776595744680851,
+    "no_gold_claims_predicted_sentences": 1766,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "sbert",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.029956101905554533,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 239,
+      "predicted": 3643,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 156
+    },
+    "micro": {
+      "precision": 0.06560527038155367,
+      "recall": 0.6530054644808743,
+      "f1": 0.11923172861062609
+    },
+    "macro": {
+      "precision": 0.08003715177917643,
+      "recall": 0.6973150962512664,
+      "f1": 0.13321892026523052
+    },
+    "complete_rationale_document_recall": 0.7464114832535885,
+    "claims_any_complete_rationale_rate": 0.7819148936170213,
+    "claims_all_gold_documents_complete_rate": 0.7606382978723404,
+    "no_gold_claims_predicted_sentences": 1614,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "sbert",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.04953909292817116,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 254,
+      "predicted": 5746,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 166
+    },
+    "micro": {
+      "precision": 0.044204664114166375,
+      "recall": 0.6939890710382514,
+      "f1": 0.0831151832460733
+    },
+    "macro": {
+      "precision": 0.063349436318908,
+      "recall": 0.7276469098277609,
+      "f1": 0.10810789569817726
+    },
+    "complete_rationale_document_recall": 0.7942583732057417,
+    "claims_any_complete_rationale_rate": 0.8138297872340425,
+    "claims_all_gold_documents_complete_rate": 0.7872340425531915,
+    "no_gold_claims_predicted_sentences": 2656,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "rrf",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.031066325027495623,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 248,
+      "predicted": 3511,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 161
+    },
+    "micro": {
+      "precision": 0.07063514668185703,
+      "recall": 0.6775956284153005,
+      "f1": 0.12793396956409595
+    },
+    "macro": {
+      "precision": 0.08986204622258726,
+      "recall": 0.7265704154002026,
+      "f1": 0.14761130511010273
+    },
+    "complete_rationale_document_recall": 0.7703349282296651,
+    "claims_any_complete_rationale_rate": 0.8138297872340425,
+    "claims_all_gold_documents_complete_rate": 0.776595744680851,
+    "no_gold_claims_predicted_sentences": 1549,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "rrf",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.05003162007778883,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 263,
+      "predicted": 5411,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 171
+    },
+    "micro": {
+      "precision": 0.04860469414156348,
+      "recall": 0.7185792349726776,
+      "f1": 0.09105071836593387
+    },
+    "macro": {
+      "precision": 0.07217537199718571,
+      "recall": 0.7595618034447822,
+      "f1": 0.12027527598018038
+    },
+    "complete_rationale_document_recall": 0.8181818181818182,
+    "claims_any_complete_rationale_rate": 0.8457446808510638,
+    "claims_all_gold_documents_complete_rate": 0.8138297872340425,
+    "no_gold_claims_predicted_sentences": 2448,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "rrf_ce_top20",
+    "paper_depth": 5,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.02988976310007274,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 255,
+      "predicted": 3230,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 166
+    },
+    "micro": {
+      "precision": 0.07894736842105263,
+      "recall": 0.6967213114754098,
+      "f1": 0.1418242491657397
+    },
+    "macro": {
+      "precision": 0.10167441906085892,
+      "recall": 0.7455990374873354,
+      "f1": 0.164080930139754
+    },
+    "complete_rationale_document_recall": 0.7942583732057417,
+    "claims_any_complete_rationale_rate": 0.8297872340425532,
+    "claims_all_gold_documents_complete_rate": 0.7925531914893617,
+    "no_gold_claims_predicted_sentences": 1487,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  },
+  {
+    "policy": "semantic_context",
+    "ranking_method": "rrf_ce_top20",
+    "paper_depth": 10,
+    "configuration": {
+      "top_k": 3,
+      "min_score": 0.5,
+      "context_radius": 1
+    },
+    "selection_seconds": 0.05286578694358468,
+    "total_claims": 300,
+    "evaluated_claims": 188,
+    "excluded_no_gold": 112,
+    "counts": {
+      "tp": 260,
+      "predicted": 5178,
+      "gold": 366,
+      "gold_documents": 209,
+      "complete_gold_documents": 169
+    },
+    "micro": {
+      "precision": 0.050212437234453455,
+      "recall": 0.7103825136612022,
+      "f1": 0.09379509379509379
+    },
+    "macro": {
+      "precision": 0.07317091771578715,
+      "recall": 0.7515830800405269,
+      "f1": 0.12203498993421975
+    },
+    "complete_rationale_document_recall": 0.8086124401913876,
+    "claims_any_complete_rationale_rate": 0.8351063829787234,
+    "claims_all_gold_documents_complete_rate": 0.8085106382978723,
+    "no_gold_claims_predicted_sentences": 2364,
+    "no_gold_note": "Excluded from P/R/F1; selections are counted, not independently labelled errors"
+  }
+]

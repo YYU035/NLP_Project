@@ -61,7 +61,7 @@ def run_benchmark(
         "corpus_size": len(bundle.corpus_doc_ids),
         "configuration": {"ks": ks, "rrf_k": rrf_k,
                           "rerank_enabled": scorer is not None, "top_n": top_n},
-        "timing_note": "CPU synchronous replay; no live search, retrieval replay, or end-to-end timing",
+        "timing_note": "Synchronous ranking replay; CUDA scorer synchronizes inference; no live search, retrieval replay, or end-to-end timing",
         "branch_depths": {claim.claim_id: {
             "bm25": len(claim.bm25_ranking), "sbert": len(claim.sbert_ranking),
         } for claim in bundle.claims},
@@ -84,6 +84,7 @@ def main() -> None:
     parser.add_argument("--top-n", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--max-length", type=int, default=512)
+    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
     parser.add_argument("--cpu-float64", action="store_true")
     args = parser.parse_args()
     if args.output.exists():
@@ -92,19 +93,23 @@ def main() -> None:
         parser.error("Reranking requires --model-id and --model-revision for provenance")
     if not args.model_path and (args.model_id or args.model_revision or args.cpu_float64):
         parser.error("Model options require --model-path")
+    if args.cpu_float64 and args.device != "cpu":
+        parser.error("--cpu-float64 requires --device cpu")
+    if args.device != "cpu" and not args.model_path:
+        parser.error("--device cuda requires --model-path")
     raw = args.input.read_bytes()
     bundle = BenchmarkBundle.model_validate_json(raw)
     scorer, load_seconds = None, None
     if args.model_path:
         scorer, load_seconds = measure_call(lambda: LocalCrossEncoder(
-            args.model_path, device="cpu", max_length=args.max_length,
+            args.model_path, device=args.device, max_length=args.max_length,
             batch_size=args.batch_size, cpu_float64=args.cpu_float64,
         ))
     report = run_benchmark(bundle, ks=tuple(args.ks), rrf_k=args.rrf_k,
                            scorer=scorer, top_n=args.top_n)
     root = Path(__file__).resolve().parents[1]
     source_hashes = {
-        str(path.relative_to(root)): hashlib.sha256(path.read_bytes()).hexdigest()
+        path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
         for folder in (root / "ranking_evaluation", root / "live_search/src/paper_search")
         for path in sorted(folder.rglob("*.py"))
     }
@@ -124,11 +129,11 @@ def main() -> None:
         "model": {"id": args.model_id, "revision": args.model_revision,
                   "identity_note": "ID/revision supplied by caller; local file hashes identify actual bytes",
                   "files_sha256": {
-                      str(path.relative_to(args.model_path)): hashlib.sha256(path.read_bytes()).hexdigest()
+                      path.relative_to(args.model_path).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
                       for path in sorted(args.model_path.rglob("*"))
                       if path.is_file() and ".cache" not in path.relative_to(args.model_path).parts
                   },
-                  "device": "cpu", "dtype": "float64" if args.cpu_float64 else "default",
+                  "device": args.device, "dtype": "float64" if args.cpu_float64 else "default",
                   "max_length": args.max_length, "batch_size": args.batch_size,
                   "load_seconds": load_seconds} if scorer else None,
     }

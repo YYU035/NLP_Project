@@ -3,6 +3,20 @@
 from ranking_evaluation.schemas import RankedPaper, RankingInput
 
 
+
+def fuse_ordered_ids(bm25_ids, sbert_ids, *, rrf_k=60):
+    """Lightweight ID/score fusion shared by the runtime and ablation tools."""
+    if type(rrf_k) is not int or rrf_k < 0:
+        raise ValueError('rrf_k must be a non-negative integer')
+    for ids in (bm25_ids, sbert_ids):
+        if len(ids) != len(set(ids)) or any(not isinstance(i, str) or not i for i in ids):
+            raise ValueError('Ranking IDs must be unique nonempty strings')
+    branches=[{identity:rank for rank,identity in enumerate(ids,1)} for ids in (bm25_ids,sbert_ids)]
+    scores={identity:sum(1/(rrf_k+branch[identity]) for branch in branches if identity in branch)
+            for identity in branches[0].keys() | branches[1].keys()}
+    return sorted(scores.items(),key=lambda row:(-row[1],row[0]))
+
+
 def reciprocal_rank_fusion(
     inputs: RankingInput, *, rrf_k: int = 60, top_k: int | None = None,
 ) -> list[RankedPaper]:
@@ -24,14 +38,9 @@ def reciprocal_rank_fusion(
     papers = {entry.identity: entry for entry in inputs.candidates.papers}
     bm25 = {identity: rank for rank, identity in enumerate(inputs.bm25_ranking, 1)}
     sbert = {identity: rank for rank, identity in enumerate(inputs.sbert_ranking, 1)}
-    scores = {
-        identity: sum(
-            1 / (rrf_k + branch[identity])
-            for branch in (bm25, sbert) if identity in branch
-        )
-        for identity in bm25.keys() | sbert.keys()
-    }
-    ordered = sorted(scores, key=lambda identity: (-scores[identity], identity))
+    fused = fuse_ordered_ids(inputs.bm25_ranking, inputs.sbert_ranking, rrf_k=rrf_k)
+    scores = dict(fused)
+    ordered = [identity for identity, _ in fused]
     return [
         RankedPaper(
             entry=papers[identity], rank=rank, rrf_score=scores[identity],

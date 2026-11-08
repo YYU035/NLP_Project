@@ -4,7 +4,7 @@ An evidence-based system for checking scientific claims against research papers.
 
 Given a claim, the system will find relevant papers, identify evidence passages, and return one of three verdicts: **Supported**, **Contradicted**, or **Insufficient Evidence**, together with citations and an explanation.
 
-> **Project status:** Planning and initial folder setup. The modules described below are planned work and have not been implemented yet.
+> **Project status:** Modules are developed on contributor branches. This branch includes Person 3 ranking, evidence selection and evaluation, plus pinned live-search interfaces. The integrated Streamlit application is on the `kireeti` branch. See module READMEs for implemented behavior and limitations.
 
 ## System Workflow
 
@@ -65,21 +65,23 @@ Evidence-Grounded Explanation & Streamlit Display
 - Rank candidate papers by relevance to the claim.
 - Compare lexical and semantic retrieval performance.
 
-### Person 3 — Hybrid Ranking & Evaluation · Yu Yue
+### Person 3 — Hybrid Ranking, Evidence Selection & Evaluation · Yu Yue
 
 **Folder:** `ranking_evaluation/`
 
 - Combine BM25 and SBERT rankings using Reciprocal Rank Fusion (RRF).
 - Implement optional Cross-Encoder reranking.
 - Evaluate retrieval using Recall@K, MRR, nDCG, and latency.
+- Split abstract/full-text inputs and select source-linked evidence passages with original sentence or PDF page references for Person 4.
+- Evaluate evidence selection with sentence Precision, Recall, F1 and complete-rationale recovery.
 - Conduct comparative experiments and ablation studies.
+- See `ranking_evaluation/README.md` for reproducible experiments and handoff commands.
 
-### Person 4 — Evidence Extraction & Claim Verification · Chong Yao
+### Person 4 — Claim Verification & Verdict Aggregation · Chong Yao
 
 **Folder:** `evidence_verification/`
 
-- Extract and chunk available PDF full text, with abstract fallback when necessary.
-- Identify relevant evidence passages and retain source references.
+- Consume bounded, source-linked abstract/full-text evidence passages from Person 3 and retain their source references.
 - Apply pretrained DeBERTa-MNLI to claim–evidence pairs.
 - Aggregate predictions into Supported, Contradicted, or Insufficient Evidence.
 - Evaluate claim verification using Accuracy and Macro-F1 on labeled data.
@@ -116,7 +118,7 @@ NLP_Project/
 └── README.md
 ```
 
-Each contributor owns the implementation and internal structure of their assigned module. The folders currently contain only `.gitkeep` files so Git can track them.
+Each contributor owns their assigned module. Implementations and integration work are maintained on contributor branches; the folder outline alone does not indicate current completion.
 
 ## Evaluation Plan
 
@@ -164,4 +166,4 @@ Unavailable or insufficient evidence should be made explicit. Explanations must 
 
 ## Setup and Usage
 
-Installation requirements and run commands will be added as the modules are implemented and integrated. There is currently no runnable application or benchmark command.
+See `ranking_evaluation/README.md` for ranking, source-linked evidence selection, tests and reproducible benchmark commands. See `explanation_frontend/README.md` on branch `kireeti` for the integrated Streamlit application. Runtime models, datasets and large outputs are provisioned explicitly and are not committed.

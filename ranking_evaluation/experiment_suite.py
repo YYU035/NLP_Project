@@ -156,8 +156,11 @@ def main():
     parser.add_argument("--model-revision")
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--max-length", type=int, default=512)
+    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
     parser.add_argument("--cpu-float64", action="store_true")
     args = parser.parse_args()
+    if args.cpu_float64 and args.device != "cpu":
+        parser.error("--cpu-float64 requires --device cpu")
     config = SuiteConfig.model_validate_json(args.config.read_bytes())
     options = None
     if args.model_path:
@@ -165,10 +168,11 @@ def main():
             parser.error("Model ID and revision are required")
         options = ["--model-path", str(args.model_path.resolve()),
                    "--model-id", args.model_id, "--model-revision", args.model_revision,
-                   "--batch-size", str(args.batch_size), "--max-length", str(args.max_length)]
+                   "--batch-size", str(args.batch_size), "--max-length", str(args.max_length),
+                   "--device", args.device]
         if args.cpu_float64:
             options.append("--cpu-float64")
-    elif args.model_id or args.model_revision or args.cpu_float64:
+    elif args.model_id or args.model_revision or args.cpu_float64 or args.device != "cpu":
         parser.error("Model options require --model-path")
     run_suite(args.input, config, args.output_dir, model_options=options)
     print(args.output_dir / "summary.csv")

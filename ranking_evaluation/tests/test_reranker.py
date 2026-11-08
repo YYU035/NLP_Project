@@ -151,3 +151,21 @@ def test_local_adapter_normalizes_only_single_label_dimension():
     adapter.model = SimpleNamespace(predict=lambda *args, **kwargs:
                                     numpy.array([[1.0, 2.0]]))
     assert adapter.score_pairs([("c", "a")]).shape == (1, 2)
+
+
+def test_cuda_adapter_synchronizes_before_and_after_inference(tmp_path, monkeypatch):
+    import sys
+    from types import SimpleNamespace
+    events = []
+    class StubModel:
+        def __init__(self, path, **kwargs):
+            assert kwargs['device'] == 'cuda'
+        def predict(self, pairs, **kwargs):
+            events.append('predict')
+            return [0.5]
+    monkeypatch.setitem(sys.modules, 'sentence_transformers', SimpleNamespace(CrossEncoder=StubModel))
+    monkeypatch.setitem(sys.modules, 'torch', SimpleNamespace(cuda=SimpleNamespace(
+        synchronize=lambda device: events.append(('sync', device)))))
+    adapter = LocalCrossEncoder(tmp_path, device='cuda')
+    assert adapter.score_pairs([('claim', 'text')]) == [0.5]
+    assert events == [('sync', 'cuda'), 'predict', ('sync', 'cuda')]
