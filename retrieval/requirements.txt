@@ -1,0 +1,4 @@
+numpy>=1.24
+sentence-transformers>=2.6
+nltk>=3.8          # Porter stemmer for BM25 (falls back to a simple stemmer without it)
+pytest>=7
