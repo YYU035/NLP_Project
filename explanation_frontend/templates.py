@@ -2,12 +2,15 @@
 from .models import Explanation, ExplanationContext, Statement
 
 AUTOMATIC_SELECTION_LIMITATION = "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked."
+LOCAL_PDF_LIMITATION = "Local PDF text and page references were extracted automatically; layout, source authenticity and scientific interpretation require human review."
 
 
 def build_template(context: ExplanationContext) -> Explanation:
     limitations = ["This result concerns only the selected retrieved evidence, not all scientific literature."]
-    if context.snapshot.stage_statuses.get("passages") == "frontend_abstract_windows_v1":
+    if context.snapshot.stage_statuses.get("passages") in {"frontend_abstract_windows_v1", "person3_semantic_bounded_train_frozen"}:
         limitations.append(AUTOMATIC_SELECTION_LIMITATION)
+    if context.snapshot.stage_statuses.get('passages') == 'person3_local_pdf_bounded':
+        limitations.append(LOCAL_PDF_LIMITATION)
     if context.snapshot.mode == "demo":
         limitations.append("Synthetic demonstration: these are invented test papers and findings.")
     if not context.snapshot.search_complete:

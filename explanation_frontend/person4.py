@@ -20,12 +20,22 @@ class Person4Adapter:
         self._native = None
         self._fingerprint = None
 
-    def snapshot(self, response, papers: list[Paper], *, mode="cached"):
+    def snapshot(self, response, papers: list[Paper], *, mode="cached", abstained_paper_ids=()):
         native = NativeResponse.model_validate(
             response.model_dump(mode="json") if hasattr(response, "model_dump") else response)
         paper_map = {p.paper_id: p for p in papers}
         if len(paper_map) != len(papers):
             raise ValueError("Duplicate paper IDs")
+        abstained = set(abstained_paper_ids)
+        if not abstained <= set(paper_map) or abstained & {p.paper_id for p in native.evidence_passages}:
+            raise ValueError('Invalid selector abstention scope')
+        # Successful selector abstention is not a missing-text processing failure.
+        from ._upstream.claim_verifier.schemas import SufficiencyCause
+        for row in native.per_paper_verdicts:
+            if row.paper_id in abstained:
+                row.sufficiency_cause = SufficiencyCause.NO_PASSAGE_ABOVE_THRESHOLD
+        native.processing_failures = [text for text in native.processing_failures if text not in
+            {f'No passages found for paper {pid}' for pid in abstained}]
         verdicts = {}
         for row in native.per_paper_verdicts:
             if row.paper_id in verdicts:
@@ -48,6 +58,7 @@ class Person4Adapter:
         evidence = [EvidencePassage.model_validate(p.model_dump()) for p in native.evidence_passages]
         usable = {p.paper_id for p in native.per_passage_labels
                   if p.operational_status.value == "OK" and not p.truncated}
+        usable |= abstained
         failed = set(paper_map) - usable
         failures = [ProcessingFailure(stage="verification", code="NO_USABLE_PASSAGE", paper_id=pid)
                     for pid in sorted(failed | broken)]
@@ -75,6 +86,9 @@ class Person4Adapter:
                   if not v.truncated and v.label in {"SUPPORT", "CONTRADICT", "NEUTRAL"}}
         # A paper needs at least one operationally OK native label.
         usable &= {v.paper_id for v in native.per_passage_labels if v.operational_status.value == "OK"}
+        usable |= {pid for pid, row in verification.per_paper_verdicts.items()
+                   if row.sufficiency_cause == 'NO_PASSAGE_ABOVE_THRESHOLD'
+                   and pid not in {v.paper_id for v in native.per_passage_labels}}
         failed = bool(selected) and not (selected & usable)
         if failed:
             return AggregationResponse(claim=native.claim, aggregated_verdict=None, status="failed",

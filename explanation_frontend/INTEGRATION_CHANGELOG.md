@@ -1,3 +1,5 @@
+Current combined integration: semantic selection, local PDFs, attribution diagnostics and three benchmark snapshots are documented in [COMBINED_INTEGRATION.md](COMBINED_INTEGRATION.md). All source additions remain inside this folder.
+
 # End-to-end integration additions - 6 November 2026
 
 Branch: **kireeti**. All source additions are under explanation_frontend. No teammate source directory, main branch, model weights or datasets are merged into Git. Pinned runtime copies are used because the team modules live on independent branches and this user's scope is restricted to this folder.

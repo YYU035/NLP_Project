@@ -9,6 +9,7 @@ $env:PYTHONUTF8 = '1'
 $env:STREAMLIT_BROWSER_GATHER_USAGE_STATS = 'false'
 $env:HF_HOME = Join-Path $PSScriptRoot '.model-cache/huggingface'
 $env:TORCH_HOME = Join-Path $PSScriptRoot '.model-cache/torch'
+$env:MPLCONFIGDIR = Join-Path $PSScriptRoot '.model-cache/matplotlib'
 $env:HF_HUB_DISABLE_TELEMETRY = '1'
 Push-Location $PSScriptRoot
 try {

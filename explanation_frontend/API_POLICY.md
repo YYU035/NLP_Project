@@ -1,3 +1,5 @@
+9 November update: semantic inference, PDF extraction and Captum attribution run locally. Public model downloads occur only during explicit setup. Benchmark reporting reads pinned local artifacts. No hosted inference or paid API dependency was added. See COMBINED_INTEGRATION.md.
+
 # Free/open-source operation — 4 November 2026
 
 The proprietary hosted explanation client has been removed. No subscription, paid inference API, API key or hosted model endpoint is used by this frontend's explanation workflow.

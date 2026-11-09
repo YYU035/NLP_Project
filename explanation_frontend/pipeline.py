@@ -80,7 +80,10 @@ def safe_aggregate(verifier, response, subset_of_paper_ids=None):
 
 
 class LocalPipeline:
-    def __init__(self, *, encoder=None, verifier=None):
+    def __init__(self, *, encoder=None, verifier=None, selector_mode='semantic', selector=None, tokenizer=None):
+        if selector_mode not in {'semantic', 'legacy'}:
+            raise ValueError('Unknown selector mode')
+        self.selector_mode, self.selector, self.tokenizer = selector_mode, selector, tokenizer
         self.encoder, self.verifier = encoder, verifier
         self.adapter = None
         self._snapshot = None
@@ -128,7 +131,20 @@ class LocalPipeline:
         # Keep no-text candidates visible as failed inputs rather than silently dropping them.
         ordered += sorted(selected - set(ordered))
         entry_map = {p.identity: p for p in entries}
-        passages = {pid: select_abstract(claim, pid, entry_map[pid].paper.abstract) for pid in ordered}
+        diagnostics = {}
+        verifier = self.verifier
+        if self.selector_mode == 'semantic' and entries:
+            from .semantic_integration import select_bounded
+            from ._upstream.claim_verifier.schemas import EvidencePassage
+            with _MODEL_LOCK:
+                verifier = verifier or local_verifier()
+                tokenizer = self.tokenizer or verifier.tokenizer
+                diagnostics = {pid: select_bounded(claim, pid, entry_map[pid].paper.abstract,
+                    tokenizer, selector=self.selector) for pid in ordered}
+            passages = {pid: [EvidencePassage.model_validate(p) for p in value['passages']]
+                        for pid, value in diagnostics.items()}
+        else:
+            passages = {pid: select_abstract(claim, pid, entry_map[pid].paper.abstract) for pid in ordered}
         metadata = [Paper(paper_id=p.identity, title=p.paper.title or "Title unavailable",
                     authors=p.paper.authors, year=p.paper.year, url=p.paper.landing_url,
                     source_status="unverified",
@@ -138,7 +154,7 @@ class LocalPipeline:
                     for p in [entry_map[pid] for pid in ordered]]
         if any(passages.values()):
             with _MODEL_LOCK:
-                verifier = self.verifier or local_verifier()
+                verifier = verifier or local_verifier()
                 native = verifier.verify(claim, [{"paper_id": pid, "title": entry_map[pid].paper.title or "",
                     "evidence_type": "abstract"} for pid in ordered], passages)
             aggregate_fn = lambda response, subset_of_paper_ids: safe_aggregate(verifier, response, subset_of_paper_ids)
@@ -151,7 +167,8 @@ class LocalPipeline:
             native = verifier.verify(claim, [{"paper_id": pid, "title": entry_map[pid].paper.title or ""} for pid in ordered], passages)
             aggregate_fn = verifier.aggregate
         adapter = Person4Adapter(aggregate_fn)
-        snapshot = adapter.snapshot(native, metadata, mode=source.mode)
+        snapshot = adapter.snapshot(native, metadata, mode=source.mode,
+            abstained_paper_ids=[pid for pid, value in diagnostics.items() if value['status']=='below_threshold'])
         context = source.model_dump(mode="json")
         # RankingInput retains the full source, while selection is exactly the user's scope.
         context["selected_paper_ids"] = sorted(selected)
@@ -172,7 +189,7 @@ class LocalPipeline:
             filters={"scope": "selected discovery candidates; abstract only", "nli_license": "MIT",
                      "retrieval_timestamp": "supplied" if source.retrieved_at else "unknown; import time used for snapshot bookkeeping",
                      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
-                     "ranking_commit": "a91e257ab260ded8df8c2cc2f214c4c7fd16af6c",
+                     "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
                      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
                      "ranking_source": "Yu Yue", "retrieval_source": "Naila",
                      "ranking_output_json": json.dumps(ranking, ensure_ascii=False),
@@ -189,6 +206,17 @@ class LocalPipeline:
                 {"stage": "discovery", "code": "PARTIAL_DISCOVERY", "paper_id": None})
         elif not selected:
             data["provisional"]["sufficiency_cause"] = "NO_RETRIEVAL"
+        if diagnostics:
+            data['stage_statuses']['passages'] = 'person3_semantic_bounded_train_frozen'
+            data['filters']['passage_selector'] = 'Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans'
+            data['filters']['person3_evidence_json'] = json.dumps(diagnostics)
+            data['filters']['person3_commit'] = '7ed93fa4be69c661422b33b6c88b949dd2636e12'
+            for pid, value in diagnostics.items():
+                if value['rejected_passages']:
+                    data['verification']['processing_failures'].append(
+                        {'stage':'passage_selection','code':'VERIFIER_INPUT_LIMIT','paper_id':pid})
+                    if data['provisional']['status'] != 'failed':
+                        data['provisional']['status'] = 'partial'
         result = RunSnapshot.model_validate(data)
         # Snapshot was enriched with provenance after mapping; tie cache to that exact result.
         adapter._fingerprint = result.fingerprint
@@ -211,4 +239,7 @@ def create_provider():
     if not (NLI_PATH / "pinned_revision.txt").is_file() or not (
             ROOT / ".models" / "all-MiniLM-L6-v2" / "config.json").is_file():
         raise ValueError("Run setup-pipeline.ps1 before using local verification")
+    from .semantic_setup import MODEL_PATH
+    if not (MODEL_PATH/'download_manifest.json').is_file():
+        raise ValueError('Run python -m explanation_frontend.semantic_setup first')
     return LocalPipeline()

@@ -271,7 +271,10 @@ def render_verification():
             retrieval_time = ("unknown; snapshot bookkeeping time: " if snapshot.filters.get("retrieval_timestamp", "").startswith("unknown")
                               else "retrieved: ") + snapshot.retrieved_at.isoformat()
             st.text(f"Discovery time {retrieval_time} | original mode: {snapshot.mode} | search complete: {snapshot.search_complete}")
-            st.json({k: v for k, v in snapshot.filters.items() if k != "ranking_output_json"})
+            st.json({k: v for k, v in snapshot.filters.items() if k not in {"ranking_output_json", "person3_evidence_json"}})
+            if 'person3_evidence_json' in snapshot.filters:
+                with st.expander('Person 3 exact spans and verifier input-budget checks'):
+                    st.text(snapshot.filters['person3_evidence_json'])
             if "ranking_output_json" in snapshot.filters:
                 with st.expander("Original ranking output and provenance"):
                     # This field is data, including in uploaded replay files.
