@@ -1,9 +1,12 @@
 # Direct dependencies for the measured local dataset experiments.
+# NumPy 2.5 requires Python 3.12+; Python 3.11 uses a compatible release.
+# The recorded local run used Python 3.13.1 and NumPy 2.5.4.
 # Provision model weights separately; no model download at import time.
 -r requirements-rerank.txt
 httpx==0.28.1
 keybert==0.9.0
-numpy==2.5.4
+numpy==2.5.4; python_version >= "3.12"
+numpy>=1.26,<2.4; python_version < "3.12"
 pydantic==2.14.2
 scikit-learn==1.9.1
 pyarrow==26.0.1

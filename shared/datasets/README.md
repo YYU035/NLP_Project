@@ -35,6 +35,11 @@ From the repository root:
 .venv/bin/python -m shared.datasets.audit --output outputs/datasets/new-data-audit.json
 ```
 
+The dependency file preserves the measured NumPy pin on Python 3.12+ and
+selects a compatible NumPy range on Python 3.11. Exact local measurements used
+Python 3.13.1; record changed package versions when rerunning elsewhere.
+Displaying committed evaluation tables needs only Python standard-library readers.
+
 Use the existing SciFact setup instructions in `ranking_evaluation/README.md`.
 `ranking_evaluation.scripts.setup_scifact` records the downloaded file hashes;
 its upstream `latest` URL is mutable, so compare those hashes with the recorded
