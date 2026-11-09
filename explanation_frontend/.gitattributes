@@ -1,0 +1,3 @@
+# Preserve exact bytes of integrity-checked pinned assets on Windows.
+benchmarks/** -text
+_upstream/** -text
