@@ -57,3 +57,5 @@ All source changes remain under explanation_frontend on kireeti. No paid/hosted 
 ## Human work still required
 
 Record each member's own segment, review/approve the assembled video, and perform the explanation/PDF scientific reviews. The software can prepare, validate and demonstrate these artifacts; it cannot truthfully supply participation or human ratings. Broader calibration/XAI and source-authenticity studies remain scientific limitations rather than hidden “completed” tasks.
+
+The reproducible `test.cmd` wrapper creates the ignored temporary parent needed on a clean checkout before running pytest and pip check. An initial Desktop verification exposed this missing-directory test-command issue; the wrapper fixes it without changing application behaviour.

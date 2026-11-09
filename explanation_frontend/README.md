@@ -1,6 +1,6 @@
 # Current demo release — 9 November 2026
 
-Start with `start.cmd` and open **Project overview**. See [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) for the current integration status, actual measurements and additions. [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md) provides the five-person recording script and proof for efficiency, reusability, presentation and participation. Historical notes below are superseded where these documents state newer results.
+Start with `start.cmd` and open **Project overview**. Run `test.cmd` for the complete test suite and dependency check; it creates its own module-local temporary directory. See [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) for the current integration status, actual measurements and additions. [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md) provides the five-person recording script and proof for efficiency, reusability, presentation and participation. Historical notes below are superseded where these documents state newer results.
 
 Word occlusion is now the default model explanation; Naila’s IG remains experimental. Eight actual-model runs, explicit replays, three-domain charts, measured zero-inference subset changes and actual-output review packets are ready. Real video participation and human scores still require the team.
 
