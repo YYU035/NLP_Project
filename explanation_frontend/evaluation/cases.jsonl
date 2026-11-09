@@ -1,0 +1,30 @@
+{"case_id": "synthetic-supported", "fixture": "supported", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-contradicted", "fixture": "contradicted", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-conflict", "fixture": "conflict", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-within_paper_conflict", "fixture": "within_paper_conflict", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-neutral", "fixture": "neutral", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty", "fixture": "empty", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-failure", "fixture": "failure", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-abstract_only", "fixture": "abstract_only", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-truncated", "fixture": "truncated", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-partial_failure", "fixture": "partial_failure", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-qualified", "fixture": "qualified", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-untrusted", "fixture": "untrusted", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-supported", "fixture": "supported", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-contradicted", "fixture": "contradicted", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-conflict", "fixture": "conflict", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-within_paper_conflict", "fixture": "within_paper_conflict", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-neutral", "fixture": "neutral", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-abstract_only", "fixture": "abstract_only", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-truncated", "fixture": "truncated", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-partial_failure", "fixture": "partial_failure", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-qualified", "fixture": "qualified", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-empty-untrusted", "fixture": "untrusted", "selected": [], "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-1", "fixture": "qualified", "fault": "numbers", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-2", "fixture": "supported", "fault": "citation", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-3", "fixture": "conflict", "fault": "verdict", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-4", "fixture": "supported", "fault": "invalid", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-5", "fixture": "supported", "fault": "timeout", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-6", "fixture": "contradicted", "fault": "verdict", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-7", "fixture": "qualified", "fault": "citation", "dataset": "synthetic", "split": "stress"}
+{"case_id": "synthetic-fault-8", "fixture": "conflict", "fault": "invalid", "dataset": "synthetic", "split": "stress"}

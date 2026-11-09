@@ -1,0 +1,228 @@
+{
+  "dataset": "SciFact-dev",
+  "purpose": "development QC; owner already calibrated on dev",
+  "selection": "12 per annotated label, SHA256 order; no neutral pseudo-labels",
+  "corpus_sha256": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+  "claims_sha256": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+  "cases": [
+    {
+      "claim_id": "146",
+      "claim": "Autologous transplantation of mesenchymal stem cells has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "paper_id": "10582939",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        12
+      ]
+    },
+    {
+      "claim_id": "1132",
+      "claim": "TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells.",
+      "paper_id": "33499189",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "claim_id": "823",
+      "claim": "N348I mutations cause resistance to zidovudine (AZT).",
+      "paper_id": "15319019",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        14
+      ]
+    },
+    {
+      "claim_id": "179",
+      "claim": "Birth-weight is positively associated with breast cancer.",
+      "paper_id": "17450673",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        5
+      ]
+    },
+    {
+      "claim_id": "641",
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "paper_id": "5912283",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        9
+      ]
+    },
+    {
+      "claim_id": "295",
+      "claim": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis.",
+      "paper_id": "20310709",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "claim_id": "1086",
+      "claim": "Sildenafil improves erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+      "paper_id": "39281140",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        6
+      ]
+    },
+    {
+      "claim_id": "1352",
+      "claim": "Upregulation of mosGCTL-1 is induced upon infection with West Nile virus.",
+      "paper_id": "12885341",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        3
+      ]
+    },
+    {
+      "claim_id": "275",
+      "claim": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.",
+      "paper_id": "14241418",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        10
+      ]
+    },
+    {
+      "claim_id": "475",
+      "claim": "Glycolysis is one of the primary glycometabolic pathways in cells.",
+      "paper_id": "18678095",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        1
+      ]
+    },
+    {
+      "claim_id": "49",
+      "claim": "ADAR1 binds to Dicer to cleave pre-miRNA.",
+      "paper_id": "5953485",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        2
+      ]
+    },
+    {
+      "claim_id": "53",
+      "claim": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+      "paper_id": "45638119",
+      "gold": "SUPPORT",
+      "sentence_indices": [
+        4
+      ]
+    },
+    {
+      "claim_id": "873",
+      "claim": "Obesity is determined solely by environmental factors.",
+      "paper_id": "3315558",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        4
+      ]
+    },
+    {
+      "claim_id": "219",
+      "claim": "CX3CR1 on the Th2 cells suppresses airway inflammation.",
+      "paper_id": "21366394",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        2
+      ]
+    },
+    {
+      "claim_id": "516",
+      "claim": "High levels of CRP reduces the risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "paper_id": "29564505",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        8
+      ]
+    },
+    {
+      "claim_id": "338",
+      "claim": "Dexamethasone decreases risk of postoperative bleeding.",
+      "paper_id": "23349986",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        10,
+        11
+      ]
+    },
+    {
+      "claim_id": "781",
+      "claim": "Mice that lack Interferon-\u03b3 or its receptor exhibit high resistance to experimental autoimmune myocarditis.",
+      "paper_id": "24338780",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        6
+      ]
+    },
+    {
+      "claim_id": "129",
+      "claim": "Articles published in open access format are less likely to be cited than traditional journals.",
+      "paper_id": "27768226",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        10
+      ]
+    },
+    {
+      "claim_id": "171",
+      "claim": "Basophils counteract disease development in patients with systemic lupus erythematosus (SLE).",
+      "paper_id": "12670680",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        2
+      ]
+    },
+    {
+      "claim_id": "1303",
+      "claim": "Tirasemtiv has no effect on fast-twitch muscle.",
+      "paper_id": "12631697",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        1
+      ]
+    },
+    {
+      "claim_id": "1088",
+      "claim": "Silencing of Bcl2 is important for the maintenance and progression of tumors.",
+      "paper_id": "37549932",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        3
+      ]
+    },
+    {
+      "claim_id": "873",
+      "claim": "Obesity is determined solely by environmental factors.",
+      "paper_id": "29025270",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        5
+      ]
+    },
+    {
+      "claim_id": "873",
+      "claim": "Obesity is determined solely by environmental factors.",
+      "paper_id": "19307912",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        7
+      ]
+    },
+    {
+      "claim_id": "879",
+      "claim": "Occupancy of ribosomes by IncRNAs do not make functional peptides.",
+      "paper_id": "8426046",
+      "gold": "CONTRADICT",
+      "sentence_indices": [
+        3
+      ]
+    }
+  ]
+}
