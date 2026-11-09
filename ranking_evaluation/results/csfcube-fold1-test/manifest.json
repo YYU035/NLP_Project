@@ -1,0 +1,103 @@
+{
+  "dataset": "CSFCube",
+  "dataset_version": "039e5c1d11bcf2f1dc460a35952d991b4520ae896318dda1dbd51c670a7f9d1e",
+  "protocol": {
+    "split": "fold1_test",
+    "facet": "all",
+    "query_policy": "explicit facet name plus unchanged full title and abstract",
+    "candidate_scope": "released per-query judged pool",
+    "judgment": "relevance_adju",
+    "self_match_policy": "exclude query paper from pool and judgments"
+  },
+  "query_count": 26,
+  "corpus_documents": 4207,
+  "configuration": {
+    "bm25": {
+      "method": "bm25",
+      "k1": 0.9,
+      "b": 0.4,
+      "stemmer": "simple",
+      "remove_stopwords": true,
+      "fields": "title+abstract"
+    },
+    "sbert": {
+      "method": "sbert",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "similarity": "cosine",
+      "fields": "title+abstract",
+      "batch_size": 16,
+      "sentence_transformers_version": "5.1.2"
+    },
+    "rrf_k": 60,
+    "rerank_top_n": 20,
+    "reranker": {
+      "model_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "device": "mps",
+      "dtype": "float32",
+      "max_length": 512,
+      "batch_size": 16
+    }
+  },
+  "environment": {
+    "python": "3.13.1",
+    "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+    "torch_threads": 4,
+    "device": "mps"
+  },
+  "provenance": {
+    "encoder_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "encoder_file_hashes": {
+      "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+      "download_manifest.json": "261826e6d9c35c48a4a1d51aff73e4aa1eb2adbb00a43345a8ad5b8e97d436f2",
+      "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "pytorch_model.bin": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+      "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "runner_sha256": "fe7082699dbf9687db25568684ff79354d28fb6575b60f71cf0f0abc61fbeb9e",
+    "packages": {
+      "torch": "2.9.0",
+      "sentence-transformers": "5.1.2",
+      "transformers": "4.57.1",
+      "numpy": "2.5.4"
+    },
+    "reranker_file_hashes": {
+      "README.md": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa",
+      "config.json": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+      "download_manifest.json": "1d409a21881d15442c8552ec3ce815cf675aacf94d12d3b8dd54010c2f179a55",
+      "model.safetensors": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+      "special_tokens_map.json": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  },
+  "data_manifest": {
+    "dataset": "csfcube",
+    "repository": "iesl/CSFCube",
+    "revision": "7ffe012c1d92c470f185fc086086caf5b8e05ef3",
+    "files_sha256": {
+      "README.md": "f19a3a78622782a4807573ecf990b9c64d48aaf75c088cb6cd0c3a05d00b4ce5",
+      "LICENSE.md": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+      "datasheet.md": "2c20d34b45eb061dd31da590c356daf17f281830503151c65ae7c98707d74006",
+      "abstracts-csfcube-preds.jsonl": "9d2d9414574b6e91d2487d3396d3256577149dad859e9f6eb231b95c2ba5577c",
+      "evaluation_splits.json": "1d23a1b2110e874809c9516f65c70e3c6e4b8fe3bd748ff36ff05c4875226c88",
+      "test-pid2anns-csfcube-background.json": "2015cbf965377374e020b0ec133351ec1feb731b9a9c40da0e446ef6eee4fa5e",
+      "test-pid2anns-csfcube-method.json": "4d9b48f4b6a7a4fc24a30e0c0e74d1cc53eb4214ec4b855e3cd98e86829323a2",
+      "test-pid2anns-csfcube-result.json": "5ed7a63bc20e3deb725f8ec82abfcb1c5d79673befc942509b48effceb3be031"
+    }
+  },
+  "summary_sha256": "de3328bab82990e6c67e82a65ad160efbd50e514c9079008aa78f926fa7d067b",
+  "full_output_path": "outputs/datasets/csfcube-fold1-test-four-methods/comparison.json",
+  "full_output_sha256": "839c776f3ae34338288505411c94193f27c7d8b82fe77ef7688fe7ba2cd71922",
+  "qualification": "Official fold1 query/facet test tasks; zero-shot frozen settings; seven query-paper IDs also occur in fold1 dev."
+}

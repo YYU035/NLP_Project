@@ -5,12 +5,21 @@ Updated: 2026-11-09. Active selection: **SciFact, CSFCube, RECIPER**.
 | Dataset | Actual evaluation scope | Boundary |
 |---|---|---|
 | SciFact | Existing full-dev GPU paper ranking and sentence-evidence selection results | Low evidence precision; final verification metrics are a separate experiment |
-| CSFCube | Measured 24-task fold1-dev BM25/SBERT/RRF/RRF+CE comparison | Expert graded pool ranking; no claim-verdict or sentence-rationale gold |
+| CSFCube | Completed 24-task fold1-dev and 26-task fold1-test four-method comparisons | Expert graded pool ranking; no claim-verdict or sentence-rationale gold |
 | RECIPER | Completed four-method evaluation: all 1,024 questions over all 343 papers; RRF+CE Recall@10 0.943359, MRR@10 0.830227 | See RECIPER_REPORT.md for measured run status/results; generated QA, no sentence/verdict gold |
 
 [RECIPER protocol/results](RECIPER_REPORT.md),
 [CSFCube protocol/results](CSFCUBE_REPORT.md),
 [team integration handoff](../EVALUATION_HANDOFF.md).
+
+## Person 3 completion
+
+The declared multi-dataset evaluation is complete. See the
+[comprehensive report](../COMPREHENSIVE_EVALUATION.md) for 18 measured ranking
+conditions, 18 original evidence-selection conditions, 21 ranking-replay
+ablations, 63 cluster-interval/paired-comparison rows and stage latency.
+Confidence intervals and smaller-prefix replays are qualified analyses, not new
+model runs or invented evidence/verdict labels.
 
 ## What the metrics establish
 

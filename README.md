@@ -23,7 +23,8 @@ labels, not expert sentence-evidence or verification labels. See
 Matter-of-Fact and ClimateCheck remain archived exploratory work, outside the
 primary three-dataset result table.
 
-See [dataset setup, protocols and commands](shared/datasets/README.md).
+See [the comprehensive evaluation report](shared/COMPREHENSIVE_EVALUATION.md)
+and [dataset setup, protocols and commands](shared/datasets/README.md).
 Raw data/models and large runtime reports remain outside Git; compact result
 summaries are retained. Three task-specific ranking evaluations are available;
 final-verdict evaluation remains separate. No frontend dataset selector is required.

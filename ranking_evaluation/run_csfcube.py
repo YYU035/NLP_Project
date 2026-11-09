@@ -4,6 +4,7 @@ import argparse
 import csv
 import importlib.metadata
 import json
+import platform
 from math import isfinite
 from pathlib import Path
 from time import perf_counter
@@ -123,7 +124,8 @@ def main():
     parser.add_argument("--reranker-path", type=Path)
     parser.add_argument("--reranker-id")
     parser.add_argument("--reranker-revision")
-    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
+    parser.add_argument("--device", choices=["cpu", "cuda", "mps"], default="cpu")
+    parser.add_argument("--threads", type=int, default=4)
     parser.add_argument("--cpu-float64", action="store_true")
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--top-n", type=int, default=20)
@@ -136,11 +138,13 @@ def main():
         parser.error("Encoder path must be a provisioned local model directory")
     if args.cpu_float64 and args.device != "cpu":
         parser.error("CPU float64 requires --device cpu")
-    if args.batch_size <= 0 or args.top_n < 0 or args.rrf_k < 0:
+    if args.batch_size <= 0 or args.top_n < 0 or args.rrf_k < 0 or args.threads <= 0:
         parser.error("Invalid batch size, rerank depth or RRF constant")
     if args.reranker_path and not (args.reranker_id and args.reranker_revision):
         parser.error("Reranker ID/revision are required")
     from sentence_transformers import SentenceTransformer
+    import torch
+    torch.set_num_threads(args.threads)
     start = perf_counter()
     encoder = SentenceTransformer(str(args.encoder_path), local_files_only=True,
                                   trust_remote_code=False, device=args.device)
@@ -151,13 +155,15 @@ def main():
         scorer = LocalCrossEncoder(args.reranker_path, device=args.device,
             cpu_float64=args.cpu_float64, batch_size=args.batch_size)
         model = ModelDescription(model_id=args.reranker_id, revision=args.reranker_revision,
-            device=args.device, dtype="float64" if args.cpu_float64 else "default",
+            device=args.device, dtype=str(next(scorer.model.model.parameters()).dtype).removeprefix("torch."),
             max_length=512, batch_size=args.batch_size)
     load_seconds = perf_counter() - start
     report = run(load(args.data, split=args.split, facet=args.facet), encoder=encoder,
         model_name=args.encoder_id, scorer=scorer, model_description=model,
         device=args.device, top_n=args.top_n, rrf_k=args.rrf_k, batch_size=args.batch_size)
     report["model_load_seconds"] = load_seconds
+    report["environment"] = {"python": platform.python_version(), "platform": platform.platform(),
+                             "torch_threads": torch.get_num_threads(), "device": args.device}
     report["provenance"] = {"encoder_id": args.encoder_id,
         "encoder_revision": args.encoder_revision,
         "encoder_file_hashes": {p.relative_to(args.encoder_path).as_posix(): file_hash(p)

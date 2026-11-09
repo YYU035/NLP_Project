@@ -7,7 +7,7 @@ through Person 1's live scholarly APIs, independently of these collections.
 | Dataset | Domain | Evaluation and gold | Measured scope |
 |---|---|---|---|
 | SciFact | Primarily biomedical | Claim-driven paper retrieval; sentence evidence precision/recall/F1 and rationale recovery | Existing complete dev experiment; ranking uses 188 positive-eligible claims and reports 112 exclusions |
-| CSFCube | Computer science | Graded expert paper-pool ranking; Recall/MRR/binary and graded nDCG | 24 fold1-dev query/facet tasks |
+| CSFCube | Computer science | Graded expert paper-pool ranking; Recall/MRR/binary and graded nDCG | 24 fold1-dev and 26 fold1-test query/facet tasks |
 | RECIPER | Materials science, including EEE-related research | Known source-paper retrieval with generated questions | All 1,024 questions against the complete 343-paper title/abstract collection |
 
 Do not pool incompatible scores into an overall system accuracy. CSFCube and
@@ -15,6 +15,10 @@ RECIPER lack expert sentence-evidence and final-verdict labels. RECIPER has one
 known source target, not exhaustive human relevance judgments; its source-paper
 Recall@K is not a measure of every scientifically relevant paper. Final verdict
 Accuracy/Macro-F1 requires actual verification inference on a compatible task.
+
+See the [completed comprehensive evaluation](../COMPREHENSIVE_EVALUATION.md)
+for task-specific comparisons, evidence diagnostics, ablations, cluster
+uncertainty, timing and source integrity checks.
 
 ## Files for app integration
 

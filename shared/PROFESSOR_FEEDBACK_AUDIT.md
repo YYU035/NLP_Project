@@ -118,3 +118,7 @@ has paper grades; RECIPER has generated-QA source targets, without expert
 sentence/verdict labels. SciFact supplies the actual sentence-evidence P/R/F1
 results, whose weak precision remains a material limitation. Final verdict
 Accuracy/Macro-F1 and instructor acceptance remain separate from this result.
+
+## Comprehensive Person 3 evaluation completed
+
+See [COMPREHENSIVE_EVALUATION.md](COMPREHENSIVE_EVALUATION.md) for the final task-specific report. The missing 26-task CSFCube fold1 test experiment is now measured. The report consolidates all three datasets, four-method comparisons, component/sensitivity replay ablations, stage timings, exploratory cluster confidence intervals, existing SciFact evidence diagnostics and integrity audits. Person 4 final-verdict evaluation and XAI/frontend work remain separate; no unsupported labels or metrics are claimed.

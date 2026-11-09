@@ -2,6 +2,10 @@
 
 Updated: 2026-11-09. Active evaluation datasets: SciFact, CSFCube and RECIPER.
 
+The [comprehensive evaluation report](COMPREHENSIVE_EVALUATION.md) is the primary
+report for completed task coverage, all comparisons, ablations, latency, cluster
+uncertainty and evidence diagnostics.
+
 ## What was added
 
 Dataset preparation, pinned revisions/checksums and shared adapters are under
@@ -14,7 +18,7 @@ are retained with English experiment reports.
 | Dataset | Domain | Actual result scope | Gold boundary |
 |---|---|---|---|
 | SciFact | Primarily biomedical | Existing full-development paper ranking and source-linked sentence-evidence experiments in the merged branch | Paper labels and sentence rationales; evidence quality remains limited |
-| CSFCube | Computer science | Measured four-method comparison on 24 fold1 development query/facet tasks | Expert graded paper-pool relevance; no verdict/sentence gold |
+| CSFCube | Computer science | Completed four-method comparisons on 24 fold1-dev and 26 fold1-test tasks; test is the default result view | Expert graded paper-pool relevance; no verdict/sentence gold |
 | RECIPER | Materials science, including EEE-related research | Completed all 1,024 questions against all 343 papers; RRF+CE Recall@10 0.943359, MRR@10 0.830227 | 1,024 generated questions with source-paper targets across all 343 papers; no expert sentence/verdict gold |
 
 RECIPER replaces the earlier exploratory third-dataset choices. Matter-of-Fact
@@ -64,7 +68,7 @@ silently converted into artificial scientific-verdict labels.
 
 ## Validation
 
-162 ranking tests passed; one pre-existing optional PDF test skipped. New checks
+165 ranking tests passed; one pre-existing optional PDF test skipped. New checks
 cover source-label separation, valid source references, complete corpus rankings,
 hand-calculated metrics, finite neural scoring and GPU synchronization. A
 separate verifier recomputes single-source metrics directly from saved rankings

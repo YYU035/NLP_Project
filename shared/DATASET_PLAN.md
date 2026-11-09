@@ -53,12 +53,13 @@ frontend dataset selector is needed. Frontend remains out of scope.
 1. The full RECIPER run and independent checks are complete: RRF+CE source-paper
    Recall@10 0.943359, MRR@10 0.830227. Full predictions and compact provenance
    have been preserved with their representation/source-label limitations.
-2. Complete final held-out CSFCube experiments if needed; the existing pilot is
-   development evaluation.
+2. Both CSFCube official task groups are complete: 24 development and 26 test
+   tasks. See the comprehensive report for split overlap, uncertainty and ablations.
 3. Run/review Person 4 final-verdict evaluation separately and confirm label,
    evidence-budget and data-split compatibility.
 4. Present task-specific tables, source-linked errors and evidence limitations.
    Further datasets or metrics alone do not guarantee stronger model quality.
 
-No Git push is authorized by this implementation step. Code/results stay local
-until the user requests the planned push.
+The reviewed code, compact measured results and English handoff are delivered
+through the `yuyue` branch. Raw corpora, weights and large runtime files are
+provisioned explicitly outside Git.

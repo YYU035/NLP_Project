@@ -1,6 +1,16 @@
 # Hybrid Ranking and Evaluation
 
-Person 3 implementation: RRF fusion, optional Cross-Encoder reranking, source-linked evidence selection, retrieval/evidence metrics and reproducible experiments. Person 2's pinned BM25/SBERT implementation has been integrated and evaluated on the complete SciFact dev split. Local CPU/GPU smoke checks and frontend integration checks are available. Scientific evaluation results are development evidence, not untouched final-test claims.
+Person 3 implementation: RRF fusion, optional Cross-Encoder reranking, source-linked evidence selection, retrieval/evidence metrics and reproducible experiments. Person 2's pinned BM25/SBERT implementation has been integrated and evaluated on the complete SciFact dev split. Local CPU/GPU smoke checks and frontend integration checks are available. SciFact results are development evidence. CSFCube additionally includes its official fold1 test tasks with the documented paper-overlap qualification; RECIPER is a frozen zero-shot evaluation of its entire release.
+
+## Comprehensive multi-dataset evaluation
+
+[Completed Person 3 report](../shared/COMPREHENSIVE_EVALUATION.md): SciFact,
+CSFCube development plus official test tasks, and full-collection RECIPER.
+`comprehensive_evaluation.py` audits measured exports, replays frozen ranking
+ablations and computes exploratory paired cluster-bootstrap intervals. It never
+invents sentence/verdict labels or fresh latency for cached-order replays.
+Compact CSVs/manifests are in `results/comprehensive-three-datasets/`; the app
+catalog links all primary outputs.
 
 ## Additional fixed evaluation datasets
 
