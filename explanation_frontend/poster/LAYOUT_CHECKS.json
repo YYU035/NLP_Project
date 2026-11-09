@@ -1,0 +1,762 @@
+{
+  "page_mm": [
+    420,
+    297
+  ],
+  "page_points": [
+    1190.5511811023623,
+    841.8897637795276
+  ],
+  "pages": 1,
+  "overflow_count": 0,
+  "boxes": [
+    {
+      "text": "FROM CLAIM TO EVIDENCE",
+      "font": 27,
+      "box": [
+        30,
+        20,
+        1000,
+        43
+      ],
+      "remaining": 2.8509996974468237
+    },
+    {
+      "text": "Five teammates. One explainable scientific research pipeline.",
+      "font": 14,
+      "box": [
+        31,
+        61,
+        1040,
+        23
+      ],
+      "remaining": 2.1819998431205754
+    },
+    {
+      "text": "Like five detectives: find the books, sort them, choose the clues, check the claim, and show your working.",
+      "font": 11.5,
+      "box": [
+        31,
+        89,
+        1125,
+        18
+      ],
+      "remaining": 0.9915000575780866
+    },
+    {
+      "text": "START: one scientific claim  |  public paper search  |  imported scientific records  |  your local text PDF",
+      "font": 10.7,
+      "box": [
+        42,
+        123,
+        1100,
+        18
+      ],
+      "remaining": 2.0890998800992993
+    },
+    {
+      "text": "RAGHAVI",
+      "font": 10,
+      "box": [
+        40,
+        162,
+        190,
+        16
+      ],
+      "remaining": 1.1299998879432689
+    },
+    {
+      "text": "1  FIND PAPERS",
+      "font": 12.3,
+      "box": [
+        40,
+        189,
+        190,
+        30
+      ],
+      "remaining": 11.709899862170218
+    },
+    {
+      "text": "The librarian finds papers and remembers where they came from.",
+      "font": 10.7,
+      "box": [
+        40,
+        224,
+        190,
+        45
+      ],
+      "remaining": 16.54870005357266
+    },
+    {
+      "text": "OpenAlex / OpenAIRE / arXiv\nspaCy concepts + queries\nCanonical IDs + duplicate handling\nTitles, abstracts and source records\nPreserve the exact original claim",
+      "font": 9.7,
+      "box": [
+        40,
+        278,
+        190,
+        93
+      ],
+      "remaining": 32.869700048565875
+    },
+    {
+      "text": "OUTPUT: typed candidate papers",
+      "font": 8.4,
+      "box": [
+        40,
+        374,
+        190,
+        16
+      ],
+      "remaining": 3.5091999058723466
+    },
+    {
+      "text": "NAILA",
+      "font": 10,
+      "box": [
+        270,
+        162,
+        190,
+        16
+      ],
+      "remaining": 1.1299998879432689
+    },
+    {
+      "text": "2  RETRIEVE",
+      "font": 12.3,
+      "box": [
+        270,
+        189,
+        190,
+        30
+      ],
+      "remaining": 11.709899862170218
+    },
+    {
+      "text": "One helper matches words. Another matches meaning.",
+      "font": 10.7,
+      "box": [
+        270,
+        224,
+        190,
+        45
+      ],
+      "remaining": 16.54870005357266
+    },
+    {
+      "text": "BM25: keyword relevance\nSBERT: MiniLM text embeddings\nCosine similarity compares meaning\nrank-bm25 + NumPy\nSentence-Transformers",
+      "font": 9.7,
+      "box": [
+        270,
+        278,
+        190,
+        93
+      ],
+      "remaining": 32.869700048565875
+    },
+    {
+      "text": "OUTPUT: two ordered paper lists",
+      "font": 8.4,
+      "box": [
+        270,
+        374,
+        190,
+        16
+      ],
+      "remaining": 3.5091999058723466
+    },
+    {
+      "text": "YU YUE",
+      "font": 10,
+      "box": [
+        500,
+        162,
+        190,
+        16
+      ],
+      "remaining": 1.1299998879432689
+    },
+    {
+      "text": "3  RANK + SELECT",
+      "font": 12.3,
+      "box": [
+        500,
+        189,
+        190,
+        30
+      ],
+      "remaining": 11.709899862170218
+    },
+    {
+      "text": "Combine the lists. Pick exact sentences the checker can read.",
+      "font": 10.7,
+      "box": [
+        500,
+        224,
+        190,
+        45
+      ],
+      "remaining": 16.54870005357266
+    },
+    {
+      "text": "RRF: sum of 1 / (60 + rank)\nFrozen MiniLM sentence selector\nScore >=0.50; top3 passages/paper\nKeep exact source spans\nWhole claim + passage <=512 tokens\nReject oversized whole spans",
+      "font": 9.7,
+      "box": [
+        500,
+        278,
+        190,
+        93
+      ],
+      "remaining": 21.423700048565877
+    },
+    {
+      "text": "OUTPUT: bounded evidence + IDs",
+      "font": 8.4,
+      "box": [
+        500,
+        374,
+        190,
+        16
+      ],
+      "remaining": 3.5091999058723466
+    },
+    {
+      "text": "CHONG YAO",
+      "font": 10,
+      "box": [
+        730,
+        162,
+        190,
+        16
+      ],
+      "remaining": 1.1299998879432689
+    },
+    {
+      "text": "4  CHECK THE CLAIM",
+      "font": 12.3,
+      "box": [
+        730,
+        189,
+        190,
+        30
+      ],
+      "remaining": 11.709899862170218
+    },
+    {
+      "text": "Does each clue agree, disagree, or tell us too little?",
+      "font": 10.7,
+      "box": [
+        730,
+        224,
+        190,
+        45
+      ],
+      "remaining": 16.54870005357266
+    },
+    {
+      "text": "Local DeBERTa-v3-large NLI\nPassage = premise; claim = hypothesis\nSUPPORT / CONTRADICT / NEUTRAL\nConfidence threshold:0.50\nAggregate the selected papers\nKeep both sides of a conflict",
+      "font": 9.7,
+      "box": [
+        730,
+        278,
+        190,
+        93
+      ],
+      "remaining": 21.423700048565877
+    },
+    {
+      "text": "OUTPUT: verdict + cached predictions",
+      "font": 8.4,
+      "box": [
+        730,
+        374,
+        190,
+        16
+      ],
+      "remaining": 3.5091999058723466
+    },
+    {
+      "text": "KIREETI",
+      "font": 10,
+      "box": [
+        960,
+        162,
+        190,
+        16
+      ],
+      "remaining": 1.1299998879432689
+    },
+    {
+      "text": "5  EXPLAIN + EXPLORE",
+      "font": 12.3,
+      "box": [
+        960,
+        189,
+        190,
+        30
+      ],
+      "remaining": 11.709899862170218
+    },
+    {
+      "text": "Show the exact clue. Let people check the answer.",
+      "font": 10.7,
+      "box": [
+        960,
+        224,
+        190,
+        45
+      ],
+      "remaining": 16.54870005357266
+    },
+    {
+      "text": "Streamlit interface + Pydantic\nGrounded quotation templates\nValidated citations + source/page IDs\nCompare selected-paper subsets\nJSON export / cached replay\nHuman explanation review",
+      "font": 9.7,
+      "box": [
+        960,
+        278,
+        190,
+        93
+      ],
+      "remaining": 21.423700048565877
+    },
+    {
+      "text": "OUTPUT: inspectable, scoped result",
+      "font": 8.4,
+      "box": [
+        960,
+        374,
+        190,
+        16
+      ],
+      "remaining": 3.5091999058723466
+    },
+    {
+      "text": "AGGREGATED ANSWERS: SUPPORTED / CONTRADICTED / CONFLICTING / INSUFFICIENT. Processing failure is a separate state.",
+      "font": 9.4,
+      "box": [
+        36,
+        402,
+        1115,
+        20
+      ],
+      "remaining": 6.02219989466667
+    },
+    {
+      "text": "EXPLAIN MODEL BEHAVIOUR",
+      "font": 11.2,
+      "box": [
+        42,
+        441,
+        390,
+        17
+      ],
+      "remaining": 0.345599874496461
+    },
+    {
+      "text": "Stage4 -> word-MASK occlusion -> Stage5\nCover one word; measure the class-score change. Green = toward\nthe target; red = away. Up to96 words; exact offsets + coverage.",
+      "font": 9.5,
+      "box": [
+        42,
+        463,
+        390,
+        43
+      ],
+      "remaining": 6.529500047564511
+    },
+    {
+      "text": "Captum IG is experimental: failed numerical checks stay hidden.",
+      "font": 8.8,
+      "box": [
+        42,
+        508,
+        390,
+        15
+      ],
+      "remaining": 1.984800044059753
+    },
+    {
+      "text": "LOCAL PDF SIDE ROUTE",
+      "font": 11.2,
+      "box": [
+        477,
+        441,
+        301,
+        17
+      ],
+      "remaining": 0.345599874496461
+    },
+    {
+      "text": "PDF -> PyMuPDF -> Stage3 -> shared verifier/UI\nExact extracted text, page numbers and source SHA-256.\nText PDFs only; scanned/encrypted/empty files fail visibly.\nA PDF link is not proof that full text was inspected.",
+      "font": 9.5,
+      "box": [
+        477,
+        463,
+        301,
+        58
+      ],
+      "remaining": 10.31950004756451
+    },
+    {
+      "text": "CHANGE SELECTION, REUSE THE THINKING",
+      "font": 10.7,
+      "box": [
+        822,
+        441,
+        326,
+        17
+      ],
+      "remaining": 1.0890998800992993
+    },
+    {
+      "text": "Stage5 -> cached aggregation in Stage4 -> Stage5\nNo new NLI inference for paper-subset changes.\nSave JSON -> validate claim / evidence / hashes -> replay.\nConfidence and word scores are not scientific truth.",
+      "font": 9.5,
+      "box": [
+        822,
+        463,
+        326,
+        57
+      ],
+      "remaining": 9.31950004756451
+    },
+    {
+      "text": "MEASURED RESULTS - different questions, never one pooled accuracy",
+      "font": 14,
+      "box": [
+        30,
+        545,
+        1120,
+        23
+      ],
+      "remaining": 2.1819998431205754
+    },
+    {
+      "text": "FIND RELEVANT PAPERS: RRF RECALL@10",
+      "font": 11.1,
+      "box": [
+        42,
+        586,
+        336,
+        18
+      ],
+      "remaining": 1.4942998756170276
+    },
+    {
+      "text": "SciFact - biomedical",
+      "font": 10.3,
+      "box": [
+        42,
+        613,
+        250,
+        18
+      ],
+      "remaining": 2.7663000515699387
+    },
+    {
+      "text": "95.9%",
+      "font": 14,
+      "box": [
+        294,
+        611,
+        83,
+        22
+      ],
+      "remaining": 1.1819998431205754
+    },
+    {
+      "text": "188 dev claims;112 no-positive exclusions;5,183 papers",
+      "font": 8.3,
+      "box": [
+        42,
+        630,
+        336,
+        14
+      ],
+      "remaining": 1.7243000415563579
+    },
+    {
+      "text": "CSFCube - computer science",
+      "font": 10.3,
+      "box": [
+        42,
+        644,
+        250,
+        18
+      ],
+      "remaining": 2.7663000515699387
+    },
+    {
+      "text": "39.2%",
+      "font": 14,
+      "box": [
+        294,
+        642,
+        83,
+        22
+      ],
+      "remaining": 1.1819998431205754
+    },
+    {
+      "text": "26 fold1-test tasks; judged pools;4,207 records",
+      "font": 8.3,
+      "box": [
+        42,
+        661,
+        336,
+        14
+      ],
+      "remaining": 1.7243000415563579
+    },
+    {
+      "text": "RECIPER - materials science",
+      "font": 10.3,
+      "box": [
+        42,
+        675,
+        250,
+        18
+      ],
+      "remaining": 2.7663000515699387
+    },
+    {
+      "text": "93.7%",
+      "font": 14,
+      "box": [
+        294,
+        673,
+        83,
+        22
+      ],
+      "remaining": 1.1819998431205754
+    },
+    {
+      "text": "1,024 questions;343 papers; one known source target",
+      "font": 8.3,
+      "box": [
+        42,
+        692,
+        336,
+        14
+      ],
+      "remaining": 1.7243000415563579
+    },
+    {
+      "text": "CHOOSE EVIDENCE + VERIFY CLAIMS",
+      "font": 11.1,
+      "box": [
+        427,
+        586,
+        336,
+        18
+      ],
+      "remaining": 1.4942998756170276
+    },
+    {
+      "text": "SciFact sentence micro-F1 (188 eligible dev claims)",
+      "font": 9.9,
+      "box": [
+        427,
+        612,
+        336,
+        15
+      ],
+      "remaining": 0.3579000495672222
+    },
+    {
+      "text": "0.179 RRF top5  |  0.444 oracle gold papers",
+      "font": 12,
+      "box": [
+        427,
+        632,
+        336,
+        20
+      ],
+      "remaining": 2.1559998655319212
+    },
+    {
+      "text": "Verifier audit:72.4% correct (131/181 pairs)",
+      "font": 11.8,
+      "box": [
+        427,
+        657,
+        336,
+        18
+      ],
+      "remaining": 0.45339986777305796
+    },
+    {
+      "text": "28 truncated pairs excluded. Gold-cited full abstracts with\nSUPPORT/CONTRADICT gold only; not end-to-end accuracy.",
+      "font": 9,
+      "box": [
+        427,
+        681,
+        336,
+        29
+      ],
+      "remaining": 5.069000045061113
+    },
+    {
+      "text": "EXPLAIN + TEST + RESPOND",
+      "font": 11.1,
+      "box": [
+        812,
+        586,
+        336,
+        18
+      ],
+      "remaining": 1.4942998756170276
+    },
+    {
+      "text": "Occlusion AP0.833 vs random0.438",
+      "font": 11.5,
+      "box": [
+        812,
+        611,
+        336,
+        18
+      ],
+      "remaining": 0.8994998711347577
+    },
+    {
+      "text": "Top-rationale hit75% vs17.5%; only4 pairs from3 abstracts.\nExploratory gold-target study; not IG or general accuracy.",
+      "font": 8.9,
+      "box": [
+        812,
+        632,
+        336,
+        26
+      ],
+      "remaining": 2.334900044560431
+    },
+    {
+      "text": "156 frontend +452 owner-suite tests passed",
+      "font": 10.9,
+      "box": [
+        812,
+        663,
+        336,
+        18
+      ],
+      "remaining": 1.7916998778581608
+    },
+    {
+      "text": "100 cached subset changes:0 new NLI calls; median1.14ms.\nLocal, preloaded-model observation; not a production SLA.",
+      "font": 8.9,
+      "box": [
+        812,
+        685,
+        336,
+        25
+      ],
+      "remaining": 1.334900044560431
+    },
+    {
+      "text": "Recall@10: does a known relevant paper reach the first10? Ranking/evidence results are pinned owner experiments, not independently rerun in full by the frontend.",
+      "font": 8.5,
+      "box": [
+        31,
+        724,
+        1127,
+        15
+      ],
+      "remaining": 2.428500042557717
+    },
+    {
+      "text": "INTERFACE + CONTRACTS",
+      "font": 8.8,
+      "box": [
+        30,
+        759,
+        270,
+        14
+      ],
+      "remaining": 0.914399901390075
+    },
+    {
+      "text": "Python3.12 / Streamlit / Pydantic / pandas\nAltair + PyArrow / typed handoffs",
+      "font": 8.7,
+      "box": [
+        30,
+        780,
+        270,
+        30
+      ],
+      "remaining": 6.866700043559078
+    },
+    {
+      "text": "SEARCH + RANKING",
+      "font": 8.8,
+      "box": [
+        315,
+        759,
+        270,
+        14
+      ],
+      "remaining": 0.914399901390075
+    },
+    {
+      "text": "paper_search / spaCy / HTTP clients\nrank-bm25 / NumPy / Sentence-Transformers",
+      "font": 8.7,
+      "box": [
+        315,
+        780,
+        270,
+        30
+      ],
+      "remaining": 6.866700043559078
+    },
+    {
+      "text": "LOCAL MODELS",
+      "font": 8.8,
+      "box": [
+        600,
+        759,
+        270,
+        14
+      ],
+      "remaining": 0.914399901390075
+    },
+    {
+      "text": "PyTorch / Transformers / MiniLM / DeBERTa NLI\nQwen0.5B optional + gated; HF setup downloads",
+      "font": 8.7,
+      "box": [
+        600,
+        780,
+        270,
+        30
+      ],
+      "remaining": 6.866700043559078
+    },
+    {
+      "text": "DOCUMENTS + RELIABILITY",
+      "font": 8.8,
+      "box": [
+        885,
+        759,
+        270,
+        14
+      ],
+      "remaining": 0.914399901390075
+    },
+    {
+      "text": "PyMuPDF / Captum IG / pytest / Matplotlib\nJSON + SHA-256 / local cache / background futures",
+      "font": 8.7,
+      "box": [
+        885,
+        780,
+        270,
+        30
+      ],
+      "remaining": 6.866700043559078
+    },
+    {
+      "text": "No hosted model inference. Original claims and exact evidence preserved. Scientific/source review and actual five-person recording still require humans.",
+      "font": 8.4,
+      "box": [
+        30,
+        818,
+        1130,
+        15
+      ],
+      "remaining": 2.5764000420570383
+    }
+  ]
+}
