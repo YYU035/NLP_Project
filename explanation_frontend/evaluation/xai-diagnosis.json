@@ -1,0 +1,46 @@
+{
+  "input": "Synthetic identical plant claim and passage: Plants require water to survive.",
+  "checkpoint_revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "date": "2026-11-09",
+  "configuration": "CPU float32 eval, owner word-embedding LayerIG, original attention mask fixed, internal batch 1",
+  "observations": [
+    {
+      "baseline": "pad",
+      "steps": 32,
+      "delta": -0.2273869514465332,
+      "relative": 0.3466464726096294,
+      "seconds": 10.159245999995619
+    },
+    {
+      "baseline": "pad",
+      "steps": 128,
+      "delta": 0.25018244981765747,
+      "relative": 0.3813977151565739,
+      "seconds": 35.378148499992676
+    },
+    {
+      "baseline": "pad",
+      "steps": 512,
+      "delta": -0.021586954593658447,
+      "relative": 0.032908843786647386,
+      "seconds": 135.58807110000635
+    },
+    {
+      "baseline": "mask",
+      "steps": 32,
+      "delta": 0.029504716396331787,
+      "relative": 0.039108525472809956,
+      "seconds": 9.18144829996163
+    },
+    {
+      "baseline": "mask",
+      "steps": 128,
+      "delta": -0.0006718635559082031,
+      "relative": 0.000890555687352934,
+      "seconds": 35.85578019998502
+    }
+  ],
+  "interpretation": "Baseline and quadrature sensitivity; no implementation bug established. MASK128 passed both gates on this synthetic input only. PAD512 passed relative gate but failed new absolute .001 gate.",
+  "interrupted": "Additional MASK512 ablation stopped to avoid competing with verifier audit; no result claimed.",
+  "policy": "MASK default, selectable PAD; steps32/128/512; finite and nontruncated; relative<=.05 AND absolute<=.001. Frozen before real SciFact pilot."
+}

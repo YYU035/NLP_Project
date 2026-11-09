@@ -1,3 +1,5 @@
+Subsequent XAI validation: see [XAI_VALIDATION.md](XAI_VALIDATION.md) for baseline sensitivity, new numerical gates, real-model SciFact evaluation and the verifier audit. Earlier attribution results below are retained as historical observations.
+
 Current combined integration: semantic selection, local PDFs, attribution diagnostics and three benchmark snapshots are documented in [COMBINED_INTEGRATION.md](COMBINED_INTEGRATION.md). All source additions remain inside this folder.
 
 # End-to-end integration additions - 6 November 2026

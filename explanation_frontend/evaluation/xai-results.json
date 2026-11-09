@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-09",
+  "scope": "Exploratory dev diagnostics; not a held-out XAI-quality or end-to-end accuracy claim",
+  "pilot": {
+    "manifest": {
+      "dataset": "SciFact dev annotated claim-document pairs, full abstracts",
+      "data_sha256": {
+        "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+      },
+      "n_annotated_pairs": 209,
+      "n_length_eligible": 18,
+      "sample_ids": [
+        [
+          298,
+          "39381118"
+        ],
+        [
+          1088,
+          "37549932"
+        ],
+        [
+          53,
+          "45638119"
+        ],
+        [
+          51,
+          "45638119"
+        ]
+      ],
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "baseline": "mask",
+      "threshold": 0.5,
+      "model_dtype": "float32",
+      "model_mode": "eval",
+      "internal_batch_size": 1,
+      "data_git_revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "steps": [
+        32,
+        128
+      ],
+      "seed": 42,
+      "max_tokens": 192,
+      "random_trials": 10,
+      "sentence_random_trials": 50,
+      "rationale_gold": "union of annotated rationale sentence sets for the cited document",
+      "target": "gold label for plausibility AND faithfulness; not explanation of a different predicted label",
+      "perturbation": "delete evidence subword tokens only; claim and special tokens fixed; matched token budgets; ratios 1/5/10/20/50 percent",
+      "selection": "balanced by gold label, seeded without replacement among length-eligible pairs; exploratory pilot, not held-out test",
+      "gate": "finite, nontruncated, relative <= .05 AND absolute delta <= .001",
+      "tuning": "Baseline/step policy explored on a synthetic plant pair before this pilot; no scientific performance claim",
+      "versions": {
+        "torch": "2.15.0",
+        "transformers": "5.22.1",
+        "captum": "0.9.0",
+        "numpy": "2.5.4"
+      }
+    },
+    "summary": {
+      "attempted": 4,
+      "stable": 0,
+      "unstable": 4,
+      "failed": 0,
+      "all_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "correct_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "incorrect_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "by_label": {
+        "SUPPORT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        },
+        "CONTRADICT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        }
+      },
+      "seconds": 566.0014082000125,
+      "limitations": [
+        "Exploratory short-input balanced dev pilot; not representative or held-out.",
+        "Unstable/failed rows excluded from XAI quality means; coverage always reported.",
+        "Gold-target attribution does not explain a different predicted class.",
+        "Full-abstract classifier audit differs from deployed selected-passage workflow.",
+        "Deletion perturbations can create unnatural text; sentence length affects summed attributions.",
+        "Rationale overlap is a coverage diagnostic, not proof of error causation."
+      ]
+    },
+    "case_diagnostics": [
+      {
+        "claim_id": 298,
+        "doc_id": "39381118",
+        "gold_label": "SUPPORT",
+        "predicted_label": "SUPPORT",
+        "numerical_status": "unstable",
+        "absolute_completeness_error": 0.06534850597381592,
+        "relative_completeness_error": 0.09029037111119237,
+        "coverage_diagnostic": "gold_rationale_selected",
+        "selected_stage_investigation": "inspect_selected_predictions"
+      },
+      {
+        "claim_id": 1088,
+        "doc_id": "37549932",
+        "gold_label": "CONTRADICT",
+        "predicted_label": "SUPPORT",
+        "numerical_status": "unstable",
+        "absolute_completeness_error": 0.007813945412635803,
+        "relative_completeness_error": 0.04922922237853229,
+        "coverage_diagnostic": "gold_rationale_selected",
+        "selected_stage_investigation": "inspect_selected_predictions"
+      },
+      {
+        "claim_id": 53,
+        "doc_id": "45638119",
+        "gold_label": "SUPPORT",
+        "predicted_label": "SUPPORT",
+        "numerical_status": "unstable",
+        "absolute_completeness_error": 0.206468403339386,
+        "relative_completeness_error": 0.2837055231405798,
+        "coverage_diagnostic": "gold_rationale_selected",
+        "selected_stage_investigation": "inspect_selected_predictions"
+      },
+      {
+        "claim_id": 51,
+        "doc_id": "45638119",
+        "gold_label": "CONTRADICT",
+        "predicted_label": "CONTRADICT",
+        "numerical_status": "unstable",
+        "absolute_completeness_error": 0.6303656101226807,
+        "relative_completeness_error": 0.7942917355440178,
+        "coverage_diagnostic": "gold_rationale_selected",
+        "selected_stage_investigation": "inspect_selected_predictions"
+      }
+    ]
+  },
+  "verifier_audit": {
+    "date": "2026-11-09",
+    "scope": "Offline full gold-cited abstract audit; annotated same-label claim/document pairs only; not deployed pipeline accuracy",
+    "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "threshold": 0.5,
+    "max_length": 512,
+    "dtype": "float32",
+    "mode": "eval",
+    "data_sha256": {
+      "corpus.jsonl": "2a20df4ad6015fb1a9c7d4a1ad076bbaa02ac5d5cf0e60c3a8d22bb75f86b92c",
+      "claims_dev.jsonl": "befd05e7ec5f1d36378d3fc22c9f7092ee7ad9265bb24a678679118c53ce2792"
+    },
+    "data_line_endings": "Hashes correspond to CRLF isolated QC staging; LF source bytes differ only by line endings.",
+    "data_git_revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+    "results": {
+      "total_pairs": 209,
+      "usable_nontruncated": 181,
+      "excluded": 28,
+      "support_pairs": 121,
+      "support_predicted_neutral": 21,
+      "confusion_matrix": {
+        "SUPPORT": {
+          "SUPPORT": 91,
+          "CONTRADICT": 9,
+          "NEUTRAL": 21
+        },
+        "CONTRADICT": {
+          "SUPPORT": 8,
+          "CONTRADICT": 40,
+          "NEUTRAL": 12
+        }
+      },
+      "note": "Thresholded native verifier, full gold-cited abstracts, not pipeline or original 116/216 experiment."
+    },
+    "original_116_of_216": "Not reproduced or attributable to this protocol. Requires original confusion matrix, split, model and input settings.",
+    "accuracy_nontruncated": 0.7237569060773481,
+    "support_to_neutral_rate_nontruncated": 0.17355371900826447,
+    "canonical_git_data_sha256": {
+      "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+      "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+    },
+    "line_ending_equivalence_verified": true
+  },
+  "gradient_check": {
+    "passed": true,
+    "sampled_path_points": 12,
+    "input_ids_vs_inputs_embeds_max_probability_difference": 0.0,
+    "scope": "synthetic plant pair only"
+  },
+  "followup": {
+    "status": "completed_failed_project_gate",
+    "claim_id": 1088,
+    "steps": 512,
+    "selection_reason": "Smallest absolute error in the four-case pilot; post-hoc targeted convergence diagnosis, not representative performance",
+    "manifest": {
+      "dataset": "SciFact dev annotated claim-document pairs, full abstracts",
+      "data_sha256": {
+        "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+      },
+      "n_annotated_pairs": 209,
+      "n_length_eligible": 1,
+      "sample_ids": [
+        [
+          1088,
+          "37549932"
+        ]
+      ],
+      "requested_claim_ids": [
+        1088
+      ],
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "baseline": "mask",
+      "threshold": 0.5,
+      "model_dtype": "float32",
+      "model_mode": "eval",
+      "internal_batch_size": 1,
+      "data_git_revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "steps": [
+        512
+      ],
+      "seed": 42,
+      "max_tokens": 192,
+      "random_trials": 10,
+      "sentence_random_trials": 50,
+      "rationale_gold": "union of annotated rationale sentence sets for the cited document",
+      "target": "gold label for plausibility AND faithfulness; not explanation of a different predicted label",
+      "perturbation": "delete evidence subword tokens only; claim and special tokens fixed; matched token budgets; ratios 1/5/10/20/50 percent",
+      "run_mode": "ig_pilot",
+      "selection": "targeted claim IDs; exploratory diagnosis, not representative",
+      "gate": "finite, nontruncated, relative <= .05 AND absolute delta <= .001",
+      "tuning": "Baseline/step policy explored on a synthetic plant pair before this pilot; no scientific performance claim",
+      "versions": {
+        "torch": "2.15.0",
+        "transformers": "5.22.1",
+        "captum": "0.9.0",
+        "numpy": "2.5.4"
+      }
+    },
+    "summary": {
+      "attempted": 1,
+      "stable": 0,
+      "unstable": 1,
+      "failed": 0,
+      "all_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "correct_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "incorrect_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "by_label": {
+        "SUPPORT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        },
+        "CONTRADICT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        }
+      },
+      "seconds": 407.8633554999833,
+      "limitations": [
+        "Exploratory short-input balanced dev pilot; not representative or held-out.",
+        "Unstable/failed rows excluded from XAI quality means; coverage always reported.",
+        "Gold-target attribution does not explain a different predicted class.",
+        "Full-abstract classifier audit differs from deployed selected-passage workflow.",
+        "Deletion perturbations can create unnatural text; sentence length affects summed attributions.",
+        "Rationale overlap is a coverage diagnostic, not proof of error causation."
+      ],
+      "total_seconds_including_optional_audit": 407.863357299997
+    },
+    "case_diagnostic": {
+      "claim_id": 1088,
+      "doc_id": "37549932",
+      "gold_label": "CONTRADICT",
+      "predicted_label": "SUPPORT",
+      "numerical_status": "unstable",
+      "absolute_completeness_error": 0.0012397021055221558,
+      "relative_completeness_error": 0.0078103400283799,
+      "attempts": [
+        {
+          "steps": 512,
+          "seconds": 406.42392420000397,
+          "absolute_error": 0.0012397021055221558,
+          "relative_error": 0.0078103400283799,
+          "numerical_status": "unstable"
+        }
+      ]
+    }
+  },
+  "scientific_claim": "The four-case128-step pilot had0/4 pass; the targeted512-step follow-up also failed the stricter absolute gate. No plausibility/faithfulness averages over failed attributions are claimed. The synthetic MASK128 example passed; this is not general quality validation.",
+  "remaining": [
+    "larger frozen-protocol study",
+    "numerical convergence and latency/coverage tradeoff",
+    "human interpretation review",
+    "original 116/216 provenance"
+  ],
+  "software_validation": {
+    "frontend_tests_passed": 145,
+    "dependency_check": "passed",
+    "paid_or_hosted_api_added": false
+  }
+}

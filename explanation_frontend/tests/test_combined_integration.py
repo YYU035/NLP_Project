@@ -120,7 +120,7 @@ def test_unstable_attribution_is_not_presented_as_reliable_word_scores():
     app = AppTest.from_file(str(Path(__file__).parents[1]/'app.py'))
     app.session_state['workspace']='Model attribution'
     app.session_state['snapshot']=snapshot
-    app.session_state['attribution_result']=((snapshot.fingerprint,pid),{
+    app.session_state['attribution_result']=((snapshot.fingerprint,pid,'mask'),{
         'target_label':'SUPPORT','target_class':'entailment','convergence_delta':.8,
         'settings':{},'words':[{'text':'unreliable','attribution':1.0}], 'numerical_status':'unstable'})
     app.run()

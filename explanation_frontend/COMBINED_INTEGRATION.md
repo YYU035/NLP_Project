@@ -1,3 +1,5 @@
+Subsequent XAI validation: see [XAI_VALIDATION.md](XAI_VALIDATION.md) for baseline sensitivity, new numerical gates, real-model SciFact evaluation and the verifier audit. Earlier attribution results below are retained as historical observations.
+
 # Combined team integration - 9 November 2026
 
 All changes are in explanation_frontend on kireeti. Main and teammate folders/branches were not overwritten. A blanket merge of yuyue would change other owners' folders, so this integration uses pinned runtime copies and published result snapshots inside the permitted folder.

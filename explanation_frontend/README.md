@@ -1,3 +1,5 @@
+XAI validation update (9 November): baseline-aware attribution, stricter numerical gates, reproducible SciFact evaluation and a full-abstract verifier audit are documented in [XAI_VALIDATION.md](XAI_VALIDATION.md). Initial PAD failure is historical; MASK128 converges on the synthetic example, the four real SciFact pilot cases failed at128 steps, and a targeted512-step case narrowly failed the conservative absolute gate. Real-case reliability remains measured per input.
+
 # Explanation frontend - Kireeti, Person 5
 
 The integrated Streamlit workflow now runs end to end: public discovery -> Naila BM25/SBERT -> Yu Yue RRF -> exact abstract-span selection -> Chong Yao local NLI -> cached aggregation -> grounded explanations, paper-subset comparisons and JSON export/replay.
@@ -36,7 +38,7 @@ Alternatively, Verify evidence -> **Live** performs discovery and the remaining 
 | Owner | Connected and validated | Remaining work |
 | --- | --- | --- |
 | Person 1 - Raghavi | Public discovery, canonical identities, selected-paper provenance and fresh search feeding actual local inference. | **[PENDING - Person 1 + team]** Automated full-text acquisition, retraction/freshness and source eligibility review. Local uploaded PDFs are now supported separately. |
-| Person 2 - Naila | BM25/SBERT retrieval; local integrated-gradients workspace and 12 attribution plumbing tests. | **[PENDING - Naila + team]** Resolve real-model attribution completeness failure; review retrieval quality and attribution usefulness. Unstable token highlights are withheld. |
+| Person 2 - Naila | BM25/SBERT retrieval; local integrated-gradients workspace and 12 attribution plumbing tests. | **[PENDING - Naila + team]** Complete broader real-model attribution convergence and usefulness studies; inspect the new gated pilot/audit in XAI_VALIDATION.md. Unstable token highlights are withheld. |
 | Person 3 - Yu Yue | Updated RRF, train-frozen semantic selector, exact source spans, tokenizer budget and local PDF extraction. Published SciFact, CSFCube and RECIPER results displayed with provenance and separate protocols. Current isolated owner suite: 163 passed. | **[PENDING - Yu Yue + team]** Independently reproduce full published benchmarks, review held-out protocol and broaden real PDF/layout/evidence quality studies. |
 | Person 4 - Chong Yao | Local NLI, native response mapping, cached aggregation, successful selector abstention, conflict safety, page-aware evidence and replay. | **[PENDING - Person 4 + team]** Calibration/held-out verdict quality and acceptance of documented frontend aggregation policy. |
 | Person 5 - Kireeti | Six connected workspaces, grounded explanations/citations, diagnostic and failure handling, three-dataset reporting, PDF/attribution UI, subset comparisons and export/replay. Frontend suite: 136 passed. | **[PENDING - Kireeti + reviewers]** Human explanation/citation and PDF reviews; Qwen remains experimental after its earlier schema failures. |

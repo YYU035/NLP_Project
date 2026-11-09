@@ -13,7 +13,7 @@ from explanation_frontend.pdf_view import render_pdf
 st.set_page_config(page_title="Evidence workspace", page_icon="📖", layout="wide")
 # Streamlit removes unmounted widget state when changing workspaces. Keep a small
 # allowlisted input memory so returning cannot associate a result with a reset claim.
-INPUT_KEYS = ["mode", "scenario", "claim", "benchmark_dataset", "pdf_claim", "discovery_source", "discovery_claim", "discovery_top_k",
+INPUT_KEYS = ["mode", "scenario", "claim", "benchmark_dataset", "pdf_claim", "attribution_baseline", "discovery_source", "discovery_claim", "discovery_top_k",
               "discovery_from", "discovery_to", "discovery_filter", "discovery_provider_filter", "discovery_pdf_only",
               "discovery_page", "discovery_inspect", "reviewer_id", "review_output", "review_confirm",
               *["review_" + name for name in ("factual_supported", "factual_total", "citation_supported", "citation_total",

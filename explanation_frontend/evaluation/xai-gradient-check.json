@@ -1,0 +1,121 @@
+{
+  "scope": "Synthetic embedding-path derivative check, not scientific attribution validation",
+  "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "input": "Plants require water to survive.",
+  "dtype": "float32",
+  "model_mode": "eval",
+  "finite_difference_step": 0.001,
+  "input_ids_vs_inputs_embeds_max_probability_difference": 0.0,
+  "derivative_tolerance": "absolute <= .01 + .05*abs(finite difference); project diagnostic tolerance",
+  "all_checks_passed": true,
+  "points": [
+    {
+      "baseline": "pad",
+      "alpha": 0.01,
+      "probability": 0.3386319875717163,
+      "autograd_derivative": -0.48788338899612427,
+      "finite_difference": -0.4877447783946991,
+      "absolute_difference": 0.0001386106014251709,
+      "passed": true
+    },
+    {
+      "baseline": "pad",
+      "alpha": 0.1,
+      "probability": 0.3337141275405884,
+      "autograd_derivative": 1.4830338954925537,
+      "finite_difference": 1.4841853380203247,
+      "absolute_difference": 0.001151442527770996,
+      "passed": true
+    },
+    {
+      "baseline": "pad",
+      "alpha": 0.25,
+      "probability": 0.9931681156158447,
+      "autograd_derivative": 0.6454761028289795,
+      "finite_difference": 0.6485878825187683,
+      "absolute_difference": 0.0031117796897888184,
+      "passed": true
+    },
+    {
+      "baseline": "pad",
+      "alpha": 0.5,
+      "probability": 0.9993436932563782,
+      "autograd_derivative": -0.0005203073378652334,
+      "finite_difference": -0.0005364418029785156,
+      "absolute_difference": 1.6134465113282204e-05,
+      "passed": true
+    },
+    {
+      "baseline": "pad",
+      "alpha": 0.75,
+      "probability": 0.9992857575416565,
+      "autograd_derivative": -5.763645458500832e-05,
+      "finite_difference": -5.960464113741182e-05,
+      "absolute_difference": 1.9681865524034947e-06,
+      "passed": true
+    },
+    {
+      "baseline": "pad",
+      "alpha": 0.99,
+      "probability": 0.9992849230766296,
+      "autograd_derivative": 2.3539749236078933e-05,
+      "finite_difference": 5.960464113741182e-05,
+      "absolute_difference": 3.6064891901332885e-05,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.01,
+      "probability": 0.24596410989761353,
+      "autograd_derivative": 0.11877290904521942,
+      "finite_difference": 0.11885910481214523,
+      "absolute_difference": 8.619576692581177e-05,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.1,
+      "probability": 0.26379433274269104,
+      "autograd_derivative": 0.2881105840206146,
+      "finite_difference": 0.2879798412322998,
+      "absolute_difference": 0.00013074278831481934,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.25,
+      "probability": 0.42918509244918823,
+      "autograd_derivative": 3.433225631713867,
+      "finite_difference": 3.4334359169006348,
+      "absolute_difference": 0.00021028518676757812,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.5,
+      "probability": 0.9989228844642639,
+      "autograd_derivative": 0.0185210220515728,
+      "finite_difference": 0.01856684684753418,
+      "absolute_difference": 4.5824795961380005e-05,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.75,
+      "probability": 0.9993515610694885,
+      "autograd_derivative": -0.00012806149607058614,
+      "finite_difference": -0.00011920928227482364,
+      "absolute_difference": 8.852213795762509e-06,
+      "passed": true
+    },
+    {
+      "baseline": "mask",
+      "alpha": 0.99,
+      "probability": 0.9992877840995789,
+      "autograd_derivative": -0.00027667218819260597,
+      "finite_difference": -0.00023841856454964727,
+      "absolute_difference": 3.82536236429587e-05,
+      "passed": true
+    }
+  ]
+}
