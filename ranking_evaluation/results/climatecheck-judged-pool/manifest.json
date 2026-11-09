@@ -1,0 +1,78 @@
+{
+  "dataset": "ClimateCheck",
+  "dataset_version": "7eb6ed83d99428b230abbc33c14f85fe4bf28ac4caa5031d15a9b8e03ae73f3e",
+  "protocol": {
+    "split": "test",
+    "candidate_scope": "per-exact-claim human-judged abstract pool only",
+    "query_policy": "unchanged exact released claim; source ID plus text hash prevents ID collision",
+    "positive_policy": "Supports OR Refutes; NEI is non-evidentiary for this task, not necessarily off-topic",
+    "title_policy": "not available in pair files; abstract-only ranking",
+    "task": "judged abstract reranking; not full-corpus retrieval or sentence selection",
+    "sentence_evidence_gold": false,
+    "source_claim_ids_with_multiple_texts": 4
+  },
+  "task": "closed human-judged abstract-pool reranking; not official full-corpus retrieval",
+  "query_count": 176,
+  "evaluated_claims": 166,
+  "excluded_no_relevant": 10,
+  "data_manifest": {
+    "dataset": "climatecheck",
+    "repository": "rabuahmad/climatecheck",
+    "revision": "93d0dc5007e9f86a3fc4cfe2d7998514a94f5c88",
+    "files_sha256": {
+      "README.md": "d898b0961d2b6250db0046d0ebc0c5bb0af53fca1096c3cbb616c93ebd4d7826",
+      "data/train-00000-of-00001.parquet": "e185f3770fb12c02689753ed5a4c4d543fa72ba38bc3cdffcc840d34167a92be",
+      "data/test-00000-of-00001.parquet": "8b281f5bb550a9e074466c4ab59e12b3f6e9fbed5bb694f3281e1516c37b6e81"
+    }
+  },
+  "provenance": {
+    "encoder_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "runner_sha256": "058d103b2dcdbe57e556566ab0f5188a15ee9410e2f358ca7aab8de64fd727f1",
+    "shared_runner_sha256": "95c417b4bec1e4cb9f90dae4fe71b3d7edefe90375b2d424769f4e34efe09a3f",
+    "adapter_sha256": "634f5d3ff4c5ef1bbda3b5961dd056f13139ffdd3946b4785adc8907bb3249e1",
+    "evaluator_sha256": "71c59d4836215d8080d3043b2612648bfbac6b0e2e362c56ad9a382058a61c6b",
+    "model_files": {
+      "encoder": {
+        "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+        "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+        "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+        "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+        "download_manifest.json": "261826e6d9c35c48a4a1d51aff73e4aa1eb2adbb00a43345a8ad5b8e97d436f2",
+        "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+        "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "pytorch_model.bin": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+        "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+        "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+        "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+        "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      },
+      "reranker": {
+        "README.md": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa",
+        "config.json": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+        "download_manifest.json": "1d409a21881d15442c8552ec3ce815cf675aacf94d12d3b8dd54010c2f179a55",
+        "model.safetensors": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+        "special_tokens_map.json": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+        "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "tokenizer_config.json": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+        "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    }
+  },
+  "index_seconds": 52.25060212500102,
+  "packages": {
+    "torch": "2.9.0",
+    "transformers": "4.57.1",
+    "sentence-transformers": "5.1.2",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.9.1"
+  },
+  "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.1",
+  "summary_sha256": "9523350c13d5ad913268db905083c83077dffd08de8c053d5684258d13b90ee1",
+  "full_output_path": "outputs/datasets/climatecheck-test-judged-pools-four-methods/comparison.json",
+  "full_output_sha256": "2e7f0b7c093682c4f81b281b5a046997ec053128d1d116e1ef7274696bcb57eb",
+  "scope_warning": "Closed human-judged pool ranking. No full-corpus retrieval, verdict inference or sentence evidence gold evaluation."
+}

@@ -1,0 +1,28 @@
+{
+  "independent_arithmetic_verified": true,
+  "complete_rankings_verified": true,
+  "rerank_prefix_integrity_verified": true,
+  "questions": 1024,
+  "corpus_size": 343,
+  "methods": [
+    "bm25",
+    "rrf",
+    "rrf_cross_encoder",
+    "sbert"
+  ],
+  "source_rank_effects": {
+    "source_rank_improved": 133,
+    "source_rank_worsened": 113,
+    "source_rank_unchanged": 778,
+    "source_top1_recovered": 79,
+    "source_top1_lost": 65,
+    "source_outside_rrf_prefix": 38,
+    "maximum_possible_recall_in_reranked_prefix": 0.962890625,
+    "note": "Known-source recovery only; other retrieved papers may also be relevant."
+  },
+  "limitation": "Implementation/result arithmetic audit, not expert relevance/evidence validation or an independent model rerun.",
+  "provenance": {
+    "comparison_sha256": "3e446d62f51572fba26132724816f717147ae9113e7a1a7017ae7de2985ab5f2",
+    "verifier_sha256": "f71ae995993280aec8ad7ddebe8aa0e2d7a1a9f6c9f6afca936dd7fd592748b8"
+  }
+}

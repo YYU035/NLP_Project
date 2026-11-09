@@ -4,7 +4,29 @@ An evidence-based system for checking scientific claims against research papers.
 
 Given a claim, the system will find relevant papers, identify evidence passages, and return one of three verdicts: **Supported**, **Contradicted**, or **Insufficient Evidence**, together with citations and an explanation.
 
-> **Project status:** Modules are developed on contributor branches. This branch includes Person 3 ranking, evidence selection and evaluation, plus pinned live-search interfaces. The integrated Streamlit application is on the `kireeti` branch. See module READMEs for implemented behavior and limitations.
+> **Project status:** Contributor branches have been merged into local `yuyue`, including retrieval, ranking/evidence selection, verification and the Streamlit application. The frontend retains pinned runtime copies; merged source availability does not imply all latest root modules are active in the app. See module READMEs for behavior and limitations.
+
+## Additional academic datasets
+
+The three datasets are **evaluation resources**, not mandatory runtime search
+sources. Normal user claims use Person 1's live scholarly APIs, independently
+of benchmark corpora; disciplinary coverage depends on provider coverage,
+query quality and accessible evidence. Adding evaluation datasets does not
+require changing the live-search design or restricting it to their papers.
+
+The active evaluation datasets are **SciFact** (biomedical), **CSFCube**
+(computer science) and **RECIPER** (materials science, including EEE-related
+research). RECIPER uses a complete fixed collection of 343 papers and 1,024
+source-linked questions for paper retrieval. It has generated QA and source-paper
+labels, not expert sentence-evidence or verification labels. See
+[the RECIPER protocol and results](shared/datasets/RECIPER_REPORT.md).
+Matter-of-Fact and ClimateCheck remain archived exploratory work, outside the
+primary three-dataset result table.
+
+See [dataset setup, protocols and commands](shared/datasets/README.md).
+Raw data/models and large runtime reports remain outside Git; compact result
+summaries are retained. Three task-specific ranking evaluations are available;
+final-verdict evaluation remains separate. No frontend dataset selector is required.
 
 ## System Workflow
 

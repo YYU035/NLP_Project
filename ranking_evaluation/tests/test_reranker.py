@@ -169,3 +169,21 @@ def test_cuda_adapter_synchronizes_before_and_after_inference(tmp_path, monkeypa
     adapter = LocalCrossEncoder(tmp_path, device='cuda')
     assert adapter.score_pairs([('claim', 'text')]) == [0.5]
     assert events == [('sync', 'cuda'), 'predict', ('sync', 'cuda')]
+
+
+def test_mps_adapter_synchronizes_before_and_after_inference(tmp_path, monkeypatch):
+    import sys
+    from types import SimpleNamespace
+    events = []
+    class StubModel:
+        def __init__(self, path, **kwargs):
+            assert kwargs['device'] == 'mps'
+        def predict(self, pairs, **kwargs):
+            events.append('predict')
+            return [0.5]
+    monkeypatch.setitem(sys.modules, 'sentence_transformers', SimpleNamespace(CrossEncoder=StubModel))
+    monkeypatch.setitem(sys.modules, 'torch', SimpleNamespace(mps=SimpleNamespace(
+        synchronize=lambda: events.append('sync'))))
+    adapter = LocalCrossEncoder(tmp_path, device='mps')
+    assert adapter.score_pairs([('claim', 'text')]) == [0.5]
+    assert events == ['sync', 'predict', 'sync']

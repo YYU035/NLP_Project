@@ -42,6 +42,9 @@ class LocalCrossEncoder:
         if device.startswith("cuda"):
             import torch
             self._synchronize = lambda: torch.cuda.synchronize(device)
+        elif device == "mps":
+            import torch
+            self._synchronize = torch.mps.synchronize
         self.batch_size = batch_size
 
     def score_pairs(self, pairs: list[tuple[str, str]]) -> Sequence[float]:

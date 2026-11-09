@@ -1,0 +1,182 @@
+{
+  "selection": "First three cases per stated source-rank category in fixed query order; not manually reviewed evidence errors",
+  "examples": {
+    "source_top1_recovered": [
+      {
+        "query_id": "reciper-00014-fc2951e006688670",
+        "question": "How was single-phase CoO2 (x = 0) produced from LiCoO2 in this study?",
+        "source_paper_id": "paper_0079",
+        "source_paper_title": "Electrochemical synthesis and properties of CoO 2 , the x = 0 phase of the A x CoO 2 systems (A = Li, Na)",
+        "source_url": "https://arxiv.org/abs/0801.2607v1",
+        "rrf_source_rank": 4,
+        "reranked_source_rank": 1,
+        "rrf_top3": [
+          "paper_0070",
+          "paper_0078",
+          "paper_0073"
+        ],
+        "reranked_top3": [
+          "paper_0079",
+          "paper_0078",
+          "paper_0073"
+        ]
+      },
+      {
+        "query_id": "reciper-00040-59f299de00c726c9",
+        "question": "What is the observed relationship between the characteristic charge/discharge time \u03c4 and the out-of-plane conductivity \u03c3OOP, and how did the authors validate this relationship?",
+        "source_paper_id": "paper_0102",
+        "source_paper_title": "Quantifying the effect of electrical conductivity on the rate-performance of nanocomposite battery electrodes",
+        "source_url": "https://arxiv.org/abs/1912.02485v1",
+        "rrf_source_rank": 2,
+        "reranked_source_rank": 1,
+        "rrf_top3": [
+          "paper_0313",
+          "paper_0102",
+          "paper_0017"
+        ],
+        "reranked_top3": [
+          "paper_0102",
+          "paper_0313",
+          "paper_0141"
+        ]
+      },
+      {
+        "query_id": "reciper-00082-88369567e745cfd9",
+        "question": "Which intrinsic point defects are predicted to have low formation energies in LiMnO2 and Li2MnO3, and what are the consequences for synthesis and conduction?",
+        "source_paper_id": "paper_0097",
+        "source_paper_title": "Defect Physics, Delithiation Mechanism, and Electronic and Ionic Conduction in Layered Lithium Manganese Oxide Cathode Materials",
+        "source_url": "https://arxiv.org/abs/1412.4688v2",
+        "rrf_source_rank": 2,
+        "reranked_source_rank": 1,
+        "rrf_top3": [
+          "paper_0093",
+          "paper_0097",
+          "paper_0019"
+        ],
+        "reranked_top3": [
+          "paper_0097",
+          "paper_0093",
+          "paper_0019"
+        ]
+      }
+    ],
+    "source_top1_lost": [
+      {
+        "query_id": "reciper-00010-fa01ca23efca52fd",
+        "question": "Which computational methods were used to simulate extinction spectra and how was consistency between methods confirmed?",
+        "source_paper_id": "paper_0201",
+        "source_paper_title": "Why the aspect ratio? Shape equivalence for the extinction spectra of gold nanoparticles",
+        "source_url": "https://arxiv.org/abs/1605.06046v1",
+        "rrf_source_rank": 1,
+        "reranked_source_rank": 3,
+        "rrf_top3": [
+          "paper_0201",
+          "paper_0192",
+          "paper_0195"
+        ],
+        "reranked_top3": [
+          "paper_0218",
+          "paper_0192",
+          "paper_0201"
+        ]
+      },
+      {
+        "query_id": "reciper-00011-6aca2172731d676f",
+        "question": "What are the main advantages and the primary limitation of using MOF materials directly as supercapacitor electrodes, according to the paper?",
+        "source_paper_id": "paper_0185",
+        "source_paper_title": "Metal-Organic Framework Materials for Electrochemical Supercapacitors",
+        "source_url": "https://doi.org/10.1007/s40820-022-00910-9",
+        "rrf_source_rank": 1,
+        "reranked_source_rank": 5,
+        "rrf_top3": [
+          "paper_0185",
+          "paper_0300",
+          "paper_0309"
+        ],
+        "reranked_top3": [
+          "paper_0306",
+          "paper_0312",
+          "paper_0309"
+        ]
+      },
+      {
+        "query_id": "reciper-00016-85eba6f7c210b19c",
+        "question": "What structural and stoichiometric characteristics of the synthesized CoO2 phase are reported?",
+        "source_paper_id": "paper_0079",
+        "source_paper_title": "Electrochemical synthesis and properties of CoO 2 , the x = 0 phase of the A x CoO 2 systems (A = Li, Na)",
+        "source_url": "https://arxiv.org/abs/0801.2607v1",
+        "rrf_source_rank": 1,
+        "reranked_source_rank": 2,
+        "rrf_top3": [
+          "paper_0079",
+          "paper_0070",
+          "paper_0157"
+        ],
+        "reranked_top3": [
+          "paper_0078",
+          "paper_0079",
+          "paper_0073"
+        ]
+      }
+    ],
+    "source_outside_rerank_prefix": [
+      {
+        "query_id": "reciper-00012-8af9192bb3466317",
+        "question": "What performance was reported for nanoporous carbon derived from Zn-MOF, and what synthesis factor strongly affects its structure?",
+        "source_paper_id": "paper_0185",
+        "source_paper_title": "Metal-Organic Framework Materials for Electrochemical Supercapacitors",
+        "source_url": "https://doi.org/10.1007/s40820-022-00910-9",
+        "rrf_source_rank": 27,
+        "reranked_source_rank": 27,
+        "rrf_top3": [
+          "paper_0178",
+          "paper_0187",
+          "paper_0275"
+        ],
+        "reranked_top3": [
+          "paper_0187",
+          "paper_0181",
+          "paper_0186"
+        ]
+      },
+      {
+        "query_id": "reciper-00015-2eee28be6978b008",
+        "question": "What are the magnetic properties of CoO2 reported in the paper, and what conclusion do the authors draw about its electronic state?",
+        "source_paper_id": "paper_0079",
+        "source_paper_title": "Electrochemical synthesis and properties of CoO 2 , the x = 0 phase of the A x CoO 2 systems (A = Li, Na)",
+        "source_url": "https://arxiv.org/abs/0801.2607v1",
+        "rrf_source_rank": 28,
+        "reranked_source_rank": 28,
+        "rrf_top3": [
+          "paper_0070",
+          "paper_0072",
+          "paper_0282"
+        ],
+        "reranked_top3": [
+          "paper_0078",
+          "paper_0070",
+          "paper_0075"
+        ]
+      },
+      {
+        "query_id": "reciper-00097-cefe11b09470a0f1",
+        "question": "What theoretical model, approximations, and numerical parameters were used to compute transport, and what are known limitations of the approach?",
+        "source_paper_id": "paper_0265",
+        "source_paper_title": "Thermoelectric effects of an Aharonov-Bohm interferometer with an embedded quantum dot in the Kondo regime",
+        "source_url": "https://arxiv.org/abs/cond-mat/0211554v2",
+        "rrf_source_rank": 106,
+        "reranked_source_rank": 106,
+        "rrf_top3": [
+          "paper_0289",
+          "paper_0043",
+          "paper_0332"
+        ],
+        "reranked_top3": [
+          "paper_0262",
+          "paper_0013",
+          "paper_0057"
+        ]
+      }
+    ]
+  }
+}

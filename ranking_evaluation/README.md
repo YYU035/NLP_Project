@@ -2,6 +2,28 @@
 
 Person 3 implementation: RRF fusion, optional Cross-Encoder reranking, source-linked evidence selection, retrieval/evidence metrics and reproducible experiments. Person 2's pinned BM25/SBERT implementation has been integrated and evaluated on the complete SciFact dev split. Local CPU/GPU smoke checks and frontend integration checks are available. Scientific evaluation results are development evidence, not untouched final-test claims.
 
+## Additional fixed evaluation datasets
+
+The active domain evaluation set is SciFact, CSFCube and RECIPER. Dataset
+adapters/download manifests are in `shared/datasets/`; runners and scorers are
+in this module. Fixed evaluation collections do not constrain normal live search.
+
+- CSFCube: `run_csfcube.py` / `evaluate_csfcube.py`, expert graded paper-pool ranking.
+- RECIPER: `run_reciper.py` / `evaluate_reciper.py`, all 1,024 questions against
+  the complete 343-paper collection, using the team's title/abstract representation.
+- [RECIPER protocol, commands and results](../shared/datasets/RECIPER_REPORT.md).
+- [Current cross-dataset status](../shared/datasets/EVALUATION_STATUS.md).
+
+RECIPER source targets are generated-QA provenance labels, not expert sentence
+evidence or exhaustive relevance judgments. Keep its source-paper recovery metrics
+separate from SciFact evidence F1. Matter-of-Fact and ClimateCheck scripts/results
+are archived exploration, outside the selected three-dataset result table.
+
+The Cross-Encoder adapter supports explicit CPU, CUDA and Apple MPS devices;
+CUDA/MPS timing includes device synchronization. CPU float64 remains an opt-in
+workaround for the previously observed local CPU nonfinite-score issue. The
+actual run report records device, dtype, model files and software versions.
+
 ## Setup and tests
 
 Run from the repository root with Python 3.11 or newer:
