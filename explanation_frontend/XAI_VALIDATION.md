@@ -1,3 +1,5 @@
+Current final-integration/demo update: see [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) and [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md). Later changes include latest benchmarks, actual-model replays, efficiency instrumentation, word occlusion and additional negative IG studies. Earlier observations below remain historical.
+
 # XAI validation and reproducible evaluation — 9 November 2026
 
 Naila's attribution implementation stays pinned unchanged apart from isolated imports. `xai_runtime.py` adds numerical checks; `evaluation/xai_qc.py` adds gated evaluation. CY's model weights, classifier and threshold are unchanged.

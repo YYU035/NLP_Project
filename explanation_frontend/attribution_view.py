@@ -7,7 +7,7 @@ from .pipeline_setup import NLI_ID, NLI_REVISION
 from .state import start_job, poll_job
 
 
-def explain_passage(snapshot, passage_id, baseline="mask"):
+def explain_passage(snapshot, passage_id, baseline="mask", method="Word occlusion (fast)"):
     import os
     from pathlib import Path
     os.environ.setdefault('MPLCONFIGDIR',str(Path(__file__).parent/'.model-cache/matplotlib'))
@@ -22,6 +22,9 @@ def explain_passage(snapshot, passage_id, baseline="mask"):
             raise ValueError('Attribution input exceeds the original verifier budget')
         native = EvidencePassage(passage_id=passage.passage_id,paper_id=passage.paper_id,
             section=passage.section,text=passage.text,score=passage.score or 0.0)
+        if method=='Word occlusion (fast)':
+            from .occlusion import explain_occlusion
+            return explain_occlusion(verifier,snapshot.claim,native)
         from .xai_runtime import explain_checked
         result = explain_checked(verifier,snapshot.claim,native,baseline=baseline)
     return result
@@ -30,7 +33,7 @@ def explain_passage(snapshot, passage_id, baseline="mask"):
 def render_attribution():
     ss = st.session_state
     st.title('Inspect model attribution')
-    st.write('Naila’s Integrated Gradients shows which words influenced the NLI model. Positive/negative attribution is not evidence that a scientific claim is true or false.')
+    st.write('Inspect which words influence the NLI model with direct word occlusion or Naila’s experimental Integrated Gradients. Positive/negative attribution is not evidence that a scientific claim is true or false.')
     from pathlib import Path
     report_path=Path(__file__).parent/'evaluation/xai-results.json'
     if report_path.is_file():
@@ -41,6 +44,17 @@ def render_attribution():
             st.json(report, expanded=False)
             st.download_button('Download XAI validation summary',json.dumps(report,indent=2),'xai-validation.json','application/json')
 
+    occlusion_report=Path(__file__).parent/'evaluation/occlusion-results.json'
+    if occlusion_report.is_file():
+        with st.expander('Word-occlusion exploratory evaluation (four cases)'):
+            import json
+            study=json.loads(occlusion_report.read_text(encoding='utf-8'))
+            st.caption(study['protocol'])
+            cols=st.columns(2)
+            cols[0].metric('Sentence AP',f"{study['mean_ap']:.3f}",f"random {study['mean_ap_random']:.3f}",delta_color='off')
+            cols[1].metric('Top sentence rationale hit',f"{study['top1_hit_rate']:.0%}",f"random {study['top1_random']:.1%}",delta_color='off')
+            st.json(study['faithfulness'])
+            st.warning('Exploratory four-case dev result; not IG, representative accuracy or a significance test. Gold-target attribution differs from explaining a wrong predicted class.')
     sources = {label: ss[name] for label,name in [('Verification run','snapshot'),('Local PDF run','pdf_snapshot')] if name in ss}
     if not sources:
         st.info('Verify a claim, load a real-model replay, or verify a local PDF first.')
@@ -57,18 +71,34 @@ def render_attribution():
         st.info('This run has no passages to explain.')
         return
     if ss.get('attribution_passage') not in entries:
-        ss.attribution_passage = next(iter(entries))
-    pid = st.selectbox('Passage', list(entries), key='attribution_passage')
-    baseline = st.selectbox('Attribution baseline', ['mask','pad'], key='attribution_baseline',
-        help='Replaces content tokens along the embedding path; special tokens and original attention mask stay fixed. Baseline choice changes the explanation.')
-    key = (snapshot.fingerprint, pid, baseline)
+        decisive=[p.passage_id for p in snapshot.provisional.primary_evidence if p.passage_id in entries]
+        ss.attribution_passage = decisive[0] if decisive else next(iter(entries))
+    pid = st.selectbox('Passage', list(entries), key='attribution_passage',
+        format_func=lambda value: snapshot.papers[entries[value].paper_id].title[:60]+' | '+entries[value].text[:65])
+    method=st.selectbox('Explanation method',['Word occlusion (fast)','Integrated Gradients (experimental)'],key='attribution_method')
+    if method=='Word occlusion (fast)' and ss.get('attribution_baseline')=='pad':ss.attribution_baseline='mask'
+    baseline = st.selectbox('Attribution baseline', ['mask'] if method=='Word occlusion (fast)' else ['mask','pad'], key='attribution_baseline',
+        help='MASK replaces one whole word at a time for occlusion. IG interpolates embeddings from the named baseline. The original attention mask and special tokens stay fixed.')
+    key = (snapshot.fingerprint, pid, baseline, method)
     st.text(snapshot.claim)
     st.text(entries[pid].text)
-    st.caption('Opt-in CPU computation: 32 integration steps, retrying at 128 and 512 if completeness is poor. Explains the pinned model argmax before decision thresholding; the verification result is not changed.')
+    if method=='Integrated Gradients (experimental)':st.caption('Opt-in CPU computation: 32 integration steps, retrying at 128 and 512 if completeness is poor. Explains the pinned model argmax before decision thresholding; the verification result is not changed.')
+    if method=='Word occlusion (fast)':
+        st.caption('Directly measures target-probability change when each word is replaced by MASK. Up to96 words, balanced between evidence and claim; coverage is reported. Scores need not sum to the model output.')
+    if method=='Word occlusion (fast)':
+        from .attribution_cache import load_recorded
+        try:
+            recorded=load_recorded(snapshot,pid)
+        except (ValueError,OSError,KeyError):
+            recorded=None
+            st.warning('Saved attribution could not be validated. No saved scores were substituted; fresh computation remains available.')
+        if recorded is not None and st.button('Load recorded word sensitivity'):
+            ss.attribution_result=(key,recorded)
+            st.rerun()
     if st.button('Compute word attribution', disabled='attribution_job' in ss):
         ss.pop('attribution_result', None)
         ss.pop('attribution_error', None)
-        ss.attribution_job = start_job(lambda s=snapshot,p=pid,b=baseline: explain_passage(s,p,b), key, timeout=600)
+        ss.attribution_job = start_job(lambda s=snapshot,p=pid,b=baseline,m=method: explain_passage(s,p,b,m), key, timeout=600)
         st.rerun()
 
     @st.fragment(run_every=.5 if 'attribution_job' in ss else None)
@@ -78,7 +108,7 @@ def render_attribution():
         job = ss.attribution_job
         status, result = poll_job(job)
         if status == 'pending':
-            st.info('Computing local model gradients…')
+            st.info('Measuring local model responses…' if method=='Word occlusion (fast)' else 'Computing local model gradients…')
             return
         # Keep a timed-out running worker registered; do not admit repeated work.
         if not job.future.done():
@@ -96,17 +126,23 @@ def render_attribution():
     saved = ss.get('attribution_result')
     if saved and saved[0] == key:
         result = saved[1]
+        if result.get('recorded'):st.info(result['recording_note'])
         st.text(f"Explained label: {result['target_label']} | raw model class: {result['target_class']}")
-        st.text(f"Completeness delta: {result['convergence_delta']:.6g}; baseline: {result['settings'].get('baseline','pad')}")
-        st.caption('Larger absolute deltas indicate a less reliable numerical approximation. Attribution is model behaviour, not an independent factual/citation evaluation.')
+        if result.get("kind")=="word_occlusion":
+            st.caption("Measured word-MASK occlusion; not Integrated Gradients. "+str(result["coverage"]["scored_words"])+"/"+str(result["coverage"]["total_words"])+" words scored.")
+            if not result['coverage']['complete']:st.warning('Only the scored words are displayed; unscored words have unknown importance, not zero importance.')
+        else:
+            st.text(f"Completeness delta: {result['convergence_delta']:.6g}; baseline: {result['settings'].get('baseline','pad')}")
+        if result.get('kind')!='word_occlusion':st.caption('Larger absolute deltas indicate a less reliable numerical approximation. Attribution is model behaviour, not an independent factual/citation evaluation.')
         st.caption('Green means a positive contribution toward the explained class relative to this baseline; red means a negative contribution. Neither colour measures factual correctness. The target is the raw model class, which may differ from a thresholded verdict.')
         if result.get('attempts'):
             st.dataframe(result['attempts'], hide_index=True)
         # Text and numeric table instead of executing supplied HTML.
-        if result['numerical_status']=='passed':
+        if result.get('kind')=='word_occlusion' or result.get('numerical_status')=='passed':
             rows = [dict(w, direction='🟢 toward target' if w['attribution'] > 0 else '🔴 away from target' if w['attribution'] < 0 else 'zero') for w in result['words']]
             import pandas as pd
             def colour(value):
+                if abs(value)<.001:return ''
                 return 'background-color: #d9f2dd; color: #153b1c' if value > 0 else 'background-color: #f8dada; color: #541b1b' if value < 0 else ''
             styled = pd.DataFrame(rows).style.map(colour, subset=['attribution','normalized'])
             st.dataframe(styled, hide_index=True)

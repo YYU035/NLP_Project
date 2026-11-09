@@ -22,6 +22,11 @@ def render_reviews():
 
     with st.sidebar:
         st.caption("Use evaluation/run.py to create blinded packets from frozen cases. Upload review_packets.jsonl, not the private method key.")
+        actual=Path(__file__).parent/'showcase/review_packets.jsonl'
+        if actual.is_file() and st.button('Load actual-model review set'):
+            install(load_review_packets(actual.read_bytes()),'Actual SciFact fixed-candidate runs; grounded templates, single method. Human scores pending; model verdict is a reference, not scientific truth.')
+        if actual.is_file():
+            st.download_button('Download blank review CSV',actual.with_name('review_blank.csv').read_bytes(),'review_blank.csv','text/csv')
         if st.button("Load synthetic review set"):
             cases = [json.loads(line) for line in Path(__file__).with_name("evaluation").joinpath("cases.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
             result = run_study(cases, mode="fixture")

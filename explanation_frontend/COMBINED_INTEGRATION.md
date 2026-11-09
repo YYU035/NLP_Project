@@ -1,3 +1,5 @@
+Current final-integration/demo update: see [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) and [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md). Later changes include latest benchmarks, actual-model replays, efficiency instrumentation, word occlusion and additional negative IG studies. Earlier observations below remain historical.
+
 Subsequent XAI validation: see [XAI_VALIDATION.md](XAI_VALIDATION.md) for baseline sensitivity, new numerical gates, real-model SciFact evaluation and the verifier audit. Earlier attribution results below are retained as historical observations.
 
 # Combined team integration - 9 November 2026

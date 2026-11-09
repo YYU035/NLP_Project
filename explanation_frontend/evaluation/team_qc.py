@@ -15,7 +15,7 @@ SOURCES = {
     "raghavi": ("259d2a9e90fb8e9d5988f030a156733f4f3576d1", "live_search"),
     "naila": ("2bc7d81292313498fd70dd13656024d00cf3dda4", "retrieval"),
     "yuyue": ("a91e257ab260ded8df8c2cc2f214c4c7fd16af6c", "ranking_evaluation"),
-    "yuyue_current": ("7ed93fa4be69c661422b33b6c88b949dd2636e12", "ranking_evaluation"),
+    "yuyue_current": ("90aaca109585c12c877367b1a08fe4dfee4a4de3", "ranking_evaluation"),
     "chong_yao": ("1ac06b675e3d0719a63cb8efe98eda4f2c5fd576", "claim_verifier"),
 }
 

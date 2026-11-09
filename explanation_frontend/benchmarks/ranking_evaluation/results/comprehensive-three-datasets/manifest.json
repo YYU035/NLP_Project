@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "scope": "Person 3 retrieval/ranking and available gold evidence evaluation; not three-domain final verdict evaluation",
+  "active_datasets": [
+    "SciFact",
+    "CSFCube",
+    "RECIPER"
+  ],
+  "sources_sha256": {
+    "outputs/datasets/csfcube-fold1-dev-four-methods/comparison.json": "76e4dc5848c1491085807a7cb8f523bee7525f8d8975527651850f212f8884bc",
+    "outputs/datasets/csfcube-fold1-test-four-methods/comparison.json": "839c776f3ae34338288505411c94193f27c7d8b82fe77ef7688fe7ba2cd71922",
+    "outputs/datasets/reciper-full-343-papers-1024-questions-mps-four-methods/comparison.json": "3e446d62f51572fba26132724816f717147ae9113e7a1a7017ae7de2985ab5f2",
+    "ranking_evaluation/results/person3-v2/retrieval-results.csv": "d9f828644faf116064f8f69b180c9fe2e4d907c3ce13def9413f1d89bd1dc5dc",
+    "ranking_evaluation/results/person3-v2/semantic-dev-summary.json": "dd503fcd4a6d10cb07355350413bc91c0f1dc27e73f1a48a7dd8e2b5810b17e6"
+  },
+  "analysis_sha256": "7f69a153e55774315a79f0252df229ce9737146e2db91d5dfc264963da51b7b6",
+  "checks": [
+    {
+      "dataset": "CSFCube",
+      "split": "fold1_dev",
+      "saved_metrics_recomputed": true,
+      "complete_candidate_rankings": true,
+      "rrf60_replay_matches_runtime": true,
+      "cached_rerank_prefix_integrity": true,
+      "eligible_queries": 24,
+      "clusters": 19
+    },
+    {
+      "dataset": "CSFCube",
+      "split": "fold1_test",
+      "saved_metrics_recomputed": true,
+      "complete_candidate_rankings": true,
+      "rrf60_replay_matches_runtime": true,
+      "cached_rerank_prefix_integrity": true,
+      "eligible_queries": 26,
+      "clusters": 22
+    },
+    {
+      "dataset": "RECIPER",
+      "split": "entire_release_zero_shot",
+      "saved_metrics_recomputed": true,
+      "complete_candidate_rankings": true,
+      "rrf60_replay_matches_runtime": true,
+      "cached_rerank_prefix_integrity": true,
+      "eligible_queries": 1024,
+      "clusters": 343
+    },
+    {
+      "dataset": "SciFact",
+      "summary_metrics_in_range": true,
+      "evidence_micro_arithmetic_verified": true,
+      "qualification": "Original measured summaries reused; no new inference or query-level confidence intervals because full original raw rankings are not in this checkout."
+    }
+  ],
+  "csfcube_split_audit": {
+    "query_id_overlap": 0,
+    "query_paper_id_overlap": 7,
+    "qualification": "Official query/facet split; not a paper-disjoint independent test."
+  },
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed_base": 20261109,
+  "numpy_version": "2.5.4",
+  "uncertainty_policy": "Exploratory paired percentile cluster bootstrap, 2000 draws by default; no multiplicity correction, no confirmatory significance claim or tuning on test results.",
+  "replay_policy": "RRF constants replay exact exported branches. Smaller CE prefixes restrict cached CE20 order; no new inference or latency reduction is claimed.",
+  "output_sha256": {
+    "ablations.csv": "74e15b9e684fb5cf0676314bf4cd1f43334bb47bc86ad4d35865fe33c92e8e4a",
+    "evidence_summary.csv": "1dd6d0d138508e6178ca8843a454427d84ace0f12828209c00d61329313b203b",
+    "latency.csv": "0d06a73d47daaa82ac2c19d081ff52281e599698fc0629bd07949a7e413658cc",
+    "ranking_summary.csv": "f3610b26a4a0ab0aed6fa01424b5a7bc3fe554b6d7f561415aac5c8817fa8b80",
+    "uncertainty.csv": "4543878b0b416bc23e91cba79044c58c03c2858e24e2b31776c9b24ee513fb3e"
+  }
+}

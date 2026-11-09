@@ -4,12 +4,18 @@ from streamlit.testing.v1 import AppTest
 APP = str(Path(__file__).parents[1] / "app.py")
 
 
+def discovery_app():
+    app=AppTest.from_file(APP)
+    app.session_state['workspace']='Find papers'
+    return app.run()
+
+
 def button(app, label):
     return next(b for b in app.button if b.label == label)
 
 
 def test_recorded_real_discovery_has_no_scientific_verdict_and_resolves_details():
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     assert not app.exception
     button(app, "Load recorded search").click().run()
     assert not app.exception
@@ -21,7 +27,7 @@ def test_recorded_real_discovery_has_no_scientific_verdict_and_resolves_details(
 
 
 def test_filtering_and_paging_do_not_lose_selections():
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     button(app, "Load recorded search").click().run()
     app.checkbox[0].uncheck().run()
     assert any(m.label == "Selected" and m.value == "31" for m in app.metric)
@@ -36,7 +42,7 @@ def test_filtering_and_paging_do_not_lose_selections():
 
 
 def test_live_discovery_is_explicit_and_input_edits_clear_previous_result(monkeypatch):
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     app.selectbox(key="discovery_source").set_value("Live search").run()
     assert not app.metric
     assert any("local models" in t.value.lower() for t in app.info)
@@ -47,7 +53,7 @@ def test_live_discovery_is_explicit_and_input_edits_clear_previous_result(monkey
 
 
 def test_navigation_retains_discovery_without_attaching_a_verdict_to_it():
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     button(app, "Load recorded search").click().run()
     app.radio(key="workspace").set_value("Verify evidence").run()
     assert not app.exception
@@ -61,7 +67,7 @@ def test_navigation_retains_discovery_without_attaching_a_verdict_to_it():
 
 
 def test_navigation_restores_exact_claim_and_source_mode():
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     app.radio(key="workspace").set_value("Verify evidence").run()
     app.selectbox(key="mode").set_value("Live").run()
     app.text_area(key="claim").set_value("Exact edited claim with 12%.").run()
@@ -73,7 +79,7 @@ def test_navigation_restores_exact_claim_and_source_mode():
 
 def test_selected_search_handoff_opens_verification_without_running_or_fabricating_results(monkeypatch):
     monkeypatch.setenv("EXPLANATION_VERIFY_DISCOVERY_FACTORY", "")
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     button(app, "Load recorded search").click().run()
     app.checkbox[0].uncheck().run()
     button(app, "Prepare selected papers for verification").click().run()
@@ -87,7 +93,7 @@ def test_selected_search_handoff_opens_verification_without_running_or_fabricati
 
 
 def test_returning_to_selected_search_restores_its_exact_locked_claim():
-    app = AppTest.from_file(APP).run()
+    app = discovery_app()
     button(app, "Load recorded search").click().run()
     button(app, "Prepare selected papers for verification").click().run()
     exact = app.session_state["pending_discovery"]["snapshot"].result.original_claim

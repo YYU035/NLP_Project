@@ -1,0 +1,893 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:08.395110+00:00",
+    "claim": "Activation of PPM1D suppresses p53 function.",
+    "created_at": "2026-11-09T14:33:08.395110Z",
+    "retrieved_at": "2026-11-09T14:33:07.228810Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"8f41722b6375287722d4cddce2f92a0870d8ba06c21ece18f7f1660985dbbd52\", \"candidates\": {\"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:5956380\", \"identity_aliases\": [\"scifact:5956380\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas\", \"authors\": [], \"abstract\": \"Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas\", \"authors\": [], \"abstract\": \"Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:70455704\", \"identity_aliases\": [\"scifact:70455704\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Weight gain during pregnancy: reexamining the guidelines.\", \"authors\": [], \"abstract\": \"As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Weight gain during pregnancy: reexamining the guidelines.\", \"authors\": [], \"abstract\": \"As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:6137330\", \"identity_aliases\": [\"scifact:6137330\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.\", \"authors\": [], \"abstract\": \"OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \\n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \\\"Methodology for Development of Guidelines for Lung Cancer\\\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \\n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \\n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.\", \"authors\": [], \"abstract\": \"OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \\n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \\\"Methodology for Development of Guidelines for Lung Cancer\\\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \\n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \\n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Activation of PPM1D suppresses p53 function.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas\", \"authors\": [], \"abstract\": \"Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"Weight gain during pregnancy: reexamining the guidelines.\", \"authors\": [], \"abstract\": \"As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.\", \"authors\": [], \"abstract\": \"OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \\n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \\\"Methodology for Development of Guidelines for Lung Cancer\\\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \\n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \\n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:5956380\", \"scifact:70455704\", \"scifact:6137330\"], \"sbert_ranking\": [\"scifact:5956380\", \"scifact:6137330\", \"scifact:70455704\"], \"bm25_seconds\": 8.869997691363096e-05, \"sbert_seconds\": 0.011370399966835976}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:5956380\", \"identity_aliases\": [\"scifact:5956380\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas\", \"authors\": [], \"abstract\": \"Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas\", \"authors\": [], \"abstract\": \"Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5956380\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:6137330\", \"identity_aliases\": [\"scifact:6137330\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.\", \"authors\": [], \"abstract\": \"OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \\n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \\\"Methodology for Development of Guidelines for Lung Cancer\\\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \\n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \\n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.\", \"authors\": [], \"abstract\": \"OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \\n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \\\"Methodology for Development of Guidelines for Lung Cancer\\\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \\n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \\n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"6137330\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 3, \"sbert_rank\": 2, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:70455704\", \"identity_aliases\": [\"scifact:70455704\"], \"original_claim\": \"Activation of PPM1D suppresses p53 function.\", \"paper\": {\"title\": \"Weight gain during pregnancy: reexamining the guidelines.\", \"authors\": [], \"abstract\": \"As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Weight gain during pregnancy: reexamining the guidelines.\", \"authors\": [], \"abstract\": \"As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"70455704\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 2, \"sbert_rank\": 3, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 8.869997691363096e-05, \"sbert_seconds\": 0.011370399966835976, \"rrf_seconds\": 0.00013939995551481843, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.000291300006210804, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:5956380\": {\"passages\": [{\"passage_id\": \"scifact:5956380:abstract:624:730:6b24238c53ab\", \"paper_id\": \"scifact:5956380\", \"section\": \"abstract\", \"text\": \"PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.\", \"score\": 0.796806275844574}, {\"passage_id\": \"scifact:5956380:abstract:396:599:ab0db26a3bd2\", \"paper_id\": \"scifact:5956380\", \"section\": \"abstract\", \"text\": \"This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p.\", \"score\": 0.66075599193573}, {\"passage_id\": \"scifact:5956380:abstract:731:898:96120d47fa69\", \"paper_id\": \"scifact:5956380\", \"section\": \"abstract\", \"text\": \"PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2.\", \"score\": 0.5556953549385071}], \"source_spans\": [{\"paper_id\": \"scifact:5956380\", \"sentence_indices\": [5], \"start\": 624, \"end\": 730, \"text\": \"PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.\", \"score\": 0.796806275844574, \"passage_id\": \"scifact:5956380:abstract:624:730:6b24238c53ab\"}, {\"paper_id\": \"scifact:5956380\", \"sentence_indices\": [3], \"start\": 396, \"end\": 599, \"text\": \"This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p.\", \"score\": 0.66075599193573, \"passage_id\": \"scifact:5956380:abstract:396:599:ab0db26a3bd2\"}, {\"paper_id\": \"scifact:5956380\", \"sentence_indices\": [6], \"start\": 731, \"end\": 898, \"text\": \"PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2.\", \"score\": 0.5556953549385071, \"passage_id\": \"scifact:5956380:abstract:731:898:96120d47fa69\"}], \"budget_checks\": [{\"passage_id\": \"scifact:5956380:abstract:624:730:6b24238c53ab\", \"pair_tokens\": 35, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:5956380:abstract:396:599:ab0db26a3bd2\", \"pair_tokens\": 68, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:5956380:abstract:731:898:96120d47fa69\", \"pair_tokens\": 48, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:6137330\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:70455704\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:5956380": {
+        "paper_id": "scifact:5956380",
+        "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 3.9294269375591595,
+          "sbert": 0.5349801182746887,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:6137330": {
+        "paper_id": "scifact:6137330",
+        "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": 0.025602448731660843,
+          "rrf": 0.03200204813108039
+        }
+      },
+      "scifact:70455704": {
+        "paper_id": "scifact:70455704",
+        "title": "Weight gain during pregnancy: reexamining the guidelines.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": 0.018417036160826683,
+          "rrf": 0.03200204813108039
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:5956380": {
+          "paper_id": "scifact:5956380",
+          "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8864554166793823,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "scifact:5956380:abstract:624:730:6b24238c53ab"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "scifact:6137330": {
+          "paper_id": "scifact:6137330",
+          "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:70455704": {
+          "paper_id": "scifact:70455704",
+          "title": "Weight gain during pregnancy: reexamining the guidelines.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:5956380:abstract:624:730:6b24238c53ab": {
+          "passage_id": "scifact:5956380:abstract:624:730:6b24238c53ab",
+          "paper_id": "scifact:5956380",
+          "label": "SUPPORT",
+          "confidence": 0.8864554166793823,
+          "truncated": false
+        },
+        "scifact:5956380:abstract:396:599:ab0db26a3bd2": {
+          "passage_id": "scifact:5956380:abstract:396:599:ab0db26a3bd2",
+          "paper_id": "scifact:5956380",
+          "label": "NEUTRAL",
+          "confidence": 0.9980093836784363,
+          "truncated": false
+        },
+        "scifact:5956380:abstract:731:898:96120d47fa69": {
+          "passage_id": "scifact:5956380:abstract:731:898:96120d47fa69",
+          "paper_id": "scifact:5956380",
+          "label": "NEUTRAL",
+          "confidence": 0.9908879995346069,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:5956380:abstract:624:730:6b24238c53ab",
+          "paper_id": "scifact:5956380",
+          "section": "abstract",
+          "text": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.",
+          "score": 0.796806275844574,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:5956380:abstract:396:599:ab0db26a3bd2",
+          "paper_id": "scifact:5956380",
+          "section": "abstract",
+          "text": "This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p.",
+          "score": 0.66075599193573,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:5956380:abstract:731:898:96120d47fa69",
+          "paper_id": "scifact:5956380",
+          "section": "abstract",
+          "text": "PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2.",
+          "score": 0.5556953549385071,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Activation of PPM1D suppresses p53 function.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:5956380:abstract:624:730:6b24238c53ab",
+          "paper_id": "scifact:5956380",
+          "section": "abstract",
+          "text": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.",
+          "score": 0.796806275844574,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.8864554166793823,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "1.1665274999686517",
+      "ranking_output_sha256": "825dc30241ff81049f1a4b74f2ee8daa62abe51f7f948077093b774c9b02577b"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:07.228810Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Activation of PPM1D suppresses p53 function.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:5956380",
+            "identity_aliases": [
+              "scifact:5956380"
+            ],
+            "original_claim": "Activation of PPM1D suppresses p53 function.",
+            "paper": {
+              "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+              "authors": [],
+              "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "5956380",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "5956380",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                "authors": [],
+                "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "5956380",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:70455704",
+            "identity_aliases": [
+              "scifact:70455704"
+            ],
+            "original_claim": "Activation of PPM1D suppresses p53 function.",
+            "paper": {
+              "title": "Weight gain during pregnancy: reexamining the guidelines.",
+              "authors": [],
+              "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "70455704",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "70455704",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                "authors": [],
+                "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "70455704",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:6137330",
+            "identity_aliases": [
+              "scifact:6137330"
+            ],
+            "original_claim": "Activation of PPM1D suppresses p53 function.",
+            "paper": {
+              "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+              "authors": [],
+              "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "6137330",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "6137330",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                "authors": [],
+                "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "6137330",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Activation of PPM1D suppresses p53 function.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                  "authors": [],
+                  "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5956380",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                  "authors": [],
+                  "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "70455704",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                  "authors": [],
+                  "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "6137330",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:5956380",
+        "scifact:6137330",
+        "scifact:70455704"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "8f41722b6375287722d4cddce2f92a0870d8ba06c21ece18f7f1660985dbbd52",
+          "candidates": {
+            "original_claim": "Activation of PPM1D suppresses p53 function.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:5956380",
+                "identity_aliases": [
+                  "scifact:5956380"
+                ],
+                "original_claim": "Activation of PPM1D suppresses p53 function.",
+                "paper": {
+                  "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                  "authors": [],
+                  "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5956380",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "5956380",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                    "authors": [],
+                    "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "5956380",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:70455704",
+                "identity_aliases": [
+                  "scifact:70455704"
+                ],
+                "original_claim": "Activation of PPM1D suppresses p53 function.",
+                "paper": {
+                  "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                  "authors": [],
+                  "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "70455704",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "70455704",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                    "authors": [],
+                    "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "70455704",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:6137330",
+                "identity_aliases": [
+                  "scifact:6137330"
+                ],
+                "original_claim": "Activation of PPM1D suppresses p53 function.",
+                "paper": {
+                  "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                  "authors": [],
+                  "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "6137330",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "6137330",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                    "authors": [],
+                    "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "6137330",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Activation of PPM1D suppresses p53 function.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                      "authors": [],
+                      "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "5956380",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                      "authors": [],
+                      "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "70455704",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                      "authors": [],
+                      "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "6137330",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:5956380",
+            "scifact:70455704",
+            "scifact:6137330"
+          ],
+          "sbert_ranking": [
+            "scifact:5956380",
+            "scifact:6137330",
+            "scifact:70455704"
+          ],
+          "bm25_seconds": 0.00008869997691363096,
+          "sbert_seconds": 0.011370399966835976
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:5956380",
+              "identity_aliases": [
+                "scifact:5956380"
+              ],
+              "original_claim": "Activation of PPM1D suppresses p53 function.",
+              "paper": {
+                "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                "authors": [],
+                "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "5956380",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "5956380",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+                  "authors": [],
+                  "abstract": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect. To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas. We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas. This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p. Lys27Met substitutions. PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2. These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5956380",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:6137330",
+              "identity_aliases": [
+                "scifact:6137330"
+              ],
+              "original_claim": "Activation of PPM1D suppresses p53 function.",
+              "paper": {
+                "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                "authors": [],
+                "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "6137330",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "6137330",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines.",
+                  "authors": [],
+                  "abstract": "OBJECTIVES The objective of this article is to update previous evidence-based recommendations for evaluation and management of individuals with solid pulmonary nodules and to generate new recommendations for those with nonsolid nodules.   \n METHODS We updated prior literature reviews, synthesized evidence, and formulated recommendations by using the methods described in the \"Methodology for Development of Guidelines for Lung Cancer\" in the American College of Chest Physicians Lung Cancer Guidelines, 3rd ed.   \n RESULTS We formulated recommendations for evaluating solid pulmonary nodules that measure > 8 mm in diameter, solid nodules that measure ≤ 8 mm in diameter, and subsolid nodules. The recommendations stress the value of assessing the probability of malignancy, the utility of imaging tests, the need to weigh the benefits and harms of different management strategies (nonsurgical biopsy, surgical resection, and surveillance with chest CT imaging), and the importance of eliciting patient preferences.   \n CONCLUSIONS Individuals with pulmonary nodules should be evaluated and managed by estimating the probability of malignancy, performing imaging tests to better characterize the lesions, evaluating the risks associated with various management alternatives, and eliciting their preferences for management.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "6137330",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 3,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:70455704",
+              "identity_aliases": [
+                "scifact:70455704"
+              ],
+              "original_claim": "Activation of PPM1D suppresses p53 function.",
+              "paper": {
+                "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                "authors": [],
+                "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "70455704",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "70455704",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Weight gain during pregnancy: reexamining the guidelines.",
+                  "authors": [],
+                  "abstract": "As women of childbearing age have become heavier, the trade-off between maternal and child health created by variation in gestational weight gain has become more difficult to reconcile. Weight Gain During Pregnancy responds to the need for a reexamination of the 1990 Institute of Medicine guidelines for weight gain during pregnancy. It builds on the conceptual framework that underscored the 1990 weight gain guidelines and addresses the need to update them through a comprehensive review of the literature and independent analyses of existing databases. The book explores relationships between weight gain during pregnancy and a variety of factors (e.g., the mother's weight and height before pregnancy) and places this in the context of the health of the infant and the mother, presenting specific, updated target ranges for weight gain during pregnancy and guidelines for proper measurement. New features of this book include a specific range of recommended gain for obese women. Weight Gain During Pregnancy is intended to assist practitioners who care for women of childbearing age, policy makers, educators, researchers, and the pregnant women themselves to understand the role of gestational weight gain and to provide them with the tools needed to promote optimal pregnancy outcomes.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "70455704",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 2,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00008869997691363096,
+          "sbert_seconds": 0.011370399966835976,
+          "rrf_seconds": 0.00013939995551481843,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.000291300006210804,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "14ec01acf5bf41c415d15b02f77a9f2d3387b03b4d83e9fb4a6e967e30a5e976",
+  "selected_paper_ids": [
+    "scifact:5956380",
+    "scifact:6137330",
+    "scifact:70455704"
+  ],
+  "aggregation": {
+    "claim": "Activation of PPM1D suppresses p53 function.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:5956380:abstract:624:730:6b24238c53ab",
+        "paper_id": "scifact:5956380",
+        "section": "abstract",
+        "text": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.",
+        "score": 0.796806275844574,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.8864554166793823,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "c1d64bf0e6a7ba2776369234452224b0b3ec02bff603f66dcab132381534205c",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro.",
+        "citation_ids": [
+          "scifact:5956380:abstract:624:730:6b24238c53ab"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -21,6 +21,12 @@ metric columns and limitations. All paths are relative to the repository root.
    their status/output directories. Benchmark setup and long model runs should
    not silently run when rendering an app page.
 
+The catalog's `comprehensive_results` section additionally links unified ranking,
+evidence, ablation, latency and exploratory confidence-interval CSVs plus the
+English report. CSFCube now defaults to its 26-task test group and retains
+development result paths separately. Preserve the split label when displaying
+those records.
+
 ## Reading the committed results
 
 Python's standard library is sufficient for a lightweight result reader:

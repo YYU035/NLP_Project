@@ -23,7 +23,7 @@ def reliability(result):
 
 
 def explain_checked(verifier, claim, passage, *, baseline='mask', steps=(32,128,512),
-                    target=None, sentences=None, return_run=False):
+                    target=None, sentences=None, return_run=False, integration="gauss"):
     """Fixed baseline; retry quadrature without changing target or replacing failed scores."""
     if baseline not in {'pad','mask','unk'}:
         raise ValueError('Unsupported baseline')
@@ -32,17 +32,27 @@ def explain_checked(verifier, claim, passage, *, baseline='mask', steps=(32,128,
     text = ' '.join(sentences) if sentences is not None else getattr(passage,'text',passage)
     if len(verifier.tokenizer.encode(text,claim,add_special_tokens=True,truncation=False)) > verifier.max_length:
         raise ValueError('Attribution input exceeds the original verifier budget')
+    if integration not in {'gauss','adaptive'}: raise ValueError('Unknown integration method')
     attempts=[]
-    for n in steps:
+    for n in (steps if integration=='gauss' else (max(steps),)):
         started=time.perf_counter()
         explainer=IGExplainer(verifier,n_steps=n,internal_batch_size=1,baseline=baseline)
-        run=explainer._run(text,claim,target)
+        diagnostics=None
+        if integration=='adaptive':
+            from .adaptive_ig import adaptive_run
+            run,diagnostics=adaptive_run(explainer,text,claim,target,max_evaluations=n)
+        else:
+            run=explainer._run(text,claim,target)
         from ._upstream.claim_verifier.schemas import EvidencePassage
         native=passage if not isinstance(passage,str) else EvidencePassage(
             passage_id='diagnostic',paper_id='diagnostic',section='abstract',text=passage)
         exp=explainer._build_explanation(run,native,claim,text,sentences)
         result=exp.model_dump(mode='json')
         result.update(reliability(result))
+        if diagnostics is not None:
+            result['quadrature']=diagnostics
+            result['settings']['method']=diagnostics['method']
+            if not diagnostics['local_quadrature_passed']:result['numerical_status']='unstable'
         attempts.append({'steps':n,'seconds':time.perf_counter()-started,
                          'absolute_error':result['absolute_completeness_error'],
                          'relative_error':result['relative_completeness_error'],

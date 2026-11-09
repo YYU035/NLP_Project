@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "scope": "Offline full gold-cited abstract audit; annotated same-label claim/document pairs only; not deployed pipeline accuracy",
+  "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "threshold": 0.5,
+  "max_length": 512,
+  "dtype": "float32",
+  "mode": "eval",
+  "data_sha256": {
+    "corpus.jsonl": "2a20df4ad6015fb1a9c7d4a1ad076bbaa02ac5d5cf0e60c3a8d22bb75f86b92c",
+    "claims_dev.jsonl": "befd05e7ec5f1d36378d3fc22c9f7092ee7ad9265bb24a678679118c53ce2792"
+  },
+  "data_line_endings": "Hashes correspond to CRLF isolated QC staging; LF source bytes differ only by line endings.",
+  "data_git_revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+  "results": {
+    "total_pairs": 209,
+    "usable_nontruncated": 181,
+    "excluded": 28,
+    "support_pairs": 121,
+    "support_predicted_neutral": 21,
+    "confusion_matrix": {
+      "SUPPORT": {
+        "SUPPORT": 91,
+        "CONTRADICT": 9,
+        "NEUTRAL": 21
+      },
+      "CONTRADICT": {
+        "SUPPORT": 8,
+        "CONTRADICT": 40,
+        "NEUTRAL": 12
+      }
+    },
+    "note": "Thresholded native verifier, full gold-cited abstracts, not pipeline or original 116/216 experiment."
+  },
+  "original_116_of_216": "Not reproduced or attributable to this protocol. Requires original confusion matrix, split, model and input settings.",
+  "accuracy_nontruncated": 0.7237569060773481,
+  "support_to_neutral_rate_nontruncated": 0.17355371900826447,
+  "canonical_git_data_sha256": {
+    "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+  },
+  "line_ending_equivalence_verified": true,
+  "classification_metrics": {
+    "per_gold_class": {
+      "SUPPORT": {
+        "precision": 0.9191919191919192,
+        "recall": 0.7520661157024794,
+        "f1": 0.8272727272727274,
+        "support": 121
+      },
+      "CONTRADICT": {
+        "precision": 0.8163265306122449,
+        "recall": 0.6666666666666666,
+        "f1": 0.7339449541284403,
+        "support": 60
+      }
+    },
+    "macro_f1_over_two_annotated_classes": 0.7806088407005838,
+    "scope": "Gold-cited full abstracts, nontruncated annotated SUPPORT/CONTRADICT pairs only. No gold NEUTRAL cohort; not three-class or deployed-pipeline performance."
+  }
+}

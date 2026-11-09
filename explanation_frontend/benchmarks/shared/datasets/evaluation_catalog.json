@@ -45,12 +45,12 @@
       "name": "CSFCube",
       "domain": "Computer science",
       "task": "Expert graded candidate-paper pool ranking",
-      "split": "fold1_dev, all facets",
+      "split": "fold1_test, all facets",
       "query_unit": "query/facet task",
-      "total_queries": 24,
+      "total_queries": 26,
       "corpus_documents": 4207,
-      "ranking_summary_path": "ranking_evaluation/results/csfcube-fold1-dev/summary.csv",
-      "provenance_path": "ranking_evaluation/results/csfcube-fold1-dev/manifest.json",
+      "ranking_summary_path": "ranking_evaluation/results/csfcube-fold1-test/summary.csv",
+      "provenance_path": "ranking_evaluation/results/csfcube-fold1-test/manifest.json",
       "report_path": "shared/datasets/CSFCUBE_REPORT.md",
       "method_key_columns": [
         "method"
@@ -67,8 +67,12 @@
         "Released judged pools, not full-corpus search",
         "Binary positive threshold is grade >=2; graded nDCG is separately reported",
         "Query-paper self matches are excluded",
-        "No sentence evidence or verification gold"
-      ]
+        "No sentence evidence or verification gold",
+        "Official dev/test query/facet IDs are disjoint; seven query-paper IDs overlap across the splits"
+      ],
+      "ranking_eligible_queries": 26,
+      "development_summary_path": "ranking_evaluation/results/csfcube-fold1-dev/summary.csv",
+      "development_provenance_path": "ranking_evaluation/results/csfcube-fold1-dev/manifest.json"
     },
     {
       "id": "reciper",
@@ -102,5 +106,14 @@
         "No expert sentence evidence or final-verdict gold"
       ]
     }
-  ]
+  ],
+  "comprehensive_results": {
+    "report_path": "shared/COMPREHENSIVE_EVALUATION.md",
+    "ranking_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/ranking_summary.csv",
+    "ablation_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/ablations.csv",
+    "uncertainty_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/uncertainty.csv",
+    "latency_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/latency.csv",
+    "evidence_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/evidence_summary.csv",
+    "manifest_path": "ranking_evaluation/results/comprehensive-three-datasets/manifest.json"
+  }
 }

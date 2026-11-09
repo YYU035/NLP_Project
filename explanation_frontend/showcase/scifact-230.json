@@ -1,0 +1,893 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:06.153905+00:00",
+    "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+    "created_at": "2026-11-09T14:33:06.153905Z",
+    "retrieved_at": "2026-11-09T14:33:03.475511Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"d25572a37a5232e156bf4c6e9cda73805dacba83c7ce6cc373e1da2b1124eda8\", \"candidates\": {\"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:3067015\", \"identity_aliases\": [\"scifact:3067015\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach\", \"authors\": [], \"abstract\": \"BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \\n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \\n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach\", \"authors\": [], \"abstract\": \"BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \\n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \\n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:8460275\", \"identity_aliases\": [\"scifact:8460275\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1\", \"authors\": [], \"abstract\": \"Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1\", \"authors\": [], \"abstract\": \"Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:2095573\", \"identity_aliases\": [\"scifact:2095573\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"LDL-cholesterol concentrations: a genome-wide association study\", \"authors\": [], \"abstract\": \"BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \\n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \\n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"LDL-cholesterol concentrations: a genome-wide association study\", \"authors\": [], \"abstract\": \"BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \\n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \\n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach\", \"authors\": [], \"abstract\": \"BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \\n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \\n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1\", \"authors\": [], \"abstract\": \"Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"LDL-cholesterol concentrations: a genome-wide association study\", \"authors\": [], \"abstract\": \"BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \\n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \\n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:3067015\", \"scifact:8460275\", \"scifact:2095573\"], \"sbert_ranking\": [\"scifact:3067015\", \"scifact:2095573\", \"scifact:8460275\"], \"bm25_seconds\": 0.0001674999948590994, \"sbert_seconds\": 0.008726299973204732}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:3067015\", \"identity_aliases\": [\"scifact:3067015\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach\", \"authors\": [], \"abstract\": \"BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \\n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \\n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach\", \"authors\": [], \"abstract\": \"BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \\n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \\n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"3067015\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:2095573\", \"identity_aliases\": [\"scifact:2095573\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"LDL-cholesterol concentrations: a genome-wide association study\", \"authors\": [], \"abstract\": \"BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \\n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \\n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"LDL-cholesterol concentrations: a genome-wide association study\", \"authors\": [], \"abstract\": \"BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \\n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \\n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"2095573\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 3, \"sbert_rank\": 2, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:8460275\", \"identity_aliases\": [\"scifact:8460275\"], \"original_claim\": \"Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.\", \"paper\": {\"title\": \"The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1\", \"authors\": [], \"abstract\": \"Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1\", \"authors\": [], \"abstract\": \"Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8460275\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 2, \"sbert_rank\": 3, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 0.0001674999948590994, \"sbert_seconds\": 0.008726299973204732, \"rrf_seconds\": 0.00011359999189153314, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.0005828999564982951, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:3067015\": {\"passages\": [{\"passage_id\": \"scifact:3067015:abstract:288:491:2754d8c0ee7d\", \"paper_id\": \"scifact:3067015\", \"section\": \"abstract\", \"text\": \"Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption.\", \"score\": 0.6636903285980225}, {\"passage_id\": \"scifact:3067015:abstract:492:552:e1dc117a8df9\", \"paper_id\": \"scifact:3067015\", \"section\": \"abstract\", \"text\": \"ALDH2 encodes a major enzyme involved in alcohol metabolism.\", \"score\": 0.6429280042648315}, {\"passage_id\": \"scifact:3067015:abstract:553:754:ffcc45a8a046\", \"paper_id\": \"scifact:3067015\", \"section\": \"abstract\", \"text\": \"Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.\", \"score\": 0.5949814319610596}], \"source_spans\": [{\"paper_id\": \"scifact:3067015\", \"sentence_indices\": [2], \"start\": 288, \"end\": 491, \"text\": \"Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption.\", \"score\": 0.6636903285980225, \"passage_id\": \"scifact:3067015:abstract:288:491:2754d8c0ee7d\"}, {\"paper_id\": \"scifact:3067015\", \"sentence_indices\": [3], \"start\": 492, \"end\": 552, \"text\": \"ALDH2 encodes a major enzyme involved in alcohol metabolism.\", \"score\": 0.6429280042648315, \"passage_id\": \"scifact:3067015:abstract:492:552:e1dc117a8df9\"}, {\"paper_id\": \"scifact:3067015\", \"sentence_indices\": [4], \"start\": 553, \"end\": 754, \"text\": \"Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.\", \"score\": 0.5949814319610596, \"passage_id\": \"scifact:3067015:abstract:553:754:ffcc45a8a046\"}], \"budget_checks\": [{\"passage_id\": \"scifact:3067015:abstract:288:491:2754d8c0ee7d\", \"pair_tokens\": 55, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:3067015:abstract:492:552:e1dc117a8df9\", \"pair_tokens\": 31, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:3067015:abstract:553:754:ffcc45a8a046\", \"pair_tokens\": 63, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:2095573\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:8460275\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:3067015": {
+        "paper_id": "scifact:3067015",
+        "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 5.912047925553882,
+          "sbert": 0.6172463297843933,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:2095573": {
+        "paper_id": "scifact:2095573",
+        "title": "LDL-cholesterol concentrations: a genome-wide association study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": 0.20179876685142517,
+          "rrf": 0.03200204813108039
+        }
+      },
+      "scifact:8460275": {
+        "paper_id": "scifact:8460275",
+        "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": 0.07319149374961853,
+          "rrf": 0.03200204813108039
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:3067015": {
+          "paper_id": "scifact:3067015",
+          "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+          "verdict": "SUPPORTED",
+          "confidence": 0.7700719833374023,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "scifact:3067015:abstract:553:754:ffcc45a8a046"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "scifact:2095573": {
+          "paper_id": "scifact:2095573",
+          "title": "LDL-cholesterol concentrations: a genome-wide association study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:8460275": {
+          "paper_id": "scifact:8460275",
+          "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:3067015:abstract:288:491:2754d8c0ee7d": {
+          "passage_id": "scifact:3067015:abstract:288:491:2754d8c0ee7d",
+          "paper_id": "scifact:3067015",
+          "label": "NEUTRAL",
+          "confidence": 0.9980448484420776,
+          "truncated": false
+        },
+        "scifact:3067015:abstract:492:552:e1dc117a8df9": {
+          "passage_id": "scifact:3067015:abstract:492:552:e1dc117a8df9",
+          "paper_id": "scifact:3067015",
+          "label": "NEUTRAL",
+          "confidence": 0.9994916915893555,
+          "truncated": false
+        },
+        "scifact:3067015:abstract:553:754:ffcc45a8a046": {
+          "passage_id": "scifact:3067015:abstract:553:754:ffcc45a8a046",
+          "paper_id": "scifact:3067015",
+          "label": "SUPPORT",
+          "confidence": 0.7700719833374023,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:3067015:abstract:288:491:2754d8c0ee7d",
+          "paper_id": "scifact:3067015",
+          "section": "abstract",
+          "text": "Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption.",
+          "score": 0.6636903285980225,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:3067015:abstract:492:552:e1dc117a8df9",
+          "paper_id": "scifact:3067015",
+          "section": "abstract",
+          "text": "ALDH2 encodes a major enzyme involved in alcohol metabolism.",
+          "score": 0.6429280042648315,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:3067015:abstract:553:754:ffcc45a8a046",
+          "paper_id": "scifact:3067015",
+          "section": "abstract",
+          "text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.",
+          "score": 0.5949814319610596,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:3067015:abstract:553:754:ffcc45a8a046",
+          "paper_id": "scifact:3067015",
+          "section": "abstract",
+          "text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.",
+          "score": 0.5949814319610596,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.7700719833374023,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "2.6767792000318877",
+      "ranking_output_sha256": "4e510a1e882d46dfe374d6dd5c55fcecf37e43df30fe1317e1c2e62425d1a2db"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:03.475511Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:3067015",
+            "identity_aliases": [
+              "scifact:3067015"
+            ],
+            "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+            "paper": {
+              "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+              "authors": [],
+              "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "3067015",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "3067015",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                "authors": [],
+                "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "3067015",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:8460275",
+            "identity_aliases": [
+              "scifact:8460275"
+            ],
+            "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+            "paper": {
+              "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+              "authors": [],
+              "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "8460275",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "8460275",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                "authors": [],
+                "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8460275",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:2095573",
+            "identity_aliases": [
+              "scifact:2095573"
+            ],
+            "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+            "paper": {
+              "title": "LDL-cholesterol concentrations: a genome-wide association study",
+              "authors": [],
+              "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "2095573",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "2095573",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                "authors": [],
+                "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "2095573",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                  "authors": [],
+                  "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "3067015",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                  "authors": [],
+                  "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8460275",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                  "authors": [],
+                  "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "2095573",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:2095573",
+        "scifact:3067015",
+        "scifact:8460275"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "d25572a37a5232e156bf4c6e9cda73805dacba83c7ce6cc373e1da2b1124eda8",
+          "candidates": {
+            "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:3067015",
+                "identity_aliases": [
+                  "scifact:3067015"
+                ],
+                "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+                "paper": {
+                  "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                  "authors": [],
+                  "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "3067015",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "3067015",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                    "authors": [],
+                    "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "3067015",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:8460275",
+                "identity_aliases": [
+                  "scifact:8460275"
+                ],
+                "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+                "paper": {
+                  "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                  "authors": [],
+                  "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8460275",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "8460275",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                    "authors": [],
+                    "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "8460275",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:2095573",
+                "identity_aliases": [
+                  "scifact:2095573"
+                ],
+                "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+                "paper": {
+                  "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                  "authors": [],
+                  "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "2095573",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "2095573",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                    "authors": [],
+                    "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "2095573",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                      "authors": [],
+                      "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "3067015",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                      "authors": [],
+                      "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "8460275",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                      "authors": [],
+                      "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "2095573",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:3067015",
+            "scifact:8460275",
+            "scifact:2095573"
+          ],
+          "sbert_ranking": [
+            "scifact:3067015",
+            "scifact:2095573",
+            "scifact:8460275"
+          ],
+          "bm25_seconds": 0.0001674999948590994,
+          "sbert_seconds": 0.008726299973204732
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:3067015",
+              "identity_aliases": [
+                "scifact:3067015"
+              ],
+              "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+              "paper": {
+                "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                "authors": [],
+                "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "3067015",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "3067015",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach",
+                  "authors": [],
+                  "abstract": "BACKGROUND Alcohol has been reported to be a common and modifiable risk factor for hypertension. However, observational studies are subject to confounding by other behavioural and sociodemographic factors, while clinical trials are difficult to implement and have limited follow-up time. Mendelian randomization can provide robust evidence on the nature of this association by use of a common polymorphism in aldehyde dehydrogenase 2 (ALDH2) as a surrogate for measuring alcohol consumption. ALDH2 encodes a major enzyme involved in alcohol metabolism. Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes. We hypothesise that this polymorphism may influence the risk of hypertension by affecting alcohol drinking behaviour.   \n METHODS AND FINDINGS We carried out fixed effect meta-analyses of the ALDH2 genotype with blood pressure (five studies, n = 7,658) and hypertension (three studies, n = 4,219) using studies identified via systematic review. In males, we obtained an overall odds ratio of 2.42 (95% confidence interval [CI] 1.66-3.55, p = 4.8 x 10(-6)) for hypertension comparing *1*1 with *2*2 homozygotes and an odds ratio of 1.72 (95% CI 1.17-2.52, p = 0.006) comparing heterozygotes (surrogate for moderate drinkers) with *2*2 homozygotes. Systolic blood pressure was 7.44 mmHg (95% CI 5.39-9.49, p = 1.1 x 10(-12)) greater among *1*1 than among *2*2 homozygotes, and 4.24 mmHg (95% CI 2.18-6.31, p = 0.00005) greater among heterozygotes than among *2*2 homozygotes.   \n CONCLUSIONS These findings support the hypothesis that alcohol intake has a marked effect on blood pressure and the risk of hypertension.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "3067015",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:2095573",
+              "identity_aliases": [
+                "scifact:2095573"
+              ],
+              "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+              "paper": {
+                "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                "authors": [],
+                "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "2095573",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "2095573",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "LDL-cholesterol concentrations: a genome-wide association study",
+                  "authors": [],
+                  "abstract": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "2095573",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 3,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:8460275",
+              "identity_aliases": [
+                "scifact:8460275"
+              ],
+              "original_claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+              "paper": {
+                "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                "authors": [],
+                "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8460275",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "8460275",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+                  "authors": [],
+                  "abstract": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8460275",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 2,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.0001674999948590994,
+          "sbert_seconds": 0.008726299973204732,
+          "rrf_seconds": 0.00011359999189153314,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.0005828999564982951,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "1973eac37e9bed1ccbd2210a67a485074dea758b04ed9d3db8e6e414d3d7cd0c",
+  "selected_paper_ids": [
+    "scifact:2095573",
+    "scifact:3067015",
+    "scifact:8460275"
+  ],
+  "aggregation": {
+    "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:3067015:abstract:553:754:ffcc45a8a046",
+        "paper_id": "scifact:3067015",
+        "section": "abstract",
+        "text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.",
+        "score": 0.5949814319610596,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.7700719833374023,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "569eefcb5ba95c5a24d865c6235f3c1016922acceeb51d40ebc2265f50646416",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.",
+        "citation_ids": [
+          "scifact:3067015:abstract:553:754:ffcc45a8a046"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

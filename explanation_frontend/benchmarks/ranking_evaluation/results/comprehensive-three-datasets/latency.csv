@@ -1,0 +1,22 @@
+dataset,split,stage,observations,mean_seconds,p95_seconds,scope,device,method,rerank_depth
+CSFCube,fold1_dev,bm25_index_seconds,24,0.02945165283260091,0.042192166998574976,"one shared-workstation run; per-stage observations, not full-app throughput",cpu,,
+CSFCube,fold1_dev,bm25_seconds,24,0.00042737154187004006,0.0005850829984410666,"one shared-workstation run; per-stage observations, not full-app throughput",cpu,,
+CSFCube,fold1_dev,sbert_seconds,24,0.03611257462428815,0.0487314999991213,"one shared-workstation run; per-stage observations, not full-app throughput",cpu,,
+CSFCube,fold1_dev,rrf_seconds,24,0.001393192917324389,0.0022137920022942126,"one shared-workstation run; per-stage observations, not full-app throughput",cpu,,
+CSFCube,fold1_dev,rerank_seconds,24,1.3526202883758742,1.449819583001954,"one shared-workstation run; per-stage observations, not full-app throughput",cpu,,
+CSFCube,fold1_test,bm25_index_seconds,26,0.025386698808198653,0.04312658400158398,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+CSFCube,fold1_test,bm25_seconds,26,0.0004081121537288149,0.0005485839938046411,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+CSFCube,fold1_test,sbert_seconds,26,0.1407016200000026,0.32180137500108685,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+CSFCube,fold1_test,rrf_seconds,26,0.001965227538536195,0.0034727079910226166,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+CSFCube,fold1_test,rerank_seconds,26,0.40613790396086047,0.7046790000022156,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+RECIPER,entire_release_zero_shot,bm25_index_seconds,1024,0.0865485277215754,0.28447312499338295,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+RECIPER,entire_release_zero_shot,bm25_seconds,1024,0.000330969010519766,0.0004346670029917732,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+RECIPER,entire_release_zero_shot,sbert_seconds,1024,0.07055036575589213,0.12577745800081175,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+RECIPER,entire_release_zero_shot,rrf_seconds,1024,0.016485901231447997,0.0130483329994604,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+RECIPER,entire_release_zero_shot,rerank_seconds,1024,0.6894067222770701,1.3427426670095883,"one shared-workstation run; per-stage observations, not full-app throughput",mps,,
+SciFact,dev,bm25_seconds,,0.0007286561156312624,0.0009992476552724838,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,bm25,
+SciFact,dev,sbert_seconds,,0.005755735316003362,0.005918687209486961,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,sbert,
+SciFact,dev,rrf_seconds,,0.015050775590352714,0.004978913813829422,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,rrf,
+SciFact,dev,rerank_seconds,,0.033792631348284585,0.034318593330681324,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,rrf_cross_encoder,10
+SciFact,dev,rerank_seconds,,0.05338012165389955,0.05508675193414092,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,rrf_cross_encoder,20
+SciFact,dev,rerank_seconds,,0.06726530432701111,0.07826867792755365,"one-run development result, not independent owner rerun or stable end-to-end latency",original GPU run; see original manifest,rrf_cross_encoder,50

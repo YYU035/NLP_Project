@@ -54,6 +54,7 @@ def main(argv=None):
     ap.add_argument('--max-tokens',type=int,default=192)
     ap.add_argument('--steps',type=int,nargs='+',default=[32,128,512])
     ap.add_argument('--baseline',choices=['pad','mask'],default='mask')
+    ap.add_argument('--integration',choices=['gauss','adaptive'],default='gauss')
     ap.add_argument('--seed',type=int,default=42)
     ap.add_argument('--claim-id',type=int,nargs='+',help='Explicit targeted diagnostic subset; not a representative sample.')
     ap.add_argument('--random-trials',type=int,default=10)
@@ -83,7 +84,7 @@ def main(argv=None):
         'sample_ids':[[e['claim_id'],e['doc_id']] for e in selected],'requested_claim_ids':args.claim_id,
         'checkpoint':NLI_ID,'revision':NLI_REVISION,'baseline':args.baseline,'threshold':v.threshold,
         'model_dtype':'float32','model_mode':'eval','internal_batch_size':1,'data_git_revision':'7ed93fa4be69c661422b33b6c88b949dd2636e12',
-        'steps':args.steps,'seed':args.seed,'max_tokens':args.max_tokens,'random_trials':args.random_trials,'sentence_random_trials':50,'rationale_gold':'union of annotated rationale sentence sets for the cited document',
+        'steps':args.steps,'integration':args.integration,'seed':args.seed,'max_tokens':args.max_tokens,'random_trials':args.random_trials,'sentence_random_trials':50,'rationale_gold':'union of annotated rationale sentence sets for the cited document',
         'target':'gold label for plausibility AND faithfulness; not explanation of a different predicted label',
         'perturbation':'delete evidence subword tokens only; claim and special tokens fixed; matched token budgets; ratios 1/5/10/20/50 percent',
         'run_mode':'audit_only' if args.audit_only else 'ig_pilot',
@@ -103,7 +104,7 @@ def main(argv=None):
             print(f'IG pair {index+1}/{len(selected)}: claim {ex["claim_id"]}, document {ex["doc_id"]}',flush=True)
             try:
                 result,explainer,run=explain_checked(v,ex['claim'],' '.join(ex['sentences']),baseline=args.baseline,
-                    steps=args.steps,target=PassageLabel(ex['gold_label']),sentences=ex['sentences'],return_run=True)
+                    steps=args.steps,integration=args.integration,target=PassageLabel(ex['gold_label']),sentences=ex['sentences'],return_run=True)
                 row.update({k:result[k] for k in ('predicted_label','target_probability','baseline_probability','convergence_delta',
                     'relative_completeness_error','absolute_completeness_error','numerical_status','attempts')})
                 row['correct_raw']=row['predicted_label']==ex['gold_label']

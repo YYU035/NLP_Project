@@ -1,0 +1,465 @@
+{
+  "kind": "word_occlusion",
+  "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+  "evidence_text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes.",
+  "paper_id": "scifact:3067015",
+  "passage_id": "scifact:3067015:abstract:553:754:ffcc45a8a046",
+  "target_label": "SUPPORT",
+  "predicted_label": "SUPPORT",
+  "target_class": "entailment",
+  "target_probability": 0.7700719833374023,
+  "words": [
+    {
+      "text": "Individuals",
+      "segment": "evidence",
+      "start": 0,
+      "end": 11,
+      "attribution": 0.15927112102508545,
+      "normalized": 0.21181638783997123,
+      "token_indices": [
+        1
+      ]
+    },
+    {
+      "text": "Carriers",
+      "segment": "claim",
+      "start": 0,
+      "end": 8,
+      "attribution": 0.7519301157444715,
+      "normalized": 1.0,
+      "token_indices": [
+        46
+      ]
+    },
+    {
+      "text": "homozygous",
+      "segment": "evidence",
+      "start": 12,
+      "end": 22,
+      "attribution": 0.022261381149291992,
+      "normalized": 0.02960565175295769,
+      "token_indices": [
+        2
+      ]
+    },
+    {
+      "text": "of",
+      "segment": "claim",
+      "start": 9,
+      "end": 11,
+      "attribution": 0.22036206722259521,
+      "normalized": 0.29306189845105346,
+      "token_indices": [
+        47
+      ]
+    },
+    {
+      "text": "for",
+      "segment": "evidence",
+      "start": 23,
+      "end": 26,
+      "attribution": -0.0034642815589904785,
+      "normalized": -0.004607185543513655,
+      "token_indices": [
+        3
+      ]
+    },
+    {
+      "text": "the",
+      "segment": "claim",
+      "start": 12,
+      "end": 15,
+      "attribution": 0.017145514488220215,
+      "normalized": 0.022802005305033925,
+      "token_indices": [
+        48
+      ]
+    },
+    {
+      "text": "the",
+      "segment": "evidence",
+      "start": 27,
+      "end": 30,
+      "attribution": 0.0021938681602478027,
+      "normalized": 0.0029176490132672714,
+      "token_indices": [
+        4
+      ]
+    },
+    {
+      "text": "alcohol",
+      "segment": "claim",
+      "start": 16,
+      "end": 23,
+      "attribution": 0.42706114053726196,
+      "normalized": 0.5679532334124388,
+      "token_indices": [
+        49
+      ]
+    },
+    {
+      "text": "null",
+      "segment": "evidence",
+      "start": 31,
+      "end": 35,
+      "attribution": -0.053492605686187744,
+      "normalized": -0.07114039531881995,
+      "token_indices": [
+        5
+      ]
+    },
+    {
+      "text": "aldehyde",
+      "segment": "claim",
+      "start": 24,
+      "end": 32,
+      "attribution": -0.16470611095428467,
+      "normalized": -0.21904443977644428,
+      "token_indices": [
+        50
+      ]
+    },
+    {
+      "text": "variant",
+      "segment": "evidence",
+      "start": 36,
+      "end": 43,
+      "attribution": -0.07271838188171387,
+      "normalized": -0.0967089631856503,
+      "token_indices": [
+        6
+      ]
+    },
+    {
+      "text": "dehydrogenase",
+      "segment": "claim",
+      "start": 33,
+      "end": 46,
+      "attribution": 0.2940008044242859,
+      "normalized": 0.3909948521388871,
+      "token_indices": [
+        51
+      ]
+    },
+    {
+      "text": "(*2*2)",
+      "segment": "evidence",
+      "start": 44,
+      "end": 50,
+      "attribution": 0.12333059310913086,
+      "normalized": 0.16401869073567243,
+      "token_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "text": "deficiency",
+      "segment": "claim",
+      "start": 47,
+      "end": 57,
+      "attribution": 0.44078755378723145,
+      "normalized": 0.5862081389715534,
+      "token_indices": [
+        52
+      ]
+    },
+    {
+      "text": "experience",
+      "segment": "evidence",
+      "start": 51,
+      "end": 61,
+      "attribution": 0.2151452898979187,
+      "normalized": 0.2861240498193206,
+      "token_indices": [
+        13
+      ]
+    },
+    {
+      "text": "mutation",
+      "segment": "claim",
+      "start": 58,
+      "end": 66,
+      "attribution": 0.6922219395637512,
+      "normalized": 0.9205934502016795,
+      "token_indices": [
+        53
+      ]
+    },
+    {
+      "text": "adverse",
+      "segment": "evidence",
+      "start": 62,
+      "end": 69,
+      "attribution": -0.05284982919692993,
+      "normalized": -0.07028555990818952,
+      "token_indices": [
+        14
+      ]
+    },
+    {
+      "text": "drink",
+      "segment": "claim",
+      "start": 67,
+      "end": 72,
+      "attribution": 0.034886717796325684,
+      "normalized": 0.04639622361951152,
+      "token_indices": [
+        54
+      ]
+    },
+    {
+      "text": "symptoms",
+      "segment": "evidence",
+      "start": 70,
+      "end": 78,
+      "attribution": 0.04668790102005005,
+      "normalized": 0.0620907449275725,
+      "token_indices": [
+        15
+      ]
+    },
+    {
+      "text": "less",
+      "segment": "claim",
+      "start": 73,
+      "end": 77,
+      "attribution": 0.6867142915725708,
+      "normalized": 0.9132687695221093,
+      "token_indices": [
+        55
+      ]
+    },
+    {
+      "text": "when",
+      "segment": "evidence",
+      "start": 79,
+      "end": 83,
+      "attribution": 0.054499268531799316,
+      "normalized": 0.0724791671335582,
+      "token_indices": [
+        16
+      ]
+    },
+    {
+      "text": "that",
+      "segment": "claim",
+      "start": 78,
+      "end": 82,
+      "attribution": 0.15808218717575073,
+      "normalized": 0.21023521184443664,
+      "token_indices": [
+        56
+      ]
+    },
+    {
+      "text": "drinking",
+      "segment": "evidence",
+      "start": 84,
+      "end": 92,
+      "attribution": 0.09998971223831177,
+      "normalized": 0.13297740061829266,
+      "token_indices": [
+        17
+      ]
+    },
+    {
+      "text": "non-carries.",
+      "segment": "claim",
+      "start": 83,
+      "end": 95,
+      "attribution": 0.7465204857289791,
+      "normalized": 0.9928056744872674,
+      "token_indices": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "text": "alcohol",
+      "segment": "evidence",
+      "start": 93,
+      "end": 100,
+      "attribution": 0.1505308747291565,
+      "normalized": 0.20019263968449882,
+      "token_indices": [
+        18
+      ]
+    },
+    {
+      "text": "and",
+      "segment": "evidence",
+      "start": 101,
+      "end": 104,
+      "attribution": -0.044701576232910156,
+      "normalized": -0.05944911009270055,
+      "token_indices": [
+        19
+      ]
+    },
+    {
+      "text": "consequently",
+      "segment": "evidence",
+      "start": 105,
+      "end": 117,
+      "attribution": -0.15776854753494263,
+      "normalized": -0.20981809909121543,
+      "token_indices": [
+        20
+      ]
+    },
+    {
+      "text": "drink",
+      "segment": "evidence",
+      "start": 118,
+      "end": 123,
+      "attribution": -0.11595046520233154,
+      "normalized": -0.1542037787481503,
+      "token_indices": [
+        21
+      ]
+    },
+    {
+      "text": "considerably",
+      "segment": "evidence",
+      "start": 124,
+      "end": 136,
+      "attribution": -0.026894211769104004,
+      "normalized": -0.03576690334111244,
+      "token_indices": [
+        22
+      ]
+    },
+    {
+      "text": "less",
+      "segment": "evidence",
+      "start": 137,
+      "end": 141,
+      "attribution": 0.0075904130935668945,
+      "normalized": 0.010094572533581491,
+      "token_indices": [
+        23
+      ]
+    },
+    {
+      "text": "alcohol",
+      "segment": "evidence",
+      "start": 142,
+      "end": 149,
+      "attribution": -0.038147687911987305,
+      "normalized": -0.050733023073850435,
+      "token_indices": [
+        24
+      ]
+    },
+    {
+      "text": "than",
+      "segment": "evidence",
+      "start": 150,
+      "end": 154,
+      "attribution": 0.03653407096862793,
+      "normalized": 0.04858705643470105,
+      "token_indices": [
+        25
+      ]
+    },
+    {
+      "text": "wild-type",
+      "segment": "evidence",
+      "start": 155,
+      "end": 164,
+      "attribution": 0.4192279279232025,
+      "normalized": 0.5575357591684341,
+      "token_indices": [
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "homozygotes",
+      "segment": "evidence",
+      "start": 165,
+      "end": 176,
+      "attribution": 0.0805010199546814,
+      "normalized": 0.10705917780002586,
+      "token_indices": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "text": "(*1*1)",
+      "segment": "evidence",
+      "start": 177,
+      "end": 183,
+      "attribution": 0.053906917572021484,
+      "normalized": 0.07169139318040119,
+      "token_indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "text": "or",
+      "segment": "evidence",
+      "start": 184,
+      "end": 186,
+      "attribution": 0.10534745454788208,
+      "normalized": 0.1401027201092745,
+      "token_indices": [
+        39
+      ]
+    },
+    {
+      "text": "heterozygotes.",
+      "segment": "evidence",
+      "start": 187,
+      "end": 201,
+      "attribution": 0.0090484619140625,
+      "normalized": 0.012033647442227782,
+      "token_indices": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "score_status": "measured",
+  "coverage": {
+    "scored_words": 37,
+    "total_words": 37,
+    "complete": true
+  },
+  "settings": {
+    "method": "Word-level MASK occlusion",
+    "baseline": "One whole word replaced by MASK; special tokens and original attention mask fixed",
+    "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "max_words": 96,
+    "batch_size": 4,
+    "target_selection": "raw argmax before confidence threshold"
+  },
+  "seconds": 5.25180830003228,
+  "limitations": [
+    "Conditional model score differences, not scientific truth or causal proof.",
+    "MASK perturbations can be unnatural; interacting words are not additive. No IG completeness guarantee applies."
+  ],
+  "recorded_on": "2026-11-09",
+  "scope": "Actual selected-passage illustration, not held-out quality evidence."
+}

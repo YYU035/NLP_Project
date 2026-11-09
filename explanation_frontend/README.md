@@ -1,3 +1,9 @@
+# Current demo release — 9 November 2026
+
+Start with `start.cmd` and open **Project overview**. See [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) for the current integration status, actual measurements and additions. [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md) provides the five-person recording script and proof for efficiency, reusability, presentation and participation. Historical notes below are superseded where these documents state newer results.
+
+Word occlusion is now the default model explanation; Naila’s IG remains experimental. Eight actual-model runs, explicit replays, three-domain charts, measured zero-inference subset changes and actual-output review packets are ready. Real video participation and human scores still require the team.
+
 XAI validation update (9 November): baseline-aware attribution, stricter numerical gates, reproducible SciFact evaluation and a full-abstract verifier audit are documented in [XAI_VALIDATION.md](XAI_VALIDATION.md). Initial PAD failure is historical; MASK128 converges on the synthetic example, the four real SciFact pilot cases failed at128 steps, and a targeted512-step case narrowly failed the conservative absolute gate. Real-case reliability remains measured per input.
 
 # Explanation frontend - Kireeti, Person 5

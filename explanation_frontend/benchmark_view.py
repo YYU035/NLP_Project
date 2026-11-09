@@ -66,6 +66,17 @@ def render_benchmarks():
         st.text(f"Ranking denominator: {item['ranking_eligible_queries']}; excluded without positive paper labels: {item['ranking_excluded_no_positive']}")
     for note in item['limitations']:
         st.text('Limit: '+note)
+    primary=next((row for row in dataset['rows'] if row['method']=='rrf'),None)
+    baseline=next((row for row in dataset['rows'] if row['method']=='bm25'),None)
+    if primary and baseline:
+        cards=st.columns(3)
+        for col,metric in zip(cards,['Recall@10','MRR@10','nDCG@10']):
+            col.metric('RRF '+metric,f"{primary[metric]:.1%}",f"{100*(primary[metric]-baseline[metric]):+.1f} pp vs BM25")
+        st.caption('Default RRF method, published owner experiment; percentage-point differences, not relative percent improvements.')
+    import pandas as pd
+    chart=pd.DataFrame([{ 'method':{'bm25':'BM25','sbert':'SBERT','rrf':'RRF','rrf_cross_encoder':'RRF+CE'}.get(row['method'],row['method'])+((' '+str(row['rerank_depth'])) if row.get('rerank_depth') not in (None,'','0',0) else ''),
+                         **{m:row[m] for m in ['Recall@10','MRR@10','nDCG@10']}} for row in dataset['rows']])
+    st.bar_chart(chart.set_index('method'),stack=False,height=300)
     st.caption('Scores below are fractions in [0, 1]. Graded nDCG uses graded labels; binary nDCG is a separate column. No pooled score is computed across datasets.')
     columns = list(dict.fromkeys(item['method_key_columns']+item['ranking_metrics']))
     st.dataframe([{k: row[k] for k in columns} for row in dataset['rows']], hide_index=True)
@@ -79,6 +90,18 @@ def render_benchmarks():
             for row in dataset['evidence']], hide_index=True)
     else:
         st.warning('No expert sentence-evidence or final-verdict gold is supplied here. Evidence F1 and verification accuracy are not available for this dataset.')
+    catalog=json.loads(checked_path('shared/datasets/evaluation_catalog.json').read_text(encoding='utf-8'))
+    comprehensive=catalog.get('comprehensive_results')
+    if comprehensive:
+        with st.expander('Uncertainty, ablations, latency and development/test protocols'):
+            st.caption('Separate owner experiments, bootstrap estimates and stage timings. Latency depends on hardware and is not an app service guarantee. CSFCube test has26 query/facet tasks; its24 development tasks are reported separately.')
+            for key,title in [('uncertainty_summary_path','Uncertainty estimates'),('ablation_summary_path','Component ablations'),('latency_summary_path','Stage timings')]:
+                frame=pd.read_csv(checked_path(comprehensive[key]))
+                if 'dataset' in frame:frame=frame[frame.dataset.str.lower()==item['id']]
+                st.write(title)
+                st.dataframe(frame,hide_index=True)
+                st.download_button('Download '+title.lower(),checked_path(comprehensive[key]).read_bytes(),Path(comprehensive[key]).name,key='comprehensive:'+key)
+            st.download_button('Download comprehensive evaluation report',checked_path(comprehensive['report_path']).read_bytes(),'COMPREHENSIVE_EVALUATION.md')
     st.subheader('What remains to validate')
     st.write('Final verification quality needs labelled claim/evidence inference. Human explanation and PDF review remain pending. Materials Science is the third domain; it is not a Physics dataset.')
     with st.expander('Source revision, protocol and original summaries'):

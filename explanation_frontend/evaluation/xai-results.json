@@ -400,5 +400,226 @@
     "frontend_tests_passed": 145,
     "dependency_check": "passed",
     "paid_or_hosted_api_added": false
+  },
+  "word_occlusion": {
+    "date": "2026-11-09",
+    "method": "Word-level MASK occlusion, not IG",
+    "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "protocol": "Same seeded balanced4 SciFact full-abstract pairs as prior IG pilot; max192 tokens, gold target, complete word coverage. Exploratory, not held-out. Sentence AP uses signed word-score sums;50 random sentence trials. ERASER-style faithfulness uses word deletion and10 matched random trials, not official token-level parity.",
+    "n": 4,
+    "mean_ap": 0.8333333333333334,
+    "mean_ap_random": 0.43833333333333335,
+    "top1_hit_rate": 0.75,
+    "top1_random": 0.175,
+    "faithfulness": {
+      "occlusion_comprehensiveness": 0.6606140595828037,
+      "random_comprehensiveness": 0.11221030674343638,
+      "occlusion_sufficiency": 0.13473061912227421,
+      "random_sufficiency": 0.5639663572690915
+    },
+    "cases": [
+      {
+        "claim_id": 298,
+        "doc_id": "39381118",
+        "gold_label": "SUPPORT",
+        "predicted_label": "SUPPORT",
+        "ap": 1.0,
+        "ap_random": 0.46266666666666667,
+        "top1_hit": true,
+        "top1_random": 0.2,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.7910575207788497,
+          "occlusion_sufficiency": 0.39477720176801084,
+          "random_comprehensiveness": 0.14284567333059386,
+          "random_sufficiency": 0.8852711745671695,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        },
+        "seconds": 91.29522749996977
+      },
+      {
+        "claim_id": 1088,
+        "doc_id": "37549932",
+        "gold_label": "CONTRADICT",
+        "predicted_label": "SUPPORT",
+        "ap": 0.3333333333333333,
+        "ap_random": 0.434,
+        "top1_hit": false,
+        "top1_random": 0.16666666666666666,
+        "faithfulness": {
+          "occlusion_comprehensiveness": -0.0073060494498349724,
+          "occlusion_sufficiency": -0.6546238645911217,
+          "random_comprehensiveness": -0.2608506220718846,
+          "random_sufficiency": -0.3312029999576043,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        },
+        "seconds": 89.31398620002437
+      },
+      {
+        "claim_id": 53,
+        "doc_id": "45638119",
+        "gold_label": "SUPPORT",
+        "predicted_label": "SUPPORT",
+        "ap": 1.0,
+        "ap_random": 0.449,
+        "top1_hit": true,
+        "top1_random": 0.16666666666666666,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.9689257760168403,
+          "occlusion_sufficiency": 0.5992688375059515,
+          "random_comprehensiveness": 0.3112663048596005,
+          "random_sufficiency": 0.9160554547095672,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        },
+        "seconds": 110.34082240000134
+      },
+      {
+        "claim_id": 51,
+        "doc_id": "45638119",
+        "gold_label": "CONTRADICT",
+        "predicted_label": "CONTRADICT",
+        "ap": 1.0,
+        "ap_random": 0.4076666666666667,
+        "top1_hit": true,
+        "top1_random": 0.16666666666666666,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.88977899098536,
+          "occlusion_sufficiency": 0.19950030180625616,
+          "random_comprehensiveness": 0.2555798708554357,
+          "random_sufficiency": 0.7857417997572338,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        },
+        "seconds": 90.45702130004065
+      }
+    ],
+    "limitations": [
+      "Four short dev examples, not representative or a significance test.",
+      "Gold-target scores do not explain a different predicted class.",
+      "MASK/deletion perturbations can be unnatural; interactions are not additive.",
+      "Conditional model behaviour, not scientific truth; no IG completeness claim.",
+      "Four claim-document pairs from three unique documents; two claims share one abstract. No independent-sample significance claim."
+    ],
+    "by_raw_prediction_correctness": {
+      "correct": {
+        "n": 3,
+        "mean_ap": 1.0,
+        "mean_ap_random": 0.43977777777777777,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.8832540959270166,
+          "random_comprehensiveness": 0.2365639496818767,
+          "occlusion_sufficiency": 0.3978487803600728,
+          "random_sufficiency": 0.8623561430113235
+        }
+      },
+      "incorrect": {
+        "n": 1,
+        "mean_ap": 0.3333333333333333,
+        "mean_ap_random": 0.434,
+        "faithfulness": {
+          "occlusion_comprehensiveness": -0.0073060494498349724,
+          "random_comprehensiveness": -0.2608506220718846,
+          "occlusion_sufficiency": -0.6546238645911217,
+          "random_sufficiency": -0.3312029999576043
+        }
+      }
+    }
+  },
+  "adaptive_ig_followup": {
+    "scope": "Experimental composite Captum IG, unchanged masks/target/thresholds, up to504 gradient evaluations per pair; same4 full abstracts.",
+    "summary": {
+      "attempted": 4,
+      "stable": 0,
+      "unstable": 4,
+      "failed": 0,
+      "all_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "correct_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "incorrect_stable": {
+        "n": 0,
+        "ap": null,
+        "ap_random": null,
+        "top1_hit": null,
+        "top1_random": null,
+        "faithfulness": {
+          "aopc_comprehensiveness": null,
+          "aopc_comprehensiveness_random": null,
+          "aopc_sufficiency": null,
+          "aopc_sufficiency_random": null
+        }
+      },
+      "by_label": {
+        "SUPPORT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        },
+        "CONTRADICT": {
+          "n": 0,
+          "ap": null,
+          "ap_random": null,
+          "top1_hit": null,
+          "top1_random": null,
+          "faithfulness": {
+            "aopc_comprehensiveness": null,
+            "aopc_comprehensiveness_random": null,
+            "aopc_sufficiency": null,
+            "aopc_sufficiency_random": null
+          }
+        }
+      },
+      "seconds": 1919.2350728000165,
+      "limitations": [
+        "Exploratory short-input balanced dev pilot; not representative or held-out.",
+        "Unstable/failed rows excluded from XAI quality means; coverage always reported.",
+        "Gold-target attribution does not explain a different predicted class.",
+        "Full-abstract classifier audit differs from deployed selected-passage workflow.",
+        "Deletion perturbations can create unnatural text; sentence length affects summed attributions.",
+        "Rationale overlap is a coverage diagnostic, not proof of error causation."
+      ],
+      "total_seconds_including_optional_audit": 1919.2350793000078
+    },
+    "selected_passage_diagnostic": {
+      "relative_completeness_error": 0.03514942484403321,
+      "absolute_completeness_error": 0.01916226141838706,
+      "numerical_status": "unstable",
+      "seconds": 275.18178799998714,
+      "scope": "Targeted actual selected-passage diagnostic, case230; illustrative, not representative or held-out."
+    },
+    "release_decision": "Not enabled in the normal UI. IG remains experimental; word occlusion is a separately named default, not a claimed IG success."
   }
 }

@@ -1,0 +1,37 @@
+{
+  "scope": "8 seeded balanced SciFact dev claim/document examples, known annotated paper plus2 random distractors each. Actual retrieval/ranking/semantic/NLI/template/subset/replay; imported corpus boundary replaces external discovery.",
+  "selection": "All8 cases retained; front page chooses one of each observed outcome for illustration, not an unbiased sample.",
+  "sha256": {
+    "scifact-230.json": "44b7cec3cf30305b57f53358403a6ce6f08972c4182b9585a07401ad6e11a41a",
+    "scifact-852.json": "d7458fde921dd818a9d6bc7fa8dfdc57a648e787c3156155cd4925e381a8effc",
+    "scifact-70.json": "0c600b2a151aa820a273b0eec28a6a20c4c53358b433307f05e531c68c512d0b",
+    "scifact-578.json": "ad343dd471d7debdc5b804796e54d781aa5e7dd9cfab8582bce5081ce6a8d26d",
+    "scifact-723.json": "d0290a31de1b24be20dd2e78211c3674dee11ab3c16fda2c0c7e1c8ecf88fbe0",
+    "scifact-452.json": "fb995bdc96c0570b2f618a0d17b4777b348dde236b02c5470137cde8d866e1fe",
+    "scifact-380.json": "a09592cbd4c0c53f6f3e9ed6dffb5089a8902da127c5859a0b788c894f22614b",
+    "scifact-51.json": "e1e46fbafaa9c69d8a083a70b7bc222a6b7ba6ea77e89792b9def3e8dfef9919"
+  },
+  "examples": [
+    {
+      "file": "scifact-230.json",
+      "claim_id": 230,
+      "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+      "verdict": "SUPPORTED",
+      "passages": 3
+    },
+    {
+      "file": "scifact-852.json",
+      "claim_id": 852,
+      "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+      "verdict": "CONTRADICTED",
+      "passages": 3
+    },
+    {
+      "file": "scifact-723.json",
+      "claim_id": 723,
+      "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+      "verdict": "CONFLICTING",
+      "passages": 3
+    }
+  ]
+}

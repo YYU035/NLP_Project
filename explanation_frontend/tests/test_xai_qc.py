@@ -74,8 +74,9 @@ def test_stable_word_table_and_baseline_changes_hide_stale_results():
     pid=snapshot.verification.evidence_passages[0].passage_id
     app=AppTest.from_file(str(Path(__file__).parents[1]/'app.py'))
     app.session_state['workspace']='Model attribution'
+    app.session_state['attribution_method']='Integrated Gradients (experimental)'
     app.session_state['snapshot']=snapshot
-    app.session_state['attribution_result']=((snapshot.fingerprint,pid,'mask'),{
+    app.session_state['attribution_result']=((snapshot.fingerprint,pid,'mask','Integrated Gradients (experimental)'),{
         'target_label':'SUPPORT','target_class':'entailment','convergence_delta':.00001,
         'settings':{'baseline':'mask'},'words':[{'text':'<script>unsafe</script>',
         'attribution':.1,'normalized':1.,'segment':'evidence','start':0,'end':6}],

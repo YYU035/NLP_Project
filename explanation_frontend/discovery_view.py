@@ -24,15 +24,8 @@ def render_discovery():
         ss.pop("discovery_error", None)
 
     def install(snapshot):
-        ss.discovery_snapshot = snapshot
-        if ss.get("discovery_claim") != snapshot.result.original_claim:
-            ss.discovery_claim = snapshot.result.original_claim
-        ss.discovery_selection = {p.identity: p.identity in snapshot.selected_paper_ids for p in snapshot.result.papers}
-        ss.discovery_page = 1
-        ss.discovery_filter = ""
-        ss.discovery_provider_filter = []
-        ss.discovery_pdf_only = False
-        ss.pop("discovery_inspect", None)
+        from .state import install_discovery_state
+        install_discovery_state(ss,snapshot)
 
     def reset_page():
         ss.discovery_page = 1

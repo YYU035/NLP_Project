@@ -1,0 +1,903 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:11.635970+00:00",
+    "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+    "created_at": "2026-11-09T14:33:11.635970Z",
+    "retrieved_at": "2026-11-09T14:33:10.942098Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"ed89a3f823f6fae6ac7111497bcf9b1f6386d760fb0709fb90a756435f8b30ca\", \"candidates\": {\"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:12804937\", \"identity_aliases\": [\"scifact:12804937\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences\", \"authors\": [], \"abstract\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences\", \"authors\": [], \"abstract\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:25821556\", \"identity_aliases\": [\"scifact:25821556\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"The three 'C' s of chromosome conformation capture: controls, controls, controls\", \"authors\": [], \"abstract\": \"Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"The three 'C' s of chromosome conformation capture: controls, controls, controls\", \"authors\": [], \"abstract\": \"Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:4380451\", \"identity_aliases\": [\"scifact:4380451\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"Reprogramming of human somatic cells to pluripotency with defined factors\", \"authors\": [], \"abstract\": \"Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Reprogramming of human somatic cells to pluripotency with defined factors\", \"authors\": [], \"abstract\": \"Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences\", \"authors\": [], \"abstract\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"The three 'C' s of chromosome conformation capture: controls, controls, controls\", \"authors\": [], \"abstract\": \"Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Reprogramming of human somatic cells to pluripotency with defined factors\", \"authors\": [], \"abstract\": \"Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:4380451\", \"scifact:12804937\", \"scifact:25821556\"], \"sbert_ranking\": [\"scifact:12804937\", \"scifact:25821556\", \"scifact:4380451\"], \"bm25_seconds\": 6.859999848529696e-05, \"sbert_seconds\": 0.008585100003983825}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:12804937\", \"identity_aliases\": [\"scifact:12804937\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences\", \"authors\": [], \"abstract\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences\", \"authors\": [], \"abstract\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"12804937\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03252247488101534, \"bm25_rank\": 2, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:4380451\", \"identity_aliases\": [\"scifact:4380451\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"Reprogramming of human somatic cells to pluripotency with defined factors\", \"authors\": [], \"abstract\": \"Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Reprogramming of human somatic cells to pluripotency with defined factors\", \"authors\": [], \"abstract\": \"Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"4380451\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.032266458495966696, \"bm25_rank\": 1, \"sbert_rank\": 3, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:25821556\", \"identity_aliases\": [\"scifact:25821556\"], \"original_claim\": \"Gene expression does not vary appreciably across genetically identical cells.\", \"paper\": {\"title\": \"The three 'C' s of chromosome conformation capture: controls, controls, controls\", \"authors\": [], \"abstract\": \"Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"The three 'C' s of chromosome conformation capture: controls, controls, controls\", \"authors\": [], \"abstract\": \"Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"25821556\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 3, \"sbert_rank\": 2, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 6.859999848529696e-05, \"sbert_seconds\": 0.008585100003983825, \"rrf_seconds\": 8.159998105838895e-05, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.00021679996279999614, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:12804937\": {\"passages\": [{\"passage_id\": \"scifact:12804937:abstract:0:166:b49f1f3b1aca\", \"paper_id\": \"scifact:12804937\", \"section\": \"abstract\", \"text\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.\", \"score\": 0.5485854744911194}, {\"passage_id\": \"scifact:12804937:abstract:362:495:2c5c27dca36d\", \"paper_id\": \"scifact:12804937\", \"section\": \"abstract\", \"text\": \"Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.\", \"score\": 0.5274229049682617}], \"source_spans\": [{\"paper_id\": \"scifact:12804937\", \"sentence_indices\": [0], \"start\": 0, \"end\": 166, \"text\": \"Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.\", \"score\": 0.5485854744911194, \"passage_id\": \"scifact:12804937:abstract:0:166:b49f1f3b1aca\"}, {\"paper_id\": \"scifact:12804937\", \"sentence_indices\": [2], \"start\": 362, \"end\": 495, \"text\": \"Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.\", \"score\": 0.5274229049682617, \"passage_id\": \"scifact:12804937:abstract:362:495:2c5c27dca36d\"}], \"budget_checks\": [{\"passage_id\": \"scifact:12804937:abstract:0:166:b49f1f3b1aca\", \"pair_tokens\": 42, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:12804937:abstract:362:495:2c5c27dca36d\", \"pair_tokens\": 34, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:4380451\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:25821556\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:12804937": {
+        "paper_id": "scifact:12804937",
+        "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.9246862569280607,
+          "sbert": 0.4590788185596466,
+          "rrf": 0.03252247488101534
+        }
+      },
+      "scifact:4380451": {
+        "paper_id": "scifact:4380451",
+        "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 1.1151308411642349,
+          "sbert": 0.33426108956336975,
+          "rrf": 0.032266458495966696
+        }
+      },
+      "scifact:25821556": {
+        "paper_id": "scifact:25821556",
+        "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.2672729146425181,
+          "sbert": 0.3373239040374756,
+          "rrf": 0.03200204813108039
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:12804937": {
+          "paper_id": "scifact:12804937",
+          "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9133315682411194,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "scifact:12804937:abstract:362:495:2c5c27dca36d",
+            "scifact:12804937:abstract:0:166:b49f1f3b1aca"
+          ]
+        },
+        "scifact:4380451": {
+          "paper_id": "scifact:4380451",
+          "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:25821556": {
+          "paper_id": "scifact:25821556",
+          "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:12804937:abstract:0:166:b49f1f3b1aca": {
+          "passage_id": "scifact:12804937:abstract:0:166:b49f1f3b1aca",
+          "paper_id": "scifact:12804937",
+          "label": "CONTRADICT",
+          "confidence": 0.8299452662467957,
+          "truncated": false
+        },
+        "scifact:12804937:abstract:362:495:2c5c27dca36d": {
+          "passage_id": "scifact:12804937:abstract:362:495:2c5c27dca36d",
+          "paper_id": "scifact:12804937",
+          "label": "CONTRADICT",
+          "confidence": 0.9967178702354431,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:12804937:abstract:0:166:b49f1f3b1aca",
+          "paper_id": "scifact:12804937",
+          "section": "abstract",
+          "text": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "score": 0.5485854744911194,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:12804937:abstract:362:495:2c5c27dca36d",
+          "paper_id": "scifact:12804937",
+          "section": "abstract",
+          "text": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.",
+          "score": 0.5274229049682617,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:12804937:abstract:362:495:2c5c27dca36d",
+          "paper_id": "scifact:12804937",
+          "section": "abstract",
+          "text": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.",
+          "score": 0.5274229049682617,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:12804937:abstract:0:166:b49f1f3b1aca",
+          "paper_id": "scifact:12804937",
+          "section": "abstract",
+          "text": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "score": 0.5485854744911194,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9133315682411194,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "0.694130799965933",
+      "ranking_output_sha256": "c6e41fe59614e718f5b0a7e1caff2bea662a29e1921fafd0179b55b7ed4f9a9a"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:10.942098Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:12804937",
+            "identity_aliases": [
+              "scifact:12804937"
+            ],
+            "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+            "paper": {
+              "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+              "authors": [],
+              "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "12804937",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "12804937",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                "authors": [],
+                "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "12804937",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:25821556",
+            "identity_aliases": [
+              "scifact:25821556"
+            ],
+            "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+            "paper": {
+              "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+              "authors": [],
+              "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "25821556",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "25821556",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                "authors": [],
+                "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "25821556",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:4380451",
+            "identity_aliases": [
+              "scifact:4380451"
+            ],
+            "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+            "paper": {
+              "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+              "authors": [],
+              "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "4380451",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "4380451",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                "authors": [],
+                "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "4380451",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Gene expression does not vary appreciably across genetically identical cells.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                  "authors": [],
+                  "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "12804937",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                  "authors": [],
+                  "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "25821556",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                  "authors": [],
+                  "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "4380451",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:12804937",
+        "scifact:25821556",
+        "scifact:4380451"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "ed89a3f823f6fae6ac7111497bcf9b1f6386d760fb0709fb90a756435f8b30ca",
+          "candidates": {
+            "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:12804937",
+                "identity_aliases": [
+                  "scifact:12804937"
+                ],
+                "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+                "paper": {
+                  "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                  "authors": [],
+                  "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "12804937",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "12804937",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                    "authors": [],
+                    "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "12804937",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:25821556",
+                "identity_aliases": [
+                  "scifact:25821556"
+                ],
+                "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+                "paper": {
+                  "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                  "authors": [],
+                  "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "25821556",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "25821556",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                    "authors": [],
+                    "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "25821556",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:4380451",
+                "identity_aliases": [
+                  "scifact:4380451"
+                ],
+                "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+                "paper": {
+                  "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                  "authors": [],
+                  "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "4380451",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "4380451",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                    "authors": [],
+                    "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "4380451",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Gene expression does not vary appreciably across genetically identical cells.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                      "authors": [],
+                      "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "12804937",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                      "authors": [],
+                      "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "25821556",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                      "authors": [],
+                      "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "4380451",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:4380451",
+            "scifact:12804937",
+            "scifact:25821556"
+          ],
+          "sbert_ranking": [
+            "scifact:12804937",
+            "scifact:25821556",
+            "scifact:4380451"
+          ],
+          "bm25_seconds": 0.00006859999848529696,
+          "sbert_seconds": 0.008585100003983825
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:12804937",
+              "identity_aliases": [
+                "scifact:12804937"
+              ],
+              "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+              "paper": {
+                "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                "authors": [],
+                "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "12804937",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "12804937",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+                  "authors": [],
+                  "abstract": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels. This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure. Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others. These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "12804937",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03252247488101534,
+            "bm25_rank": 2,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:4380451",
+              "identity_aliases": [
+                "scifact:4380451"
+              ],
+              "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+              "paper": {
+                "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                "authors": [],
+                "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "4380451",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "4380451",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Reprogramming of human somatic cells to pluripotency with defined factors",
+                  "authors": [],
+                  "abstract": "Pluripotency pertains to the cells of early embryos that can generate all of the tissues in the organism. Embryonic stem cells are embryo-derived cell lines that retain pluripotency and represent invaluable tools for research into the mechanisms of tissue formation. Recently, murine fibroblasts have been reprogrammed directly to pluripotency by ectopic expression of four transcription factors (Oct4, Sox2, Klf4 and Myc) to yield induced pluripotent stem (iPS) cells. Using these same factors, we have derived iPS cells from fetal, neonatal and adult human primary cells, including dermal fibroblasts isolated from a skin biopsy of a healthy research subject. Human iPS cells resemble embryonic stem cells in morphology and gene expression and in the capacity to form teratomas in immune-deficient mice. These data demonstrate that defined factors can reprogramme human cells to pluripotency, and establish a method whereby patient-specific cells might be established in culture.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "4380451",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.032266458495966696,
+            "bm25_rank": 1,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:25821556",
+              "identity_aliases": [
+                "scifact:25821556"
+              ],
+              "original_claim": "Gene expression does not vary appreciably across genetically identical cells.",
+              "paper": {
+                "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                "authors": [],
+                "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "25821556",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "25821556",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "The three 'C' s of chromosome conformation capture: controls, controls, controls",
+                  "authors": [],
+                  "abstract": "Transcription regulation in higher eukaryotes is controlled by regulatory elements such as enhancers that are recognized by transcription factors. In many cases regulatory elements can be located at distances up to several megabases from their target genes. Recent evidence shows that long-range control of gene expression can be mediated through direct physical interactions between genes and these regulatory elements. Such looping interactions can be detected using the chromosome conformation capture (3C) methodology. Although 3C is experimentally straightforward, to draw meaningful conclusions one must carefully design 3C experiments and implement the conscientious use of controls. The general guidelines presented here should help experimental design and minimize misinterpretation of 3C experiments.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "25821556",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 3,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00006859999848529696,
+          "sbert_seconds": 0.008585100003983825,
+          "rrf_seconds": 0.00008159998105838895,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.00021679996279999614,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "e956caa8640052ebed1fc4509b0f8d17ba152b77ffdf9907243f47c18861e2ad",
+  "selected_paper_ids": [
+    "scifact:12804937",
+    "scifact:25821556",
+    "scifact:4380451"
+  ],
+  "aggregation": {
+    "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:12804937:abstract:362:495:2c5c27dca36d",
+        "paper_id": "scifact:12804937",
+        "section": "abstract",
+        "text": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.",
+        "score": 0.5274229049682617,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "scifact:12804937:abstract:0:166:b49f1f3b1aca",
+        "paper_id": "scifact:12804937",
+        "section": "abstract",
+        "text": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+        "score": 0.5485854744911194,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9133315682411194,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "a860f0f92bded473ef4a16702fdf9b2f1fdaee4eb40c6486b41f1dcd5ca751f5",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.",
+        "citation_ids": [
+          "scifact:12804937:abstract:362:495:2c5c27dca36d"
+        ]
+      },
+      {
+        "text": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+        "citation_ids": [
+          "scifact:12804937:abstract:0:166:b49f1f3b1aca"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

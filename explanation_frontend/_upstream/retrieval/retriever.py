@@ -24,7 +24,12 @@ def _top_k(scores: np.ndarray, k: int) -> np.ndarray:
     k = min(k, len(scores))
     if k <= 0:
         return np.array([], dtype=int)
-    idx = np.argpartition(-scores, k - 1)[:k]
+    if scores.ndim != 1 or not np.all(np.isfinite(scores)):
+        raise ValueError('Ranking scores must be a finite one-dimensional array')
+    cutoff = np.partition(scores, len(scores) - k)[len(scores) - k]
+    higher = np.flatnonzero(scores > cutoff)
+    tied = np.flatnonzero(scores == cutoff)
+    idx = np.concatenate((higher, tied[:k - len(higher)]))
     return idx[np.lexsort((idx, -scores[idx]))]
 
 

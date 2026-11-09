@@ -119,8 +119,9 @@ def test_unstable_attribution_is_not_presented_as_reliable_word_scores():
     pid = snapshot.verification.evidence_passages[0].passage_id
     app = AppTest.from_file(str(Path(__file__).parents[1]/'app.py'))
     app.session_state['workspace']='Model attribution'
+    app.session_state['attribution_method']='Integrated Gradients (experimental)'
     app.session_state['snapshot']=snapshot
-    app.session_state['attribution_result']=((snapshot.fingerprint,pid,'mask'),{
+    app.session_state['attribution_result']=((snapshot.fingerprint,pid,'mask','Integrated Gradients (experimental)'),{
         'target_label':'SUPPORT','target_class':'entailment','convergence_delta':.8,
         'settings':{},'words':[{'text':'unreliable','attribution':1.0}], 'numerical_status':'unstable'})
     app.run()
