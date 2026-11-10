@@ -1,0 +1,24 @@
+{
+  "scope": "selected_15_archived_replays_not_representative",
+  "rows": 30,
+  "claims": 15,
+  "prepared_sha256": "bd6ec0aaa698f292c404cd6b2a9f57f190b25eb5c09df1bbb29111136977529e",
+  "rankings_sha256": null,
+  "train_choice_sha256": "731ee7ccc6a672e1b82942713d1b7b8420750ed5500b45c2323fa92bb1d856c7",
+  "source_sha256": {
+    "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+  },
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "encoder_device": "mps",
+  "encoder_dtype": "float32",
+  "tokenizer_files_sha256": {
+    "tokenizer_config.json": "556a192d83e3edb45a09a6207095dd9295c3b2279062e5cc430feac4cb7a0817",
+    "special_tokens_map.json": "fcfbeb4e25cd37fb5b8030406394253b245230fd3b552750092bab7d24d827da",
+    "config.json": "7f9d420b616691c5b575bab8839719aefbddc656d8e1316519414b097ce43e3d",
+    "tokenizer.json": "7aa118770f066a74530d161c7d0b994d0629cc0ff3a0df213f184192773f960a",
+    "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+  },
+  "status": "evidence_prepared_no_nli_inference",
+  "script_sha256": "ec2002e4c76732a0196434b70e520c6190d67a72556cd0cce390d996770304e7"
+}

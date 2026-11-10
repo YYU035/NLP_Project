@@ -1,0 +1,390 @@
+{
+  "scope": "Fixed archived anchors; source-segment neighbor expansion only. No reranking, tokenizer budget checks, NLI inference or new accuracy measurement.",
+  "source_sha256": {
+    "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+  },
+  "cases": [
+    {
+      "claim_id": "137",
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "papers": [
+        {
+          "paper_id": "26016929",
+          "gold_sentence_indices": [
+            7,
+            9
+          ],
+          "original_sentences": [
+            "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.   \n",
+            "DESIGN Systematic review of randomised controlled trials of population screening in the community that included any assessment of vision or visual function with at least 6 months' follow up.   ",
+            "SUBJECTS Adults aged 65 or over.   \n",
+            "MAIN OUTCOME MEASURE Proportions with visual impairment in intervention and control groups with any method of assessing visual impairment.   \n",
+            "RESULTS There were no trials that primarily assessed visual screening.",
+            "Outcome data on vision were available for 3494 people in five trials of multiphasic assessment.",
+            "All the trials used self reported measures for vision impairment, both as screening tools and as outcome measures.",
+            "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22).",
+            "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.   \n",
+            "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence.",
+            "Visual impairment in this age group can usually be reduced with treatment.",
+            "It is unclear why no benefit was seen.",
+            "Further work is needed to clarify what interventions are appropriate for older people with unreported impairment of vision."
+          ],
+          "production_segments": [
+            {
+              "index": 0,
+              "start": 0,
+              "end": 137,
+              "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision."
+            },
+            {
+              "index": 1,
+              "start": 142,
+              "end": 332,
+              "text": "DESIGN Systematic review of randomised controlled trials of population screening in the community that included any assessment of vision or visual function with at least 6 months' follow up."
+            },
+            {
+              "index": 2,
+              "start": 336,
+              "end": 368,
+              "text": "SUBJECTS Adults aged 65 or over."
+            },
+            {
+              "index": 3,
+              "start": 373,
+              "end": 511,
+              "text": "MAIN OUTCOME MEASURE Proportions with visual impairment in intervention and control groups with any method of assessing visual impairment."
+            },
+            {
+              "index": 4,
+              "start": 516,
+              "end": 586,
+              "text": "RESULTS There were no trials that primarily assessed visual screening."
+            },
+            {
+              "index": 5,
+              "start": 587,
+              "end": 682,
+              "text": "Outcome data on vision were available for 3494 people in five trials of multiphasic assessment."
+            },
+            {
+              "index": 6,
+              "start": 683,
+              "end": 797,
+              "text": "All the trials used self reported measures for vision impairment, both as screening tools and as outcome measures."
+            },
+            {
+              "index": 7,
+              "start": 798,
+              "end": 988,
+              "text": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22)."
+            },
+            {
+              "index": 8,
+              "start": 989,
+              "end": 1097,
+              "text": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded."
+            },
+            {
+              "index": 9,
+              "start": 1102,
+              "end": 1207,
+              "text": "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence."
+            },
+            {
+              "index": 10,
+              "start": 1208,
+              "end": 1282,
+              "text": "Visual impairment in this age group can usually be reduced with treatment."
+            },
+            {
+              "index": 11,
+              "start": 1283,
+              "end": 1321,
+              "text": "It is unclear why no benefit was seen."
+            },
+            {
+              "index": 12,
+              "start": 1322,
+              "end": 1445,
+              "text": "Further work is needed to clarify what interventions are appropriate for older people with unreported impairment of vision."
+            }
+          ],
+          "selected_segment_indices": [
+            0,
+            8,
+            10
+          ],
+          "selected_passages": [
+            {
+              "passage_id": "26016929:abstract:0:137:575e64951fc6",
+              "paper_id": "26016929",
+              "section": "abstract",
+              "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.",
+              "score": 0.8067132234573364,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            },
+            {
+              "passage_id": "26016929:abstract:989:1097:533644adea9c",
+              "paper_id": "26016929",
+              "section": "abstract",
+              "text": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.",
+              "score": 0.6641406416893005,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            },
+            {
+              "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+              "paper_id": "26016929",
+              "section": "abstract",
+              "text": "Visual impairment in this age group can usually be reduced with treatment.",
+              "score": 0.6538330316543579,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            }
+          ],
+          "coverage_only_counterfactuals": [
+            {
+              "production_segment_context_radius": 0,
+              "selected_segment_count": 3,
+              "covered_original_sentence_indices": [
+                0,
+                8,
+                10
+              ],
+              "recovered_gold_indices": []
+            },
+            {
+              "production_segment_context_radius": 1,
+              "selected_segment_count": 7,
+              "covered_original_sentence_indices": [
+                0,
+                1,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "recovered_gold_indices": [
+                7,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "per_passage_labels": {
+        "26016929:abstract:0:137:575e64951fc6": {
+          "passage_id": "26016929:abstract:0:137:575e64951fc6",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926124811172485,
+          "truncated": false
+        },
+        "26016929:abstract:989:1097:533644adea9c": {
+          "passage_id": "26016929:abstract:989:1097:533644adea9c",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926928281784058,
+          "truncated": false
+        },
+        "26016929:abstract:1208:1282:2af80bfbf9d0": {
+          "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.7366705536842346,
+          "truncated": false
+        },
+        "10893238:abstract:1108:1276:648ce804611e": {
+          "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+          "paper_id": "10893238",
+          "label": "NEUTRAL",
+          "confidence": 0.996238112449646,
+          "truncated": false
+        },
+        "313394:abstract:0:76:e58f7f544f25": {
+          "passage_id": "313394:abstract:0:76:e58f7f544f25",
+          "paper_id": "313394",
+          "label": "NEUTRAL",
+          "confidence": 0.9958036541938782,
+          "truncated": false
+        }
+      }
+    },
+    {
+      "claim_id": "1163",
+      "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+      "papers": [
+        {
+          "paper_id": "15305881",
+          "gold_sentence_indices": [
+            5
+          ],
+          "original_sentences": [
+            "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation.",
+            "Despite having been originally characterized over 50 years ago, the mechanism underlying this remarkable repair process is still poorly understood.",
+            "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp.",
+            "that is crucial for recovery following DNA damage.",
+            "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA.",
+            "Unexpectedly, the crystal structure reveals that DdrB comprises a novel fold that is structurally and topologically distinct from all other single-stranded binding (SSB) proteins characterized to date.",
+            "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+            "Possible mechanisms of DdrB action in damage recovery are discussed."
+          ],
+          "production_segments": [
+            {
+              "index": 0,
+              "start": 0,
+              "end": 188,
+              "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation."
+            },
+            {
+              "index": 1,
+              "start": 189,
+              "end": 336,
+              "text": "Despite having been originally characterized over 50 years ago, the mechanism underlying this remarkable repair process is still poorly understood."
+            },
+            {
+              "index": 2,
+              "start": 337,
+              "end": 505,
+              "text": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage."
+            },
+            {
+              "index": 3,
+              "start": 506,
+              "end": 598,
+              "text": "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA."
+            },
+            {
+              "index": 4,
+              "start": 599,
+              "end": 800,
+              "text": "Unexpectedly, the crystal structure reveals that DdrB comprises a novel fold that is structurally and topologically distinct from all other single-stranded binding (SSB) proteins characterized to date."
+            },
+            {
+              "index": 5,
+              "start": 801,
+              "end": 1080,
+              "text": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance."
+            },
+            {
+              "index": 6,
+              "start": 1081,
+              "end": 1149,
+              "text": "Possible mechanisms of DdrB action in damage recovery are discussed."
+            }
+          ],
+          "selected_segment_indices": [
+            2,
+            0,
+            5
+          ],
+          "selected_passages": [
+            {
+              "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+              "paper_id": "15305881",
+              "section": "abstract",
+              "text": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage.",
+              "score": 0.6934131979942322,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            },
+            {
+              "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+              "paper_id": "15305881",
+              "section": "abstract",
+              "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation.",
+              "score": 0.5860298871994019,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            },
+            {
+              "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+              "paper_id": "15305881",
+              "section": "abstract",
+              "text": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+              "score": 0.5800168514251709,
+              "page": null,
+              "sentence_indices": [],
+              "source_version": null
+            }
+          ],
+          "coverage_only_counterfactuals": [
+            {
+              "production_segment_context_radius": 0,
+              "selected_segment_count": 3,
+              "covered_original_sentence_indices": [
+                0,
+                2,
+                3,
+                6
+              ],
+              "recovered_gold_indices": []
+            },
+            {
+              "production_segment_context_radius": 1,
+              "selected_segment_count": 7,
+              "covered_original_sentence_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "recovered_gold_indices": [
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "per_passage_labels": {
+        "15305881:abstract:337:505:71ef8083aa07": {
+          "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9838640689849854,
+          "truncated": false
+        },
+        "15305881:abstract:0:188:85d1b6c71acd": {
+          "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9987753033638,
+          "truncated": false
+        },
+        "15305881:abstract:801:1080:296783cd1d2d": {
+          "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.8950538039207458,
+          "truncated": false
+        },
+        "799586:abstract:100:299:934cb663cc95": {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "label": "CONTRADICT",
+          "confidence": 0.6478974223136902,
+          "truncated": false
+        },
+        "799586:abstract:1247:1379:ec8b70b33d58": {
+          "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+          "paper_id": "799586",
+          "label": "NEUTRAL",
+          "confidence": 0.980080246925354,
+          "truncated": false
+        }
+      }
+    }
+  ]
+}

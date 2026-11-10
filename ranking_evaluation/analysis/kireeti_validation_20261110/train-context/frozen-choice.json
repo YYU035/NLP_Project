@@ -1,0 +1,120 @@
+{
+  "selected_policy": "neighbors_0.6",
+  "train_results": [
+    {
+      "policy": "baseline",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 152,
+        "fp": 260,
+        "fn": 144,
+        "precision": 0.36893203883495146,
+        "recall": 0.5135135135135135,
+        "f1": 0.4293785310734463
+      },
+      "complete_rationale_docs": 109,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 22882,
+      "accepted_passages": 409,
+      "selection_and_tokenization_seconds": 0.12779079099982482
+    },
+    {
+      "policy": "all_neighbors",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 199,
+        "fp": 644,
+        "fn": 97,
+        "precision": 0.23606168446026096,
+        "recall": 0.6722972972972973,
+        "f1": 0.34942932396839327
+      },
+      "complete_rationale_docs": 126,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 33874,
+      "accepted_passages": 244,
+      "selection_and_tokenization_seconds": 0.1111137919997418
+    },
+    {
+      "policy": "neighbors_0.3",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 198,
+        "fp": 535,
+        "fn": 98,
+        "precision": 0.27012278308321963,
+        "recall": 0.668918918918919,
+        "f1": 0.3848396501457726
+      },
+      "complete_rationale_docs": 126,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 31158,
+      "accepted_passages": 255,
+      "selection_and_tokenization_seconds": 0.08049325000047247
+    },
+    {
+      "policy": "neighbors_0.4",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 196,
+        "fp": 462,
+        "fn": 100,
+        "precision": 0.2978723404255319,
+        "recall": 0.6621621621621622,
+        "f1": 0.4109014675052411
+      },
+      "complete_rationale_docs": 126,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 28961,
+      "accepted_passages": 263,
+      "selection_and_tokenization_seconds": 0.10620695899979182
+    },
+    {
+      "policy": "neighbors_0.5",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 175,
+        "fp": 377,
+        "fn": 121,
+        "precision": 0.3170289855072464,
+        "recall": 0.5912162162162162,
+        "f1": 0.4127358490566038
+      },
+      "complete_rationale_docs": 118,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 25465,
+      "accepted_passages": 281,
+      "selection_and_tokenization_seconds": 0.07537362499988376
+    },
+    {
+      "policy": "neighbors_0.6",
+      "positive_claims": 139,
+      "excluded_no_gold_papers": 61,
+      "micro": {
+        "tp": 161,
+        "fp": 292,
+        "fn": 135,
+        "precision": 0.3554083885209713,
+        "recall": 0.543918918918919,
+        "f1": 0.4299065420560748
+      },
+      "complete_rationale_docs": 112,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 22419,
+      "accepted_passages": 310,
+      "selection_and_tokenization_seconds": 0.06619954199959466
+    }
+  ],
+  "selection_objective": "Maximize train positive-only micro evidence F1; ties prefer precision then baseline then higher neighbor threshold."
+}

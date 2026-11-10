@@ -1,0 +1,373 @@
+{
+  "policy": "bounded_abstract",
+  "depth": 5,
+  "train_summary": {
+    "baseline": {
+      "all": {
+        "n": 200,
+        "accuracy": 0.555,
+        "macro_f1": 0.5726140574691696,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED",
+          "INSUFFICIENT"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.2967032967032967,
+            "f1": 0.4576271186440678,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.5757575757575758,
+            "recall": 0.7916666666666666,
+            "f1": 0.6666666666666667,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.48936170212765956,
+            "recall": 0.7540983606557377,
+            "f1": 0.5935483870967743,
+            "support": 61
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 27,
+            "CONTRADICTED": 16,
+            "INSUFFICIENT": 40,
+            "CONFLICTING": 8,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 38,
+            "INSUFFICIENT": 8,
+            "CONFLICTING": 2,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 12,
+            "INSUFFICIENT": 46,
+            "CONFLICTING": 3,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "positive": {
+        "n": 139,
+        "accuracy": 0.4676258992805755,
+        "macro_f1": 0.6013625789298771,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.2967032967032967,
+            "f1": 0.4576271186440678,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.7037037037037037,
+            "recall": 0.7916666666666666,
+            "f1": 0.7450980392156864,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 27,
+            "CONTRADICTED": 16,
+            "INSUFFICIENT": 40,
+            "CONFLICTING": 8,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 38,
+            "INSUFFICIENT": 8,
+            "CONFLICTING": 2,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 0,
+            "INSUFFICIENT": 0,
+            "CONFLICTING": 0,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "evidence_micro_positive_only": {
+        "tp": 142,
+        "fp": 1098,
+        "fn": 154,
+        "precision": 0.11451612903225807,
+        "recall": 0.4797297297297297,
+        "f1": 0.18489583333333334
+      },
+      "complete_rationale_docs": 102,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "no_positive_selected_sentence_count": 394,
+      "fallback_papers": 0
+    },
+    "neighbors_0.6": {
+      "all": {
+        "n": 200,
+        "accuracy": 0.59,
+        "macro_f1": 0.6200757575757576,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED",
+          "INSUFFICIENT"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 0.972972972972973,
+            "recall": 0.3956043956043956,
+            "f1": 0.5625,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.5967741935483871,
+            "recall": 0.7708333333333334,
+            "f1": 0.6727272727272728,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.5421686746987951,
+            "recall": 0.7377049180327869,
+            "f1": 0.625,
+            "support": 61
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 36,
+            "CONTRADICTED": 12,
+            "INSUFFICIENT": 30,
+            "CONFLICTING": 13,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 37,
+            "INSUFFICIENT": 8,
+            "CONFLICTING": 3,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 1,
+            "CONTRADICTED": 13,
+            "INSUFFICIENT": 45,
+            "CONFLICTING": 2,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "positive": {
+        "n": 139,
+        "accuracy": 0.5251798561151079,
+        "macro_f1": 0.664907865898206,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.3956043956043956,
+            "f1": 0.5669291338582677,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.7551020408163265,
+            "recall": 0.7708333333333334,
+            "f1": 0.7628865979381444,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 36,
+            "CONTRADICTED": 12,
+            "INSUFFICIENT": 30,
+            "CONFLICTING": 13,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 37,
+            "INSUFFICIENT": 8,
+            "CONFLICTING": 3,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 0,
+            "INSUFFICIENT": 0,
+            "CONFLICTING": 0,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "evidence_micro_positive_only": {
+        "tp": 151,
+        "fp": 1176,
+        "fn": 145,
+        "precision": 0.11379050489826677,
+        "recall": 0.5101351351351351,
+        "f1": 0.1860751694393099
+      },
+      "complete_rationale_docs": 105,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "no_positive_selected_sentence_count": 405,
+      "fallback_papers": 0
+    },
+    "bounded_abstract": {
+      "all": {
+        "n": 200,
+        "accuracy": 0.615,
+        "macro_f1": 0.6469006189041184,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED",
+          "INSUFFICIENT"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 0.7887323943661971,
+            "recall": 0.6153846153846154,
+            "f1": 0.6913580246913581,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.7142857142857143,
+            "recall": 0.625,
+            "f1": 0.6666666666666666,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.5606060606060606,
+            "recall": 0.6065573770491803,
+            "f1": 0.5826771653543307,
+            "support": 61
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 56,
+            "CONTRADICTED": 4,
+            "INSUFFICIENT": 20,
+            "CONFLICTING": 11,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 3,
+            "CONTRADICTED": 30,
+            "INSUFFICIENT": 9,
+            "CONFLICTING": 6,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 12,
+            "CONTRADICTED": 8,
+            "INSUFFICIENT": 37,
+            "CONFLICTING": 4,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "positive": {
+        "n": 139,
+        "accuracy": 0.6187050359712231,
+        "macro_f1": 0.7391869918699188,
+        "macro_classes": [
+          "SUPPORTED",
+          "CONTRADICTED"
+        ],
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 0.9491525423728814,
+            "recall": 0.6153846153846154,
+            "f1": 0.7466666666666667,
+            "support": 91
+          },
+          "CONTRADICTED": {
+            "precision": 0.8823529411764706,
+            "recall": 0.625,
+            "f1": 0.7317073170731708,
+            "support": 48
+          },
+          "INSUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 56,
+            "CONTRADICTED": 4,
+            "INSUFFICIENT": 20,
+            "CONFLICTING": 11,
+            "PROCESSING_FAILURE": 0
+          },
+          "CONTRADICTED": {
+            "SUPPORTED": 3,
+            "CONTRADICTED": 30,
+            "INSUFFICIENT": 9,
+            "CONFLICTING": 6,
+            "PROCESSING_FAILURE": 0
+          },
+          "INSUFFICIENT": {
+            "SUPPORTED": 0,
+            "CONTRADICTED": 0,
+            "INSUFFICIENT": 0,
+            "CONFLICTING": 0,
+            "PROCESSING_FAILURE": 0
+          }
+        },
+        "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+      },
+      "evidence_micro_positive_only": {
+        "tp": 220,
+        "fp": 3971,
+        "fn": 76,
+        "precision": 0.05249343832020997,
+        "recall": 0.7432432432432432,
+        "f1": 0.09806106529975483
+      },
+      "complete_rationale_docs": 125,
+      "gold_rationale_docs": 159,
+      "rejected_spans": 0,
+      "no_positive_selected_sentence_count": 1379,
+      "fallback_papers": 55
+    }
+  },
+  "objective": "Highest train all-claim accuracy at depth5; ties prefer Macro-F1 then unchanged baseline. No dev policy selection."
+}

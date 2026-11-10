@@ -1,0 +1,119 @@
+{
+  "train_selected_policy": "neighbors_0.6",
+  "results": [
+    {
+      "policy": "baseline",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 196,
+        "fp": 338,
+        "fn": 170,
+        "precision": 0.36704119850187267,
+        "recall": 0.5355191256830601,
+        "f1": 0.4355555555555556
+      },
+      "complete_rationale_docs": 150,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 30502,
+      "accepted_passages": 532,
+      "selection_and_tokenization_seconds": 0.11597854200044821
+    },
+    {
+      "policy": "all_neighbors",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 274,
+        "fp": 852,
+        "fn": 92,
+        "precision": 0.2433392539964476,
+        "recall": 0.7486338797814208,
+        "f1": 0.36729222520107235
+      },
+      "complete_rationale_docs": 179,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 46451,
+      "accepted_passages": 339,
+      "selection_and_tokenization_seconds": 0.12932920799994463
+    },
+    {
+      "policy": "neighbors_0.3",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 261,
+        "fp": 719,
+        "fn": 105,
+        "precision": 0.26632653061224487,
+        "recall": 0.7131147540983607,
+        "f1": 0.387815750371471
+      },
+      "complete_rationale_docs": 173,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 42516,
+      "accepted_passages": 352,
+      "selection_and_tokenization_seconds": 0.11043570899983024
+    },
+    {
+      "policy": "neighbors_0.4",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 253,
+        "fp": 623,
+        "fn": 113,
+        "precision": 0.2888127853881279,
+        "recall": 0.6912568306010929,
+        "f1": 0.4074074074074074
+      },
+      "complete_rationale_docs": 171,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 39288,
+      "accepted_passages": 363,
+      "selection_and_tokenization_seconds": 0.10231258299972978
+    },
+    {
+      "policy": "neighbors_0.5",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 235,
+        "fp": 487,
+        "fn": 131,
+        "precision": 0.3254847645429363,
+        "recall": 0.6420765027322405,
+        "f1": 0.4319852941176471
+      },
+      "complete_rationale_docs": 165,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 34276,
+      "accepted_passages": 377,
+      "selection_and_tokenization_seconds": 0.09045137500015699
+    },
+    {
+      "policy": "neighbors_0.6",
+      "positive_claims": 188,
+      "excluded_no_gold_papers": 112,
+      "micro": {
+        "tp": 215,
+        "fp": 394,
+        "fn": 151,
+        "precision": 0.3530377668308703,
+        "recall": 0.587431693989071,
+        "f1": 0.44102564102564107
+      },
+      "complete_rationale_docs": 157,
+      "gold_rationale_docs": 209,
+      "rejected_spans": 0,
+      "accepted_pair_tokens": 30843,
+      "accepted_passages": 406,
+      "selection_and_tokenization_seconds": 0.08944933400016453
+    }
+  ]
+}

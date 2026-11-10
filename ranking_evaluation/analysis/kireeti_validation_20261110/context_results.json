@@ -1,0 +1,4277 @@
+{
+  "protocol": "All 15 archived full-route replays, selected nonrandom diagnostic sample; fixed archived accepted anchors; unchanged top-five scope; radius 0 vs radius 1; overlap merging and whole-passage rejection at 512 pair tokens. No fallback after rejection.",
+  "limitations": [
+    "No encoder rerun; cannot recover anchors absent from archived accepted passages.",
+    "No NLI inference or new verdict accuracy/Macro-F1/latency measurement.",
+    "Not representative full-development or test results; no statistical improvement claim.",
+    "Timing includes selection and tokenization only, not model inference or end-to-end latency."
+  ],
+  "source_sha256": {
+    "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+  },
+  "tokenizer_contract": {
+    "owner": "Chong Yao",
+    "source_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "source_file": "claim_verifier/verifier.py",
+    "max_pair_tokens": 512,
+    "tokenizer_checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "tokenizer_revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "orientation": "premise=evidence text; hypothesis=original claim",
+    "special_tokens": true,
+    "policy": "reject complete over-budget passages; never trim source text or claim"
+  },
+  "tokenizer_files_sha256": {
+    "tokenizer_config.json": "556a192d83e3edb45a09a6207095dd9295c3b2279062e5cc430feac4cb7a0817",
+    "special_tokens_map.json": "fcfbeb4e25cd37fb5b8030406394253b245230fd3b552750092bab7d24d827da",
+    "config.json": "7f9d420b616691c5b575bab8839719aefbddc656d8e1316519414b097ce43e3d",
+    "tokenizer.json": "7aa118770f066a74530d161c7d0b994d0629cc0ff3a0df213f184192773f960a",
+    "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+  },
+  "summary": [
+    {
+      "radius": 0,
+      "claims": 15,
+      "positive_claims": 9,
+      "positive_evidence_micro": {
+        "tp": 7,
+        "fp": 57,
+        "fn": 9,
+        "precision": 0.109375,
+        "recall": 0.4375,
+        "f1": 0.175
+      },
+      "complete_rationale_docs": 5,
+      "gold_rationale_docs": 9,
+      "rejected_spans_all_claims": 0,
+      "accepted_passages_all_claims": 106
+    },
+    {
+      "radius": 1,
+      "claims": 15,
+      "positive_claims": 9,
+      "positive_evidence_micro": {
+        "tp": 12,
+        "fp": 123,
+        "fn": 4,
+        "precision": 0.08888888888888889,
+        "recall": 0.75,
+        "f1": 0.15894039735099338
+      },
+      "complete_rationale_docs": 8,
+      "gold_rationale_docs": 9,
+      "rejected_spans_all_claims": 0,
+      "accepted_passages_all_claims": 72
+    }
+  ],
+  "rows": [
+    {
+      "claim_id": "1",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 0,
+      "selection_and_tokenization_seconds": 0.0032058339993454865,
+      "details": [
+        {
+          "paper_id": "10931595",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "13231899",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "29638116",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "43385013",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4346436",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "1",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 0,
+      "selection_and_tokenization_seconds": 0.000579583999751776,
+      "details": [
+        {
+          "paper_id": "10931595",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "13231899",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "29638116",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "43385013",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4346436",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "113",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 1,
+        "fp": 12,
+        "fn": 1,
+        "precision": 0.07692307692307693,
+        "recall": 0.5,
+        "f1": 0.13333333333333336
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 13,
+      "selection_and_tokenization_seconds": 0.005611290999695484,
+      "details": [
+        {
+          "paper_id": "14584755",
+          "budget_checks": [
+            {
+              "passage_id": "14584755:abstract:155:587:0f080de95554",
+              "pair_tokens": 91,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+              "pair_tokens": 39,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Although both angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor antagonists (angiotensin receptor blockers; ARBs) are equally important in the treatment of hypertension, according to the results of recent years, there might be substantial differences in their cardiovascular protective effects, and these differences might be explained by our increasing knowledge of their non-overlapping mechanisms of action.",
+              "start": 155,
+              "end": 587,
+              "passage_id": "14584755:abstract:155:587:0f080de95554"
+            },
+            {
+              "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+              "start": 709,
+              "end": 834,
+              "passage_id": "14584755:abstract:709:834:ccd8ed947ef7"
+            }
+          ]
+        },
+        {
+          "paper_id": "1759213",
+          "budget_checks": [
+            {
+              "passage_id": "1759213:abstract:1379:1556:e152f60ff679",
+              "pair_tokens": 48,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1759213:abstract:309:671:c3695abe43b2",
+              "pair_tokens": 73,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1759213:abstract:881:1239:85e65d92d8dd",
+              "pair_tokens": 91,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "CONCLUSION Use of aliskerin in combination with angiotensin converting enzyme inhibitors or angiotensin receptor blockers is associated with an increased risk for hyperkalaemia.",
+              "start": 1379,
+              "end": 1556,
+              "passage_id": "1759213:abstract:1379:1556:e152f60ff679"
+            },
+            {
+              "text": "STUDY SELECTION Published and unpublished randomised controlled trials that compared combined treatment using aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers with monotherapy using these agents for at least four weeks and that provided numerical data on the adverse event outcomes of hyperkalaemia and acute kidney injury.",
+              "start": 309,
+              "end": 671,
+              "passage_id": "1759213:abstract:309:671:c3695abe43b2"
+            },
+            {
+              "text": "Combination therapy with aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers significantly increased the risk of hyperkalaemia compared with monotherapy using angiotensin converting enzymes or angiotensin receptor blockers (relative risk 1.58, 95% confidence interval 1.24 to 2.02) or aliskiren alone (1.67, 1.01 to 2.79).",
+              "start": 881,
+              "end": 1239,
+              "passage_id": "1759213:abstract:881:1239:85e65d92d8dd"
+            }
+          ]
+        },
+        {
+          "paper_id": "25816994",
+          "budget_checks": [
+            {
+              "passage_id": "25816994:abstract:0:130:8653385331dd",
+              "pair_tokens": 43,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "25816994:abstract:282:516:9364137c2c99",
+              "pair_tokens": 66,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+              "pair_tokens": 107,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "BACKGROUND Angiotensin receptor blockers (ARB) and angiotensin converting enzyme (ACE) inhibitors are known to reduce proteinuria.",
+              "start": 0,
+              "end": 130,
+              "passage_id": "25816994:abstract:0:130:8653385331dd"
+            },
+            {
+              "text": "We investigated the renal effects of ramipril (an ACE inhibitor), telmisartan (an ARB), and their combination in patients aged 55 years or older with established atherosclerotic vascular disease or with diabetes with end-organ damage.",
+              "start": 282,
+              "end": 516,
+              "passage_id": "25816994:abstract:282:516:9364137c2c99"
+            },
+            {
+              "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+              "start": 1480,
+              "end": 1727,
+              "passage_id": "25816994:abstract:1480:1727:1e4287298749"
+            }
+          ]
+        },
+        {
+          "paper_id": "26199970",
+          "budget_checks": [
+            {
+              "passage_id": "26199970:abstract:434:646:e28f1fdca2c6",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "26199970:abstract:1863:2027:419b2b5f3531",
+              "pair_tokens": 43,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Study selection: Randomized controlled trials comparing any angiotensin converting enzyme inhibitor or AT1R blocker versus placebo or non-angiotensin converting enzyme inhibitor or non-AT1R blocker were selected.",
+              "start": 434,
+              "end": 646,
+              "passage_id": "26199970:abstract:434:646:e28f1fdca2c6"
+            },
+            {
+              "text": "Research specifically designed to analyse the usefulness of drugs that block the angiotensin system is necessary to properly evaluate this novel psychiatric target.",
+              "start": 1863,
+              "end": 2027,
+              "passage_id": "26199970:abstract:1863:2027:419b2b5f3531"
+            }
+          ]
+        },
+        {
+          "paper_id": "6157837",
+          "budget_checks": [
+            {
+              "passage_id": "6157837:abstract:0:121:1e6eb45e2c55",
+              "pair_tokens": 41,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+              "pair_tokens": 73,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+              "pair_tokens": 59,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs.",
+              "start": 0,
+              "end": 121,
+              "passage_id": "6157837:abstract:0:121:1e6eb45e2c55"
+            },
+            {
+              "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of \u201cfunctional renal insufficiency\u201d and/or hyperkalemia.",
+              "start": 334,
+              "end": 617,
+              "passage_id": "6157837:abstract:334:617:59bb22c7846b"
+            },
+            {
+              "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+              "start": 618,
+              "end": 825,
+              "passage_id": "6157837:abstract:618:825:b146a7c6686c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "113",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 1,
+        "fp": 28,
+        "fn": 1,
+        "precision": 0.034482758620689655,
+        "recall": 0.5,
+        "f1": 0.06451612903225806
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 8,
+      "selection_and_tokenization_seconds": 0.004976332999831357,
+      "details": [
+        {
+          "paper_id": "14584755",
+          "budget_checks": [
+            {
+              "passage_id": "14584755:abstract:0:834:6add9f738361",
+              "pair_tokens": 161,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The renin-angiotensin-aldosterone system plays a major role in the pathophysiology of hypertension and closely related cardio- and cerebrovascular events. Although both angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor antagonists (angiotensin receptor blockers; ARBs) are equally important in the treatment of hypertension, according to the results of recent years, there might be substantial differences in their cardiovascular protective effects, and these differences might be explained by our increasing knowledge of their non-overlapping mechanisms of action. The number of studies investigating how ACE inhibitors and ARB agents differ will certainly be increasing in the future. ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+              "start": 0,
+              "end": 834,
+              "passage_id": "14584755:abstract:0:834:6add9f738361"
+            }
+          ]
+        },
+        {
+          "paper_id": "1759213",
+          "budget_checks": [
+            {
+              "passage_id": "1759213:abstract:789:1644:b67478501d9c",
+              "pair_tokens": 181,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1759213:abstract:200:784:cf0cc80a6b25",
+              "pair_tokens": 117,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "RESULTS 10 randomised controlled studies (4814 participants) were included in the analysis. Combination therapy with aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers significantly increased the risk of hyperkalaemia compared with monotherapy using angiotensin converting enzymes or angiotensin receptor blockers (relative risk 1.58, 95% confidence interval 1.24 to 2.02) or aliskiren alone (1.67, 1.01 to 2.79). The risk of acute kidney injury did not differ significantly between the combined therapy and monotherapy groups (1.14, 0.68 to 1.89).   \n CONCLUSION Use of aliskerin in combination with angiotensin converting enzyme inhibitors or angiotensin receptor blockers is associated with an increased risk for hyperkalaemia. The combined use of these agents warrants careful monitoring of serum potassium levels.",
+              "start": 789,
+              "end": 1644,
+              "passage_id": "1759213:abstract:789:1644:b67478501d9c"
+            },
+            {
+              "text": "DATA SOURCES Medline, Embase, the Cochrane Library, and two trial registries, published up to 7 May 2011.    STUDY SELECTION Published and unpublished randomised controlled trials that compared combined treatment using aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers with monotherapy using these agents for at least four weeks and that provided numerical data on the adverse event outcomes of hyperkalaemia and acute kidney injury. A random effects model was used to calculate pooled risk ratios and 95% confidence intervals for these outcomes.",
+              "start": 200,
+              "end": 784,
+              "passage_id": "1759213:abstract:200:784:cf0cc80a6b25"
+            }
+          ]
+        },
+        {
+          "paper_id": "25816994",
+          "budget_checks": [
+            {
+              "passage_id": "25816994:abstract:0:561:fdef58e37b6c",
+              "pair_tokens": 125,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "25816994:abstract:1221:1935:c5ffd2a38eb5",
+              "pair_tokens": 285,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "BACKGROUND Angiotensin receptor blockers (ARB) and angiotensin converting enzyme (ACE) inhibitors are known to reduce proteinuria. Their combination might be more effective than either treatment alone, but long-term data for comparative changes in renal function are not available. We investigated the renal effects of ramipril (an ACE inhibitor), telmisartan (an ARB), and their combination in patients aged 55 years or older with established atherosclerotic vascular disease or with diabetes with end-organ damage.   \n METHODS The trial ran from 2001 to 2007.",
+              "start": 0,
+              "end": 561,
+              "passage_id": "25816994:abstract:0:561:fdef58e37b6c"
+            },
+            {
+              "text": "The number of events for the composite primary outcome was similar for telmisartan (n=1147 [13.4%]) and ramipril (1150 [13.5%]; hazard ratio [HR] 1.00, 95% CI 0.92-1.09), but was increased with combination therapy (1233 [14.5%]; HR 1.09, 1.01-1.18, p=0.037). The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038). Estimated glomerular filtration rate (eGFR) declined least with ramipril compared with telmisartan (-2.82 [SD 17.2] mL/min/1.73 m(2)vs -4.12 [17.4], p<0.0001) or combination therapy (-6.11 [17.9], p<0.0001).",
+              "start": 1221,
+              "end": 1935,
+              "passage_id": "25816994:abstract:1221:1935:c5ffd2a38eb5"
+            }
+          ]
+        },
+        {
+          "paper_id": "26199970",
+          "budget_checks": [
+            {
+              "passage_id": "26199970:abstract:387:714:349f5fa29609",
+              "pair_tokens": 77,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "26199970:abstract:1784:2027:ba532a0e2fd5",
+              "pair_tokens": 57,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The last search was conducted in January 2017. Study selection: Randomized controlled trials comparing any angiotensin converting enzyme inhibitor or AT1R blocker versus placebo or non-angiotensin converting enzyme inhibitor or non-AT1R blocker were selected. Study participants were adults without any major physical symptoms.",
+              "start": 387,
+              "end": 714,
+              "passage_id": "26199970:abstract:387:714:349f5fa29609"
+            },
+            {
+              "text": "Mental health quality of life was a secondary outcome in the included studies. Research specifically designed to analyse the usefulness of drugs that block the angiotensin system is necessary to properly evaluate this novel psychiatric target.",
+              "start": 1784,
+              "end": 2027,
+              "passage_id": "26199970:abstract:1784:2027:ba532a0e2fd5"
+            }
+          ]
+        },
+        {
+          "paper_id": "6157837",
+          "budget_checks": [
+            {
+              "passage_id": "6157837:abstract:0:1054:e89b98f83585",
+              "pair_tokens": 220,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs. Beyond their utility in the management of hypertension, their use has been extended to the long-term management of patients with congestive heart failure (CHF), as well as diabetic and nondiabetic nephropathies. Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of \u201cfunctional renal insufficiency\u201d and/or hyperkalemia. This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects. ARF is most likely to occur when renal perfusion pressure cannot be sustained because of substantial decreases in mean arterial pressure (MAP) or when glomerular filtration rate (GFR) is highly angiotensin II (Ang II) dependent.",
+              "start": 0,
+              "end": 1054,
+              "passage_id": "6157837:abstract:0:1054:e89b98f83585"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "1163",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 5,
+      "selection_and_tokenization_seconds": 0.002274583000144048,
+      "details": [
+        {
+          "paper_id": "15305881",
+          "budget_checks": [
+            {
+              "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+              "pair_tokens": 64,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+              "pair_tokens": 55,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+              "pair_tokens": 74,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage.",
+              "start": 337,
+              "end": 505,
+              "passage_id": "15305881:abstract:337:505:71ef8083aa07"
+            },
+            {
+              "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation.",
+              "start": 0,
+              "end": 188,
+              "passage_id": "15305881:abstract:0:188:85d1b6c71acd"
+            },
+            {
+              "text": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+              "start": 801,
+              "end": 1080,
+              "passage_id": "15305881:abstract:801:1080:296783cd1d2d"
+            }
+          ]
+        },
+        {
+          "paper_id": "18261004",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "52944377",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "799586",
+          "budget_checks": [
+            {
+              "passage_id": "799586:abstract:100:299:934cb663cc95",
+              "pair_tokens": 55,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+              "start": 100,
+              "end": 299,
+              "passage_id": "799586:abstract:100:299:934cb663cc95"
+            },
+            {
+              "text": "SsbB\u03947 fulfils the reservoir function, suggesting that SsbB C-ter is not necessary for processing protein(s) to access stored ssDNA.",
+              "start": 1247,
+              "end": 1379,
+              "passage_id": "799586:abstract:1247:1379:ec8b70b33d58"
+            }
+          ]
+        },
+        {
+          "paper_id": "8065561",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "1163",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 1,
+        "fp": 13,
+        "fn": 0,
+        "precision": 0.07142857142857142,
+        "recall": 1.0,
+        "f1": 0.13333333333333333
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 4,
+      "selection_and_tokenization_seconds": 0.0027023749998988933,
+      "details": [
+        {
+          "paper_id": "15305881",
+          "budget_checks": [
+            {
+              "passage_id": "15305881:abstract:0:598:88871469c6bd",
+              "pair_tokens": 141,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "15305881:abstract:599:1149:44ab0e2757ff",
+              "pair_tokens": 123,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation. Despite having been originally characterized over 50 years ago, the mechanism underlying this remarkable repair process is still poorly understood. Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage. DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA.",
+              "start": 0,
+              "end": 598,
+              "passage_id": "15305881:abstract:0:598:88871469c6bd"
+            },
+            {
+              "text": "Unexpectedly, the crystal structure reveals that DdrB comprises a novel fold that is structurally and topologically distinct from all other single-stranded binding (SSB) proteins characterized to date. The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance. Possible mechanisms of DdrB action in damage recovery are discussed.",
+              "start": 599,
+              "end": 1149,
+              "passage_id": "15305881:abstract:599:1149:44ab0e2757ff"
+            }
+          ]
+        },
+        {
+          "paper_id": "18261004",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "52944377",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "799586",
+          "budget_checks": [
+            {
+              "passage_id": "799586:abstract:0:555:44010087e452",
+              "pair_tokens": 143,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "799586:abstract:948:1628:a74588b9ceaa",
+              "pair_tokens": 155,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Bacteria encode a single-stranded DNA (ssDNA) binding protein (SSB) crucial for genome maintenance. In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure. Here, we report our investigations involving comparison of a null mutant (ssbB(-)) and a C-ter truncation (ssbB\u03947) of SsbB of S. pneumoniae, the latter constructed because SSBs' acidic tail has emerged as a key site for interactions with partner proteins.",
+              "start": 0,
+              "end": 555,
+              "passage_id": "799586:abstract:0:555:44010087e452"
+            },
+            {
+              "text": "While the latter observation explains a long-standing observation that plasmid transformation is very inefficient in S. pneumoniae (compared to chromosomal transformation), the former supports our previous suggestion that SsbB creates a reservoir of ssDNA, allowing successive recombination cycles. SsbB\u03947 fulfils the reservoir function, suggesting that SsbB C-ter is not necessary for processing protein(s) to access stored ssDNA. We propose that the evolutionary raison d'\u00eatre of SsbB and its abundance is maintenance of this reservoir, which contributes to the genetic plasticity of S. pneumoniae by increasing the likelihood of multiple transformation events in the same cell.",
+              "start": 948,
+              "end": 1628,
+              "passage_id": "799586:abstract:948:1628:a74588b9ceaa"
+            }
+          ]
+        },
+        {
+          "paper_id": "8065561",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "1199",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 8,
+      "selection_and_tokenization_seconds": 0.0026015000003098976,
+      "details": [
+        {
+          "paper_id": "21557614",
+          "budget_checks": [
+            {
+              "passage_id": "21557614:abstract:59:168:a22e91be616a",
+              "pair_tokens": 42,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "21557614:abstract:643:737:5b13ca92ee7c",
+              "pair_tokens": 42,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "21557614:abstract:0:58:cb79fc38f06d",
+              "pair_tokens": 33,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In clinical trials, statins are beneficial in the primary and secondary prevention of coronary heart disease.",
+              "start": 59,
+              "end": 168,
+              "passage_id": "21557614:abstract:59:168:a22e91be616a"
+            },
+            {
+              "text": "Furthermore, statins have beneficial extrahepatic effects on the immune system, CNS, and bone.",
+              "start": 643,
+              "end": 737,
+              "passage_id": "21557614:abstract:643:737:5b13ca92ee7c"
+            },
+            {
+              "text": "Statins are potent inhibitors of cholesterol biosynthesis.",
+              "start": 0,
+              "end": 58,
+              "passage_id": "21557614:abstract:0:58:cb79fc38f06d"
+            }
+          ]
+        },
+        {
+          "paper_id": "40156901",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4687948",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "5698494",
+          "budget_checks": [
+            {
+              "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7",
+              "pair_tokens": 91,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26",
+              "pair_tokens": 56,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Treatment with statins significantly reduced the risk of all cause mortality (odds ratio 0.88, 95% confidence interval 0.81 to 0.96), major coronary events (0.70, 0.61 to 0.81), and major cerebrovascular events (0.81, 0.71 to 0.93).",
+              "start": 1111,
+              "end": 1343,
+              "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7"
+            },
+            {
+              "text": "CONCLUSION In patients without established cardiovascular disease but with cardiovascular risk factors, statin use was associated with significantly improved survival and large reductions in the risk of major cardiovascular events.",
+              "start": 1491,
+              "end": 1722,
+              "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26"
+            }
+          ]
+        },
+        {
+          "paper_id": "7454794",
+          "budget_checks": [
+            {
+              "passage_id": "7454794:abstract:1082:1223:0349a8de551b",
+              "pair_tokens": 45,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7454794:abstract:662:824:4d984b73415a",
+              "pair_tokens": 55,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+              "pair_tokens": 47,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In appropriately selected individuals, statins should also be used for primary prevention of ischaemic stroke and transient ischaemic attack.",
+              "start": 1082,
+              "end": 1223,
+              "passage_id": "7454794:abstract:1082:1223:0349a8de551b"
+            },
+            {
+              "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+              "start": 662,
+              "end": 824,
+              "passage_id": "7454794:abstract:662:824:4d984b73415a"
+            },
+            {
+              "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+              "start": 275,
+              "end": 418,
+              "passage_id": "7454794:abstract:275:418:cc99dca953a9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "1199",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 19,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 7,
+      "selection_and_tokenization_seconds": 0.0030070829998294357,
+      "details": [
+        {
+          "paper_id": "21557614",
+          "budget_checks": [
+            {
+              "passage_id": "21557614:abstract:0:353:7c8f81e0b7c3",
+              "pair_tokens": 81,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "21557614:abstract:354:886:b3ef3c2601ed",
+              "pair_tokens": 115,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Statins are potent inhibitors of cholesterol biosynthesis. In clinical trials, statins are beneficial in the primary and secondary prevention of coronary heart disease. However, the overall benefits observed with statins appear to be greater than what might be expected from changes in lipid levels alone, suggesting effects beyond cholesterol lowering.",
+              "start": 0,
+              "end": 353,
+              "passage_id": "21557614:abstract:0:353:7c8f81e0b7c3"
+            },
+            {
+              "text": "Indeed, recent studies indicate that some of the cholesterol-independent or \"pleiotropic\" effects of statins involve improving endothelial function, enhancing the stability of atherosclerotic plaques, decreasing oxidative stress and inflammation, and inhibiting the thrombogenic response. Furthermore, statins have beneficial extrahepatic effects on the immune system, CNS, and bone. Many of these pleiotropic effects are mediated by inhibition of isoprenoids, which serve as lipid attachments for intracellular signaling molecules.",
+              "start": 354,
+              "end": 886,
+              "passage_id": "21557614:abstract:354:886:b3ef3c2601ed"
+            }
+          ]
+        },
+        {
+          "paper_id": "40156901",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4687948",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "5698494",
+          "budget_checks": [
+            {
+              "passage_id": "5698494:abstract:1081:1400:5351e8626f87",
+              "pair_tokens": 112,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "5698494:abstract:1401:1722:37b22496a91e",
+              "pair_tokens": 69,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Mean follow-up was 4.1 years. Treatment with statins significantly reduced the risk of all cause mortality (odds ratio 0.88, 95% confidence interval 0.81 to 0.96), major coronary events (0.70, 0.61 to 0.81), and major cerebrovascular events (0.81, 0.71 to 0.93). No evidence of an increased risk of cancer was observed.",
+              "start": 1081,
+              "end": 1400,
+              "passage_id": "5698494:abstract:1081:1400:5351e8626f87"
+            },
+            {
+              "text": "There was no significant heterogeneity of the treatment effect in clinical subgroups.   \n CONCLUSION In patients without established cardiovascular disease but with cardiovascular risk factors, statin use was associated with significantly improved survival and large reductions in the risk of major cardiovascular events.",
+              "start": 1401,
+              "end": 1722,
+              "passage_id": "5698494:abstract:1401:1722:37b22496a91e"
+            }
+          ]
+        },
+        {
+          "paper_id": "7454794",
+          "budget_checks": [
+            {
+              "passage_id": "7454794:abstract:921:1223:5d8a51f6d0b1",
+              "pair_tokens": 71,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7454794:abstract:515:920:e0516180df2c",
+              "pair_tokens": 102,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7454794:abstract:93:514:145e6d1629d5",
+              "pair_tokens": 98,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Therefore, the prescription of statins for primary prevention should be individualized on the basis of clinical judgment, particularly for low-risk individuals. In appropriately selected individuals, statins should also be used for primary prevention of ischaemic stroke and transient ischaemic attack.",
+              "start": 921,
+              "end": 1223,
+              "passage_id": "7454794:abstract:921:1223:5d8a51f6d0b1"
+            },
+            {
+              "text": "Thirdly, the cost-effectiveness of such a strategy is unclear, and has to be balanced against the risk of 'overmedicating' the general population. Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks. Whether primary prevention is beneficial in individuals at low or moderate risk is not certain.",
+              "start": 515,
+              "end": 920,
+              "passage_id": "7454794:abstract:515:920:e0516180df2c"
+            },
+            {
+              "text": "The use of these drugs for secondary prevention of CVD is well founded, but their expanding use in primary prevention\u2014in individuals without documented CVD\u2014has raised some concerns. Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality. Secondly, long-term statin use might cause adverse effects, such as incident diabetes mellitus.",
+              "start": 93,
+              "end": 514,
+              "passage_id": "7454794:abstract:93:514:145e6d1629d5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "1274",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 9,
+        "fn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 9,
+      "selection_and_tokenization_seconds": 0.0032221249994108803,
+      "details": [
+        {
+          "paper_id": "12428814",
+          "budget_checks": [
+            {
+              "passage_id": "12428814:abstract:123:337:7f6eac4495ca",
+              "pair_tokens": 76,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined.",
+              "start": 123,
+              "end": 337,
+              "passage_id": "12428814:abstract:123:337:7f6eac4495ca"
+            }
+          ]
+        },
+        {
+          "paper_id": "22632303",
+          "budget_checks": [
+            {
+              "passage_id": "22632303:abstract:0:128:cefe11cd31a2",
+              "pair_tokens": 59,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "22632303:abstract:1048:1233:f4c5f05cf0b0",
+              "pair_tokens": 74,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "22632303:abstract:284:481:090c61f10076",
+              "pair_tokens": 72,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Type VI protein secretion system (T6SS) is important for bacterial competition through contact-dependent killing of competitors.",
+              "start": 0,
+              "end": 128,
+              "passage_id": "22632303:abstract:0:128:cefe11cd31a2"
+            },
+            {
+              "text": "We also identified their three cognate T6SS-secreted effectors and show these are important for not only antibacterial and antieukaryotic activities but also assembly of T6SS apparatus.",
+              "start": 1048,
+              "end": 1233,
+              "passage_id": "22632303:abstract:1048:1233:f4c5f05cf0b0"
+            },
+            {
+              "text": "Although T6SS has been found in more than 100 gram-negative bacteria including many important human pathogens, few T6SS-dependent effector and immunity proteins have been experimentally determined.",
+              "start": 284,
+              "end": 481,
+              "passage_id": "22632303:abstract:284:481:090c61f10076"
+            }
+          ]
+        },
+        {
+          "paper_id": "27731651",
+          "budget_checks": [
+            {
+              "passage_id": "27731651:abstract:0:174:64c1d916482a",
+              "pair_tokens": 68,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "27731651:abstract:175:425:1cbfeb9cc8d0",
+              "pair_tokens": 85,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail.",
+              "start": 0,
+              "end": 174,
+              "passage_id": "27731651:abstract:0:174:64c1d916482a"
+            },
+            {
+              "text": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells.",
+              "start": 175,
+              "end": 425,
+              "passage_id": "27731651:abstract:175:425:1cbfeb9cc8d0"
+            }
+          ]
+        },
+        {
+          "paper_id": "4406819",
+          "budget_checks": [
+            {
+              "passage_id": "4406819:abstract:0:177:bd6c3df65139",
+              "pair_tokens": 72,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "4406819:abstract:1034:1178:03c4f035ad06",
+              "pair_tokens": 68,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria.",
+              "start": 0,
+              "end": 177,
+              "passage_id": "4406819:abstract:0:177:bd6c3df65139"
+            },
+            {
+              "text": "We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi.",
+              "start": 1034,
+              "end": 1178,
+              "passage_id": "4406819:abstract:1034:1178:03c4f035ad06"
+            }
+          ]
+        },
+        {
+          "paper_id": "7481159",
+          "budget_checks": [
+            {
+              "passage_id": "7481159:abstract:0:128:04a115ba3cc4",
+              "pair_tokens": 62,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Gram-negative bacteria use the Type VI secretion system (T6SS) to inject toxic proteins into rival bacteria or eukaryotic cells.",
+              "start": 0,
+              "end": 128,
+              "passage_id": "7481159:abstract:0:128:04a115ba3cc4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "1274",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 2,
+        "fp": 18,
+        "fn": 1,
+        "precision": 0.1,
+        "recall": 0.6666666666666666,
+        "f1": 0.1739130434782609
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 7,
+      "selection_and_tokenization_seconds": 0.003170707999743172,
+      "details": [
+        {
+          "paper_id": "12428814",
+          "budget_checks": [
+            {
+              "passage_id": "12428814:abstract:0:499:551322a02519",
+              "pair_tokens": 132,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Secretion systems require high-fidelity mechanisms to discriminate substrates among the vast cytoplasmic pool of proteins. Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined. We report that haemolysin coregulated protein (Hcp), a ring-shaped hexamer secreted by all characterized T6SSs, binds specifically to cognate effector molecules.",
+              "start": 0,
+              "end": 499,
+              "passage_id": "12428814:abstract:0:499:551322a02519"
+            }
+          ]
+        },
+        {
+          "paper_id": "22632303",
+          "budget_checks": [
+            {
+              "passage_id": "22632303:abstract:0:636:7bbaeb31871b",
+              "pair_tokens": 152,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "22632303:abstract:839:1455:fa632f439fab",
+              "pair_tokens": 153,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Type VI protein secretion system (T6SS) is important for bacterial competition through contact-dependent killing of competitors. T6SS delivers effectors to neighboring cells and corresponding antagonistic proteins confer immunity against effectors that are delivered by sister cells. Although T6SS has been found in more than 100 gram-negative bacteria including many important human pathogens, few T6SS-dependent effector and immunity proteins have been experimentally determined. Here we report a high-throughput approach using transposon mutagenesis and deep sequencing (Tn-seq) to identify T6SS immunity proteins in Vibrio cholerae.",
+              "start": 0,
+              "end": 636,
+              "passage_id": "22632303:abstract:0:636:7bbaeb31871b"
+            },
+            {
+              "text": "By comparing the relative abundance of each transposon mutant in the mutant library using deep sequencing, we identified three immunity proteins that render protection against killing by T6SS predatory cells. We also identified their three cognate T6SS-secreted effectors and show these are important for not only antibacterial and antieukaryotic activities but also assembly of T6SS apparatus. The lipase and muramidase T6SS effectors identified in this study underscore the diversity of T6SS-secreted substrates and the distinctly different mechanisms that target these for secretion by the dynamic T6SS organelle.",
+              "start": 839,
+              "end": 1455,
+              "passage_id": "22632303:abstract:839:1455:fa632f439fab"
+            }
+          ]
+        },
+        {
+          "paper_id": "27731651",
+          "budget_checks": [
+            {
+              "passage_id": "27731651:abstract:0:496:021b1bace9e7",
+              "pair_tokens": 131,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail. Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells. The contracted organelle is then recycled in an ATP-dependent process.",
+              "start": 0,
+              "end": 496,
+              "passage_id": "27731651:abstract:0:496:021b1bace9e7"
+            }
+          ]
+        },
+        {
+          "paper_id": "4406819",
+          "budget_checks": [
+            {
+              "passage_id": "4406819:abstract:0:344:c543127be763",
+              "pair_tokens": 102,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "4406819:abstract:887:1411:af570800fd88",
+              "pair_tokens": 147,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria. T6SS is responsible for translocation of a wide range of toxic effector molecules, allowing predatory cells to kill both prokaryotic as well as eukaryotic prey cells.",
+              "start": 0,
+              "end": 344,
+              "passage_id": "4406819:abstract:0:344:c543127be763"
+            },
+            {
+              "text": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex. We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi. Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event.",
+              "start": 887,
+              "end": 1411,
+              "passage_id": "4406819:abstract:887:1411:af570800fd88"
+            }
+          ]
+        },
+        {
+          "paper_id": "7481159",
+          "budget_checks": [
+            {
+              "passage_id": "7481159:abstract:0:191:903bbd6ab901",
+              "pair_tokens": 76,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Gram-negative bacteria use the Type VI secretion system (T6SS) to inject toxic proteins into rival bacteria or eukaryotic cells. However, the mechanism of the T6SS is incompletely understood.",
+              "start": 0,
+              "end": 191,
+              "passage_id": "7481159:abstract:0:191:903bbd6ab901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "13",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 13,
+      "selection_and_tokenization_seconds": 0.0037377919998107245,
+      "details": [
+        {
+          "paper_id": "1263446",
+          "budget_checks": [
+            {
+              "passage_id": "1263446:abstract:0:102:67926074eb7e",
+              "pair_tokens": 33,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1263446:abstract:2108:2391:86863c86bcd4",
+              "pair_tokens": 59,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb",
+              "pair_tokens": 105,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "BACKGROUND Neonatal mortality accounts for almost 40 per cent of under-five child mortality, globally.",
+              "start": 0,
+              "end": 102,
+              "passage_id": "1263446:abstract:0:102:67926074eb7e"
+            },
+            {
+              "text": "Low birth weight and short birth interval infants as well as perinatal health services factors, such as the availability of skilled birth attendance and postnatal care utilization should be taken into account when planning the interventions to reduce neonatal mortality in Indonesia.",
+              "start": 2108,
+              "end": 2391,
+              "passage_id": "1263446:abstract:2108:2391:86863c86bcd4"
+            },
+            {
+              "text": "The odds were also higher for higher rank infants with a short birth interval (OR = 2.82, p = 0.00), male infants (OR = 1.49, p = 0.01), smaller than average-sized infants (OR = 2.80, p = 0.00), and infant's whose mother had a history of delivery complications (OR = 1.81, p = 0.00).",
+              "start": 1508,
+              "end": 1791,
+              "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb"
+            }
+          ]
+        },
+        {
+          "paper_id": "17450673",
+          "budget_checks": [
+            {
+              "passage_id": "17450673:abstract:1244:1531:42d2d9af106a",
+              "pair_tokens": 105,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "17450673:abstract:803:1157:8df82e8d982a",
+              "pair_tokens": 114,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702",
+              "pair_tokens": 32,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g).",
+              "start": 1244,
+              "end": 1531,
+              "passage_id": "17450673:abstract:1244:1531:42d2d9af106a"
+            },
+            {
+              "text": "RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g.",
+              "start": 803,
+              "end": 1157,
+              "passage_id": "17450673:abstract:803:1157:8df82e8d982a"
+            },
+            {
+              "text": "These studies provided no support for a J-shaped relationship of birthweight to risk.",
+              "start": 1158,
+              "end": 1243,
+              "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702"
+            }
+          ]
+        },
+        {
+          "paper_id": "23557241",
+          "budget_checks": [
+            {
+              "passage_id": "23557241:abstract:596:847:23c27c97c8c4",
+              "pair_tokens": 63,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.",
+              "start": 596,
+              "end": 847,
+              "passage_id": "23557241:abstract:596:847:23c27c97c8c4"
+            }
+          ]
+        },
+        {
+          "paper_id": "7662395",
+          "budget_checks": [
+            {
+              "passage_id": "7662395:abstract:808:969:8a8be1fe5d82",
+              "pair_tokens": 47,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7662395:abstract:1052:1170:ec472232c6e4",
+              "pair_tokens": 34,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "7662395:abstract:970:1051:2e9c78c94c20",
+              "pair_tokens": 32,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The perinatal mortality rate was 69 per 1000 births, the rate of stillbirth was 24 per 1000 births, and the early neonatal mortality was 46 per 1000 live births.",
+              "start": 808,
+              "end": 969,
+              "passage_id": "7662395:abstract:808:969:8a8be1fe5d82"
+            },
+            {
+              "text": "The perinatal mortality rate increased notably with parity and was higher in townships having lower income per capita.",
+              "start": 1052,
+              "end": 1170,
+              "passage_id": "7662395:abstract:1052:1170:ec472232c6e4"
+            },
+            {
+              "text": "The early neonatal mortality was 29 in boys and 69 in girls per 1000 live births.",
+              "start": 970,
+              "end": 1051,
+              "passage_id": "7662395:abstract:970:1051:2e9c78c94c20"
+            }
+          ]
+        },
+        {
+          "paper_id": "8842332",
+          "budget_checks": [
+            {
+              "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+              "pair_tokens": 226,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+              "pair_tokens": 30,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+              "pair_tokens": 54,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Women with type 1 diabetes were more likely to have had labour induced (aOR, 3.0; 95% CI, 2.0-4.5), a caesarean delivery (aOR, 4.6; 95% CI, 3.1-7.0), or a pre-term birth (aOR, 6.7; 95% CI, 4.5-10.0); their babies were more likely to have shoulder dystocia (aOR, 8.2; 95% CI, 3.6-18.7), hypoglycaemia (aOR, 10.3; 95% CI, 6.8-15.6), jaundice (aOR, 5.1; 95% CI, 3.3-7.7), respiratory distress (aOR, 2.5; 95% CI, 1.4-4.4) or to suffer perinatal death (aOR, 4.3; 95% CI, 1.9-9.9).",
+              "start": 1222,
+              "end": 1697,
+              "passage_id": "8842332:abstract:1222:1697:de285c2af489"
+            },
+            {
+              "text": "MAIN OUTCOME MEASURES Mode of birth; maternal and neonatal outcomes.",
+              "start": 723,
+              "end": 791,
+              "passage_id": "8842332:abstract:723:791:55c60f9e0a78"
+            },
+            {
+              "text": "In women with type 1 diabetes, greater obesity was associated with increased odds for an LGA baby or congenital malformation, and increased HbA1c levels were associated with pre-term birth and perinatal death.",
+              "start": 1698,
+              "end": 1907,
+              "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "13",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 25,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 7,
+      "selection_and_tokenization_seconds": 0.003832540999610501,
+      "details": [
+        {
+          "paper_id": "1263446",
+          "budget_checks": [
+            {
+              "passage_id": "1263446:abstract:0:281:09cee7321989",
+              "pair_tokens": 61,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1263446:abstract:1905:2391:ef8e3a1e9180",
+              "pair_tokens": 85,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "1263446:abstract:1312:1900:6068183fffe1",
+              "pair_tokens": 184,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "BACKGROUND Neonatal mortality accounts for almost 40 per cent of under-five child mortality, globally. An understanding of the factors related to neonatal mortality is important to guide the development of focused and evidence-based health interventions to prevent neonatal deaths.",
+              "start": 0,
+              "end": 281,
+              "passage_id": "1263446:abstract:0:281:09cee7321989"
+            },
+            {
+              "text": "CONCLUSION Public health interventions directed at reducing neonatal death should address community, household and individual level factors which significantly influence neonatal mortality in Indonesia. Low birth weight and short birth interval infants as well as perinatal health services factors, such as the availability of skilled birth attendance and postnatal care utilization should be taken into account when planning the interventions to reduce neonatal mortality in Indonesia.",
+              "start": 1905,
+              "end": 2391,
+              "passage_id": "1263446:abstract:1905:2391:ef8e3a1e9180"
+            },
+            {
+              "text": "The odds of neonatal death were higher for infants born to both mother and father who were employed (OR = 1.84, p = 0.00) and for infants born to father who were unemployed (OR = 2.99, p = 0.02). The odds were also higher for higher rank infants with a short birth interval (OR = 2.82, p = 0.00), male infants (OR = 1.49, p = 0.01), smaller than average-sized infants (OR = 2.80, p = 0.00), and infant's whose mother had a history of delivery complications (OR = 1.81, p = 0.00). Infants receiving any postnatal care were significantly protected from neonatal death (OR = 0.63, p = 0.03).",
+              "start": 1312,
+              "end": 1900,
+              "passage_id": "1263446:abstract:1312:1900:6068183fffe1"
+            }
+          ]
+        },
+        {
+          "paper_id": "17450673",
+          "budget_checks": [
+            {
+              "passage_id": "17450673:abstract:718:1676:125f26a24691",
+              "pair_tokens": 260,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Meta-analyses using random effect models were employed to summarize the results.   \n RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g. These studies provided no support for a J-shaped relationship of birthweight to risk. Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g). Women born to older mothers and twins were also at some increased risk, but the results were heterogeneous across studies and publication years.",
+              "start": 718,
+              "end": 1676,
+              "passage_id": "17450673:abstract:718:1676:125f26a24691"
+            }
+          ]
+        },
+        {
+          "paper_id": "23557241",
+          "budget_checks": [
+            {
+              "passage_id": "23557241:abstract:470:935:bf8025c8f5ef",
+              "pair_tokens": 100,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "METHODS We systematically searched for studies that assessed association between perinatal factors and risk of breast cancer. We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.   \n FINDINGS We identified 57 studies published between Oct 1, 1980, and June 21, 2007.",
+              "start": 470,
+              "end": 935,
+              "passage_id": "23557241:abstract:470:935:bf8025c8f5ef"
+            }
+          ]
+        },
+        {
+          "paper_id": "7662395",
+          "budget_checks": [
+            {
+              "passage_id": "7662395:abstract:711:1310:0b53d382b4f4",
+              "pair_tokens": 126,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Three hundred and twelve pregnancies were aborted and 240 ended in miscarriage (total 552, 15%). The perinatal mortality rate was 69 per 1000 births, the rate of stillbirth was 24 per 1000 births, and the early neonatal mortality was 46 per 1000 live births. The early neonatal mortality was 29 in boys and 69 in girls per 1000 live births. The perinatal mortality rate increased notably with parity and was higher in townships having lower income per capita.   \n CONCLUSIONS The family planning system at the most local level is a useful data source for studying perinatal mortality in rural China.",
+              "start": 711,
+              "end": 1310,
+              "passage_id": "7662395:abstract:711:1310:0b53d382b4f4"
+            }
+          ]
+        },
+        {
+          "paper_id": "8842332",
+          "budget_checks": [
+            {
+              "passage_id": "8842332:abstract:544:2051:ca477315f4dc",
+              "pair_tokens": 484,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "METHODS Data were extracted from the Birthing Outcomes System database; associations between type 1 diabetes and pregnancy outcomes were analysed by multivariable regression.   \n MAIN OUTCOME MEASURES Mode of birth; maternal and neonatal outcomes.   \n RESULTS The mean body mass index was higher for women with type 1 diabetes than for women without diabetes (mean, 27.3 kg/m(2) [SD, 5.0] v 25.7 kg/m(2) [SD, 5.9]; P = 0.01); the median gestation period for their babies was shorter (median, 37.3 weeks [IQR, 34.6-38.1] v 39.4 weeks [IQR, 38.4-40.4]; P < 0.001) and they were more likely to be large for gestational age (LGA) (adjusted odds ratio [aOR], 7.9; 95% CI, 5.3-11.8). Women with type 1 diabetes were more likely to have had labour induced (aOR, 3.0; 95% CI, 2.0-4.5), a caesarean delivery (aOR, 4.6; 95% CI, 3.1-7.0), or a pre-term birth (aOR, 6.7; 95% CI, 4.5-10.0); their babies were more likely to have shoulder dystocia (aOR, 8.2; 95% CI, 3.6-18.7), hypoglycaemia (aOR, 10.3; 95% CI, 6.8-15.6), jaundice (aOR, 5.1; 95% CI, 3.3-7.7), respiratory distress (aOR, 2.5; 95% CI, 1.4-4.4) or to suffer perinatal death (aOR, 4.3; 95% CI, 1.9-9.9). In women with type 1 diabetes, greater obesity was associated with increased odds for an LGA baby or congenital malformation, and increased HbA1c levels were associated with pre-term birth and perinatal death.   \n CONCLUSION Women with type 1 diabetes, even when managed in a specialist setting, still experience adverse obstetric and neonatal outcomes.",
+              "start": 544,
+              "end": 2051,
+              "passage_id": "8842332:abstract:544:2051:ca477315f4dc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "137",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 5,
+      "selection_and_tokenization_seconds": 0.0015424580005856114,
+      "details": [
+        {
+          "paper_id": "10893238",
+          "budget_checks": [
+            {
+              "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+              "pair_tokens": 56,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "However, the prevalence of impairments was generally higher according to clinicians, particularly for visual impairment (98.7 vs 45.8 %), cognitive impairment (78.4 vs.",
+              "start": 1108,
+              "end": 1276,
+              "passage_id": "10893238:abstract:1108:1276:648ce804611e"
+            }
+          ]
+        },
+        {
+          "paper_id": "21914176",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "26016929",
+          "budget_checks": [
+            {
+              "passage_id": "26016929:abstract:0:137:575e64951fc6",
+              "pair_tokens": 41,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "26016929:abstract:989:1097:533644adea9c",
+              "pair_tokens": 42,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+              "pair_tokens": 33,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.",
+              "start": 0,
+              "end": 137,
+              "passage_id": "26016929:abstract:0:137:575e64951fc6"
+            },
+            {
+              "text": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.",
+              "start": 989,
+              "end": 1097,
+              "passage_id": "26016929:abstract:989:1097:533644adea9c"
+            },
+            {
+              "text": "Visual impairment in this age group can usually be reduced with treatment.",
+              "start": 1208,
+              "end": 1282,
+              "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0"
+            }
+          ]
+        },
+        {
+          "paper_id": "313394",
+          "budget_checks": [
+            {
+              "passage_id": "313394:abstract:0:76:e58f7f544f25",
+              "pair_tokens": 30,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Blind individuals often demonstrate enhanced nonvisual perceptual abilities.",
+              "start": 0,
+              "end": 76,
+              "passage_id": "313394:abstract:0:76:e58f7f544f25"
+            }
+          ]
+        },
+        {
+          "paper_id": "457630",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "137",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 2,
+        "fp": 9,
+        "fn": 0,
+        "precision": 0.18181818181818182,
+        "recall": 1.0,
+        "f1": 0.3076923076923077
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 4,
+      "selection_and_tokenization_seconds": 0.0016139999997903942,
+      "details": [
+        {
+          "paper_id": "10893238",
+          "budget_checks": [
+            {
+              "passage_id": "10893238:abstract:981:1309:24add1c87d85",
+              "pair_tokens": 97,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Agreement between COPE assessment by CHW and clinician assessors was modest (ranged from 45.8 to 91.3 %) for most impairments. However, the prevalence of impairments was generally higher according to clinicians, particularly for visual impairment (98.7 vs 45.8 %), cognitive impairment (78.4 vs. 38.2 %) and depression (82.0 vs.",
+              "start": 981,
+              "end": 1309,
+              "passage_id": "10893238:abstract:981:1309:24add1c87d85"
+            }
+          ]
+        },
+        {
+          "paper_id": "21914176",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "26016929",
+          "budget_checks": [
+            {
+              "passage_id": "26016929:abstract:0:332:2c1a852dd366",
+              "pair_tokens": 72,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "26016929:abstract:798:1321:c4b26cbcc756",
+              "pair_tokens": 122,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.   \n DESIGN Systematic review of randomised controlled trials of population screening in the community that included any assessment of vision or visual function with at least 6 months' follow up.",
+              "start": 0,
+              "end": 332,
+              "passage_id": "26016929:abstract:0:332:2c1a852dd366"
+            },
+            {
+              "text": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22). A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.   \n CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence. Visual impairment in this age group can usually be reduced with treatment. It is unclear why no benefit was seen.",
+              "start": 798,
+              "end": 1321,
+              "passage_id": "26016929:abstract:798:1321:c4b26cbcc756"
+            }
+          ]
+        },
+        {
+          "paper_id": "313394",
+          "budget_checks": [
+            {
+              "passage_id": "313394:abstract:0:179:10b381f1da85",
+              "pair_tokens": 46,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Blind individuals often demonstrate enhanced nonvisual perceptual abilities. However, the neural substrate that underlies this improved performance remains to be fully understood.",
+              "start": 0,
+              "end": 179,
+              "passage_id": "313394:abstract:0:179:10b381f1da85"
+            }
+          ]
+        },
+        {
+          "paper_id": "457630",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "268",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 3,
+      "selection_and_tokenization_seconds": 0.001148500000454078,
+      "details": [
+        {
+          "paper_id": "13000926",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "1568684",
+          "budget_checks": [
+            {
+              "passage_id": "1568684:abstract:493:589:4a4318da9c6a",
+              "pair_tokens": 27,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+              "start": 493,
+              "end": 589,
+              "passage_id": "1568684:abstract:493:589:4a4318da9c6a"
+            }
+          ]
+        },
+        {
+          "paper_id": "36838958",
+          "budget_checks": [
+            {
+              "passage_id": "36838958:abstract:181:323:60585985d245",
+              "pair_tokens": 33,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+              "start": 181,
+              "end": 323,
+              "passage_id": "36838958:abstract:181:323:60585985d245"
+            }
+          ]
+        },
+        {
+          "paper_id": "4319174",
+          "budget_checks": [
+            {
+              "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c",
+              "pair_tokens": 35,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Thus, we have discovered a role for alternatively activated macrophages in the orchestration of an important mammalian stress response, the response to cold.",
+              "start": 1432,
+              "end": 1589,
+              "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c"
+            }
+          ]
+        },
+        {
+          "paper_id": "970012",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "268",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 3,
+      "selection_and_tokenization_seconds": 0.0013572919997386634,
+      "details": [
+        {
+          "paper_id": "13000926",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "1568684",
+          "budget_checks": [
+            {
+              "passage_id": "1568684:abstract:371:659:2e5fdbcfda88",
+              "pair_tokens": 67,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity. Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity. Whole-body energy expenditure was also increased upon CDCA treatment.",
+              "start": 371,
+              "end": 659,
+              "passage_id": "1568684:abstract:371:659:2e5fdbcfda88"
+            }
+          ]
+        },
+        {
+          "paper_id": "36838958",
+          "budget_checks": [
+            {
+              "passage_id": "36838958:abstract:0:429:1d392fa2ce90",
+              "pair_tokens": 88,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Uncoupling protein 1 (Ucp1), which is localized in the mitochondrial inner membrane of mammalian brown adipose tissue (BAT), generates heat by uncoupling oxidative phosphorylation. Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis. Accordingly, increased Ucp1 expression reduces obesity in mice and is correlated with leanness in humans.",
+              "start": 0,
+              "end": 429,
+              "passage_id": "36838958:abstract:0:429:1d392fa2ce90"
+            }
+          ]
+        },
+        {
+          "paper_id": "4319174",
+          "budget_checks": [
+            {
+              "passage_id": "4319174:abstract:1189:1589:c0fca2cf81c9",
+              "pair_tokens": 72,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Absence of alternatively activated macrophages impaired metabolic adaptations to cold, whereas administration of IL-4 increased thermogenic gene expression, fatty acid mobilization and energy expenditure, all in a macrophage-dependent manner. Thus, we have discovered a role for alternatively activated macrophages in the orchestration of an important mammalian stress response, the response to cold.",
+              "start": 1189,
+              "end": 1589,
+              "passage_id": "4319174:abstract:1189:1589:c0fca2cf81c9"
+            }
+          ]
+        },
+        {
+          "paper_id": "970012",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "3",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 2,
+        "fp": 9,
+        "fn": 1,
+        "precision": 0.18181818181818182,
+        "recall": 0.6666666666666666,
+        "f1": 0.28571428571428575
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 11,
+      "selection_and_tokenization_seconds": 0.0035801659996650415,
+      "details": [
+        {
+          "paper_id": "13519661",
+          "budget_checks": [
+            {
+              "passage_id": "13519661:abstract:402:630:8d328612951e",
+              "pair_tokens": 71,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs).",
+              "start": 402,
+              "end": 630,
+              "passage_id": "13519661:abstract:402:630:8d328612951e"
+            }
+          ]
+        },
+        {
+          "paper_id": "14717500",
+          "budget_checks": [
+            {
+              "passage_id": "14717500:abstract:1617:1849:a60868c44834",
+              "pair_tokens": 64,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14717500:abstract:0:240:d623adf21696",
+              "pair_tokens": 79,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14717500:abstract:476:731:6a28a040a24f",
+              "pair_tokens": 73,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In conclusion, uncommon or rare genetic variants can easily create synthetic associations that are credited to common variants, and this possibility requires careful consideration in the interpretation and follow up of GWAS signals.",
+              "start": 1617,
+              "end": 1849,
+              "passage_id": "14717500:abstract:1617:1849:a60868c44834"
+            },
+            {
+              "text": "Genome-wide association studies (GWAS) have now identified at least 2,000 common variants that appear associated with common diseases or related traits (http://www.genome.gov/gwastudies), hundreds of which have been convincingly replicated.",
+              "start": 0,
+              "end": 240,
+              "passage_id": "14717500:abstract:0:240:d623adf21696"
+            },
+            {
+              "text": "We propose as an alternative explanation that variants much less common than the associated one may create \"synthetic associations\" by occurring, stochastically, more often in association with one of the alleles at the common site versus the other allele.",
+              "start": 476,
+              "end": 731,
+              "passage_id": "14717500:abstract:476:731:6a28a040a24f"
+            }
+          ]
+        },
+        {
+          "paper_id": "23389795",
+          "budget_checks": [
+            {
+              "passage_id": "23389795:abstract:424:671:e0f2a480b779",
+              "pair_tokens": 64,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "23389795:abstract:0:243:772659cca088",
+              "pair_tokens": 75,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "23389795:abstract:244:423:a73208773e1b",
+              "pair_tokens": 57,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The identification of rare variants involves the careful selection of candidate genes to examine, the availability of highly efficient resequencing techniques and the appropriate assessment of the functional consequences of the implicated variant.",
+              "start": 424,
+              "end": 671,
+              "passage_id": "23389795:abstract:424:671:e0f2a480b779"
+            },
+            {
+              "text": "Here, we give a historical overview of the search for genetic variants that influence the susceptibility of an individual to a chronic disease, from RA Fisher's seminal work to the current excitement of whole-genome association studies (WGAS).",
+              "start": 0,
+              "end": 243,
+              "passage_id": "23389795:abstract:0:243:772659cca088"
+            },
+            {
+              "text": "We then discuss the concepts behind the identification of common variants as disease causal factors and contrast them to the basic ideas that underlie the rare variant hypothesis.",
+              "start": 244,
+              "end": 423,
+              "passage_id": "23389795:abstract:244:423:a73208773e1b"
+            }
+          ]
+        },
+        {
+          "paper_id": "2739854",
+          "budget_checks": [
+            {
+              "passage_id": "2739854:abstract:0:109:8ddbc2c50202",
+              "pair_tokens": 46,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Genome-wide association studies have greatly improved our understanding of the genetic basis of disease risk.",
+              "start": 0,
+              "end": 109,
+              "passage_id": "2739854:abstract:0:109:8ddbc2c50202"
+            }
+          ]
+        },
+        {
+          "paper_id": "4414547",
+          "budget_checks": [
+            {
+              "passage_id": "4414547:abstract:0:138:760213a33f29",
+              "pair_tokens": 46,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "4414547:abstract:1641:1814:63066ecf5374",
+              "pair_tokens": 59,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "4414547:abstract:243:649:5da380b9af24",
+              "pair_tokens": 112,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Improved sequencing technologies offer unprecedented opportunities for investigating the role of rare genetic variation in common disease.",
+              "start": 0,
+              "end": 138,
+              "passage_id": "4414547:abstract:0:138:760213a33f29"
+            },
+            {
+              "text": "More generally, these data provide new insights into the role of rare and of mosaic genetic variants in common conditions, and the use of sequencing in their identification.",
+              "start": 1641,
+              "end": 1814,
+              "passage_id": "4414547:abstract:1641:1814:63066ecf5374"
+            },
+            {
+              "text": "Using pooled next-generation sequencing of 507 genes implicated in the repair of DNA in 1,150 samples, an analytical strategy focused on protein-truncating variants (PTVs) and a large-scale sequencing case\u2013control replication experiment in 13,642 individuals, here we show that rare PTVs in the p53-inducible protein phosphatase PPM1D are associated with predisposition to breast cancer and ovarian cancer.",
+              "start": 243,
+              "end": 649,
+              "passage_id": "4414547:abstract:243:649:5da380b9af24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "3",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 2,
+        "fp": 19,
+        "fn": 1,
+        "precision": 0.09523809523809523,
+        "recall": 0.6666666666666666,
+        "f1": 0.16666666666666666
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 7,
+      "selection_and_tokenization_seconds": 0.0035695830001714057,
+      "details": [
+        {
+          "paper_id": "13519661",
+          "budget_checks": [
+            {
+              "passage_id": "13519661:abstract:314:744:85b9fadbb946",
+              "pair_tokens": 111,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Whether common polymorphisms in this gene influence breast cancer risk remains unknown. In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs). Methods and Findings We analyzed 14 common SNPs spanning 52 kilobases (kb) of the CHEK2 gene in 92 Swedish women.",
+              "start": 314,
+              "end": 744,
+              "passage_id": "13519661:abstract:314:744:85b9fadbb946"
+            }
+          ]
+        },
+        {
+          "paper_id": "14717500",
+          "budget_checks": [
+            {
+              "passage_id": "14717500:abstract:1284:1849:121b572e0de9",
+              "pair_tokens": 121,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14717500:abstract:0:893:be09de54e622",
+              "pair_tokens": 192,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "We also illustrate the behavior of synthetic associations in real datasets by showing that rare causal mutations responsible for both hearing loss and sickle cell anemia create genome-wide significant synthetic associations, in the latter case extending over a 2.5-Mb interval encompassing scores of \"blocks\" of associated variants. In conclusion, uncommon or rare genetic variants can easily create synthetic associations that are credited to common variants, and this possibility requires careful consideration in the interpretation and follow up of GWAS signals.",
+              "start": 1284,
+              "end": 1849,
+              "passage_id": "14717500:abstract:1284:1849:121b572e0de9"
+            },
+            {
+              "text": "Genome-wide association studies (GWAS) have now identified at least 2,000 common variants that appear associated with common diseases or related traits (http://www.genome.gov/gwastudies), hundreds of which have been convincingly replicated. It is generally thought that the associated markers reflect the effect of a nearby common (minor allele frequency >0.05) causal site, which is associated with the marker, leading to extensive resequencing efforts to find causal sites. We propose as an alternative explanation that variants much less common than the associated one may create \"synthetic associations\" by occurring, stochastically, more often in association with one of the alleles at the common site versus the other allele. Although synthetic associations are an obvious theoretical possibility, they have never been systematically explored as a possible explanation for GWAS findings.",
+              "start": 0,
+              "end": 893,
+              "passage_id": "14717500:abstract:0:893:be09de54e622"
+            }
+          ]
+        },
+        {
+          "paper_id": "23389795",
+          "budget_checks": [
+            {
+              "passage_id": "23389795:abstract:0:934:7e8a4321d435",
+              "pair_tokens": 181,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Here, we give a historical overview of the search for genetic variants that influence the susceptibility of an individual to a chronic disease, from RA Fisher's seminal work to the current excitement of whole-genome association studies (WGAS). We then discuss the concepts behind the identification of common variants as disease causal factors and contrast them to the basic ideas that underlie the rare variant hypothesis. The identification of rare variants involves the careful selection of candidate genes to examine, the availability of highly efficient resequencing techniques and the appropriate assessment of the functional consequences of the implicated variant. We believe that this strategy can be successfully applied at present in order to unravel the contribution of rare variants to the multifactorial inheritance of common diseases, which could lead to the implementation of much needed preventative screening schemes.",
+              "start": 0,
+              "end": 934,
+              "passage_id": "23389795:abstract:0:934:7e8a4321d435"
+            }
+          ]
+        },
+        {
+          "paper_id": "2739854",
+          "budget_checks": [
+            {
+              "passage_id": "2739854:abstract:0:361:1eb1fd074133",
+              "pair_tokens": 93,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Genome-wide association studies have greatly improved our understanding of the genetic basis of disease risk. The fact that they tend not to identify more than a fraction of the specific causal loci has led to divergence of opinion over whether most of the variance is hidden as numerous rare variants of large effect or as common variants of very small effect.",
+              "start": 0,
+              "end": 361,
+              "passage_id": "2739854:abstract:0:361:1eb1fd074133"
+            }
+          ]
+        },
+        {
+          "paper_id": "4414547",
+          "budget_checks": [
+            {
+              "passage_id": "4414547:abstract:0:915:28c62859be8b",
+              "pair_tokens": 225,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "4414547:abstract:1543:1814:3b7eafb6dedb",
+              "pair_tokens": 75,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Improved sequencing technologies offer unprecedented opportunities for investigating the role of rare genetic variation in common disease. However, there are considerable challenges with respect to study design, data analysis and replication. Using pooled next-generation sequencing of 507 genes implicated in the repair of DNA in 1,150 samples, an analytical strategy focused on protein-truncating variants (PTVs) and a large-scale sequencing case\u2013control replication experiment in 13,642 individuals, here we show that rare PTVs in the p53-inducible protein phosphatase PPM1D are associated with predisposition to breast cancer and ovarian cancer. PPM1D PTV mutations were present in 25 out of 7,781 cases versus 1 out of 5,861 controls (P = 1.12 \u00d7 10\u22125), including 18 mutations in 6,912 individuals with breast cancer (P = 2.42 \u00d7 10\u22124) and 12 mutations in 1,121 individuals with ovarian cancer (P = 3.10 \u00d7 10\u22129).",
+              "start": 0,
+              "end": 915,
+              "passage_id": "4414547:abstract:0:915:28c62859be8b"
+            },
+            {
+              "text": "Our results have implications for the detection and management of breast and ovarian cancer risk. More generally, these data provide new insights into the role of rare and of mosaic genetic variants in common conditions, and the use of sequencing in their identification.",
+              "start": 1543,
+              "end": 1814,
+              "passage_id": "4414547:abstract:1543:1814:3b7eafb6dedb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "36",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 17,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 14,
+      "selection_and_tokenization_seconds": 0.0035952079997514375,
+      "details": [
+        {
+          "paper_id": "11705328",
+          "budget_checks": [
+            {
+              "passage_id": "11705328:abstract:1399:1583:6c2584cbc380",
+              "pair_tokens": 49,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "11705328:abstract:608:886:b6e1ffb7f4a4",
+              "pair_tokens": 80,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "11705328:abstract:1169:1394:2c530bef70c8",
+              "pair_tokens": 54,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+              "start": 1399,
+              "end": 1583,
+              "passage_id": "11705328:abstract:1399:1583:6c2584cbc380"
+            },
+            {
+              "text": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+              "start": 608,
+              "end": 886,
+              "passage_id": "11705328:abstract:608:886:b6e1ffb7f4a4"
+            },
+            {
+              "text": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.",
+              "start": 1169,
+              "end": 1394,
+              "passage_id": "11705328:abstract:1169:1394:2c530bef70c8"
+            }
+          ]
+        },
+        {
+          "paper_id": "16252863",
+          "budget_checks": [
+            {
+              "passage_id": "16252863:abstract:329:812:365471a32cd9",
+              "pair_tokens": 98,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "16252863:abstract:1364:2151:7cb65395135e",
+              "pair_tokens": 191,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "During the 1990s, there have been many reports associating elevated plasma homocysteine levels with arteriosclerotic cardiovascular disease and consistent evidence that dietary and supplemental folic acid can reduce homocysteine levels.1 2   The article by Robinson and colleagues3 in this issue of Circulation presents further evidence of the importance of homocysteine and suggestive evidence that plasma folate and plasma pyrixodal-l-phosphate (vitamin B6) are protective factors.",
+              "start": 329,
+              "end": 812,
+              "passage_id": "16252863:abstract:329:812:365471a32cd9"
+            },
+            {
+              "text": "Men in the highest quintile for fasting total homocysteine (tHcy), compared with the remainder of the population, had an estimated relative risk of 2.2 (95% confidence interval [CI], 1.6 to 2.9), with a striking dose-response relationship and a more-than-multiplicative interaction with cigarette smoking and high blood pressure on vascular disease risk4 ; the corresponding estimated relative risk for coronary heart disease was similar (2.0; 95% CI 1.6 to 2.8). (tHcy is the sum of homocysteine and homocysteinyl moieties of oxidized disulfides, homocystine, and cysteine- homocysteine. )   Robinson and colleagues3 examined three B vitamins in detail to determine their effects on fasting and post\u2013methionine-loading tHcy levels and any independent effects on cardiovascular disease \u2026",
+              "start": 1364,
+              "end": 2151,
+              "passage_id": "16252863:abstract:1364:2151:7cb65395135e"
+            }
+          ]
+        },
+        {
+          "paper_id": "18557974",
+          "budget_checks": [
+            {
+              "passage_id": "18557974:abstract:1285:1436:0d3da860e302",
+              "pair_tokens": 41,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "18557974:abstract:0:106:1677c25d0efe",
+              "pair_tokens": 36,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "18557974:abstract:1035:1117:714a320b8565",
+              "pair_tokens": 28,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In conclusion, a diet high in fresh berries, citrus fruit, and vegetables effectively increases serum and RBC folate and decreases plasma homocysteine.",
+              "start": 1285,
+              "end": 1436,
+              "passage_id": "18557974:abstract:1285:1436:0d3da860e302"
+            },
+            {
+              "text": "High plasma total homocysteine (tHcy) concentration is reported to be a risk factor for vascular diseases.",
+              "start": 0,
+              "end": 106,
+              "passage_id": "18557974:abstract:0:106:1677c25d0efe"
+            },
+            {
+              "text": "The serum concentration of vitamin B12 remained unchanged during the intervention.",
+              "start": 1035,
+              "end": 1117,
+              "passage_id": "18557974:abstract:1035:1117:714a320b8565"
+            }
+          ]
+        },
+        {
+          "paper_id": "33409100",
+          "budget_checks": [
+            {
+              "passage_id": "33409100:abstract:159:277:cd2bf2f16841",
+              "pair_tokens": 34,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "33409100:abstract:1373:1496:5e0755110a76",
+              "pair_tokens": 45,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "33409100:abstract:0:158:b8aebccf37e6",
+              "pair_tokens": 40,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.",
+              "start": 159,
+              "end": 277,
+              "passage_id": "33409100:abstract:159:277:cd2bf2f16841"
+            },
+            {
+              "text": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+              "start": 1373,
+              "end": 1496,
+              "passage_id": "33409100:abstract:1373:1496:5e0755110a76"
+            },
+            {
+              "text": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease.",
+              "start": 0,
+              "end": 158,
+              "passage_id": "33409100:abstract:0:158:b8aebccf37e6"
+            }
+          ]
+        },
+        {
+          "paper_id": "42441846",
+          "budget_checks": [
+            {
+              "passage_id": "42441846:abstract:778:853:669c2923c93c",
+              "pair_tokens": 29,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "42441846:abstract:854:1035:290827bc0939",
+              "pair_tokens": 51,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "42441846:abstract:0:98:7935497d7469",
+              "pair_tokens": 32,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Levels of plasma homocysteine, folate and vitamin B12 were also determined.",
+              "start": 778,
+              "end": 853,
+              "passage_id": "42441846:abstract:778:853:669c2923c93c"
+            },
+            {
+              "text": "We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.",
+              "start": 854,
+              "end": 1035,
+              "passage_id": "42441846:abstract:854:1035:290827bc0939"
+            },
+            {
+              "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD).",
+              "start": 0,
+              "end": 98,
+              "passage_id": "42441846:abstract:0:98:7935497d7469"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "36",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 33,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 10,
+      "selection_and_tokenization_seconds": 0.004571832999317849,
+      "details": [
+        {
+          "paper_id": "11705328",
+          "budget_checks": [
+            {
+              "passage_id": "11705328:abstract:1072:1699:e475820ba086",
+              "pair_tokens": 129,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "11705328:abstract:424:1071:2f1cd5ee824d",
+              "pair_tokens": 142,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid). Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population. Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+              "start": 1072,
+              "end": 1699,
+              "passage_id": "11705328:abstract:1072:1699:e475820ba086"
+            },
+            {
+              "text": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above. The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+              "start": 424,
+              "end": 1071,
+              "passage_id": "11705328:abstract:424:1071:2f1cd5ee824d"
+            }
+          ]
+        },
+        {
+          "paper_id": "16252863",
+          "budget_checks": [
+            {
+              "passage_id": "16252863:abstract:114:1063:2824d3bacf48",
+              "pair_tokens": 179,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "16252863:abstract:1064:2151:57c1321371f7",
+              "pair_tokens": 247,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Cigarette smoking, high blood pressure, physical inactivity, elevated cholesterol, underlying lipoprotein abnormalities, lipoprotein(a), diabetes, overweight, male gender, and age are well-established risk factors. During the 1990s, there have been many reports associating elevated plasma homocysteine levels with arteriosclerotic cardiovascular disease and consistent evidence that dietary and supplemental folic acid can reduce homocysteine levels.1 2   The article by Robinson and colleagues3 in this issue of Circulation presents further evidence of the importance of homocysteine and suggestive evidence that plasma folate and plasma pyrixodal-l-phosphate (vitamin B6) are protective factors. Their study is part of the European Concerted Action Project,4 which examined 750 patients younger than age 60 with diagnoses within the previous 12 months of coronary, cerebrovascular, or peripheral vascular disease and 800 healthy control subjects.",
+              "start": 114,
+              "end": 1063,
+              "passage_id": "16252863:abstract:114:1063:2824d3bacf48"
+            },
+            {
+              "text": "The patient groups were young (47 years for cases and 44 years for control subjects) and heterogeneous, with nonfatal clinical events or symptoms of arteriosclerotic cardiovascular disease supported by ECG, angiographic, or Doppler evidence; the study involved 19 centers in nine European countries. Men in the highest quintile for fasting total homocysteine (tHcy), compared with the remainder of the population, had an estimated relative risk of 2.2 (95% confidence interval [CI], 1.6 to 2.9), with a striking dose-response relationship and a more-than-multiplicative interaction with cigarette smoking and high blood pressure on vascular disease risk4 ; the corresponding estimated relative risk for coronary heart disease was similar (2.0; 95% CI 1.6 to 2.8). (tHcy is the sum of homocysteine and homocysteinyl moieties of oxidized disulfides, homocystine, and cysteine- homocysteine. )   Robinson and colleagues3 examined three B vitamins in detail to determine their effects on fasting and post\u2013methionine-loading tHcy levels and any independent effects on cardiovascular disease \u2026",
+              "start": 1064,
+              "end": 2151,
+              "passage_id": "16252863:abstract:1064:2151:57c1321371f7"
+            }
+          ]
+        },
+        {
+          "paper_id": "18557974",
+          "budget_checks": [
+            {
+              "passage_id": "18557974:abstract:797:1436:9d531d879a50",
+              "pair_tokens": 188,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "18557974:abstract:0:225:d73cdf4ab03a",
+              "pair_tokens": 60,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The mean concentrations of serum and RBC folate were 11.0 (SD 3.0) nmol/l and 412 (SD 120) nmol/l at the end of the low-folate diet and 78 (95 % CI 62, 94) % and 14 (95 % CI 8, 20) % higher in response to the high-folate diet (P< 0.001). The serum concentration of vitamin B12 remained unchanged during the intervention. The mean plasma tHcy concentration was 8.0 pmol/ at the end of the low-folate diet and decreased by 13 (95% CI 9, 18) % in response to the high-folate diet (P<0.001). In conclusion, a diet high in fresh berries, citrus fruit, and vegetables effectively increases serum and RBC folate and decreases plasma homocysteine.",
+              "start": 797,
+              "end": 1436,
+              "passage_id": "18557974:abstract:797:1436:9d531d879a50"
+            },
+            {
+              "text": "High plasma total homocysteine (tHcy) concentration is reported to be a risk factor for vascular diseases. We investigated the extent to which serum folate and plasma tHcy respond to a high intake of natural folate from food.",
+              "start": 0,
+              "end": 225,
+              "passage_id": "18557974:abstract:0:225:d73cdf4ab03a"
+            }
+          ]
+        },
+        {
+          "paper_id": "33409100",
+          "budget_checks": [
+            {
+              "passage_id": "33409100:abstract:0:429:f968851a6725",
+              "pair_tokens": 82,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "33409100:abstract:1103:1784:7645f5b757e0",
+              "pair_tokens": 190,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease. Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   \n OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.",
+              "start": 0,
+              "end": 429,
+              "passage_id": "33409100:abstract:0:429:f968851a6725"
+            },
+            {
+              "text": "Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   \n RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group. It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18).",
+              "start": 1103,
+              "end": 1784,
+              "passage_id": "33409100:abstract:1103:1784:7645f5b757e0"
+            }
+          ]
+        },
+        {
+          "paper_id": "42441846",
+          "budget_checks": [
+            {
+              "passage_id": "42441846:abstract:589:1144:4cfbda341c08",
+              "pair_tokens": 129,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "42441846:abstract:0:353:594542c7826d",
+              "pair_tokens": 80,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "MATERIALS AND METHODS We enrolled a study population of 163 CAD patients and 50 control subjects, and screened the MTHFR C677T polymorphism using real-time PCR with melting point analysis. Levels of plasma homocysteine, folate and vitamin B12 were also determined. We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.   \n RESULTS The frequency of the TT genotype was 18% in control subjects and 26% in patients group (P>0.05).",
+              "start": 589,
+              "end": 1144,
+              "passage_id": "42441846:abstract:589:1144:4cfbda341c08"
+            },
+            {
+              "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD). Methyltetrahydrofolate reductase (MTHFR) is a main regulatory enzyme in homocysteine metabolism; a common C677T mutation in the MTHFR gene results in decreased enzyme activity, and contributes to increased homocysteine levels and decreased folate levels.",
+              "start": 0,
+              "end": 353,
+              "passage_id": "42441846:abstract:0:353:594542c7826d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "436",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.14285714285714285,
+        "recall": 1.0,
+        "f1": 0.25
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 14,
+      "selection_and_tokenization_seconds": 0.0034437499998603016,
+      "details": [
+        {
+          "paper_id": "12588500",
+          "budget_checks": [
+            {
+              "passage_id": "12588500:abstract:303:462:5a04f188ab88",
+              "pair_tokens": 46,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "12588500:abstract:463:729:977c1ed31ccb",
+              "pair_tokens": 85,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "12588500:abstract:0:148:b03cfafc498e",
+              "pair_tokens": 53,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "However, the molecular functions of the acetylation of newly synthesized histones in this DNA replication-coupled nucleosome assembly pathway remain enigmatic.",
+              "start": 303,
+              "end": 462,
+              "passage_id": "12588500:abstract:303:462:5a04f188ab88"
+            },
+            {
+              "text": "Here we show that histone H3 acetylated at lysine 56 (H3K56Ac) is incorporated onto replicating DNA and, by increasing the binding affinity of CAF-1 and Rtt106 for histone H3, H3K56Ac enhances the ability of these histone chaperones to assemble DNA into nucleosomes.",
+              "start": 463,
+              "end": 729,
+              "passage_id": "12588500:abstract:463:729:977c1ed31ccb"
+            },
+            {
+              "text": "Chromatin assembly factor 1 (CAF-1) and Rtt106 participate in the deposition of newly synthesized histones onto replicating DNA to form nucleosomes.",
+              "start": 0,
+              "end": 148,
+              "passage_id": "12588500:abstract:0:148:b03cfafc498e"
+            }
+          ]
+        },
+        {
+          "paper_id": "13790144",
+          "budget_checks": [
+            {
+              "passage_id": "13790144:abstract:128:359:625baa773963",
+              "pair_tokens": 60,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "13790144:abstract:360:531:44d3799f27ba",
+              "pair_tokens": 44,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Although histones have a high degree of conservation due to constraints to maintain the overall structure of the nucleosomal octameric core, variants have evolved to assume diverse roles in gene regulation and epigenetic silencing.",
+              "start": 128,
+              "end": 359,
+              "passage_id": "13790144:abstract:128:359:625baa773963"
+            },
+            {
+              "text": "Histone variants, post-translational modifications and interactions with chromatin remodeling complexes influence DNA replication, transcription, repair and recombination.",
+              "start": 360,
+              "end": 531,
+              "passage_id": "13790144:abstract:360:531:44d3799f27ba"
+            }
+          ]
+        },
+        {
+          "paper_id": "14637235",
+          "budget_checks": [
+            {
+              "passage_id": "14637235:abstract:423:627:0da7320f7f05",
+              "pair_tokens": 57,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14637235:abstract:233:422:8c43d8e11408",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "14637235:abstract:0:232:2d6813a622e9",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Here we demonstrate that excess histones associate with Rad53 in vivo and seem to undergo modifications such as tyrosine phosphorylation and polyubiquitylation, before their proteolysis by the proteasome.",
+              "start": 423,
+              "end": 627,
+              "passage_id": "14637235:abstract:423:627:0da7320f7f05"
+            },
+            {
+              "text": "Although chromosomal histones are stable, excess (non-chromatin bound) histones are rapidly degraded in a Rad53 (radiation sensitive 53) kinase-dependent manner in Saccharomyces cerevisiae.",
+              "start": 233,
+              "end": 422,
+              "passage_id": "14637235:abstract:233:422:8c43d8e11408"
+            },
+            {
+              "text": "Histone levels are tightly regulated to prevent harmful effects such as genomic instability and hypersensitivity to DNA-damaging agents due to the accumulation of these highly basic proteins when DNA replication slows down or stops.",
+              "start": 0,
+              "end": 232,
+              "passage_id": "14637235:abstract:0:232:2d6813a622e9"
+            }
+          ]
+        },
+        {
+          "paper_id": "406733",
+          "budget_checks": [
+            {
+              "passage_id": "406733:abstract:256:352:01dfc291dd7d",
+              "pair_tokens": 39,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "406733:abstract:353:585:75191a7ec497",
+              "pair_tokens": 60,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "406733:abstract:586:671:af73298e2983",
+              "pair_tokens": 39,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "We have analyzed where the histones for reassembly of the inactive promoter chromatin come from.",
+              "start": 256,
+              "end": 352,
+              "passage_id": "406733:abstract:256:352:01dfc291dd7d"
+            },
+            {
+              "text": "The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool.",
+              "start": 353,
+              "end": 585,
+              "passage_id": "406733:abstract:353:585:75191a7ec497"
+            },
+            {
+              "text": "In this way, we show that the incorporated histones originate from a source in trans.",
+              "start": 586,
+              "end": 671,
+              "passage_id": "406733:abstract:586:671:af73298e2983"
+            }
+          ]
+        },
+        {
+          "paper_id": "8267678",
+          "budget_checks": [
+            {
+              "passage_id": "8267678:abstract:543:778:e46b97b5954f",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "8267678:abstract:382:542:d3a5f11254b1",
+              "pair_tokens": 47,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "8267678:abstract:144:252:84faef86e739",
+              "pair_tokens": 41,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Here, we describe the known histone modifications, define where they are found genomically and discuss some of their functional consequences, concentrating mostly on transcription where the majority of characterisation has taken place.",
+              "start": 543,
+              "end": 778,
+              "passage_id": "8267678:abstract:543:778:e46b97b5954f"
+            },
+            {
+              "text": "However, it is clear that histone modifications play fundamental roles in most biological processes that are involved in the manipulation and expression of DNA.",
+              "start": 382,
+              "end": 542,
+              "passage_id": "8267678:abstract:382:542:d3a5f11254b1"
+            },
+            {
+              "text": "A principle component of chromatin that plays a key role in this regulation is the modification of histones.",
+              "start": 144,
+              "end": 252,
+              "passage_id": "8267678:abstract:144:252:84faef86e739"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "436",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 2,
+        "fp": 21,
+        "fn": 0,
+        "precision": 0.08695652173913043,
+        "recall": 1.0,
+        "f1": 0.16
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 5,
+      "selection_and_tokenization_seconds": 0.002521750000596512,
+      "details": [
+        {
+          "paper_id": "12588500",
+          "budget_checks": [
+            {
+              "passage_id": "12588500:abstract:0:884:be76ed17d5c2",
+              "pair_tokens": 197,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Chromatin assembly factor 1 (CAF-1) and Rtt106 participate in the deposition of newly synthesized histones onto replicating DNA to form nucleosomes. This process is critical for the maintenance of genome stability and inheritance of functionally specialized chromatin structures in proliferating cells. However, the molecular functions of the acetylation of newly synthesized histones in this DNA replication-coupled nucleosome assembly pathway remain enigmatic. Here we show that histone H3 acetylated at lysine 56 (H3K56Ac) is incorporated onto replicating DNA and, by increasing the binding affinity of CAF-1 and Rtt106 for histone H3, H3K56Ac enhances the ability of these histone chaperones to assemble DNA into nucleosomes. Genetic analysis indicates that H3K56Ac acts in a nonredundant manner with the acetylation of the N-terminal residues of H3 and H4 in nucleosome assembly.",
+              "start": 0,
+              "end": 884,
+              "passage_id": "12588500:abstract:0:884:be76ed17d5c2"
+            }
+          ]
+        },
+        {
+          "paper_id": "13790144",
+          "budget_checks": [
+            {
+              "passage_id": "13790144:abstract:0:677:dfee1dd70e17",
+              "pair_tokens": 122,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Histone proteins play essential structural and functional roles in the transition between active and inactive chromatin states. Although histones have a high degree of conservation due to constraints to maintain the overall structure of the nucleosomal octameric core, variants have evolved to assume diverse roles in gene regulation and epigenetic silencing. Histone variants, post-translational modifications and interactions with chromatin remodeling complexes influence DNA replication, transcription, repair and recombination. The authors review recent findings on the structure of chromatin that confirm previous interparticle interactions observed in crystal structures.",
+              "start": 0,
+              "end": 677,
+              "passage_id": "13790144:abstract:0:677:dfee1dd70e17"
+            }
+          ]
+        },
+        {
+          "paper_id": "14637235",
+          "budget_checks": [
+            {
+              "passage_id": "14637235:abstract:0:763:213ce43be9d3",
+              "pair_tokens": 156,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Histone levels are tightly regulated to prevent harmful effects such as genomic instability and hypersensitivity to DNA-damaging agents due to the accumulation of these highly basic proteins when DNA replication slows down or stops. Although chromosomal histones are stable, excess (non-chromatin bound) histones are rapidly degraded in a Rad53 (radiation sensitive 53) kinase-dependent manner in Saccharomyces cerevisiae. Here we demonstrate that excess histones associate with Rad53 in vivo and seem to undergo modifications such as tyrosine phosphorylation and polyubiquitylation, before their proteolysis by the proteasome. We have identified the Tyr 99 residue of histone H3 as being critical for the efficient ubiquitylation and degradation of this histone.",
+              "start": 0,
+              "end": 763,
+              "passage_id": "14637235:abstract:0:763:213ce43be9d3"
+            }
+          ]
+        },
+        {
+          "paper_id": "406733",
+          "budget_checks": [
+            {
+              "passage_id": "406733:abstract:173:884:f5606e921081",
+              "pair_tokens": 161,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "In the course of rerepression, nucleosomes have to be reassembled on the promoter. We have analyzed where the histones for reassembly of the inactive promoter chromatin come from. The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool. In this way, we show that the incorporated histones originate from a source in trans. Promoter closure occurs very rapidly, and the histone chaperones Asf1 and Hir1 as well as the SWI/SNF nucleosome remodeling complex appear to be important for rapid reassembly of nucleosomes at the PHO5 promoter.",
+              "start": 173,
+              "end": 884,
+              "passage_id": "406733:abstract:173:884:f5606e921081"
+            }
+          ]
+        },
+        {
+          "paper_id": "8267678",
+          "budget_checks": [
+            {
+              "passage_id": "8267678:abstract:0:778:06ed0fd44823",
+              "pair_tokens": 157,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Chromatin is not an inert structure, but rather an instructive DNA scaffold that can respond to external cues to regulate the many uses of DNA. A principle component of chromatin that plays a key role in this regulation is the modification of histones. There is an ever-growing list of these modifications and the complexity of their action is only just beginning to be understood. However, it is clear that histone modifications play fundamental roles in most biological processes that are involved in the manipulation and expression of DNA. Here, we describe the known histone modifications, define where they are found genomically and discuss some of their functional consequences, concentrating mostly on transcription where the majority of characterisation has taken place.",
+              "start": 0,
+              "end": 778,
+              "passage_id": "8267678:abstract:0:778:06ed0fd44823"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "5",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 2,
+      "selection_and_tokenization_seconds": 0.000999957999738399,
+      "details": [
+        {
+          "paper_id": "11880289",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "13734012",
+          "budget_checks": [
+            {
+              "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2",
+              "pair_tokens": 51,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+              "pair_tokens": 53,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million).",
+              "start": 893,
+              "end": 1079,
+              "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2"
+            },
+            {
+              "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+              "start": 1667,
+              "end": 1873,
+              "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179"
+            }
+          ]
+        },
+        {
+          "paper_id": "18617259",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "3413083",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "841371",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "5",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 1,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.16666666666666666,
+        "recall": 1.0,
+        "f1": 0.2857142857142857
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 2,
+      "selection_and_tokenization_seconds": 0.001387666000482568,
+      "details": [
+        {
+          "paper_id": "11880289",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "13734012",
+          "budget_checks": [
+            {
+              "passage_id": "13734012:abstract:745:1356:d7222acb3a87",
+              "pair_tokens": 139,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "13734012:abstract:1357:2009:2bbb21f77b6a",
+              "pair_tokens": 131,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "SAMPLE 32,441 archived appendix samples fixed in formalin and embedded in paraffin and tested for the presence of abnormal prion protein (PrP).   \n RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million). The prevalence in those born in 1941-60 (733 per million, 269 to 1596 per million) did not differ significantly from those born between 1961 and 1985 (412 per million, 198 to 758 per million) and was similar in both sexes and across the three broad geographical areas sampled.",
+              "start": 745,
+              "end": 1356,
+              "passage_id": "13734012:abstract:745:1356:d7222acb3a87"
+            },
+            {
+              "text": "Genetic testing of the positive specimens for the genotype at PRNP codon 129 revealed a high proportion that were valine homozygous compared with the frequency in the normal population, and in stark contrast with confirmed clinical cases of vCJD, all of which were methionine homozygous at PRNP codon 129.   \n CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date. These findings have important implications for the management of blood and blood products and for the handling of surgical instruments.",
+              "start": 1357,
+              "end": 2009,
+              "passage_id": "13734012:abstract:1357:2009:2bbb21f77b6a"
+            }
+          ]
+        },
+        {
+          "paper_id": "18617259",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "3413083",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "841371",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "528",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 4,
+      "selection_and_tokenization_seconds": 0.001809667000088666,
+      "details": [
+        {
+          "paper_id": "22705234",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "23326722",
+          "budget_checks": [
+            {
+              "passage_id": "23326722:abstract:386:489:ccfe151f3b32",
+              "pair_tokens": 75,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM).",
+              "start": 386,
+              "end": 489,
+              "passage_id": "23326722:abstract:386:489:ccfe151f3b32"
+            }
+          ]
+        },
+        {
+          "paper_id": "24512064",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "5476778",
+          "budget_checks": [
+            {
+              "passage_id": "5476778:abstract:551:769:99f28a3df441",
+              "pair_tokens": 103,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "5476778:abstract:1053:1169:ac91087400c0",
+              "pair_tokens": 84,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "5476778:abstract:778:825:09c91bf6fde3",
+              "pair_tokens": 58,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "As a model for molecular mimicry, we studied patients with human T-lymphotropic virus type 1 (HTLV-1)-associated myelopathy/tropical spastic paraparesis (HAM/TSP), a disease that can be indistinguishable from MS (refs.",
+              "start": 551,
+              "end": 769,
+              "passage_id": "5476778:abstract:551:769:99f28a3df441"
+            },
+            {
+              "text": "Antibodies to hnRNP-A1 cross-reacted with HTLV-1-tax, the immune response to which is associated with HAM/TSP (refs.",
+              "start": 1053,
+              "end": 1169,
+              "passage_id": "5476778:abstract:1053:1169:ac91087400c0"
+            },
+            {
+              "text": "HAM/TSP patients develop antibodies to neurons.",
+              "start": 778,
+              "end": 825,
+              "passage_id": "5476778:abstract:778:825:09c91bf6fde3"
+            }
+          ]
+        },
+        {
+          "paper_id": "8325952",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "528",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.09090909090909091,
+        "recall": 1.0,
+        "f1": 0.16666666666666669
+      },
+      "complete_rationale_docs": 1,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 3,
+      "selection_and_tokenization_seconds": 0.0016813329993965453,
+      "details": [
+        {
+          "paper_id": "22705234",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "23326722",
+          "budget_checks": [
+            {
+              "passage_id": "23326722:abstract:271:596:1d760a1e0301",
+              "pair_tokens": 119,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Twelve had acute leukaemia, 10 lymphoma (including 4 with solitary extra nodal lesions) and 1 smouldering subtype. Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM). The prognosis was poor, with only 3 complete responses to chemotherapy (CHOP) lasting from 9 to 36 months.",
+              "start": 271,
+              "end": 596,
+              "passage_id": "23326722:abstract:271:596:1d760a1e0301"
+            }
+          ]
+        },
+        {
+          "paper_id": "24512064",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "5476778",
+          "budget_checks": [
+            {
+              "passage_id": "5476778:abstract:442:917:55741363e378",
+              "pair_tokens": 152,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "5476778:abstract:918:1175:2c84ef15fb51",
+              "pair_tokens": 120,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Our study establishes a clear link between viral infection, autoimmunity and neurological disease in humans. As a model for molecular mimicry, we studied patients with human T-lymphotropic virus type 1 (HTLV-1)-associated myelopathy/tropical spastic paraparesis (HAM/TSP), a disease that can be indistinguishable from MS (refs. 5,6,7). HAM/TSP patients develop antibodies to neurons. We hypothesized these antibodies would identify a central nervous system (CNS) autoantigen.",
+              "start": 442,
+              "end": 917,
+              "passage_id": "5476778:abstract:442:917:55741363e378"
+            },
+            {
+              "text": "Immunoglobulin G isolated from HAM/TSP patients identified heterogeneous nuclear ribonuclear protein-A1 (hnRNP-A1) as the autoantigen. Antibodies to hnRNP-A1 cross-reacted with HTLV-1-tax, the immune response to which is associated with HAM/TSP (refs. 5,9).",
+              "start": 918,
+              "end": 1175,
+              "passage_id": "5476778:abstract:918:1175:2c84ef15fb51"
+            }
+          ]
+        },
+        {
+          "paper_id": "8325952",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "743",
+      "positive": true,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 0,
+      "selection_and_tokenization_seconds": 0.0005284160006340244,
+      "details": [
+        {
+          "paper_id": "10576136",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "17897801",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "32159283",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "3984231",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4020950",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "743",
+      "positive": true,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 1,
+      "rejected": 0,
+      "passages": 0,
+      "selection_and_tokenization_seconds": 0.0004242920003889594,
+      "details": [
+        {
+          "paper_id": "10576136",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "17897801",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "32159283",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "3984231",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "4020950",
+          "budget_checks": [],
+          "accepted_passages": []
+        }
+      ]
+    },
+    {
+      "claim_id": "913",
+      "positive": false,
+      "radius": 0,
+      "evidence": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 5,
+      "selection_and_tokenization_seconds": 0.0012906659994769143,
+      "details": [
+        {
+          "paper_id": "11428884",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "22116439",
+          "budget_checks": [
+            {
+              "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf",
+              "pair_tokens": 34,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Together, our current results support the idea that PPAR\u03b3 agonists may be useful therapeutic agents for AD.",
+              "start": 959,
+              "end": 1066,
+              "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf"
+            }
+          ]
+        },
+        {
+          "paper_id": "56486733",
+          "budget_checks": [
+            {
+              "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9",
+              "pair_tokens": 41,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "PPARg expression in the treatment group was significantly higher compared to the asthma group and the control group (P<0.05).",
+              "start": 1408,
+              "end": 1533,
+              "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9"
+            }
+          ]
+        },
+        {
+          "paper_id": "712078",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "9956893",
+          "budget_checks": [
+            {
+              "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7",
+              "pair_tokens": 33,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+              "pair_tokens": 39,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "9956893:abstract:203:318:b9c03c321b93",
+              "pair_tokens": 39,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Taken together, PPAR\u03b3 could be a potential target for pharmacologic intervention in the treatment of OA.",
+              "start": 1499,
+              "end": 1603,
+              "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7"
+            },
+            {
+              "text": "PPAR\u03b3 agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPAR\u03b3 down-regulation.",
+              "start": 921,
+              "end": 1038,
+              "passage_id": "9956893:abstract:921:1038:fcbaba074d03"
+            },
+            {
+              "text": "The aim of this study was to define the roles of PPAR\u03b3 in AGEs-induced inflammatory response in human chondrocytes.",
+              "start": 203,
+              "end": 318,
+              "passage_id": "9956893:abstract:203:318:b9c03c321b93"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "913",
+      "positive": false,
+      "radius": 1,
+      "evidence": {
+        "tp": 0,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "complete_rationale_docs": 0,
+      "gold_rationale_docs": 0,
+      "rejected": 0,
+      "passages": 5,
+      "selection_and_tokenization_seconds": 0.0019399579996388638,
+      "details": [
+        {
+          "paper_id": "11428884",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "22116439",
+          "budget_checks": [
+            {
+              "passage_id": "22116439:abstract:895:1066:25d8d516e6b2",
+              "pair_tokens": 49,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Tau decrease was reversed by adding GW9662, a PPAR\u03b3 antagonist. Together, our current results support the idea that PPAR\u03b3 agonists may be useful therapeutic agents for AD.",
+              "start": 895,
+              "end": 1066,
+              "passage_id": "22116439:abstract:895:1066:25d8d516e6b2"
+            }
+          ]
+        },
+        {
+          "paper_id": "56486733",
+          "budget_checks": [
+            {
+              "passage_id": "56486733:abstract:1195:1708:0c472a011bf2",
+              "pair_tokens": 121,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "The infiltration of peribronchiolar inflammatory cells, wall thickening, goblet cell hyperplasia, and mucus secretion in the treatment group were all significantly decreased compared to those in the asthma group. PPARg expression in the treatment group was significantly higher compared to the asthma group and the control group (P<0.05). The protein expression levels of TLR2, NF-kappaB, NLRP3, and ASC were significantly lower compared to the asthma group but were higher compared to the control group (P<0.05).",
+              "start": 1195,
+              "end": 1708,
+              "passage_id": "56486733:abstract:1195:1708:0c472a011bf2"
+            }
+          ]
+        },
+        {
+          "paper_id": "712078",
+          "budget_checks": [],
+          "accepted_passages": []
+        },
+        {
+          "paper_id": "9956893",
+          "budget_checks": [
+            {
+              "passage_id": "9956893:abstract:1386:1603:5a6864a589ac",
+              "pair_tokens": 62,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "9956893:abstract:658:1200:2115a0902314",
+              "pair_tokens": 148,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            },
+            {
+              "passage_id": "9956893:abstract:0:518:6a44dac8111a",
+              "pair_tokens": 117,
+              "max_pair_tokens": 512,
+              "accepted": true,
+              "reason": null,
+              "text_modified": false,
+              "claim_modified": false
+            }
+          ],
+          "accepted_passages": [
+            {
+              "text": "Activation of RAGE by AGEs triggers a cascade of downstream signaling, including MAPK JNK/ p38, PPAR\u03b3 and NF-\u03baB. Taken together, PPAR\u03b3 could be a potential target for pharmacologic intervention in the treatment of OA.",
+              "start": 1386,
+              "end": 1603,
+              "passage_id": "9956893:abstract:1386:1603:5a6864a589ac"
+            },
+            {
+              "text": "RESULTS AGEs could enhance the expression of IL-1, TNF-\u03b1, and MMP-13, but the level of PPAR\u03b3 was decreased in a time- and dose-dependent manner, which was inhibited by anti-RAGE, SB203580 (P38 MAPK specific inhibitor) and SP600125 (a selective inhibitor of JNK). PPAR\u03b3 agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPAR\u03b3 down-regulation. In human chondrocytes, AGEs could induce cytosol I\u03baB\u03b1 degradation and increase the level of nuclear NF-\u03baB p65, which was inhibited by PPAR\u03b3 agonist pioglitazone.",
+              "start": 658,
+              "end": 1200,
+              "passage_id": "9956893:abstract:658:1200:2115a0902314"
+            },
+            {
+              "text": "OBJECTIVE Advances made in the past ten years highlight the notion that peroxisome proliferator-activated receptors gamma (PPAR\u03b3) has protective properties in the pathophysiology of osteoarthritis (OA). The aim of this study was to define the roles of PPAR\u03b3 in AGEs-induced inflammatory response in human chondrocytes.   \n METHODS Primary human chondrocytes were stimulated with AGEs in the presence or absence of neutralizing antibody against RAGE (anti-RAGE), MAPK specific inhibitors and PPAR\u03b3 agonist pioglitazone.",
+              "start": 0,
+              "end": 518,
+              "passage_id": "9956893:abstract:0:518:6a44dac8111a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

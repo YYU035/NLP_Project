@@ -1,0 +1,12 @@
+{
+  "baseline_claims_matching_archived_scores": 188,
+  "selected_policy": "neighbors_0.6",
+  "delta_micro_f1": 0.005470085470085484,
+  "paired_claim_bootstrap_95_percentile_interval": [
+    -0.010750408955229879,
+    0.022000157593535442
+  ],
+  "repeats": 2000,
+  "seed": 20261110,
+  "limitations": "Descriptive paired claim bootstrap on inspected dev; related claim/document dependence is not modeled. No formal significance or unseen-test improvement claim."
+}

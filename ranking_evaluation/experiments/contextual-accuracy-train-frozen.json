@@ -1,0 +1,18 @@
+{
+  "policy": "bounded_abstract",
+  "selection_config": {
+    "top_k": 3,
+    "min_score": 0.5,
+    "context_radius": 0
+  },
+  "min_paper_score": 0.65,
+  "paper_depth": 5,
+  "max_pair_tokens": 512,
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "verifier_id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "verifier_revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "selection_basis": "Train-only all-claim Accuracy, Macro-F1 tie-break; 200 SHA-256-ordered train claims. Development not used to choose this configuration.",
+  "training_record": "ranking_evaluation/analysis/kireeti_validation_20261110/relevance-gate-results/train-frozen-choice.json",
+  "deployment": "Opt-in backend adapter; frontend and existing frozen defaults unchanged."
+}

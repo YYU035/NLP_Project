@@ -1,0 +1,2470 @@
+{
+  "selected_policy": "bounded_abstract",
+  "paper_gate": 0.65,
+  "depth": 5,
+  "train_summary": [
+    {
+      "policy": "baseline",
+      "paper_gate": 0.5,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.555,
+          "macro_f1": 0.5726140574691696,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2967032967032967,
+              "f1": 0.4576271186440678,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.5757575757575758,
+              "recall": 0.7916666666666666,
+              "f1": 0.6666666666666667,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.48936170212765956,
+              "recall": 0.7540983606557377,
+              "f1": 0.5935483870967743,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 27,
+              "CONTRADICTED": 16,
+              "INSUFFICIENT": 40,
+              "CONFLICTING": 8,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 38,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 46,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.4676258992805755,
+          "macro_f1": 0.6013625789298771,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2967032967032967,
+              "f1": 0.4576271186440678,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7037037037037037,
+              "recall": 0.7916666666666666,
+              "f1": 0.7450980392156864,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 27,
+              "CONTRADICTED": 16,
+              "INSUFFICIENT": 40,
+              "CONFLICTING": 8,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 38,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 142,
+          "fp": 1098,
+          "fn": 154,
+          "precision": 0.11451612903225807,
+          "recall": 0.4797297297297297,
+          "f1": 0.18489583333333334
+        },
+        "complete_rationale_docs": 102,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 689
+      }
+    },
+    {
+      "policy": "baseline",
+      "paper_gate": 0.55,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.56,
+          "macro_f1": 0.574339966653472,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2967032967032967,
+              "f1": 0.4576271186440678,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.5757575757575758,
+              "recall": 0.7916666666666666,
+              "f1": 0.6666666666666667,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.4895833333333333,
+              "recall": 0.7704918032786885,
+              "f1": 0.5987261146496815,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 27,
+              "CONTRADICTED": 17,
+              "INSUFFICIENT": 41,
+              "CONFLICTING": 6,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 38,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 11,
+              "INSUFFICIENT": 47,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.4676258992805755,
+          "macro_f1": 0.5977455981569855,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2967032967032967,
+              "f1": 0.4576271186440678,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.6909090909090909,
+              "recall": 0.7916666666666666,
+              "f1": 0.737864077669903,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 27,
+              "CONTRADICTED": 17,
+              "INSUFFICIENT": 41,
+              "CONFLICTING": 6,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 38,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 139,
+          "fp": 961,
+          "fn": 157,
+          "precision": 0.12636363636363637,
+          "recall": 0.46959459459459457,
+          "f1": 0.1991404011461318
+        },
+        "complete_rationale_docs": 100,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 538
+      }
+    },
+    {
+      "policy": "baseline",
+      "paper_gate": 0.6,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.565,
+          "macro_f1": 0.5810482096509837,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9629629629629629,
+              "recall": 0.2857142857142857,
+              "f1": 0.4406779661016949,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.6792452830188679,
+              "recall": 0.75,
+              "f1": 0.712871287128713,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.45535714285714285,
+              "recall": 0.8360655737704918,
+              "f1": 0.5895953757225434,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 26,
+              "CONTRADICTED": 9,
+              "INSUFFICIENT": 51,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 36,
+              "INSUFFICIENT": 10,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 51,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.4460431654676259,
+          "macro_f1": 0.6093189964157707,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2857142857142857,
+              "f1": 0.4444444444444445,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8,
+              "recall": 0.75,
+              "f1": 0.7741935483870969,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 26,
+              "CONTRADICTED": 9,
+              "INSUFFICIENT": 51,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 36,
+              "INSUFFICIENT": 10,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 130,
+          "fp": 724,
+          "fn": 166,
+          "precision": 0.1522248243559719,
+          "recall": 0.4391891891891892,
+          "f1": 0.22608695652173916
+        },
+        "complete_rationale_docs": 93,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 381
+      }
+    },
+    {
+      "policy": "baseline",
+      "paper_gate": 0.65,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.56,
+          "macro_f1": 0.5732742447922993,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9629629629629629,
+              "recall": 0.2857142857142857,
+              "f1": 0.4406779661016949,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7209302325581395,
+              "recall": 0.6458333333333334,
+              "f1": 0.6813186813186812,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.44715447154471544,
+              "recall": 0.9016393442622951,
+              "f1": 0.5978260869565217,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 26,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 52,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 31,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 4,
+              "INSUFFICIENT": 55,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.41007194244604317,
+          "macro_f1": 0.578544061302682,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.2857142857142857,
+              "f1": 0.4444444444444445,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7948717948717948,
+              "recall": 0.6458333333333334,
+              "f1": 0.7126436781609194,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 26,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 52,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 31,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 119,
+          "fp": 512,
+          "fn": 177,
+          "precision": 0.18858954041204437,
+          "recall": 0.40202702702702703,
+          "f1": 0.25674217907227614
+        },
+        "complete_rationale_docs": 84,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 263
+      }
+    },
+    {
+      "policy": "baseline",
+      "paper_gate": 0.7,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.52,
+          "macro_f1": 0.5262456555390053,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.24175824175824176,
+              "f1": 0.3893805309734513,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.78125,
+              "recall": 0.5208333333333334,
+              "f1": 0.625,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.40425531914893614,
+              "recall": 0.9344262295081968,
+              "f1": 0.5643564356435644,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 22,
+              "CONTRADICTED": 4,
+              "INSUFFICIENT": 62,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 25,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 3,
+              "INSUFFICIENT": 57,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.3381294964028777,
+          "macro_f1": 0.5193655901620503,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.24175824175824176,
+              "f1": 0.3893805309734513,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8620689655172413,
+              "recall": 0.5208333333333334,
+              "f1": 0.6493506493506493,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 22,
+              "CONTRADICTED": 4,
+              "INSUFFICIENT": 62,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 25,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 87,
+          "fp": 344,
+          "fn": 209,
+          "precision": 0.20185614849187936,
+          "recall": 0.2939189189189189,
+          "f1": 0.2393397524071527
+        },
+        "complete_rationale_docs": 63,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 171
+      }
+    },
+    {
+      "policy": "neighbors_0.6",
+      "paper_gate": 0.5,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.59,
+          "macro_f1": 0.6200757575757576,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.972972972972973,
+              "recall": 0.3956043956043956,
+              "f1": 0.5625,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.5967741935483871,
+              "recall": 0.7708333333333334,
+              "f1": 0.6727272727272728,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5421686746987951,
+              "recall": 0.7377049180327869,
+              "f1": 0.625,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 36,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 30,
+              "CONFLICTING": 13,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 37,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 13,
+              "INSUFFICIENT": 45,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.5251798561151079,
+          "macro_f1": 0.664907865898206,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.3956043956043956,
+              "f1": 0.5669291338582677,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7551020408163265,
+              "recall": 0.7708333333333334,
+              "f1": 0.7628865979381444,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 36,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 30,
+              "CONFLICTING": 13,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 37,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 151,
+          "fp": 1176,
+          "fn": 145,
+          "precision": 0.11379050489826677,
+          "recall": 0.5101351351351351,
+          "f1": 0.1860751694393099
+        },
+        "complete_rationale_docs": 105,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 689
+      }
+    },
+    {
+      "policy": "neighbors_0.6",
+      "paper_gate": 0.55,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.6,
+          "macro_f1": 0.6255025566271186,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9736842105263158,
+              "recall": 0.4065934065934066,
+              "f1": 0.5736434108527132,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.5967741935483871,
+              "recall": 0.7708333333333334,
+              "f1": 0.6727272727272728,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5411764705882353,
+              "recall": 0.7540983606557377,
+              "f1": 0.6301369863013699,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 37,
+              "CONTRADICTED": 13,
+              "INSUFFICIENT": 31,
+              "CONFLICTING": 10,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 37,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 46,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.5323741007194245,
+          "macro_f1": 0.6666135204081634,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.4065934065934066,
+              "f1": 0.578125,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.74,
+              "recall": 0.7708333333333334,
+              "f1": 0.7551020408163266,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 37,
+              "CONTRADICTED": 13,
+              "INSUFFICIENT": 31,
+              "CONFLICTING": 10,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 37,
+              "INSUFFICIENT": 8,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 148,
+          "fp": 1039,
+          "fn": 148,
+          "precision": 0.12468407750631845,
+          "recall": 0.5,
+          "f1": 0.19959541469993256
+        },
+        "complete_rationale_docs": 103,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 538
+      }
+    },
+    {
+      "policy": "neighbors_0.6",
+      "paper_gate": 0.6,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.625,
+          "macro_f1": 0.6434781923361864,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9523809523809523,
+              "recall": 0.43956043956043955,
+              "f1": 0.6015037593984962,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.6730769230769231,
+              "recall": 0.7291666666666666,
+              "f1": 0.7,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5102040816326531,
+              "recall": 0.819672131147541,
+              "f1": 0.628930817610063,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 40,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 38,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 35,
+              "INSUFFICIENT": 10,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 9,
+              "INSUFFICIENT": 50,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.539568345323741,
+          "macro_f1": 0.6899588960657663,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.43956043956043955,
+              "f1": 0.6106870229007634,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.813953488372093,
+              "recall": 0.7291666666666666,
+              "f1": 0.7692307692307692,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 40,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 38,
+              "CONFLICTING": 5,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 35,
+              "INSUFFICIENT": 10,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 139,
+          "fp": 802,
+          "fn": 157,
+          "precision": 0.14771519659936239,
+          "recall": 0.46959459459459457,
+          "f1": 0.2247372675828618
+        },
+        "complete_rationale_docs": 96,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 381
+      }
+    },
+    {
+      "policy": "neighbors_0.6",
+      "paper_gate": 0.65,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.62,
+          "macro_f1": 0.6323267375898955,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.975609756097561,
+              "recall": 0.43956043956043955,
+              "f1": 0.6060606060606061,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.6976744186046512,
+              "recall": 0.625,
+              "f1": 0.6593406593406593,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.4909090909090909,
+              "recall": 0.8852459016393442,
+              "f1": 0.6315789473684211,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 40,
+              "CONTRADICTED": 7,
+              "INSUFFICIENT": 40,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 30,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 6,
+              "INSUFFICIENT": 54,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.5035971223021583,
+          "macro_f1": 0.6582846879209698,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.43956043956043955,
+              "f1": 0.6106870229007634,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8108108108108109,
+              "recall": 0.625,
+              "f1": 0.7058823529411764,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 40,
+              "CONTRADICTED": 7,
+              "INSUFFICIENT": 40,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 30,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 128,
+          "fp": 589,
+          "fn": 168,
+          "precision": 0.17852161785216178,
+          "recall": 0.43243243243243246,
+          "f1": 0.2527147087857848
+        },
+        "complete_rationale_docs": 87,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 263
+      }
+    },
+    {
+      "policy": "neighbors_0.6",
+      "paper_gate": 0.7,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.575,
+          "macro_f1": 0.582716049382716,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.38461538461538464,
+              "f1": 0.5555555555555556,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.75,
+              "recall": 0.5,
+              "f1": 0.6,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.4375,
+              "recall": 0.9180327868852459,
+              "f1": 0.5925925925925926,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 35,
+              "CONTRADICTED": 3,
+              "INSUFFICIENT": 50,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 24,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 56,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.4244604316546763,
+          "macro_f1": 0.5977777777777777,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.38461538461538464,
+              "f1": 0.5555555555555556,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8888888888888888,
+              "recall": 0.5,
+              "f1": 0.64,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 35,
+              "CONTRADICTED": 3,
+              "INSUFFICIENT": 50,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 24,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 95,
+          "fp": 413,
+          "fn": 201,
+          "precision": 0.18700787401574803,
+          "recall": 0.32094594594594594,
+          "f1": 0.236318407960199
+        },
+        "complete_rationale_docs": 66,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 171
+      }
+    },
+    {
+      "policy": "bounded_abstract",
+      "paper_gate": 0.5,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.615,
+          "macro_f1": 0.6469006189041184,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.7887323943661971,
+              "recall": 0.6153846153846154,
+              "f1": 0.6913580246913581,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "f1": 0.6666666666666666,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5606060606060606,
+              "recall": 0.6065573770491803,
+              "f1": 0.5826771653543307,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 56,
+              "CONTRADICTED": 4,
+              "INSUFFICIENT": 20,
+              "CONFLICTING": 11,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 30,
+              "INSUFFICIENT": 9,
+              "CONFLICTING": 6,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 12,
+              "CONTRADICTED": 8,
+              "INSUFFICIENT": 37,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.6187050359712231,
+          "macro_f1": 0.7391869918699188,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9491525423728814,
+              "recall": 0.6153846153846154,
+              "f1": 0.7466666666666667,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8823529411764706,
+              "recall": 0.625,
+              "f1": 0.7317073170731708,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 56,
+              "CONTRADICTED": 4,
+              "INSUFFICIENT": 20,
+              "CONFLICTING": 11,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 30,
+              "INSUFFICIENT": 9,
+              "CONFLICTING": 6,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 220,
+          "fp": 3971,
+          "fn": 76,
+          "precision": 0.05249343832020997,
+          "recall": 0.7432432432432432,
+          "f1": 0.09806106529975483
+        },
+        "complete_rationale_docs": 125,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 689
+      }
+    },
+    {
+      "policy": "bounded_abstract",
+      "paper_gate": 0.55,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.64,
+          "macro_f1": 0.666564509098834,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.7971014492753623,
+              "recall": 0.6043956043956044,
+              "f1": 0.6874999999999999,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7272727272727273,
+              "recall": 0.6666666666666666,
+              "f1": 0.6956521739130435,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5694444444444444,
+              "recall": 0.6721311475409836,
+              "f1": 0.6165413533834587,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 55,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 9,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 32,
+              "INSUFFICIENT": 9,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 11,
+              "CONTRADICTED": 7,
+              "INSUFFICIENT": 41,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.6258992805755396,
+          "macro_f1": 0.7455981050138176,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9482758620689655,
+              "recall": 0.6043956043956044,
+              "f1": 0.7382550335570469,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8648648648648649,
+              "recall": 0.6666666666666666,
+              "f1": 0.7529411764705882,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 55,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 22,
+              "CONFLICTING": 9,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 32,
+              "INSUFFICIENT": 9,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 216,
+          "fp": 3133,
+          "fn": 80,
+          "precision": 0.06449686473574201,
+          "recall": 0.7297297297297297,
+          "f1": 0.11851851851851852
+        },
+        "complete_rationale_docs": 123,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 538
+      }
+    },
+    {
+      "policy": "bounded_abstract",
+      "paper_gate": 0.6,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.66,
+          "macro_f1": 0.6776197297814861,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.84375,
+              "recall": 0.5934065934065934,
+              "f1": 0.696774193548387,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7560975609756098,
+              "recall": 0.6458333333333334,
+              "f1": 0.6966292134831461,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5465116279069767,
+              "recall": 0.7704918032786885,
+              "f1": 0.6394557823129252,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 54,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 28,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 31,
+              "INSUFFICIENT": 11,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 7,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 47,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.6115107913669064,
+          "macro_f1": 0.7339124839124839,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9473684210526315,
+              "recall": 0.5934065934065934,
+              "f1": 0.7297297297297297,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8611111111111112,
+              "recall": 0.6458333333333334,
+              "f1": 0.738095238095238,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 54,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 28,
+              "CONFLICTING": 4,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 3,
+              "CONTRADICTED": 31,
+              "INSUFFICIENT": 11,
+              "CONFLICTING": 3,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 195,
+          "fp": 2236,
+          "fn": 101,
+          "precision": 0.08021390374331551,
+          "recall": 0.6587837837837838,
+          "f1": 0.14301430143014301
+        },
+        "complete_rationale_docs": 110,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 381
+      }
+    },
+    {
+      "policy": "bounded_abstract",
+      "paper_gate": 0.65,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.675,
+          "macro_f1": 0.6772832817337462,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.8852459016393442,
+              "recall": 0.5934065934065934,
+              "f1": 0.7105263157894737,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.7567567567567568,
+              "recall": 0.5833333333333334,
+              "f1": 0.6588235294117648,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5353535353535354,
+              "recall": 0.8688524590163934,
+              "f1": 0.6625,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 54,
+              "CONTRADICTED": 6,
+              "INSUFFICIENT": 30,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 28,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 5,
+              "CONTRADICTED": 3,
+              "INSUFFICIENT": 53,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.5899280575539568,
+          "macro_f1": 0.7088103534096566,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9642857142857143,
+              "recall": 0.5934065934065934,
+              "f1": 0.7346938775510204,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8235294117647058,
+              "recall": 0.5833333333333334,
+              "f1": 0.6829268292682927,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 54,
+              "CONTRADICTED": 6,
+              "INSUFFICIENT": 30,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 28,
+              "INSUFFICIENT": 16,
+              "CONFLICTING": 2,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 174,
+          "fp": 1588,
+          "fn": 122,
+          "precision": 0.09875141884222474,
+          "recall": 0.5878378378378378,
+          "f1": 0.16909620991253643
+        },
+        "complete_rationale_docs": 99,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 263
+      }
+    },
+    {
+      "policy": "bounded_abstract",
+      "paper_gate": 0.7,
+      "metrics": {
+        "all": {
+          "n": 200,
+          "accuracy": 0.625,
+          "macro_f1": 0.6298345938633709,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9166666666666666,
+              "recall": 0.4835164835164835,
+              "f1": 0.6330935251798562,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.8333333333333334,
+              "recall": 0.5208333333333334,
+              "f1": 0.6410256410256411,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.4628099173553719,
+              "recall": 0.9180327868852459,
+              "f1": 0.6153846153846155,
+              "support": 61
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 44,
+              "CONTRADICTED": 2,
+              "INSUFFICIENT": 44,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 25,
+              "INSUFFICIENT": 21,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 3,
+              "INSUFFICIENT": 56,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive": {
+          "n": 139,
+          "accuracy": 0.49640287769784175,
+          "macro_f1": 0.6545012165450121,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9565217391304348,
+              "recall": 0.4835164835164835,
+              "f1": 0.6423357664233577,
+              "support": 91
+            },
+            "CONTRADICTED": {
+              "precision": 0.9259259259259259,
+              "recall": 0.5208333333333334,
+              "f1": 0.6666666666666667,
+              "support": 48
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 44,
+              "CONTRADICTED": 2,
+              "INSUFFICIENT": 44,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 2,
+              "CONTRADICTED": 25,
+              "INSUFFICIENT": 21,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "evidence_micro_positive_only": {
+          "tp": 124,
+          "fp": 1034,
+          "fn": 172,
+          "precision": 0.1070811744386874,
+          "recall": 0.4189189189189189,
+          "f1": 0.17056396148555708
+        },
+        "complete_rationale_docs": 73,
+        "gold_rationale_docs": 159,
+        "kept_paper_count": 171
+      }
+    }
+  ],
+  "train_trace_sha256": {
+    "train-traces/886-baseline.json": "f0f6c0e50772d8d4989e9d607688aa8236b33ae29da6bf39558ecfd5ee88f528",
+    "train-traces/286-baseline.json": "ac3fdc0815d2fd0af42149ded977d8dee60ca97315bd2c31314d4c1f823466ba",
+    "train-traces/671-baseline.json": "3f26f5f46ad6b07eac1934afe2b636ee61bd7017e2d1c4cf2879ea030c7dfbce",
+    "train-traces/245-baseline.json": "db27e2beaf337fa751d19299cc5b3b1332a2cb4a55a9b65a353ee4f1be0e263d",
+    "train-traces/1392-baseline.json": "606f1d62fbf42c017e56ffe6fce02ad9c1f48dd76d8a15580b2bd949c209f79b",
+    "train-traces/610-baseline.json": "ad299a42d255f4c08225f83559a529cee60054336b20e3fdc720e9f6b4ef9768",
+    "train-traces/178-baseline.json": "984e5b24c2a3bbd300de508850d3097ea5a5cd6c2b6f79d25701dabee4b11d47",
+    "train-traces/1391-baseline.json": "7b0d206c04fe21864eff5f7921a425e884d105395db965f75253e5fcc054b58b",
+    "train-traces/342-baseline.json": "2898e0efe75d63b1809e2e180691943039d0c20ea9815689196587023554ccf5",
+    "train-traces/1181-baseline.json": "3c0450e73e1cc1a0aacf79223411b38ed44b645efd5d30ed24cf3fca3a041391",
+    "train-traces/1047-baseline.json": "3bbd6eef61de9390f812d1c9c3529b046fd59bcc2eab6bc2e4ac523e6bc45282",
+    "train-traces/1055-baseline.json": "eed80b90559788461036b6ba0881709f3312eeed26671ae92a9d2fcde9e17165",
+    "train-traces/55-baseline.json": "dd28f84d92df456af57606dec79630238679b0634cff2ca19885f0d230a54620",
+    "train-traces/860-baseline.json": "dcaf83630d1eb0ae70066cbee4e7dc2d5e5ab1915799e253f1fc8e05c6b0860e",
+    "train-traces/356-baseline.json": "eea419063c0206218698f02d7f2407f8a677b524b538690406b4b8b0db03c849",
+    "train-traces/1234-baseline.json": "59f7063f5527f663921b89db5e4f8fadd5874bf495bf8ead214c5b6263553310",
+    "train-traces/1328-baseline.json": "dcfcbd18089f7d2301810fc3e1c701578c2a5811a72f03e3ba990f9c8f388c84",
+    "train-traces/766-baseline.json": "77e9c4d10b24db9724c8da28c5d92246e7fb95e9e34fa84a4a9208f942e6e563",
+    "train-traces/152-baseline.json": "04aebb8b4674c15f7746379898b4e662896281e47bfba9bfe9fab1323a0c7f29",
+    "train-traces/351-baseline.json": "ba8e1b868488b1b5669fa181823110b306eeac4faca2f7fb6a0c67c6108afd1d",
+    "train-traces/1353-baseline.json": "9c77059bb8019236247d2b9c316e128a215ea904eed35dbafb28308fd56ff1eb",
+    "train-traces/394-baseline.json": "d96ebad7deed88f7e15772188f63b3660aa7b7531eb246ad7685f4ad402b394e",
+    "train-traces/1330-baseline.json": "aca29b3c1fc49cc70dd560e285dd30390f0337e3000f0a581bcc3cb17e86630f",
+    "train-traces/334-baseline.json": "4a208e0ce89f215578b2001dd7aa1799d8dfc8ed09200d50e85379de83645bcc",
+    "train-traces/149-baseline.json": "46e92c879dcb161c5003cfb4e6a17b9eeb8b9d99ba6823453557f62dff75b09d",
+    "train-traces/500-baseline.json": "51ffa7fb80ce42b385ecc79e68160fd022c0da88a1ec743dcdb12f0995eead70",
+    "train-traces/871-baseline.json": "43c6362dbbf3708442bae75d8188d0363997ce51f017f254449d0b7b8c651d07",
+    "train-traces/463-baseline.json": "8b8ce1aab8ca98707d5414c93506387cd53dbce906995855c718a6752e9feae3",
+    "train-traces/367-baseline.json": "6f29ad90a92b72cab4270d2c011e18c38b581283508dc9ece773ef0381aab9bd",
+    "train-traces/683-baseline.json": "c0f11a574a77d9688cb55a3bd1b2d3a351ab603e0dbdbb3097f7e76f9920cd02",
+    "train-traces/229-baseline.json": "df0581afded171b7a09f8b448b0743da544b21afb0b432dba164ca1665cf0d22",
+    "train-traces/962-baseline.json": "b96f36b38181364c0f5ed2c93c1a741837584cbf7aae6a581f40a1b362cb9447",
+    "train-traces/570-baseline.json": "890bdacd0321b3caeebb8c6565fcc38de8f0b7b7afecc03f025cdd90329a79ab",
+    "train-traces/584-baseline.json": "54bc477ef488ec5118af38ff1ff23eed331610968bdbcaa2b007234e64e9fcd9",
+    "train-traces/774-baseline.json": "7508af62108265dae60498a852ef983ec08009888b1636bd8e46dc78d0095485",
+    "train-traces/305-baseline.json": "e8143462944e96efc733b577fcd576add114e81e626d03c4ba6f4db72555708a",
+    "train-traces/211-baseline.json": "88fb96ab2686cf3766c2132a4aafd9623240a2b347bb5cd3fdce37028272ffa6",
+    "train-traces/801-baseline.json": "61b1c0cfc8a42c0363c61d3c0e58240025718b9f906ea4d25e8675861d356ae9",
+    "train-traces/290-baseline.json": "101c133072fbecd304b7d19a1f173e2af2c322d80e54c5c7295eaae7f92d1b15",
+    "train-traces/235-baseline.json": "51b48a9f1abcea9c97f6ab292085fcde3f7637da757c1738162a6cce7d85d7b7",
+    "train-traces/791-baseline.json": "4137cdc85b499c7bfa351aed21f4c8c3c62dc159f4cac0354f1813c333ebc4c8",
+    "train-traces/39-baseline.json": "9f4107699d994463d1cdafefc3b2a72b8a277dd663fc6a0e473268c4e67c2cec",
+    "train-traces/331-baseline.json": "2102754de8cd1e125845cd01981add8015e45c304cd66bef07be89c06eb4608a",
+    "train-traces/1085-baseline.json": "73f550bba823d86382cf0e87cdd10040dda7555b8351019cc7df52336e87d43c",
+    "train-traces/1309-baseline.json": "dab2c3130d928bb0c1f6121ba22bde549d972ef24741ca05c34f27cffb230502",
+    "train-traces/1038-baseline.json": "42946323d258b5cd84fe03990e604cef369648625cd829b6b28ec27d950d003d",
+    "train-traces/748-baseline.json": "30a0058f5c73b5732697ce408525af9362863ede03ad26fe2ea613ad16f352e9",
+    "train-traces/1040-baseline.json": "735fe32ad01bae68073a03995c7b4cbc7562600d9e7fffd6eb0dd419d8d08a38",
+    "train-traces/559-baseline.json": "31859c44cb7bcf4ade5b1abfcb57bd4f7b7e5783c832ad92b22b3a1a5a809858",
+    "train-traces/1224-baseline.json": "16b1809dd02fdf4d46d0de8dc99e6ae6eb3129ae02d440c7c272ba6d91690b43",
+    "train-traces/425-baseline.json": "df46156294d170fe0b3083a534e0fc15c1a51775f3fd922f674b5cfc922312fc",
+    "train-traces/1289-baseline.json": "dcbe4be946a10134157f167778e44855421da7d34ca7e494c1e4755e118d129c",
+    "train-traces/445-baseline.json": "a870516dde58b2e4f5829b173c40a90bed3e64b32d4de75fc2d138615a7d9d23",
+    "train-traces/225-baseline.json": "998325ee009e2831cab95025b52ea712508e2845aacb1c9108fc2de4141277be",
+    "train-traces/1173-baseline.json": "074ca0e7cfc4cb8f2ea4b52aa2d37a343545172fec8876e5f283dc7936fba701",
+    "train-traces/780-baseline.json": "558e04bc75cfae1054631d3bb0fd9e0bbb3481816896545104b12eb11fc7b92e",
+    "train-traces/1068-baseline.json": "6ad5e3e7d657b2dd5f2f6827437c858ecca7ac180bb384af5b3fbd85f129f8d2",
+    "train-traces/771-baseline.json": "2ffc8f0fedc70b548e21e863f87196a3ef129668b727dca2a9688fd9cf700f3e",
+    "train-traces/109-baseline.json": "858357b0476d21e4c668ab1c73e36fdcaace3d5f747954cf89cc981289eaa681",
+    "train-traces/156-baseline.json": "d5b7aac5a4d56e1e9cf8610b6a8d9c008462c798caaa671e70386f3a1f2f93c1",
+    "train-traces/1111-baseline.json": "f86d6dcd6e0c0898c749d911ce2c76e5f29899111e5e776487991cd7ac9d1359",
+    "train-traces/738-baseline.json": "9ef25e5570b94d50940b2083fcd6181d29297c6b5e1699ef1985d21e00c5796b",
+    "train-traces/825-baseline.json": "5a3c8f8acd5f401a793581e29a918929aaabf0856fc9c75c3bb9c76f514ea254",
+    "train-traces/1374-baseline.json": "c1f6b2e2222a60bef317926b11217de93ba562cc8765e975254a6292df1a915d",
+    "train-traces/1159-baseline.json": "912ce047483a8b6d6c3615d5b875bdfc93dc13d35b3bcb9bdda99fdebe4e9541",
+    "train-traces/1091-baseline.json": "78de6816c0e4d54d7a3ec3d5d63e875dc0d1376700a63a6878acc6ff15282e4c",
+    "train-traces/767-baseline.json": "72e592a6c716e0aaf6291e89de0a19d30f46d9fc6b36343e6ec042f64261f217",
+    "train-traces/105-baseline.json": "79dbf2c0bead9699be90c0a61dd23361d4947be46394dddf21f2c77cf3cc221f",
+    "train-traces/1208-baseline.json": "59fc8883e005ce03cfe78d34dbdc92c2acff06f9e2bda1a1159733bd690fc1b8",
+    "train-traces/376-baseline.json": "3c75e3ae0442cf39018c0418290d5e4c6830e6814a2ca436003c8c28a06263a4",
+    "train-traces/672-baseline.json": "283c90180c9edc06887e905af2fcb32559dc4c97f75aea44b6ad6baf0654b625",
+    "train-traces/1406-baseline.json": "36560381b134d7dfa7d58245b4399bbfcc623c6c933cd574c6edc65517d53c16",
+    "train-traces/242-baseline.json": "cfa3f79c636e67022d7ef776339e52b867231958b7783aabc317b3607bff34e9",
+    "train-traces/686-baseline.json": "9742f61aebe5d2adc2913356e07f116728ddfbe391e01c27af1c1ff64cfc28b9",
+    "train-traces/969-baseline.json": "ae9f0866ab7626b4ed65d8f2b89ef0509cb09774403f492dae8ed10089806bd7",
+    "train-traces/1373-baseline.json": "beb230a0a617da61be73df1538547414883c43805cd4bfb244aef5c87730e57b",
+    "train-traces/670-baseline.json": "c57a5585cd3ebad7a7c0947879a6f2c650a29f7670d90663fc0b3087d72cab4a",
+    "train-traces/398-baseline.json": "fbfd6cccf73c8a8bf078ce019d2799cd9293d7983732c7815d8b4c01d040cc02",
+    "train-traces/1295-baseline.json": "f0bb0b60863c971bf2b20fde35b455f966ca05c61f79f8214e1d250726a787bf",
+    "train-traces/9-baseline.json": "7b2204834e04f93868d6bae44256b06a2c42417e1dc4ba8e65af58bab5abfe07",
+    "train-traces/1170-baseline.json": "7695bce32a7634cb51e1b90d4f6534dc0fa66205c971d54f5d7599d878a3a652",
+    "train-traces/790-baseline.json": "a3f67b424f927a158639d6837ac3941370acf0ad0689531b1eb6f4f475cf3ca5",
+    "train-traces/624-baseline.json": "4f44d7c7a52276b06bfadb71f12e9857a62f587f8804bd9908ac48c27e4ecd00",
+    "train-traces/898-baseline.json": "f81d694fd89a3f290cbe46b91e5346f081b92f45e8056cf4cae04b4328fa416a",
+    "train-traces/122-baseline.json": "7ea1698f76f0036711094be6a75c452322c92b001c3d3cc1a03e301b71cb6cac",
+    "train-traces/1342-baseline.json": "bcad97b56cdaf4ff4243f3c4c28d1bba2b16238bd09db550c88faf55f6eefe76",
+    "train-traces/413-baseline.json": "e29124adda5de9cd1c16ccae4ffd4c2c64a6f7bf286118c23ca50abc246695f3",
+    "train-traces/688-baseline.json": "d3f117c5c34facea12c25d09365765b7e769c3460df6b0e1739139a23ab35f45",
+    "train-traces/272-baseline.json": "3b52d68b21cceebb972a254cb92c3d4a1dc26876e51c1efe9d47f5dff28ad823",
+    "train-traces/681-baseline.json": "c37cbc92024ecc8123a58338b9dab9995d7045b92e53d0f3660d8127915824b9",
+    "train-traces/154-baseline.json": "c25099d2f3fd5f222a9b51d73a7ae11270a5606309ead637da9df056166ab207",
+    "train-traces/397-baseline.json": "90e4ce64ee140a8f06397a3e8ad81df382d6eff2c0e1b664e29076ac5b6a9267",
+    "train-traces/91-baseline.json": "c8c7151c36521129569fd7c098ff212fe5a18b169f3f261bc546a36efc76f3f1",
+    "train-traces/250-baseline.json": "cc217ec68d418a147e90db70167bd59cd4a0050386b1b8a0761da8ceb35094e4",
+    "train-traces/609-baseline.json": "7d0ea543033126b864cf5e4d8bf15621c88a16522a9180d0da594b1af14c0f25",
+    "train-traces/650-baseline.json": "41673c599d93060c591d3337132621535ae5755a9ccdba8419a730c8a8d02854",
+    "train-traces/155-baseline.json": "22286cca48ac6ba0341df617e549ef5e8e52eb6b726c7adcc190afdb97cedb57",
+    "train-traces/1042-baseline.json": "869efa7a8d4dc3c4681aa396627b5980eb401f3a30da42ee3f71870b79f4bf2a",
+    "train-traces/938-baseline.json": "218ff090124a78d1024a51b57f817ca761c62b0ed3eb73c32469b95c4e2a094a",
+    "train-traces/378-baseline.json": "bd1db368ced461b6d071e3cd6b4047c2e94b56621e10465cdc8bbefb64ca8a23",
+    "train-traces/310-baseline.json": "c269be80f89115c0862e59fbf1d3659ed777dda5a6fb621125d4bf96d6626f20",
+    "train-traces/347-baseline.json": "f3394f693d8107eaa78f0c5c2387cad203bdeffc1df25bd9fc9726e08daf4ed3",
+    "train-traces/1230-baseline.json": "5414098c8ed9484d123c7a964af636cd0584ef82841ded820cf6dda89d65720b",
+    "train-traces/857-baseline.json": "b12b5f3f13abca70ecb5ca85f5eeab1b8e4dcf3ae151dec4a1ba87f0da7e5979",
+    "train-traces/740-baseline.json": "ab6e319948e133955ce3b656d25963f529349a7e822e5543aa5d93e4f0ec082a",
+    "train-traces/1097-baseline.json": "cf3da9b8e4891acbe19bf66ef282cb2d3a07d513a460f3924b34b44f53e388fc",
+    "train-traces/565-baseline.json": "379f0ec3f777c1b3f28f09ec1d319527f774a19640ecec5e99e0a37fbeb853a5",
+    "train-traces/1265-baseline.json": "9af2088dc3496f770103871a67a8c498a9e2088a30da96ece32d938a2e87452e",
+    "train-traces/492-baseline.json": "0b4bf1505d5f550ef028a4760d4be067806fe9be0d189247ed007592c33c1360",
+    "train-traces/657-baseline.json": "28a058ad0c0689f85f397176a6e04f88fcbda6d166bcfa2e160eaea045730bf4",
+    "train-traces/46-baseline.json": "2eabed48b5e88e2b777c989bff28405758efb87a163b6456004b1a11e7aa1589",
+    "train-traces/635-baseline.json": "90ea64fa298ff395b3963d7a3ade4c4efdf87ab6626336a56daf8b5f2b71f68f",
+    "train-traces/400-baseline.json": "a3d9c9cb9f271664578da26a6a8afdb9ee95d532a72a922ce4d4a22a2e66fa3e",
+    "train-traces/1186-baseline.json": "8d8ce742d3309cd4550de822dd0673958c6af8fd3775a43f20b90f48584dedb0",
+    "train-traces/1102-baseline.json": "d06fc22f1f4281beaa77b342309c9354c42bdb23bb8317c27e02da87f5a3134a",
+    "train-traces/677-baseline.json": "b73631b63c43ee8e06319d828f9334a9d8482b0e35a5f9005c049fae8c43b359",
+    "train-traces/200-baseline.json": "186e0753344208e14f570feaac9da81d464c619edc5bf746290e03c6d76dd2b2",
+    "train-traces/277-baseline.json": "0beb40039faa9ed70c615ac535c5041109e5c8698e9b804d23d13819805abd83",
+    "train-traces/881-baseline.json": "84da6446d7ebffef4ea7621f3926a6089175d2375174ddadc485c75a4586a29b",
+    "train-traces/186-baseline.json": "15b23b31fc1aec568dbfcd23d9433fe44531b5bee8f7ed37a60cc57a5def60a0",
+    "train-traces/600-baseline.json": "ca7438a2895f06d4fa0a7227963a815b1020a91d4262f9cb704a052e370cfa86",
+    "train-traces/1053-baseline.json": "c529ba29fdd7b8e81820f637f2d7fae9056532c62a4a26ed27160a349432e5c9",
+    "train-traces/1310-baseline.json": "29e775043e0cdef51c90a2a45055092641d060263a6f2aae3e65ddc3c9a68c13",
+    "train-traces/1165-baseline.json": "55dac08e268ce9ac230fdecfe20eea2aeb648e8acacd4b8af984c25e41359dd4",
+    "train-traces/98-baseline.json": "9d5af4185b40777950357625830224a9c26daead96e1e9481b18e7a3fbf28ea0",
+    "train-traces/357-baseline.json": "f7eb702a4d921a488fb2ba7ef281350a0e60abe20570710f6621b7e0b7ff010a",
+    "train-traces/120-baseline.json": "a62e6dab56c8abb6e5296792d534f9d54275990ed10de28043d09f4e3410196f",
+    "train-traces/818-baseline.json": "b34b3c17526c44779842a8f2f34ad7632d02b354a47c75b19cc49b499b9b0b0d",
+    "train-traces/736-baseline.json": "35703b949a7d79da509ee42dfacdb852003a3b02f52954eb8cdb3dfd56dc2f20",
+    "train-traces/1306-baseline.json": "727d3d418f0ce5f141a9493f9ed7f3e4ead8674e5f87da753f2939c43fffc76d",
+    "train-traces/377-baseline.json": "e8960dcf0e12637bf39be743aa859cda3341901b92160df97a645385b6630b17",
+    "train-traces/1205-baseline.json": "d5b5a7f7e161a19d631ddc96fb1c47f33901f407d7bfe0c454bf7864b3fd9811",
+    "train-traces/429-baseline.json": "7fefb36746abb3a0e6299f0201def31a9bfdfa67238c634ca9c727189a4ed7f9",
+    "train-traces/542-baseline.json": "3c5ccb17c43bd8a7f0578c201420244601d4f87bf218d952af3c53c1a664629a",
+    "train-traces/441-baseline.json": "80c50119acfac61fcbd1922b91aa28a12e9b3d6b944966284dcae2c05309c811",
+    "train-traces/1211-baseline.json": "bf42a4105d3eb5c4bf012886ab30d21f09ad5338e6e73738c1b446217bce9562",
+    "train-traces/1361-baseline.json": "4be41b78fed6c95629c4c7a42af7d4503e7f3e9ca00b22df8d50238f27883042",
+    "train-traces/1030-baseline.json": "effa5e05a60024adb0c15848bea461d2bd55fd3e3a9957d6ec1aeb27e43ba484",
+    "train-traces/965-baseline.json": "a7845cbed1c500ffa649a870da384dce68cbcb530c8cf8279dc9058c19b5e119",
+    "train-traces/1069-baseline.json": "36c5e58239bbf2fbdbb136778788f734a8b3bdbf7091a5e4241b5671930c67db",
+    "train-traces/949-baseline.json": "64affc146c7c6b62041f645e2a907889628773525869ef10443d3e82ac30aac7",
+    "train-traces/119-baseline.json": "0039346f2668190a0203173bb5efb2059c41277da3bdbc1520a965e25de147af",
+    "train-traces/883-baseline.json": "8b5132ead388d4fa557044b49de755b67b4f7f73d0c3c9b8b08f04cec49b2d99",
+    "train-traces/299-baseline.json": "47055e5901d766d86ccead61c31304c4205093650499e9925649e714790f2f28",
+    "train-traces/855-baseline.json": "96db3f83ba8e861e3673d11624b7f6156bf979b4b91818b3b35174d1b49f35c4",
+    "train-traces/877-baseline.json": "d0b70608c1c117abf6b334b81a3524efc5e18b12bf8835d5ebf2c670a2dfdaf2",
+    "train-traces/470-baseline.json": "62317166e8c291d25aaf0d870cb7ca927a2f6a5763238a1c6421acc2c6ba249d",
+    "train-traces/1235-baseline.json": "5380f093a5c6d04f1517564ed5bb842cbac3d078f0c8d2f8c2f5950537b0e2ac",
+    "train-traces/812-baseline.json": "2f92673c38d83a682c9ff698def4f849e13e2d67fbc983b60262cd95d75140fb",
+    "train-traces/47-baseline.json": "b2e57392eae77ffb8db62a57d76885aa94d5171c94081a0863eafe095bb5243e",
+    "train-traces/661-baseline.json": "efe997038a7e44a1f5d2b1bdac6a4fce9d2a32f44b1ccdf4e9855d8ab67f1665",
+    "train-traces/1195-baseline.json": "5760fbfc311ba9928f11a67e7cecc1761e235c26d58a9dfc8d4a9303d506a4b3",
+    "train-traces/996-baseline.json": "f104c242ea37c57f375e6e33235cdaa7bfd368144382afafd38dd961d62ce540",
+    "train-traces/1314-baseline.json": "6d7f453d083e3f57af8ca87aa5684a828adc1ac76833dd878f2405c7e81bc29d",
+    "train-traces/1075-baseline.json": "c2b03cef3a704fc2c124d11bf377f9256ddc28023f956d55f933adddead4bd2a",
+    "train-traces/1032-baseline.json": "c28705c29d76a5a9dbe9d2af571601a701592e80bd80adf9d8084016115cb371",
+    "train-traces/78-baseline.json": "65b371bbaca05686174f16772494151cc9428f6f66e5836753e5ae6260076b97",
+    "train-traces/679-baseline.json": "bf0e4dc78a9ea12dd994e1ec1478a858fe4827a148598d3ea716c836f0b56e79",
+    "train-traces/444-baseline.json": "2ba8d6ccdcf83a5e3d4fbf256d63738b427eac85791ffb3012c1c828a8351351",
+    "train-traces/355-baseline.json": "66b6faa380a23b61d149659a725b4051a4ab952f2847c3c43a7bdaffc37cd044",
+    "train-traces/789-baseline.json": "d1a28147e733e8f1e3fb269fa616c4b4e06169cd374c835aafa042386127965d",
+    "train-traces/1136-baseline.json": "aa41ab6796291d0147c8fb593f19f05f5eafe601647ba4af94f7623d0940249b",
+    "train-traces/972-baseline.json": "bf3321f5f6559d54788a3461c5571f84244fc8aee3de9b5612a4a5fb94438e8f",
+    "train-traces/733-baseline.json": "0c9ad0806dcd9b50c53e8c9d240a75c0945da763bba5d3983aefc7e597c2e116",
+    "train-traces/220-baseline.json": "999a6e7c0f2d215ac756662abcb83e69fecbc5c25446e1f42e028fead853fe5c",
+    "train-traces/1101-baseline.json": "ed9d947b7af27c57f4335c6d9b3685e073da4623a236aacfa53fcc5ea2b97f17",
+    "train-traces/601-baseline.json": "7ce39231909b8c53e1abe5ad7b33a6c046209a0a986c6cb25854164b01aa010e",
+    "train-traces/1169-baseline.json": "1c73bd2a8cfbc386c6b1658574e4163d275dd1b0e17b83bb49002e36ea8bf6d1",
+    "train-traces/315-baseline.json": "806cd2707cacc5d7091a8da938365a7d7cbc572ae132ba1ec806f1ab90a35283",
+    "train-traces/246-baseline.json": "b67ec54b3c70c3fe9e00dd631d02b9ad7e6aad2355251c2ad92d9142b9f6b230",
+    "train-traces/977-baseline.json": "a6820af1b30f3fd8fc3d12bba5d4bd5778a376530fb0164e9729debc509b4776",
+    "train-traces/980-baseline.json": "a1f7ea6342f6743688622bf9c40b8362154b734ab02c45e29fb8a94f0d3e7993",
+    "train-traces/524-baseline.json": "27d5c2f071fa884cb0a06eaf844f0b8ccb60e9271c71844f5c0c0b6c5f762078",
+    "train-traces/187-baseline.json": "c06e176befe41d61f1f52a7fceaa7e377674b0b5a4c12863de6a9efdc4993e34",
+    "train-traces/306-baseline.json": "923fe5b37a133abf7cf234745e9021768d58e5a4f191cb5704e3474238d3817e",
+    "train-traces/381-baseline.json": "32841e44526b79b1821d296329c2f1d8f33629a7bff74e26b9ff72c3d1876234",
+    "train-traces/323-baseline.json": "d9f9de5db03f471a0a7125307fa0f6643a0d91402718f62bddbfd16ab6d9f93d",
+    "train-traces/247-baseline.json": "6e273448c3df287c029f50e3ffe37efe84031e1698982c050245d3d1263a6a0b",
+    "train-traces/910-baseline.json": "53c1820e7a7918a1be353cc5d2d652dd71cfdfb8b740e6639c72c0ddf95012f0",
+    "train-traces/60-baseline.json": "ac161d51d9d323aa399440cac0113c15b488c62bbb25047416f9091d1ad0e974",
+    "train-traces/473-baseline.json": "f055ca9a94359ed3833dd250969acc79d605e08926c5cc6185912c166e5d1fc8",
+    "train-traces/1156-baseline.json": "bb8523e01e2ac7a8252c8d061e37ed8f71208a58fdcec9b0e45d6d278807df4b",
+    "train-traces/66-baseline.json": "a0edd3e6e499921c10e047b39a675363ee017ac87cef606cb392d7e97cd7dbf8",
+    "train-traces/1268-baseline.json": "ec9a587f9507ef3943d3e818927b594384bb006c5de9692ac4423f97162c2d22",
+    "train-traces/632-baseline.json": "8d5894b5c9c7964cf15857169528b755698661741ba1e5bf9c352cb252741f32",
+    "train-traces/885-baseline.json": "55b87a2d0cd93f519622e9bc58c37ab943767ac696bf4c749b2ba69a94124b0d",
+    "train-traces/396-baseline.json": "867c726e0050b3cc8481301db83457cac2ba47a8499f23486c2462254146ff35",
+    "train-traces/645-baseline.json": "eb65848fbc9cb247de8b714e653a5a6470ceeae8b6233518b6a86c2ade655ed3",
+    "train-traces/976-baseline.json": "75699a968ea699da1110c88ba49b7f850f0640e3aa63e02f95255cc562a1c0ad",
+    "train-traces/41-baseline.json": "698ea35ad533d94ef7bfc64b1acda5d9dea3a3e6774157da015e7524dc49ba31",
+    "train-traces/782-baseline.json": "81609b53b0768a690027cc8532a878155bf5f3e75f59738dc43187b59f2e55a5",
+    "train-traces/776-baseline.json": "dc549fcc62585ffc6bc6fbe8213111fc87b5380980799df01ac9ade90ce552b8",
+    "train-traces/1011-baseline.json": "c67d39f80b2ceb0dc6ff8b1dd387b10a585062b13be642e1d033bf2de29e4c05",
+    "train-traces/615-baseline.json": "499448becceaadc908b08f1c1c26abe20b4b466e3c25211b76909f952b8c2a7e",
+    "train-traces/1031-baseline.json": "ec78ef2d840b04950bb75e52c8a7db65ca473ce87ada756c00d83abaca32428f",
+    "train-traces/640-baseline.json": "ea9b2a58add7990d3139b3aa8df639cf4f86019f18b74ebc1355abb18ffb6497",
+    "train-traces/164-baseline.json": "7c052bcc7ddb34175571ce4f8829db698c0f3ec9a89343466d2c8fc88f24aba8",
+    "train-traces/1255-baseline.json": "74aa20e695e5385873b917b713ec49385a625e7d1ec8e28c9f98a6142af46f95",
+    "train-traces/1297-baseline.json": "224408297787fc9da36ea3011a0daed27b290b49d47a55944fa2cea96c8dc755",
+    "train-traces/1000-baseline.json": "01e61434b2cdd95f0b230a2a775f67c29bee6fd59004b6f503a936a9693b42d9",
+    "train-traces/886-neighbors_0.6.json": "383572aa1e64476d68d17d3fd469c9abcf65e57f8f04efdff225caaadb714803",
+    "train-traces/286-neighbors_0.6.json": "0df655a14b5c98c707ac5d311054dd6be63d008e9d380d5abf680662d43e487a",
+    "train-traces/671-neighbors_0.6.json": "afda484f243d8be301b566a604fdc09d5340fd4bb88545531360806738056ad3",
+    "train-traces/245-neighbors_0.6.json": "b86d5ea3b88e4bfaceb30b79c1abbcd3c5d4876238decf3bbcd80f388129e6a7",
+    "train-traces/1392-neighbors_0.6.json": "f2e323b1c2efd52d9504007fdfbb448388f00904b43fb934e5623375e3eb8c6f",
+    "train-traces/610-neighbors_0.6.json": "5d4ffb0d7d2dacd127ae7c7f5a400e2cf4f63245a15ef20bf79a108d2fb3d747",
+    "train-traces/178-neighbors_0.6.json": "9fb89b6937a0a76df89f7ba9cf5f344ef4fb1f6b1a4e61abe86897574a97a71c",
+    "train-traces/1391-neighbors_0.6.json": "9ad08b8637b74f8eac13c183c995c163fd18e0f43a5b8adf2eba5188a29a9a21",
+    "train-traces/342-neighbors_0.6.json": "662aeb331d9069c7cc7b80d92e12a1e8455bed1351d957e843d9043c86b109db",
+    "train-traces/1181-neighbors_0.6.json": "06892beb6d427e1e4ae9d5453d4abd858d2a783c18e482b286e2b2880863b715",
+    "train-traces/1047-neighbors_0.6.json": "e39aabb9bfc37d8a4272c18f3382d7e23d7d5b792a8fda0a88c09d438a4478ce",
+    "train-traces/1055-neighbors_0.6.json": "1abf8f2ff6dfe8db42a69940274ff10948fc6b8add6e8d51e912244f699b8a08",
+    "train-traces/55-neighbors_0.6.json": "cf19eb7aeccdc34418ff8e8a3d0e6670ae5b6b82f5241bdaf8ab7a2350c94648",
+    "train-traces/860-neighbors_0.6.json": "ba184a0a17e2f2372ae445ae29756db5c03b958f79e9e7a9ab52df58189018e8",
+    "train-traces/356-neighbors_0.6.json": "a4b38029cc9200aa552a40c1f29600498532fdc09eb2b93309a0b07638a93d83",
+    "train-traces/1234-neighbors_0.6.json": "84a06eab70ee7e58db07091ff8c5152ce1a7c86ba1444bd18c4046fbbaa1a9f7",
+    "train-traces/1328-neighbors_0.6.json": "0a43bb9859babb8952e78e3d8706ebebd1c5881520717ca4799a592d0f5d31e3",
+    "train-traces/766-neighbors_0.6.json": "f284f6f4e5b7c1eb3d2d1e3e2ac2cf6a4c8c7c2be32caaed0c1f593043cf8bd5",
+    "train-traces/152-neighbors_0.6.json": "fdc06588b68fb0a7d680cf6d91e1ba6b0f3556d2634b21f4679fb9139e38fc09",
+    "train-traces/351-neighbors_0.6.json": "b66154cff7397272effde52e68bcc487367fa0135dc578e9cb154caab218717a",
+    "train-traces/1353-neighbors_0.6.json": "b33ecc2e555bce8095fc2a550572e4a47175ecd86faca1af2574ca186c63ba84",
+    "train-traces/394-neighbors_0.6.json": "e295ccb4ff48efe92303ad0adc1f83203dd9e6234ca172e4ca77e46ff3965508",
+    "train-traces/1330-neighbors_0.6.json": "97bcb2faa34cc61ce2d17b7f23c821f45dad1e0a1e31f7253f4e1c8abbd4b4ab",
+    "train-traces/334-neighbors_0.6.json": "a93679eb85047887155481202d936d5e7901edb0b1c8f64a5d40db1b785c0d9d",
+    "train-traces/149-neighbors_0.6.json": "c33d555c93cf45c174c55c88f2afc03d65699068569aa93e7bc1a2933e4341d5",
+    "train-traces/500-neighbors_0.6.json": "61d6b6d7ca0494afa74844156a46db02b2286052bc3704b493e62edc5ffdda9d",
+    "train-traces/871-neighbors_0.6.json": "174bdecf90c8d6c6cec0ffa48cace099b3b7bd0d3db5b1f84f9c313ec05f7a10",
+    "train-traces/463-neighbors_0.6.json": "4cda014e72022f181887ea14cfce08d0ec283636b924a1e01c901985def79f16",
+    "train-traces/367-neighbors_0.6.json": "d9608d78c55666eccf1759f8d0383a7e8fcb0c86938c0835e1a7f84d405e8fb3",
+    "train-traces/683-neighbors_0.6.json": "277aabaf1b0c476ccd0647bb43607ecdda9b91e9a93280dc791d19e330c27253",
+    "train-traces/229-neighbors_0.6.json": "cef556aa624d7c44ea73e5ac4810ba7a15d9b288841cc08c047190ff680b7760",
+    "train-traces/962-neighbors_0.6.json": "a5549f25fb9916d9d5878e2b6ede4e199ff911bd0c776074aecd8c0bb9bf7c81",
+    "train-traces/570-neighbors_0.6.json": "4811bc76040978ba332a0b5b3bed974f332522237b520b85dff18183d41609ac",
+    "train-traces/584-neighbors_0.6.json": "4ba202264e337e827010b3097d792894b0c34791d6ba3caaf7229d0ddfecbd6b",
+    "train-traces/774-neighbors_0.6.json": "6fc17f98c0ebee1f9f697df5e903365a5ea371ff11255899f9d7a86f847b9791",
+    "train-traces/305-neighbors_0.6.json": "6aa73fff63f9a100eb9824cf8fad9e2f08dc487b95db0fdecd61f3a8f4964e73",
+    "train-traces/211-neighbors_0.6.json": "c1dc320228cc6be9eccffdc9b0f3c434ecfc2494b57abe79807b353da3b6984b",
+    "train-traces/801-neighbors_0.6.json": "7cdb4c0c520e82e3b1976eeb65f35f827c0c368078e39d45cb9a326cac301752",
+    "train-traces/290-neighbors_0.6.json": "50900ad1d5883decdc7f7050f3b57dbc6c8a6736ea3dfb46ebb2e93181aa75ee",
+    "train-traces/235-neighbors_0.6.json": "f9d97123f0c41bf1ed1719effcf9b89fa98aa3ca2e48e1cb1e5f3c2ee1921e16",
+    "train-traces/791-neighbors_0.6.json": "4255ec35da9d949120b9cfc966683969667aafcf0f2892361602c08131709e48",
+    "train-traces/39-neighbors_0.6.json": "00ffa1b793791fb3fd9b397658151aea3fc09b0f3a9cafdfd75aa0073ebacfa6",
+    "train-traces/331-neighbors_0.6.json": "6b974af88f2914ca0eb5bb658b7405205cbd25390d133c4b7e73757827ddf08c",
+    "train-traces/1085-neighbors_0.6.json": "13e59e4def255ba6d3c8003d8fe7daa2396af358e16407210ff90805965093ad",
+    "train-traces/1309-neighbors_0.6.json": "7e488a1ab00f189beced41be308b312f1c2c2c852fb63cd27c8c34f30c8a9651",
+    "train-traces/1038-neighbors_0.6.json": "e8467da8cf04265a18bda3db446cd8cce86753677517535653fcb6bf8d5b0f2d",
+    "train-traces/748-neighbors_0.6.json": "34f762edbd6552e3c2e3ea1c3c1bcc15a1ea4f680d0646770b8da8de08934cf3",
+    "train-traces/1040-neighbors_0.6.json": "f6461bf7da3203283f0f99e3ac52b53b9da7d73470de3e21582ce1ce050526c7",
+    "train-traces/559-neighbors_0.6.json": "a1222e8d11b94a9003732616e72d6761e984e0fda1ff17aa42ab4809dc0ae312",
+    "train-traces/1224-neighbors_0.6.json": "e6e39a93a043e70b227767bf70eaf3e583e50882660e86b6614793b9ed143610",
+    "train-traces/425-neighbors_0.6.json": "72d686d7373ca7e8251a0c76517ff414c9087280dfb930cf5c4c483db7ef9cb6",
+    "train-traces/1289-neighbors_0.6.json": "b5c6baa9d0ca08695000d4b16a9a17258d769418f1e6c740235cee3aa77bcecd",
+    "train-traces/445-neighbors_0.6.json": "006d6ecb3ff9676ec8250e82ced6cd9f5313369b2811a587226d2764980e4e1a",
+    "train-traces/225-neighbors_0.6.json": "cc2c8616a347ff4193d6f2e221e94683713cb385bb9daa6f4d274aea957e4ae0",
+    "train-traces/1173-neighbors_0.6.json": "70497ac02d84483f928f33f9573d4aa1c6217f5c13aa77473d21e51947d1d16e",
+    "train-traces/780-neighbors_0.6.json": "ab1068d5d0d906cc0df0c0b0f217eab585bbfb46e432edabe69b5d2c7cd00e52",
+    "train-traces/1068-neighbors_0.6.json": "7c6c11a5010ca0133311e59dd5a36fe4a60431a17b08848fc111b9c60551be7f",
+    "train-traces/771-neighbors_0.6.json": "d95208fd21fa49d9a7e1b7f5f2cd43d3ccbf6d8005945c7bedf38cc31bd7d762",
+    "train-traces/109-neighbors_0.6.json": "b01dc61d99f834e2369022b396b7aa1e1c68b33278305f7243792388da806d70",
+    "train-traces/156-neighbors_0.6.json": "7136b37c487d4614927b687e09e359b51a90f84f9b99a18aee6885686a78d290",
+    "train-traces/1111-neighbors_0.6.json": "73dbfb5fb3f0bfda96f1d2151c3220eb4db28249da10e553c686604e7c717fd4",
+    "train-traces/738-neighbors_0.6.json": "971a2a6abe89e8b9854e89df86184f42c56eafda3e09586c90862d248aa2a442",
+    "train-traces/825-neighbors_0.6.json": "fed904c7cf86adbf0aa22c0887473a1272f9459f3d945783fd64518441fcc923",
+    "train-traces/1374-neighbors_0.6.json": "8b521b723d66e7f86097cd4839583f0632c36b31cbc969d0b342e5d8cddbc6c7",
+    "train-traces/1159-neighbors_0.6.json": "7ca436c98ca52afc77b14f0921b8904270e81ec73521e9ac9863b7830b422258",
+    "train-traces/1091-neighbors_0.6.json": "ae8ffd2d9d0fe01846077d9baa0885f025947b2fc48abc590597713093b010d2",
+    "train-traces/767-neighbors_0.6.json": "0422dafb84026ca11c028fbab9511af55d743251c8b0b3d2fab029f70e2f1c33",
+    "train-traces/105-neighbors_0.6.json": "10ae05bc142e97f06bc46992c02c7bc299b6e9cd078ead5839b20289b0c01323",
+    "train-traces/1208-neighbors_0.6.json": "4ef680d124b867f4ad4bb55f79348886f2059ae1e7d1cb68ce284dee378b918f",
+    "train-traces/376-neighbors_0.6.json": "d8c41de95d8ec7a65a529e778f50f2be9a700897788abf8e12dc25715f9d25b4",
+    "train-traces/672-neighbors_0.6.json": "8c39d0e429362991182a4876473e208f2aa8cbee846be8ed2315293301683b66",
+    "train-traces/1406-neighbors_0.6.json": "48376e165b13e7ae62953f0bc1e0d72612b63342370fc944f0c7bc371b7ee749",
+    "train-traces/242-neighbors_0.6.json": "23dadeb7b0102809eae48da950e07729d6082958cba170f0ec49f8b2978787f2",
+    "train-traces/686-neighbors_0.6.json": "f4d646df19d86efe8254e88e59e5c3de51560b71c7d03765900e414397add68b",
+    "train-traces/969-neighbors_0.6.json": "5744ccd98efde9c200a411c5b18305c01a373d8f84f4c69aad2013d7c2c09f6c",
+    "train-traces/1373-neighbors_0.6.json": "d7eb8363c2718ab393f5dcfe02573c0a2da5eb3602255e29e4b0ca7302547c33",
+    "train-traces/670-neighbors_0.6.json": "53eaf84c5b28ba163ad6c883ece68af72d7a61831f8ad8bd583be7f80c698565",
+    "train-traces/398-neighbors_0.6.json": "f15f7d349529d986ad5cee72b4a54e4d2f595fc416ce5cabb59f0a771d34f6c9",
+    "train-traces/1295-neighbors_0.6.json": "dd0e2a718574cb82606b8e910d738508f6c218bcb93f2122b3283c9840506b5f",
+    "train-traces/9-neighbors_0.6.json": "25d4e0a5681b11589a087aaab0a8bea5c98c755da0eed163e2f20f77085c634e",
+    "train-traces/1170-neighbors_0.6.json": "a84b222beb04f74269ad6c7abea23dd945a1bbed2af13334a816a2ef41971da9",
+    "train-traces/790-neighbors_0.6.json": "c5fdcf3163f99d598bd626fafe2d5f71d89a705754b06da656d7aac5d7411fa8",
+    "train-traces/624-neighbors_0.6.json": "6d86fde8b51e8838ed5ebe0d4e2dce03137e7dfb067cbe45430fcaf17ada426b",
+    "train-traces/898-neighbors_0.6.json": "fee7480bfbbda46774bfe5e67c25b0648e378c6b26581763221fdda38d85d691",
+    "train-traces/122-neighbors_0.6.json": "b5d8ea446753fde9acf6381490843d52b6f1e7662c976066fb998df9cfdad700",
+    "train-traces/1342-neighbors_0.6.json": "10d66e0d530eb46b9e5d70bcc4dcd302db1c1bc68a7dc7b8fd2ad9b68f0fce73",
+    "train-traces/413-neighbors_0.6.json": "1c354fdef94d8d3523976b8d4c83ac3ffd0205e67b357eb6c6cacbcd77ec36c6",
+    "train-traces/688-neighbors_0.6.json": "07d915f82d302e64e1e49d8668b11aaeaf3fecd213725a4819db71a85159de58",
+    "train-traces/272-neighbors_0.6.json": "8dfc0b053b7cb6ceaf9f21a4e8e0de7817401ec878f87ff3723051e8ab8380d3",
+    "train-traces/681-neighbors_0.6.json": "64880d47739d89bcfcfedf54ccc04b9e85bfafebf70aaa1c756cff839a422b01",
+    "train-traces/154-neighbors_0.6.json": "4b047bba92e4fbef3c6f7a84df28419aa5b147e3edda8fb386d97d0dd99548cd",
+    "train-traces/397-neighbors_0.6.json": "3c194e6e02c84afac5a02ba6f9cc1dd4f668b25ef2ccf7d2e1151e900a28b14d",
+    "train-traces/91-neighbors_0.6.json": "ef623d1ba83d57980cf65b75a30de834e6fb2da5e1cf17f3955aa95a9b668a71",
+    "train-traces/250-neighbors_0.6.json": "98e5b108396be1534536f330995534032ce3c73c4c5303477faf0605ba20fe18",
+    "train-traces/609-neighbors_0.6.json": "7a0296ca4e88eef405fdcb737483ed7376517181b4c63b0beba13aaa4f7fb8b1",
+    "train-traces/650-neighbors_0.6.json": "584e19cd46f713fbf8a7ceb485d45514268b80234e05c41243701432133a4c14",
+    "train-traces/155-neighbors_0.6.json": "b9b2b18ddd581a70a805fbfbdfb88ad30e87daac67dec592f25b462c7a1e6f23",
+    "train-traces/1042-neighbors_0.6.json": "92644c61c0308738f9230eabf7aeb0fa548c6e35e11ed84c66c2e9801dce7280",
+    "train-traces/938-neighbors_0.6.json": "87fa7c85d7166c69d75935728273dbda6e0c81cbd4ade48317e9da9d2c8a6825",
+    "train-traces/378-neighbors_0.6.json": "2b5165708c7fdc6e5d11e60156f4c369cb46f7921e7638e1ff182687b65c0c71",
+    "train-traces/310-neighbors_0.6.json": "0a70e5a839ac4c541fdfd70969560d481a138c99febade3b715271cf23ab0696",
+    "train-traces/347-neighbors_0.6.json": "b3ea8a118689da883855c473bb14cad6da8453ca3d7cef21c1559add7aa3121c",
+    "train-traces/1230-neighbors_0.6.json": "97bdb5ef226c39d565228be323ca1c91e24b779a7cbdbf4ec407b90b07b779f3",
+    "train-traces/857-neighbors_0.6.json": "7a4530ea1614a0dd5d314c78946181c3788d991453cad8ec382e65f3bb8d8b5a",
+    "train-traces/740-neighbors_0.6.json": "dbda62adc826ac3c96d68f137987de1be2d25e1e099c5e1c596f91c1f7cb9e73",
+    "train-traces/1097-neighbors_0.6.json": "87f5237e2dbe4fb32768dd420a177b4bcfe6f3b13e46c85dc82a2d39dbe729b6",
+    "train-traces/565-neighbors_0.6.json": "b069f818624ff04b9aa63682a4c478438f53c1e16340d0ce8c50c6e3d26f2fbc",
+    "train-traces/1265-neighbors_0.6.json": "6b4f6bf27b34d5d715ae614d635df1fea38e67b9fc74f8ccdb2aa017dc45418c",
+    "train-traces/492-neighbors_0.6.json": "dc3cd33b9ef883ee1b8603a606d07e384bc8066c01c9943708e9fcbb1ba50fdb",
+    "train-traces/657-neighbors_0.6.json": "fee09710adcfd0071a99da2c849c206bdf6e97e6faa67177822a64b33840799a",
+    "train-traces/46-neighbors_0.6.json": "d54ec2d772bf80f52947a97953597593c453ef659bec14f0310c3b76c7a2bf5c",
+    "train-traces/635-neighbors_0.6.json": "6b0747750a68795e31eac048c025a5eaf6af67688a780569f62aefcb1e4faa42",
+    "train-traces/400-neighbors_0.6.json": "48af20e7cdb3d58b1080d905757650b9854fe379b52b4ac1fec430bf97314ead",
+    "train-traces/1186-neighbors_0.6.json": "5f6e98246941d6a7921e4613988eb5eac0e0f36858dd50fb057fc3297def9885",
+    "train-traces/1102-neighbors_0.6.json": "269cec7b784850138c35206125c984771c2c8882858e3ecba2d0b24c9a88c8a6",
+    "train-traces/677-neighbors_0.6.json": "b2b872db1f56bff4033d9811be45973e165159c5c1fff437480904dfab5e68e8",
+    "train-traces/200-neighbors_0.6.json": "de88b53971981cc9331c9079fe847c7123c440590e5f4a93a3e39614f13fed2e",
+    "train-traces/277-neighbors_0.6.json": "7d3203488e34f067ff9a00219d67f4e7030fff9d04e3f128eaef5438a841c7c9",
+    "train-traces/881-neighbors_0.6.json": "22c4fb222bbbfabd3a5ac4602136bf32f4c560250c7a42be13a164e8fe6e18df",
+    "train-traces/186-neighbors_0.6.json": "18cbc0f44a1919121af1d269565c098dcc3c7040e0bbd2a82815d3a65d0eccef",
+    "train-traces/600-neighbors_0.6.json": "eca1421c6bca2c8c51142779eb3ff8cccd27e682a922c11e2bcfb0c04b2db6cb",
+    "train-traces/1053-neighbors_0.6.json": "0248b34084a4cc7bedbf63016519736ea37b21667f2111b76aea9941fc080c9c",
+    "train-traces/1310-neighbors_0.6.json": "905c8d91136b025b1be0e88c482b6fd2a5cca64be74f9a57d9a9ed04dd51026f",
+    "train-traces/1165-neighbors_0.6.json": "bad8c862032beccc882b1863a42662feaa8d781ec961060b770fccda609abee8",
+    "train-traces/98-neighbors_0.6.json": "2b75172644330b36cdc2ce0512cb53b19c6aa10389a2421f174b6c9235dd013a",
+    "train-traces/357-neighbors_0.6.json": "2eabb234776f4ddb90b518369bc0642886ddb05334c05d548b920c5d677857d5",
+    "train-traces/120-neighbors_0.6.json": "38d06ffaf5a07fa3f0fa5ff0b5c8a3506eccbffae6bc952a35937e5d257771c2",
+    "train-traces/818-neighbors_0.6.json": "66fcd57b6d0230e3ad9154ea338d3798038487305d3f12367095b57ca7a2a4bf",
+    "train-traces/736-neighbors_0.6.json": "41a1840825213a0a01037ae59ca2252577e1549e756efc2a1d0129615f4a4db9",
+    "train-traces/1306-neighbors_0.6.json": "c86567140923e57890b65b99562adcadbe094d6d440cd63461ae182cdf4db146",
+    "train-traces/377-neighbors_0.6.json": "37e7ef07b648bfdada3741ee0ae626aa4f4864f37e6de8628a3bb1797801601b",
+    "train-traces/1205-neighbors_0.6.json": "5366bb2a4eb16e9531d4b74b1e71398ed721383edbc7ce458a7a70f0a10ea8c3",
+    "train-traces/429-neighbors_0.6.json": "687d88af63313ad44ea807b831bf92d6c949ad27e919405a619377572f2da270",
+    "train-traces/542-neighbors_0.6.json": "064ec565e3574cc618823f0802d237b89d5db25e147d7aa793dff729c7e7636c",
+    "train-traces/441-neighbors_0.6.json": "9736d65e7e42b0f9a4adf9196a8179edb54cb9ed10f8bad02ea855a67ff67e96",
+    "train-traces/1211-neighbors_0.6.json": "98d576192993c8b3e9df2c9fe11b4bf56d0cb075ff36a6e072380ea1ef0cc7c3",
+    "train-traces/1361-neighbors_0.6.json": "9a7181433fc6f93737858d48facdb83fe9fec9b7fc69b4741481cb974a7391da",
+    "train-traces/1030-neighbors_0.6.json": "3b755a577bc6168dcbe187632455ab4d3b03638104c14ab9e917e0b001299de8",
+    "train-traces/965-neighbors_0.6.json": "043c080d18d39a4a249e00478d09aa21723a89d6fea724e85bfbcad9a504134b",
+    "train-traces/1069-neighbors_0.6.json": "9ff3155e04c6e3408d2e3a620e950dae4701b3003db3dfb0e3e15b331fbd83cb",
+    "train-traces/949-neighbors_0.6.json": "70f5a26b94928893485b5e400c400416b74d46f1edb5a1131a3c2da571783514",
+    "train-traces/119-neighbors_0.6.json": "f71e50701c467033125556d06bf3d71adc70be4695a6d4e9056a525c5aa29fe5",
+    "train-traces/883-neighbors_0.6.json": "a78ee99f714e328e3ddf13770900a21fdfd16ed9c7a46396da09cb7121f5991f",
+    "train-traces/299-neighbors_0.6.json": "5107d64e117bbd3993a8d1f5b8d6aaad50d4239cd60d7cb15e64a858510069f8",
+    "train-traces/855-neighbors_0.6.json": "300c48e9e9f1a79d88ee251eecfe112590176a8564be3ae54022d70b6d633c32",
+    "train-traces/877-neighbors_0.6.json": "b2733ec9085fab7a6de80eeaa947ab0b87043e5a1a00fe65654dfd8302743c7a",
+    "train-traces/470-neighbors_0.6.json": "ab1b9021bc12acb43f218f4f821c9eb7d324b2b07af3fc187ab2ef3ed2dd802e",
+    "train-traces/1235-neighbors_0.6.json": "a6bd9c0c392cad16942cff1a19201a7532d9296a8a7a0bf6eb7b3a55a3dd55a8",
+    "train-traces/812-neighbors_0.6.json": "200fb67705d335ce12daf802ca68db63adbc96e27542c061dd8015dccf7ad569",
+    "train-traces/47-neighbors_0.6.json": "e109f9d248d61a6fb210275a949e100162471849e46efefe2b6c2198cc9c29d2",
+    "train-traces/661-neighbors_0.6.json": "75cf7dac693c0c5d6c4246b828de171cb3850d131c372f947f3002aabfd48d85",
+    "train-traces/1195-neighbors_0.6.json": "ec220895b0b8c8b1c24fd5810572b0da724d662ae17224b940c0ef856edc370f",
+    "train-traces/996-neighbors_0.6.json": "202e9004ace8eb5112b845aef9338c4e7f063890e2f432ddd966ed5a4e1820f4",
+    "train-traces/1314-neighbors_0.6.json": "4249f035d74b03db78b106fb0765e4cd67ad177cae34dde5ff29bb3e214dc803",
+    "train-traces/1075-neighbors_0.6.json": "29e192861186ec29cec19fcad5db759726c0a2c66bfd8d52469f3adde5d3ea89",
+    "train-traces/1032-neighbors_0.6.json": "23c67d5c826a6c0aa5432f9218034d96b067850fd79649cf7f96546011cf2d99",
+    "train-traces/78-neighbors_0.6.json": "7431a6fe5527d10013e2789ac111fe82862e446cd05f1e65daa05a335689e7d4",
+    "train-traces/679-neighbors_0.6.json": "d30b021987bc8daef62d8533e88573ab7765aebc166bbb9e631802f8100a0354",
+    "train-traces/444-neighbors_0.6.json": "fe68d42477cc193a60577ddc7c8666ff77cfc9127d4ff46adb6f32bd7bc18e93",
+    "train-traces/355-neighbors_0.6.json": "8e0fdffb5bb842fa3b9ae1aab7f0e6af65c2d48a184ef3a5e47680ef7404c5c5",
+    "train-traces/789-neighbors_0.6.json": "8f06ca7f64f36217efd39977620a43724ff825966b38ea14d1d897fcca6ff1b8",
+    "train-traces/1136-neighbors_0.6.json": "487189cb0f0108b5fe2ad4ecbb0c474dbaa969915e423b0387fad1790d4e273a",
+    "train-traces/972-neighbors_0.6.json": "273f74982ed723fb8ab7050a467ee42b21274ebf1bcb8839e9405cae7f1ccff0",
+    "train-traces/733-neighbors_0.6.json": "0ca726c080368b21b61efa03cd75766b6343180fc74e9f5ae816ca19fb02c649",
+    "train-traces/220-neighbors_0.6.json": "3aa1c2233884823fac8fa9823beccc9978f62e2c0f8dae8317502a7d96b72ecb",
+    "train-traces/1101-neighbors_0.6.json": "d2b0844656c817d3bf5383894f9b5abbbcd31165d87a2c56bfed504adec2d2cd",
+    "train-traces/601-neighbors_0.6.json": "d805fb88ee07814679c391fd619b3aef03803eab41b6af941755ef56169d1774",
+    "train-traces/1169-neighbors_0.6.json": "db459a654ae3adbbd2654ba091460d2d6db29baafb66ebd9ef323e6296a191a4",
+    "train-traces/315-neighbors_0.6.json": "db4faa54e7ecda315685e26f330b429f42ae1470d4c72bce5a70ffede87a87a2",
+    "train-traces/246-neighbors_0.6.json": "c75a7106215c6066f5337000d4c72bb199b4ba0b190f835bfdde828e23a3955f",
+    "train-traces/977-neighbors_0.6.json": "6df1bf36f4038a75fd9e705103d6b77f2dce949b80c229a578abcb7e4e444865",
+    "train-traces/980-neighbors_0.6.json": "f7295cf3ad60c6fed52343fad157ecb9c2e7584c773328037f6cb5ecbdacccd0",
+    "train-traces/524-neighbors_0.6.json": "0eb65a130cbf2c4a02561663d570fdd35db1a12df383589843185dc2efba9221",
+    "train-traces/187-neighbors_0.6.json": "ee55e0d075a029deca376d46b5109fe28a440135d03319ed4e021d0be6a5463d",
+    "train-traces/306-neighbors_0.6.json": "2d79f0450951156031c9038e0d23948e6edafee07f8b44fb73e63287e718b66a",
+    "train-traces/381-neighbors_0.6.json": "2c8a3e76b0a7ae6cfdad2bf40cee1f8b864c8b979f3854b10816861355ac9a9d",
+    "train-traces/323-neighbors_0.6.json": "7aea4b24522548536fcf0f50a8b9a2e9d8edf61e77440f17a6cd88def57106fb",
+    "train-traces/247-neighbors_0.6.json": "05e578e3ca22b41aa428c7cb4bfc2387205b26ec3ebf2d2212abbcdb53e9c4d2",
+    "train-traces/910-neighbors_0.6.json": "dd4c736d4fee34dce4b1019789fac4d9f0879179109a6b8dfc30016b79c2ac56",
+    "train-traces/60-neighbors_0.6.json": "092d17f12e9cb69f57398cc4de3ee939b2e65ad1cd4fc483a80fcf2b62039992",
+    "train-traces/473-neighbors_0.6.json": "5667ecea7e88e0a9c3b136cbc5b62a9de5ea36442c574cdb8463277e817bf44c",
+    "train-traces/1156-neighbors_0.6.json": "dc6c1cd2978ddda25294429cd3e66787ee4b267c4737a94d4f822cca3f26f5e6",
+    "train-traces/66-neighbors_0.6.json": "26c6e781f0cd33573c8f1d968180f3ed9acb9ca3e11af030924be1a3786ece22",
+    "train-traces/1268-neighbors_0.6.json": "5832a6821dba5ea613cf19a4e47c1b8a591887a475cb462d979c425086f021a3",
+    "train-traces/632-neighbors_0.6.json": "66bfa502fcd6ad0a78e228bc182b58ed9620d915733032fd2f8b6e74d0cd73fb",
+    "train-traces/885-neighbors_0.6.json": "acea51a58bf7d747988c8cfdb23ba13f4b398c5d421922ded1c9734c45bf0412",
+    "train-traces/396-neighbors_0.6.json": "6cb9e72b23e50fb47d9079ce20aa1afb22513bacc86ee897948ef1c5d353309a",
+    "train-traces/645-neighbors_0.6.json": "4a71ec50f0d1d9c3e511599ffd355456543b828db4ac5db0d922ade8c2258d39",
+    "train-traces/976-neighbors_0.6.json": "5a399881bb0e317ba2738c0e52534f4402514dfcce44d0c7acfd1754219bc302",
+    "train-traces/41-neighbors_0.6.json": "9ec7356231edc203f60ff0f3cfc5831f137ec8c4c96e34705500953d088ef6bb",
+    "train-traces/782-neighbors_0.6.json": "1f2429b17f375a8afded1a78ed923d006a2cd5a83c7d435cffa91d29ac5455af",
+    "train-traces/776-neighbors_0.6.json": "d7a33a079f0684ed80000071ece5ff980ecce87b5104d89fe52cedb81662d3d6",
+    "train-traces/1011-neighbors_0.6.json": "a93947404b48191962900750fac256454aeffb99a51a5356eeb641cbbaa6a894",
+    "train-traces/615-neighbors_0.6.json": "12633601ee841fbffdc2f38bf3d0f2d9bb5f9f94047d6c72f7ffd5e29b2b623c",
+    "train-traces/1031-neighbors_0.6.json": "edd12308d815ad853266e9893dc5e4344fb3c0dbeaa9a50e959fc0cc3dfd32fa",
+    "train-traces/640-neighbors_0.6.json": "d62544b3da0f72271cb526a7ebdc7fb4d84e3b9806d3b7832ce99bacee27079a",
+    "train-traces/164-neighbors_0.6.json": "fa880659910f48c0404f1e57c3c0b4d05300de24256b38c390bdf0a6cb1ad909",
+    "train-traces/1255-neighbors_0.6.json": "31dc172e87bf0dd838c811b96d3757e0d771884d3d36699b3a06a14166b7f040",
+    "train-traces/1297-neighbors_0.6.json": "4a0ee601cafacb4a500b4711b14b75f601ea26a3abf51a40aee7a755c7f0f718",
+    "train-traces/1000-neighbors_0.6.json": "5f8ceb5d76a4d36090accc48fcd38cd3aedfb2d7468fc2f828c8e23a2783dfb5",
+    "train-traces/886-bounded_abstract.json": "b72e5269a41c2de29e09540ed4b2f0804029608324c97d55a1c68aef086f1aad",
+    "train-traces/286-bounded_abstract.json": "d154f3f65f4dd1d76b95f88311363d3411f4c9548c23607bf77ab81bab9bfb19",
+    "train-traces/671-bounded_abstract.json": "ad60af4754ee292b2ac7b6b9259aba3ff741a7572b5cc16d46690f17ac4ff4e0",
+    "train-traces/245-bounded_abstract.json": "ea3e9e8fd515464f91f36136d2ecf3600bca827706eb664624bebff2b6dbd867",
+    "train-traces/1392-bounded_abstract.json": "93eb6c73cd0d2da81c3927ece793acc66cda9ae69ecfd02f5b311c9d3f11d445",
+    "train-traces/610-bounded_abstract.json": "09a12f1f818468ffb47d5abede0886f3c27e7aac4951f932b6a7bb1e9c45b13b",
+    "train-traces/178-bounded_abstract.json": "44e1799d8bf0a33831b5fce22421251aae864e0d8742651c2f539fd43407fcaf",
+    "train-traces/1391-bounded_abstract.json": "0810ee89faba646b6a2f4c702fb7355fb80ccc432a000cf864a140fe7236a368",
+    "train-traces/342-bounded_abstract.json": "cb9c3dec2d91c9ad5d46a963dbb0989e765a33123f809ca9ec7d54a062180c89",
+    "train-traces/1181-bounded_abstract.json": "55351e234ae57d6cd0a431cca49e98e409f617f44f5977741547bfc04c353f28",
+    "train-traces/1047-bounded_abstract.json": "a62bc98026fe1c9c566f739d3efa51d1ab1248b6a3b003432481b5e54569d783",
+    "train-traces/1055-bounded_abstract.json": "69dbdad2b3aede99f9e447f2981c68062f795aa0b358817629c5d065b376b7b4",
+    "train-traces/55-bounded_abstract.json": "189b37ad2a22e4b44875953336a4105a970edc5966458988972acd8b6f7ba566",
+    "train-traces/860-bounded_abstract.json": "205b7c573eaf4649b5f8c2566340fc780c3b5aab07fe44eceb1cdc13ff267ae2",
+    "train-traces/356-bounded_abstract.json": "ccdb1f57c2716037fbe6cf9ad4e1c62eadf9a2a4a120947f1a158bc6d871b1e4",
+    "train-traces/1234-bounded_abstract.json": "996e6e94d86578957b29cad06111a9663a14289fdd13cefa640e257e1086739b",
+    "train-traces/1328-bounded_abstract.json": "10785415c8c15650def3f51f8bc79a19ef18bc1c299d974adac9bc8ca69beb49",
+    "train-traces/766-bounded_abstract.json": "c17101a9ff449fa6f068ded01aecac6b2fbec153ab15cb2807fdff185daad500",
+    "train-traces/152-bounded_abstract.json": "8a17d6c622b0c6a13099e1b689672a73cec19888cdc2afd70f07e889120eeaa7",
+    "train-traces/351-bounded_abstract.json": "08a22da439de3f7355aeb2fec9a90bba30a8003fa28036d07d830ea6f9415126",
+    "train-traces/1353-bounded_abstract.json": "32813624b5304972a1af6eaf5b73f93b92ba1cb8d070a4644265f10bd711acfb",
+    "train-traces/394-bounded_abstract.json": "ab3effc0aa0c138a5d248d6826b726b3ab9f1fc19cc324bd70ac2324ff608286",
+    "train-traces/1330-bounded_abstract.json": "9b8320cdcd90bee48f7f792c2747d9950073e5a9ef7b8c6723f8d78a5770b126",
+    "train-traces/334-bounded_abstract.json": "b5cdc2243e5a0f466dc31f42d20c0912e91362d7f4c4b601542f4cbf1015f7b1",
+    "train-traces/149-bounded_abstract.json": "615bce113bf493c09b5db4a6c8f04ef9433f63bdf96bd0bd3e3916734dc6c215",
+    "train-traces/500-bounded_abstract.json": "9df4506e05891fbda3798d70a8d972abf7a17d7a74fb082e934782441b453d85",
+    "train-traces/871-bounded_abstract.json": "b94f53a6d90a1a4b5c66365fb536f94c3c6883e0aa70faea8f09050f545012ea",
+    "train-traces/463-bounded_abstract.json": "ca49271ad1dd25f9860b96a49655c1da07aa5e9f2d82efc843c086fa1dcd31ff",
+    "train-traces/367-bounded_abstract.json": "6132dd8370e7f110a752810ad1f1d220a6ea55c2960969b23fe7ce8f8c683159",
+    "train-traces/683-bounded_abstract.json": "783914c4ca4334d157fd8eb1284199e72933d0fd9a512c34749001dd7f6790e7",
+    "train-traces/229-bounded_abstract.json": "7323702d10537a4e2fd91622f0dfcb6196b99c8bc50a12fb4fd7d6243c9c9a33",
+    "train-traces/962-bounded_abstract.json": "7527fee2e2989db62e70500afe65d2701885b139c567a90277395c14aea25252",
+    "train-traces/570-bounded_abstract.json": "d40c193d5f0c0fd18582c97358a1d40448ac43067b58e40bc8e056aeb45c746f",
+    "train-traces/584-bounded_abstract.json": "6db7ed7e5e04dd734102d641921748aa1b745520ca365bf987b67482e1475d03",
+    "train-traces/774-bounded_abstract.json": "19b1cd923c0a45e48b1708dbe459edb104dc3e9a88279a84c31cf3a736143d30",
+    "train-traces/305-bounded_abstract.json": "5b081a9c8a3b25aa558a9e821bf70b0061c9e6370ec81d3be197f18f9c550aed",
+    "train-traces/211-bounded_abstract.json": "65158fd9cecdeea8956894e796f1f0259ec38a5e8eb7f0ffca171b0c8a839b86",
+    "train-traces/801-bounded_abstract.json": "01bc16d945d054de84badf9f4093ac51d2187a1d4734bc09735a532943668aa2",
+    "train-traces/290-bounded_abstract.json": "47a672c69e64a2b0c881147e318d2a7c41b6c936cada9247d6bb4e1564263f96",
+    "train-traces/235-bounded_abstract.json": "4dd0eea462b958c922fbca7aded065b576aaf4a8ad5c72c12ee937cdcdcf4a93",
+    "train-traces/791-bounded_abstract.json": "c31ba73226adb3b7a0b0745c7f899c9a1f9a4f6052bb2024c680e80baf39915e",
+    "train-traces/39-bounded_abstract.json": "7c3a3cb58096c2d679037c76338e37027771c56b847200535fa5389fbfbe1573",
+    "train-traces/331-bounded_abstract.json": "c6732937bf7ad4fa808f28cdcf87d4177a8b62f2f7cf60dc37e153712d6470cb",
+    "train-traces/1085-bounded_abstract.json": "fc9dbaa5d60f95cb155c147f0a5c937d8427c7fe57623395e04df64aaa82bbfb",
+    "train-traces/1309-bounded_abstract.json": "7b0049d40b2fcdc8bb1238d2303159e617490c288c3694a5fda7aa1b3cc956a6",
+    "train-traces/1038-bounded_abstract.json": "8b480c404ba167845427265de3109c7c5c55e1adf48d2284affb0028b7c029b0",
+    "train-traces/748-bounded_abstract.json": "525feacad57bd48d6fd9edc8b561ed171f7a9bd355eb98589c20f058d33daa20",
+    "train-traces/1040-bounded_abstract.json": "f803bb2d1a0723e44290ab794fe6c5d4b446e3a4fb52c9a525b3b6dddc854546",
+    "train-traces/559-bounded_abstract.json": "c0b3a7af623e401c0a4b6b3c4e91ece16a3499a1dd53654746f113f27435258f",
+    "train-traces/1224-bounded_abstract.json": "4f00fc500fc9c373de1e22736f02eda904259801e6c7314cba8b56ec574007e9",
+    "train-traces/425-bounded_abstract.json": "c99e76651bcbc4227d178083940d835556114959f1cd11b94419508dec01e25c",
+    "train-traces/1289-bounded_abstract.json": "334f6cc1119704a9c63244ae59f588cff97468c190883cbca3836df660646d07",
+    "train-traces/445-bounded_abstract.json": "7c24ce559ca0fb40c8b5ce7e7ddcd2ff9483602ac18cad07c2fdfae8cb99415b",
+    "train-traces/225-bounded_abstract.json": "c88790f1105a2b41750abaab1ce471c6e0ac80341f647e4a329db72455282828",
+    "train-traces/1173-bounded_abstract.json": "1b4bfffea8c0ad3c9c3df38676105a3932c93292cd2049123e9878f3274eec39",
+    "train-traces/780-bounded_abstract.json": "63b318e7b68d6c933f10bbb587c6835bc9b20108c24f322aef03b7b0c5178c72",
+    "train-traces/1068-bounded_abstract.json": "50fb0c7791cb173473a0410d7b53db348ff259c816d0c9fb73518885af842216",
+    "train-traces/771-bounded_abstract.json": "9c801125653304a37736350e1e12023dcb96f0ccb91826fbd3accec04ef18af5",
+    "train-traces/109-bounded_abstract.json": "ec5e726e345da01503091310aff30353f3fe76131570e658d5acad0d5c40ff49",
+    "train-traces/156-bounded_abstract.json": "cf276670cdb2fd87b983e25b90b90ede035a469af3285a7f5c8c75126f90a544",
+    "train-traces/1111-bounded_abstract.json": "cd44c13c0762b784be07ba30071155e1b67365c81b1dad2454e1f65e15d5ee62",
+    "train-traces/738-bounded_abstract.json": "535df0da725eccf84d961f89e1830ad8ba7c1dc6fcdbdb3e5bd0312b7dde6c4d",
+    "train-traces/825-bounded_abstract.json": "e3d6c433ff8dbfb6f97025da970adb69ec900438bb6ca41c986fb2e6b38d916a",
+    "train-traces/1374-bounded_abstract.json": "7455aee7be6775db4d73334a2cfd123000de18712b9ec96f2e8c18b01131e4af",
+    "train-traces/1159-bounded_abstract.json": "aaec22aadec9b97517eb9bdd6854b666fd8265598ec47ea094eb0515c4c0106a",
+    "train-traces/1091-bounded_abstract.json": "86804d6cf45da66415006a028d52582bd063befacdc1fd65a3b21feba3d69cfc",
+    "train-traces/767-bounded_abstract.json": "f1d720c423a873f036104bd14b42568013c545c0b86f37e8941c156e1b49ce73",
+    "train-traces/105-bounded_abstract.json": "3032681fae95a56ace917e58fd986f7ac50bbbb52617621e179507c48762b807",
+    "train-traces/1208-bounded_abstract.json": "a3da48d07eb8188c31dcc075ff2a6da3a68d1aafb5bd1beb7a687c0ddd4254ff",
+    "train-traces/376-bounded_abstract.json": "c86da84115625c1b94cfb30db6bd1cbbb895b01659adc9dfed44b82c6fa69e9a",
+    "train-traces/672-bounded_abstract.json": "8b07ba3b4edc530c20ff51e69d54ead5c3bdb299b5b0634fdbdc8c32a195f956",
+    "train-traces/1406-bounded_abstract.json": "2610af0fc7481de3d3c5d6a227bcfb1c02abe1ae6f68f0c9c5b0c7364da0577e",
+    "train-traces/242-bounded_abstract.json": "f196754b6201bc72b7ab54e3f51ef6a3c5f0e38552fa63ef989119fb0bce833f",
+    "train-traces/686-bounded_abstract.json": "8a45fb1464fa980d248675ac77ae7ae2fe540fa39cd492fef7ca42c6bee2693d",
+    "train-traces/969-bounded_abstract.json": "5854df5b0f4291103765b5b38e5c2115f402df757dce9089d965316255814eed",
+    "train-traces/1373-bounded_abstract.json": "4347a692dfbbad6522c1f2eeb7f290031d94283e70e31caa8ca41461b154cf84",
+    "train-traces/670-bounded_abstract.json": "6f2ff3640b6871700c1da2f982e3a6753a70b5686e062f63f13ee9ea6a92eb95",
+    "train-traces/398-bounded_abstract.json": "81cd3a011d91a39b726d234ef9dabe19b720d249458630d3c5c3f64ee1e0695d",
+    "train-traces/1295-bounded_abstract.json": "f334d4489046b45e730478da6aef6b632f7ace1dbe344a35ac285b16ab71b04a",
+    "train-traces/9-bounded_abstract.json": "398bfb2d1f9612b2817dce6c706713e6e64df34b3e23cce47f22cc46f9529a57",
+    "train-traces/1170-bounded_abstract.json": "844090a4238ce6bde36859e184d37c2cc3e87ce7978a49d815891064aacca40a",
+    "train-traces/790-bounded_abstract.json": "992556037384a9c714f27554c5312a3f5be558b3f8053d148439e6007d3401f8",
+    "train-traces/624-bounded_abstract.json": "5fcb2e9584f1b07ce97dd8ca7465e827497d1e6f21ea299d48122b997c9c7963",
+    "train-traces/898-bounded_abstract.json": "c041169edae5fcb1e591a876df4b299832b1d5f40915a18c038eb328c13d309d",
+    "train-traces/122-bounded_abstract.json": "332f354d9bb6e1fca33a927402610bed6f3c666acb272ced16ee0b742df29f8a",
+    "train-traces/1342-bounded_abstract.json": "29f457a2eb69fd0062f1e4bb850498022b46b71f5862f0367193c572b8195370",
+    "train-traces/413-bounded_abstract.json": "da840b0f2fba752212e365bbd7e7502e205d68ac49860b85fc96b5288498bdad",
+    "train-traces/688-bounded_abstract.json": "c1d21fa82a12a6d9e65a588d3e95f1b056fd936f94764e15494fc2fd1a0c8122",
+    "train-traces/272-bounded_abstract.json": "c1820e5853e47d6c66133823517219d00256cac43b3641639c7f89e7e75ea814",
+    "train-traces/681-bounded_abstract.json": "ff0f4cfe796ec7f862e93a33ca87ea2ac26f8aa47fd8703a625bf602267f5cf8",
+    "train-traces/154-bounded_abstract.json": "b9eea2062c6213bf36d9ce307bfabfa7aae8adb32da421d1a5e11559923809fd",
+    "train-traces/397-bounded_abstract.json": "356c39c875d0b8e740619dd63a5f5025464f47da34363c236b0def65a5a058d0",
+    "train-traces/91-bounded_abstract.json": "e5ebbdf66fc8de1757ddba05ab9a0b227f5ce530fb7cff1787c12f0c840830d3",
+    "train-traces/250-bounded_abstract.json": "0f028d66f10c4801d80e7b1d7630730b32c6b5b69d0b79fa18cd8ad715046c85",
+    "train-traces/609-bounded_abstract.json": "b19e5907c19b789453e00781b4d766c3d7eb99c33ef24102f737831fb8460be6",
+    "train-traces/650-bounded_abstract.json": "35532eba1c977c1eec54f383e8f1bff4c9f7e33e488adbf783f8a66ea6029d7d",
+    "train-traces/155-bounded_abstract.json": "ea2c791a52b16a4ecc66ecc14247396b0c613a89a8b57d18c7fe46e878ca5ab6",
+    "train-traces/1042-bounded_abstract.json": "927100a991e58e1e9739d94682d7fdd8f4f6188d46f2e45611ce36f75f11a0db",
+    "train-traces/938-bounded_abstract.json": "1fbb97706decb2847b078ebcaee48a69d953930d1ae38dd21b0eae1fb9fa9753",
+    "train-traces/378-bounded_abstract.json": "3966b29b2b57430efad35b99a24e8b4112aa6ddb04df94de14637f8337843ee7",
+    "train-traces/310-bounded_abstract.json": "b6f8264fba668c409c7b8a96de4b632b7893b1aa77821c01aff77098297d45ec",
+    "train-traces/347-bounded_abstract.json": "f3d0720bb0d8232573895b50bfb4620accfa7bd89e7eb175d3357c227283b064",
+    "train-traces/1230-bounded_abstract.json": "9396def65a43dce8c07ebe7d2dfe851099bbf4008cb967f164324b603ecdff24",
+    "train-traces/857-bounded_abstract.json": "585b908272c3c581e4ae2cca5dbdb434b3af365d4d1ad8b10e04d7be7e3b6000",
+    "train-traces/740-bounded_abstract.json": "23daebc2f428338cc82e08cd57e1de2f76c3eebfe825207a3dde3198ea70bda3",
+    "train-traces/1097-bounded_abstract.json": "6f5a4210e68a5cc87e536f6468936862123037f0eaaff03acafb69624c7f0a59",
+    "train-traces/565-bounded_abstract.json": "5578086d811a2bf3a968c24ad454ec294a488e74884bcd2f85c31e09296f2f86",
+    "train-traces/1265-bounded_abstract.json": "1e60b23a1e2b856a23d1447f14144942b260a7568f4d57f073e5d00237fe6b7f",
+    "train-traces/492-bounded_abstract.json": "49669514071bf08c57d518ff501ca25ac825bb9b9a295543ed4a0598e36cadb7",
+    "train-traces/657-bounded_abstract.json": "510a48e03ffd8be5370b0db5928ccfd2e5a6206b5478d7e3a5a9b3fd5d7552b2",
+    "train-traces/46-bounded_abstract.json": "c551f2a95e5d57bc7b3ffeab1f92000997d0aefe183fe924f907c97b98768c28",
+    "train-traces/635-bounded_abstract.json": "cafc3a172d8e015beb0f233a1f54bc072f1fc34d2d7a1310eff26cf04d095669",
+    "train-traces/400-bounded_abstract.json": "6d27a926d0333ad62658eafe872253aa93ff69c5071eb7a9d0bd57015dfaf9b6",
+    "train-traces/1186-bounded_abstract.json": "832f2ffec87810182cdf63b8883d310ef90ca579ff09e9d54e4f05b0d3b6b34c",
+    "train-traces/1102-bounded_abstract.json": "1a5498ad215f8d04d101505467b79ca0a90301c665d0b3e06df901ca04287874",
+    "train-traces/677-bounded_abstract.json": "ecf9e6eb525d4b4211c4ab6a3494910831dc6d617763c585407d12ae5e984961",
+    "train-traces/200-bounded_abstract.json": "32d8b08caf5bfa07c4b016ff8218dafacd516e309482d7b52a46822bae75328e",
+    "train-traces/277-bounded_abstract.json": "f20cbd4d413eb8de2fa95c99940ebf09bc2686a4fde9e877f615076277373ac9",
+    "train-traces/881-bounded_abstract.json": "0b583c71faa642616a6b55ffdff87a3120b3dded51a503e24baaf6889ad05bca",
+    "train-traces/186-bounded_abstract.json": "0293f387e480b3f53849ffd157a67a5913ca3d5d11c009a5785eaaa2b6a1a758",
+    "train-traces/600-bounded_abstract.json": "ca541e853ecafd573e8f6b914777fdc7bdc3f8d263e693d480735fb3d0f009d1",
+    "train-traces/1053-bounded_abstract.json": "6bef4f6f8cda6eb1f2a4f6fb2faa83ccaf50403e7f028ad1677087bd2247ac82",
+    "train-traces/1310-bounded_abstract.json": "c42c1f013eb8f7ca080d43ccbbd2c663ab2e503e17dbc3464a4a598ace830cd8",
+    "train-traces/1165-bounded_abstract.json": "2eb260cf9ac03cf544c597cda5df2bdd786f2fba4aba0a230075d5d33cf2f166",
+    "train-traces/98-bounded_abstract.json": "d07a5ad368edac7822f61c96430a568e572645604e1b93ba5deb7c67eaf6b6af",
+    "train-traces/357-bounded_abstract.json": "996b8bc8dde639772d98c933fd8945b9b6c4ca220c3a7b4114123d708b45b40b",
+    "train-traces/120-bounded_abstract.json": "f73d6275a62ffbc3d56bacf336b152553b709c808b7490a850ffde2754994d4c",
+    "train-traces/818-bounded_abstract.json": "be6524b2ccb5131c3d03dd39877ee5c4c443d80e9f340d4a4bde295e793d2376",
+    "train-traces/736-bounded_abstract.json": "0df6f008582e15e146fb205716e82f81ed53b898566846f18515a8e3939a7331",
+    "train-traces/1306-bounded_abstract.json": "e98f137c0a2f09c81c4733ad365d78a026692ea300d9771265b00d141ced89f6",
+    "train-traces/377-bounded_abstract.json": "89048162648c14244e52e5d41e11b4cb8e322ff904792c945c64fca23223f09b",
+    "train-traces/1205-bounded_abstract.json": "a9e10e3c4637cecfc2186e3604e0fe62fddc3dac37ea11ea08f6f3a49710c041",
+    "train-traces/429-bounded_abstract.json": "d3b978eefed672531e802e129b5d1f3569767fac116dc4fb9dfc27d100b5be75",
+    "train-traces/542-bounded_abstract.json": "3d5d8a61f19d5cd943ceac3f89c0cca061032a0309c45288c04ba7f6cf1ee403",
+    "train-traces/441-bounded_abstract.json": "9e342d0ab00e8724a6441f4095a6b2a9dd7d459a272f2f10fba4f40c13f9b7dd",
+    "train-traces/1211-bounded_abstract.json": "505d5e26dfa58d3deedb113a3b488950c3208af0e03b3948ae367c4cdec7ec06",
+    "train-traces/1361-bounded_abstract.json": "1c232222cfe2f21a7c360a55ed7c8ce10ca5609b93d8a2069715f5dc6d42cd7f",
+    "train-traces/1030-bounded_abstract.json": "d2748470440dd4069074a5bd6304410e18655020ec7e1147582d069e9c4ac509",
+    "train-traces/965-bounded_abstract.json": "a47f01d8b0499d01df1bd0035d855213a4aa7dd3f4275cff1584b4179eab8a7e",
+    "train-traces/1069-bounded_abstract.json": "44407a013cea909740fd552bcbb71fff807bdbe303463269465fa302e157c8ca",
+    "train-traces/949-bounded_abstract.json": "ab15ac546074d9bdeeec456449c7bc5af15e54265d0fc2ce44cee24d598ca744",
+    "train-traces/119-bounded_abstract.json": "aa50dc1a5ca3abf5e2d3751191a2c18f4c36c4c0f8a95e18500f7d8c0c03343c",
+    "train-traces/883-bounded_abstract.json": "78179c93dbe32f47f4582c74273a605651b2d74f9a0e52d55d8eda4081ea55fa",
+    "train-traces/299-bounded_abstract.json": "5cb4a96dd6cc2e6599725aee62c17325e00c04ebf4ae4eab79257359bf7d5934",
+    "train-traces/855-bounded_abstract.json": "53fe4afac1711745ab50b6f4912a63e04be9e3f93e5c6a8bf4c2505af08ce600",
+    "train-traces/877-bounded_abstract.json": "a0d335ac6a9a9474409820de600e5feb0082705fdcaee718ffd4a084d3012d22",
+    "train-traces/470-bounded_abstract.json": "f344effec77bbaaca3598862dba1e4956e7788a0241f6b0e11827fac8a59fffb",
+    "train-traces/1235-bounded_abstract.json": "32dbd71ab708f25549c0f422a53024cd36a656eb6b94100e31d2083d3546e485",
+    "train-traces/812-bounded_abstract.json": "4dd60c91e0c374603bdfc0c56301e5294aa8bd4444269b9ae11b13f8a125cac3",
+    "train-traces/47-bounded_abstract.json": "bfe52132a1adc53765430a4b27e06f4a2cf05e97f7825c83838f25fe8bd389b2",
+    "train-traces/661-bounded_abstract.json": "e0a3c4c5f4f906994f42ba8eef1c4816dc1dcc5320e47b3c5ee3db3119e4542f",
+    "train-traces/1195-bounded_abstract.json": "f1605e96dd40979c7fddaef385d941dcef42c12f464552ef836ba7225172c71a",
+    "train-traces/996-bounded_abstract.json": "a38ef84f664c377b864757d1e6c3eb81d47445006314bb98183b47d7536ef368",
+    "train-traces/1314-bounded_abstract.json": "decf5db9818f3fa42d065ed27b0109d9c2fcf0fd68c656902725727e52366f5c",
+    "train-traces/1075-bounded_abstract.json": "5d91cd51df3f4c259de29a080564ad92a9980f14f39bc73fb65d237e7af8ffa1",
+    "train-traces/1032-bounded_abstract.json": "1cf9c0797f9c0a6aac593e202491475827adedae899d5ce6dc590413ebce3201",
+    "train-traces/78-bounded_abstract.json": "0c2ef4dcbebd0a9b541783f8d6b35407e06caa3b64c18eb5cc1d0b4894f5c3a0",
+    "train-traces/679-bounded_abstract.json": "2da190cda5a1540d79f9852903afb4485451506ed9b2e4bcdd4a59169edf4396",
+    "train-traces/444-bounded_abstract.json": "660872f36b1a54f7d0d79c81e3bbee06f2d033e434a551994302223324693314",
+    "train-traces/355-bounded_abstract.json": "5e021ba7198be45a2d3dc69a31c8a6df42b742bebd11a409218a0714367ba6f2",
+    "train-traces/789-bounded_abstract.json": "7a68fa698112a739a61806163de1daa36cc6eb7f3676b8c97793c753aeae0284",
+    "train-traces/1136-bounded_abstract.json": "f655824ab19aee445d4fd0606b00034c005f0319cb647d155612c8e4cb27beeb",
+    "train-traces/972-bounded_abstract.json": "2914f779a6f9a6ff2ae4d1ef1899801751f352b8ebd7fdfb12a3b974762f9d4a",
+    "train-traces/733-bounded_abstract.json": "3b709f0e31e8e8acba19ab3e2093f431eb63d5e18fdb38ffc3c4fdefca15afd5",
+    "train-traces/220-bounded_abstract.json": "e8b8b07281c19c3cd252c69473206bd10fb94294db59c40835ad0c32975a6345",
+    "train-traces/1101-bounded_abstract.json": "fb3881a8a0335524af5bce56ea1451e8e153b9b48244feac4b304826509bc170",
+    "train-traces/601-bounded_abstract.json": "a0da3c896c0f84560be6a4c3312ef65355141ab5db0c3df233553add197e60c0",
+    "train-traces/1169-bounded_abstract.json": "60620b1cbb4fcfa3646caefd2f69d322ca4cce79bb4b01507ecd4d923436234f",
+    "train-traces/315-bounded_abstract.json": "1d89afcf2719888601b04777f2a6fda6825d2a01bceb63e111565b0ff73d9cfd",
+    "train-traces/246-bounded_abstract.json": "f37774d50a4204d5f76a38fd9466a1b69c4809a5c0f2d26f12587870411fb7d7",
+    "train-traces/977-bounded_abstract.json": "9a5c7b295a0a07cb782b417db1d17b250d2e75ad4fab5e86535ff3878685e41b",
+    "train-traces/980-bounded_abstract.json": "237dfc073bfb495002bd0503d0e2a35d318107625330c876b9a0e2913e29bb46",
+    "train-traces/524-bounded_abstract.json": "e3646a5bc3eaf16f30d3aa116e170acd7336e34b182b286f4bc9e9fd8d352f06",
+    "train-traces/187-bounded_abstract.json": "1c502c724b834d7734a46656405013566c8f442dbe1d58f5c30ca6a51663d23b",
+    "train-traces/306-bounded_abstract.json": "3ec0189112226385e7afbffeec69820fe7453294124a62b33fa68e077afffca5",
+    "train-traces/381-bounded_abstract.json": "7f472c19253675cab06a4e4095136c37337a2ca913f66df47ca7bc607280fc3e",
+    "train-traces/323-bounded_abstract.json": "f57a1346990c24ffc164702cfc28fa09e8ba021c3fe6fea736d60ed510fed2e0",
+    "train-traces/247-bounded_abstract.json": "7df41343f4bc2ffc2d34007ab1a65260a8d869a4f0365f53550cf3eb45d02449",
+    "train-traces/910-bounded_abstract.json": "a6f7c9cc26b51f4d0ed602ffdd8c71a9097b2bc4a8fe4111ed837f29762e880d",
+    "train-traces/60-bounded_abstract.json": "0aaa621cfac91863699cf34831add74db967c23b03000f7402a1cedf3ddec79b",
+    "train-traces/473-bounded_abstract.json": "de5850b97cfbf8a605e0ae88887f29f252596e5b4c209a1cc9909b6ace732d82",
+    "train-traces/1156-bounded_abstract.json": "4e2506fdeb403621b3fd0160557064b4f9f8c4b1abee523319d78653465b7313",
+    "train-traces/66-bounded_abstract.json": "0a1f174309a3fd994f33bce7b069caca387f812fe088a8ce65c1d21d021040bf",
+    "train-traces/1268-bounded_abstract.json": "e657847b4ea2620321201b9a1255ef3733856fa37cd704a95981ad0bc5b5f768",
+    "train-traces/632-bounded_abstract.json": "24aa2206fd59f518288aec489403dfa79f759ad90528f2b457b688e20237df3e",
+    "train-traces/885-bounded_abstract.json": "84db2f023dacb8c320cd8e3aa54fdaa1637db6cc7233b7c0c179f3108490467b",
+    "train-traces/396-bounded_abstract.json": "1fa983952c5d2316e2ad3b4776f7b19f3f3b51dbcc13778fe91bcc051a9267df",
+    "train-traces/645-bounded_abstract.json": "2f35a3e2a92ffa301bc8075e6a58bdcf4bd8f938a47fa696b0050c73c93f5e93",
+    "train-traces/976-bounded_abstract.json": "ec5d0127e8891de689e11336d86761c505dca37395be49a7dacf2e232f18a348",
+    "train-traces/41-bounded_abstract.json": "da6849f7c584a1de9849d83fad268c779665e0a38151de55c86d3c2c2759c14d",
+    "train-traces/782-bounded_abstract.json": "167f9e34b43e4afa9ff72299a654c865e67376ed513762dd9bc7f0a9fade4e8f",
+    "train-traces/776-bounded_abstract.json": "5db851358a9c9fdd716fb035d13d1299546594b220244280d1067407411cda29",
+    "train-traces/1011-bounded_abstract.json": "da7eb871f73003b9440993f366f2e594e96c22fc37b27be643c8542a67038c9f",
+    "train-traces/615-bounded_abstract.json": "d95dada83d06ff6486d7304276c21fb0945050b2571acf5043e2ff7eb897abf1",
+    "train-traces/1031-bounded_abstract.json": "90cdd36c64718044ce81b44633885ea3e42ab1447fee61c26d9eff79c12fdcec",
+    "train-traces/640-bounded_abstract.json": "35482b1faf3863fd7db41afc2a2f861b03f05a9b37130aad4375838827738564",
+    "train-traces/164-bounded_abstract.json": "3b7772678eb5ac3cd8d610078f752ac9ffec5a99e8fb5955ece4dd28fee650fa",
+    "train-traces/1255-bounded_abstract.json": "b7e4efeb984b7080fd6a8f4d14b1a0ce273d1b089fd7d86a659c7c9688072bf3",
+    "train-traces/1297-bounded_abstract.json": "3541b396179995424485756695eef50dc8ab201aa50c9c31eaa01595210fd4b3",
+    "train-traces/1000-bounded_abstract.json": "d3e3f8dcdbfebf4e84e7b9d95da1e2d4741f2d77a98f94662e9180432c2b1223"
+  },
+  "protocol_sha256": "5c6a8eb7d59c7fd071e2aac3f8d825505d5ea3a8b416682b2367f95c58dce3f8"
+}

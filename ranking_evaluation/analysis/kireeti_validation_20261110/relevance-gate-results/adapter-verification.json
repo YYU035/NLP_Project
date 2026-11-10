@@ -1,0 +1,7 @@
+{
+  "source_run": "outputs/ranking_evaluation/accuracy-context-full-batched",
+  "policy": "bounded_abstract",
+  "gate": 0.65,
+  "paper_scope_checks_passed": 7000,
+  "scope": "Adapter accepted passages match evaluated policy and paper gate; base proposals reconstructed from actual accepted baseline traces. Original rejected proposals are not reconstructable from these traces."
+}

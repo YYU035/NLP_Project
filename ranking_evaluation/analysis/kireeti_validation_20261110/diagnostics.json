@@ -1,0 +1,59 @@
+{
+  "scope": "Artifact-only audit; no new neural inference or parameter tuning.",
+  "conditions": {
+    "oracle_gold_rationale": {
+      "all_count": 188,
+      "all_correct": 115,
+      "positive_count": 188,
+      "positive_correct": 115,
+      "gold_documents": 209,
+      "gold_documents_retrieved": 209,
+      "complete_rationale_docs": 209,
+      "gold_rationale_docs": 209,
+      "partial_sentence_fragments": 0,
+      "rejected_spans": 0
+    },
+    "gold_papers_production_selector": {
+      "all_count": 188,
+      "all_correct": 100,
+      "positive_count": 188,
+      "positive_correct": 100,
+      "gold_documents": 209,
+      "gold_documents_retrieved": 209,
+      "complete_rationale_docs": 150,
+      "gold_rationale_docs": 209,
+      "partial_sentence_fragments": 5,
+      "rejected_spans": 0
+    },
+    "retrieved_papers_production_selector": {
+      "all_count": 300,
+      "all_correct": 170,
+      "positive_count": 188,
+      "positive_correct": 95,
+      "gold_documents": 209,
+      "gold_documents_retrieved": 181,
+      "complete_rationale_docs": 136,
+      "gold_rationale_docs": 209,
+      "partial_sentence_fragments": 20,
+      "rejected_spans": 0
+    }
+  },
+  "paired_transitions": {
+    "oracle_gold_rationale -> gold_papers_production_selector": {
+      "wrong -> wrong": 65,
+      "correct -> correct": 92,
+      "correct -> wrong": 23,
+      "wrong -> correct": 8
+    },
+    "gold_papers_production_selector -> retrieved_papers_production_selector": {
+      "wrong -> wrong": 84,
+      "correct -> correct": 91,
+      "correct -> wrong": 9,
+      "wrong -> correct": 4
+    }
+  },
+  "source_sha256": {
+    "explanation_frontend/evaluation/validation/results/test_results.csv": "4425b16dcad071dff287677944cb323d840c78b4f83f7b19c691bea0d3ae6def",
+    "explanation_frontend/evaluation/validation/results/error_catalogue.csv": "bcb3414b83525907b95b2b2f3d775e8725d65e1853d9a8e88cefa8ca8eb02b1a"
+  }
+}

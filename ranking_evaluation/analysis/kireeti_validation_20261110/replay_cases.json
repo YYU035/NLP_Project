@@ -1,0 +1,4152 @@
+[
+  {
+    "claim_id": "1",
+    "result": {
+      "claim_id": "1",
+      "claim": "0-dimensional biomaterials show inductive properties.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 0, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "0",
+      "passages": "0",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "0.18621680000796914",
+      "correct": "True",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "1",
+        "claim": "0-dimensional biomaterials show inductive properties.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 0, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "0",
+        "passages": "0",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "0.18621680000796914",
+        "correct": "True",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-1.json",
+    "claim": "0-dimensional biomaterials show inductive properties.",
+    "verification": {
+      "per_paper_verdicts": {
+        "43385013": {
+          "paper_id": "43385013",
+          "title": "Epithelial and mesenchymal subpopulations within normal basal breast cell lines exhibit distinct stem cell/progenitor properties.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10931595": {
+          "paper_id": "10931595",
+          "title": "Geometry, epistasis, and developmental patterning.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "29638116": {
+          "paper_id": "29638116",
+          "title": "Complex Tissue and Disease Modeling using hiPSCs.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13231899": {
+          "paper_id": "13231899",
+          "title": "In situ regulation of DC subsets and T cells mediates tumor regression in mice.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4346436": {
+          "paper_id": "4346436",
+          "title": "Nonlinear Elasticity in Biological Gels",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {},
+      "processing_failures": [],
+      "evidence_passages": [],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "113",
+    "result": {
+      "claim_id": "113",
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "CONFLICTING",
+      "status": "ok",
+      "confidence": "0.9894945025444031",
+      "evidence": "{\"tp\": 1, \"fp\": 12, \"fn\": 1, \"precision\": 0.07692307692307693, \"recall\": 0.5, \"f1\": 0.13333333333333336}",
+      "gold_sentences": "2",
+      "recovered_gold_sentences": "1",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "13",
+      "passages": "13",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "1",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "2.3505254999618046",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "113",
+        "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.9749073684215546",
+        "evidence": "{\"tp\": 2, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.4637250000378117",
+        "correct": "True",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "113",
+        "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.832125335931778",
+        "evidence": "{\"tp\": 1, \"fp\": 2, \"fn\": 1, \"precision\": 0.3333333333333333, \"recall\": 0.5, \"f1\": 0.4}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.43394320004153997",
+        "correct": "True",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "113",
+        "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "CONFLICTING",
+        "status": "ok",
+        "confidence": "0.9894945025444031",
+        "evidence": "{\"tp\": 1, \"fp\": 12, \"fn\": 1, \"precision\": 0.07692307692307693, \"recall\": 0.5, \"f1\": 0.13333333333333336}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "13",
+        "passages": "13",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "2.3505254999618046",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-113.json",
+    "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+    "verification": {
+      "per_paper_verdicts": {
+        "6157837": {
+          "paper_id": "6157837",
+          "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.832125335931778,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "6157837:abstract:334:617:59bb22c7846b",
+            "6157837:abstract:618:825:b146a7c6686c"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "1759213": {
+          "paper_id": "1759213",
+          "title": "The effect of combination treatment with aliskiren and blockers of the renin-angiotensin system on hyperkalaemia and acute kidney injury: systematic review and meta-analysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14584755": {
+          "paper_id": "14584755",
+          "title": "Differences in the Clinical Effects of Angiotensin-Converting Enzyme Inhibitors and Angiotensin Receptor Blockers: A Critical Review of the Evidence",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9894945025444031,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "14584755:abstract:709:834:ccd8ed947ef7"
+          ]
+        },
+        "25816994": {
+          "paper_id": "25816994",
+          "title": "Renal outcomes with telmisartan, ramipril, or both, in people at high vascular risk (the ONTARGET study): a multicentre, randomised, double-blind, controlled trial.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8408477306365967,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "25816994:abstract:1480:1727:1e4287298749"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "26199970": {
+          "paper_id": "26199970",
+          "title": "Blockade of the angiotensin system improves mental health domain of quality of life: A meta-analysis of randomized clinical trials",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "6157837:abstract:0:121:1e6eb45e2c55": {
+          "passage_id": "6157837:abstract:0:121:1e6eb45e2c55",
+          "paper_id": "6157837",
+          "label": "NEUTRAL",
+          "confidence": 0.9950200319290161,
+          "truncated": false
+        },
+        "6157837:abstract:334:617:59bb22c7846b": {
+          "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+          "paper_id": "6157837",
+          "label": "SUPPORT",
+          "confidence": 0.9809344410896301,
+          "truncated": false
+        },
+        "6157837:abstract:618:825:b146a7c6686c": {
+          "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+          "paper_id": "6157837",
+          "label": "SUPPORT",
+          "confidence": 0.6833162307739258,
+          "truncated": false
+        },
+        "1759213:abstract:1379:1556:e152f60ff679": {
+          "passage_id": "1759213:abstract:1379:1556:e152f60ff679",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9922620058059692,
+          "truncated": false
+        },
+        "1759213:abstract:309:671:c3695abe43b2": {
+          "passage_id": "1759213:abstract:309:671:c3695abe43b2",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9973840117454529,
+          "truncated": false
+        },
+        "1759213:abstract:881:1239:85e65d92d8dd": {
+          "passage_id": "1759213:abstract:881:1239:85e65d92d8dd",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9934775829315186,
+          "truncated": false
+        },
+        "14584755:abstract:155:587:0f080de95554": {
+          "passage_id": "14584755:abstract:155:587:0f080de95554",
+          "paper_id": "14584755",
+          "label": "NEUTRAL",
+          "confidence": 0.9977402687072754,
+          "truncated": false
+        },
+        "14584755:abstract:709:834:ccd8ed947ef7": {
+          "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+          "paper_id": "14584755",
+          "label": "CONTRADICT",
+          "confidence": 0.9894945025444031,
+          "truncated": false
+        },
+        "25816994:abstract:0:130:8653385331dd": {
+          "passage_id": "25816994:abstract:0:130:8653385331dd",
+          "paper_id": "25816994",
+          "label": "NEUTRAL",
+          "confidence": 0.9931950569152832,
+          "truncated": false
+        },
+        "25816994:abstract:282:516:9364137c2c99": {
+          "passage_id": "25816994:abstract:282:516:9364137c2c99",
+          "paper_id": "25816994",
+          "label": "NEUTRAL",
+          "confidence": 0.9991525411605835,
+          "truncated": false
+        },
+        "25816994:abstract:1480:1727:1e4287298749": {
+          "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+          "paper_id": "25816994",
+          "label": "SUPPORT",
+          "confidence": 0.8408477306365967,
+          "truncated": false
+        },
+        "26199970:abstract:434:646:e28f1fdca2c6": {
+          "passage_id": "26199970:abstract:434:646:e28f1fdca2c6",
+          "paper_id": "26199970",
+          "label": "NEUTRAL",
+          "confidence": 0.9990059733390808,
+          "truncated": false
+        },
+        "26199970:abstract:1863:2027:419b2b5f3531": {
+          "passage_id": "26199970:abstract:1863:2027:419b2b5f3531",
+          "paper_id": "26199970",
+          "label": "NEUTRAL",
+          "confidence": 0.998051643371582,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "6157837:abstract:0:121:1e6eb45e2c55",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs.",
+          "score": 0.6514753103256226,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of \u201cfunctional renal insufficiency\u201d and/or hyperkalemia.",
+          "score": 0.5564429759979248,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+          "score": 0.5124160051345825,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:1379:1556:e152f60ff679",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "CONCLUSION Use of aliskerin in combination with angiotensin converting enzyme inhibitors or angiotensin receptor blockers is associated with an increased risk for hyperkalaemia.",
+          "score": 0.5962096452713013,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:309:671:c3695abe43b2",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "STUDY SELECTION Published and unpublished randomised controlled trials that compared combined treatment using aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers with monotherapy using these agents for at least four weeks and that provided numerical data on the adverse event outcomes of hyperkalaemia and acute kidney injury.",
+          "score": 0.5883934497833252,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:881:1239:85e65d92d8dd",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "Combination therapy with aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers significantly increased the risk of hyperkalaemia compared with monotherapy using angiotensin converting enzymes or angiotensin receptor blockers (relative risk 1.58, 95% confidence interval 1.24 to 2.02) or aliskiren alone (1.67, 1.01 to 2.79).",
+          "score": 0.5803587436676025,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14584755:abstract:155:587:0f080de95554",
+          "paper_id": "14584755",
+          "section": "abstract",
+          "text": "Although both angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor antagonists (angiotensin receptor blockers; ARBs) are equally important in the treatment of hypertension, according to the results of recent years, there might be substantial differences in their cardiovascular protective effects, and these differences might be explained by our increasing knowledge of their non-overlapping mechanisms of action.",
+          "score": 0.60280841588974,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+          "paper_id": "14584755",
+          "section": "abstract",
+          "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+          "score": 0.5035731792449951,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:0:130:8653385331dd",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "BACKGROUND Angiotensin receptor blockers (ARB) and angiotensin converting enzyme (ACE) inhibitors are known to reduce proteinuria.",
+          "score": 0.6942750215530396,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:282:516:9364137c2c99",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "We investigated the renal effects of ramipril (an ACE inhibitor), telmisartan (an ARB), and their combination in patients aged 55 years or older with established atherosclerotic vascular disease or with diabetes with end-organ damage.",
+          "score": 0.5353361368179321,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+          "score": 0.5161715745925903,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26199970:abstract:434:646:e28f1fdca2c6",
+          "paper_id": "26199970",
+          "section": "abstract",
+          "text": "Study selection: Randomized controlled trials comparing any angiotensin converting enzyme inhibitor or AT1R blocker versus placebo or non-angiotensin converting enzyme inhibitor or non-AT1R blocker were selected.",
+          "score": 0.5671086311340332,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26199970:abstract:1863:2027:419b2b5f3531",
+          "paper_id": "26199970",
+          "section": "abstract",
+          "text": "Research specifically designed to analyse the usefulness of drugs that block the angiotensin system is necessary to properly evaluate this novel psychiatric target.",
+          "score": 0.529029130935669,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "1163",
+    "result": {
+      "claim_id": "1163",
+      "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "CONTRADICTED",
+      "status": "ok",
+      "confidence": "0.6478974223136902",
+      "evidence": "{\"tp\": 0, \"fp\": 6, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "1",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "6",
+      "passages": "5",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "0.5408842000178993",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "1163",
+        "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "1",
+        "passages": "1",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.18749450001632795",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "1163",
+        "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 4, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "4",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.7138042000005953",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "1163",
+        "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "CONTRADICTED",
+        "status": "ok",
+        "confidence": "0.6478974223136902",
+        "evidence": "{\"tp\": 0, \"fp\": 6, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "6",
+        "passages": "5",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.5408842000178993",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-1163.json",
+    "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+    "verification": {
+      "per_paper_verdicts": {
+        "15305881": {
+          "paper_id": "15305881",
+          "title": "The structure of DdrB from Deinococcus: a new fold for single-stranded DNA binding proteins",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "799586": {
+          "paper_id": "799586",
+          "title": "Role of the Single-Stranded DNA\u2013Binding Protein SsbB in Pneumococcal Transformation: Maintenance of a Reservoir for Genetic Plasticity",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.6478974223136902,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "799586:abstract:100:299:934cb663cc95"
+          ]
+        },
+        "8065561": {
+          "paper_id": "8065561",
+          "title": "Specific and cooperative binding of E. coli single-stranded DNA binding protein to mRNA.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "52944377": {
+          "paper_id": "52944377",
+          "title": "ROS-induced R loops trigger a transcription-coupled but BRCA1/2-independent homologous recombination pathway through CSB",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18261004": {
+          "paper_id": "18261004",
+          "title": "Expression and purification of recombinant methylated HBHA in Mycobacterium smegmatis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15305881:abstract:337:505:71ef8083aa07": {
+          "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9838640689849854,
+          "truncated": false
+        },
+        "15305881:abstract:0:188:85d1b6c71acd": {
+          "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9987753033638,
+          "truncated": false
+        },
+        "15305881:abstract:801:1080:296783cd1d2d": {
+          "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.8950538039207458,
+          "truncated": false
+        },
+        "799586:abstract:100:299:934cb663cc95": {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "label": "CONTRADICT",
+          "confidence": 0.6478974223136902,
+          "truncated": false
+        },
+        "799586:abstract:1247:1379:ec8b70b33d58": {
+          "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+          "paper_id": "799586",
+          "label": "NEUTRAL",
+          "confidence": 0.980080246925354,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage.",
+          "score": 0.6934131979942322,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation.",
+          "score": 0.5860298871994019,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+          "score": 0.5800168514251709,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "section": "abstract",
+          "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+          "score": 0.5164722800254822,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+          "paper_id": "799586",
+          "section": "abstract",
+          "text": "SsbB\u03947 fulfils the reservoir function, suggesting that SsbB C-ter is not necessary for processing protein(s) to access stored ssDNA.",
+          "score": 0.5049631595611572,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "1199",
+    "result": {
+      "claim_id": "1199",
+      "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "CONTRADICTED",
+      "status": "ok",
+      "confidence": "0.6275974214076996",
+      "evidence": "{\"tp\": 0, \"fp\": 8, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "8",
+      "passages": "8",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "1.6069998999591917",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "1199",
+        "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "CONTRADICTED",
+        "status": "ok",
+        "confidence": "0.6275974214076996",
+        "evidence": "{\"tp\": 0, \"fp\": 8, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "8",
+        "passages": "8",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "1.6069998999591917",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-1199.json",
+    "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+    "verification": {
+      "per_paper_verdicts": {
+        "7454794": {
+          "paper_id": "7454794",
+          "title": "Statins in the primary prevention of cardiovascular disease",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.6275974214076996,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "7454794:abstract:662:824:4d984b73415a",
+            "7454794:abstract:275:418:cc99dca953a9"
+          ]
+        },
+        "21557614": {
+          "paper_id": "21557614",
+          "title": "Pleiotropic effects of statins.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "40156901": {
+          "paper_id": "40156901",
+          "title": "Dose-dependent effect of statins on the incidence of acute kidney injury after cardiac surgery.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5698494": {
+          "paper_id": "5698494",
+          "title": "The benefits of statins in people without established cardiovascular disease but with cardiovascular risk factors: meta-analysis of randomised controlled trials",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4687948": {
+          "paper_id": "4687948",
+          "title": "HMG-CoA reductase inhibitors and the risk of hip fractures in elderly patients.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7454794:abstract:1082:1223:0349a8de551b": {
+          "passage_id": "7454794:abstract:1082:1223:0349a8de551b",
+          "paper_id": "7454794",
+          "label": "NEUTRAL",
+          "confidence": 0.9685328006744385,
+          "truncated": false
+        },
+        "7454794:abstract:662:824:4d984b73415a": {
+          "passage_id": "7454794:abstract:662:824:4d984b73415a",
+          "paper_id": "7454794",
+          "label": "CONTRADICT",
+          "confidence": 0.6350195407867432,
+          "truncated": false
+        },
+        "7454794:abstract:275:418:cc99dca953a9": {
+          "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+          "paper_id": "7454794",
+          "label": "CONTRADICT",
+          "confidence": 0.620175302028656,
+          "truncated": false
+        },
+        "21557614:abstract:59:168:a22e91be616a": {
+          "passage_id": "21557614:abstract:59:168:a22e91be616a",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9830778241157532,
+          "truncated": false
+        },
+        "21557614:abstract:643:737:5b13ca92ee7c": {
+          "passage_id": "21557614:abstract:643:737:5b13ca92ee7c",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9929558038711548,
+          "truncated": false
+        },
+        "21557614:abstract:0:58:cb79fc38f06d": {
+          "passage_id": "21557614:abstract:0:58:cb79fc38f06d",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9973934888839722,
+          "truncated": false
+        },
+        "5698494:abstract:1111:1343:f9cdbe772ad7": {
+          "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7",
+          "paper_id": "5698494",
+          "label": "NEUTRAL",
+          "confidence": 0.995613694190979,
+          "truncated": false
+        },
+        "5698494:abstract:1491:1722:4bc00b6dff26": {
+          "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26",
+          "paper_id": "5698494",
+          "label": "NEUTRAL",
+          "confidence": 0.9960854053497314,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7454794:abstract:1082:1223:0349a8de551b",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "In appropriately selected individuals, statins should also be used for primary prevention of ischaemic stroke and transient ischaemic attack.",
+          "score": 0.5812031030654907,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7454794:abstract:662:824:4d984b73415a",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+          "score": 0.568985104560852,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+          "score": 0.5371896624565125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:59:168:a22e91be616a",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "In clinical trials, statins are beneficial in the primary and secondary prevention of coronary heart disease.",
+          "score": 0.6081036329269409,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:643:737:5b13ca92ee7c",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "Furthermore, statins have beneficial extrahepatic effects on the immune system, CNS, and bone.",
+          "score": 0.5431681871414185,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:0:58:cb79fc38f06d",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "Statins are potent inhibitors of cholesterol biosynthesis.",
+          "score": 0.539008617401123,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7",
+          "paper_id": "5698494",
+          "section": "abstract",
+          "text": "Treatment with statins significantly reduced the risk of all cause mortality (odds ratio 0.88, 95% confidence interval 0.81 to 0.96), major coronary events (0.70, 0.61 to 0.81), and major cerebrovascular events (0.81, 0.71 to 0.93).",
+          "score": 0.5505037307739258,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26",
+          "paper_id": "5698494",
+          "section": "abstract",
+          "text": "CONCLUSION In patients without established cardiovascular disease but with cardiovascular risk factors, statin use was associated with significantly improved survival and large reductions in the risk of major cardiovascular events.",
+          "score": 0.5061843395233154,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "1274",
+    "result": {
+      "claim_id": "1274",
+      "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 9, \"fn\": 3, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "3",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "9",
+      "passages": "9",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "2.290320000029169",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "1274",
+        "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.8951060175895691",
+        "evidence": "{\"tp\": 3, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "3",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.6902927999617532",
+        "correct": "True",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "1274",
+        "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 2, \"fn\": 3, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.6470302999950945",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "1274",
+        "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 9, \"fn\": 3, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "9",
+        "passages": "9",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "2.290320000029169",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-1274.json",
+    "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+    "verification": {
+      "per_paper_verdicts": {
+        "27731651": {
+          "paper_id": "27731651",
+          "title": "A view to a kill: the bacterial type VI secretion system.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7481159": {
+          "paper_id": "7481159",
+          "title": "Biochemical analysis of TssK, a core component of the bacterial Type VI secretion system, reveals distinct oligomeric states of TssK and identifies a TssK\u2013TssFG subcomplex",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4406819": {
+          "paper_id": "4406819",
+          "title": "PAAR-repeat proteins sharpen and diversify the Type VI secretion system spike",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12428814": {
+          "paper_id": "12428814",
+          "title": "Haemolysin coregulated protein is an exported receptor and chaperone of type VI secretion substrates.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22632303": {
+          "paper_id": "22632303",
+          "title": "Identification of T6SS-dependent effector and immunity proteins by Tn-seq in Vibrio cholerae.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "27731651:abstract:0:174:64c1d916482a": {
+          "passage_id": "27731651:abstract:0:174:64c1d916482a",
+          "paper_id": "27731651",
+          "label": "NEUTRAL",
+          "confidence": 0.9543993473052979,
+          "truncated": false
+        },
+        "27731651:abstract:175:425:1cbfeb9cc8d0": {
+          "passage_id": "27731651:abstract:175:425:1cbfeb9cc8d0",
+          "paper_id": "27731651",
+          "label": "NEUTRAL",
+          "confidence": 0.827362596988678,
+          "truncated": false
+        },
+        "7481159:abstract:0:128:04a115ba3cc4": {
+          "passage_id": "7481159:abstract:0:128:04a115ba3cc4",
+          "paper_id": "7481159",
+          "label": "NEUTRAL",
+          "confidence": 0.9683249592781067,
+          "truncated": false
+        },
+        "4406819:abstract:0:177:bd6c3df65139": {
+          "passage_id": "4406819:abstract:0:177:bd6c3df65139",
+          "paper_id": "4406819",
+          "label": "NEUTRAL",
+          "confidence": 0.9971485733985901,
+          "truncated": false
+        },
+        "4406819:abstract:1034:1178:03c4f035ad06": {
+          "passage_id": "4406819:abstract:1034:1178:03c4f035ad06",
+          "paper_id": "4406819",
+          "label": "NEUTRAL",
+          "confidence": 0.9321274161338806,
+          "truncated": false
+        },
+        "12428814:abstract:123:337:7f6eac4495ca": {
+          "passage_id": "12428814:abstract:123:337:7f6eac4495ca",
+          "paper_id": "12428814",
+          "label": "NEUTRAL",
+          "confidence": 0.9914126396179199,
+          "truncated": false
+        },
+        "22632303:abstract:0:128:cefe11cd31a2": {
+          "passage_id": "22632303:abstract:0:128:cefe11cd31a2",
+          "paper_id": "22632303",
+          "label": "NEUTRAL",
+          "confidence": 0.9625545740127563,
+          "truncated": false
+        },
+        "22632303:abstract:1048:1233:f4c5f05cf0b0": {
+          "passage_id": "22632303:abstract:1048:1233:f4c5f05cf0b0",
+          "paper_id": "22632303",
+          "label": "NEUTRAL",
+          "confidence": 0.9783192276954651,
+          "truncated": false
+        },
+        "22632303:abstract:284:481:090c61f10076": {
+          "passage_id": "22632303:abstract:284:481:090c61f10076",
+          "paper_id": "22632303",
+          "label": "NEUTRAL",
+          "confidence": 0.9793015718460083,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "27731651:abstract:0:174:64c1d916482a",
+          "paper_id": "27731651",
+          "section": "abstract",
+          "text": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail.",
+          "score": 0.7181140184402466,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "27731651:abstract:175:425:1cbfeb9cc8d0",
+          "paper_id": "27731651",
+          "section": "abstract",
+          "text": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells.",
+          "score": 0.5299181342124939,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7481159:abstract:0:128:04a115ba3cc4",
+          "paper_id": "7481159",
+          "section": "abstract",
+          "text": "Gram-negative bacteria use the Type VI secretion system (T6SS) to inject toxic proteins into rival bacteria or eukaryotic cells.",
+          "score": 0.7191882133483887,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4406819:abstract:0:177:bd6c3df65139",
+          "paper_id": "4406819",
+          "section": "abstract",
+          "text": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria.",
+          "score": 0.695891261100769,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4406819:abstract:1034:1178:03c4f035ad06",
+          "paper_id": "4406819",
+          "section": "abstract",
+          "text": "We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi.",
+          "score": 0.5578414797782898,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12428814:abstract:123:337:7f6eac4495ca",
+          "paper_id": "12428814",
+          "section": "abstract",
+          "text": "Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined.",
+          "score": 0.7144898176193237,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22632303:abstract:0:128:cefe11cd31a2",
+          "paper_id": "22632303",
+          "section": "abstract",
+          "text": "Type VI protein secretion system (T6SS) is important for bacterial competition through contact-dependent killing of competitors.",
+          "score": 0.7177459597587585,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22632303:abstract:1048:1233:f4c5f05cf0b0",
+          "paper_id": "22632303",
+          "section": "abstract",
+          "text": "We also identified their three cognate T6SS-secreted effectors and show these are important for not only antibacterial and antieukaryotic activities but also assembly of T6SS apparatus.",
+          "score": 0.6419965624809265,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22632303:abstract:284:481:090c61f10076",
+          "paper_id": "22632303",
+          "section": "abstract",
+          "text": "Although T6SS has been found in more than 100 gram-negative bacteria including many important human pathogens, few T6SS-dependent effector and immunity proteins have been experimentally determined.",
+          "score": 0.539903461933136,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "13",
+    "result": {
+      "claim_id": "13",
+      "claim": "5% of perinatal mortality is due to low birth weight.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 12, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "1",
+      "selected_sentences": "11",
+      "passages": "13",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "4.311758399999235",
+      "correct": "True",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "13",
+        "claim": "5% of perinatal mortality is due to low birth weight.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 12, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "1",
+        "selected_sentences": "11",
+        "passages": "13",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "4.311758399999235",
+        "correct": "True",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-13.json",
+    "claim": "5% of perinatal mortality is due to low birth weight.",
+    "verification": {
+      "per_paper_verdicts": {
+        "7662395": {
+          "paper_id": "7662395",
+          "title": "Perinatal mortality in rural China: retrospective cohort study.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1263446": {
+          "paper_id": "1263446",
+          "title": "Determinants of neonatal mortality in Indonesia",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17450673": {
+          "paper_id": "17450673",
+          "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8842332": {
+          "paper_id": "8842332",
+          "title": "Contemporary type 1 diabetes pregnancy outcomes: impact of obesity and glycaemic control.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23557241": {
+          "paper_id": "23557241",
+          "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7662395:abstract:808:969:8a8be1fe5d82": {
+          "passage_id": "7662395:abstract:808:969:8a8be1fe5d82",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9995630383491516,
+          "truncated": false
+        },
+        "7662395:abstract:1052:1170:ec472232c6e4": {
+          "passage_id": "7662395:abstract:1052:1170:ec472232c6e4",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9994937181472778,
+          "truncated": false
+        },
+        "7662395:abstract:970:1051:2e9c78c94c20": {
+          "passage_id": "7662395:abstract:970:1051:2e9c78c94c20",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9990235567092896,
+          "truncated": false
+        },
+        "1263446:abstract:0:102:67926074eb7e": {
+          "passage_id": "1263446:abstract:0:102:67926074eb7e",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9988656044006348,
+          "truncated": false
+        },
+        "1263446:abstract:2108:2391:86863c86bcd4": {
+          "passage_id": "1263446:abstract:2108:2391:86863c86bcd4",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9996629953384399,
+          "truncated": false
+        },
+        "1263446:abstract:1508:1791:c29d91d8a3cb": {
+          "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9996044039726257,
+          "truncated": false
+        },
+        "17450673:abstract:1244:1531:42d2d9af106a": {
+          "passage_id": "17450673:abstract:1244:1531:42d2d9af106a",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.9997050166130066,
+          "truncated": false
+        },
+        "17450673:abstract:803:1157:8df82e8d982a": {
+          "passage_id": "17450673:abstract:803:1157:8df82e8d982a",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.9995695948600769,
+          "truncated": false
+        },
+        "17450673:abstract:1158:1243:e6dbe0c6e702": {
+          "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.998991072177887,
+          "truncated": false
+        },
+        "8842332:abstract:1222:1697:de285c2af489": {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9992228746414185,
+          "truncated": false
+        },
+        "8842332:abstract:723:791:55c60f9e0a78": {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9985812902450562,
+          "truncated": false
+        },
+        "8842332:abstract:1698:1907:59c4e2dabc12": {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9989442229270935,
+          "truncated": false
+        },
+        "23557241:abstract:596:847:23c27c97c8c4": {
+          "passage_id": "23557241:abstract:596:847:23c27c97c8c4",
+          "paper_id": "23557241",
+          "label": "NEUTRAL",
+          "confidence": 0.9996366500854492,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7662395:abstract:808:969:8a8be1fe5d82",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The perinatal mortality rate was 69 per 1000 births, the rate of stillbirth was 24 per 1000 births, and the early neonatal mortality was 46 per 1000 live births.",
+          "score": 0.6062597632408142,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7662395:abstract:1052:1170:ec472232c6e4",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The perinatal mortality rate increased notably with parity and was higher in townships having lower income per capita.",
+          "score": 0.5601181387901306,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7662395:abstract:970:1051:2e9c78c94c20",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The early neonatal mortality was 29 in boys and 69 in girls per 1000 live births.",
+          "score": 0.5570331811904907,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:0:102:67926074eb7e",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "BACKGROUND Neonatal mortality accounts for almost 40 per cent of under-five child mortality, globally.",
+          "score": 0.6482915878295898,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:2108:2391:86863c86bcd4",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "Low birth weight and short birth interval infants as well as perinatal health services factors, such as the availability of skilled birth attendance and postnatal care utilization should be taken into account when planning the interventions to reduce neonatal mortality in Indonesia.",
+          "score": 0.6150410175323486,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "The odds were also higher for higher rank infants with a short birth interval (OR = 2.82, p = 0.00), male infants (OR = 1.49, p = 0.01), smaller than average-sized infants (OR = 2.80, p = 0.00), and infant's whose mother had a history of delivery complications (OR = 1.81, p = 0.00).",
+          "score": 0.5650003552436829,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:1244:1531:42d2d9af106a",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g).",
+          "score": 0.6231936812400818,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:803:1157:8df82e8d982a",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g.",
+          "score": 0.602374792098999,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "These studies provided no support for a J-shaped relationship of birthweight to risk.",
+          "score": 0.5356175899505615,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "Women with type 1 diabetes were more likely to have had labour induced (aOR, 3.0; 95% CI, 2.0-4.5), a caesarean delivery (aOR, 4.6; 95% CI, 3.1-7.0), or a pre-term birth (aOR, 6.7; 95% CI, 4.5-10.0); their babies were more likely to have shoulder dystocia (aOR, 8.2; 95% CI, 3.6-18.7), hypoglycaemia (aOR, 10.3; 95% CI, 6.8-15.6), jaundice (aOR, 5.1; 95% CI, 3.3-7.7), respiratory distress (aOR, 2.5; 95% CI, 1.4-4.4) or to suffer perinatal death (aOR, 4.3; 95% CI, 1.9-9.9).",
+          "score": 0.518733561038971,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "MAIN OUTCOME MEASURES Mode of birth; maternal and neonatal outcomes.",
+          "score": 0.5145706534385681,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "In women with type 1 diabetes, greater obesity was associated with increased odds for an LGA baby or congenital malformation, and increased HbA1c levels were associated with pre-term birth and perinatal death.",
+          "score": 0.500117838382721,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23557241:abstract:596:847:23c27c97c8c4",
+          "paper_id": "23557241",
+          "section": "abstract",
+          "text": "We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.",
+          "score": 0.5342559814453125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "137",
+    "result": {
+      "claim_id": "137",
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 5, \"fn\": 2, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "2",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "1",
+      "selected_sentences": "4",
+      "passages": "5",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "0.5887569999904372",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "137",
+        "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.9960708618164062",
+        "evidence": "{\"tp\": 2, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "1",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.20872110000345856",
+        "correct": "True",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "137",
+        "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 3, \"fn\": 2, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.6004106000182219",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "137",
+        "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 5, \"fn\": 2, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "1",
+        "selected_sentences": "4",
+        "passages": "5",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.5887569999904372",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-137.json",
+    "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+    "verification": {
+      "per_paper_verdicts": {
+        "26016929": {
+          "paper_id": "26016929",
+          "title": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "457630": {
+          "paper_id": "457630",
+          "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21914176": {
+          "paper_id": "21914176",
+          "title": "Economic impact of primary open-angle glaucoma in Australia.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10893238": {
+          "paper_id": "10893238",
+          "title": "Identifying common impairments in frail and dependent older people: validation of the COPE assessment for non-specialised health workers in low resource primary health care settings",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "313394": {
+          "paper_id": "313394",
+          "title": "A Functional Neuroimaging Study of Sound Localization: Visual Cortex Activity Predicts Performance in Early-Blind Individuals",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "26016929:abstract:0:137:575e64951fc6": {
+          "passage_id": "26016929:abstract:0:137:575e64951fc6",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926124811172485,
+          "truncated": false
+        },
+        "26016929:abstract:989:1097:533644adea9c": {
+          "passage_id": "26016929:abstract:989:1097:533644adea9c",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926928281784058,
+          "truncated": false
+        },
+        "26016929:abstract:1208:1282:2af80bfbf9d0": {
+          "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.7366705536842346,
+          "truncated": false
+        },
+        "10893238:abstract:1108:1276:648ce804611e": {
+          "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+          "paper_id": "10893238",
+          "label": "NEUTRAL",
+          "confidence": 0.996238112449646,
+          "truncated": false
+        },
+        "313394:abstract:0:76:e58f7f544f25": {
+          "passage_id": "313394:abstract:0:76:e58f7f544f25",
+          "paper_id": "313394",
+          "label": "NEUTRAL",
+          "confidence": 0.9958036541938782,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "26016929:abstract:0:137:575e64951fc6",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.",
+          "score": 0.8067132234573364,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26016929:abstract:989:1097:533644adea9c",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.",
+          "score": 0.6641406416893005,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "Visual impairment in this age group can usually be reduced with treatment.",
+          "score": 0.6538330316543579,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+          "paper_id": "10893238",
+          "section": "abstract",
+          "text": "However, the prevalence of impairments was generally higher according to clinicians, particularly for visual impairment (98.7 vs 45.8 %), cognitive impairment (78.4 vs.",
+          "score": 0.5599455237388611,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "313394:abstract:0:76:e58f7f544f25",
+          "paper_id": "313394",
+          "section": "abstract",
+          "text": "Blind individuals often demonstrate enhanced nonvisual perceptual abilities.",
+          "score": 0.5050675272941589,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "268",
+    "result": {
+      "claim_id": "268",
+      "claim": "Cold exposure increases BAT recruitment.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "SUPPORTED",
+      "status": "ok",
+      "confidence": "0.9524953961372375",
+      "evidence": "{\"tp\": 0, \"fp\": 3, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "3",
+      "passages": "3",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "0.7794696999480948",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "268",
+        "claim": "Cold exposure increases BAT recruitment.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.9524953961372375",
+        "evidence": "{\"tp\": 0, \"fp\": 3, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "0.7794696999480948",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-268.json",
+    "claim": "Cold exposure increases BAT recruitment.",
+    "verification": {
+      "per_paper_verdicts": {
+        "970012": {
+          "paper_id": "970012",
+          "title": "Cold Exposure Promotes Atherosclerotic Plaque Growth and Instability via UCP1-Dependent Lipolysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13000926": {
+          "paper_id": "13000926",
+          "title": "The role of free radicals in cold injuries.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "36838958": {
+          "paper_id": "36838958",
+          "title": "Sestrin2 inhibits uncoupling protein 1 expression through suppressing reactive oxygen species.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9524953961372375,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "36838958:abstract:181:323:60585985d245"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "4319174": {
+          "paper_id": "4319174",
+          "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1568684": {
+          "paper_id": "1568684",
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "36838958:abstract:181:323:60585985d245": {
+          "passage_id": "36838958:abstract:181:323:60585985d245",
+          "paper_id": "36838958",
+          "label": "SUPPORT",
+          "confidence": 0.9524953961372375,
+          "truncated": false
+        },
+        "4319174:abstract:1432:1589:1ddb1eefea7c": {
+          "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c",
+          "paper_id": "4319174",
+          "label": "NEUTRAL",
+          "confidence": 0.996105968952179,
+          "truncated": false
+        },
+        "1568684:abstract:493:589:4a4318da9c6a": {
+          "passage_id": "1568684:abstract:493:589:4a4318da9c6a",
+          "paper_id": "1568684",
+          "label": "NEUTRAL",
+          "confidence": 0.8126415610313416,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "36838958:abstract:181:323:60585985d245",
+          "paper_id": "36838958",
+          "section": "abstract",
+          "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+          "score": 0.6677210330963135,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c",
+          "paper_id": "4319174",
+          "section": "abstract",
+          "text": "Thus, we have discovered a role for alternatively activated macrophages in the orchestration of an important mammalian stress response, the response to cold.",
+          "score": 0.5065352916717529,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1568684:abstract:493:589:4a4318da9c6a",
+          "paper_id": "1568684",
+          "section": "abstract",
+          "text": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "score": 0.5790454149246216,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "3",
+    "result": {
+      "claim_id": "3",
+      "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 2, \"fp\": 9, \"fn\": 1, \"precision\": 0.18181818181818182, \"recall\": 0.6666666666666666, \"f1\": 0.28571428571428575}",
+      "gold_sentences": "3",
+      "recovered_gold_sentences": "2",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "11",
+      "passages": "11",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "1",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "2.7126593999564648",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "3",
+        "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 3, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "3",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.7722905999980867",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "3",
+        "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 2, \"fp\": 1, \"fn\": 1, \"precision\": 0.6666666666666666, \"recall\": 0.6666666666666666, \"f1\": 0.6666666666666666}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.7002980000106618",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "3",
+        "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 2, \"fp\": 9, \"fn\": 1, \"precision\": 0.18181818181818182, \"recall\": 0.6666666666666666, \"f1\": 0.28571428571428575}",
+        "gold_sentences": "3",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "11",
+        "passages": "11",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "2.7126593999564648",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-3.json",
+    "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+    "verification": {
+      "per_paper_verdicts": {
+        "14717500": {
+          "paper_id": "14717500",
+          "title": "Rare Variants Create Synthetic Genome-Wide Associations",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "2739854": {
+          "paper_id": "2739854",
+          "title": "Rare and common variants: twenty arguments",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23389795": {
+          "paper_id": "23389795",
+          "title": "Common and rare variants in multifactorial susceptibility to common diseases",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13519661": {
+          "paper_id": "13519661",
+          "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4414547": {
+          "paper_id": "4414547",
+          "title": "Mosaic PPM1D mutations are associated with predisposition to breast and ovarian cancer",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "14717500:abstract:1617:1849:a60868c44834": {
+          "passage_id": "14717500:abstract:1617:1849:a60868c44834",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9994673132896423,
+          "truncated": false
+        },
+        "14717500:abstract:0:240:d623adf21696": {
+          "passage_id": "14717500:abstract:0:240:d623adf21696",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9976748824119568,
+          "truncated": false
+        },
+        "14717500:abstract:476:731:6a28a040a24f": {
+          "passage_id": "14717500:abstract:476:731:6a28a040a24f",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9989687204360962,
+          "truncated": false
+        },
+        "2739854:abstract:0:109:8ddbc2c50202": {
+          "passage_id": "2739854:abstract:0:109:8ddbc2c50202",
+          "paper_id": "2739854",
+          "label": "NEUTRAL",
+          "confidence": 0.9983949065208435,
+          "truncated": false
+        },
+        "23389795:abstract:424:671:e0f2a480b779": {
+          "passage_id": "23389795:abstract:424:671:e0f2a480b779",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9993172883987427,
+          "truncated": false
+        },
+        "23389795:abstract:0:243:772659cca088": {
+          "passage_id": "23389795:abstract:0:243:772659cca088",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9990079998970032,
+          "truncated": false
+        },
+        "23389795:abstract:244:423:a73208773e1b": {
+          "passage_id": "23389795:abstract:244:423:a73208773e1b",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9988307356834412,
+          "truncated": false
+        },
+        "13519661:abstract:402:630:8d328612951e": {
+          "passage_id": "13519661:abstract:402:630:8d328612951e",
+          "paper_id": "13519661",
+          "label": "NEUTRAL",
+          "confidence": 0.9982796907424927,
+          "truncated": false
+        },
+        "4414547:abstract:0:138:760213a33f29": {
+          "passage_id": "4414547:abstract:0:138:760213a33f29",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.9988487958908081,
+          "truncated": false
+        },
+        "4414547:abstract:1641:1814:63066ecf5374": {
+          "passage_id": "4414547:abstract:1641:1814:63066ecf5374",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.9986849427223206,
+          "truncated": false
+        },
+        "4414547:abstract:243:649:5da380b9af24": {
+          "passage_id": "4414547:abstract:243:649:5da380b9af24",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.997107207775116,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "14717500:abstract:1617:1849:a60868c44834",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "In conclusion, uncommon or rare genetic variants can easily create synthetic associations that are credited to common variants, and this possibility requires careful consideration in the interpretation and follow up of GWAS signals.",
+          "score": 0.6357018947601318,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14717500:abstract:0:240:d623adf21696",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "Genome-wide association studies (GWAS) have now identified at least 2,000 common variants that appear associated with common diseases or related traits (http://www.genome.gov/gwastudies), hundreds of which have been convincingly replicated.",
+          "score": 0.6238598227500916,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14717500:abstract:476:731:6a28a040a24f",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "We propose as an alternative explanation that variants much less common than the associated one may create \"synthetic associations\" by occurring, stochastically, more often in association with one of the alleles at the common site versus the other allele.",
+          "score": 0.5728593468666077,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "2739854:abstract:0:109:8ddbc2c50202",
+          "paper_id": "2739854",
+          "section": "abstract",
+          "text": "Genome-wide association studies have greatly improved our understanding of the genetic basis of disease risk.",
+          "score": 0.5232477784156799,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:424:671:e0f2a480b779",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "The identification of rare variants involves the careful selection of candidate genes to examine, the availability of highly efficient resequencing techniques and the appropriate assessment of the functional consequences of the implicated variant.",
+          "score": 0.6989741325378418,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:0:243:772659cca088",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "Here, we give a historical overview of the search for genetic variants that influence the susceptibility of an individual to a chronic disease, from RA Fisher's seminal work to the current excitement of whole-genome association studies (WGAS).",
+          "score": 0.6097698211669922,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:244:423:a73208773e1b",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "We then discuss the concepts behind the identification of common variants as disease causal factors and contrast them to the basic ideas that underlie the rare variant hypothesis.",
+          "score": 0.5985223650932312,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13519661:abstract:402:630:8d328612951e",
+          "paper_id": "13519661",
+          "section": "abstract",
+          "text": "In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs).",
+          "score": 0.55661940574646,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:0:138:760213a33f29",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "Improved sequencing technologies offer unprecedented opportunities for investigating the role of rare genetic variation in common disease.",
+          "score": 0.7222722172737122,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:1641:1814:63066ecf5374",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "More generally, these data provide new insights into the role of rare and of mosaic genetic variants in common conditions, and the use of sequencing in their identification.",
+          "score": 0.710564136505127,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:243:649:5da380b9af24",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "Using pooled next-generation sequencing of 507 genes implicated in the repair of DNA in 1,150 samples, an analytical strategy focused on protein-truncating variants (PTVs) and a large-scale sequencing case\u2013control replication experiment in 13,642 individuals, here we show that rare PTVs in the p53-inducible protein phosphatase PPM1D are associated with predisposition to breast cancer and ovarian cancer.",
+          "score": 0.5427759885787964,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "36",
+    "result": {
+      "claim_id": "36",
+      "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 17, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "17",
+      "passages": "14",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "4.281584200041834",
+      "correct": "True",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "36",
+        "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 17, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "17",
+        "passages": "14",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "4.281584200041834",
+        "correct": "True",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-36.json",
+    "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+    "verification": {
+      "per_paper_verdicts": {
+        "33409100": {
+          "paper_id": "33409100",
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "42441846": {
+          "paper_id": "42441846",
+          "title": "Gene--nutrition interactions in coronary artery disease: correlation between the MTHFR C677T polymorphism and folate and homocysteine status in a Korean population.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18557974": {
+          "paper_id": "18557974",
+          "title": "British Journal of Nutrition (2003), 89, 295\u2013301 q The Authors 2003 DOI: 10.1079/BJN2002776 Plasma homocysteine concentration is decreased by dietary intervention*",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "16252863": {
+          "paper_id": "16252863",
+          "title": "Preventing coronary heart disease: B vitamins and homocysteine.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11705328": {
+          "paper_id": "11705328",
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "33409100:abstract:159:277:cd2bf2f16841": {
+          "passage_id": "33409100:abstract:159:277:cd2bf2f16841",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9977467656135559,
+          "truncated": false
+        },
+        "33409100:abstract:1373:1496:5e0755110a76": {
+          "passage_id": "33409100:abstract:1373:1496:5e0755110a76",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9989186525344849,
+          "truncated": false
+        },
+        "33409100:abstract:0:158:b8aebccf37e6": {
+          "passage_id": "33409100:abstract:0:158:b8aebccf37e6",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9986295700073242,
+          "truncated": false
+        },
+        "42441846:abstract:778:853:669c2923c93c": {
+          "passage_id": "42441846:abstract:778:853:669c2923c93c",
+          "paper_id": "42441846",
+          "label": "NEUTRAL",
+          "confidence": 0.9989942908287048,
+          "truncated": false
+        },
+        "42441846:abstract:854:1035:290827bc0939": {
+          "passage_id": "42441846:abstract:854:1035:290827bc0939",
+          "paper_id": "42441846",
+          "label": "NEUTRAL",
+          "confidence": 0.7751368284225464,
+          "truncated": false
+        },
+        "42441846:abstract:0:98:7935497d7469": {
+          "passage_id": "42441846:abstract:0:98:7935497d7469",
+          "paper_id": "42441846",
+          "label": "NEUTRAL",
+          "confidence": 0.9982482194900513,
+          "truncated": false
+        },
+        "18557974:abstract:1285:1436:0d3da860e302": {
+          "passage_id": "18557974:abstract:1285:1436:0d3da860e302",
+          "paper_id": "18557974",
+          "label": "NEUTRAL",
+          "confidence": 0.9987254738807678,
+          "truncated": false
+        },
+        "18557974:abstract:0:106:1677c25d0efe": {
+          "passage_id": "18557974:abstract:0:106:1677c25d0efe",
+          "paper_id": "18557974",
+          "label": "NEUTRAL",
+          "confidence": 0.9994326233863831,
+          "truncated": false
+        },
+        "18557974:abstract:1035:1117:714a320b8565": {
+          "passage_id": "18557974:abstract:1035:1117:714a320b8565",
+          "paper_id": "18557974",
+          "label": "NEUTRAL",
+          "confidence": 0.9985972046852112,
+          "truncated": false
+        },
+        "16252863:abstract:329:812:365471a32cd9": {
+          "passage_id": "16252863:abstract:329:812:365471a32cd9",
+          "paper_id": "16252863",
+          "label": "NEUTRAL",
+          "confidence": 0.9989878535270691,
+          "truncated": false
+        },
+        "16252863:abstract:1364:2151:7cb65395135e": {
+          "passage_id": "16252863:abstract:1364:2151:7cb65395135e",
+          "paper_id": "16252863",
+          "label": "NEUTRAL",
+          "confidence": 0.9991635084152222,
+          "truncated": false
+        },
+        "11705328:abstract:1399:1583:6c2584cbc380": {
+          "passage_id": "11705328:abstract:1399:1583:6c2584cbc380",
+          "paper_id": "11705328",
+          "label": "NEUTRAL",
+          "confidence": 0.9977397918701172,
+          "truncated": false
+        },
+        "11705328:abstract:608:886:b6e1ffb7f4a4": {
+          "passage_id": "11705328:abstract:608:886:b6e1ffb7f4a4",
+          "paper_id": "11705328",
+          "label": "NEUTRAL",
+          "confidence": 0.9993694424629211,
+          "truncated": false
+        },
+        "11705328:abstract:1169:1394:2c530bef70c8": {
+          "passage_id": "11705328:abstract:1169:1394:2c530bef70c8",
+          "paper_id": "11705328",
+          "label": "NEUTRAL",
+          "confidence": 0.9965437054634094,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "33409100:abstract:159:277:cd2bf2f16841",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.",
+          "score": 0.7371882200241089,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "33409100:abstract:1373:1496:5e0755110a76",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "score": 0.6972770094871521,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "33409100:abstract:0:158:b8aebccf37e6",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease.",
+          "score": 0.6507083177566528,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "42441846:abstract:778:853:669c2923c93c",
+          "paper_id": "42441846",
+          "section": "abstract",
+          "text": "Levels of plasma homocysteine, folate and vitamin B12 were also determined.",
+          "score": 0.8477963805198669,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "42441846:abstract:854:1035:290827bc0939",
+          "paper_id": "42441846",
+          "section": "abstract",
+          "text": "We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.",
+          "score": 0.6877762675285339,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "42441846:abstract:0:98:7935497d7469",
+          "paper_id": "42441846",
+          "section": "abstract",
+          "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD).",
+          "score": 0.6424493193626404,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18557974:abstract:1285:1436:0d3da860e302",
+          "paper_id": "18557974",
+          "section": "abstract",
+          "text": "In conclusion, a diet high in fresh berries, citrus fruit, and vegetables effectively increases serum and RBC folate and decreases plasma homocysteine.",
+          "score": 0.7128431797027588,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18557974:abstract:0:106:1677c25d0efe",
+          "paper_id": "18557974",
+          "section": "abstract",
+          "text": "High plasma total homocysteine (tHcy) concentration is reported to be a risk factor for vascular diseases.",
+          "score": 0.6608979105949402,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18557974:abstract:1035:1117:714a320b8565",
+          "paper_id": "18557974",
+          "section": "abstract",
+          "text": "The serum concentration of vitamin B12 remained unchanged during the intervention.",
+          "score": 0.5933929681777954,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16252863:abstract:329:812:365471a32cd9",
+          "paper_id": "16252863",
+          "section": "abstract",
+          "text": "During the 1990s, there have been many reports associating elevated plasma homocysteine levels with arteriosclerotic cardiovascular disease and consistent evidence that dietary and supplemental folic acid can reduce homocysteine levels.1 2   The article by Robinson and colleagues3 in this issue of Circulation presents further evidence of the importance of homocysteine and suggestive evidence that plasma folate and plasma pyrixodal-l-phosphate (vitamin B6) are protective factors.",
+          "score": 0.7099510431289673,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16252863:abstract:1364:2151:7cb65395135e",
+          "paper_id": "16252863",
+          "section": "abstract",
+          "text": "Men in the highest quintile for fasting total homocysteine (tHcy), compared with the remainder of the population, had an estimated relative risk of 2.2 (95% confidence interval [CI], 1.6 to 2.9), with a striking dose-response relationship and a more-than-multiplicative interaction with cigarette smoking and high blood pressure on vascular disease risk4 ; the corresponding estimated relative risk for coronary heart disease was similar (2.0; 95% CI 1.6 to 2.8). (tHcy is the sum of homocysteine and homocysteinyl moieties of oxidized disulfides, homocystine, and cysteine- homocysteine. )   Robinson and colleagues3 examined three B vitamins in detail to determine their effects on fasting and post\u2013methionine-loading tHcy levels and any independent effects on cardiovascular disease \u2026",
+          "score": 0.6689895987510681,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11705328:abstract:1399:1583:6c2584cbc380",
+          "paper_id": "11705328",
+          "section": "abstract",
+          "text": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "score": 0.6865218877792358,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11705328:abstract:608:886:b6e1ffb7f4a4",
+          "paper_id": "11705328",
+          "section": "abstract",
+          "text": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "score": 0.6818623542785645,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11705328:abstract:1169:1394:2c530bef70c8",
+          "paper_id": "11705328",
+          "section": "abstract",
+          "text": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.",
+          "score": 0.6750646829605103,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "436",
+    "result": {
+      "claim_id": "436",
+      "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 2, \"fp\": 12, \"fn\": 0, \"precision\": 0.14285714285714285, \"recall\": 1.0, \"f1\": 0.25}",
+      "gold_sentences": "2",
+      "recovered_gold_sentences": "2",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "14",
+      "passages": "14",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "1",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "2.648856899992097",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "436",
+        "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 2, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.45429710001917556",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "436",
+        "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 2, \"fp\": 1, \"fn\": 0, \"precision\": 0.6666666666666666, \"recall\": 1.0, \"f1\": 0.8}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.27959470002679154",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "436",
+        "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 2, \"fp\": 12, \"fn\": 0, \"precision\": 0.14285714285714285, \"recall\": 1.0, \"f1\": 0.25}",
+        "gold_sentences": "2",
+        "recovered_gold_sentences": "2",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "14",
+        "passages": "14",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "2.648856899992097",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-436.json",
+    "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+    "verification": {
+      "per_paper_verdicts": {
+        "12588500": {
+          "paper_id": "12588500",
+          "title": "Acetylation of Histone H3 Lysine 56 Regulates Replication-Coupled Nucleosome Assembly",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14637235": {
+          "paper_id": "14637235",
+          "title": "Histone levels are regulated by phosphorylation and ubiquitylation dependent proteolysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8267678": {
+          "paper_id": "8267678",
+          "title": "Regulation of chromatin by histone modifications",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "406733": {
+          "paper_id": "406733",
+          "title": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13790144": {
+          "paper_id": "13790144",
+          "title": "Histone structure and nucleosome stability.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "12588500:abstract:303:462:5a04f188ab88": {
+          "passage_id": "12588500:abstract:303:462:5a04f188ab88",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9959942102432251,
+          "truncated": false
+        },
+        "12588500:abstract:463:729:977c1ed31ccb": {
+          "passage_id": "12588500:abstract:463:729:977c1ed31ccb",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9980462789535522,
+          "truncated": false
+        },
+        "12588500:abstract:0:148:b03cfafc498e": {
+          "passage_id": "12588500:abstract:0:148:b03cfafc498e",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9986377358436584,
+          "truncated": false
+        },
+        "14637235:abstract:423:627:0da7320f7f05": {
+          "passage_id": "14637235:abstract:423:627:0da7320f7f05",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9941470623016357,
+          "truncated": false
+        },
+        "14637235:abstract:233:422:8c43d8e11408": {
+          "passage_id": "14637235:abstract:233:422:8c43d8e11408",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9994230270385742,
+          "truncated": false
+        },
+        "14637235:abstract:0:232:2d6813a622e9": {
+          "passage_id": "14637235:abstract:0:232:2d6813a622e9",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9988425970077515,
+          "truncated": false
+        },
+        "8267678:abstract:543:778:e46b97b5954f": {
+          "passage_id": "8267678:abstract:543:778:e46b97b5954f",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9994520545005798,
+          "truncated": false
+        },
+        "8267678:abstract:382:542:d3a5f11254b1": {
+          "passage_id": "8267678:abstract:382:542:d3a5f11254b1",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9990242719650269,
+          "truncated": false
+        },
+        "8267678:abstract:144:252:84faef86e739": {
+          "passage_id": "8267678:abstract:144:252:84faef86e739",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9984850287437439,
+          "truncated": false
+        },
+        "406733:abstract:256:352:01dfc291dd7d": {
+          "passage_id": "406733:abstract:256:352:01dfc291dd7d",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.7759281396865845,
+          "truncated": false
+        },
+        "406733:abstract:353:585:75191a7ec497": {
+          "passage_id": "406733:abstract:353:585:75191a7ec497",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.9983057975769043,
+          "truncated": false
+        },
+        "406733:abstract:586:671:af73298e2983": {
+          "passage_id": "406733:abstract:586:671:af73298e2983",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.9955480098724365,
+          "truncated": false
+        },
+        "13790144:abstract:128:359:625baa773963": {
+          "passage_id": "13790144:abstract:128:359:625baa773963",
+          "paper_id": "13790144",
+          "label": "NEUTRAL",
+          "confidence": 0.9988206028938293,
+          "truncated": false
+        },
+        "13790144:abstract:360:531:44d3799f27ba": {
+          "passage_id": "13790144:abstract:360:531:44d3799f27ba",
+          "paper_id": "13790144",
+          "label": "NEUTRAL",
+          "confidence": 0.9974377155303955,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "12588500:abstract:303:462:5a04f188ab88",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "However, the molecular functions of the acetylation of newly synthesized histones in this DNA replication-coupled nucleosome assembly pathway remain enigmatic.",
+          "score": 0.620684802532196,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12588500:abstract:463:729:977c1ed31ccb",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "Here we show that histone H3 acetylated at lysine 56 (H3K56Ac) is incorporated onto replicating DNA and, by increasing the binding affinity of CAF-1 and Rtt106 for histone H3, H3K56Ac enhances the ability of these histone chaperones to assemble DNA into nucleosomes.",
+          "score": 0.5845136642456055,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12588500:abstract:0:148:b03cfafc498e",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "Chromatin assembly factor 1 (CAF-1) and Rtt106 participate in the deposition of newly synthesized histones onto replicating DNA to form nucleosomes.",
+          "score": 0.5522099137306213,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:423:627:0da7320f7f05",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Here we demonstrate that excess histones associate with Rad53 in vivo and seem to undergo modifications such as tyrosine phosphorylation and polyubiquitylation, before their proteolysis by the proteasome.",
+          "score": 0.7766454219818115,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:233:422:8c43d8e11408",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Although chromosomal histones are stable, excess (non-chromatin bound) histones are rapidly degraded in a Rad53 (radiation sensitive 53) kinase-dependent manner in Saccharomyces cerevisiae.",
+          "score": 0.7602537870407104,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:0:232:2d6813a622e9",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Histone levels are tightly regulated to prevent harmful effects such as genomic instability and hypersensitivity to DNA-damaging agents due to the accumulation of these highly basic proteins when DNA replication slows down or stops.",
+          "score": 0.632006049156189,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:543:778:e46b97b5954f",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "Here, we describe the known histone modifications, define where they are found genomically and discuss some of their functional consequences, concentrating mostly on transcription where the majority of characterisation has taken place.",
+          "score": 0.6051290035247803,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:382:542:d3a5f11254b1",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "However, it is clear that histone modifications play fundamental roles in most biological processes that are involved in the manipulation and expression of DNA.",
+          "score": 0.600459098815918,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:144:252:84faef86e739",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "A principle component of chromatin that plays a key role in this regulation is the modification of histones.",
+          "score": 0.5501422882080078,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:256:352:01dfc291dd7d",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "We have analyzed where the histones for reassembly of the inactive promoter chromatin come from.",
+          "score": 0.5988675355911255,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:353:585:75191a7ec497",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool.",
+          "score": 0.5402109622955322,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:586:671:af73298e2983",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "In this way, we show that the incorporated histones originate from a source in trans.",
+          "score": 0.5247347354888916,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13790144:abstract:128:359:625baa773963",
+          "paper_id": "13790144",
+          "section": "abstract",
+          "text": "Although histones have a high degree of conservation due to constraints to maintain the overall structure of the nucleosomal octameric core, variants have evolved to assume diverse roles in gene regulation and epigenetic silencing.",
+          "score": 0.6243557929992676,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13790144:abstract:360:531:44d3799f27ba",
+          "paper_id": "13790144",
+          "section": "abstract",
+          "text": "Histone variants, post-translational modifications and interactions with chromatin remodeling complexes influence DNA replication, transcription, repair and recombination.",
+          "score": 0.549929141998291,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "5",
+    "result": {
+      "claim_id": "5",
+      "claim": "1/2000 in UK have abnormal PrP positivity.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "CONTRADICTED",
+      "status": "ok",
+      "confidence": "0.890765368938446",
+      "evidence": "{\"tp\": 1, \"fp\": 1, \"fn\": 0, \"precision\": 0.5, \"recall\": 1.0, \"f1\": 0.6666666666666666}",
+      "gold_sentences": "1",
+      "recovered_gold_sentences": "1",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "2",
+      "passages": "2",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "1",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "0.29476509999949485",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "5",
+        "claim": "1/2000 in UK have abnormal PrP positivity.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "1",
+        "passages": "1",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.2816001999890432",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "5",
+        "claim": "1/2000 in UK have abnormal PrP positivity.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "CONTRADICTED",
+        "status": "ok",
+        "confidence": "0.890765368938446",
+        "evidence": "{\"tp\": 1, \"fp\": 1, \"fn\": 0, \"precision\": 0.5, \"recall\": 1.0, \"f1\": 0.6666666666666666}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.33080799999879673",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "5",
+        "claim": "1/2000 in UK have abnormal PrP positivity.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "CONTRADICTED",
+        "status": "ok",
+        "confidence": "0.890765368938446",
+        "evidence": "{\"tp\": 1, \"fp\": 1, \"fn\": 0, \"precision\": 0.5, \"recall\": 1.0, \"f1\": 0.6666666666666666}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "2",
+        "passages": "2",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.29476509999949485",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-5.json",
+    "claim": "1/2000 in UK have abnormal PrP positivity.",
+    "verification": {
+      "per_paper_verdicts": {
+        "13734012": {
+          "paper_id": "13734012",
+          "title": "Prevalent abnormal prion protein in human appendixes after bovine spongiform encephalopathy epizootic: large scale survey",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.890765368938446,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "13734012:abstract:1667:1873:5d0cfa9cd179"
+          ]
+        },
+        "18617259": {
+          "paper_id": "18617259",
+          "title": "Research Letters",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3413083": {
+          "paper_id": "3413083",
+          "title": "Patterns of chlamydia testing in different settings and implications for wider STI diagnosis and care: a probability sample survey of the British population",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11880289": {
+          "paper_id": "11880289",
+          "title": "Effect of mammographic screening from age 40 years on breast cancer mortality in the UK Age trial at 17 years' follow-up: a randomised controlled trial.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "841371": {
+          "paper_id": "841371",
+          "title": "Reliability of patient responses in pay for performance schemes: analysis of national General Practitioner Patient Survey data in England",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "13734012:abstract:893:1079:a1d8bd2633b2": {
+          "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2",
+          "paper_id": "13734012",
+          "label": "NEUTRAL",
+          "confidence": 0.9953651428222656,
+          "truncated": false
+        },
+        "13734012:abstract:1667:1873:5d0cfa9cd179": {
+          "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+          "paper_id": "13734012",
+          "label": "CONTRADICT",
+          "confidence": 0.890765368938446,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2",
+          "paper_id": "13734012",
+          "section": "abstract",
+          "text": "RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million).",
+          "score": 0.663375973701477,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+          "paper_id": "13734012",
+          "section": "abstract",
+          "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+          "score": 0.5231196284294128,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "528",
+    "result": {
+      "claim_id": "528",
+      "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+      "gold": "SUPPORTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 1, \"fp\": 3, \"fn\": 0, \"precision\": 0.25, \"recall\": 1.0, \"f1\": 0.4}",
+      "gold_sentences": "1",
+      "recovered_gold_sentences": "1",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "4",
+      "passages": "4",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "1",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "0.5468579999869689",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "528",
+        "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+        "gold": "SUPPORTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "1",
+        "passages": "1",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.27750729996478185",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "528",
+        "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+        "gold": "SUPPORTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 2, \"fn\": 0, \"precision\": 0.3333333333333333, \"recall\": 1.0, \"f1\": 0.5}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "3",
+        "passages": "3",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.5920467000105418",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "528",
+        "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+        "gold": "SUPPORTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 3, \"fn\": 0, \"precision\": 0.25, \"recall\": 1.0, \"f1\": 0.4}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "4",
+        "passages": "4",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.5468579999869689",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-528.json",
+    "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+    "verification": {
+      "per_paper_verdicts": {
+        "5476778": {
+          "paper_id": "5476778",
+          "title": "Autoimmunity due to molecular mimicry as a cause of neurological disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23326722": {
+          "paper_id": "23326722",
+          "title": "Clinical and laboratory features of adult T-cell leukaemia lymphoma in Barbados.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24512064": {
+          "paper_id": "24512064",
+          "title": "HTLV-I/II associated disease in England and Wales, 1993-7: retrospective review of serology requests.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22705234": {
+          "paper_id": "22705234",
+          "title": "The role of the immune response during SIVagm infection of the African green monkey natural host.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8325952": {
+          "paper_id": "8325952",
+          "title": "The frequency and immunodominance of islet-specific CD8+ T-cell responses change after type 1 diabetes diagnosis and treatment.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "5476778:abstract:551:769:99f28a3df441": {
+          "passage_id": "5476778:abstract:551:769:99f28a3df441",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.9993401169776917,
+          "truncated": false
+        },
+        "5476778:abstract:1053:1169:ac91087400c0": {
+          "passage_id": "5476778:abstract:1053:1169:ac91087400c0",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.994722843170166,
+          "truncated": false
+        },
+        "5476778:abstract:778:825:09c91bf6fde3": {
+          "passage_id": "5476778:abstract:778:825:09c91bf6fde3",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.9967304468154907,
+          "truncated": false
+        },
+        "23326722:abstract:386:489:ccfe151f3b32": {
+          "passage_id": "23326722:abstract:386:489:ccfe151f3b32",
+          "paper_id": "23326722",
+          "label": "NEUTRAL",
+          "confidence": 0.9985957741737366,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "5476778:abstract:551:769:99f28a3df441",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "As a model for molecular mimicry, we studied patients with human T-lymphotropic virus type 1 (HTLV-1)-associated myelopathy/tropical spastic paraparesis (HAM/TSP), a disease that can be indistinguishable from MS (refs.",
+          "score": 0.8138778209686279,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5476778:abstract:1053:1169:ac91087400c0",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "Antibodies to hnRNP-A1 cross-reacted with HTLV-1-tax, the immune response to which is associated with HAM/TSP (refs.",
+          "score": 0.5377340912818909,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5476778:abstract:778:825:09c91bf6fde3",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "HAM/TSP patients develop antibodies to neurons.",
+          "score": 0.5065888166427612,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23326722:abstract:386:489:ccfe151f3b32",
+          "paper_id": "23326722",
+          "section": "abstract",
+          "text": "Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM).",
+          "score": 0.7815198302268982,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "743",
+    "result": {
+      "claim_id": "743",
+      "claim": "Macrolides protect against myocardial infarction.",
+      "gold": "CONTRADICTED",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "INSUFFICIENT",
+      "status": "ok",
+      "confidence": "0.0",
+      "evidence": "{\"tp\": 0, \"fp\": 0, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "1",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "0",
+      "selected_sentences": "0",
+      "passages": "0",
+      "rejected_spans": "0",
+      "gold_documents": "1",
+      "gold_documents_retrieved": "1",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "1",
+      "processing_failures": "[]",
+      "seconds": "0.16889390000142157",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": {
+        "claim_id": "743",
+        "claim": "Macrolides protect against myocardial infarction.",
+        "gold": "CONTRADICTED",
+        "condition": "oracle_gold_rationale",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 1, \"fp\": 0, \"fn\": 0, \"precision\": 1.0, \"recall\": 1.0, \"f1\": 1.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "1",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "1",
+        "passages": "1",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "1",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.16574170003877953",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "gold_papers_production_selector": {
+        "claim_id": "743",
+        "claim": "Macrolides protect against myocardial infarction.",
+        "gold": "CONTRADICTED",
+        "condition": "gold_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 0, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "0",
+        "passages": "0",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.03677760000573471",
+        "correct": "False",
+        "grounding_passed": "True"
+      },
+      "retrieved_papers_production_selector": {
+        "claim_id": "743",
+        "claim": "Macrolides protect against myocardial infarction.",
+        "gold": "CONTRADICTED",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "INSUFFICIENT",
+        "status": "ok",
+        "confidence": "0.0",
+        "evidence": "{\"tp\": 0, \"fp\": 0, \"fn\": 1, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "1",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "0",
+        "selected_sentences": "0",
+        "passages": "0",
+        "rejected_spans": "0",
+        "gold_documents": "1",
+        "gold_documents_retrieved": "1",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "1",
+        "processing_failures": "[]",
+        "seconds": "0.16889390000142157",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-743.json",
+    "claim": "Macrolides protect against myocardial infarction.",
+    "verification": {
+      "per_paper_verdicts": {
+        "10576136": {
+          "paper_id": "10576136",
+          "title": "Interleukin-33 prevents apoptosis and improves survival after experimental myocardial infarction through ST2 signaling.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17897801": {
+          "paper_id": "17897801",
+          "title": "Effects of Abciximab on the architecture of platelet-rich clots in patients with acute myocardial infarction undergoing primary coronary intervention.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3984231": {
+          "paper_id": "3984231",
+          "title": "Caveolin-1 deletion exacerbates cardiac interstitial fibrosis by promoting M2 macrophage activation in mice after myocardial infarction.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32159283": {
+          "paper_id": "32159283",
+          "title": "Antibiotics and risk of subsequent first-time acute myocardial infarction.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4020950": {
+          "paper_id": "4020950",
+          "title": "Roles of exosomes in cardioprotection.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {},
+      "processing_failures": [],
+      "evidence_passages": [],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  },
+  {
+    "claim_id": "913",
+    "result": {
+      "claim_id": "913",
+      "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+      "gold": "INSUFFICIENT",
+      "condition": "retrieved_papers_production_selector",
+      "prediction": "SUPPORTED",
+      "status": "ok",
+      "confidence": "0.8993124961853027",
+      "evidence": "{\"tp\": 0, \"fp\": 5, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+      "gold_sentences": "0",
+      "recovered_gold_sentences": "0",
+      "partial_sentence_fragments": "1",
+      "selected_sentences": "4",
+      "passages": "5",
+      "rejected_spans": "0",
+      "gold_documents": "0",
+      "gold_documents_retrieved": "0",
+      "complete_rationale_docs": "0",
+      "gold_rationale_docs": "0",
+      "processing_failures": "[]",
+      "seconds": "0.9768608000013046",
+      "correct": "False",
+      "grounding_passed": "True"
+    },
+    "condition_results": {
+      "oracle_gold_rationale": null,
+      "gold_papers_production_selector": null,
+      "retrieved_papers_production_selector": {
+        "claim_id": "913",
+        "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+        "gold": "INSUFFICIENT",
+        "condition": "retrieved_papers_production_selector",
+        "prediction": "SUPPORTED",
+        "status": "ok",
+        "confidence": "0.8993124961853027",
+        "evidence": "{\"tp\": 0, \"fp\": 5, \"fn\": 0, \"precision\": 0.0, \"recall\": 0.0, \"f1\": 0.0}",
+        "gold_sentences": "0",
+        "recovered_gold_sentences": "0",
+        "partial_sentence_fragments": "1",
+        "selected_sentences": "4",
+        "passages": "5",
+        "rejected_spans": "0",
+        "gold_documents": "0",
+        "gold_documents_retrieved": "0",
+        "complete_rationale_docs": "0",
+        "gold_rationale_docs": "0",
+        "processing_failures": "[]",
+        "seconds": "0.9768608000013046",
+        "correct": "False",
+        "grounding_passed": "True"
+      }
+    },
+    "replay": "explanation_frontend/evaluation/validation/results/replays/claim-913.json",
+    "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+    "verification": {
+      "per_paper_verdicts": {
+        "9956893": {
+          "paper_id": "9956893",
+          "title": "The Role of PPAR\u03b3 in Advanced Glycation End Products-Induced Inflammatory Response in Human Chondrocytes",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8993124961853027,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "9956893:abstract:921:1038:fcbaba074d03"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "712078": {
+          "paper_id": "712078",
+          "title": "Pharmacological correction of a defect in PPAR\u03b3 signaling ameliorates disease severity in Cftr-deficient mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "56486733": {
+          "paper_id": "56486733",
+          "title": "Peroxisome Proliferator Activated Receptor gamma (PPAR\u03b3) Agonist Rosiglitazone Ameliorate Airway Inflammation by Inhibiting Toll-Like Receptor 2 (TLR2)/Nod-Like Receptor with Pyrin Domain Containing 3 (NLRP3) Inflammatory Corpuscle Activation in Asthmatic Mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11428884": {
+          "paper_id": "11428884",
+          "title": "Lipoatrophy and severe metabolic disturbance in mice with fat-specific deletion of PPAR\u03b3.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22116439": {
+          "paper_id": "22116439",
+          "title": "Pioglitazone prevents tau oligomerization.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "9956893:abstract:1499:1603:62f2de21c0d7": {
+          "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7",
+          "paper_id": "9956893",
+          "label": "NEUTRAL",
+          "confidence": 0.9948070645332336,
+          "truncated": false
+        },
+        "9956893:abstract:921:1038:fcbaba074d03": {
+          "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+          "paper_id": "9956893",
+          "label": "SUPPORT",
+          "confidence": 0.8993124961853027,
+          "truncated": false
+        },
+        "9956893:abstract:203:318:b9c03c321b93": {
+          "passage_id": "9956893:abstract:203:318:b9c03c321b93",
+          "paper_id": "9956893",
+          "label": "NEUTRAL",
+          "confidence": 0.9842431545257568,
+          "truncated": false
+        },
+        "56486733:abstract:1408:1533:8900c4d6c1e9": {
+          "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9",
+          "paper_id": "56486733",
+          "label": "NEUTRAL",
+          "confidence": 0.993569016456604,
+          "truncated": false
+        },
+        "22116439:abstract:959:1066:b1b921c5fdcf": {
+          "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf",
+          "paper_id": "22116439",
+          "label": "NEUTRAL",
+          "confidence": 0.9929654598236084,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "Taken together, PPAR\u03b3 could be a potential target for pharmacologic intervention in the treatment of OA.",
+          "score": 0.6239771842956543,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "PPAR\u03b3 agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPAR\u03b3 down-regulation.",
+          "score": 0.5608336329460144,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9956893:abstract:203:318:b9c03c321b93",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "The aim of this study was to define the roles of PPAR\u03b3 in AGEs-induced inflammatory response in human chondrocytes.",
+          "score": 0.5249602794647217,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9",
+          "paper_id": "56486733",
+          "section": "abstract",
+          "text": "PPARg expression in the treatment group was significantly higher compared to the asthma group and the control group (P<0.05).",
+          "score": 0.5428634285926819,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf",
+          "paper_id": "22116439",
+          "section": "abstract",
+          "text": "Together, our current results support the idea that PPAR\u03b3 agonists may be useful therapeutic agents for AD.",
+          "score": 0.6440656185150146,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    }
+  }
+]
