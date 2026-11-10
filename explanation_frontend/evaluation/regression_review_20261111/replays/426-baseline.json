@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.896018+00:00",
+    "run_id": "2026-11-10T17:37:54.973476+00:00",
     "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
-    "created_at": "2026-11-10T17:36:00.896018Z",
-    "retrieved_at": "2026-11-10T17:36:00.896018Z",
+    "created_at": "2026-11-10T17:37:54.973476Z",
+    "retrieved_at": "2026-11-10T17:37:54.973476Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -270,7 +270,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "ffbf60874629f8c0919504246b7d6a72d55d6bae07656e92bdb42f2c021c12cf",
+  "snapshot_hash": "d50b189ed16fb0f185f4c4492eb4ab395c626653c9d81bfda25edbd11b754996",
   "selected_paper_ids": [
     "14496749",
     "16728949",
@@ -299,7 +299,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "f9c090004febdea2b7dc57660a774d3a37345fc44af65fd0758a3855de3b6dc8",
+    "context_key": "d2c1127829ea315df06c7daa94bf9584a81c7693c500bd0a087d3f01de16e2e4",
     "verdict": "SUPPORTED",
     "statements": [
       {

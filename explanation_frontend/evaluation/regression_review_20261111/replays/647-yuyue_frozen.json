@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.914578+00:00",
+    "run_id": "2026-11-10T17:37:54.994026+00:00",
     "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
-    "created_at": "2026-11-10T17:36:00.914578Z",
-    "retrieved_at": "2026-11-10T17:36:00.914578Z",
+    "created_at": "2026-11-10T17:37:54.994026Z",
+    "retrieved_at": "2026-11-10T17:37:54.994026Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -170,7 +170,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "e8e31936a75629ceb858c586f8650aa4159eb59c68253b1e007f65456d44e07c",
+  "snapshot_hash": "acfaa98e09bbfe35eb5a51a18048b6c3c0d5dc6b574b1aa39929f7d0faf2c8c6",
   "selected_paper_ids": [
     "15041758",
     "15968271",
@@ -188,7 +188,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "bedabbe4c9abd5070397365c2898ae38c11f9bf04b836ba946a0449558c6cb92",
+    "context_key": "f9dcfd511deab704784ac8a9c0411da831b8b021f5614fc732d444bba8ac9131",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

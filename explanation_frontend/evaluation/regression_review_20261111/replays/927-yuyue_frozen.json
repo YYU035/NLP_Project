@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.938749+00:00",
+    "run_id": "2026-11-10T17:37:55.018938+00:00",
     "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
-    "created_at": "2026-11-10T17:36:00.938749Z",
-    "retrieved_at": "2026-11-10T17:36:00.938749Z",
+    "created_at": "2026-11-10T17:37:55.018938Z",
+    "retrieved_at": "2026-11-10T17:37:55.018938Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -170,7 +170,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "3ffc5cf3b33064631841ed629cd7372a77ce424e9ce307f06fc1c3040da0d695",
+  "snapshot_hash": "fc30c352faeeb02be03d69277e9776cd84f6a6e56f14fed1010bf9d3fea9ea99",
   "selected_paper_ids": [
     "14021596",
     "16390264",
@@ -188,7 +188,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "c271066e01c2030494648a2dd33b01efe5d5d0b52d3d6fc98caa75d1a6ed317d",
+    "context_key": "554108680014c3f3836d8fa77dd4a4b44f20fd2b82cabb51b348ddabd5b22131",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

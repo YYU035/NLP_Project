@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.948247+00:00",
+    "run_id": "2026-11-10T17:37:55.027942+00:00",
     "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
-    "created_at": "2026-11-10T17:36:00.948247Z",
-    "retrieved_at": "2026-11-10T17:36:00.948247Z",
+    "created_at": "2026-11-10T17:37:55.027942Z",
+    "retrieved_at": "2026-11-10T17:37:55.027942Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -189,7 +189,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "8348318e2fefdeabcb90be0731c569a931a145d728c455381bfdd1cf9e24f80c",
+  "snapshot_hash": "60b5a51de6724736c6ecfafef5dafd6e97cd83f3d5e2ae2438dc3b60a7aad0f6",
   "selected_paper_ids": [
     "12100854",
     "15803282",
@@ -207,7 +207,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "e1bd3c44adcb4c1f27e6441c6048661c562f53fbbda54745fa268633c78b8a63",
+    "context_key": "6d40e569723b1a154f6b223f0d18d18d6c843ba428e91577a48855f195449433",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

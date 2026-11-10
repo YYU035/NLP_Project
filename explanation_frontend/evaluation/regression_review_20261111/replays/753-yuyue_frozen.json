@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.931230+00:00",
+    "run_id": "2026-11-10T17:37:55.010560+00:00",
     "claim": "Malaria has a high vectorial capacity.",
-    "created_at": "2026-11-10T17:36:00.931230Z",
-    "retrieved_at": "2026-11-10T17:36:00.931230Z",
+    "created_at": "2026-11-10T17:37:55.010560Z",
+    "retrieved_at": "2026-11-10T17:37:55.010560Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -219,7 +219,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "afe27f449fe0acfba759a01fbbb922e0b7b6e332c62b94938010660db637e296",
+  "snapshot_hash": "6c82e7283dad5db165f9657e20afba27032a9302393fec843e00f9d212d8d15d",
   "selected_paper_ids": [
     "1349033",
     "13959707",
@@ -248,7 +248,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "3d8fa44253d879a39e509dfac2d4c6e226111949aa8a6b6d48f62740fe3cb0dd",
+    "context_key": "c3f50e91d981b0d9f048f87004601e1e1e6fd5118972fe67ce2d6b284d26e901",
     "verdict": "SUPPORTED",
     "statements": [
       {

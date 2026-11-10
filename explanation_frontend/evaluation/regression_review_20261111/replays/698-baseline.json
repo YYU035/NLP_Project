@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.921102+00:00",
+    "run_id": "2026-11-10T17:37:55.000047+00:00",
     "claim": "Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).",
-    "created_at": "2026-11-10T17:36:00.921102Z",
-    "retrieved_at": "2026-11-10T17:36:00.921102Z",
+    "created_at": "2026-11-10T17:37:55.000047Z",
+    "retrieved_at": "2026-11-10T17:37:55.000047Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -274,7 +274,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "14aca3fda0e2e9f112a313fb94a17daa6887d01909d56f9aa5ba71ad9c732a99",
+  "snapshot_hash": "68900203918373c06b03554aaf272e4aa83df15fe93f307d616c699255553a82",
   "selected_paper_ids": [
     "14178995",
     "15692098",
@@ -292,7 +292,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "daaf4535e52d3888e9958dc91fa17f2d5c3d3810814e215dda120de854ff8dfc",
+    "context_key": "b6f9186934314b6ac7af0b7b97a8667bba6430bd23c8c0b2ea1db94503419f9d",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.905536+00:00",
+    "run_id": "2026-11-10T17:37:54.982992+00:00",
     "claim": "Genomic sequences involved in alternative splicing responsible for Hutchinson-Gilford progeria syndrome (HGPS) are abundant in the ''progerinonly'' allele of Lmna knock-in models.",
-    "created_at": "2026-11-10T17:36:00.905536Z",
-    "retrieved_at": "2026-11-10T17:36:00.905536Z",
+    "created_at": "2026-11-10T17:37:54.982992Z",
+    "retrieved_at": "2026-11-10T17:37:54.982992Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -240,7 +240,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "44761bc144cd69d01cce1d4f3d6d7b8064f8a89e84eeaf8c09beae6afada5ccf",
+  "snapshot_hash": "57fd406d9602138f84041d3aea90574151dbd5df90add5ce2a84078cfa78985d",
   "selected_paper_ids": [
     "14178995",
     "15692098",
@@ -258,7 +258,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "aceb8eec5103dd0d1bc594f9246be9a08985be9b30ffc02a82e29a10e4c5ddc8",
+    "context_key": "39c48a326cba60e24f6ef64901dfd2dbd9f024741212713a59abe4d80e447e20",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

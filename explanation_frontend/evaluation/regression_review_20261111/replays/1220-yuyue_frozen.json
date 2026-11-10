@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.960837+00:00",
+    "run_id": "2026-11-10T17:37:55.041094+00:00",
     "claim": "The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
-    "created_at": "2026-11-10T17:36:00.960837Z",
-    "retrieved_at": "2026-11-10T17:36:00.960837Z",
+    "created_at": "2026-11-10T17:37:55.041094Z",
+    "retrieved_at": "2026-11-10T17:37:55.041094Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -170,7 +170,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "9c1dac29ff14bcf7b900948af2f01f1604a07bc1b097a64de9f6389fc0bdd3ef",
+  "snapshot_hash": "0b4b4843adbbf9390ca6cbb45d6eeb4539266ea22334f9a520f54ba4267d50d6",
   "selected_paper_ids": [
     "10993232",
     "13023410",
@@ -188,7 +188,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "4eedf866c18fa20820566d03ef1019ec8dec4276d34830fbbdd8792e0cd5e1aa",
+    "context_key": "9166d8878d93467daaba5d9d20794c488dffd431729296e131ff21956be6d4e5",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

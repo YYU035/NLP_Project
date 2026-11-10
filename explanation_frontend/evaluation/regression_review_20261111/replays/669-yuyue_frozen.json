@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.919099+00:00",
+    "run_id": "2026-11-10T17:37:54.998039+00:00",
     "claim": "Klf4 is not required for proper myeloid cell differentiation.",
-    "created_at": "2026-11-10T17:36:00.919099Z",
-    "retrieved_at": "2026-11-10T17:36:00.919099Z",
+    "created_at": "2026-11-10T17:37:54.998039Z",
+    "retrieved_at": "2026-11-10T17:37:54.998039Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -206,7 +206,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "e4249f689dae54f1874f2e58f61796d052d6f1134062dfde0e5ee6e751137e84",
+  "snapshot_hash": "36a296a0839785bc7fec1b91246c7e2618da4962d40f65b860860987d2375658",
   "selected_paper_ids": [
     "18489989",
     "22150633",
@@ -224,7 +224,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "fbab57f452060c16e94048ad0db7797a4cbb56add8b44e6954966d1e4aee78d3",
+    "context_key": "0b527ce23e3e05bf4482c241adc312d2fa53ecf9f07868e94708b9e48863edaa",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

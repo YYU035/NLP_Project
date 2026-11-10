@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.933224+00:00",
+    "run_id": "2026-11-10T17:37:55.013059+00:00",
     "claim": "Microcin J25 encourages nucleoside triphosphate (NTP) binding.",
-    "created_at": "2026-11-10T17:36:00.933224Z",
-    "retrieved_at": "2026-11-10T17:36:00.933224Z",
+    "created_at": "2026-11-10T17:37:55.013059Z",
+    "retrieved_at": "2026-11-10T17:37:55.013059Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -236,7 +236,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "1f3db9e23dca4774a0826f92158ef67da3efc9c9835139eb20756b9fa1a59954",
+  "snapshot_hash": "b4517d85c43e4ac65ba658669eebde25bce79ac34961bdcf061e925306f9efbe",
   "selected_paper_ids": [
     "15419873",
     "2991954",
@@ -265,7 +265,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "bceb7d9cb314f6ee64b8564e72d252f1a6fc176b30d83815fe7d07278a32eb54",
+    "context_key": "9598902bfc5d9559123374139d2cd95b79bf67ea041f349e6f4043abc040c44e",
     "verdict": "CONTRADICTED",
     "statements": [
       {

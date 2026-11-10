@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.967837+00:00",
+    "run_id": "2026-11-10T17:37:55.047596+00:00",
     "claim": "There is no increased risk of hypospadias with clomiphene.",
-    "created_at": "2026-11-10T17:36:00.967837Z",
-    "retrieved_at": "2026-11-10T17:36:00.967837Z",
+    "created_at": "2026-11-10T17:37:55.047596Z",
+    "retrieved_at": "2026-11-10T17:37:55.047596Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -236,7 +236,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "5e9c14f79cdb978923ed39c466dc941b53dee7195d0b4cbbc85eed2f5417406c",
+  "snapshot_hash": "1d79b41979ddc160358233737aa3b18e36149de7a60a0f41dfec5eae90720a0d",
   "selected_paper_ids": [
     "14827874",
     "17625068",
@@ -265,7 +265,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "35bc6464c2d3bf4afcfcd82cbc17a630621d5121849195b04298bb1b2b7771f1",
+    "context_key": "68363f68544d151fe4c064b1a1e03510ec54bbf1988e3846cc431466fe6a5593",
     "verdict": "CONTRADICTED",
     "statements": [
       {

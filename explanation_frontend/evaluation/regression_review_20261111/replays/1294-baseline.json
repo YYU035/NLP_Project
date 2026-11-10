@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.971358+00:00",
+    "run_id": "2026-11-10T17:37:55.051601+00:00",
     "claim": "There is no known interaction between Pioneer factor OCT3/4 and major chromatin remodeling factors.",
-    "created_at": "2026-11-10T17:36:00.971358Z",
-    "retrieved_at": "2026-11-10T17:36:00.971358Z",
+    "created_at": "2026-11-10T17:37:55.051601Z",
+    "retrieved_at": "2026-11-10T17:37:55.051601Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -238,7 +238,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "e9faa3cb4601255d969a4e72539f7a4d87e407f33563676cad51d3786b00b2bc",
+  "snapshot_hash": "5f6a49ffae7d54df6a3063eb68707bdb93e31d533b0d647ff94572530907fc31",
   "selected_paper_ids": [
     "11011905",
     "13790144",
@@ -267,7 +267,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "d1d7259b027ad1001dc5564a327078d27b14da90d60fd98a276207833f30cab7",
+    "context_key": "ee31dc9aaf7f091bc331f18cbb69201558606e3236561e88625970e3a930f85f",
     "verdict": "CONTRADICTED",
     "statements": [
       {

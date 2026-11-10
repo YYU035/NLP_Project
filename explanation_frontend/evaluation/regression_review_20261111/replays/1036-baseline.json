@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.950249+00:00",
+    "run_id": "2026-11-10T17:37:55.030050+00:00",
     "claim": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
-    "created_at": "2026-11-10T17:36:00.950249Z",
-    "retrieved_at": "2026-11-10T17:36:00.950249Z",
+    "created_at": "2026-11-10T17:37:55.030050Z",
+    "retrieved_at": "2026-11-10T17:37:55.030050Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -287,7 +287,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "b66c8b1dfb1a2f701fe821cd393350514127f59b098fe401de31d83b7f64b755",
+  "snapshot_hash": "94e045058f991798b1dbc47f8d8c6a47cea7306db3a9b5f12a445f90fc856940",
   "selected_paper_ids": [
     "14225271",
     "15803282",
@@ -316,7 +316,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "954e17941cba2bc26572b349a5b5ef204167a12cc75eb46b49f9756ce6064acd",
+    "context_key": "dafccfd63e1c7c59602e6d00ceb92749a6bc5dd67a0a1c628d071f39f97f4a1e",
     "verdict": "SUPPORTED",
     "statements": [
       {

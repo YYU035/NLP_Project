@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.909058+00:00",
+    "run_id": "2026-11-10T17:37:54.986510+00:00",
     "claim": "HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).",
-    "created_at": "2026-11-10T17:36:00.909058Z",
-    "retrieved_at": "2026-11-10T17:36:00.909058Z",
+    "created_at": "2026-11-10T17:37:54.986510Z",
+    "retrieved_at": "2026-11-10T17:37:54.986510Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -298,7 +298,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "226f435715fe1e15617cf046c8acd9cc0a88a9c1bf12d6668b9031a53ea061c1",
+  "snapshot_hash": "df11bd6c09e4564e3085b76b0ee9738549e704f5f52c99c46a93658223d383b6",
   "selected_paper_ids": [
     "12662435",
     "23206239",
@@ -337,7 +337,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "260ae92b19023a1f653a97d2fa5517149206b0db77847a9a9dbdfdf38da8820f",
+    "context_key": "2edbbf10b31cf22db459bfae1b108c667cc7b3cc6272cc8fbcdca6453abc8cc6",
     "verdict": "CONTRADICTED",
     "statements": [
       {

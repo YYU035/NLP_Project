@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.882504+00:00",
+    "run_id": "2026-11-10T17:37:54.958838+00:00",
     "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
-    "created_at": "2026-11-10T17:36:00.882504Z",
-    "retrieved_at": "2026-11-10T17:36:00.882504Z",
+    "created_at": "2026-11-10T17:37:54.958838Z",
+    "retrieved_at": "2026-11-10T17:37:54.958838Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -338,7 +338,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "87f0f960e90ad36c246bef10de0822e918c95fd4eaee3c0a60fb8cebad271a48",
+  "snapshot_hash": "5d3dd3f9b325e1d5757c2bcd4e8bea5150c26eebcb9f49b179bd7e8a14e690e4",
   "selected_paper_ids": [
     "11250124",
     "25623469",
@@ -367,7 +367,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "356ac794cb2a39c142e897db02b87a9660b1db3680a43e81a4ad579bbc59c98d",
+    "context_key": "941580245ec4a0d64241a3c5a635037d29c8ade90a37d6a6f334c767e341b48b",
     "verdict": "CONTRADICTED",
     "statements": [
       {

@@ -39,8 +39,15 @@ def test_generated_review_has_blank_human_fields_and_portable_offline_links():
     assert all(d['diagnosis'] in ('recovered_baseline_error','persistent_error_not_a_regression') for d in diagnostics if not d['is_regression'])
     assert all(row[field]=='' for row in rows for field in ['evidence_supports_verdict','citation_correct','context_helpful','reviewer_name','issue_notes'])
     class Links(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True);self.in_quote=False;self.parts=[];self.quotes=[]
+        def handle_data(self,data):
+            if self.in_quote:self.parts.append(data)
+        def handle_endtag(self,tag):
+            if tag=='blockquote':self.quotes.append(''.join(self.parts));self.parts=[];self.in_quote=False
         def handle_starttag(self,tag,attrs):
             assert tag!='script'
+            if tag=='blockquote':self.in_quote=True;self.parts=[]
             for name,value in attrs:
                 assert not name.lower().startswith('on')
                 if name not in ['href','src']:continue
@@ -50,7 +57,12 @@ def test_generated_review_has_blank_human_fields_and_portable_offline_links():
                 assert path.is_relative_to(root.resolve()) and path.is_file(),value
     parser=Links()
     for page in root.rglob('*.html'):
-        parser.current=page;parser.feed(page.read_text(encoding='utf-8'))
+        parser.current=page;parser.quotes=[];parser.feed(page.read_text(encoding='utf-8'))
+        if page.stem.isdigit():
+            from explanation_frontend.export import import_snapshot
+            for arm in ['baseline','yuyue_frozen']:
+                bundle=import_snapshot((root/'replays'/f'{page.stem}-{arm}.json').read_bytes())
+                assert all(p.text in parser.quotes for p in bundle.snapshot.verification.evidence_passages)
 
 
 def test_rebuild_refuses_to_overwrite_existing_human_review(monkeypatch,tmp_path):

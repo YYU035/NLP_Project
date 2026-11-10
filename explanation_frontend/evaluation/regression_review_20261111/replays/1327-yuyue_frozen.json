@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.976397+00:00",
+    "run_id": "2026-11-10T17:37:55.057600+00:00",
     "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
-    "created_at": "2026-11-10T17:36:00.976397Z",
-    "retrieved_at": "2026-11-10T17:36:00.976397Z",
+    "created_at": "2026-11-10T17:37:55.057600Z",
+    "retrieved_at": "2026-11-10T17:37:55.057600Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -206,7 +206,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "b4a70c7d1d065462ee8b5a86bf66bb3196a600216b3575f0b4cfe95ab4688108",
+  "snapshot_hash": "12e896028a13033c589ecc9b38cf5491687afeb16acfd3207e6399fa3f17fcc3",
   "selected_paper_ids": [
     "10365749",
     "22414304",
@@ -224,7 +224,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "52c84ccbaf2ceea4d6b1f11bdc7ab25d84971a63b30bf08b42baefcb20a44e5a",
+    "context_key": "edb3f7139198ca44e94a61fc5376bc633c3114b79f6eea32e27c778e2a1e48db",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

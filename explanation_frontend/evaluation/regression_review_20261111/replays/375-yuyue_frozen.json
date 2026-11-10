@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.893023+00:00",
+    "run_id": "2026-11-10T17:37:54.969959+00:00",
     "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
-    "created_at": "2026-11-10T17:36:00.893023Z",
-    "retrieved_at": "2026-11-10T17:36:00.893023Z",
+    "created_at": "2026-11-10T17:37:54.969959Z",
+    "retrieved_at": "2026-11-10T17:37:54.969959Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -189,7 +189,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "05c0f69c52c084bf657bb86c68dfcf7a660a74e45af443e2566af1cb80e90816",
+  "snapshot_hash": "a8e89d8c72a26f63350d7d68272d8c413e39d9a7c9c968571ea6ddfaedd5afb1",
   "selected_paper_ids": [
     "1522647",
     "20459964",
@@ -207,7 +207,7 @@
     "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
   },
   "explanation": {
-    "context_key": "195e10e07f238c74555fc92f3860735c1d36e2afdf7c9253f031301fdf8220b9",
+    "context_key": "f1098b3d649cb5af82645c166043731569f9d69e1754476be22747d94644def4",
     "verdict": "INSUFFICIENT",
     "statements": [],
     "correction": null,

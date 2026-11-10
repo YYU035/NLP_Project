@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.889025+00:00",
+    "run_id": "2026-11-10T17:37:54.965856+00:00",
     "claim": "Egr2 regulates the homeostasis of B and T cells.",
-    "created_at": "2026-11-10T17:36:00.889025Z",
-    "retrieved_at": "2026-11-10T17:36:00.889025Z",
+    "created_at": "2026-11-10T17:37:54.965856Z",
+    "retrieved_at": "2026-11-10T17:37:54.965856Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -202,7 +202,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "26f007d71b2ea243579ef7cd31dd8afcde260f94cb8aa544525cb8e8c949c2d5",
+  "snapshot_hash": "015750d92bc232968a926888ac85a0a8c79f0366307240cd2334b429706c858d",
   "selected_paper_ids": [
     "1550937",
     "21012916",
@@ -231,7 +231,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "7f41d87a792b8bbc1aaf9fe73be803df36bb8eccd02768ca59e73f403c82703d",
+    "context_key": "91b8ea137bd5a3e740e821794421bde4977159a465706d8d95ccf9cb09432a70",
     "verdict": "SUPPORTED",
     "statements": [
       {

@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.964836+00:00",
+    "run_id": "2026-11-10T17:37:55.045098+00:00",
     "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
-    "created_at": "2026-11-10T17:36:00.964836Z",
-    "retrieved_at": "2026-11-10T17:36:00.964836Z",
+    "created_at": "2026-11-10T17:37:55.045098Z",
+    "retrieved_at": "2026-11-10T17:37:55.045098Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -219,7 +219,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "0745316163bbf97164ade29d776c795461d1616fccf94f25f5e89c200f8f94e9",
+  "snapshot_hash": "d3bd6508d5512d66d949db7e813917588b2e2f49a39dc35dfc95779312f445c2",
   "selected_paper_ids": [
     "1102268",
     "25641414",
@@ -248,7 +248,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "ccb1979f371e2aeb17afe270daa50f39b181363ec4d666a66aa6da4f7b66f495",
+    "context_key": "dbb1fd90b4a3f66a90da728cbed73960b8a4a517939f0614e26cc443a932ed1c",
     "verdict": "SUPPORTED",
     "statements": [
       {

@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.954256+00:00",
+    "run_id": "2026-11-10T17:37:55.035049+00:00",
     "claim": "Satellite cell dysfunction is a key factor in sarcopenia development.",
-    "created_at": "2026-11-10T17:36:00.954256Z",
-    "retrieved_at": "2026-11-10T17:36:00.954256Z",
+    "created_at": "2026-11-10T17:37:55.035049Z",
+    "retrieved_at": "2026-11-10T17:37:55.035049Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -236,7 +236,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "800faafb81dcb5f6edefc45f5173c643e314830d450fdbec0e63938ef4c0d124",
+  "snapshot_hash": "273e398bc371e5a8439c4b4effe4cdcb17fd9c712700dd0c5576d3f7d5c5bbf0",
   "selected_paper_ids": [
     "16660256",
     "20186814",
@@ -265,7 +265,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "ce0f6462878864f1aca7411600fe5626799104e78153db205ab78e9982f9f738",
+    "context_key": "5a21a85e8b5b1255f8a3152d3f4a1e11b09aa094fde4fced0323b4e52e3583e6",
     "verdict": "CONTRADICTED",
     "statements": [
       {

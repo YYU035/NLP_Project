@@ -3,10 +3,10 @@
   "replay_mode": "cached",
   "snapshot": {
     "schema_version": "1.0",
-    "run_id": "2026-11-10T17:36:00.900539+00:00",
+    "run_id": "2026-11-10T17:37:54.977981+00:00",
     "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
-    "created_at": "2026-11-10T17:36:00.900539Z",
-    "retrieved_at": "2026-11-10T17:36:00.900539Z",
+    "created_at": "2026-11-10T17:37:54.977981Z",
+    "retrieved_at": "2026-11-10T17:37:54.977981Z",
     "mode": "cached",
     "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
     "filters": {
@@ -306,7 +306,7 @@
     "explicit_replacements": {},
     "discovery_context": null
   },
-  "snapshot_hash": "e19b71b248f9d0e4d68ce7550e3a2556330f7a51bd3d84abbd2130363ccf6acb",
+  "snapshot_hash": "ca479caa70d8bf75df3575ab4e04c365c00bafe9979e05cce8fdaa6cf798c2f2",
   "selected_paper_ids": [
     "14225271",
     "16728949",
@@ -335,7 +335,7 @@
     "sufficiency_cause": null
   },
   "explanation": {
-    "context_key": "7f0e747004ffdb7e83ceaa2d7787b8a96349657967cf6bc68a6503fe02df81dd",
+    "context_key": "77ab309042b55eeefe28922df005f249bcf4721d58fd1189092c856897e0159c",
     "verdict": "SUPPORTED",
     "statements": [
       {
