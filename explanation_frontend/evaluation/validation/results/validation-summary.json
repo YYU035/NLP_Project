@@ -1,0 +1,1719 @@
+{
+  "date": "2026-11-10",
+  "baseline_commit": "0e724e74ee38b1459af2870a2cdb9aa4c438bf26",
+  "science": {
+    "claims": 300,
+    "corpus": 5183,
+    "settings": {
+      "scifact_claims": 300,
+      "candidate_universe": "all5183 corpus abstracts; never inject gold papers",
+      "methods": [
+        "bm25",
+        "sbert",
+        "rrf"
+      ],
+      "fusion_branch_depth": 100,
+      "rrf_k": 60,
+      "verify_paper_depth": 5,
+      "selector": "production exact-string split and frozen semantic policy",
+      "controls": [
+        "oracle_gold_rationale",
+        "gold_papers_production_selector",
+        "retrieved_papers_production_selector"
+      ],
+      "confidence_intervals": "seeded percentile bootstrap,2000 repeats; claim units for SciFact; related claims can remain dependent",
+      "no_positive_policy": "112 no-positive claims included as closed-benchmark INSUFFICIENT; evidence F1 denominator excludes these and reports their selections separately"
+    },
+    "no_tuning": true,
+    "elapsed_seconds": 620.9278480000212,
+    "unique_nli_calls": 2581,
+    "exact_input_cache_hits": 637,
+    "conditions": {
+      "oracle_gold_rationale": {
+        "all": {
+          "n": 188,
+          "accuracy": 0.6117021276595744,
+          "macro_f1": 0.7608039755080309,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9850746268656716,
+              "recall": 0.532258064516129,
+              "f1": 0.6910994764397906,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.9074074074074074,
+              "recall": 0.765625,
+              "f1": 0.8305084745762712,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 66,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 53,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 49,
+              "INSUFFICIENT": 13,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive_claims": {
+          "n": 188,
+          "accuracy": 0.6117021276595744,
+          "macro_f1": 0.7608039755080309,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.9850746268656716,
+              "recall": 0.532258064516129,
+              "f1": 0.6910994764397906,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.9074074074074074,
+              "recall": 0.765625,
+              "f1": 0.8305084745762712,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 66,
+              "CONTRADICTED": 5,
+              "INSUFFICIENT": 53,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 49,
+              "INSUFFICIENT": 13,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "operational_failures": 0,
+        "accuracy_ci": {
+          "n": 188,
+          "clusters": 188,
+          "estimate": 0.6117021276595744,
+          "low": 0.5425531914893617,
+          "high": 0.6808510638297872,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        },
+        "evidence_micro_positive_only": {
+          "tp": 366,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "selected_sentences_on_no_positive_claims": 0,
+        "complete_rationale_document_recall": 1.0
+      },
+      "gold_papers_production_selector": {
+        "all": {
+          "n": 188,
+          "accuracy": 0.5319148936170213,
+          "macro_f1": 0.6815488493867989,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.4274193548387097,
+              "f1": 0.5988700564971752,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.7966101694915254,
+              "recall": 0.734375,
+              "f1": 0.7642276422764227,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 53,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 52,
+              "CONFLICTING": 7,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 47,
+              "INSUFFICIENT": 17,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive_claims": {
+          "n": 188,
+          "accuracy": 0.5319148936170213,
+          "macro_f1": 0.6815488493867989,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.4274193548387097,
+              "f1": 0.5988700564971752,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.7966101694915254,
+              "recall": 0.734375,
+              "f1": 0.7642276422764227,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 53,
+              "CONTRADICTED": 12,
+              "INSUFFICIENT": 52,
+              "CONFLICTING": 7,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 47,
+              "INSUFFICIENT": 17,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "operational_failures": 0,
+        "accuracy_ci": {
+          "n": 188,
+          "clusters": 188,
+          "estimate": 0.5319148936170213,
+          "low": 0.4574468085106383,
+          "high": 0.6011968085106376,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        },
+        "evidence_micro_positive_only": {
+          "tp": 196,
+          "fp": 338,
+          "fn": 170,
+          "precision": 0.36704119850187267,
+          "recall": 0.5355191256830601,
+          "f1": 0.4355555555555556
+        },
+        "selected_sentences_on_no_positive_claims": 0,
+        "complete_rationale_document_recall": 0.7177033492822966
+      },
+      "retrieved_papers_production_selector": {
+        "all": {
+          "n": 300,
+          "accuracy": 0.5666666666666667,
+          "macro_f1": 0.5839273176356198,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED",
+            "INSUFFICIENT"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 0.8545454545454545,
+              "recall": 0.3790322580645161,
+              "f1": 0.5251396648044693,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.5274725274725275,
+              "recall": 0.75,
+              "f1": 0.6193548387096776,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.5555555555555556,
+              "recall": 0.6696428571428571,
+              "f1": 0.6072874493927126,
+              "support": 112
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 47,
+              "CONTRADICTED": 15,
+              "INSUFFICIENT": 45,
+              "CONFLICTING": 17,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 48,
+              "INSUFFICIENT": 15,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 8,
+              "CONTRADICTED": 28,
+              "INSUFFICIENT": 75,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "positive_claims": {
+          "n": 188,
+          "accuracy": 0.5053191489361702,
+          "macro_f1": 0.6528065570751025,
+          "macro_classes": [
+            "SUPPORTED",
+            "CONTRADICTED"
+          ],
+          "per_class": {
+            "SUPPORTED": {
+              "precision": 1.0,
+              "recall": 0.3790322580645161,
+              "f1": 0.5497076023391814,
+              "support": 124
+            },
+            "CONTRADICTED": {
+              "precision": 0.7619047619047619,
+              "recall": 0.75,
+              "f1": 0.7559055118110236,
+              "support": 64
+            },
+            "INSUFFICIENT": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            }
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 47,
+              "CONTRADICTED": 15,
+              "INSUFFICIENT": 45,
+              "CONFLICTING": 17,
+              "PROCESSING_FAILURE": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 48,
+              "INSUFFICIENT": 15,
+              "CONFLICTING": 1,
+              "PROCESSING_FAILURE": 0
+            },
+            "INSUFFICIENT": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "INSUFFICIENT": 0,
+              "CONFLICTING": 0,
+              "PROCESSING_FAILURE": 0
+            }
+          },
+          "macro_scope": "Macro over gold-present declared classes (all3 in the complete main cohort,2 in positive-only controls); CONFLICTING/operational failures count as errors."
+        },
+        "operational_failures": 0,
+        "accuracy_ci": {
+          "n": 300,
+          "clusters": 300,
+          "estimate": 0.5666666666666667,
+          "low": 0.51,
+          "high": 0.6200833333333329,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        },
+        "evidence_micro_positive_only": {
+          "tp": 177,
+          "fp": 1473,
+          "fn": 189,
+          "precision": 0.10727272727272727,
+          "recall": 0.48360655737704916,
+          "f1": 0.17559523809523808
+        },
+        "selected_sentences_on_no_positive_claims": 711,
+        "complete_rationale_document_recall": 0.6507177033492823
+      }
+    },
+    "calibration": {
+      "n": 338,
+      "ece_10_bins": 0.39753629037967103,
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 2,
+          "accuracy": 1,
+          "mean_confidence": 0.4381747394800186
+        },
+        {
+          "lower": 0.5,
+          "n": 16,
+          "accuracy": 0.4375,
+          "mean_confidence": 0.5430087819695473
+        },
+        {
+          "lower": 0.6,
+          "n": 14,
+          "accuracy": 0.35714285714285715,
+          "mean_confidence": 0.6467533026422773
+        },
+        {
+          "lower": 0.7,
+          "n": 17,
+          "accuracy": 0.35294117647058826,
+          "mean_confidence": 0.7600778341293335
+        },
+        {
+          "lower": 0.8,
+          "n": 28,
+          "accuracy": 0.5,
+          "mean_confidence": 0.8503109429563794
+        },
+        {
+          "lower": 0.9,
+          "n": 261,
+          "accuracy": 0.5593869731800766,
+          "mean_confidence": 0.98379654902608
+        }
+      ],
+      "selective_accuracy": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy": 0.5325443786982249
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.9940828402366864,
+          "accuracy": 0.5297619047619048
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.9053254437869822,
+          "accuracy": 0.5424836601307189
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.772189349112426,
+          "accuracy": 0.5593869731800766
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.6952662721893491,
+          "accuracy": 0.5446808510638298
+        }
+      ],
+      "scope": "Raw passage argmax against annotated SUPPORT/CONTRADICT rationale targets only; no neutral-gold cohort and no four-class aggregate calibration claim."
+    },
+    "limitations": [
+      "SciFact dev already inspected; this is descriptive frozen evaluation, not untouched holdout.",
+      "Closed-corpus claim labels: absence of annotated evidence is benchmark INSUFFICIENT, not proof about all literature.",
+      "Evidence F1 gives credit only to complete original sentences covered by production string spans; partial fragments count as extra FP. Not official SciFact leaderboard parity.",
+      "Oracle rationales can concatenate noncontiguous annotated sentences; this is a privileged control, not an ordinary source passage.",
+      "Top5 automatic selection is an offline evaluation wrapper; UI users can select different candidate scopes.",
+      "Exact model-input cache reuse affects runtime, not predictions; no latency comparison between conditions."
+    ],
+    "retrieval": {
+      "bm25": {
+        "eligible": 188,
+        "excluded_no_positive": 112,
+        "Recall@5": 0.8618794326241135,
+        "MRR@5": 0.7729609929078014,
+        "nDCG@5": 0.789275159050865,
+        "Recall@10": 0.9062056737588653,
+        "MRR@10": 0.7793777440054036,
+        "nDCG@10": 0.8051875704367543,
+        "Recall@20": 0.9381205673758866,
+        "MRR@20": 0.7815134328267521,
+        "nDCG@20": 0.813156677212195,
+        "recall10_ci": {
+          "n": 188,
+          "clusters": 188,
+          "estimate": 0.9062056737588653,
+          "low": 0.8643617021276596,
+          "high": 0.9434441489361702,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      "sbert": {
+        "eligible": 188,
+        "excluded_no_positive": 112,
+        "Recall@5": 0.8685283687943263,
+        "MRR@5": 0.725886524822695,
+        "nDCG@5": 0.7590053854457229,
+        "Recall@10": 0.9117021276595745,
+        "MRR@10": 0.7313724248564674,
+        "nDCG@10": 0.7742752652288651,
+        "Recall@20": 0.9515957446808511,
+        "MRR@20": 0.7341964376608834,
+        "nDCG@20": 0.7851397030722105,
+        "recall10_ci": {
+          "n": 188,
+          "clusters": 188,
+          "estimate": 0.9117021276595745,
+          "low": 0.8691489361702128,
+          "high": 0.9505452127659574,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      "rrf": {
+        "eligible": 188,
+        "excluded_no_positive": 112,
+        "Recall@5": 0.8988475177304964,
+        "MRR@5": 0.799468085106383,
+        "nDCG@5": 0.8146451731415693,
+        "Recall@10": 0.9564716312056738,
+        "MRR@10": 0.8059460486322189,
+        "nDCG@10": 0.8334896619462252,
+        "Recall@20": 0.9686170212765958,
+        "MRR@20": 0.8062784954407295,
+        "nDCG@20": 0.8374863816402706,
+        "recall10_ci": {
+          "n": 188,
+          "clusters": 188,
+          "estimate": 0.9564716312056737,
+          "low": 0.9312056737588652,
+          "high": 0.9813829787234043,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      }
+    }
+  },
+  "other_datasets": {
+    "scope": "Fresh independent3-method CPU reruns of fixed owner protocols; no cross-encoder loaded because default app uses RRF.",
+    "settings_frozen": true,
+    "summaries": [
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_dev",
+        "method": "bm25",
+        "queries": 24,
+        "collection": 4207,
+        "Recall@5": 0.14959303813470481,
+        "MRR@5": 0.45069444444444445,
+        "nDCG@5": 0.32811356147562293,
+        "graded_nDCG@5": 0.3374675682500395,
+        "Recall@10": 0.22301868656035323,
+        "MRR@10": 0.45069444444444445,
+        "nDCG@10": 0.28019698021819756,
+        "graded_nDCG@10": 0.3466322251600459,
+        "Recall@20": 0.38649020732354067,
+        "MRR@20": 0.4710151325282904,
+        "nDCG@20": 0.3352600473538431,
+        "graded_nDCG@20": 0.3956359719801082,
+        "recall10_ci": {
+          "n": 24,
+          "clusters": 19,
+          "estimate": 0.22301868656035326,
+          "low": 0.12867471841430175,
+          "high": 0.32966337808729107,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_dev",
+        "method": "sbert",
+        "queries": 24,
+        "collection": 4207,
+        "Recall@5": 0.20032606282606283,
+        "MRR@5": 0.5833333333333334,
+        "nDCG@5": 0.3997181640313861,
+        "graded_nDCG@5": 0.4069698267832948,
+        "Recall@10": 0.38975199183532516,
+        "MRR@10": 0.6003968253968254,
+        "nDCG@10": 0.43239230074318463,
+        "graded_nDCG@10": 0.46108619848641136,
+        "Recall@20": 0.6025960921794256,
+        "MRR@20": 0.6056878306878307,
+        "nDCG@20": 0.5080630950306807,
+        "graded_nDCG@20": 0.5273898477350344,
+        "recall10_ci": {
+          "n": 24,
+          "clusters": 19,
+          "estimate": 0.3897519918353251,
+          "low": 0.29849659247757077,
+          "high": 0.49254668514858735,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_dev",
+        "method": "rrf",
+        "queries": 24,
+        "collection": 4207,
+        "Recall@5": 0.20523573648573648,
+        "MRR@5": 0.5048611111111111,
+        "nDCG@5": 0.387730901333316,
+        "graded_nDCG@5": 0.3890243157200082,
+        "Recall@10": 0.334824280657614,
+        "MRR@10": 0.5223875661375661,
+        "nDCG@10": 0.38563639673665007,
+        "graded_nDCG@10": 0.42681664167022376,
+        "Recall@20": 0.5300587915171249,
+        "MRR@20": 0.5331198893698894,
+        "nDCG@20": 0.44783429552223497,
+        "graded_nDCG@20": 0.48775603685308283,
+        "recall10_ci": {
+          "n": 24,
+          "clusters": 19,
+          "estimate": 0.334824280657614,
+          "low": 0.23185367370149976,
+          "high": 0.45739025923921733,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_test",
+        "method": "bm25",
+        "queries": 26,
+        "collection": 4207,
+        "Recall@5": 0.13443347753302504,
+        "MRR@5": 0.5352564102564102,
+        "nDCG@5": 0.2894068391649864,
+        "graded_nDCG@5": 0.3145853276717937,
+        "Recall@10": 0.19633589135851578,
+        "MRR@10": 0.551007326007326,
+        "nDCG@10": 0.2610702102554298,
+        "graded_nDCG@10": 0.3272121675314429,
+        "Recall@20": 0.42238555185387766,
+        "MRR@20": 0.5622339536307147,
+        "nDCG@20": 0.33469102407473267,
+        "graded_nDCG@20": 0.3840832618798312,
+        "recall10_ci": {
+          "n": 26,
+          "clusters": 22,
+          "estimate": 0.1963358913585158,
+          "low": 0.14422193174209302,
+          "high": 0.25808422035480855,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_test",
+        "method": "sbert",
+        "queries": 26,
+        "collection": 4207,
+        "Recall@5": 0.20496280366189867,
+        "MRR@5": 0.6153846153846154,
+        "nDCG@5": 0.3930457825146042,
+        "graded_nDCG@5": 0.46374147074901273,
+        "Recall@10": 0.37331677246835615,
+        "MRR@10": 0.6217948717948718,
+        "nDCG@10": 0.4272525653477882,
+        "graded_nDCG@10": 0.5084090536209424,
+        "Recall@20": 0.5635946883684441,
+        "MRR@20": 0.6271062271062271,
+        "nDCG@20": 0.4707825977322829,
+        "graded_nDCG@20": 0.5474157269126997,
+        "recall10_ci": {
+          "n": 26,
+          "clusters": 22,
+          "estimate": 0.3733167724683562,
+          "low": 0.2966085909672511,
+          "high": 0.44841669584500465,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "CSFCube",
+        "split": "fold1_test",
+        "method": "rrf",
+        "queries": 26,
+        "collection": 4207,
+        "Recall@5": 0.1938574246266554,
+        "MRR@5": 0.6198717948717949,
+        "nDCG@5": 0.4121940246259986,
+        "graded_nDCG@5": 0.46315076440558106,
+        "Recall@10": 0.3923183967867226,
+        "MRR@10": 0.6481837606837607,
+        "nDCG@10": 0.4378482034449629,
+        "graded_nDCG@10": 0.5051548713891231,
+        "Recall@20": 0.556003279023641,
+        "MRR@20": 0.6513888888888889,
+        "nDCG@20": 0.47442452874607094,
+        "graded_nDCG@20": 0.5325319140707967,
+        "recall10_ci": {
+          "n": 26,
+          "clusters": 22,
+          "estimate": 0.3923183967867226,
+          "low": 0.3066889676704015,
+          "high": 0.4797457235546739,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "RECIPER",
+        "split": "entire released QA set; frozen zero-shot settings, no training or tuning",
+        "method": "bm25",
+        "queries": 1024,
+        "collection": 343,
+        "Recall@5": 0.87109375,
+        "MRR@5": 0.7849609375,
+        "nDCG@5": 0.8066033533192642,
+        "Recall@10": 0.9033203125,
+        "MRR@10": 0.7894000341021825,
+        "nDCG@10": 0.817161667990191,
+        "Recall@20": 0.9296875,
+        "MRR@20": 0.7911979922595505,
+        "nDCG@20": 0.8237868160246018,
+        "recall10_ci": {
+          "n": 1024,
+          "clusters": 343,
+          "estimate": 0.9033203125,
+          "low": 0.88365389021261,
+          "high": 0.9219512195121952,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "RECIPER",
+        "split": "entire released QA set; frozen zero-shot settings, no training or tuning",
+        "method": "sbert",
+        "queries": 1024,
+        "collection": 343,
+        "Recall@5": 0.8515625,
+        "MRR@5": 0.7363606770833333,
+        "nDCG@5": 0.7654501410772352,
+        "Recall@10": 0.9052734375,
+        "MRR@10": 0.7438123914930556,
+        "nDCG@10": 0.7831010698943799,
+        "Recall@20": 0.93359375,
+        "MRR@20": 0.7459167341174101,
+        "nDCG@20": 0.7904348916776297,
+        "recall10_ci": {
+          "n": 1024,
+          "clusters": 343,
+          "estimate": 0.9052734375,
+          "low": 0.884765625,
+          "high": 0.9247330204133064,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      },
+      {
+        "dataset": "RECIPER",
+        "split": "entire released QA set; frozen zero-shot settings, no training or tuning",
+        "method": "rrf",
+        "queries": 1024,
+        "collection": 343,
+        "Recall@5": 0.9072265625,
+        "MRR@5": 0.813671875,
+        "nDCG@5": 0.83713934175567,
+        "Recall@10": 0.9365234375,
+        "MRR@10": 0.817664543030754,
+        "nDCG@10": 0.8466973116469984,
+        "Recall@20": 0.962890625,
+        "MRR@20": 0.819498538225976,
+        "nDCG@20": 0.853371828089613,
+        "recall10_ci": {
+          "n": 1024,
+          "clusters": 343,
+          "estimate": 0.9365234375,
+          "low": 0.9197651663405088,
+          "high": 0.9529884174028379,
+          "repeats": 2000,
+          "seed": 20261110,
+          "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+        }
+      }
+    ],
+    "comparability": "Same declared text/pools/encoder revision; current installed package versions/CPU can differ from owner MPS environment. No tuning or equality assumed."
+  },
+  "paired_retrieval_differences": [
+    {
+      "dataset": "SciFact",
+      "split": "dev",
+      "comparison": "RRF minus BM25 Recall@10; descriptive, not model selection",
+      "n": 188,
+      "clusters": 188,
+      "estimate": 0.05026595744680851,
+      "low": 0.022340425531914895,
+      "high": 0.08218085106382979,
+      "repeats": 2000,
+      "seed": 20261110,
+      "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+    },
+    {
+      "dataset": "CSFCube",
+      "split": "fold1_dev",
+      "comparison": "RRF minus BM25 Recall@10; descriptive, not model selection",
+      "n": 24,
+      "clusters": 19,
+      "estimate": 0.11180559409726076,
+      "low": 0.060404368176107295,
+      "high": 0.16993970420512625,
+      "repeats": 2000,
+      "seed": 20261110,
+      "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+    },
+    {
+      "dataset": "CSFCube",
+      "split": "fold1_test",
+      "comparison": "RRF minus BM25 Recall@10; descriptive, not model selection",
+      "n": 26,
+      "clusters": 22,
+      "estimate": 0.19598250542820678,
+      "low": 0.09615321208611652,
+      "high": 0.29430333678610326,
+      "repeats": 2000,
+      "seed": 20261110,
+      "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+    },
+    {
+      "dataset": "RECIPER",
+      "split": "entire released QA set; frozen zero-shot settings, no training or tuning",
+      "comparison": "RRF minus BM25 Recall@10; descriptive, not model selection",
+      "n": 1024,
+      "clusters": 343,
+      "estimate": 0.033203125,
+      "low": 0.01949317738791423,
+      "high": 0.04794520547945205,
+      "repeats": 2000,
+      "seed": 20261110,
+      "method": "percentile cluster bootstrap; dataset dependence limitations still apply"
+    }
+  ],
+  "software": {
+    "owner_tests": {
+      "date": "2026-11-10",
+      "scope": "Pinned owner suites in isolated owned scratch copies, network blocked; CY uses local model initialization adapter. Not latest-unfetched branch claims.",
+      "results": [
+        {
+          "owner": "raghavi",
+          "revision": "259d2a9e90fb8e9d5988f030a156733f4f3576d1",
+          "exit_code": 0,
+          "network": "external blocked; loopback allowed for asyncio",
+          "initialization_adapter": false,
+          "scratch_portability_patch": false,
+          "scratch_stable_cutoff_patch": false,
+          "total": 268,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "passed": 268
+        },
+        {
+          "owner": "naila",
+          "revision": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+          "exit_code": 0,
+          "network": "external blocked; loopback allowed for asyncio",
+          "initialization_adapter": false,
+          "scratch_portability_patch": false,
+          "scratch_stable_cutoff_patch": false,
+          "total": 13,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "passed": 13
+        },
+        {
+          "owner": "yuyue_current",
+          "revision": "90aaca109585c12c877367b1a08fe4dfee4a4de3",
+          "exit_code": 0,
+          "network": "external blocked; loopback allowed for asyncio",
+          "initialization_adapter": false,
+          "scratch_portability_patch": false,
+          "scratch_stable_cutoff_patch": false,
+          "total": 166,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "passed": 166
+        },
+        {
+          "owner": "chong_yao",
+          "revision": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+          "exit_code": 0,
+          "network": "external blocked; loopback allowed for asyncio",
+          "initialization_adapter": true,
+          "scratch_portability_patch": false,
+          "scratch_stable_cutoff_patch": false,
+          "total": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "passed": 5
+        }
+      ]
+    },
+    "artifact_audit": {
+      "checks": [
+        {
+          "check": "Complete300 main +188 oracle +188 gold-paper condition rows",
+          "passed": true
+        },
+        {
+          "check": "Unique claim/condition IDs",
+          "passed": true
+        },
+        {
+          "check": "All676 grounded template gates",
+          "passed": true
+        },
+        {
+          "check": "No processing failures",
+          "passed": true
+        },
+        {
+          "check": "retrieved_papers_production_selector accuracy matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "retrieved_papers_production_selector macroF1 matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "oracle_gold_rationale accuracy matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "oracle_gold_rationale macroF1 matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "gold_papers_production_selector accuracy matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "gold_papers_production_selector macroF1 matches sklearn",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_dev bm25 complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 3264891_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 3264891_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 1936997_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 1936997_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 11844559_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 11844559_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 6173686_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 6173686_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 7898033_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 7898033_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_dev sbert complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 3264891_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 3264891_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 1936997_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 1936997_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 11844559_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 11844559_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 6173686_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 6173686_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 7898033_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 7898033_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_dev rrf complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 3264891_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 3264891_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 1936997_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 1936997_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 11844559_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 11844559_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 6173686_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 6173686_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 7898033_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 7898033_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_test bm25 complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 10014168_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 10014168_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 10695055_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 10695055_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 5764728_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 5764728_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 51977123_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 51977123_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube bm25 929877_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn bm25 929877_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_test sbert complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 10014168_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 10014168_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 10695055_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 10695055_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 5764728_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 5764728_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 51977123_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 51977123_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube sbert 929877_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn sbert 929877_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube fold1_test rrf complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 10014168_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 10014168_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 10695055_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 10695055_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 5764728_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 5764728_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 51977123_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 51977123_background",
+          "passed": true
+        },
+        {
+          "check": "CSFCube rrf 929877_background nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "Graded nDCG sklearn rrf 929877_background",
+          "passed": true
+        },
+        {
+          "check": "RECIPER entire rel bm25 complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 reciper-00000-683b1cdaedbddccb nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 reciper-00001-0d3aa9ec5f8ada87 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 reciper-00002-cd4275614888f677 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 reciper-00003-5319593c425fceee nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER bm25 reciper-00004-5f6f59defd62883b nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER entire rel sbert complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert reciper-00000-683b1cdaedbddccb nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert reciper-00001-0d3aa9ec5f8ada87 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert reciper-00002-cd4275614888f677 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert reciper-00003-5319593c425fceee nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER sbert reciper-00004-5f6f59defd62883b nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER entire rel rrf complete query IDs",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf unique rankings use exact declared pools",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf reciper-00000-683b1cdaedbddccb nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf reciper-00001-0d3aa9ec5f8ada87 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf reciper-00002-cd4275614888f677 nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf reciper-00003-5319593c425fceee nDCG sklearn",
+          "passed": true
+        },
+        {
+          "check": "RECIPER rrf reciper-00004-5f6f59defd62883b nDCG sklearn",
+          "passed": true
+        }
+      ],
+      "passed": 103,
+      "total": 103,
+      "artifact_sha256": {
+        "scifact_full/case_rows.json": "3fd74552247844bf13d62f5b02242e227a091a74599382c00ddbd5842d6a02fe",
+        "scifact_full/case_details.jsonl": "15b6169b53c94ed854144e7cf0184b5d3bc7061b82640ada6fd77b503bdc1957",
+        "scifact_full/rankings.json": "02e02f5060cbde7dafdcac9e75f58ac29c5cc5c9cdbbd6c30aaae340118f9a5c",
+        "scifact_full/calibration_rows.json": "81ab2d0d46d926fb6e5dfd3cd50c370f6b37afe24eeee088acbbfe285ab0aa8f",
+        "other_datasets.json": "75004fa1521c38683126a97abd9b5bca3c2c3b59b6e224a65864f086a6c662df",
+        "retrieval_per_query.csv": "ef15cc4949456ec42a3bb813abad6b76d2b6195bf517d8a5cabcfa6b49e3f104",
+        "stress.json": "ebd92eddaa91c3b406e671674071b1fdee3950179793582d3c4eb36b17df78fe",
+        "reliability.json": "9e736180db6e6063dd7226de5b858fcd2cf1df49166e8b17a4a845cb4f39f6a2",
+        "clean_setup.json": "c2c391f49f378555a177bfb14ecbeb2dac01d73c5d36395bcf0f86358a55dc2a"
+      }
+    },
+    "clean_install": {
+      "kind": "Independent Python environment, no system-site-packages and no venv junction reuse",
+      "dependency_install_exit_code": 0,
+      "models": "Existing pinned local model files reused by explicit owned paths; no claim of a second full model download or another operating system.",
+      "environment_path": "C:\\Users\\Kireeti\\Documents\\ChatGPT\\NLP Capstone Project\\explanation_frontend\\.tmp\\clean_validation_20261110",
+      "seconds": 136.51573169999756,
+      "pip_check_exit_code": 0,
+      "offline_model_smoke_exit_code": 0,
+      "initial_tests_exit_code": 1,
+      "initial_test_summary": "un(\nexplanation_frontend\\.tmp\\clean_validation_20261110\\Lib\\site-packages\\streamlit\\testing\\v1\\local_script_runner.py:147: in run\n    require_widgets_deltas(self, timeout)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nrunner = LocalScriptRunner(forward_msg_queue=<streamlit.runtime.forward_msg_queue.ForwardMsgQueue object at 0x000001D26B2E0DA0>...opilot\"\n  installed_agents: \"gemini\"\n}\n}, {}, {'client_state': page_script_hash: \"db0021aba67c3751b821c6d1b5284824\"\n}])\ntimeout = 3\n\n    def require_widgets_deltas(runner: LocalScriptRunner, timeout: float = 3) -> None:\n        \"\"\"Wait for the given ScriptRunner to emit a completion event. If the timeout\n        is reached, the runner will be shutdown and an error will be thrown.\n        \"\"\"\n    \n        t0 = time.time()\n        while time.time() - t0 < timeout:\n            time.sleep(0.001)\n            if runner.script_stopped():\n                return\n    \n        # If we get here, the runner hasn't yet completed before our\n        # timeout. Create an error string for debugging.\n        err_string = f\"AppTest script run timed out after {timeout}(s)\"\n    \n        # Shutdown the runner before throwing an error, so that the script\n        # doesn't hang forever.\n        runner.request_stop()\n        runner.join()\n    \n>       raise RuntimeError(err_string)\nE       RuntimeError: AppTest script run timed out after 3(s)\n\nexplanation_frontend\\.tmp\\clean_validation_20261110\\Lib\\site-packages\\streamlit\\testing\\v1\\local_script_runner.py:195: RuntimeError\n---------------------------- Captured stderr call -----------------------------\n2026-11-10 12:24:03.230 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n============================== warnings summary ===============================\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\n  C:\\Users\\Kireeti\\Documents\\ChatGPT\\NLP Capstone Project\\explanation_frontend\\.tmp\\clean_validation_20261110\\Lib\\site-packages\\streamlit\\elements\\lib\\built_in_chart_utils.py:536: Pandas4Warning: The inplace keyword in DataFrame.reset_index is deprecated and will be removed in a future version (PDEP-8).\n  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.\n    df.reset_index(inplace=True)  # noqa: PD002\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ===========================\nFAILED explanation_frontend/tests/test_app.py::test_demo_conflict_subset_and_changed_claim\n1 failed, 162 passed, 3 warnings in 32.14s\n",
+      "tests_exit_code": 0,
+      "test_summary": "........................................................................ [ 44%]\n........................................................................ [ 88%]\n...................                                                      [100%]\n============================== warnings summary ===============================\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\nexplanation_frontend/tests/test_combined_integration.py::test_benchmark_ui_and_new_empty_workspaces_do_not_start_models\n  C:\\Users\\Kireeti\\Documents\\ChatGPT\\NLP Capstone Project\\explanation_frontend\\.tmp\\clean_validation_20261110\\Lib\\site-packages\\streamlit\\elements\\lib\\built_in_chart_utils.py:536: Pandas4Warning: The inplace keyword in DataFrame.reset_index is deprecated and will be removed in a future version (PDEP-8).\n  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.\n    df.reset_index(inplace=True)  # noqa: PD002\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n163 passed, 3 warnings in 11.74s\n",
+      "retest_reason": "First concurrent run: 162 passed, one 3-second UI-test timeout. Set AppTest helper timeout to15s without changing product logic. Full clean-venv rerun:163 passed."
+    },
+    "stress": {
+      "synthetic_nli_passed": 12,
+      "synthetic_nli_total": 15,
+      "repeatability": [
+        {
+          "case_id": "literal",
+          "max_probability_difference": 0.0,
+          "passed": true
+        },
+        {
+          "case_id": "paraphrase",
+          "max_probability_difference": 0.0,
+          "passed": true
+        },
+        {
+          "case_id": "negation",
+          "max_probability_difference": 0.0,
+          "passed": true
+        },
+        {
+          "case_id": "number_change",
+          "max_probability_difference": 0.0,
+          "passed": true
+        },
+        {
+          "case_id": "population_change",
+          "max_probability_difference": 0.0,
+          "passed": true
+        }
+      ],
+      "pdf_cases": [
+        {
+          "case_id": "multi_column_text",
+          "expected": "page_preserving_verification",
+          "passed": true,
+          "actual": "accepted",
+          "pages": [
+            1
+          ],
+          "status": "ok",
+          "verdict": "SUPPORTED",
+          "seconds": 1.3881150999804959
+        },
+        {
+          "case_id": "image_only_no_ocr",
+          "expected": "reject",
+          "passed": true,
+          "actual": "rejected",
+          "error_type": "ValueError",
+          "reason": "No extractable PDF text; OCR is not implemented",
+          "seconds": 0.0015562999760732055
+        },
+        {
+          "case_id": "encrypted",
+          "expected": "reject",
+          "passed": true,
+          "actual": "rejected",
+          "error_type": "ValueError",
+          "reason": "Encrypted PDF requires an unlocked source",
+          "seconds": 0.02047119999770075
+        },
+        {
+          "case_id": "malformed",
+          "expected": "reject",
+          "passed": true,
+          "actual": "rejected",
+          "error_type": "FileDataError",
+          "reason": "Failed to open file 'C:\\\\Users\\\\Kireeti\\\\Documents\\\\ChatGPT\\\\NLP Capstone Project\\\\explanation_frontend\\\\.tmp\\\\pdf_uploads\\\\3d8b3fd4d5def897174ba50cbccacf1bb780e2b381b433164540170fcf9f2944.pdf' as type pdf.",
+          "seconds": 0.004378399986308068
+        },
+        {
+          "case_id": "too_many_pages",
+          "expected": "reject",
+          "passed": true,
+          "actual": "rejected",
+          "error_type": "ValueError",
+          "reason": "PDF exceeds explicit page limit",
+          "seconds": 0.0012561000185087323
+        },
+        {
+          "case_id": "oversized",
+          "expected": "reject",
+          "passed": true,
+          "actual": "rejected",
+          "error_type": "ValueError",
+          "reason": "Expected a PDF of at most 20 MiB",
+          "seconds": 2.400018274784088e-06
+        },
+        {
+          "case_id": "real_arxiv_pdf",
+          "source": "https://arxiv.org/pdf/1703.01365",
+          "scope": "Extraction/page/span/replay functionality, not verified scientific correctness.",
+          "passed": true,
+          "actual": "verified_and_replayed",
+          "verdict": "INSUFFICIENT",
+          "pages": [
+            5,
+            3,
+            3
+          ],
+          "sha256": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1"
+        }
+      ],
+      "limits": "Synthetic expectations are diagnostic, not dataset accuracy; real PDF scientific meaning/reading order still needs inspection."
+    },
+    "retrieval_repeat_checks": [
+      {
+        "claim_id": "1",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "3",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "5",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "13",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "36",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "42",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "48",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "49",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "50",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "51",
+        "method": "bm25",
+        "passed": true
+      },
+      {
+        "claim_id": "1",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "3",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "5",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "13",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "36",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "42",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "48",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "49",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "50",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "51",
+        "method": "sbert",
+        "passed": true
+      },
+      {
+        "claim_id": "1",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "3",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "5",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "13",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "36",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "42",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "48",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "49",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "50",
+        "method": "rrf",
+        "passed": true
+      },
+      {
+        "claim_id": "51",
+        "method": "rrf",
+        "passed": true
+      }
+    ],
+    "xai_checks": [
+      {
+        "case_id": "negation",
+        "scope": "Synthetic predicted-class explanation; includes an actual wrong prediction. Not benchmark plausibility or correctness.",
+        "predicted_target": "CONTRADICT",
+        "model_prediction_correct": true,
+        "word_count": 19,
+        "coverage": {
+          "scored_words": 19,
+          "total_words": 19,
+          "complete": true
+        },
+        "max_repeat_attribution_difference": 0.0,
+        "repeat_passed": true,
+        "offsets_passed": true,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.33444867134094236,
+          "occlusion_sufficiency": 0.7186930808005855,
+          "random_comprehensiveness": 0.12102794528007507,
+          "random_sufficiency": 0.7930284018564271,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        }
+      },
+      {
+        "case_id": "population_change",
+        "scope": "Synthetic predicted-class explanation; includes an actual wrong prediction. Not benchmark plausibility or correctness.",
+        "predicted_target": "CONTRADICT",
+        "model_prediction_correct": false,
+        "word_count": 17,
+        "coverage": {
+          "scored_words": 17,
+          "total_words": 17,
+          "complete": true
+        },
+        "max_repeat_attribution_difference": 0.0,
+        "repeat_passed": true,
+        "offsets_passed": true,
+        "faithfulness": {
+          "occlusion_comprehensiveness": 0.957323339546565,
+          "occlusion_sufficiency": -0.03872437477111816,
+          "random_comprehensiveness": 0.1783641647652257,
+          "random_sufficiency": 0.7443471168691759,
+          "unit": "whole evidence words; matched word counts, all subwords deleted together; claim/special tokens retained",
+          "random_trials": 10
+        }
+      }
+    ],
+    "live_functional_smoke": {
+      "source": "live",
+      "claim": "Long-term exposure to fine particulate matter is associated with cardiovascular mortality.",
+      "candidate_count": 9,
+      "verified_papers": 3,
+      "passages": 9,
+      "verdict": "SUPPORTED",
+      "status": "ok",
+      "displayable": true,
+      "subset_verdict": "SUPPORTED",
+      "subset_ms": 2.5445999926887453,
+      "elapsed_seconds": 10.884240999992471,
+      "model": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      },
+      "scientific_quality": "not independently evaluated"
+    }
+  },
+  "error_rows": 133,
+  "scope": "Frozen descriptive evaluation, no model/threshold tuning. Scientific mistakes are retained."
+}

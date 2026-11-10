@@ -1,0 +1,285 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:22:30.356308+00:00",
+    "claim": "Cold exposure increases BAT recruitment.",
+    "created_at": "2026-11-10T04:22:30.356308Z",
+    "retrieved_at": "2026-11-10T04:22:30.356308Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "970012": {
+        "paper_id": "970012",
+        "title": "Cold Exposure Promotes Atherosclerotic Plaque Growth and Instability via UCP1-Dependent Lipolysis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13000926": {
+        "paper_id": "13000926",
+        "title": "The role of free radicals in cold injuries.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "36838958": {
+        "paper_id": "36838958",
+        "title": "Sestrin2 inhibits uncoupling protein 1 expression through suppressing reactive oxygen species.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4319174": {
+        "paper_id": "4319174",
+        "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1568684": {
+        "paper_id": "1568684",
+        "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "970012": {
+          "paper_id": "970012",
+          "title": "Cold Exposure Promotes Atherosclerotic Plaque Growth and Instability via UCP1-Dependent Lipolysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13000926": {
+          "paper_id": "13000926",
+          "title": "The role of free radicals in cold injuries.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "36838958": {
+          "paper_id": "36838958",
+          "title": "Sestrin2 inhibits uncoupling protein 1 expression through suppressing reactive oxygen species.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9524953961372375,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "36838958:abstract:181:323:60585985d245"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "4319174": {
+          "paper_id": "4319174",
+          "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1568684": {
+          "paper_id": "1568684",
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "36838958:abstract:181:323:60585985d245": {
+          "passage_id": "36838958:abstract:181:323:60585985d245",
+          "paper_id": "36838958",
+          "label": "SUPPORT",
+          "confidence": 0.9524953961372375,
+          "truncated": false
+        },
+        "4319174:abstract:1432:1589:1ddb1eefea7c": {
+          "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c",
+          "paper_id": "4319174",
+          "label": "NEUTRAL",
+          "confidence": 0.996105968952179,
+          "truncated": false
+        },
+        "1568684:abstract:493:589:4a4318da9c6a": {
+          "passage_id": "1568684:abstract:493:589:4a4318da9c6a",
+          "paper_id": "1568684",
+          "label": "NEUTRAL",
+          "confidence": 0.8126415610313416,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "36838958:abstract:181:323:60585985d245",
+          "paper_id": "36838958",
+          "section": "abstract",
+          "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+          "score": 0.6677210330963135,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4319174:abstract:1432:1589:1ddb1eefea7c",
+          "paper_id": "4319174",
+          "section": "abstract",
+          "text": "Thus, we have discovered a role for alternatively activated macrophages in the orchestration of an important mammalian stress response, the response to cold.",
+          "score": 0.5065352916717529,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1568684:abstract:493:589:4a4318da9c6a",
+          "paper_id": "1568684",
+          "section": "abstract",
+          "text": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "score": 0.5790454149246216,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Cold exposure increases BAT recruitment.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "36838958:abstract:181:323:60585985d245",
+          "paper_id": "36838958",
+          "section": "abstract",
+          "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+          "score": 0.6677210330963135,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9524953961372375,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "d3194d312ab85a54fe5f400ea75f40b3bb7ed2f25577f3fc081182d43eeeaaae",
+  "selected_paper_ids": [
+    "13000926",
+    "1568684",
+    "36838958",
+    "4319174",
+    "970012"
+  ],
+  "aggregation": {
+    "claim": "Cold exposure increases BAT recruitment.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "36838958:abstract:181:323:60585985d245",
+        "paper_id": "36838958",
+        "section": "abstract",
+        "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+        "score": 0.6677210330963135,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9524953961372375,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "abbada31a323a6b73b444a555d4cd002f242a7657cdd477f84869945388ca242",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Upon cold exposure or nutritional abundance, sympathetic neurons stimulate BAT to express Ucp1 to induce energy dissipation and thermogenesis.",
+        "citation_ids": [
+          "36838958:abstract:181:323:60585985d245"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

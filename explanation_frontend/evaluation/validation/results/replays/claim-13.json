@@ -1,0 +1,425 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:20:15.507141+00:00",
+    "claim": "5% of perinatal mortality is due to low birth weight.",
+    "created_at": "2026-11-10T04:20:15.507141Z",
+    "retrieved_at": "2026-11-10T04:20:15.507141Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "7662395": {
+        "paper_id": "7662395",
+        "title": "Perinatal mortality in rural China: retrospective cohort study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1263446": {
+        "paper_id": "1263446",
+        "title": "Determinants of neonatal mortality in Indonesia",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17450673": {
+        "paper_id": "17450673",
+        "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8842332": {
+        "paper_id": "8842332",
+        "title": "Contemporary type 1 diabetes pregnancy outcomes: impact of obesity and glycaemic control.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23557241": {
+        "paper_id": "23557241",
+        "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "7662395": {
+          "paper_id": "7662395",
+          "title": "Perinatal mortality in rural China: retrospective cohort study.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1263446": {
+          "paper_id": "1263446",
+          "title": "Determinants of neonatal mortality in Indonesia",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17450673": {
+          "paper_id": "17450673",
+          "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8842332": {
+          "paper_id": "8842332",
+          "title": "Contemporary type 1 diabetes pregnancy outcomes: impact of obesity and glycaemic control.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23557241": {
+          "paper_id": "23557241",
+          "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7662395:abstract:808:969:8a8be1fe5d82": {
+          "passage_id": "7662395:abstract:808:969:8a8be1fe5d82",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9995630383491516,
+          "truncated": false
+        },
+        "7662395:abstract:1052:1170:ec472232c6e4": {
+          "passage_id": "7662395:abstract:1052:1170:ec472232c6e4",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9994937181472778,
+          "truncated": false
+        },
+        "7662395:abstract:970:1051:2e9c78c94c20": {
+          "passage_id": "7662395:abstract:970:1051:2e9c78c94c20",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9990235567092896,
+          "truncated": false
+        },
+        "1263446:abstract:0:102:67926074eb7e": {
+          "passage_id": "1263446:abstract:0:102:67926074eb7e",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9988656044006348,
+          "truncated": false
+        },
+        "1263446:abstract:2108:2391:86863c86bcd4": {
+          "passage_id": "1263446:abstract:2108:2391:86863c86bcd4",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9996629953384399,
+          "truncated": false
+        },
+        "1263446:abstract:1508:1791:c29d91d8a3cb": {
+          "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.9996044039726257,
+          "truncated": false
+        },
+        "17450673:abstract:1244:1531:42d2d9af106a": {
+          "passage_id": "17450673:abstract:1244:1531:42d2d9af106a",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.9997050166130066,
+          "truncated": false
+        },
+        "17450673:abstract:803:1157:8df82e8d982a": {
+          "passage_id": "17450673:abstract:803:1157:8df82e8d982a",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.9995695948600769,
+          "truncated": false
+        },
+        "17450673:abstract:1158:1243:e6dbe0c6e702": {
+          "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.998991072177887,
+          "truncated": false
+        },
+        "8842332:abstract:1222:1697:de285c2af489": {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9992228746414185,
+          "truncated": false
+        },
+        "8842332:abstract:723:791:55c60f9e0a78": {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9985812902450562,
+          "truncated": false
+        },
+        "8842332:abstract:1698:1907:59c4e2dabc12": {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9989442229270935,
+          "truncated": false
+        },
+        "23557241:abstract:596:847:23c27c97c8c4": {
+          "passage_id": "23557241:abstract:596:847:23c27c97c8c4",
+          "paper_id": "23557241",
+          "label": "NEUTRAL",
+          "confidence": 0.9996366500854492,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7662395:abstract:808:969:8a8be1fe5d82",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The perinatal mortality rate was 69 per 1000 births, the rate of stillbirth was 24 per 1000 births, and the early neonatal mortality was 46 per 1000 live births.",
+          "score": 0.6062597632408142,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7662395:abstract:1052:1170:ec472232c6e4",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The perinatal mortality rate increased notably with parity and was higher in townships having lower income per capita.",
+          "score": 0.5601181387901306,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7662395:abstract:970:1051:2e9c78c94c20",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "The early neonatal mortality was 29 in boys and 69 in girls per 1000 live births.",
+          "score": 0.5570331811904907,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:0:102:67926074eb7e",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "BACKGROUND Neonatal mortality accounts for almost 40 per cent of under-five child mortality, globally.",
+          "score": 0.6482915878295898,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:2108:2391:86863c86bcd4",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "Low birth weight and short birth interval infants as well as perinatal health services factors, such as the availability of skilled birth attendance and postnatal care utilization should be taken into account when planning the interventions to reduce neonatal mortality in Indonesia.",
+          "score": 0.6150410175323486,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:1508:1791:c29d91d8a3cb",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "The odds were also higher for higher rank infants with a short birth interval (OR = 2.82, p = 0.00), male infants (OR = 1.49, p = 0.01), smaller than average-sized infants (OR = 2.80, p = 0.00), and infant's whose mother had a history of delivery complications (OR = 1.81, p = 0.00).",
+          "score": 0.5650003552436829,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:1244:1531:42d2d9af106a",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g).",
+          "score": 0.6231936812400818,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:803:1157:8df82e8d982a",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g.",
+          "score": 0.602374792098999,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:1158:1243:e6dbe0c6e702",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "These studies provided no support for a J-shaped relationship of birthweight to risk.",
+          "score": 0.5356175899505615,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "Women with type 1 diabetes were more likely to have had labour induced (aOR, 3.0; 95% CI, 2.0-4.5), a caesarean delivery (aOR, 4.6; 95% CI, 3.1-7.0), or a pre-term birth (aOR, 6.7; 95% CI, 4.5-10.0); their babies were more likely to have shoulder dystocia (aOR, 8.2; 95% CI, 3.6-18.7), hypoglycaemia (aOR, 10.3; 95% CI, 6.8-15.6), jaundice (aOR, 5.1; 95% CI, 3.3-7.7), respiratory distress (aOR, 2.5; 95% CI, 1.4-4.4) or to suffer perinatal death (aOR, 4.3; 95% CI, 1.9-9.9).",
+          "score": 0.518733561038971,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "MAIN OUTCOME MEASURES Mode of birth; maternal and neonatal outcomes.",
+          "score": 0.5145706534385681,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "In women with type 1 diabetes, greater obesity was associated with increased odds for an LGA baby or congenital malformation, and increased HbA1c levels were associated with pre-term birth and perinatal death.",
+          "score": 0.500117838382721,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23557241:abstract:596:847:23c27c97c8c4",
+          "paper_id": "23557241",
+          "section": "abstract",
+          "text": "We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.",
+          "score": 0.5342559814453125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "5% of perinatal mortality is due to low birth weight.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "a29f813045986af02ed81430b9af1127328656ca44dc237c3d2d42779f72567b",
+  "selected_paper_ids": [
+    "1263446",
+    "17450673",
+    "23557241",
+    "7662395",
+    "8842332"
+  ],
+  "aggregation": {
+    "claim": "5% of perinatal mortality is due to low birth weight.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "fe7249d4e2871a189b315dc56c0ae32f5ecb0badfec4b3a5bcfe42e6e97b563a",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

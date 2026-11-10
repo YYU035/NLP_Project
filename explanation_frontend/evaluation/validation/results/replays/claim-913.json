@@ -1,0 +1,319 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:27:11.300000+00:00",
+    "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+    "created_at": "2026-11-10T04:27:11.300000Z",
+    "retrieved_at": "2026-11-10T04:27:11.300000Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "9956893": {
+        "paper_id": "9956893",
+        "title": "The Role of PPARγ in Advanced Glycation End Products-Induced Inflammatory Response in Human Chondrocytes",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "712078": {
+        "paper_id": "712078",
+        "title": "Pharmacological correction of a defect in PPARγ signaling ameliorates disease severity in Cftr-deficient mice",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "56486733": {
+        "paper_id": "56486733",
+        "title": "Peroxisome Proliferator Activated Receptor gamma (PPARγ) Agonist Rosiglitazone Ameliorate Airway Inflammation by Inhibiting Toll-Like Receptor 2 (TLR2)/Nod-Like Receptor with Pyrin Domain Containing 3 (NLRP3) Inflammatory Corpuscle Activation in Asthmatic Mice",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11428884": {
+        "paper_id": "11428884",
+        "title": "Lipoatrophy and severe metabolic disturbance in mice with fat-specific deletion of PPARγ.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22116439": {
+        "paper_id": "22116439",
+        "title": "Pioglitazone prevents tau oligomerization.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "9956893": {
+          "paper_id": "9956893",
+          "title": "The Role of PPARγ in Advanced Glycation End Products-Induced Inflammatory Response in Human Chondrocytes",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8993124961853027,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "9956893:abstract:921:1038:fcbaba074d03"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "712078": {
+          "paper_id": "712078",
+          "title": "Pharmacological correction of a defect in PPARγ signaling ameliorates disease severity in Cftr-deficient mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "56486733": {
+          "paper_id": "56486733",
+          "title": "Peroxisome Proliferator Activated Receptor gamma (PPARγ) Agonist Rosiglitazone Ameliorate Airway Inflammation by Inhibiting Toll-Like Receptor 2 (TLR2)/Nod-Like Receptor with Pyrin Domain Containing 3 (NLRP3) Inflammatory Corpuscle Activation in Asthmatic Mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11428884": {
+          "paper_id": "11428884",
+          "title": "Lipoatrophy and severe metabolic disturbance in mice with fat-specific deletion of PPARγ.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22116439": {
+          "paper_id": "22116439",
+          "title": "Pioglitazone prevents tau oligomerization.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "9956893:abstract:1499:1603:62f2de21c0d7": {
+          "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7",
+          "paper_id": "9956893",
+          "label": "NEUTRAL",
+          "confidence": 0.9948070645332336,
+          "truncated": false
+        },
+        "9956893:abstract:921:1038:fcbaba074d03": {
+          "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+          "paper_id": "9956893",
+          "label": "SUPPORT",
+          "confidence": 0.8993124961853027,
+          "truncated": false
+        },
+        "9956893:abstract:203:318:b9c03c321b93": {
+          "passage_id": "9956893:abstract:203:318:b9c03c321b93",
+          "paper_id": "9956893",
+          "label": "NEUTRAL",
+          "confidence": 0.9842431545257568,
+          "truncated": false
+        },
+        "56486733:abstract:1408:1533:8900c4d6c1e9": {
+          "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9",
+          "paper_id": "56486733",
+          "label": "NEUTRAL",
+          "confidence": 0.993569016456604,
+          "truncated": false
+        },
+        "22116439:abstract:959:1066:b1b921c5fdcf": {
+          "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf",
+          "paper_id": "22116439",
+          "label": "NEUTRAL",
+          "confidence": 0.9929654598236084,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "9956893:abstract:1499:1603:62f2de21c0d7",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "Taken together, PPARγ could be a potential target for pharmacologic intervention in the treatment of OA.",
+          "score": 0.6239771842956543,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "PPARγ agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPARγ down-regulation.",
+          "score": 0.5608336329460144,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9956893:abstract:203:318:b9c03c321b93",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "The aim of this study was to define the roles of PPARγ in AGEs-induced inflammatory response in human chondrocytes.",
+          "score": 0.5249602794647217,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "56486733:abstract:1408:1533:8900c4d6c1e9",
+          "paper_id": "56486733",
+          "section": "abstract",
+          "text": "PPARg expression in the treatment group was significantly higher compared to the asthma group and the control group (P<0.05).",
+          "score": 0.5428634285926819,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22116439:abstract:959:1066:b1b921c5fdcf",
+          "paper_id": "22116439",
+          "section": "abstract",
+          "text": "Together, our current results support the idea that PPARγ agonists may be useful therapeutic agents for AD.",
+          "score": 0.6440656185150146,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+          "paper_id": "9956893",
+          "section": "abstract",
+          "text": "PPARγ agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPARγ down-regulation.",
+          "score": 0.5608336329460144,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.8993124961853027,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "7e4e8fb78f15d2a93f876f64e47017cb6fe61dc8b6f0322e7c0ec35d39b66671",
+  "selected_paper_ids": [
+    "11428884",
+    "22116439",
+    "56486733",
+    "712078",
+    "9956893"
+  ],
+  "aggregation": {
+    "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "9956893:abstract:921:1038:fcbaba074d03",
+        "paper_id": "9956893",
+        "section": "abstract",
+        "text": "PPARγ agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPARγ down-regulation.",
+        "score": 0.5608336329460144,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.8993124961853027,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "02fe0c4a2ba3fbe4702f373e1a10528e3786190441043e8b0955f74b7608eb05",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "PPARγ agonist pioglitazone could inhibit the effects of AGEs-induced inflammatory response and PPARγ down-regulation.",
+        "citation_ids": [
+          "9956893:abstract:921:1038:fcbaba074d03"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

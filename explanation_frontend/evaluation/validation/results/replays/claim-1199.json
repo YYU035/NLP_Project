@@ -1,0 +1,397 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:28:48.598374+00:00",
+    "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+    "created_at": "2026-11-10T04:28:48.598374Z",
+    "retrieved_at": "2026-11-10T04:28:48.598374Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "7454794": {
+        "paper_id": "7454794",
+        "title": "Statins in the primary prevention of cardiovascular disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21557614": {
+        "paper_id": "21557614",
+        "title": "Pleiotropic effects of statins.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "40156901": {
+        "paper_id": "40156901",
+        "title": "Dose-dependent effect of statins on the incidence of acute kidney injury after cardiac surgery.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5698494": {
+        "paper_id": "5698494",
+        "title": "The benefits of statins in people without established cardiovascular disease but with cardiovascular risk factors: meta-analysis of randomised controlled trials",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4687948": {
+        "paper_id": "4687948",
+        "title": "HMG-CoA reductase inhibitors and the risk of hip fractures in elderly patients.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "7454794": {
+          "paper_id": "7454794",
+          "title": "Statins in the primary prevention of cardiovascular disease",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.6275974214076996,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "7454794:abstract:662:824:4d984b73415a",
+            "7454794:abstract:275:418:cc99dca953a9"
+          ]
+        },
+        "21557614": {
+          "paper_id": "21557614",
+          "title": "Pleiotropic effects of statins.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "40156901": {
+          "paper_id": "40156901",
+          "title": "Dose-dependent effect of statins on the incidence of acute kidney injury after cardiac surgery.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5698494": {
+          "paper_id": "5698494",
+          "title": "The benefits of statins in people without established cardiovascular disease but with cardiovascular risk factors: meta-analysis of randomised controlled trials",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4687948": {
+          "paper_id": "4687948",
+          "title": "HMG-CoA reductase inhibitors and the risk of hip fractures in elderly patients.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7454794:abstract:1082:1223:0349a8de551b": {
+          "passage_id": "7454794:abstract:1082:1223:0349a8de551b",
+          "paper_id": "7454794",
+          "label": "NEUTRAL",
+          "confidence": 0.9685328006744385,
+          "truncated": false
+        },
+        "7454794:abstract:662:824:4d984b73415a": {
+          "passage_id": "7454794:abstract:662:824:4d984b73415a",
+          "paper_id": "7454794",
+          "label": "CONTRADICT",
+          "confidence": 0.6350195407867432,
+          "truncated": false
+        },
+        "7454794:abstract:275:418:cc99dca953a9": {
+          "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+          "paper_id": "7454794",
+          "label": "CONTRADICT",
+          "confidence": 0.620175302028656,
+          "truncated": false
+        },
+        "21557614:abstract:59:168:a22e91be616a": {
+          "passage_id": "21557614:abstract:59:168:a22e91be616a",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9830778241157532,
+          "truncated": false
+        },
+        "21557614:abstract:643:737:5b13ca92ee7c": {
+          "passage_id": "21557614:abstract:643:737:5b13ca92ee7c",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9929558038711548,
+          "truncated": false
+        },
+        "21557614:abstract:0:58:cb79fc38f06d": {
+          "passage_id": "21557614:abstract:0:58:cb79fc38f06d",
+          "paper_id": "21557614",
+          "label": "NEUTRAL",
+          "confidence": 0.9973934888839722,
+          "truncated": false
+        },
+        "5698494:abstract:1111:1343:f9cdbe772ad7": {
+          "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7",
+          "paper_id": "5698494",
+          "label": "NEUTRAL",
+          "confidence": 0.995613694190979,
+          "truncated": false
+        },
+        "5698494:abstract:1491:1722:4bc00b6dff26": {
+          "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26",
+          "paper_id": "5698494",
+          "label": "NEUTRAL",
+          "confidence": 0.9960854053497314,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7454794:abstract:1082:1223:0349a8de551b",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "In appropriately selected individuals, statins should also be used for primary prevention of ischaemic stroke and transient ischaemic attack.",
+          "score": 0.5812031030654907,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7454794:abstract:662:824:4d984b73415a",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+          "score": 0.568985104560852,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+          "score": 0.5371896624565125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:59:168:a22e91be616a",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "In clinical trials, statins are beneficial in the primary and secondary prevention of coronary heart disease.",
+          "score": 0.6081036329269409,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:643:737:5b13ca92ee7c",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "Furthermore, statins have beneficial extrahepatic effects on the immune system, CNS, and bone.",
+          "score": 0.5431681871414185,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21557614:abstract:0:58:cb79fc38f06d",
+          "paper_id": "21557614",
+          "section": "abstract",
+          "text": "Statins are potent inhibitors of cholesterol biosynthesis.",
+          "score": 0.539008617401123,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5698494:abstract:1111:1343:f9cdbe772ad7",
+          "paper_id": "5698494",
+          "section": "abstract",
+          "text": "Treatment with statins significantly reduced the risk of all cause mortality (odds ratio 0.88, 95% confidence interval 0.81 to 0.96), major coronary events (0.70, 0.61 to 0.81), and major cerebrovascular events (0.81, 0.71 to 0.93).",
+          "score": 0.5505037307739258,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5698494:abstract:1491:1722:4bc00b6dff26",
+          "paper_id": "5698494",
+          "section": "abstract",
+          "text": "CONCLUSION In patients without established cardiovascular disease but with cardiovascular risk factors, statin use was associated with significantly improved survival and large reductions in the risk of major cardiovascular events.",
+          "score": 0.5061843395233154,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "7454794:abstract:662:824:4d984b73415a",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+          "score": 0.568985104560852,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+          "paper_id": "7454794",
+          "section": "abstract",
+          "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+          "score": 0.5371896624565125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.6275974214076996,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "e2cac8d3577e9daeaf0d79238adf00357f54f9b28f9a5370aa416640e99608d2",
+  "selected_paper_ids": [
+    "21557614",
+    "40156901",
+    "4687948",
+    "5698494",
+    "7454794"
+  ],
+  "aggregation": {
+    "claim": "The benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "7454794:abstract:662:824:4d984b73415a",
+        "paper_id": "7454794",
+        "section": "abstract",
+        "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+        "score": 0.568985104560852,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "7454794:abstract:275:418:cc99dca953a9",
+        "paper_id": "7454794",
+        "section": "abstract",
+        "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+        "score": 0.5371896624565125,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.6275974214076996,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "cc4f2ba12a079cdd1b00750e2335b20f02a48b3f072a48a112ba06429887b012",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "Data clearly support the use of statins for primary prevention in high-risk individuals, in whom the strategy is cost-effective and the benefits exceed the risks.",
+        "citation_ids": [
+          "7454794:abstract:662:824:4d984b73415a"
+        ]
+      },
+      {
+        "text": "Firstly, evidence suggests that, in primary prevention, statins substantially decrease CVD morbidity, but only moderately reduce CVD mortality.",
+        "citation_ids": [
+          "7454794:abstract:275:418:cc99dca953a9"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

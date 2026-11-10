@@ -1,3 +1,11 @@
+# Full-pipeline validation — 10 November 2026
+
+The full automated offline route completed all **300 SciFact dev claims** with **zero processing failures**, **56.7% claim accuracy** and **0.584 macro F1**. This is a frozen descriptive audit of previously inspected dev data, not an untouched test set. Retrieval is stronger than final verification: RRF Recall@10 is 95.6% on eligible SciFact claims, 39.2% on CSFCube test and 93.7% on RECIPER. These are different retrieval tasks and protocols.
+
+Read the [complete test report](evaluation/validation/FINAL_TEST_REPORT.md), [per-condition outputs](evaluation/validation/results/test_results.csv), [error catalogue](evaluation/validation/results/error_catalogue.csv) and [machine-readable metrics](evaluation/validation/results/validation-summary.json). Representative real-model replays are in `evaluation/validation/results/replays`; the local review ZIP is `outputs/validation/review-kit.zip`. Open Project overview for report/error downloads. Run `validate.cmd` to reproduce checks and reuse completed frozen studies.
+
+Clean setup: 163 frontend tests pass; all 452 pinned owner tests pass. Seven PDF cases, 30 retrieval repeat checks and five repeated NLI pairs pass. Synthetic scientific-language expectations pass 12/15; population/generalisation errors remain. IG convergence is still unresolved. **Software passes do not imply high scientific accuracy.** Older release notes below describe their original narrower scopes.
+
 # Final integration and demo release — 9 November 2026
 
 The integrated app now opens on **Project overview**. It connects all five contributions through one set of contracts, provides actual-model runs and saved replays, exposes three-domain results and supplies measured evidence for the rubric. This does not guarantee a grade or scientific correctness.

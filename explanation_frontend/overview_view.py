@@ -68,6 +68,21 @@ def render_overview():
     except (ValueError,OSError,KeyError):
         st.error('Benchmark assets failed validation; navigation remains available, but no benchmark scores are displayed.')
         return
+    validation_root=ROOT/'evaluation/validation'
+    validation_summary=validation_root/'results/validation-summary.json'
+    if validation_summary.is_file():
+        with st.expander('Full-pipeline validation · 10 November 2026'):
+            try:
+                measured=json.loads(validation_summary.read_text(encoding='utf-8'))
+                study=measured['science']['conditions']['retrieved_papers_production_selector']
+                left,right=st.columns(2)
+                left.metric('SciFact offline claim accuracy',f"{study['all']['accuracy']:.1%}")
+                right.metric('Processing failures /300',str(study['operational_failures']))
+                st.caption('All 300 previously inspected dev claims; all 5,183 corpus papers; automatic RRF top 5. Frozen descriptive audit, not untouched holdout or public-web recall. Accuracy still needs work; confidence is not a correctness guarantee.')
+                st.download_button('Download full validation report',(validation_root/'FINAL_TEST_REPORT.md').read_bytes(),file_name='FINAL_TEST_REPORT.md',mime='text/markdown')
+                st.download_button('Download error catalogue',(validation_root/'results/error_catalogue.csv').read_bytes(),file_name='error_catalogue.csv',mime='text/csv')
+            except (OSError,ValueError,KeyError,TypeError):
+                st.error('Validation report could not be loaded; no validation scores are inferred.')
     st.subheader('Measured retrieval results')
     cards=st.columns(3)
     for col,dataset in zip(cards,datasets):

@@ -1,3 +1,11 @@
+# Full-pipeline validation — 10 November 2026
+
+The full automated offline route completed all **300 SciFact dev claims** with **zero processing failures**, **56.7% claim accuracy** and **0.584 macro F1**. This is a frozen descriptive audit of previously inspected dev data, not an untouched test set. Retrieval is stronger than final verification: RRF Recall@10 is 95.6% on eligible SciFact claims, 39.2% on CSFCube test and 93.7% on RECIPER. These are different retrieval tasks and protocols.
+
+Read the [complete test report](evaluation/validation/FINAL_TEST_REPORT.md), [per-condition outputs](evaluation/validation/results/test_results.csv), [error catalogue](evaluation/validation/results/error_catalogue.csv) and [machine-readable metrics](evaluation/validation/results/validation-summary.json). Representative real-model replays are in `evaluation/validation/results/replays`; the local review ZIP is `outputs/validation/review-kit.zip`. Open Project overview for report/error downloads. Run `validate.cmd` to reproduce checks and reuse completed frozen studies.
+
+Clean setup: 163 frontend tests pass; all 452 pinned owner tests pass. Seven PDF cases, 30 retrieval repeat checks and five repeated NLI pairs pass. Synthetic scientific-language expectations pass 12/15; population/generalisation errors remain. IG convergence is still unresolved. **Software passes do not imply high scientific accuracy.** Older release notes below describe their original narrower scopes.
+
 # Current demo release — 9 November 2026
 
 Start with `start.cmd` and open **Project overview**. Run `test.cmd` for the complete test suite and dependency check; it creates its own module-local temporary directory. See [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) for the current integration status, actual measurements and additions. [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md) provides the five-person recording script and proof for efficiency, reusability, presentation and participation. Historical notes below are superseded where these documents state newer results.

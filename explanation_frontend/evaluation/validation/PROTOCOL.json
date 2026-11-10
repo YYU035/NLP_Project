@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-10",
+  "created_at": "2026-11-10T04:11:40.852660+00:00",
+  "git_commit": "0e724e74ee38b1459af2870a2cdb9aa4c438bf26",
+  "python": "3.12.15",
+  "owner_source": "90aaca109585c12c877367b1a08fe4dfee4a4de3",
+  "input_sha256": {
+    "corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+  },
+  "source_sha256": {
+    "pipeline.py": "3ceaac6194ed6a2571c6b3b45a63ab08af6098580b21df822b23175f55f82e8a",
+    "semantic_integration.py": "36c2ea35ccb230c023bb29e6d01184a3ece96d16333fdcb04b604b57a9591033",
+    "person4.py": "0a67c16ed3c9f8a7ea2e95de25dcdd1a37715692992152cd228b9e22093b92b8",
+    "_upstream\\person3\\semantic-train-frozen.json": "005ea954fb75473921da506dfc05af8c6be9e4ceb880011dfbf54e32270a1b81",
+    "_upstream\\retrieval\\retriever.py": "1c450f9e5a9a4f5eea6a389300e19d4bb1c01d34a3c9f99c86fc91afabe22e07",
+    "_upstream\\retrieval\\bm25.py": "27ba66c0493bb57c8b3ed19200ceadb85fdf6b1f8d3b0ed2cac7ed663b902d8d",
+    "_upstream\\claim_verifier\\verifier.py": "a5c270867c1b9a590c84837c93aa716cc152a6be1379d8af3d8e1bd0525e4506"
+  },
+  "nli": {
+    "id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "threshold": 0.5,
+    "pair_limit": 512,
+    "dtype": "float32"
+  },
+  "science_protocol": {
+    "scifact_claims": 300,
+    "candidate_universe": "all5183 corpus abstracts; never inject gold papers",
+    "methods": [
+      "bm25",
+      "sbert",
+      "rrf"
+    ],
+    "fusion_branch_depth": 100,
+    "rrf_k": 60,
+    "verify_paper_depth": 5,
+    "selector": "production exact-string split and frozen semantic policy",
+    "controls": [
+      "oracle_gold_rationale",
+      "gold_papers_production_selector",
+      "retrieved_papers_production_selector"
+    ],
+    "confidence_intervals": "seeded percentile bootstrap,2000 repeats; claim units for SciFact; related claims can remain dependent",
+    "no_positive_policy": "112 no-positive claims included as closed-benchmark INSUFFICIENT; evidence F1 denominator excludes these and reports their selections separately"
+  },
+  "splits": {
+    "SciFact": "dev already inspected; locked descriptive evaluation, not untouched final test",
+    "CSFCube": "official fold1_dev24 and fold1_test26 tasks, seven query-paper IDs overlap; no tuning here",
+    "RECIPER": "entire1024-question release; frozen zero-shot source-paper ranking, not a held-out split"
+  },
+  "selection_policy": "Freeze settings and report every case. No threshold/model selection from these results.",
+  "protocol_caveat": "Offline corpus benchmark replaces web discovery; functional live-provider checks are separate. Top100 branches/top5 papers define an automated evaluation wrapper, not a claim that the UI automatically selects papers.",
+  "documentation_finding": "Pinned BM25 is a custom NumPy implementation, not a call to rank-bm25; correct dependency descriptions separately."
+}

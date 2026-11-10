@@ -1,0 +1,442 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:23:39.897043+00:00",
+    "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+    "created_at": "2026-11-10T04:23:39.897043Z",
+    "retrieved_at": "2026-11-10T04:23:39.897043Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "12588500": {
+        "paper_id": "12588500",
+        "title": "Acetylation of Histone H3 Lysine 56 Regulates Replication-Coupled Nucleosome Assembly",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14637235": {
+        "paper_id": "14637235",
+        "title": "Histone levels are regulated by phosphorylation and ubiquitylation dependent proteolysis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8267678": {
+        "paper_id": "8267678",
+        "title": "Regulation of chromatin by histone modifications",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "406733": {
+        "paper_id": "406733",
+        "title": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13790144": {
+        "paper_id": "13790144",
+        "title": "Histone structure and nucleosome stability.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "12588500": {
+          "paper_id": "12588500",
+          "title": "Acetylation of Histone H3 Lysine 56 Regulates Replication-Coupled Nucleosome Assembly",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14637235": {
+          "paper_id": "14637235",
+          "title": "Histone levels are regulated by phosphorylation and ubiquitylation dependent proteolysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8267678": {
+          "paper_id": "8267678",
+          "title": "Regulation of chromatin by histone modifications",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "406733": {
+          "paper_id": "406733",
+          "title": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13790144": {
+          "paper_id": "13790144",
+          "title": "Histone structure and nucleosome stability.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "12588500:abstract:303:462:5a04f188ab88": {
+          "passage_id": "12588500:abstract:303:462:5a04f188ab88",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9959942102432251,
+          "truncated": false
+        },
+        "12588500:abstract:463:729:977c1ed31ccb": {
+          "passage_id": "12588500:abstract:463:729:977c1ed31ccb",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9980462789535522,
+          "truncated": false
+        },
+        "12588500:abstract:0:148:b03cfafc498e": {
+          "passage_id": "12588500:abstract:0:148:b03cfafc498e",
+          "paper_id": "12588500",
+          "label": "NEUTRAL",
+          "confidence": 0.9986377358436584,
+          "truncated": false
+        },
+        "14637235:abstract:423:627:0da7320f7f05": {
+          "passage_id": "14637235:abstract:423:627:0da7320f7f05",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9941470623016357,
+          "truncated": false
+        },
+        "14637235:abstract:233:422:8c43d8e11408": {
+          "passage_id": "14637235:abstract:233:422:8c43d8e11408",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9994230270385742,
+          "truncated": false
+        },
+        "14637235:abstract:0:232:2d6813a622e9": {
+          "passage_id": "14637235:abstract:0:232:2d6813a622e9",
+          "paper_id": "14637235",
+          "label": "NEUTRAL",
+          "confidence": 0.9988425970077515,
+          "truncated": false
+        },
+        "8267678:abstract:543:778:e46b97b5954f": {
+          "passage_id": "8267678:abstract:543:778:e46b97b5954f",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9994520545005798,
+          "truncated": false
+        },
+        "8267678:abstract:382:542:d3a5f11254b1": {
+          "passage_id": "8267678:abstract:382:542:d3a5f11254b1",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9990242719650269,
+          "truncated": false
+        },
+        "8267678:abstract:144:252:84faef86e739": {
+          "passage_id": "8267678:abstract:144:252:84faef86e739",
+          "paper_id": "8267678",
+          "label": "NEUTRAL",
+          "confidence": 0.9984850287437439,
+          "truncated": false
+        },
+        "406733:abstract:256:352:01dfc291dd7d": {
+          "passage_id": "406733:abstract:256:352:01dfc291dd7d",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.7759281396865845,
+          "truncated": false
+        },
+        "406733:abstract:353:585:75191a7ec497": {
+          "passage_id": "406733:abstract:353:585:75191a7ec497",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.9983057975769043,
+          "truncated": false
+        },
+        "406733:abstract:586:671:af73298e2983": {
+          "passage_id": "406733:abstract:586:671:af73298e2983",
+          "paper_id": "406733",
+          "label": "NEUTRAL",
+          "confidence": 0.9955480098724365,
+          "truncated": false
+        },
+        "13790144:abstract:128:359:625baa773963": {
+          "passage_id": "13790144:abstract:128:359:625baa773963",
+          "paper_id": "13790144",
+          "label": "NEUTRAL",
+          "confidence": 0.9988206028938293,
+          "truncated": false
+        },
+        "13790144:abstract:360:531:44d3799f27ba": {
+          "passage_id": "13790144:abstract:360:531:44d3799f27ba",
+          "paper_id": "13790144",
+          "label": "NEUTRAL",
+          "confidence": 0.9974377155303955,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "12588500:abstract:303:462:5a04f188ab88",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "However, the molecular functions of the acetylation of newly synthesized histones in this DNA replication-coupled nucleosome assembly pathway remain enigmatic.",
+          "score": 0.620684802532196,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12588500:abstract:463:729:977c1ed31ccb",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "Here we show that histone H3 acetylated at lysine 56 (H3K56Ac) is incorporated onto replicating DNA and, by increasing the binding affinity of CAF-1 and Rtt106 for histone H3, H3K56Ac enhances the ability of these histone chaperones to assemble DNA into nucleosomes.",
+          "score": 0.5845136642456055,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12588500:abstract:0:148:b03cfafc498e",
+          "paper_id": "12588500",
+          "section": "abstract",
+          "text": "Chromatin assembly factor 1 (CAF-1) and Rtt106 participate in the deposition of newly synthesized histones onto replicating DNA to form nucleosomes.",
+          "score": 0.5522099137306213,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:423:627:0da7320f7f05",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Here we demonstrate that excess histones associate with Rad53 in vivo and seem to undergo modifications such as tyrosine phosphorylation and polyubiquitylation, before their proteolysis by the proteasome.",
+          "score": 0.7766454219818115,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:233:422:8c43d8e11408",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Although chromosomal histones are stable, excess (non-chromatin bound) histones are rapidly degraded in a Rad53 (radiation sensitive 53) kinase-dependent manner in Saccharomyces cerevisiae.",
+          "score": 0.7602537870407104,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14637235:abstract:0:232:2d6813a622e9",
+          "paper_id": "14637235",
+          "section": "abstract",
+          "text": "Histone levels are tightly regulated to prevent harmful effects such as genomic instability and hypersensitivity to DNA-damaging agents due to the accumulation of these highly basic proteins when DNA replication slows down or stops.",
+          "score": 0.632006049156189,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:543:778:e46b97b5954f",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "Here, we describe the known histone modifications, define where they are found genomically and discuss some of their functional consequences, concentrating mostly on transcription where the majority of characterisation has taken place.",
+          "score": 0.6051290035247803,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:382:542:d3a5f11254b1",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "However, it is clear that histone modifications play fundamental roles in most biological processes that are involved in the manipulation and expression of DNA.",
+          "score": 0.600459098815918,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8267678:abstract:144:252:84faef86e739",
+          "paper_id": "8267678",
+          "section": "abstract",
+          "text": "A principle component of chromatin that plays a key role in this regulation is the modification of histones.",
+          "score": 0.5501422882080078,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:256:352:01dfc291dd7d",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "We have analyzed where the histones for reassembly of the inactive promoter chromatin come from.",
+          "score": 0.5988675355911255,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:353:585:75191a7ec497",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool.",
+          "score": 0.5402109622955322,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "406733:abstract:586:671:af73298e2983",
+          "paper_id": "406733",
+          "section": "abstract",
+          "text": "In this way, we show that the incorporated histones originate from a source in trans.",
+          "score": 0.5247347354888916,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13790144:abstract:128:359:625baa773963",
+          "paper_id": "13790144",
+          "section": "abstract",
+          "text": "Although histones have a high degree of conservation due to constraints to maintain the overall structure of the nucleosomal octameric core, variants have evolved to assume diverse roles in gene regulation and epigenetic silencing.",
+          "score": 0.6243557929992676,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13790144:abstract:360:531:44d3799f27ba",
+          "paper_id": "13790144",
+          "section": "abstract",
+          "text": "Histone variants, post-translational modifications and interactions with chromatin remodeling complexes influence DNA replication, transcription, repair and recombination.",
+          "score": 0.549929141998291,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "4465f2b36c03b87d8edb42aea2d0d133ae4606fffc8c2d3a63a3445b53f0c40e",
+  "selected_paper_ids": [
+    "12588500",
+    "13790144",
+    "14637235",
+    "406733",
+    "8267678"
+  ],
+  "aggregation": {
+    "claim": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "2dcce7886f5105ad909ff18811b80ea496fc44f5e40031a6d0e0d0af7b13dc7a",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}
