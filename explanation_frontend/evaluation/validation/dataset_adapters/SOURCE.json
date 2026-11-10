@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/YYU035/NLP_Project",
+  "commit": "90aaca109585c12c877367b1a08fe4dfee4a4de3",
+  "source": "shared/datasets",
+  "adaptations": [
+    "Package-relative imports; no dependency on ignored temporary checkout.",
+    "Explicit UTF-8 reads for Windows; dataset scoring and protocol unchanged."
+  ],
+  "files": {
+    "__init__.py": {
+      "upstream_sha256": "f1f15457cefa4e42d8e0305bab8d8685c05cb9c749d0377a0fbd393d0ed3c6be",
+      "local_sha256": "3cc3fb6b6399383944fc3cfb4bc4168d9ea9ec32431548c2024c8c46bd46be74"
+    },
+    "csfcube.py": {
+      "upstream_sha256": "a647e757bd6eb24cfe9030401b854a337191b9b2537276b1e78fedf36af41a5b",
+      "local_sha256": "9049c21e044d0971d99a5d4e87546f55b56bf33178313430a185c43bba02423f"
+    },
+    "reciper.py": {
+      "upstream_sha256": "b97aef4ff451ff742f6ea6e913349bff5b1ae194221aa35892a441f6f50b5d73",
+      "local_sha256": "f128acbf674ef5895ad26d49b1014c017da95d0a7bbe1d83d5f3bc31ce8fa66b"
+    },
+    "setup.py": {
+      "upstream_sha256": "f3587b5e5dbc8c07a8cec517cc42c1aa77bafdbf485debd8a05995592217a929",
+      "local_sha256": "d4def6b88268944a25b5fbd25063b6df8b750ca2d3a416df61fce94e9292cc6a"
+    }
+  }
+}

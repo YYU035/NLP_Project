@@ -1,0 +1,391 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:20:10.280975+00:00",
+    "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+    "created_at": "2026-11-10T04:20:10.280975Z",
+    "retrieved_at": "2026-11-10T04:20:10.280975Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "14717500": {
+        "paper_id": "14717500",
+        "title": "Rare Variants Create Synthetic Genome-Wide Associations",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "2739854": {
+        "paper_id": "2739854",
+        "title": "Rare and common variants: twenty arguments",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23389795": {
+        "paper_id": "23389795",
+        "title": "Common and rare variants in multifactorial susceptibility to common diseases",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13519661": {
+        "paper_id": "13519661",
+        "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4414547": {
+        "paper_id": "4414547",
+        "title": "Mosaic PPM1D mutations are associated with predisposition to breast and ovarian cancer",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "14717500": {
+          "paper_id": "14717500",
+          "title": "Rare Variants Create Synthetic Genome-Wide Associations",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "2739854": {
+          "paper_id": "2739854",
+          "title": "Rare and common variants: twenty arguments",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23389795": {
+          "paper_id": "23389795",
+          "title": "Common and rare variants in multifactorial susceptibility to common diseases",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13519661": {
+          "paper_id": "13519661",
+          "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4414547": {
+          "paper_id": "4414547",
+          "title": "Mosaic PPM1D mutations are associated with predisposition to breast and ovarian cancer",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "14717500:abstract:1617:1849:a60868c44834": {
+          "passage_id": "14717500:abstract:1617:1849:a60868c44834",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9994673132896423,
+          "truncated": false
+        },
+        "14717500:abstract:0:240:d623adf21696": {
+          "passage_id": "14717500:abstract:0:240:d623adf21696",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9976748824119568,
+          "truncated": false
+        },
+        "14717500:abstract:476:731:6a28a040a24f": {
+          "passage_id": "14717500:abstract:476:731:6a28a040a24f",
+          "paper_id": "14717500",
+          "label": "NEUTRAL",
+          "confidence": 0.9989687204360962,
+          "truncated": false
+        },
+        "2739854:abstract:0:109:8ddbc2c50202": {
+          "passage_id": "2739854:abstract:0:109:8ddbc2c50202",
+          "paper_id": "2739854",
+          "label": "NEUTRAL",
+          "confidence": 0.9983949065208435,
+          "truncated": false
+        },
+        "23389795:abstract:424:671:e0f2a480b779": {
+          "passage_id": "23389795:abstract:424:671:e0f2a480b779",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9993172883987427,
+          "truncated": false
+        },
+        "23389795:abstract:0:243:772659cca088": {
+          "passage_id": "23389795:abstract:0:243:772659cca088",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9990079998970032,
+          "truncated": false
+        },
+        "23389795:abstract:244:423:a73208773e1b": {
+          "passage_id": "23389795:abstract:244:423:a73208773e1b",
+          "paper_id": "23389795",
+          "label": "NEUTRAL",
+          "confidence": 0.9988307356834412,
+          "truncated": false
+        },
+        "13519661:abstract:402:630:8d328612951e": {
+          "passage_id": "13519661:abstract:402:630:8d328612951e",
+          "paper_id": "13519661",
+          "label": "NEUTRAL",
+          "confidence": 0.9982796907424927,
+          "truncated": false
+        },
+        "4414547:abstract:0:138:760213a33f29": {
+          "passage_id": "4414547:abstract:0:138:760213a33f29",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.9988487958908081,
+          "truncated": false
+        },
+        "4414547:abstract:1641:1814:63066ecf5374": {
+          "passage_id": "4414547:abstract:1641:1814:63066ecf5374",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.9986849427223206,
+          "truncated": false
+        },
+        "4414547:abstract:243:649:5da380b9af24": {
+          "passage_id": "4414547:abstract:243:649:5da380b9af24",
+          "paper_id": "4414547",
+          "label": "NEUTRAL",
+          "confidence": 0.997107207775116,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "14717500:abstract:1617:1849:a60868c44834",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "In conclusion, uncommon or rare genetic variants can easily create synthetic associations that are credited to common variants, and this possibility requires careful consideration in the interpretation and follow up of GWAS signals.",
+          "score": 0.6357018947601318,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14717500:abstract:0:240:d623adf21696",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "Genome-wide association studies (GWAS) have now identified at least 2,000 common variants that appear associated with common diseases or related traits (http://www.genome.gov/gwastudies), hundreds of which have been convincingly replicated.",
+          "score": 0.6238598227500916,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14717500:abstract:476:731:6a28a040a24f",
+          "paper_id": "14717500",
+          "section": "abstract",
+          "text": "We propose as an alternative explanation that variants much less common than the associated one may create \"synthetic associations\" by occurring, stochastically, more often in association with one of the alleles at the common site versus the other allele.",
+          "score": 0.5728593468666077,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "2739854:abstract:0:109:8ddbc2c50202",
+          "paper_id": "2739854",
+          "section": "abstract",
+          "text": "Genome-wide association studies have greatly improved our understanding of the genetic basis of disease risk.",
+          "score": 0.5232477784156799,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:424:671:e0f2a480b779",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "The identification of rare variants involves the careful selection of candidate genes to examine, the availability of highly efficient resequencing techniques and the appropriate assessment of the functional consequences of the implicated variant.",
+          "score": 0.6989741325378418,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:0:243:772659cca088",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "Here, we give a historical overview of the search for genetic variants that influence the susceptibility of an individual to a chronic disease, from RA Fisher's seminal work to the current excitement of whole-genome association studies (WGAS).",
+          "score": 0.6097698211669922,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23389795:abstract:244:423:a73208773e1b",
+          "paper_id": "23389795",
+          "section": "abstract",
+          "text": "We then discuss the concepts behind the identification of common variants as disease causal factors and contrast them to the basic ideas that underlie the rare variant hypothesis.",
+          "score": 0.5985223650932312,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13519661:abstract:402:630:8d328612951e",
+          "paper_id": "13519661",
+          "section": "abstract",
+          "text": "In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs).",
+          "score": 0.55661940574646,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:0:138:760213a33f29",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "Improved sequencing technologies offer unprecedented opportunities for investigating the role of rare genetic variation in common disease.",
+          "score": 0.7222722172737122,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:1641:1814:63066ecf5374",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "More generally, these data provide new insights into the role of rare and of mosaic genetic variants in common conditions, and the use of sequencing in their identification.",
+          "score": 0.710564136505127,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4414547:abstract:243:649:5da380b9af24",
+          "paper_id": "4414547",
+          "section": "abstract",
+          "text": "Using pooled next-generation sequencing of 507 genes implicated in the repair of DNA in 1,150 samples, an analytical strategy focused on protein-truncating variants (PTVs) and a large-scale sequencing case–control replication experiment in 13,642 individuals, here we show that rare PTVs in the p53-inducible protein phosphatase PPM1D are associated with predisposition to breast cancer and ovarian cancer.",
+          "score": 0.5427759885787964,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "3c8697936726888efaeb49e153359e9eb1641a5e165b02d1f8fea78435697996",
+  "selected_paper_ids": [
+    "13519661",
+    "14717500",
+    "23389795",
+    "2739854",
+    "4414547"
+  ],
+  "aggregation": {
+    "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "9418b29b6cac0cfca2578d5132fdc342f045e7251c303a1e3334a2c98d875792",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

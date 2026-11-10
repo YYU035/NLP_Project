@@ -15,6 +15,7 @@ SOURCES = {
     "raghavi": ("259d2a9e90fb8e9d5988f030a156733f4f3576d1", "live_search"),
     "naila": ("2bc7d81292313498fd70dd13656024d00cf3dda4", "retrieval"),
     "yuyue": ("a91e257ab260ded8df8c2cc2f214c4c7fd16af6c", "ranking_evaluation"),
+    "yuyue_current": ("90aaca109585c12c877367b1a08fe4dfee4a4de3", "ranking_evaluation"),
     "chong_yao": ("1ac06b675e3d0719a63cb8efe98eda4f2c5fd576", "claim_verifier"),
 }
 
@@ -26,7 +27,10 @@ def run(owner, portability_fix=False, stable_cutoff_fix=False):
     prior_probe = workspace / folder / 'tests' / 'test_qc_cutoff.py'
     if prior_probe.is_file():
         prior_probe.unlink()  # Only our known harness file, never an owner source.
-    archive = subprocess.check_output(["git", "archive", revision, folder], cwd=REPO)
+    folders = [folder]
+    if owner == 'yuyue_current':
+        folders += ['shared','retrieval','live_search/src','claim_verifier','README.md']
+    archive = subprocess.check_output(["git", "archive", revision, *folders], cwd=REPO)
     with tarfile.open(fileobj=io.BytesIO(archive)) as source:
         for member in source.getmembers():
             target = (workspace / member.name).resolve()

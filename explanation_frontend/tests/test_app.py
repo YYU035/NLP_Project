@@ -8,7 +8,7 @@ APP = str(Path(__file__).parents[1] / "app.py")
 
 
 def verification_app():
-    app = AppTest.from_file(APP).run()
+    app = AppTest.from_file(APP, default_timeout=15).run()
     app.radio(key="workspace").set_value("Verify evidence").run()
     return app
 

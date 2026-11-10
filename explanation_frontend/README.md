@@ -1,3 +1,19 @@
+# Full-pipeline validation — 10 November 2026
+
+The full automated offline route completed all **300 SciFact dev claims** with **zero processing failures**, **56.7% claim accuracy** and **0.584 macro F1**. This is a frozen descriptive audit of previously inspected dev data, not an untouched test set. Retrieval is stronger than final verification: RRF Recall@10 is 95.6% on eligible SciFact claims, 39.2% on CSFCube test and 93.7% on RECIPER. These are different retrieval tasks and protocols.
+
+Read the [complete test report](evaluation/validation/FINAL_TEST_REPORT.md), [per-condition outputs](evaluation/validation/results/test_results.csv), [error catalogue](evaluation/validation/results/error_catalogue.csv) and [machine-readable metrics](evaluation/validation/results/validation-summary.json). Representative real-model replays are in `evaluation/validation/results/replays`; the local review ZIP is `outputs/validation/review-kit.zip`. Open Project overview for report/error downloads. Run `validate.cmd` to reproduce checks and reuse completed frozen studies.
+
+Clean setup: 164 frontend tests pass; all 452 pinned owner tests pass. Seven PDF cases, 30 retrieval repeat checks and five repeated NLI pairs pass. Synthetic scientific-language expectations pass 12/15; population/generalisation errors remain. IG convergence is still unresolved. **Software passes do not imply high scientific accuracy.** Older release notes below describe their original narrower scopes.
+
+# Current demo release — 9 November 2026
+
+Start with `start.cmd` and open **Project overview**. Run `test.cmd` for the complete test suite and dependency check; it creates its own module-local temporary directory. See [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) for the current integration status, actual measurements and additions. [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md) provides the five-person recording script and proof for efficiency, reusability, presentation and participation. Historical notes below are superseded where these documents state newer results.
+
+Word occlusion is now the default model explanation; Naila’s IG remains experimental. Eight actual-model runs, explicit replays, three-domain charts, measured zero-inference subset changes and actual-output review packets are ready. Real video participation and human scores still require the team.
+
+XAI validation update (9 November): baseline-aware attribution, stricter numerical gates, reproducible SciFact evaluation and a full-abstract verifier audit are documented in [XAI_VALIDATION.md](XAI_VALIDATION.md). Initial PAD failure is historical; MASK128 converges on the synthetic example, the four real SciFact pilot cases failed at128 steps, and a targeted512-step case narrowly failed the conservative absolute gate. Real-case reliability remains measured per input.
+
 # Explanation frontend - Kireeti, Person 5
 
 The integrated Streamlit workflow now runs end to end: public discovery -> Naila BM25/SBERT -> Yu Yue RRF -> exact abstract-span selection -> Chong Yao local NLI -> cached aggregation -> grounded explanations, paper-subset comparisons and JSON export/replay.
@@ -20,38 +36,33 @@ On a fresh checkout, first install Python 3.12 and run:
 .\explanation_frontend\run.ps1
 ```
 
-The setup scripts create the module-local virtual environment, install pinned discovery dependencies and explicitly download public MiniLM/spaCy and MIT NLI model files. Git needs access to the group repository to install Raghavi's pinned paper_search package. The NLI weights are about 870 MB; activation verifies their SHA-256 checksum. Models, environments and artifacts are ignored by Git and remain in this folder. Setup requires internet; model inference does not. No model is downloaded by a verification request.
+The setup scripts create the module-local virtual environment, install pinned discovery dependencies and explicitly download public MiniLM/spaCy, the exact Person 3 semantic encoder and MIT NLI model files; optional local PDF/Captum dependencies are installed too. Git needs access to the group repository to install Raghavi's pinned paper_search package. The NLI weights are about 870 MB; activation verifies their SHA-256 checksum. Models, environments and artifacts are ignored by Git and remain in this folder. Setup requires internet; model inference does not. No model is downloaded by a verification request.
 
 1. **Find papers:** load the recorded real search, upload a Person 1 RetrievalResult or search export, or request a fresh Live search. Inspect metadata, provider diagnostics, aliases and provenance. Select papers.
-2. **Prepare selected papers for verification:** opens Verify evidence with the exact claim locked. Click **Verify claim**. The built-in local pipeline ranks the selected candidates unless a validated ranking is already attached, selects up to three exact adjacent-sentence abstract windows per paper and runs NLI once.
+2. **Prepare selected papers for verification:** opens Verify evidence with the exact claim locked. Click **Verify claim**. The built-in local pipeline ranks the selected candidates unless a validated ranking is already attached, uses Yu Yue’s train-frozen semantic selector for up to three exact abstract passages per paper, rejects whole spans exceeding the verifier token budget and runs NLI once.
 3. Inspect **Verdict & explanation**, **Papers & passages**, and **Run details**. Change paper checkboxes to invoke cached aggregation without neural inference. Export the replayable result.
 4. **Cached replay:** load a result without external requests. Original selection retains its saved aggregation; changed replay selections use the explicitly labelled replay policy, not a new call to the live verifier.
-5. **Evaluate explanations:** import blinded review packets and record human scores. Export review CSV/JSON before closing the session.
+5. **Local PDF:** upload a text PDF for bounded, page-aware local verification and replay. **Benchmark results:** inspect three domain-specific published evaluations. **Model attribution:** inspect diagnostics for a frozen passage; unstable importance scores are withheld.
+6. **Evaluate explanations:** import blinded review packets and record human scores. Export review CSV/JSON before closing the session.
 
 Alternatively, Verify evidence -> **Live** performs discovery and the remaining stages in one request, using ten candidates per provider. Search/ranking scores and NLI confidence are not scientific truth probabilities. A cancelled or timed-out request produces no inferred verdict; late results are discarded. The initial pipeline deadline is 300 seconds, allowing for CPU inference and cold model loading; subset aggregation has a five-second UI deadline. This is a local capstone app, not a production multi-user service.
 
-## Person-by-person integration checklist - 6 November 2026
+## Person-by-person integration checklist - 9 November 2026
 
-| Owner / boundary | Current status | Remaining owner work |
+| Owner | Connected and validated | Remaining work |
 | --- | --- | --- |
-| Person 1 - Raghavi | **[CONNECTED]** Pinned discovery package, live and recorded searches, canonical IDs, exact claim, aliases, provider diagnostics, source records and selected-paper lineage. Fresh public search exercised with the downstream pipeline. | **[PENDING - Person 1 + team]** Full-text acquisition, retraction/freshness/source-version handling and source eligibility agreement. PDF links are metadata links only. |
-| Person 2 - Naila | **[CONNECTED]** Pinned BM25/SBERT runtime, native Paper adapter, local MiniLM encoder, real ordered branch lists and branch query timings. No title/abstract means no retrieval score; the paper remains visible as an unavailable verification input. | **[PENDING - Naila + team]** Frozen benchmark results and model-quality comparison. Integration smoke is not retrieval-quality evaluation. |
-| Person 3 - Yu Yue | **[CONNECTED]** Pinned RRF runtime consumes actual Person 2 branch rankings, validates canonical identities and retains ranked records/scores in exports. Manual RankingInput/RankingOutput import remains available. | **[PENDING - Yu Yue + team]** Broader reranker quality/protocol review. Float32/float64 QC now passes here and a small development comparison improved; RRF-only remains the product default. |
-| Passage selection | **[ADDED BY KIREETI]** Exact, deterministic abstract/description windows with original character offsets, stable passage IDs and lexical selection. No PDF is fetched or claimed to have been read. | **[PENDING - Yu Yue]** The current task document confirms Person 3 ownership; replace/approve this fallback and complete annotated passage evaluation. Preserve dataset sentence indices in any future SciFact evidence-selector evaluation. |
-| Person 4 - Chong Yao | **[CONNECTED]** Pinned schemas/classifier, offline NLI loading, typed response mapping, original-response caching and actual cached aggregate method. Real local inference, conflict handling, subsets and export/replay exercised. | **[PENDING - Person 4 + team]** Review the documented frontend conflict policy and run broader held-out calibration/quality/latency checks. |
-| Person 5 - Kireeti | **[CONNECTED]** Built-in factory, discovery and verification UI, grounded template explanations/citations, scoped subset results, operational failures, export/replay and human-review workspace. | **[PENDING - Kireeti + reviewers]** Real human explanation/citation evaluation. Qwen setup and 12 real local-generation QC attempts are complete; schema compliance and actual human comparison remain pending. |
-| Whole team | **[WORKING END TO END, ABSTRACT ONLY]** Fresh public discovery and recorded-search pipelines passed real local-model smoke checks. | **[PENDING - all owners]** Team acceptance of added policies, broader edge-case and scientific quality evaluation, full-text support, report/demo preparation. |
+| Person 1 - Raghavi | Public discovery, canonical identities, selected-paper provenance and fresh search feeding actual local inference. | **[PENDING - Person 1 + team]** Automated full-text acquisition, retraction/freshness and source eligibility review. Local uploaded PDFs are now supported separately. |
+| Person 2 - Naila | BM25/SBERT retrieval; local integrated-gradients workspace and 12 attribution plumbing tests. | **[PENDING - Naila + team]** Complete broader real-model attribution convergence and usefulness studies; inspect the new gated pilot/audit in XAI_VALIDATION.md. Unstable token highlights are withheld. |
+| Person 3 - Yu Yue | Updated RRF, train-frozen semantic selector, exact source spans, tokenizer budget and local PDF extraction. Published SciFact, CSFCube and RECIPER results displayed with provenance and separate protocols. Current isolated owner suite: 163 passed. | **[PENDING - Yu Yue + team]** Independently reproduce full published benchmarks, review held-out protocol and broaden real PDF/layout/evidence quality studies. |
+| Person 4 - Chong Yao | Local NLI, native response mapping, cached aggregation, successful selector abstention, conflict safety, page-aware evidence and replay. | **[PENDING - Person 4 + team]** Calibration/held-out verdict quality and acceptance of documented frontend aggregation policy. |
+| Person 5 - Kireeti | Six connected workspaces, grounded explanations/citations, diagnostic and failure handling, three-dataset reporting, PDF/attribution UI, subset comparisons and export/replay. Frontend suite: 136 passed. | **[PENDING - Kireeti + reviewers]** Human explanation/citation and PDF reviews; Qwen remains experimental after its earlier schema failures. |
+| Whole team | Recorded and fresh discovery -> retrieval -> ranking -> semantic evidence -> actual NLI -> explanation -> replay exercised. Synthetic local PDF also exercised with actual models. | **[PENDING - all owners]** Scientific quality sign-off, report/demo, and confirmation that Materials Science satisfies the requested third domain if Physics is specifically required. |
+
+See [COMBINED_INTEGRATION.md](COMBINED_INTEGRATION.md) for exact pinned revisions, all additions, benchmark denominators, validation evidence and limitations. Published benchmark results are owner artifacts, not independently reproduced frontend experiments. CSFCube and RECIPER have no sentence/verdict gold; they do not establish evidence F1 or verifier accuracy. Real-model attribution failed the numerical gate and remains flagged unstable.
 
 ## What was verified
 
-**116 tests passed** and **pip check passed**. The automated suite covers contracts, identities, original claims, ranking provenance, exact spans, truncation/operational failures, internal/across-paper conflicts, cached subset aggregation, Streamlit navigation and export/replay. The latest run and reproducible smoke commands are recorded in [evaluation/end-to-end-smoke.md](evaluation/end-to-end-smoke.md).
-
-Real CPU smoke checks on 6 November 2026:
-
-- Recorded real search: 32 candidates, 3 selected papers, 9 passages, valid grounded explanation and replay; approximately 28.20 seconds including local model loading; first subset aggregation about 49.98 ms.
-- Fresh public search: 9 candidates, 3 selected papers, 9 passages, valid grounded explanation and replay; approximately 31.44 seconds including discovery/model loading; first subset aggregation about 10.43 ms.
-
-These are functionality checks on two claims, not accuracy, scientific correctness or quality benchmarks. The selector uses provider abstract/description fields, whose authenticity and interpretation are not independently verified.
+**136 frontend tests, 163 current Yu Yue tests and pip check passed.** Actual recorded and fresh public searches each verified three papers / nine bounded semantic passages, with grounded explanations and replay. A constructed text PDF preserved exact page evidence through actual local NLI and replay. These are functional checks, not scientific accuracy studies. Historical 6 November QC remains in TEAM_QC_REPORT.md; its missing-selector finding is superseded.
 
 ## Validation commands
 

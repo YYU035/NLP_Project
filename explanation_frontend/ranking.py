@@ -5,7 +5,7 @@ import sys
 
 from .models import digest
 
-REVISION = "a91e257ab260ded8df8c2cc2f214c4c7fd16af6c"
+REVISION = "7ed93fa4be69c661422b33b6c88b949dd2636e12"
 
 
 def runtime():

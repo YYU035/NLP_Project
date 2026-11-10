@@ -1,0 +1,4 @@
+{
+  "revision": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+  "changes": "Frontend integration fix in retriever._top_k only: stable tie membership at cutoff, finite1D score validation, O(n + k log k) selection. Other runtime files unchanged."
+}

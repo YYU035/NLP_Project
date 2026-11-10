@@ -1,0 +1,11 @@
+{
+  "revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+  "files_sha256": {
+    "__init__.py": "0d492b2dd9ed0632d233d1a51abc648d73e26b5e3ce453ee6ca75070562ac7d4",
+    "schemas.py": "cd0b19cf20df06c7b6fc7dfc31e127695abbe5d7fc587288dd8230b8d882df02",
+    "pipeline.py": "d016b70b88b088d1eaf2ca1d05cebf6c8e50e7166646ccc1e2afb1a69cca002a",
+    "rrf.py": "cdeeabc87cf9c3f85c99a6b1165a478ef4921b9acd740b7a48cfb380d6d25b35",
+    "reranker.py": "3a8df29dc507778bd524d40ff10842b83dc16fb8c846701b782e1d13b73a583e",
+    "latency.py": "34791e1390d143d1e166da4dda80f191c9d8c45aa21b27de495e5c224fa84d68"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:21:21.007352+00:00",
+    "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+    "created_at": "2026-11-10T04:21:21.007352Z",
+    "retrieved_at": "2026-11-10T04:21:21.007352Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "26016929": {
+        "paper_id": "26016929",
+        "title": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "457630": {
+        "paper_id": "457630",
+        "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21914176": {
+        "paper_id": "21914176",
+        "title": "Economic impact of primary open-angle glaucoma in Australia.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "10893238": {
+        "paper_id": "10893238",
+        "title": "Identifying common impairments in frail and dependent older people: validation of the COPE assessment for non-specialised health workers in low resource primary health care settings",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "313394": {
+        "paper_id": "313394",
+        "title": "A Functional Neuroimaging Study of Sound Localization: Visual Cortex Activity Predicts Performance in Early-Blind Individuals",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "26016929": {
+          "paper_id": "26016929",
+          "title": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "457630": {
+          "paper_id": "457630",
+          "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21914176": {
+          "paper_id": "21914176",
+          "title": "Economic impact of primary open-angle glaucoma in Australia.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10893238": {
+          "paper_id": "10893238",
+          "title": "Identifying common impairments in frail and dependent older people: validation of the COPE assessment for non-specialised health workers in low resource primary health care settings",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "313394": {
+          "paper_id": "313394",
+          "title": "A Functional Neuroimaging Study of Sound Localization: Visual Cortex Activity Predicts Performance in Early-Blind Individuals",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "26016929:abstract:0:137:575e64951fc6": {
+          "passage_id": "26016929:abstract:0:137:575e64951fc6",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926124811172485,
+          "truncated": false
+        },
+        "26016929:abstract:989:1097:533644adea9c": {
+          "passage_id": "26016929:abstract:989:1097:533644adea9c",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.9926928281784058,
+          "truncated": false
+        },
+        "26016929:abstract:1208:1282:2af80bfbf9d0": {
+          "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+          "paper_id": "26016929",
+          "label": "NEUTRAL",
+          "confidence": 0.7366705536842346,
+          "truncated": false
+        },
+        "10893238:abstract:1108:1276:648ce804611e": {
+          "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+          "paper_id": "10893238",
+          "label": "NEUTRAL",
+          "confidence": 0.996238112449646,
+          "truncated": false
+        },
+        "313394:abstract:0:76:e58f7f544f25": {
+          "passage_id": "313394:abstract:0:76:e58f7f544f25",
+          "paper_id": "313394",
+          "label": "NEUTRAL",
+          "confidence": 0.9958036541938782,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "26016929:abstract:0:137:575e64951fc6",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.",
+          "score": 0.8067132234573364,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26016929:abstract:989:1097:533644adea9c",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.",
+          "score": 0.6641406416893005,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26016929:abstract:1208:1282:2af80bfbf9d0",
+          "paper_id": "26016929",
+          "section": "abstract",
+          "text": "Visual impairment in this age group can usually be reduced with treatment.",
+          "score": 0.6538330316543579,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10893238:abstract:1108:1276:648ce804611e",
+          "paper_id": "10893238",
+          "section": "abstract",
+          "text": "However, the prevalence of impairments was generally higher according to clinicians, particularly for visual impairment (98.7 vs 45.8 %), cognitive impairment (78.4 vs.",
+          "score": 0.5599455237388611,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "313394:abstract:0:76:e58f7f544f25",
+          "paper_id": "313394",
+          "section": "abstract",
+          "text": "Blind individuals often demonstrate enhanced nonvisual perceptual abilities.",
+          "score": 0.5050675272941589,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "fd9007854e8c665e9a5b0b095c4098c94507a8e6ba00a93a8236ae7770deae7d",
+  "selected_paper_ids": [
+    "10893238",
+    "21914176",
+    "26016929",
+    "313394",
+    "457630"
+  ],
+  "aggregation": {
+    "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "1e8cd8a49f23db58ce7b71e60cbeb45f2e19712ae1e4b9ae4eb54cbe17021372",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

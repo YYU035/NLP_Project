@@ -1,0 +1,202 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:20:06.090188+00:00",
+    "claim": "0-dimensional biomaterials show inductive properties.",
+    "created_at": "2026-11-10T04:20:06.090188Z",
+    "retrieved_at": "2026-11-10T04:20:06.090188Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "43385013": {
+        "paper_id": "43385013",
+        "title": "Epithelial and mesenchymal subpopulations within normal basal breast cell lines exhibit distinct stem cell/progenitor properties.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "10931595": {
+        "paper_id": "10931595",
+        "title": "Geometry, epistasis, and developmental patterning.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29638116": {
+        "paper_id": "29638116",
+        "title": "Complex Tissue and Disease Modeling using hiPSCs.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13231899": {
+        "paper_id": "13231899",
+        "title": "In situ regulation of DC subsets and T cells mediates tumor regression in mice.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4346436": {
+        "paper_id": "4346436",
+        "title": "Nonlinear Elasticity in Biological Gels",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "43385013": {
+          "paper_id": "43385013",
+          "title": "Epithelial and mesenchymal subpopulations within normal basal breast cell lines exhibit distinct stem cell/progenitor properties.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10931595": {
+          "paper_id": "10931595",
+          "title": "Geometry, epistasis, and developmental patterning.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "29638116": {
+          "paper_id": "29638116",
+          "title": "Complex Tissue and Disease Modeling using hiPSCs.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13231899": {
+          "paper_id": "13231899",
+          "title": "In situ regulation of DC subsets and T cells mediates tumor regression in mice.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4346436": {
+          "paper_id": "4346436",
+          "title": "Nonlinear Elasticity in Biological Gels",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {},
+      "processing_failures": [],
+      "evidence_passages": [],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "0-dimensional biomaterials show inductive properties.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "4c0222519d7c218647749a065b6f50372672511fdea56dc166e5d87557bcc792",
+  "selected_paper_ids": [
+    "10931595",
+    "13231899",
+    "29638116",
+    "43385013",
+    "4346436"
+  ],
+  "aggregation": {
+    "claim": "0-dimensional biomaterials show inductive properties.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "458b0a84a74623f1af2ab91dcd61fef1156fe6ff5d4117f4cc568431c3ea12b7",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

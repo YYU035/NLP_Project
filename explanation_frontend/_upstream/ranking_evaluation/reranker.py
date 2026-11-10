@@ -38,13 +38,25 @@ class LocalCrossEncoder:
             if device != "cpu":
                 raise ValueError("cpu_float64 requires device='cpu'")
             self.model.model.double()
+        self._synchronize = None
+        if device.startswith("cuda"):
+            import torch
+            self._synchronize = lambda: torch.cuda.synchronize(device)
+        elif device == "mps":
+            import torch
+            self._synchronize = torch.mps.synchronize
         self.batch_size = batch_size
 
     def score_pairs(self, pairs: list[tuple[str, str]]) -> Sequence[float]:
+        synchronize = getattr(self, "_synchronize", None)
+        if synchronize:
+            synchronize()
         scores = self.model.predict(
             pairs, batch_size=self.batch_size, show_progress_bar=False,
             convert_to_numpy=True,
         )
+        if synchronize:
+            synchronize()
         # Library versions may retain a single-label dimension (N, 1).
         if getattr(scores, "ndim", 0) == 2 and scores.shape[1] == 1:
             return scores[:, 0]

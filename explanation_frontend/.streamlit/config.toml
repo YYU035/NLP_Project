@@ -3,7 +3,7 @@ gatherUsageStats = false
 
 [server]
 headless = true
-maxUploadSize = 10
+maxUploadSize = 20
 
 [theme]
 base = "light"
@@ -12,3 +12,6 @@ backgroundColor = "#FAFBF8"
 secondaryBackgroundColor = "#EEF2ED"
 textColor = "#192D29"
 font = "sans serif"
+
+[client]
+toolbarMode = "viewer"

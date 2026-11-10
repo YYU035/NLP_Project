@@ -1,0 +1,893 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:07.204815+00:00",
+    "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+    "created_at": "2026-11-09T14:33:07.204815Z",
+    "retrieved_at": "2026-11-09T14:33:06.176005Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"cebb787ea3c98ab2b2303399d33c7a230f5db289dbd54dec004637852e6fdff1\", \"candidates\": {\"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:13843341\", \"identity_aliases\": [\"scifact:13843341\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.\", \"authors\": [], \"abstract\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \\n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \\n SETTING Medical wards in 14 hospitals in the United Kingdom.   \\n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \\n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \\n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \\n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.\", \"authors\": [], \"abstract\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \\n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \\n SETTING Medical wards in 14 hospitals in the United Kingdom.   \\n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \\n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \\n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \\n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:27789588\", \"identity_aliases\": [\"scifact:27789588\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.\", \"authors\": [], \"abstract\": \"Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.\", \"authors\": [], \"abstract\": \"Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:14407673\", \"identity_aliases\": [\"scifact:14407673\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.\", \"authors\": [], \"abstract\": \"RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \\n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \\n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.\", \"authors\": [], \"abstract\": \"RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \\n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \\n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.\", \"authors\": [], \"abstract\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \\n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \\n SETTING Medical wards in 14 hospitals in the United Kingdom.   \\n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \\n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \\n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \\n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.\", \"authors\": [], \"abstract\": \"Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.\", \"authors\": [], \"abstract\": \"RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \\n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \\n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:13843341\", \"scifact:14407673\", \"scifact:27789588\"], \"sbert_ranking\": [\"scifact:13843341\", \"scifact:27789588\", \"scifact:14407673\"], \"bm25_seconds\": 0.00012590002734214067, \"sbert_seconds\": 0.0064072999521158636}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:13843341\", \"identity_aliases\": [\"scifact:13843341\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.\", \"authors\": [], \"abstract\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \\n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \\n SETTING Medical wards in 14 hospitals in the United Kingdom.   \\n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \\n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \\n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \\n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.\", \"authors\": [], \"abstract\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \\n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \\n SETTING Medical wards in 14 hospitals in the United Kingdom.   \\n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \\n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \\n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \\n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"13843341\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:14407673\", \"identity_aliases\": [\"scifact:14407673\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.\", \"authors\": [], \"abstract\": \"RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \\n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \\n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.\", \"authors\": [], \"abstract\": \"RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \\n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \\n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"14407673\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 2, \"sbert_rank\": 3, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:27789588\", \"identity_aliases\": [\"scifact:27789588\"], \"original_claim\": \"Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.\", \"paper\": {\"title\": \"Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.\", \"authors\": [], \"abstract\": \"Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.\", \"authors\": [], \"abstract\": \"Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"27789588\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 3, \"sbert_rank\": 2, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 0.00012590002734214067, \"sbert_seconds\": 0.0064072999521158636, \"rrf_seconds\": 8.319999324157834e-05, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.00020379998022690415, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:13843341\": {\"passages\": [{\"passage_id\": \"scifact:13843341:abstract:1608:1747:688dc359c093\", \"paper_id\": \"scifact:13843341\", \"section\": \"abstract\", \"text\": \"CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"score\": 0.7707482576370239}, {\"passage_id\": \"scifact:13843341:abstract:0:237:22de027b1738\", \"paper_id\": \"scifact:13843341\", \"section\": \"abstract\", \"text\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.\", \"score\": 0.5756118297576904}, {\"passage_id\": \"scifact:13843341:abstract:910:1116:f552063b9b97\", \"paper_id\": \"scifact:13843341\", \"section\": \"abstract\", \"text\": \"Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units.\", \"score\": 0.5364251732826233}], \"source_spans\": [{\"paper_id\": \"scifact:13843341\", \"sentence_indices\": [10], \"start\": 1608, \"end\": 1747, \"text\": \"CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.\", \"score\": 0.7707482576370239, \"passage_id\": \"scifact:13843341:abstract:1608:1747:688dc359c093\"}, {\"paper_id\": \"scifact:13843341\", \"sentence_indices\": [0], \"start\": 0, \"end\": 237, \"text\": \"OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.\", \"score\": 0.5756118297576904, \"passage_id\": \"scifact:13843341:abstract:0:237:22de027b1738\"}, {\"paper_id\": \"scifact:13843341\", \"sentence_indices\": [7], \"start\": 910, \"end\": 1116, \"text\": \"Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units.\", \"score\": 0.5364251732826233, \"passage_id\": \"scifact:13843341:abstract:910:1116:f552063b9b97\"}], \"budget_checks\": [{\"passage_id\": \"scifact:13843341:abstract:1608:1747:688dc359c093\", \"pair_tokens\": 42, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:13843341:abstract:0:237:22de027b1738\", \"pair_tokens\": 56, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:13843341:abstract:910:1116:f552063b9b97\", \"pair_tokens\": 60, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:14407673\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:27789588\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:13843341": {
+        "paper_id": "scifact:13843341",
+        "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 4.843507630101236,
+          "sbert": 0.5297672152519226,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:14407673": {
+        "paper_id": "scifact:14407673",
+        "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 1.4044779561660066,
+          "sbert": -0.02776259370148182,
+          "rrf": 0.03200204813108039
+        }
+      },
+      "scifact:27789588": {
+        "paper_id": "scifact:27789588",
+        "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": -0.005317104514688253,
+          "rrf": 0.03200204813108039
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:13843341": {
+          "paper_id": "scifact:13843341",
+          "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.5852510929107666,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "scifact:13843341:abstract:1608:1747:688dc359c093"
+          ]
+        },
+        "scifact:14407673": {
+          "paper_id": "scifact:14407673",
+          "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:27789588": {
+          "paper_id": "scifact:27789588",
+          "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:13843341:abstract:1608:1747:688dc359c093": {
+          "passage_id": "scifact:13843341:abstract:1608:1747:688dc359c093",
+          "paper_id": "scifact:13843341",
+          "label": "CONTRADICT",
+          "confidence": 0.5852510929107666,
+          "truncated": false
+        },
+        "scifact:13843341:abstract:0:237:22de027b1738": {
+          "passage_id": "scifact:13843341:abstract:0:237:22de027b1738",
+          "paper_id": "scifact:13843341",
+          "label": "NEUTRAL",
+          "confidence": 0.9270601868629456,
+          "truncated": false
+        },
+        "scifact:13843341:abstract:910:1116:f552063b9b97": {
+          "passage_id": "scifact:13843341:abstract:910:1116:f552063b9b97",
+          "paper_id": "scifact:13843341",
+          "label": "NEUTRAL",
+          "confidence": 0.9919759631156921,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:13843341:abstract:1608:1747:688dc359c093",
+          "paper_id": "scifact:13843341",
+          "section": "abstract",
+          "text": "CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+          "score": 0.7707482576370239,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:13843341:abstract:0:237:22de027b1738",
+          "paper_id": "scifact:13843341",
+          "section": "abstract",
+          "text": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.",
+          "score": 0.5756118297576904,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:13843341:abstract:910:1116:f552063b9b97",
+          "paper_id": "scifact:13843341",
+          "section": "abstract",
+          "text": "Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units.",
+          "score": 0.5364251732826233,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:13843341:abstract:1608:1747:688dc359c093",
+          "paper_id": "scifact:13843341",
+          "section": "abstract",
+          "text": "CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+          "score": 0.7707482576370239,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.5852510929107666,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "1.0289690000354312",
+      "ranking_output_sha256": "71e6350815bfc922b297422455e74ffa343c7dbd7118a350e1f0442ed1080eef"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:06.176005Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:13843341",
+            "identity_aliases": [
+              "scifact:13843341"
+            ],
+            "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+            "paper": {
+              "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+              "authors": [],
+              "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "13843341",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "13843341",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                "authors": [],
+                "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "13843341",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:27789588",
+            "identity_aliases": [
+              "scifact:27789588"
+            ],
+            "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+            "paper": {
+              "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+              "authors": [],
+              "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "27789588",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "27789588",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                "authors": [],
+                "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "27789588",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:14407673",
+            "identity_aliases": [
+              "scifact:14407673"
+            ],
+            "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+            "paper": {
+              "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+              "authors": [],
+              "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "14407673",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "14407673",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                "authors": [],
+                "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "14407673",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                  "authors": [],
+                  "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "13843341",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                  "authors": [],
+                  "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "27789588",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                  "authors": [],
+                  "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "14407673",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:13843341",
+        "scifact:14407673",
+        "scifact:27789588"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "cebb787ea3c98ab2b2303399d33c7a230f5db289dbd54dec004637852e6fdff1",
+          "candidates": {
+            "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:13843341",
+                "identity_aliases": [
+                  "scifact:13843341"
+                ],
+                "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+                "paper": {
+                  "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                  "authors": [],
+                  "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "13843341",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "13843341",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                    "authors": [],
+                    "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "13843341",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:27789588",
+                "identity_aliases": [
+                  "scifact:27789588"
+                ],
+                "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+                "paper": {
+                  "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                  "authors": [],
+                  "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "27789588",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "27789588",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                    "authors": [],
+                    "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "27789588",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:14407673",
+                "identity_aliases": [
+                  "scifact:14407673"
+                ],
+                "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+                "paper": {
+                  "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                  "authors": [],
+                  "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "14407673",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "14407673",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                    "authors": [],
+                    "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "14407673",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                      "authors": [],
+                      "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "13843341",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                      "authors": [],
+                      "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "27789588",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                      "authors": [],
+                      "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "14407673",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:13843341",
+            "scifact:14407673",
+            "scifact:27789588"
+          ],
+          "sbert_ranking": [
+            "scifact:13843341",
+            "scifact:27789588",
+            "scifact:14407673"
+          ],
+          "bm25_seconds": 0.00012590002734214067,
+          "sbert_seconds": 0.0064072999521158636
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:13843341",
+              "identity_aliases": [
+                "scifact:13843341"
+              ],
+              "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+              "paper": {
+                "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                "authors": [],
+                "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "13843341",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "13843341",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Cost effectiveness of ward based non-invasive ventilation for acute exacerbations of chronic obstructive pulmonary disease: economic analysis of randomised controlled trial.",
+                  "authors": [],
+                  "abstract": "OBJECTIVE To evaluate the cost effectiveness of standard treatment with and without the addition of ward based non-invasive ventilation in patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease.   \n DESIGN Incremental cost effectiveness analysis of a randomised controlled trial.   \n SETTING Medical wards in 14 hospitals in the United Kingdom.   \n PARTICIPANTS The trial comprised 236 patients admitted to hospital with an acute exacerbation of chronic obstructive pulmonary disease and mild to moderate acidosis (pH 7.25-7.35) secondary to respiratory failure. The economic analysis compared the costs of treatment that these patients received after randomisation.   \n MAIN OUTCOME MEASURE Incremental cost per in-hospital death.   \n RESULTS 24/118 died in the group receiving standard treatment and 12/118 in the group receiving non-invasive ventilation (P=0.05). Allocation to the group receiving non-invasive ventilation was associated with a reduction in costs of 49362 pounds sterling (78741 dollars; 73109 euros), mainly through reduced use of intensive care units. The incremental cost effectiveness ratio was -645 pounds sterling per death avoided (95% confidence interval -2310 pounds sterling to 386 pounds sterling), indicating a dominant (more effective and less costly) strategy. Modelling of these data indicates that a typical UK hospital providing a non-invasive ventilation service will avoid six deaths and three to nine admissions to intensive care units per year, with an associated cost reduction of 12000-53000 pounds sterling per year.   \n CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "13843341",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:14407673",
+              "identity_aliases": [
+                "scifact:14407673"
+              ],
+              "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+              "paper": {
+                "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                "authors": [],
+                "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "14407673",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "14407673",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Myeloid-specific Krüppel-like factor 2 inactivation increases macrophage and neutrophil adhesion and promotes atherosclerosis.",
+                  "authors": [],
+                  "abstract": "RATIONALE Hemizygous deficiency of the transcription factor Krüppel-like factor 2 (KLF2) has been shown previously to augment atherosclerosis in hypercholesterolemic mice. However, the cell type responsible for the increased atherosclerosis due to KLF2 deficiency has not been identified. This study examined the consequence of myeloid cell-specific KLF2 inactivation in atherosclerosis.   \n METHODS AND RESULTS Cell-specific knockout mice were generated by Cre/loxP recombination. Macrophages isolated from myeloid-specific Klf2 knockout (myeKlf2(-/-)) mice were similar to myeKlf2(+/+) macrophages in response to activation, polarization, and lipid accumulation. However, in comparison to myeKlf2(+/+) macrophages, myeKlf2(-/-) macrophages adhered more robustly to endothelial cells. Neutrophils from myeKlf2(-/-) mice also adhered more robustly to endothelial cells, and fewer myeKlf2(-/-) neutrophils survived in culture over a 24-hour period in comparison with myeKlf2(+/+) neutrophils. When myeKlf2(-/-) mice were mated to Ldlr(-/-) mice and then fed a high fat and high cholesterol diet, significant increase in atherosclerosis was observed in the myeKlf2(-/-)Ldlr(-/-) mice compared with myeKlf2(+/+)Ldlr(-/-) littermates. The increased atherosclerosis in myeKlf2(-/-)Ldlr(-/-) mice was associated with elevated presence of neutrophils and macrophages, with corresponding increase of myeloperoxidase as well as chlorinated and nitrosylated tyrosine epitopes in their lesion areas compared with myeKlf2(+/+)Ldlr(-/-) mice.   \n CONCLUSIONS This study documents a role for myeloid KLF2 expression in modulating atherosclerosis. The increased neutrophil accumulation and atherosclerosis progression with myeloid-specific KLF2 deficiency also underscores the importance of neutrophils in promoting vascular oxidative stress and atherosclerosis. Collectively, these results suggest that elevating KLF2 expression may be a novel strategy for prevention and treatment of atherosclerosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "14407673",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 2,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:27789588",
+              "identity_aliases": [
+                "scifact:27789588"
+              ],
+              "original_claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+              "paper": {
+                "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                "authors": [],
+                "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "27789588",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "27789588",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Pathogenesis of diseases associated with antineutrophil cytoplasm autoantibodies.",
+                  "authors": [],
+                  "abstract": "Little is known about the etiologies of diseases associated with circulating antineutrophil cytoplasm autoantibodies (ANCA), such as primary vasculitides and inflammatory bowel diseases. However, the understanding of immune mechanisms supposedly involved in the pathogenesis of these diseases is still growing. In the present review, we first focus on the mechanisms triggering the development of ANCA, including the potential role of microbial superantigens and the possible defect(s) in the progression of apoptosis or in the removal of apoptotic cells. We next concentrate on the contribution of ANCA to the clinical symptoms and on the pathogenic role of ANCA, including the accessibility of ANCA antigens as targets for circulating antibodies and the mode of action of ANCA. Mechanisms of neutrophil activation by ANCA include the engagement of Fcgamma receptors, the possible mechanisms of neutrophil-mediated tissue damage, and the neutrophil-endothelial interaction.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "27789588",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 3,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00012590002734214067,
+          "sbert_seconds": 0.0064072999521158636,
+          "rrf_seconds": 0.00008319999324157834,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.00020379998022690415,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "23ec4adc5cf96b2cb792bfe3466d4cfbc285f153741953cf596cf5fead9a3165",
+  "selected_paper_ids": [
+    "scifact:13843341",
+    "scifact:14407673",
+    "scifact:27789588"
+  ],
+  "aggregation": {
+    "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:13843341:abstract:1608:1747:688dc359c093",
+        "paper_id": "scifact:13843341",
+        "section": "abstract",
+        "text": "CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+        "score": 0.7707482576370239,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.5852510929107666,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "4c30d017e65baf99c814c44264e24db79534a54908e0d1c9c5465ffb06ae0e64",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "CONCLUSIONS Non-invasive ventilation is a highly cost effective treatment that both reduced total costs and improved mortality in hospital.",
+        "citation_ids": [
+          "scifact:13843341:abstract:1608:1747:688dc359c093"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

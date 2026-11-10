@@ -1,0 +1,9 @@
+{
+  "kind": "Constructed text PDF plumbing check, actual local models; not scientific accuracy",
+  "verdict": "SUPPORTED",
+  "passages": 1,
+  "pages": [
+    1
+  ],
+  "grounding_and_replay": "passed"
+}

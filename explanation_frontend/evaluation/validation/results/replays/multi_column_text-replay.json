@@ -1,0 +1,154 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:24:40.767529+00:00",
+    "claim": "Plants require water to survive.",
+    "created_at": "2026-11-10T04:24:40.767529Z",
+    "retrieved_at": "2026-11-10T04:24:40.767529Z",
+    "mode": "cached",
+    "source_snapshot_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+    "filters": {
+      "source_sha256": "accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+      "source": "Explicit local PDF upload",
+      "page_count": "1",
+      "pdf_evidence_json": "{\"schema_version\": \"person3-fulltext-1\", \"claim\": \"Plants require water to survive.\", \"paper_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24\", \"evidence_type\": \"full_text\", \"selection_configuration\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"passages\": [{\"passage_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8\", \"paper_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24\", \"section\": \"full_text\", \"text\": \"LEFT COLUMN\\nPlants require water to survive.\", \"score\": 0.7685014009475708}], \"source_spans\": [{\"paper_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24\", \"sentence_indices\": [0], \"start\": 0, \"end\": 44, \"text\": \"LEFT COLUMN\\nPlants require water to survive.\", \"score\": 0.7685014009475708, \"passage_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8\", \"page\": 1, \"page_text_sha256\": \"301894c354f272d09b58e5c1e7b6e413358aeef163abd0ea572e340342ace27b\", \"source_sha256\": \"accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24\", \"source_url\": null, \"sentence_index_origin\": \"heuristic_page_segmentation\"}], \"budget_checks\": [{\"passage_id\": \"pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8\", \"pair_tokens\": 19, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"source_sha256\": \"accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24\", \"extraction\": {\"library\": \"PyMuPDF\", \"version\": \"2.1\", \"sort\": false, \"reading_order\": \"PDF content stream; visual review required\"}, \"status\": \"selected\", \"review_status\": \"human_review_pending\", \"limitations\": [\"PDF layout/reading order requires visual review\", \"No OCR or reconstruction of image tables\", \"Context windows never silently cross page boundaries\"]}",
+      "retrieval_timestamp": "unknown; local import time used for bookkeeping"
+    },
+    "search_complete": false,
+    "papers": {
+      "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24": {
+        "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+        "title": "Local uploaded PDF",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+        "source_status": "local_upload_unverified",
+        "is_open_access": null,
+        "has_fulltext": true,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24": {
+          "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+          "title": "Local uploaded PDF",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9988183379173279,
+          "evidence_type": "full_text",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8"
+          ],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8": {
+          "passage_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8",
+          "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+          "label": "SUPPORT",
+          "confidence": 0.9988183379173279,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8",
+          "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+          "section": "full_text",
+          "text": "LEFT COLUMN\nPlants require water to survive.",
+          "score": 0.7685014009475708,
+          "page": 1,
+          "sentence_indices": [],
+          "source_version": "accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24"
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Plants require water to survive.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8",
+          "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+          "section": "full_text",
+          "text": "LEFT COLUMN\nPlants require water to survive.",
+          "score": 0.7685014009475708,
+          "page": 1,
+          "sentence_indices": [],
+          "source_version": "accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24"
+        }
+      ],
+      "global_confidence": 0.9988183379173279,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "passages": "person3_local_pdf_bounded",
+      "verification": "local_nli",
+      "pdf_review": "human_review_pending"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "ff1436c35ecce73f667f557cc01f585d6bab0ab1c1f708dbb788d8cbfeef6b56",
+  "selected_paper_ids": [
+    "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24"
+  ],
+  "aggregation": {
+    "claim": "Plants require water to survive.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8",
+        "paper_id": "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24",
+        "section": "full_text",
+        "text": "LEFT COLUMN\nPlants require water to survive.",
+        "score": 0.7685014009475708,
+        "page": 1,
+        "sentence_indices": [],
+        "source_version": "accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24"
+      }
+    ],
+    "global_confidence": 0.9988183379173279,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "4dfa009d22244e49e61e0d3d0f444794f6e7ae2d7a4702c6be2f7cb2667a319c",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "LEFT COLUMN\nPlants require water to survive.",
+        "citation_ids": [
+          "pdf:accaaca04199f9a9240f48a119595d0df5b662bfc77508e3dc1f17a0e5bc2d24:pdf:p1:0:44:e511188381e8"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Local PDF text and page references were extracted automatically; layout, source authenticity and scientific interpretation require human review.",
+      "Search is incomplete; relevant evidence may be missing."
+    ]
+  }
+}

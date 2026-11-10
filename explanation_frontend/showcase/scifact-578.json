@@ -1,0 +1,920 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:09.707496+00:00",
+    "claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+    "created_at": "2026-11-09T14:33:09.707496Z",
+    "retrieved_at": "2026-11-09T14:33:08.425109Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"667692fb0eaa74ec19782a98c1c2a4aafc75297c295b773f5054c70079389b6f\", \"candidates\": {\"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:8764879\", \"identity_aliases\": [\"scifact:8764879\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2\", \"authors\": [], \"abstract\": \"Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2\", \"authors\": [], \"abstract\": \"Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:23604601\", \"identity_aliases\": [\"scifact:23604601\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.\", \"authors\": [], \"abstract\": \"The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.\", \"authors\": [], \"abstract\": \"The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:20374609\", \"identity_aliases\": [\"scifact:20374609\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?\", \"authors\": [], \"abstract\": \"We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?\", \"authors\": [], \"abstract\": \"We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2\", \"authors\": [], \"abstract\": \"Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.\", \"authors\": [], \"abstract\": \"The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?\", \"authors\": [], \"abstract\": \"We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:8764879\", \"scifact:20374609\", \"scifact:23604601\"], \"sbert_ranking\": [\"scifact:8764879\", \"scifact:23604601\", \"scifact:20374609\"], \"bm25_seconds\": 0.00010199996177107096, \"sbert_seconds\": 0.010173399990890175}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:8764879\", \"identity_aliases\": [\"scifact:8764879\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2\", \"authors\": [], \"abstract\": \"Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2\", \"authors\": [], \"abstract\": \"Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8764879\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:20374609\", \"identity_aliases\": [\"scifact:20374609\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?\", \"authors\": [], \"abstract\": \"We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?\", \"authors\": [], \"abstract\": \"We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20374609\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 2, \"sbert_rank\": 3, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:23604601\", \"identity_aliases\": [\"scifact:23604601\"], \"original_claim\": \"In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.\", \"paper\": {\"title\": \"Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.\", \"authors\": [], \"abstract\": \"The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.\", \"authors\": [], \"abstract\": \"The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"23604601\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.03200204813108039, \"bm25_rank\": 3, \"sbert_rank\": 2, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 0.00010199996177107096, \"sbert_seconds\": 0.010173399990890175, \"rrf_seconds\": 0.00017819995991885662, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.0004005000228062272, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:8764879\": {\"passages\": [{\"passage_id\": \"scifact:8764879:abstract:1053:1192:ae7e76065d62\", \"paper_id\": \"scifact:8764879\", \"section\": \"abstract\", \"text\": \"Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2\\u2013induced leukemia.\", \"score\": 0.6859059929847717}, {\"passage_id\": \"scifact:8764879:abstract:611:744:4cdeafdd21ca\", \"paper_id\": \"scifact:8764879\", \"section\": \"abstract\", \"text\": \"Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.\", \"score\": 0.66374671459198}, {\"passage_id\": \"scifact:8764879:abstract:396:610:805094fdc516\", \"paper_id\": \"scifact:8764879\", \"section\": \"abstract\", \"text\": \"The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony\\u2013stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115).\", \"score\": 0.6494824886322021}], \"source_spans\": [{\"paper_id\": \"scifact:8764879\", \"sentence_indices\": [7], \"start\": 1053, \"end\": 1192, \"text\": \"Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2\\u2013induced leukemia.\", \"score\": 0.6859059929847717, \"passage_id\": \"scifact:8764879:abstract:1053:1192:ae7e76065d62\"}, {\"paper_id\": \"scifact:8764879\", \"sentence_indices\": [4], \"start\": 611, \"end\": 744, \"text\": \"Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.\", \"score\": 0.66374671459198, \"passage_id\": \"scifact:8764879:abstract:611:744:4cdeafdd21ca\"}, {\"paper_id\": \"scifact:8764879\", \"sentence_indices\": [3], \"start\": 396, \"end\": 610, \"text\": \"The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony\\u2013stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115).\", \"score\": 0.6494824886322021, \"passage_id\": \"scifact:8764879:abstract:396:610:805094fdc516\"}], \"budget_checks\": [{\"passage_id\": \"scifact:8764879:abstract:1053:1192:ae7e76065d62\", \"pair_tokens\": 58, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:8764879:abstract:611:744:4cdeafdd21ca\", \"pair_tokens\": 58, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:8764879:abstract:396:610:805094fdc516\", \"pair_tokens\": 82, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:20374609\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:23604601\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:8764879": {
+        "paper_id": "scifact:8764879",
+        "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 2.096108432356416,
+          "sbert": 0.6661418676376343,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:20374609": {
+        "paper_id": "scifact:20374609",
+        "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.4757195925139391,
+          "sbert": 0.2590751051902771,
+          "rrf": 0.03200204813108039
+        }
+      },
+      "scifact:23604601": {
+        "paper_id": "scifact:23604601",
+        "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.0,
+          "sbert": 0.32282495498657227,
+          "rrf": 0.03200204813108039
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:8764879": {
+          "paper_id": "scifact:8764879",
+          "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.8967274725437164,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "scifact:8764879:abstract:1053:1192:ae7e76065d62",
+            "scifact:8764879:abstract:611:744:4cdeafdd21ca"
+          ]
+        },
+        "scifact:20374609": {
+          "paper_id": "scifact:20374609",
+          "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:23604601": {
+          "paper_id": "scifact:23604601",
+          "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:8764879:abstract:1053:1192:ae7e76065d62": {
+          "passage_id": "scifact:8764879:abstract:1053:1192:ae7e76065d62",
+          "paper_id": "scifact:8764879",
+          "label": "CONTRADICT",
+          "confidence": 0.9873555302619934,
+          "truncated": false
+        },
+        "scifact:8764879:abstract:611:744:4cdeafdd21ca": {
+          "passage_id": "scifact:8764879:abstract:611:744:4cdeafdd21ca",
+          "paper_id": "scifact:8764879",
+          "label": "CONTRADICT",
+          "confidence": 0.8060994148254395,
+          "truncated": false
+        },
+        "scifact:8764879:abstract:396:610:805094fdc516": {
+          "passage_id": "scifact:8764879:abstract:396:610:805094fdc516",
+          "paper_id": "scifact:8764879",
+          "label": "NEUTRAL",
+          "confidence": 0.9949744939804077,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:8764879:abstract:1053:1192:ae7e76065d62",
+          "paper_id": "scifact:8764879",
+          "section": "abstract",
+          "text": "Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia.",
+          "score": 0.6859059929847717,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:8764879:abstract:611:744:4cdeafdd21ca",
+          "paper_id": "scifact:8764879",
+          "section": "abstract",
+          "text": "Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.",
+          "score": 0.66374671459198,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:8764879:abstract:396:610:805094fdc516",
+          "paper_id": "scifact:8764879",
+          "section": "abstract",
+          "text": "The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115).",
+          "score": 0.6494824886322021,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:8764879:abstract:1053:1192:ae7e76065d62",
+          "paper_id": "scifact:8764879",
+          "section": "abstract",
+          "text": "Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia.",
+          "score": 0.6859059929847717,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:8764879:abstract:611:744:4cdeafdd21ca",
+          "paper_id": "scifact:8764879",
+          "section": "abstract",
+          "text": "Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.",
+          "score": 0.66374671459198,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.8967274725437164,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "1.2820443999953568",
+      "ranking_output_sha256": "940300aacd88135a95e244b971a51c9d6614e4b8e11c1bd5448a8e7b57f87c95"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:08.425109Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:8764879",
+            "identity_aliases": [
+              "scifact:8764879"
+            ],
+            "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+            "paper": {
+              "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+              "authors": [],
+              "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "8764879",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "8764879",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                "authors": [],
+                "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8764879",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:23604601",
+            "identity_aliases": [
+              "scifact:23604601"
+            ],
+            "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+            "paper": {
+              "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+              "authors": [],
+              "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "23604601",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "23604601",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                "authors": [],
+                "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "23604601",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:20374609",
+            "identity_aliases": [
+              "scifact:20374609"
+            ],
+            "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+            "paper": {
+              "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+              "authors": [],
+              "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "20374609",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "20374609",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                "authors": [],
+                "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "20374609",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                  "authors": [],
+                  "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8764879",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                  "authors": [],
+                  "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "23604601",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                  "authors": [],
+                  "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20374609",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:20374609",
+        "scifact:23604601",
+        "scifact:8764879"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "667692fb0eaa74ec19782a98c1c2a4aafc75297c295b773f5054c70079389b6f",
+          "candidates": {
+            "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:8764879",
+                "identity_aliases": [
+                  "scifact:8764879"
+                ],
+                "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+                "paper": {
+                  "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                  "authors": [],
+                  "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8764879",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "8764879",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                    "authors": [],
+                    "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "8764879",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:23604601",
+                "identity_aliases": [
+                  "scifact:23604601"
+                ],
+                "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+                "paper": {
+                  "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                  "authors": [],
+                  "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "23604601",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "23604601",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                    "authors": [],
+                    "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "23604601",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:20374609",
+                "identity_aliases": [
+                  "scifact:20374609"
+                ],
+                "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+                "paper": {
+                  "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                  "authors": [],
+                  "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20374609",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "20374609",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                    "authors": [],
+                    "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "20374609",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                      "authors": [],
+                      "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "8764879",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                      "authors": [],
+                      "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "23604601",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                      "authors": [],
+                      "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "20374609",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:8764879",
+            "scifact:20374609",
+            "scifact:23604601"
+          ],
+          "sbert_ranking": [
+            "scifact:8764879",
+            "scifact:23604601",
+            "scifact:20374609"
+          ],
+          "bm25_seconds": 0.00010199996177107096,
+          "sbert_seconds": 0.010173399990890175
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:8764879",
+              "identity_aliases": [
+                "scifact:8764879"
+              ],
+              "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+              "paper": {
+                "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                "authors": [],
+                "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8764879",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "8764879",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+                  "authors": [],
+                  "abstract": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer. Cancer stem cell eradication is thought to be crucial for successful anticancer therapy. Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells. The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony–stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115). Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells. Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity. Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells. Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia. Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8764879",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:20374609",
+              "identity_aliases": [
+                "scifact:20374609"
+              ],
+              "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+              "paper": {
+                "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                "authors": [],
+                "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "20374609",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "20374609",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "In vitro splicing pathways of pre-mRNAs containing multiple intervening sequences?",
+                  "authors": [],
+                  "abstract": "We analyzed the in vitro splicing pathways of three multi-intervening-sequence (IVS) pre-mRNAs: human beta-globin, which contains two IVSs (K. M. Lang, V. L. van Santen, and R. A. Spritz, EMBO J. 4:1991-1996, 1985); rat alpha-lactalbumin, which contains three IVSs; and murine interleukin-3, which contains four IVSs. We found that there are highly preferred pathways of IVS removal from these multi-IVS pre-mRNAs in vitro. The three IVSs of rat alpha-lactalbumin pre-mRNA were excised sequentially from 5' to 3'; in most molecules, IVS1 was removed first, followed by IVS2 and finally by IVS3. The splicing pathway of interleukin-3 pre-mRNA in vitro was more complex. The four IVSs were excised in a highly preferred temporal order, but the order was not strictly sequential or directional. In most molecules, IVS1 and IVS4 were removed first, either simultaneously or in rapid succession. Subsequently, IVS2 was excised, followed by IVS3. The observed splicing pathways apparently resulted from differences in lag times and maximum excision rates of the different IVSs. We detected no exon skipping during splicing of these transcripts in vitro. These observations have implication for proposed models of splice site selection.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20374609",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 2,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:23604601",
+              "identity_aliases": [
+                "scifact:23604601"
+              ],
+              "original_claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+              "paper": {
+                "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                "authors": [],
+                "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "23604601",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "23604601",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Post-transcriptional regulation of IME1 determines initiation of meiosis in Saccharomyces cerevisiae.",
+                  "authors": [],
+                  "abstract": "The IME1 gene of Saccharomyces cerevisiae is required for initiation of meiosis. Transcription of IME1 is detected under conditions which are known to induce initiation of meiosis, namely starvation for nitrogen and glucose, and the presence of MATa1 and MAT alpha 2 gene products. In this paper we show that IME1 is also subject to translational regulation. Translation of IME1 mRNA is achieved either upon nitrogen starvation, or upon G1 arrest. In the presence of nutrients, constitutively elevated transcription of IME1 is also sufficient for the translation of IME1 RNA. Four different conditions were found to cause expression of Ime1 protein in vegetative cultures: elevated transcription levels due to the presence of IME1 on a multicopy plasmid; elevated transcription provided by a Gal-IME1 construct; G1 arrest due to alpha-factor treatment; G1 arrest following mild heat-shock treatment of cdc28 diploids. Using these conditions, we obtained evidence that starvation is required not only for transcription and efficient translation of IME1, but also for either the activation of Ime1 protein or for the induction/activation of another factor that, either alone or in combination with Ime1, induces meiosis.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "23604601",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.03200204813108039,
+            "bm25_rank": 3,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00010199996177107096,
+          "sbert_seconds": 0.010173399990890175,
+          "rrf_seconds": 0.00017819995991885662,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.0004005000228062272,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "a8e07369845ec6249e9163803de0bb2f6d50a35d3537b16aeb65fa17294de6cc",
+  "selected_paper_ids": [
+    "scifact:20374609",
+    "scifact:23604601",
+    "scifact:8764879"
+  ],
+  "aggregation": {
+    "claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:8764879:abstract:1053:1192:ae7e76065d62",
+        "paper_id": "scifact:8764879",
+        "section": "abstract",
+        "text": "Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia.",
+        "score": 0.6859059929847717,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "scifact:8764879:abstract:611:744:4cdeafdd21ca",
+        "paper_id": "scifact:8764879",
+        "section": "abstract",
+        "text": "Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.",
+        "score": 0.66374671459198,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.8967274725437164,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "5218b33b6d9282313aa5843f510fda8f9379c7c49b09d2920adb30a24055b3d9",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2–induced leukemia.",
+        "citation_ids": [
+          "scifact:8764879:abstract:1053:1192:ae7e76065d62"
+        ]
+      },
+      {
+        "text": "Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.",
+        "citation_ids": [
+          "scifact:8764879:abstract:611:744:4cdeafdd21ca"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

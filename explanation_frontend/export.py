@@ -34,10 +34,11 @@ def import_snapshot(raw: str | bytes) -> ReplayBundle:
     context = make_context(bundle.snapshot, bundle.selected_paper_ids, bundle.aggregation)
     # Early integrated exports predate this one safety note. Restore only the
     # exact known omission; do not accept arbitrary user-supplied limitations.
-    from .templates import build_template, AUTOMATIC_SELECTION_LIMITATION
+    from .templates import build_template, AUTOMATIC_SELECTION_LIMITATION, LOCAL_PDF_LIMITATION
     expected = build_template(context).limitations
-    legacy = [note for note in expected if note != AUTOMATIC_SELECTION_LIMITATION]
-    if AUTOMATIC_SELECTION_LIMITATION in expected and bundle.explanation.limitations == legacy:
+    migrated_notes = {AUTOMATIC_SELECTION_LIMITATION, LOCAL_PDF_LIMITATION}
+    legacy = [note for note in expected if note not in migrated_notes]
+    if any(note in expected for note in migrated_notes) and bundle.explanation.limitations == legacy:
         bundle = bundle.model_copy(update={"explanation": bundle.explanation.model_copy(
             update={"limitations": expected})})
     if not validate_explanation(bundle.explanation, context).displayable:

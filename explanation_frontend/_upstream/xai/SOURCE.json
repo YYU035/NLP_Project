@@ -1,0 +1,8 @@
+{
+  "revision": "56f46c12d8ef1cc36202f046b4bbaa7825fc6ade",
+  "sources": [
+    "retrieval/XAI/explain_ig.py",
+    "retrieval/XAI/eval_ig_dev.py"
+  ],
+  "changes": "Package-qualified imports only; model/attribution logic unchanged. Original tests ported to tests/test_naila_ig.py with isolated imports and optional dependency guards."
+}

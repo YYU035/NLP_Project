@@ -46,7 +46,7 @@ def verifier():
 
 def test_whole_chain_preserves_claim_rank_passages_subset_and_export():
     discovery = source()
-    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier())
+    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier(), selector_mode="legacy")
     ids = [p.identity for p in discovery.result.papers]
     snapshot = pipeline.run_from_discovery(discovery, ids)
     assert snapshot.claim == discovery.result.original_claim
@@ -82,7 +82,7 @@ def test_no_abstract_never_runs_inference_and_discovery_failure_is_not_science()
     for entry in discovery['result']['papers']:
         entry['paper'].update(title=None, abstract=None)
     source_ = DiscoverySnapshot.model_validate(discovery)
-    pipeline = LocalPipeline()
+    pipeline = LocalPipeline(selector_mode="legacy")
     snapshot = pipeline.run_from_discovery(source_, source_.selected_paper_ids)
     assert snapshot.provisional.status == 'failed'
     assert snapshot.provisional.aggregated_verdict is None
@@ -104,7 +104,7 @@ def test_internal_conflict_keeps_both_sides_and_does_not_repeat_inference():
         'The intervention reduces recovery time. The intervention does not reduce recovery time. '
         'In adults the intervention reduces recovery time.')
     source_ = DiscoverySnapshot.model_validate(discovery)
-    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier())
+    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier(), selector_mode="legacy")
     snapshot = pipeline.run_from_discovery(source_, source_.selected_paper_ids)
     assert snapshot.provisional.aggregated_verdict == 'CONFLICTING'
     assert len({snapshot.verification.per_passage_labels[p.passage_id].label
@@ -120,7 +120,7 @@ def test_builtin_streamlit_selection_to_verdict_and_cached_checkbox_change(monke
     discovery = source()
     ids = discovery.selected_paper_ids
     monkeypatch.delenv('EXPLANATION_VERIFY_DISCOVERY_FACTORY', raising=False)
-    monkeypatch.setattr(module, 'create_provider', lambda: LocalPipeline(encoder=Encoder(), verifier=verifier()))
+    monkeypatch.setattr(module, 'create_provider', lambda: LocalPipeline(encoder=Encoder(), verifier=verifier(), selector_mode="legacy"))
     app = AppTest.from_file(str(Path(__file__).parents[1] / 'app.py'))
     app.session_state['workspace'] = 'Verify evidence'
     app.session_state['mode'] = 'Selected search'
@@ -162,7 +162,7 @@ def test_partial_discovery_stays_partial_on_changed_subsets():
     data = source().model_dump(mode='json')
     next(iter(data['result']['providers'].values()))['status'] = 'partial_failure'
     discovery = DiscoverySnapshot.model_validate(data)
-    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier())
+    pipeline = LocalPipeline(encoder=Encoder(), verifier=verifier(), selector_mode="legacy")
     snapshot = pipeline.run_from_discovery(discovery, discovery.selected_paper_ids)
     assert snapshot.provisional.status == 'partial'
     assert not snapshot.search_complete

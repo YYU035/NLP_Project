@@ -110,7 +110,7 @@ def render_verification():
                 st.info("Prepare a paper selection in Find papers first.")
             st.caption("The built-in selector uses exact spans from provider abstracts/descriptions. Full text, authenticity and scientific quality are not independently checked.")
         else:
-            upload = st.file_uploader("Replay a result JSON (up to 10 MB)", type=["json"])
+            upload = st.file_uploader("Replay a result JSON (up to 10 MB)", type=["json"], max_upload_size=10)
             if upload and st.button("Load replay"):
                 try:
                     if upload.size > 10_000_000:
@@ -271,7 +271,10 @@ def render_verification():
             retrieval_time = ("unknown; snapshot bookkeeping time: " if snapshot.filters.get("retrieval_timestamp", "").startswith("unknown")
                               else "retrieved: ") + snapshot.retrieved_at.isoformat()
             st.text(f"Discovery time {retrieval_time} | original mode: {snapshot.mode} | search complete: {snapshot.search_complete}")
-            st.json({k: v for k, v in snapshot.filters.items() if k != "ranking_output_json"})
+            st.json({k: v for k, v in snapshot.filters.items() if k not in {"ranking_output_json", "person3_evidence_json"}})
+            if 'person3_evidence_json' in snapshot.filters:
+                with st.expander('Person 3 exact spans and verifier input-budget checks'):
+                    st.text(snapshot.filters['person3_evidence_json'])
             if "ranking_output_json" in snapshot.filters:
                 with st.expander("Original ranking output and provenance"):
                     # This field is data, including in uploaded replay files.
@@ -362,6 +365,13 @@ def render_verification():
         with verdict_tab:
             st.subheader("3 · Verdict over your selection")
             show_verdict("Selected-evidence verdict", aggregation)
+            from explanation_frontend.inspection import evidence_counts
+            counts=evidence_counts(snapshot,selected)
+            cards=st.columns(3)
+            for card,name,title in zip(cards,counts,['Supporting model labels','Contradicting model labels','Neutral model labels']):
+                card.metric(title,str(counts[name]))
+            st.caption('Counts cover your selected papers and exclude truncated passages. These are model classifications, not independently established facts.')
+
             st.text(f"Selected {len(selected)} of {len(snapshot.papers)} papers. Provisional: {snapshot.provisional.aggregated_verdict or 'processing failure'} → selected: {aggregation.aggregated_verdict or 'processing failure'}")
             st.text(aggregation.verdict_delta_reason)
             template = build_template(context)

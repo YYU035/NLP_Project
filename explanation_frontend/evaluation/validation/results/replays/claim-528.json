@@ -1,0 +1,272 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:24:19.367148+00:00",
+    "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+    "created_at": "2026-11-10T04:24:19.367148Z",
+    "retrieved_at": "2026-11-10T04:24:19.367148Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "5476778": {
+        "paper_id": "5476778",
+        "title": "Autoimmunity due to molecular mimicry as a cause of neurological disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23326722": {
+        "paper_id": "23326722",
+        "title": "Clinical and laboratory features of adult T-cell leukaemia lymphoma in Barbados.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24512064": {
+        "paper_id": "24512064",
+        "title": "HTLV-I/II associated disease in England and Wales, 1993-7: retrospective review of serology requests.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22705234": {
+        "paper_id": "22705234",
+        "title": "The role of the immune response during SIVagm infection of the African green monkey natural host.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8325952": {
+        "paper_id": "8325952",
+        "title": "The frequency and immunodominance of islet-specific CD8+ T-cell responses change after type 1 diabetes diagnosis and treatment.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "5476778": {
+          "paper_id": "5476778",
+          "title": "Autoimmunity due to molecular mimicry as a cause of neurological disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23326722": {
+          "paper_id": "23326722",
+          "title": "Clinical and laboratory features of adult T-cell leukaemia lymphoma in Barbados.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24512064": {
+          "paper_id": "24512064",
+          "title": "HTLV-I/II associated disease in England and Wales, 1993-7: retrospective review of serology requests.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22705234": {
+          "paper_id": "22705234",
+          "title": "The role of the immune response during SIVagm infection of the African green monkey natural host.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8325952": {
+          "paper_id": "8325952",
+          "title": "The frequency and immunodominance of islet-specific CD8+ T-cell responses change after type 1 diabetes diagnosis and treatment.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "5476778:abstract:551:769:99f28a3df441": {
+          "passage_id": "5476778:abstract:551:769:99f28a3df441",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.9993401169776917,
+          "truncated": false
+        },
+        "5476778:abstract:1053:1169:ac91087400c0": {
+          "passage_id": "5476778:abstract:1053:1169:ac91087400c0",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.994722843170166,
+          "truncated": false
+        },
+        "5476778:abstract:778:825:09c91bf6fde3": {
+          "passage_id": "5476778:abstract:778:825:09c91bf6fde3",
+          "paper_id": "5476778",
+          "label": "NEUTRAL",
+          "confidence": 0.9967304468154907,
+          "truncated": false
+        },
+        "23326722:abstract:386:489:ccfe151f3b32": {
+          "passage_id": "23326722:abstract:386:489:ccfe151f3b32",
+          "paper_id": "23326722",
+          "label": "NEUTRAL",
+          "confidence": 0.9985957741737366,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "5476778:abstract:551:769:99f28a3df441",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "As a model for molecular mimicry, we studied patients with human T-lymphotropic virus type 1 (HTLV-1)-associated myelopathy/tropical spastic paraparesis (HAM/TSP), a disease that can be indistinguishable from MS (refs.",
+          "score": 0.8138778209686279,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5476778:abstract:1053:1169:ac91087400c0",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "Antibodies to hnRNP-A1 cross-reacted with HTLV-1-tax, the immune response to which is associated with HAM/TSP (refs.",
+          "score": 0.5377340912818909,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5476778:abstract:778:825:09c91bf6fde3",
+          "paper_id": "5476778",
+          "section": "abstract",
+          "text": "HAM/TSP patients develop antibodies to neurons.",
+          "score": 0.5065888166427612,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23326722:abstract:386:489:ccfe151f3b32",
+          "paper_id": "23326722",
+          "section": "abstract",
+          "text": "Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM).",
+          "score": 0.7815198302268982,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "6c957967cf3a57b678053ca18bbfa35319aa668933312ba7ea0299bb73706db8",
+  "selected_paper_ids": [
+    "22705234",
+    "23326722",
+    "24512064",
+    "5476778",
+    "8325952"
+  ],
+  "aggregation": {
+    "claim": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "ccf54d16d4719d742a50e183592054056106ed9313c28ca732860d2f17fa16ce",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

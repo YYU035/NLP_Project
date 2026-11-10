@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "purpose": "Fixed benchmark results for an evaluation/reporting view; not live-search data sources",
+  "active_dataset_ids": [
+    "scifact",
+    "csfcube",
+    "reciper"
+  ],
+  "datasets": [
+    {
+      "id": "scifact",
+      "name": "SciFact",
+      "domain": "Primarily biomedical science",
+      "task": "Claim-driven paper ranking and sentence evidence selection",
+      "split": "dev",
+      "query_unit": "claim",
+      "total_queries": 300,
+      "ranking_eligible_queries": 188,
+      "ranking_excluded_no_positive": 112,
+      "corpus_documents": 5183,
+      "ranking_summary_path": "ranking_evaluation/results/person3-v2/retrieval-results.csv",
+      "provenance_path": "ranking_evaluation/results/person3-v2/semantic-manifest.json",
+      "evidence_summary_path": "ranking_evaluation/results/person3-v2/semantic-dev-summary.json",
+      "method_key_columns": [
+        "method",
+        "rerank_depth",
+        "rrf_k"
+      ],
+      "ranking_metrics": [
+        "Recall@5",
+        "Recall@10",
+        "Recall@20",
+        "MRR@10",
+        "nDCG@10"
+      ],
+      "limitations": [
+        "Development results; not untouched final-test scores",
+        "Ranking excludes claims without positive paper gold and reports them separately",
+        "Evidence F1 and final verification Accuracy are different tasks",
+        "Latencies are per-stage single-run observations"
+      ]
+    },
+    {
+      "id": "csfcube",
+      "name": "CSFCube",
+      "domain": "Computer science",
+      "task": "Expert graded candidate-paper pool ranking",
+      "split": "fold1_test, all facets",
+      "query_unit": "query/facet task",
+      "total_queries": 26,
+      "corpus_documents": 4207,
+      "ranking_summary_path": "ranking_evaluation/results/csfcube-fold1-test/summary.csv",
+      "provenance_path": "ranking_evaluation/results/csfcube-fold1-test/manifest.json",
+      "report_path": "shared/datasets/CSFCUBE_REPORT.md",
+      "method_key_columns": [
+        "method"
+      ],
+      "ranking_metrics": [
+        "Recall@5",
+        "Recall@10",
+        "Recall@20",
+        "MRR@10",
+        "nDCG@10",
+        "graded_nDCG@10"
+      ],
+      "limitations": [
+        "Released judged pools, not full-corpus search",
+        "Binary positive threshold is grade >=2; graded nDCG is separately reported",
+        "Query-paper self matches are excluded",
+        "No sentence evidence or verification gold",
+        "Official dev/test query/facet IDs are disjoint; seven query-paper IDs overlap across the splits"
+      ],
+      "ranking_eligible_queries": 26,
+      "development_summary_path": "ranking_evaluation/results/csfcube-fold1-dev/summary.csv",
+      "development_provenance_path": "ranking_evaluation/results/csfcube-fold1-dev/manifest.json"
+    },
+    {
+      "id": "reciper",
+      "name": "RECIPER",
+      "domain": "Materials science, including EEE-related research",
+      "task": "Known source-paper retrieval from original titles and abstracts",
+      "split": "Entire release, frozen zero-shot settings",
+      "query_unit": "question",
+      "total_queries": 1024,
+      "ranking_eligible_queries": 1024,
+      "corpus_documents": 343,
+      "ranking_summary_path": "ranking_evaluation/results/reciper-title-abstract/summary.csv",
+      "provenance_path": "ranking_evaluation/results/reciper-title-abstract/manifest.json",
+      "verification_audit_path": "ranking_evaluation/results/reciper-title-abstract/verification.json",
+      "report_path": "shared/datasets/RECIPER_REPORT.md",
+      "method_key_columns": [
+        "method"
+      ],
+      "ranking_metrics": [
+        "Recall@1",
+        "Recall@5",
+        "Recall@10",
+        "Recall@20",
+        "MRR@10",
+        "nDCG@10"
+      ],
+      "limitations": [
+        "Generated QA with one known source-paper target, not exhaustive human relevance labels",
+        "All questions face the complete 343-paper collection",
+        "Title/abstract adaptation differs from original paragraph/recipe retrieval",
+        "No expert sentence evidence or final-verdict gold"
+      ]
+    }
+  ],
+  "comprehensive_results": {
+    "report_path": "shared/COMPREHENSIVE_EVALUATION.md",
+    "ranking_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/ranking_summary.csv",
+    "ablation_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/ablations.csv",
+    "uncertainty_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/uncertainty.csv",
+    "latency_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/latency.csv",
+    "evidence_summary_path": "ranking_evaluation/results/comprehensive-three-datasets/evidence_summary.csv",
+    "manifest_path": "ranking_evaluation/results/comprehensive-three-datasets/manifest.json"
+  }
+}

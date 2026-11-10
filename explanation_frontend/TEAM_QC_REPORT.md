@@ -1,3 +1,5 @@
+Historical 6 November baseline. See [COMBINED_INTEGRATION.md](COMBINED_INTEGRATION.md) for the 9 November integration and current Yu Yue suite (163 passed). Missing-selector findings below are superseded; other unreviewed scientific limitations remain.
+
 # Team-wide QC - 6 November 2026
 
 The abstract-based app runs end to end. Retrieval is promising on the development sample, but passage selection, domain verification and optional explanation generation still need work. Software tests and mechanical grounding are not scientific quality scores.

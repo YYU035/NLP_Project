@@ -62,3 +62,16 @@ def poll_job(job: Job) -> tuple[str, Any]:
         return "done", job.future.result()
     except Exception:
         return "failed", None
+
+
+def install_discovery_state(state, snapshot):
+    """Shared UI handoff for imported, live and demonstrator candidate snapshots."""
+    state.discovery_snapshot=snapshot
+    if state.get('discovery_claim')!=snapshot.result.original_claim:
+        state.discovery_claim=snapshot.result.original_claim
+    state.discovery_selection={p.identity:p.identity in snapshot.selected_paper_ids for p in snapshot.result.papers}
+    state.discovery_page=1
+    state.discovery_filter=''
+    state.discovery_provider_filter=[]
+    state.discovery_pdf_only=False
+    state.pop('discovery_inspect',None)
