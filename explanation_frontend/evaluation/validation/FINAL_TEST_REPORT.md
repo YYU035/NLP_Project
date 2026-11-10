@@ -44,7 +44,7 @@ CSFCube graded nDCG uses exponential gains 2^grade−1 and appears separately in
 
 ## Reliability and limitations
 
-- Clean dependency install exit 0; pip check exit 0; final clean suite exit 0; offline actual-model smoke exit 0. Initial run had 162 passes and one 3-second UI test timeout under concurrent benchmark load; AppTest allowance raised to 15s, then 163/163 passed. No application decision logic changed.
+- Clean dependency install exit 0; pip check exit 0; final clean suite exit 0; offline actual-model smoke exit 0. Initial run had 162 passes and one 3-second UI test timeout under concurrent benchmark load; AppTest allowance raised to 15s, then 163/163 passed. After adding the checkout-newline regression check, the final clean suite passed 164/164. No application decision logic changed.
 - Live functional smoke: ok; 9 candidates / 3 verified papers. Public-service availability and rate limits remain external dependencies. A working live response is not an accuracy measurement.
 - PDF checks: 7/7. Includes two-column text, image-only rejection, encryption, malformed input, 201-page rejection, 20MiB limit and an original scientific PDF with exact page/span export/replay. Real PDF result: INSUFFICIENT; functionality does not imply scientific correctness or perfect reading order.
 - Synthetic language expectations: 12/15. Failures are retained: changes in population/generalisation can incorrectly turn unknown evidence into a confident contradiction.
@@ -54,6 +54,7 @@ CSFCube graded nDCG uses exponential gains 2^grade−1 and appears separately in
 - SciFact dev and previously published CSFCube results were already inspected. These are frozen descriptive audits, not unseen holdout performance. CSFCube test has only 26 tasks; dev/test share query-paper identities. RECIPER uses the entire released QA set with frozen zero-shot settings. Intervals are descriptive and do not eliminate dataset dependence.
 - Production selector splits abstract strings; sentence evidence credit requires full coverage of the original annotated sentence, with fragments counted as extra false positives. This intentionally conservative measure is not official SciFact leaderboard parity. Closed-world judgments can mark unannotated but plausible passages as false positives.
 - SciFact uses production retrieval encoder revision2a7… with Porter BM25. CSFCube/RECIPER use published protocol encoder1110… with simple BM25; results are not one identical configuration across domains. The pinned lexical retriever is custom NumPy BM25, not rank-bm25.
+- Desktop validation found CRLF-only source differences between checkouts. Source checks now retain raw hashes and accept matching LF-normalized hashes; actual source edits still fail the frozen-state gate. Measured artifacts/replays preserve their exact bytes in Git.
 - Offline full-corpus automatic top 5 selection is an evaluation wrapper. The public-web and interactive user-selection journey is tested separately; this is not a benchmark of public-web discovery recall.
 
 ## Error catalogue and next work by owner

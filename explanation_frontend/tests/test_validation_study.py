@@ -54,3 +54,17 @@ def test_bootstrap_is_seeded_clustered_and_checks_alignment():
 def test_claim_labels_do_not_invent_neutral_gold_passages():
     assert gold_label({'evidence':{}})=='INSUFFICIENT'
     assert gold_label({'evidence':{'1':[{'label':'SUPPORT'}]}})=='SUPPORTED'
+
+
+def test_frozen_source_accepts_checkout_newlines_but_rejects_code_changes(tmp_path, monkeypatch):
+    import importlib,hashlib,json
+    frozen=importlib.import_module('explanation_frontend.evaluation.validation.freeze')
+    source=tmp_path/'module.py';source.write_bytes(b'threshold = 0.5\n')
+    baseline={'source_sha256':{'module.py':hashlib.sha256(source.read_bytes()).hexdigest()},
+              'source_text_sha256':{'module.py':frozen.source_sha(source)},'input_sha256':{}}
+    out=tmp_path/'output';out.mkdir();(out/'BASELINE.json').write_text(json.dumps(baseline),encoding='utf-8')
+    monkeypatch.setattr(frozen,'ROOT',tmp_path);monkeypatch.setattr(frozen,'OUT',out)
+    source.write_bytes(b'threshold = 0.5\r\n')
+    assert frozen.freeze()==baseline
+    source.write_bytes(b'threshold = 0.9\r\n')
+    with pytest.raises(ValueError,match='Frozen production source changed'):frozen.freeze()

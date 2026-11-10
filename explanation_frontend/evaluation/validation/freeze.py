@@ -8,13 +8,16 @@ OWNER='90aaca109585c12c877367b1a08fe4dfee4a4de3'
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def source_sha(path):return hashlib.sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+
 def freeze():
     OUT.mkdir(parents=True,exist_ok=True)
     target=OUT/'BASELINE.json'
     if target.exists():
         baseline=json.loads(target.read_text(encoding='utf-8'))
         for name,digest in baseline['source_sha256'].items():
-            if sha(ROOT/name)!=digest:raise ValueError('Frozen production source changed: '+name)
+            if sha(ROOT/name)!=digest and source_sha(ROOT/name)!=baseline.get('source_text_sha256',{}).get(name):
+                raise ValueError('Frozen production source changed: '+name)
         for name,digest in baseline['input_sha256'].items():
             if sha(ROOT/'outputs/xai/data'/name)!=digest:raise ValueError('Frozen study input changed: '+name)
         return baseline
@@ -29,6 +32,8 @@ def freeze():
     config={'date':'2026-11-10','created_at':datetime.now(timezone.utc).isoformat(),
        'git_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
        'python':platform.python_version(),'owner_source':OWNER,'input_sha256':data,'source_sha256':{str(p.relative_to(ROOT)):sha(p) for p in paths},
+       'source_text_sha256':{str(p.relative_to(ROOT)):source_sha(p) for p in paths},
+       'source_hash_policy':'Raw SHA retained; LF-normalized SHA permits CRLF-only checkout differences. All other byte changes fail.',
        'model_files_sha256':models,'nli':{'id':NLI_ID,'revision':NLI_REVISION,'threshold':.5,'pair_limit':512,'dtype':'float32'},
        'science_protocol':{'scifact_claims':300,'candidate_universe':'all5183 corpus abstracts; never inject gold papers',
           'methods':['bm25','sbert','rrf'],'fusion_branch_depth':100,'rrf_k':60,'verify_paper_depth':5,

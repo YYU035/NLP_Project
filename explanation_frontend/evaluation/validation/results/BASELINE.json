@@ -73,5 +73,15 @@
   },
   "selection_policy": "Freeze settings and report every case. No threshold/model selection from these results.",
   "protocol_caveat": "Offline corpus benchmark replaces web discovery; functional live-provider checks are separate. Top100 branches/top5 papers define an automated evaluation wrapper, not a claim that the UI automatically selects papers.",
-  "documentation_finding": "Pinned BM25 is a custom NumPy implementation, not a call to rank-bm25; correct dependency descriptions separately."
+  "documentation_finding": "Pinned BM25 is a custom NumPy implementation, not a call to rank-bm25; correct dependency descriptions separately.",
+  "source_text_sha256": {
+    "pipeline.py": "d1cbc5f6c078492c6055f4f950d86b24efde3056600368cefc8eb45835b52487",
+    "semantic_integration.py": "36c2ea35ccb230c023bb29e6d01184a3ece96d16333fdcb04b604b57a9591033",
+    "person4.py": "0a67c16ed3c9f8a7ea2e95de25dcdd1a37715692992152cd228b9e22093b92b8",
+    "_upstream\\person3\\semantic-train-frozen.json": "005ea954fb75473921da506dfc05af8c6be9e4ceb880011dfbf54e32270a1b81",
+    "_upstream\\retrieval\\retriever.py": "1c450f9e5a9a4f5eea6a389300e19d4bb1c01d34a3c9f99c86fc91afabe22e07",
+    "_upstream\\retrieval\\bm25.py": "27ba66c0493bb57c8b3ed19200ceadb85fdf6b1f8d3b0ed2cac7ed663b902d8d",
+    "_upstream\\claim_verifier\\verifier.py": "78739d556d70d13e2b727cd6ee0a39152f321189fd40458800fee3d2d852f2f8"
+  },
+  "source_hash_policy": "Raw SHA retained; LF-normalized SHA permits CRLF-only checkout differences. All other byte changes fail."
 }
