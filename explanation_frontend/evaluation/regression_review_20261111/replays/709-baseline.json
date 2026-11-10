@@ -1,0 +1,305 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.925385+00:00",
+    "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+    "created_at": "2026-11-10T17:36:00.925385Z",
+    "retrieved_at": "2026-11-10T17:36:00.925385Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "709",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "22442133": {
+        "paper_id": "22442133",
+        "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24269361": {
+        "paper_id": "24269361",
+        "title": "Atopy risk in infants and children in relation to early exposure to fish, oily fish, or long-chain omega-3 fatty acids: a systematic review.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3866315": {
+        "paper_id": "3866315",
+        "title": "Novel Functional Sets of Lipid-Derived Mediators with Antiinflammatory Actions Generated from Omega-3 Fatty Acids via Cyclooxygenase 2–Nonsteroidal Antiinflammatory Drugs and Transcellular Processing",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "33912748": {
+        "paper_id": "33912748",
+        "title": "Pathologic indicators of degradation and inflammation in human osteoarthritic cartilage are abrogated by exposure to n-3 fatty acids.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "20148808": {
+        "paper_id": "20148808",
+        "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "22442133": {
+          "paper_id": "22442133",
+          "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9928723573684692,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "22442133:abstract:1000:1604:103e85e18546"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "24269361": {
+          "paper_id": "24269361",
+          "title": "Atopy risk in infants and children in relation to early exposure to fish, oily fish, or long-chain omega-3 fatty acids: a systematic review.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3866315": {
+          "paper_id": "3866315",
+          "title": "Novel Functional Sets of Lipid-Derived Mediators with Antiinflammatory Actions Generated from Omega-3 Fatty Acids via Cyclooxygenase 2–Nonsteroidal Antiinflammatory Drugs and Transcellular Processing",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "33912748": {
+          "paper_id": "33912748",
+          "title": "Pathologic indicators of degradation and inflammation in human osteoarthritic cartilage are abrogated by exposure to n-3 fatty acids.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "20148808": {
+          "paper_id": "20148808",
+          "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "22442133:abstract:0:246:c88912bc9079": {
+          "passage_id": "22442133:abstract:0:246:c88912bc9079",
+          "paper_id": "22442133",
+          "label": "NEUTRAL",
+          "confidence": 0.994306743144989,
+          "truncated": false
+        },
+        "22442133:abstract:868:995:cf392c9843bc": {
+          "passage_id": "22442133:abstract:868:995:cf392c9843bc",
+          "paper_id": "22442133",
+          "label": "NEUTRAL",
+          "confidence": 0.9654823541641235,
+          "truncated": false
+        },
+        "22442133:abstract:1000:1604:103e85e18546": {
+          "passage_id": "22442133:abstract:1000:1604:103e85e18546",
+          "paper_id": "22442133",
+          "label": "SUPPORT",
+          "confidence": 0.9928723573684692,
+          "truncated": false
+        },
+        "20148808:abstract:387:578:1bd83f96220f": {
+          "passage_id": "20148808:abstract:387:578:1bd83f96220f",
+          "paper_id": "20148808",
+          "label": "NEUTRAL",
+          "confidence": 0.8865516781806946,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "22442133:abstract:0:246:c88912bc9079",
+          "paper_id": "22442133",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether dietary n-3 long chain polyunsaturated fatty acid (LCPUFA) supplementation of pregnant women with a fetus at high risk of allergic disease reduces immunoglobulin E associated eczema or food allergy at 1 year of age.",
+          "score": 0.6085320711135864,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22442133:abstract:868:995:cf392c9843bc",
+          "paper_id": "22442133",
+          "section": "abstract",
+          "text": "MAIN OUTCOME MEASURE Immunoglobulin E associated allergic disease (eczema or food allergy with sensitisation) at 1 year of age.",
+          "score": 0.5183466672897339,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22442133:abstract:1000:1604:103e85e18546",
+          "paper_id": "22442133",
+          "section": "abstract",
+          "text": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "score": 0.5008472204208374,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "20148808:abstract:387:578:1bd83f96220f",
+          "paper_id": "20148808",
+          "section": "abstract",
+          "text": "Here we show that dietary supplementation with short-chain fatty acids (SCFAs) ameliorates this enhanced asthma susceptibility by modulating the activity of T cells and dendritic cells (DCs).",
+          "score": 0.5321531295776367,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "22442133:abstract:1000:1604:103e85e18546",
+          "paper_id": "22442133",
+          "section": "abstract",
+          "text": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "score": 0.5008472204208374,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9928723573684692,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "b57a90c1660ae4b669fa6754cf7a3e451f9dd9da3bc4033867cf98122164d689",
+  "selected_paper_ids": [
+    "20148808",
+    "22442133",
+    "24269361",
+    "33912748",
+    "3866315"
+  ],
+  "aggregation": {
+    "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "22442133:abstract:1000:1604:103e85e18546",
+        "paper_id": "22442133",
+        "section": "abstract",
+        "text": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+        "score": 0.5008472204208374,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9928723573684692,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "1adad7b1d2a68dce3926a1ffd5d89ae428863ca713c7f7df7bb9bb211da52e93",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+        "citation_ids": [
+          "22442133:abstract:1000:1604:103e85e18546"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

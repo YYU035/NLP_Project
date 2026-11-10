@@ -1,0 +1,390 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.962840+00:00",
+    "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+    "created_at": "2026-11-10T17:36:00.962840Z",
+    "retrieved_at": "2026-11-10T17:36:00.962840Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1228",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "25641414": {
+        "paper_id": "25641414",
+        "title": "Suicides after pregnancy in Finland, 1987-94: register linkage study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7662395": {
+        "paper_id": "7662395",
+        "title": "Perinatal mortality in rural China: retrospective cohort study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "881332": {
+        "paper_id": "881332",
+        "title": "Effect of Previous Miscarriage on Depressive Symptoms During Subsequent Pregnancy and Postpartum in the First Baby Study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "25806385": {
+        "paper_id": "25806385",
+        "title": "Attempted suicide in Europe: rates, trends and sociodemographic characteristics of suicide attempters during the period 1989-1992. Results of the WHO/EURO Multicentre Study on Parasuicide.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1102268": {
+        "paper_id": "1102268",
+        "title": "The Incidence and Repetition of Hospital-Treated Deliberate Self Harm: Findings from the World's First National Registry",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "25641414": {
+          "paper_id": "25641414",
+          "title": "Suicides after pregnancy in Finland, 1987-94: register linkage study.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9914079308509827,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "25641414:abstract:636:831:67adc48f430d"
+          ]
+        },
+        "7662395": {
+          "paper_id": "7662395",
+          "title": "Perinatal mortality in rural China: retrospective cohort study.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "881332": {
+          "paper_id": "881332",
+          "title": "Effect of Previous Miscarriage on Depressive Symptoms During Subsequent Pregnancy and Postpartum in the First Baby Study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "25806385": {
+          "paper_id": "25806385",
+          "title": "Attempted suicide in Europe: rates, trends and sociodemographic characteristics of suicide attempters during the period 1989-1992. Results of the WHO/EURO Multicentre Study on Parasuicide.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1102268": {
+          "paper_id": "1102268",
+          "title": "The Incidence and Repetition of Hospital-Treated Deliberate Self Harm: Findings from the World's First National Registry",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "25641414:abstract:636:831:67adc48f430d": {
+          "passage_id": "25641414:abstract:636:831:67adc48f430d",
+          "paper_id": "25641414",
+          "label": "CONTRADICT",
+          "confidence": 0.9914079308509827,
+          "truncated": false
+        },
+        "25641414:abstract:0:91:d4c837fce246": {
+          "passage_id": "25641414:abstract:0:91:d4c837fce246",
+          "paper_id": "25641414",
+          "label": "NEUTRAL",
+          "confidence": 0.9959600567817688,
+          "truncated": false
+        },
+        "25641414:abstract:465:584:dfb8920c94cc": {
+          "passage_id": "25641414:abstract:465:584:dfb8920c94cc",
+          "paper_id": "25641414",
+          "label": "NEUTRAL",
+          "confidence": 0.9965816140174866,
+          "truncated": false
+        },
+        "7662395:abstract:711:807:81a5d4141415": {
+          "passage_id": "7662395:abstract:711:807:81a5d4141415",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9950113296508789,
+          "truncated": false
+        },
+        "881332:abstract:710:1031:4587d4b3dad3": {
+          "passage_id": "881332:abstract:710:1031:4587d4b3dad3",
+          "paper_id": "881332",
+          "label": "NEUTRAL",
+          "confidence": 0.8849623799324036,
+          "truncated": false
+        },
+        "881332:abstract:1032:1244:069ee333f29a": {
+          "passage_id": "881332:abstract:1032:1244:069ee333f29a",
+          "paper_id": "881332",
+          "label": "NEUTRAL",
+          "confidence": 0.9258540272712708,
+          "truncated": false
+        },
+        "881332:abstract:0:243:baf1955fa78b": {
+          "passage_id": "881332:abstract:0:243:baf1955fa78b",
+          "paper_id": "881332",
+          "label": "NEUTRAL",
+          "confidence": 0.8789629340171814,
+          "truncated": false
+        },
+        "25806385:abstract:734:848:4fd4b7350818": {
+          "passage_id": "25806385:abstract:734:848:4fd4b7350818",
+          "paper_id": "25806385",
+          "label": "NEUTRAL",
+          "confidence": 0.9547153115272522,
+          "truncated": false
+        },
+        "1102268:abstract:0:124:88d101c99ac3": {
+          "passage_id": "1102268:abstract:0:124:88d101c99ac3",
+          "paper_id": "1102268",
+          "label": "NEUTRAL",
+          "confidence": 0.9940185546875,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "25641414:abstract:636:831:67adc48f430d",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population.",
+          "score": 0.8252027630805969,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25641414:abstract:0:91:d4c837fce246",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine rates of suicide associated with pregnancy by the type of pregnancy.",
+          "score": 0.6751806735992432,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25641414:abstract:465:584:dfb8920c94cc",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "RESULTS There were 73 suicides associated with pregnancy, representing 5.4% of all suicides in women in this age group.",
+          "score": 0.6352640390396118,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7662395:abstract:711:807:81a5d4141415",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "Three hundred and twelve pregnancies were aborted and 240 ended in miscarriage (total 552, 15%).",
+          "score": 0.5204894542694092,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "881332:abstract:710:1031:4587d4b3dad3",
+          "paper_id": "881332",
+          "section": "abstract",
+          "text": "Women with a history of miscarriage were not more likely than woman without a history of miscarriage to score in the probable depression range during the third trimester or at 6 or 12 months postpartum but were more likely at 1 month postpartum, after adjustment for sociodemographic factors (OR 1.66, 95 % CI 1.03–2.69).",
+          "score": 0.6793438196182251,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "881332:abstract:1032:1244:069ee333f29a",
+          "paper_id": "881332",
+          "section": "abstract",
+          "text": "Women with a history of miscarriage may be more vulnerable to depression during the first month postpartum than women without prior miscarriage, but this effect does not appear to persist beyond this time period.",
+          "score": 0.6575310826301575,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "881332:abstract:0:243:baf1955fa78b",
+          "paper_id": "881332",
+          "section": "abstract",
+          "text": "Our objective was to test the hypothesis that nulliparous women with a history of miscarriage have an increased risk of depression during late pregnancy, and at 1, 6, and 12 months postpartum compared to women without a history of miscarriage.",
+          "score": 0.6392627954483032,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25806385:abstract:734:848:4fd4b7350818",
+          "paper_id": "25806385",
+          "section": "abstract",
+          "text": "With only one exception (Helsinki), the person-based suicide attempt rates were higher among women than among men.",
+          "score": 0.5312817096710205,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1102268:abstract:0:124:88d101c99ac3",
+          "paper_id": "1102268",
+          "section": "abstract",
+          "text": "BACKGROUND Suicide is a significant public health issue with almost one million people dying by suicide each year worldwide.",
+          "score": 0.5039325952529907,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "25641414:abstract:636:831:67adc48f430d",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population.",
+          "score": 0.8252027630805969,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9914079308509827,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "333438288007a5f2aa989a9de1daa1fd8575d94d2363a8f04d64f847e7d38ec1",
+  "selected_paper_ids": [
+    "1102268",
+    "25641414",
+    "25806385",
+    "7662395",
+    "881332"
+  ],
+  "aggregation": {
+    "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "25641414:abstract:636:831:67adc48f430d",
+        "paper_id": "25641414",
+        "section": "abstract",
+        "text": "The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population.",
+        "score": 0.8252027630805969,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9914079308509827,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "9c31f87a6e86da87b326692efc40e8d2a6e310c51e56b04852b0689fe77bbe97",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population.",
+        "citation_ids": [
+          "25641414:abstract:636:831:67adc48f430d"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

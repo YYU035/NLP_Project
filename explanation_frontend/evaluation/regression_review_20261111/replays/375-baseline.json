@@ -1,0 +1,441 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.892026+00:00",
+    "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+    "created_at": "2026-11-10T17:36:00.892026Z",
+    "retrieved_at": "2026-11-10T17:36:00.892026Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "375",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "1522647": {
+        "paper_id": "1522647",
+        "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "20459964": {
+        "paper_id": "20459964",
+        "title": "Circulating mitochondrial DNA in serum of patients with granulomatosis with polyangiitis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3883485": {
+        "paper_id": "3883485",
+        "title": "Genetic Drift Can Compromise Mitochondrial Replacement by Nuclear Transfer in Human Oocytes.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "44693226": {
+        "paper_id": "44693226",
+        "title": "Effect of lipid restriction on mitochondrial free radical production and oxidative DNA damage.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "28249680": {
+        "paper_id": "28249680",
+        "title": "BAX/BAK-independent mitoptosis during cell death induced by proteasome inhibition?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "1522647": {
+          "paper_id": "1522647",
+          "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9787377715110779,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "1522647:abstract:1433:1612:67ffa8ec1538"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "20459964": {
+          "paper_id": "20459964",
+          "title": "Circulating mitochondrial DNA in serum of patients with granulomatosis with polyangiitis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3883485": {
+          "paper_id": "3883485",
+          "title": "Genetic Drift Can Compromise Mitochondrial Replacement by Nuclear Transfer in Human Oocytes.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "44693226": {
+          "paper_id": "44693226",
+          "title": "Effect of lipid restriction on mitochondrial free radical production and oxidative DNA damage.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "28249680": {
+          "paper_id": "28249680",
+          "title": "BAX/BAK-independent mitoptosis during cell death induced by proteasome inhibition?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "1522647:abstract:210:345:e09b9a72d2f4": {
+          "passage_id": "1522647:abstract:210:345:e09b9a72d2f4",
+          "paper_id": "1522647",
+          "label": "NEUTRAL",
+          "confidence": 0.9879706501960754,
+          "truncated": false
+        },
+        "1522647:abstract:0:106:432893536d61": {
+          "passage_id": "1522647:abstract:0:106:432893536d61",
+          "paper_id": "1522647",
+          "label": "NEUTRAL",
+          "confidence": 0.9971522092819214,
+          "truncated": false
+        },
+        "1522647:abstract:1433:1612:67ffa8ec1538": {
+          "passage_id": "1522647:abstract:1433:1612:67ffa8ec1538",
+          "paper_id": "1522647",
+          "label": "SUPPORT",
+          "confidence": 0.9787377715110779,
+          "truncated": false
+        },
+        "20459964:abstract:934:1036:f82d51cedd3c": {
+          "passage_id": "20459964:abstract:934:1036:f82d51cedd3c",
+          "paper_id": "20459964",
+          "label": "NEUTRAL",
+          "confidence": 0.998695433139801,
+          "truncated": false
+        },
+        "20459964:abstract:1037:1095:022f350db321": {
+          "passage_id": "20459964:abstract:1037:1095:022f350db321",
+          "paper_id": "20459964",
+          "label": "NEUTRAL",
+          "confidence": 0.9985321760177612,
+          "truncated": false
+        },
+        "20459964:abstract:1096:1184:a4464360833e": {
+          "passage_id": "20459964:abstract:1096:1184:a4464360833e",
+          "paper_id": "20459964",
+          "label": "NEUTRAL",
+          "confidence": 0.9897332787513733,
+          "truncated": false
+        },
+        "3883485:abstract:334:639:61916c502556": {
+          "passage_id": "3883485:abstract:334:639:61916c502556",
+          "paper_id": "3883485",
+          "label": "NEUTRAL",
+          "confidence": 0.9945704340934753,
+          "truncated": false
+        },
+        "3883485:abstract:843:1058:b2303c96a8db": {
+          "passage_id": "3883485:abstract:843:1058:b2303c96a8db",
+          "paper_id": "3883485",
+          "label": "NEUTRAL",
+          "confidence": 0.9891157746315002,
+          "truncated": false
+        },
+        "3883485:abstract:0:172:12d790168d06": {
+          "passage_id": "3883485:abstract:0:172:12d790168d06",
+          "paper_id": "3883485",
+          "label": "NEUTRAL",
+          "confidence": 0.9963303208351135,
+          "truncated": false
+        },
+        "44693226:abstract:1096:1216:173d30d05ff6": {
+          "passage_id": "44693226:abstract:1096:1216:173d30d05ff6",
+          "paper_id": "44693226",
+          "label": "NEUTRAL",
+          "confidence": 0.9967944025993347,
+          "truncated": false
+        },
+        "44693226:abstract:959:1095:374425618302": {
+          "passage_id": "44693226:abstract:959:1095:374425618302",
+          "paper_id": "44693226",
+          "label": "NEUTRAL",
+          "confidence": 0.9916508793830872,
+          "truncated": false
+        },
+        "28249680:abstract:422:552:91983b326b78": {
+          "passage_id": "28249680:abstract:422:552:91983b326b78",
+          "paper_id": "28249680",
+          "label": "NEUTRAL",
+          "confidence": 0.9940546154975891,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "1522647:abstract:210:345:e09b9a72d2f4",
+          "paper_id": "1522647",
+          "section": "abstract",
+          "text": "We hypothesized that circulating cell-free mtDNA levels would be associated with mortality and improve risk prediction in ICU patients.",
+          "score": 0.6436275243759155,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1522647:abstract:0:106:432893536d61",
+          "paper_id": "1522647",
+          "section": "abstract",
+          "text": "BACKGROUND Mitochondrial DNA (mtDNA) is a critical activator of inflammation and the innate immune system.",
+          "score": 0.6269182562828064,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1522647:abstract:1433:1612:67ffa8ec1538",
+          "paper_id": "1522647",
+          "section": "abstract",
+          "text": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "score": 0.6151493787765503,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "20459964:abstract:934:1036:f82d51cedd3c",
+          "paper_id": "20459964",
+          "section": "abstract",
+          "text": "A mechanism of extracellular release of mitochondrial DNA accompanies the active stage of the disease.",
+          "score": 0.6740630865097046,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "20459964:abstract:1037:1095:022f350db321",
+          "paper_id": "20459964",
+          "section": "abstract",
+          "text": "Circulating mtDNA is extremely high in untreated patients.",
+          "score": 0.6485217809677124,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "20459964:abstract:1096:1184:a4464360833e",
+          "paper_id": "20459964",
+          "section": "abstract",
+          "text": "This suggests that biomarker properties of mtDNA are useful for monitoring of treatment.",
+          "score": 0.5117858648300171,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3883485:abstract:334:639:61916c502556",
+          "paper_id": "3883485",
+          "section": "abstract",
+          "text": "Using human mitochondrial replacement stem cell lines, we show that, even though the low levels of heteroplasmy introduced into human oocytes by mitochondrial carryover during nuclear transfer often vanish, they can sometimes instead result in mtDNA genotypic drift and reversion to the original genotype.",
+          "score": 0.5915555953979492,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3883485:abstract:843:1058:b2303c96a8db",
+          "paper_id": "3883485",
+          "section": "abstract",
+          "text": "Thus, although functional replacement of the mitochondrial genome is possible, even low levels of heteroplasmy can affect the stability of the mtDNA genotype and compromise the efficacy of mitochondrial replacement.",
+          "score": 0.5769681930541992,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3883485:abstract:0:172:12d790168d06",
+          "paper_id": "3883485",
+          "section": "abstract",
+          "text": "Replacement of mitochondria through nuclear transfer between oocytes of two different women has emerged recently as a strategy for preventing inheritance of mtDNA diseases.",
+          "score": 0.5732730031013489,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "44693226:abstract:1096:1216:173d30d05ff6",
+          "paper_id": "44693226",
+          "section": "abstract",
+          "text": "Oxidative damage to mitochondrial DNA was one order of magnitude higher than that of nuclear DNA in both dietary groups.",
+          "score": 0.6128090620040894,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "44693226:abstract:959:1095:374425618302",
+          "paper_id": "44693226",
+          "section": "abstract",
+          "text": "Neither mitochondrial H(2)O(2) production nor oxidative damage to mitochondrial or nuclear DNA was modified in lipid-restricted animals.",
+          "score": 0.5072118043899536,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "28249680:abstract:422:552:91983b326b78",
+          "paper_id": "28249680",
+          "section": "abstract",
+          "text": "Subsequent cell death is independent of BAX, and probably BAK, and proceeds through the intrinsic mitochondrial apoptosis pathway.",
+          "score": 0.546624481678009,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "1522647:abstract:1433:1612:67ffa8ec1538",
+          "paper_id": "1522647",
+          "section": "abstract",
+          "text": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "score": 0.6151493787765503,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9787377715110779,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "9dbe1b6311325e3b030966adacce5a4916f527e839d1045dfd8b7bc2d64b0e21",
+  "selected_paper_ids": [
+    "1522647",
+    "20459964",
+    "28249680",
+    "3883485",
+    "44693226"
+  ],
+  "aggregation": {
+    "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "1522647:abstract:1433:1612:67ffa8ec1538",
+        "paper_id": "1522647",
+        "section": "abstract",
+        "text": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+        "score": 0.6151493787765503,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9787377715110779,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "f4c8b6a0ea76a7db428ec18d82d8c5c290a816b695061f411cbdc338f0af3e2b",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+        "citation_ids": [
+          "1522647:abstract:1433:1612:67ffa8ec1538"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

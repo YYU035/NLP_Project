@@ -1,0 +1,224 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.948247+00:00",
+    "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+    "created_at": "2026-11-10T17:36:00.948247Z",
+    "retrieved_at": "2026-11-10T17:36:00.948247Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1034",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "15803282": {
+        "paper_id": "15803282",
+        "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4547102": {
+        "paper_id": "4547102",
+        "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12100854": {
+        "paper_id": "12100854",
+        "title": "Proteomic and genomic approaches reveal critical functions of H3K9 methylation and Heterochromatin Protein-1γ in reprogramming to pluripotency",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8185080": {
+        "paper_id": "8185080",
+        "title": "Induction of pluripotent stem cells by defined factors is greatly improved by small-molecule compounds",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8548635": {
+        "paper_id": "8548635",
+        "title": "RBP2 Belongs to a Family of Demethylases, Specific for Tri-and Dimethylated Lysine 4 on Histone 3",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "15803282": {
+          "paper_id": "15803282",
+          "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4547102": {
+          "paper_id": "4547102",
+          "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12100854": {
+          "paper_id": "12100854",
+          "title": "Proteomic and genomic approaches reveal critical functions of H3K9 methylation and Heterochromatin Protein-1γ in reprogramming to pluripotency",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8185080": {
+          "paper_id": "8185080",
+          "title": "Induction of pluripotent stem cells by defined factors is greatly improved by small-molecule compounds",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8548635": {
+          "paper_id": "8548635",
+          "title": "RBP2 Belongs to a Family of Demethylases, Specific for Tri-and Dimethylated Lysine 4 on Histone 3",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15803282:abstract:0:1055:ba07adfb2478": {
+          "passage_id": "15803282:abstract:0:1055:ba07adfb2478",
+          "paper_id": "15803282",
+          "label": "NEUTRAL",
+          "confidence": 0.9911132454872131,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15803282:abstract:0:1055:ba07adfb2478",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "The extremely low efficiency of human embryonic stem cell (hESC) derivation using somatic cell nuclear transfer (SCNT) limits its potential application. Blastocyst formation from human SCNT embryos occurs at a low rate and with only some oocyte donors. We previously showed in mice that reduction of histone H3 lysine 9 trimethylation (H3K9me3) through ectopic expression of the H3K9me3 demethylase Kdm4d greatly improves SCNT embryo development. Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier. Overexpression of KDM4A significantly improves the blastocyst formation rate in human SCNT embryos by facilitating transcriptional reprogramming, allowing efficient derivation of SCNT-derived ESCs using adult Age-related Macular Degeneration (AMD) patient somatic nuclei donors. This conserved mechanistic insight has potential applications for improving SCNT in a variety of contexts, including regenerative medicine.",
+          "score": 0.6959171295166016,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "8348318e2fefdeabcb90be0731c569a931a145d728c455381bfdd1cf9e24f80c",
+  "selected_paper_ids": [
+    "12100854",
+    "15803282",
+    "4547102",
+    "8185080",
+    "8548635"
+  ],
+  "aggregation": {
+    "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "e1bd3c44adcb4c1f27e6441c6048661c562f53fbbda54745fa268633c78b8a63",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

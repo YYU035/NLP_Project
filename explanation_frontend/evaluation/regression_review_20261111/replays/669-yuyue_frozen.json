@@ -1,0 +1,241 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.919099+00:00",
+    "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+    "created_at": "2026-11-10T17:36:00.919099Z",
+    "retrieved_at": "2026-11-10T17:36:00.919099Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "669",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "25148216": {
+        "paper_id": "25148216",
+        "title": "Kruppel-like factor 4 is essential for inflammatory monocyte differentiation in vivo.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22150633": {
+        "paper_id": "22150633",
+        "title": "A core Klf circuitry regulates self-renewal of embryonic stem cells",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18489989": {
+        "paper_id": "18489989",
+        "title": "Murine embryonic stem cell differentiation is promoted by SOCS-3 and inhibited by the zinc finger transcription factor Klf4.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "6493422": {
+        "paper_id": "6493422",
+        "title": "The myeloid transcription factor KLF2 regulates the host response to polymicrobial infection and endotoxic shock.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "6446747": {
+        "paper_id": "6446747",
+        "title": "MafB/c-Maf deficiency enables self-renewal of differentiated functional macrophages.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "25148216": {
+          "paper_id": "25148216",
+          "title": "Kruppel-like factor 4 is essential for inflammatory monocyte differentiation in vivo.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22150633": {
+          "paper_id": "22150633",
+          "title": "A core Klf circuitry regulates self-renewal of embryonic stem cells",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18489989": {
+          "paper_id": "18489989",
+          "title": "Murine embryonic stem cell differentiation is promoted by SOCS-3 and inhibited by the zinc finger transcription factor Klf4.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "6493422": {
+          "paper_id": "6493422",
+          "title": "The myeloid transcription factor KLF2 regulates the host response to polymicrobial infection and endotoxic shock.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "6446747": {
+          "paper_id": "6446747",
+          "title": "MafB/c-Maf deficiency enables self-renewal of differentiated functional macrophages.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "22150633:abstract:0:1250:a794e7a1eb74": {
+          "passage_id": "22150633:abstract:0:1250:a794e7a1eb74",
+          "paper_id": "22150633",
+          "label": "NEUTRAL",
+          "confidence": 0.9890945553779602,
+          "truncated": false
+        },
+        "6493422:abstract:0:885:dbb36a781583": {
+          "passage_id": "6493422:abstract:0:885:dbb36a781583",
+          "paper_id": "6493422",
+          "label": "NEUTRAL",
+          "confidence": 0.9988757967948914,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "22150633:abstract:0:1250:a794e7a1eb74",
+          "paper_id": "22150633",
+          "section": "abstract",
+          "text": "Embryonic stem (ES) cells are unique in their ability to self-renew indefinitely and maintain pluripotency. These properties require transcription factors that specify the gene expression programme of ES cells. It has been possible to reverse the highly differentiated state of somatic cells back to a pluripotent state with a combination of four transcription factors: Klf4 is one of the reprogramming factors required, in conjunction with Oct4, Sox2 and c-Myc. Maintenance of self-renewal and pluripotency of ES cells requires Oct4, Sox2 and c-Myc, but Klf4 is dispensable. Here, we show that Krüppel-like factors are required for the self-renewal of ES cells. Simultaneous depletion of Klf2, Klf4 and Klf5 lead to ES cell differentiation. Chromatin immunoprecipitation coupled to microarray assay reveals that these Klf proteins share many common targets of Nanog, suggesting a close functional relationship between these factors. Expression analysis after triple RNA interference (RNAi) of the Klfs shows that they regulate key pluripotency genes, such as Nanog. Taken together, our study provides new insight into how the core Klf circuitry integrates into the Nanog transcriptional network to specify gene expression that is unique to ES cells.",
+          "score": 0.6765613555908203,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6493422:abstract:0:885:dbb36a781583",
+          "paper_id": "6493422",
+          "section": "abstract",
+          "text": "Precise control of myeloid cell activation is required for optimal host defense. However, this activation process must be under exquisite control to prevent uncontrolled inflammation. Herein, we identify the Kruppel-like transcription factor 2 (KLF2) as a potent regulator of myeloid cell activation in vivo. Exposure of myeloid cells to hypoxia and/or bacterial products reduced KLF2 expression while inducing hypoxia inducible factor-1α (HIF-1α), findings that were recapitulated in human septic patients. Myeloid KLF2 was found to be a potent inhibitor of nuclear factor-kappaB (NF-κB)-dependent HIF-1α transcription and, consequently, a critical determinant of outcome in models of polymicrobial infection and endotoxemia. Collectively, these observations identify KLF2 as a tonic repressor of myeloid cell activation in vivo and an essential regulator of the innate immune system.",
+          "score": 0.6702502965927124,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "e4249f689dae54f1874f2e58f61796d052d6f1134062dfde0e5ee6e751137e84",
+  "selected_paper_ids": [
+    "18489989",
+    "22150633",
+    "25148216",
+    "6446747",
+    "6493422"
+  ],
+  "aggregation": {
+    "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "fbab57f452060c16e94048ad0db7797a4cbb56add8b44e6954966d1e4aee78d3",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

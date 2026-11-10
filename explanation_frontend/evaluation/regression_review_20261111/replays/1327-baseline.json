@@ -1,0 +1,441 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.974390+00:00",
+    "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+    "created_at": "2026-11-10T17:36:00.974390Z",
+    "retrieved_at": "2026-11-10T17:36:00.974390Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1327",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "24241932": {
+        "paper_id": "24241932",
+        "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "10365749": {
+        "paper_id": "10365749",
+        "title": "Neighbourhood risk factors for tuberculosis in Hong Kong.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22414304": {
+        "paper_id": "22414304",
+        "title": "Treatment outcome of an unselected cohort of tuberculosis patients in relation to human immunodeficiency virus serostatus in Zomba Hospital, Malawi.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5284188": {
+        "paper_id": "5284188",
+        "title": "Alarming levels of drug-resistant tuberculosis in Belarus: results of a survey in Minsk",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7111021": {
+        "paper_id": "7111021",
+        "title": "Integration of antiretroviral therapy with tuberculosis treatment.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "24241932": {
+          "paper_id": "24241932",
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9846422076225281,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "24241932:abstract:867:989:c1460a6faf30"
+          ]
+        },
+        "10365749": {
+          "paper_id": "10365749",
+          "title": "Neighbourhood risk factors for tuberculosis in Hong Kong.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22414304": {
+          "paper_id": "22414304",
+          "title": "Treatment outcome of an unselected cohort of tuberculosis patients in relation to human immunodeficiency virus serostatus in Zomba Hospital, Malawi.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5284188": {
+          "paper_id": "5284188",
+          "title": "Alarming levels of drug-resistant tuberculosis in Belarus: results of a survey in Minsk",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7111021": {
+          "paper_id": "7111021",
+          "title": "Integration of antiretroviral therapy with tuberculosis treatment.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "24241932:abstract:460:685:6189e65c764c": {
+          "passage_id": "24241932:abstract:460:685:6189e65c764c",
+          "paper_id": "24241932",
+          "label": "NEUTRAL",
+          "confidence": 0.9941101670265198,
+          "truncated": false
+        },
+        "24241932:abstract:103:296:2c4d3164d547": {
+          "passage_id": "24241932:abstract:103:296:2c4d3164d547",
+          "paper_id": "24241932",
+          "label": "NEUTRAL",
+          "confidence": 0.9923080205917358,
+          "truncated": false
+        },
+        "24241932:abstract:867:989:c1460a6faf30": {
+          "passage_id": "24241932:abstract:867:989:c1460a6faf30",
+          "paper_id": "24241932",
+          "label": "CONTRADICT",
+          "confidence": 0.9846422076225281,
+          "truncated": false
+        },
+        "10365749:abstract:289:393:65c5521191b7": {
+          "passage_id": "10365749:abstract:289:393:65c5521191b7",
+          "paper_id": "10365749",
+          "label": "NEUTRAL",
+          "confidence": 0.9971531629562378,
+          "truncated": false
+        },
+        "10365749:abstract:0:113:fc648f55ce17": {
+          "passage_id": "10365749:abstract:0:113:fc648f55ce17",
+          "paper_id": "10365749",
+          "label": "NEUTRAL",
+          "confidence": 0.9872484803199768,
+          "truncated": false
+        },
+        "10365749:abstract:114:284:afc27b016289": {
+          "passage_id": "10365749:abstract:114:284:afc27b016289",
+          "paper_id": "10365749",
+          "label": "NEUTRAL",
+          "confidence": 0.9599831104278564,
+          "truncated": false
+        },
+        "22414304:abstract:366:491:e5b1e46a4953": {
+          "passage_id": "22414304:abstract:366:491:e5b1e46a4953",
+          "paper_id": "22414304",
+          "label": "NEUTRAL",
+          "confidence": 0.999650239944458,
+          "truncated": false
+        },
+        "22414304:abstract:216:365:a1a326703195": {
+          "passage_id": "22414304:abstract:216:365:a1a326703195",
+          "paper_id": "22414304",
+          "label": "NEUTRAL",
+          "confidence": 0.9967525005340576,
+          "truncated": false
+        },
+        "5284188:abstract:1145:1258:ceb3cad1db12": {
+          "passage_id": "5284188:abstract:1145:1258:ceb3cad1db12",
+          "paper_id": "5284188",
+          "label": "NEUTRAL",
+          "confidence": 0.6584411263465881,
+          "truncated": false
+        },
+        "5284188:abstract:1014:1144:0cd9ed828a0f": {
+          "passage_id": "5284188:abstract:1014:1144:0cd9ed828a0f",
+          "paper_id": "5284188",
+          "label": "NEUTRAL",
+          "confidence": 0.9062684178352356,
+          "truncated": false
+        },
+        "5284188:abstract:898:1013:cc9da488da83": {
+          "passage_id": "5284188:abstract:898:1013:cc9da488da83",
+          "paper_id": "5284188",
+          "label": "NEUTRAL",
+          "confidence": 0.9988633394241333,
+          "truncated": false
+        },
+        "7111021:abstract:227:541:7902c43752d1": {
+          "passage_id": "7111021:abstract:227:541:7902c43752d1",
+          "paper_id": "7111021",
+          "label": "NEUTRAL",
+          "confidence": 0.9969424605369568,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "24241932:abstract:460:685:6189e65c764c",
+          "paper_id": "24241932",
+          "section": "abstract",
+          "text": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01).",
+          "score": 0.7262752056121826,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24241932:abstract:103:296:2c4d3164d547",
+          "paper_id": "24241932",
+          "section": "abstract",
+          "text": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.",
+          "score": 0.7243962287902832,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24241932:abstract:867:989:c1460a6faf30",
+          "paper_id": "24241932",
+          "section": "abstract",
+          "text": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "score": 0.7049278020858765,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10365749:abstract:289:393:65c5521191b7",
+          "paper_id": "10365749",
+          "section": "abstract",
+          "text": "OBJECTIVE To examine the spatial distribution of TB and its association with neighbourhood risk factors.",
+          "score": 0.6649034023284912,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10365749:abstract:0:113:fc648f55ce17",
+          "paper_id": "10365749",
+          "section": "abstract",
+          "text": "BACKGROUND Tuberculosis (TB) has been reported to be associated with poverty, especially in developing countries.",
+          "score": 0.6488114595413208,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10365749:abstract:114:284:afc27b016289",
+          "paper_id": "10365749",
+          "section": "abstract",
+          "text": "Hong Kong is one of the few industrialised areas with a high incidence of TB where previous reports on the effect of poverty at neighbourhood level have been conflicting.",
+          "score": 0.6465549468994141,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22414304:abstract:366:491:e5b1e46a4953",
+          "paper_id": "22414304",
+          "section": "abstract",
+          "text": "Eight hundred and twenty-seven adult TB patients (451 men and 376 women) were registered between 1 July and 31 December 1995.",
+          "score": 0.5508223176002502,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22414304:abstract:216:365:a1a326703195",
+          "paper_id": "22414304",
+          "section": "abstract",
+          "text": "A prospective study was carried out to determine treatment outcome in an unselected cohort of TB patients admitted to Zomba General Hospital, Malawi.",
+          "score": 0.5270313024520874,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5284188:abstract:1145:1258:ceb3cad1db12",
+          "paper_id": "5284188",
+          "section": "abstract",
+          "text": "This study greatly contributes to the understanding of the burden of drug-resistant TB in urban areas of Belarus.",
+          "score": 0.616804301738739,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5284188:abstract:1014:1144:0cd9ed828a0f",
+          "paper_id": "5284188",
+          "section": "abstract",
+          "text": "The findings of this survey in Minsk city are alarming and represent the highest proportions of MDR-TB ever recorded in the world.",
+          "score": 0.6101904511451721,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5284188:abstract:898:1013:cc9da488da83",
+          "paper_id": "5284188",
+          "section": "abstract",
+          "text": "Patients <35 yrs of age have shown a two times higher odds ratio of multidrug-resistant TB than those aged >35 yrs.",
+          "score": 0.5202152132987976,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7111021:abstract:227:541:7902c43752d1",
+          "paper_id": "7111021",
+          "section": "abstract",
+          "text": "METHODS We conducted a three-group, open-label, randomized, controlled trial in South Africa involving 642 ambulatory patients, all with tuberculosis (confirmed by a positive sputum smear for acid-fast bacilli), human immunodeficiency virus infection, and a CD4+ T-cell count of less than 500 per cubic millimeter.",
+          "score": 0.5396096706390381,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "24241932:abstract:867:989:c1460a6faf30",
+          "paper_id": "24241932",
+          "section": "abstract",
+          "text": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "score": 0.7049278020858765,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9846422076225281,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "282b3199f2d96433a498e3d00df96622c8bd23585983c5ab789363dabb8a1c88",
+  "selected_paper_ids": [
+    "10365749",
+    "22414304",
+    "24241932",
+    "5284188",
+    "7111021"
+  ],
+  "aggregation": {
+    "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "24241932:abstract:867:989:c1460a6faf30",
+        "paper_id": "24241932",
+        "section": "abstract",
+        "text": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+        "score": 0.7049278020858765,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9846422076225281,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "5f54069ee191d2dbe892c8ce428e3daad0eedc70fead4c155886d53aeef627fb",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+        "citation_ids": [
+          "24241932:abstract:867:989:c1460a6faf30"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

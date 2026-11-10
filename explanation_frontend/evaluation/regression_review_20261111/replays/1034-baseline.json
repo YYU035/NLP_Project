@@ -1,0 +1,390 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.946742+00:00",
+    "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+    "created_at": "2026-11-10T17:36:00.946742Z",
+    "retrieved_at": "2026-11-10T17:36:00.946742Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1034",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "15803282": {
+        "paper_id": "15803282",
+        "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4547102": {
+        "paper_id": "4547102",
+        "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12100854": {
+        "paper_id": "12100854",
+        "title": "Proteomic and genomic approaches reveal critical functions of H3K9 methylation and Heterochromatin Protein-1γ in reprogramming to pluripotency",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8185080": {
+        "paper_id": "8185080",
+        "title": "Induction of pluripotent stem cells by defined factors is greatly improved by small-molecule compounds",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8548635": {
+        "paper_id": "8548635",
+        "title": "RBP2 Belongs to a Family of Demethylases, Specific for Tri-and Dimethylated Lysine 4 on Histone 3",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "15803282": {
+          "paper_id": "15803282",
+          "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9864128828048706,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "15803282:abstract:447:636:820d7d5fe4f5"
+          ]
+        },
+        "4547102": {
+          "paper_id": "4547102",
+          "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12100854": {
+          "paper_id": "12100854",
+          "title": "Proteomic and genomic approaches reveal critical functions of H3K9 methylation and Heterochromatin Protein-1γ in reprogramming to pluripotency",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8185080": {
+          "paper_id": "8185080",
+          "title": "Induction of pluripotent stem cells by defined factors is greatly improved by small-molecule compounds",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8548635": {
+          "paper_id": "8548635",
+          "title": "RBP2 Belongs to a Family of Demethylases, Specific for Tri-and Dimethylated Lysine 4 on Histone 3",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15803282:abstract:447:636:820d7d5fe4f5": {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "label": "CONTRADICT",
+          "confidence": 0.9864128828048706,
+          "truncated": false
+        },
+        "15803282:abstract:253:446:0a064ef36e3b": {
+          "passage_id": "15803282:abstract:253:446:0a064ef36e3b",
+          "paper_id": "15803282",
+          "label": "NEUTRAL",
+          "confidence": 0.9955986738204956,
+          "truncated": false
+        },
+        "4547102:abstract:1039:1148:40126ba29a42": {
+          "passage_id": "4547102:abstract:1039:1148:40126ba29a42",
+          "paper_id": "4547102",
+          "label": "NEUTRAL",
+          "confidence": 0.9979836940765381,
+          "truncated": false
+        },
+        "4547102:abstract:831:1038:08b59cb88f5a": {
+          "passage_id": "4547102:abstract:831:1038:08b59cb88f5a",
+          "paper_id": "4547102",
+          "label": "NEUTRAL",
+          "confidence": 0.9964660406112671,
+          "truncated": false
+        },
+        "4547102:abstract:337:601:e114defff071": {
+          "passage_id": "4547102:abstract:337:601:e114defff071",
+          "paper_id": "4547102",
+          "label": "NEUTRAL",
+          "confidence": 0.9974672794342041,
+          "truncated": false
+        },
+        "12100854:abstract:1352:1569:c2d6850d246e": {
+          "passage_id": "12100854:abstract:1352:1569:c2d6850d246e",
+          "paper_id": "12100854",
+          "label": "NEUTRAL",
+          "confidence": 0.9945492148399353,
+          "truncated": false
+        },
+        "12100854:abstract:852:995:768bd16a7446": {
+          "passage_id": "12100854:abstract:852:995:768bd16a7446",
+          "paper_id": "12100854",
+          "label": "NEUTRAL",
+          "confidence": 0.8062683939933777,
+          "truncated": false
+        },
+        "12100854:abstract:599:851:940933febe94": {
+          "passage_id": "12100854:abstract:599:851:940933febe94",
+          "paper_id": "12100854",
+          "label": "NEUTRAL",
+          "confidence": 0.5850755572319031,
+          "truncated": false
+        },
+        "8548635:abstract:905:1048:ecc1d5eeb1b4": {
+          "passage_id": "8548635:abstract:905:1048:ecc1d5eeb1b4",
+          "paper_id": "8548635",
+          "label": "NEUTRAL",
+          "confidence": 0.998174786567688,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+          "score": 0.6959171295166016,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15803282:abstract:253:446:0a064ef36e3b",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "We previously showed in mice that reduction of histone H3 lysine 9 trimethylation (H3K9me3) through ectopic expression of the H3K9me3 demethylase Kdm4d greatly improves SCNT embryo development.",
+          "score": 0.6754196882247925,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4547102:abstract:1039:1148:40126ba29a42",
+          "paper_id": "4547102",
+          "section": "abstract",
+          "text": "Furthermore, we show that interactions between RNA and KDM4E are essential for H3K9 demethylation during EGA.",
+          "score": 0.64869624376297,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4547102:abstract:831:1038:08b59cb88f5a",
+          "paper_id": "4547102",
+          "section": "abstract",
+          "text": "Our results thereby indicate that KDM4E can function as a crucial epigenetic regulator of EGA and as an internal defective factor responsible for persistent H3K9me3/2 barriers to SCNT-mediated reprogramming.",
+          "score": 0.6047118902206421,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4547102:abstract:337:601:e114defff071",
+          "paper_id": "4547102",
+          "section": "abstract",
+          "text": "Here, we provide evidence that two H3K9 demethylase genes, lysine-specific demethylase 4D (KDM4D) and 4E (KDM4E), are related to active H3K9me3/2 demethylation in in vitro fertilized (IVF) embryos and are deficiently expressed in cloned embryos at the time of EGA.",
+          "score": 0.588161826133728,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12100854:abstract:1352:1569:c2d6850d246e",
+          "paper_id": "12100854",
+          "section": "abstract",
+          "text": "Despite largely non-overlapping functions and the predominant association of Cbx3 with active transcription, the H3K9 methyltransferases and Cbx3 both inhibit reprogramming by repressing the pluripotency factor Nanog.",
+          "score": 0.5815646648406982,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12100854:abstract:852:995:768bd16a7446",
+          "paper_id": "12100854",
+          "section": "abstract",
+          "text": "Similarly, we find that inhibition of heterochromatin protein-1γ (Cbx3), a protein known to recognize H3K9 methylation, enhances reprogramming.",
+          "score": 0.5506294965744019,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12100854:abstract:599:851:940933febe94",
+          "paper_id": "12100854",
+          "section": "abstract",
+          "text": "Dissecting the contribution of H3K9 methylation to reprogramming, we show that the H3K9 methyltransferases Ehmt1, Ehmt2 and Setdb1 regulate global H3K9me2/me3 levels and that their depletion increases iPSC formation from both fibroblasts and pre-iPSCs.",
+          "score": 0.5479575991630554,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8548635:abstract:905:1048:ecc1d5eeb1b4",
+          "paper_id": "8548635",
+          "section": "abstract",
+          "text": "Taken together, these results suggest that H3K4me3/me2 demethylation regulated by the JARID1 family plays an important role during development.",
+          "score": 0.5592308044433594,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+          "score": 0.6959171295166016,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9864128828048706,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c9d2bc9d8ecea8fd703d89f662c3c76597396d437f28fab1f4b9586e920dfcd0",
+  "selected_paper_ids": [
+    "12100854",
+    "15803282",
+    "4547102",
+    "8185080",
+    "8548635"
+  ],
+  "aggregation": {
+    "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+        "paper_id": "15803282",
+        "section": "abstract",
+        "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+        "score": 0.6959171295166016,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9864128828048706,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "c81808a4524480bd8401eb5cec23e7106f583211678285a6c6c1a86d033c80aa",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+        "citation_ids": [
+          "15803282:abstract:447:636:820d7d5fe4f5"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

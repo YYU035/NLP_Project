@@ -1,0 +1,271 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.964836+00:00",
+    "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+    "created_at": "2026-11-10T17:36:00.964836Z",
+    "retrieved_at": "2026-11-10T17:36:00.964836Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1228",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "25641414": {
+        "paper_id": "25641414",
+        "title": "Suicides after pregnancy in Finland, 1987-94: register linkage study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7662395": {
+        "paper_id": "7662395",
+        "title": "Perinatal mortality in rural China: retrospective cohort study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "881332": {
+        "paper_id": "881332",
+        "title": "Effect of Previous Miscarriage on Depressive Symptoms During Subsequent Pregnancy and Postpartum in the First Baby Study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "25806385": {
+        "paper_id": "25806385",
+        "title": "Attempted suicide in Europe: rates, trends and sociodemographic characteristics of suicide attempters during the period 1989-1992. Results of the WHO/EURO Multicentre Study on Parasuicide.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1102268": {
+        "paper_id": "1102268",
+        "title": "The Incidence and Repetition of Hospital-Treated Deliberate Self Harm: Findings from the World's First National Registry",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "25641414": {
+          "paper_id": "25641414",
+          "title": "Suicides after pregnancy in Finland, 1987-94: register linkage study.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.5239680409431458,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "25641414:abstract:0:1295:6455cbff7d87"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "7662395": {
+          "paper_id": "7662395",
+          "title": "Perinatal mortality in rural China: retrospective cohort study.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "881332": {
+          "paper_id": "881332",
+          "title": "Effect of Previous Miscarriage on Depressive Symptoms During Subsequent Pregnancy and Postpartum in the First Baby Study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "25806385": {
+          "paper_id": "25806385",
+          "title": "Attempted suicide in Europe: rates, trends and sociodemographic characteristics of suicide attempters during the period 1989-1992. Results of the WHO/EURO Multicentre Study on Parasuicide.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1102268": {
+          "paper_id": "1102268",
+          "title": "The Incidence and Repetition of Hospital-Treated Deliberate Self Harm: Findings from the World's First National Registry",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "25641414:abstract:0:1295:6455cbff7d87": {
+          "passage_id": "25641414:abstract:0:1295:6455cbff7d87",
+          "paper_id": "25641414",
+          "label": "SUPPORT",
+          "confidence": 0.5239680409431458,
+          "truncated": false
+        },
+        "881332:abstract:0:1462:cf77f2185983": {
+          "passage_id": "881332:abstract:0:1462:cf77f2185983",
+          "paper_id": "881332",
+          "label": "NEUTRAL",
+          "confidence": 0.9976043105125427,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "25641414:abstract:0:1295:6455cbff7d87",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine rates of suicide associated with pregnancy by the type of pregnancy.   \n DESIGN Register linkage study. Information on suicides in women of reproductive age was linked with the Finnish birth, abortion, and hospital discharge registers to find out how many women who committed suicide had had a completed pregnancy during her last year of life.   \n SETTING Nationwide data from Finland.    SUBJECTS Women who committed suicide in 1987-94.   \n RESULTS There were 73 suicides associated with pregnancy, representing 5.4% of all suicides in women in this age group. The mean annual suicide rate was 11.3 per 100,000. The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population. The risk associated with birth was higher among teenagers and that associated with abortion was increased in all age groups. Women who had committed a suicide tended to come from lower social classes and were more likely to be unmarried than other women who had had a completed pregnancy.   \n CONCLUSIONS The increased risk of suicide after an induced abortion indicates either common risk factors for both or harmful effects of induced abortion on mental health.",
+          "score": 0.8252027630805969,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "881332:abstract:0:1462:cf77f2185983",
+          "paper_id": "881332",
+          "section": "abstract",
+          "text": "Our objective was to test the hypothesis that nulliparous women with a history of miscarriage have an increased risk of depression during late pregnancy, and at 1, 6, and 12 months postpartum compared to women without a history of miscarriage. We conducted secondary analysis of a longitudinal cohort study, the First Baby Study, and compared 448 pregnant women with a history of miscarriage to 2,343 pregnant women without a history of miscarriage on risk of probable depression (score >12 on the Edinburgh Postnatal Depression Scale). Logistic regression models were used to estimate odds ratios at each time point and generalized estimating equations were used to obtain estimates in longitudinal analysis. Women with a history of miscarriage were not more likely than woman without a history of miscarriage to score in the probable depression range during the third trimester or at 6 or 12 months postpartum but were more likely at 1 month postpartum, after adjustment for sociodemographic factors (OR 1.66, 95 % CI 1.03–2.69). Women with a history of miscarriage may be more vulnerable to depression during the first month postpartum than women without prior miscarriage, but this effect does not appear to persist beyond this time period. We support the promotion of awareness surrounding this issue and recommend that research is planned to identify risk factors that may position a woman with a history of miscarriage to be at higher risk for depression.",
+          "score": 0.6793438196182251,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "25641414:abstract:0:1295:6455cbff7d87",
+          "paper_id": "25641414",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine rates of suicide associated with pregnancy by the type of pregnancy.   \n DESIGN Register linkage study. Information on suicides in women of reproductive age was linked with the Finnish birth, abortion, and hospital discharge registers to find out how many women who committed suicide had had a completed pregnancy during her last year of life.   \n SETTING Nationwide data from Finland.    SUBJECTS Women who committed suicide in 1987-94.   \n RESULTS There were 73 suicides associated with pregnancy, representing 5.4% of all suicides in women in this age group. The mean annual suicide rate was 11.3 per 100,000. The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population. The risk associated with birth was higher among teenagers and that associated with abortion was increased in all age groups. Women who had committed a suicide tended to come from lower social classes and were more likely to be unmarried than other women who had had a completed pregnancy.   \n CONCLUSIONS The increased risk of suicide after an induced abortion indicates either common risk factors for both or harmful effects of induced abortion on mental health.",
+          "score": 0.8252027630805969,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.5239680409431458,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "0745316163bbf97164ade29d776c795461d1616fccf94f25f5e89c200f8f94e9",
+  "selected_paper_ids": [
+    "1102268",
+    "25641414",
+    "25806385",
+    "7662395",
+    "881332"
+  ],
+  "aggregation": {
+    "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "25641414:abstract:0:1295:6455cbff7d87",
+        "paper_id": "25641414",
+        "section": "abstract",
+        "text": "OBJECTIVE To determine rates of suicide associated with pregnancy by the type of pregnancy.   \n DESIGN Register linkage study. Information on suicides in women of reproductive age was linked with the Finnish birth, abortion, and hospital discharge registers to find out how many women who committed suicide had had a completed pregnancy during her last year of life.   \n SETTING Nationwide data from Finland.    SUBJECTS Women who committed suicide in 1987-94.   \n RESULTS There were 73 suicides associated with pregnancy, representing 5.4% of all suicides in women in this age group. The mean annual suicide rate was 11.3 per 100,000. The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population. The risk associated with birth was higher among teenagers and that associated with abortion was increased in all age groups. Women who had committed a suicide tended to come from lower social classes and were more likely to be unmarried than other women who had had a completed pregnancy.   \n CONCLUSIONS The increased risk of suicide after an induced abortion indicates either common risk factors for both or harmful effects of induced abortion on mental health.",
+        "score": 0.8252027630805969,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.5239680409431458,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "ccb1979f371e2aeb17afe270daa50f39b181363ec4d666a66aa6da4f7b66f495",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "OBJECTIVE To determine rates of suicide associated with pregnancy by the type of pregnancy.   \n DESIGN Register linkage study. Information on suicides in women of reproductive age was linked with the Finnish birth, abortion, and hospital discharge registers to find out how many women who committed suicide had had a completed pregnancy during her last year of life.   \n SETTING Nationwide data from Finland.    SUBJECTS Women who committed suicide in 1987-94.   \n RESULTS There were 73 suicides associated with pregnancy, representing 5.4% of all suicides in women in this age group. The mean annual suicide rate was 11.3 per 100,000. The suicide rate associated with birth was significantly lower (5.9) and the rates associated with miscarriage (18.1) and induced abortion (34.7) were significantly higher than in the population. The risk associated with birth was higher among teenagers and that associated with abortion was increased in all age groups. Women who had committed a suicide tended to come from lower social classes and were more likely to be unmarried than other women who had had a completed pregnancy.   \n CONCLUSIONS The increased risk of suicide after an induced abortion indicates either common risk factors for both or harmful effects of induced abortion on mental health.",
+        "citation_ids": [
+          "25641414:abstract:0:1295:6455cbff7d87"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

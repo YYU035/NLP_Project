@@ -1,0 +1,358 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.900539+00:00",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+    "created_at": "2026-11-10T17:36:00.900539Z",
+    "retrieved_at": "2026-11-10T17:36:00.900539Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "428",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "16728949": {
+        "paper_id": "16728949",
+        "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4418070": {
+        "paper_id": "4418070",
+        "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "919007": {
+        "paper_id": "919007",
+        "title": "The evolution of Fox genes and their role in development and disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "9393969": {
+        "paper_id": "9393969",
+        "title": "DAF-16/FOXO employs the chromatin remodeller SWI/SNF to promote stress resistance and longevity",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14225271": {
+        "paper_id": "14225271",
+        "title": "Molecular features of cellular reprogramming and development",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16728949": {
+          "paper_id": "16728949",
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9596544504165649,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "16728949:abstract:0:205:9f3bc1d31dd4"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "4418070": {
+          "paper_id": "4418070",
+          "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9667643904685974,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "4418070:abstract:186:429:389edd487429"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "919007": {
+          "paper_id": "919007",
+          "title": "The evolution of Fox genes and their role in development and disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "9393969": {
+          "paper_id": "9393969",
+          "title": "DAF-16/FOXO employs the chromatin remodeller SWI/SNF to promote stress resistance and longevity",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14225271": {
+          "paper_id": "14225271",
+          "title": "Molecular features of cellular reprogramming and development",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16728949:abstract:0:205:9f3bc1d31dd4": {
+          "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+          "paper_id": "16728949",
+          "label": "SUPPORT",
+          "confidence": 0.9596544504165649,
+          "truncated": false
+        },
+        "4418070:abstract:186:429:389edd487429": {
+          "passage_id": "4418070:abstract:186:429:389edd487429",
+          "paper_id": "4418070",
+          "label": "SUPPORT",
+          "confidence": 0.9667643904685974,
+          "truncated": false
+        },
+        "4418070:abstract:577:646:1ae7b072a5d5": {
+          "passage_id": "4418070:abstract:577:646:1ae7b072a5d5",
+          "paper_id": "4418070",
+          "label": "NEUTRAL",
+          "confidence": 0.9659051299095154,
+          "truncated": false
+        },
+        "919007:abstract:0:223:40d70aa3b564": {
+          "passage_id": "919007:abstract:0:223:40d70aa3b564",
+          "paper_id": "919007",
+          "label": "NEUTRAL",
+          "confidence": 0.9973437190055847,
+          "truncated": false
+        },
+        "919007:abstract:224:314:4179ca2914fe": {
+          "passage_id": "919007:abstract:224:314:4179ca2914fe",
+          "paper_id": "919007",
+          "label": "NEUTRAL",
+          "confidence": 0.9968235492706299,
+          "truncated": false
+        },
+        "9393969:abstract:114:329:2ce95470c6e0": {
+          "passage_id": "9393969:abstract:114:329:2ce95470c6e0",
+          "paper_id": "9393969",
+          "label": "NEUTRAL",
+          "confidence": 0.9282922148704529,
+          "truncated": false
+        },
+        "9393969:abstract:670:872:87c640512c58": {
+          "passage_id": "9393969:abstract:670:872:87c640512c58",
+          "paper_id": "9393969",
+          "label": "NEUTRAL",
+          "confidence": 0.9962538480758667,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+          "paper_id": "16728949",
+          "section": "abstract",
+          "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "score": 0.7611713409423828,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4418070:abstract:186:429:389edd487429",
+          "paper_id": "4418070",
+          "section": "abstract",
+          "text": "Foxp3 operates as a late-acting differentiation factor controlling Treg cell homeostasis and function, whereas the early Treg-cell-lineage commitment is regulated by the Akt kinase and the forkhead box O (Foxo) family of transcription factors.",
+          "score": 0.5809476375579834,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4418070:abstract:577:646:1ae7b072a5d5",
+          "paper_id": "4418070",
+          "section": "abstract",
+          "text": "Here we show that Foxo1 is a pivotal regulator of Treg cell function.",
+          "score": 0.5051380395889282,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "919007:abstract:0:223:40d70aa3b564",
+          "paper_id": "919007",
+          "section": "abstract",
+          "text": "The forkhead box (Fox) family of transcription factors, which originated in unicellular eukaryotes, has expanded over time through multiple duplication events, and sometimes through gene loss, to over 40 members in mammals.",
+          "score": 0.7157260775566101,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "919007:abstract:224:314:4179ca2914fe",
+          "paper_id": "919007",
+          "section": "abstract",
+          "text": "Fox genes have evolved to acquire a specialized function in many key biological processes.",
+          "score": 0.5482255220413208,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9393969:abstract:114:329:2ce95470c6e0",
+          "paper_id": "9393969",
+          "section": "abstract",
+          "text": "The forkhead box O (FOXO) transcription factor DAF-16 (hereafter referred to as DAF-16/FOXO) is a central nexus in these responses, but despite its importance little is known about how it regulates its target genes.",
+          "score": 0.6454992294311523,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9393969:abstract:670:872:87c640512c58",
+          "paper_id": "9393969",
+          "section": "abstract",
+          "text": "We show that specifically for gene activation, DAF-16/FOXO depends on SWI/SNF, facilitating SWI/SNF recruitment to target promoters, to activate transcription by presumed remodelling of local chromatin.",
+          "score": 0.5441473126411438,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "4418070:abstract:186:429:389edd487429",
+          "paper_id": "4418070",
+          "section": "abstract",
+          "text": "Foxp3 operates as a late-acting differentiation factor controlling Treg cell homeostasis and function, whereas the early Treg-cell-lineage commitment is regulated by the Akt kinase and the forkhead box O (Foxo) family of transcription factors.",
+          "score": 0.5809476375579834,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9667643904685974,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "e19b71b248f9d0e4d68ce7550e3a2556330f7a51bd3d84abbd2130363ccf6acb",
+  "selected_paper_ids": [
+    "14225271",
+    "16728949",
+    "4418070",
+    "919007",
+    "9393969"
+  ],
+  "aggregation": {
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "4418070:abstract:186:429:389edd487429",
+        "paper_id": "4418070",
+        "section": "abstract",
+        "text": "Foxp3 operates as a late-acting differentiation factor controlling Treg cell homeostasis and function, whereas the early Treg-cell-lineage commitment is regulated by the Akt kinase and the forkhead box O (Foxo) family of transcription factors.",
+        "score": 0.5809476375579834,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9667643904685974,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "7f0e747004ffdb7e83ceaa2d7787b8a96349657967cf6bc68a6503fe02df81dd",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Foxp3 operates as a late-acting differentiation factor controlling Treg cell homeostasis and function, whereas the early Treg-cell-lineage commitment is regulated by the Akt kinase and the forkhead box O (Foxo) family of transcription factors.",
+        "citation_ids": [
+          "4418070:abstract:186:429:389edd487429"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

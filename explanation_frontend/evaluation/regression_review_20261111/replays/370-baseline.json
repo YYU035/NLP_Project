@@ -1,0 +1,435 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.886502+00:00",
+    "claim": "Egr2 regulates the homeostasis of B and T cells.",
+    "created_at": "2026-11-10T17:36:00.886502Z",
+    "retrieved_at": "2026-11-10T17:36:00.886502Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "370",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "1550937": {
+        "paper_id": "1550937",
+        "title": "The Transcription Factors Egr2 and Egr3 Are Essential for the Control of Inflammation and Antigen-Induced Proliferation of B and T Cells",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7399084": {
+        "paper_id": "7399084",
+        "title": "Transcriptional repressor Blimp-1 is essential for T cell homeostasis and self-tolerance",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "38587347": {
+        "paper_id": "38587347",
+        "title": "Finding the right niche: B-cell migration in the early phases of T-dependent antibody responses.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32101982": {
+        "paper_id": "32101982",
+        "title": "Krüppel-like factor 2 (KLF2) regulates B-cell reactivity, subset differentiation, and trafficking molecule expression.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21012916": {
+        "paper_id": "21012916",
+        "title": "Ephrin B1–mediated repulsion and signaling control germinal center T cell territoriality and function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "1550937": {
+          "paper_id": "1550937",
+          "title": "The Transcription Factors Egr2 and Egr3 Are Essential for the Control of Inflammation and Antigen-Induced Proliferation of B and T Cells",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9736243486404419,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "1550937:abstract:865:1030:d6e839b91474"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "7399084": {
+          "paper_id": "7399084",
+          "title": "Transcriptional repressor Blimp-1 is essential for T cell homeostasis and self-tolerance",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.7288392782211304,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "7399084:abstract:639:789:a2a07b76d727"
+          ]
+        },
+        "38587347": {
+          "paper_id": "38587347",
+          "title": "Finding the right niche: B-cell migration in the early phases of T-dependent antibody responses.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32101982": {
+          "paper_id": "32101982",
+          "title": "Krüppel-like factor 2 (KLF2) regulates B-cell reactivity, subset differentiation, and trafficking molecule expression.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21012916": {
+          "paper_id": "21012916",
+          "title": "Ephrin B1–mediated repulsion and signaling control germinal center T cell territoriality and function",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "1550937:abstract:865:1030:d6e839b91474": {
+          "passage_id": "1550937:abstract:865:1030:d6e839b91474",
+          "paper_id": "1550937",
+          "label": "SUPPORT",
+          "confidence": 0.9736243486404419,
+          "truncated": false
+        },
+        "1550937:abstract:419:636:6ea86b5f5fe4": {
+          "passage_id": "1550937:abstract:419:636:6ea86b5f5fe4",
+          "paper_id": "1550937",
+          "label": "NEUTRAL",
+          "confidence": 0.9971850514411926,
+          "truncated": false
+        },
+        "1550937:abstract:167:418:ffb105df99b0": {
+          "passage_id": "1550937:abstract:167:418:ffb105df99b0",
+          "paper_id": "1550937",
+          "label": "NEUTRAL",
+          "confidence": 0.9898959398269653,
+          "truncated": false
+        },
+        "7399084:abstract:639:789:a2a07b76d727": {
+          "passage_id": "7399084:abstract:639:789:a2a07b76d727",
+          "paper_id": "7399084",
+          "label": "CONTRADICT",
+          "confidence": 0.7288392782211304,
+          "truncated": false
+        },
+        "7399084:abstract:0:231:bef93891585d": {
+          "passage_id": "7399084:abstract:0:231:bef93891585d",
+          "paper_id": "7399084",
+          "label": "NEUTRAL",
+          "confidence": 0.9994837045669556,
+          "truncated": false
+        },
+        "38587347:abstract:777:1027:7f163d3cacd8": {
+          "passage_id": "38587347:abstract:777:1027:7f163d3cacd8",
+          "paper_id": "38587347",
+          "label": "NEUTRAL",
+          "confidence": 0.949701726436615,
+          "truncated": false
+        },
+        "38587347:abstract:395:508:ba8bab873a2c": {
+          "passage_id": "38587347:abstract:395:508:ba8bab873a2c",
+          "paper_id": "38587347",
+          "label": "NEUTRAL",
+          "confidence": 0.9975643157958984,
+          "truncated": false
+        },
+        "32101982:abstract:976:1120:866e15cb79ea": {
+          "passage_id": "32101982:abstract:976:1120:866e15cb79ea",
+          "paper_id": "32101982",
+          "label": "NEUTRAL",
+          "confidence": 0.6391780376434326,
+          "truncated": false
+        },
+        "32101982:abstract:0:142:b71cbe348d09": {
+          "passage_id": "32101982:abstract:0:142:b71cbe348d09",
+          "paper_id": "32101982",
+          "label": "NEUTRAL",
+          "confidence": 0.6683032512664795,
+          "truncated": false
+        },
+        "21012916:abstract:173:342:0f49c8879896": {
+          "passage_id": "21012916:abstract:173:342:0f49c8879896",
+          "paper_id": "21012916",
+          "label": "NEUTRAL",
+          "confidence": 0.5144226551055908,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "1550937:abstract:865:1030:d6e839b91474",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+          "score": 0.8518802523612976,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1550937:abstract:419:636:6ea86b5f5fe4",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired.",
+          "score": 0.6744157075881958,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1550937:abstract:167:418:ffb105df99b0",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells.",
+          "score": 0.651024580001831,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7399084:abstract:639:789:a2a07b76d727",
+          "paper_id": "7399084",
+          "section": "abstract",
+          "text": "These data identify Blimp-1 as an essential regulator of T cell homeostasis and suggest that Blimp-1 regulates both B cell and T cell differentiation.",
+          "score": 0.5849015712738037,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7399084:abstract:0:231:bef93891585d",
+          "paper_id": "7399084",
+          "section": "abstract",
+          "text": "T cell homeostasis is crucial for a functional immune system, as the accumulation of T cells resulting from lack of regulatory T cells or an inability to shut down immune responses can lead to inflammation and autoimmune pathology.",
+          "score": 0.5706275701522827,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "38587347:abstract:777:1027:7f163d3cacd8",
+          "paper_id": "38587347",
+          "section": "abstract",
+          "text": "Recent studies have identified a role for the orphan receptor, EBV-induced molecule 2 (EBI2; GPR183), in guiding activated B cells to inter and outer follicular niche(s) and down-regulation of this receptor is essential for organizing cells into GCs.",
+          "score": 0.5197994112968445,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "38587347:abstract:395:508:ba8bab873a2c",
+          "paper_id": "38587347",
+          "section": "abstract",
+          "text": "B cells must migrate from niche to niche in a rapid and highly regulated manner to successfully mount a response.",
+          "score": 0.503119170665741,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "32101982:abstract:976:1120:866e15cb79ea",
+          "paper_id": "32101982",
+          "section": "abstract",
+          "text": "Hence, our data indicate that KLF2 plays a critical role in dictating normal subset differentiation and functional reactivity of mature B cells.",
+          "score": 0.5245848298072815,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "32101982:abstract:0:142:b71cbe348d09",
+          "paper_id": "32101982",
+          "section": "abstract",
+          "text": "The transcription factor Krüppel-like factor 2 (KLF2) is critical for normal trafficking of T lymphocytes, but its role in B cells is unclear.",
+          "score": 0.5201483964920044,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21012916:abstract:173:342:0f49c8879896",
+          "paper_id": "21012916",
+          "section": "abstract",
+          "text": "Here we found that GC-expressed ephrin B1 (EFNB1) repulsively inhibited T cell to B cell adhesion and GC TFH retention by signaling through TFH-expressed EPHB6 receptor.",
+          "score": 0.5688570737838745,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Egr2 regulates the homeostasis of B and T cells.",
+      "aggregated_verdict": "CONFLICTING",
+      "primary_evidence": [
+        {
+          "passage_id": "1550937:abstract:865:1030:d6e839b91474",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+          "score": 0.8518802523612976,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7399084:abstract:639:789:a2a07b76d727",
+          "paper_id": "7399084",
+          "section": "abstract",
+          "text": "These data identify Blimp-1 as an essential regulator of T cell homeostasis and suggest that Blimp-1 regulates both B cell and T cell differentiation.",
+          "score": 0.5849015712738037,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9736243486404419,
+      "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c784f547fe309dfc3873602f9973f3f74d80da576e579f136ccdaa52eff5650b",
+  "selected_paper_ids": [
+    "1550937",
+    "21012916",
+    "32101982",
+    "38587347",
+    "7399084"
+  ],
+  "aggregation": {
+    "claim": "Egr2 regulates the homeostasis of B and T cells.",
+    "aggregated_verdict": "CONFLICTING",
+    "primary_evidence": [
+      {
+        "passage_id": "1550937:abstract:865:1030:d6e839b91474",
+        "paper_id": "1550937",
+        "section": "abstract",
+        "text": "Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+        "score": 0.8518802523612976,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "7399084:abstract:639:789:a2a07b76d727",
+        "paper_id": "7399084",
+        "section": "abstract",
+        "text": "These data identify Blimp-1 as an essential regulator of T cell homeostasis and suggest that Blimp-1 regulates both B cell and T cell differentiation.",
+        "score": 0.5849015712738037,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9736243486404419,
+    "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "8bd6a799d8ac598ba1715d74893371362c96eaa952f6690f5276fbf2189f2257",
+    "verdict": "CONFLICTING",
+    "statements": [
+      {
+        "text": "Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+        "citation_ids": [
+          "1550937:abstract:865:1030:d6e839b91474"
+        ]
+      },
+      {
+        "text": "These data identify Blimp-1 as an essential regulator of T cell homeostasis and suggest that Blimp-1 regulates both B cell and T cell differentiation.",
+        "citation_ids": [
+          "7399084:abstract:639:789:a2a07b76d727"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

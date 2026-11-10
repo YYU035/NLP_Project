@@ -7,3 +7,4 @@ showcase/** -text
 _upstream/person3/contextual_evidence* -text whitespace=cr-at-eol
 evaluation/independent_audit.py -text whitespace=cr-at-eol
 evaluation/independent_results_20261111/** -text whitespace=cr-at-eol
+evaluation/regression_review_20261111/** -text whitespace=cr-at-eol

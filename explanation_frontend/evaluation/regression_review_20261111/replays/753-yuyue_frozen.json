@@ -1,0 +1,271 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.931230+00:00",
+    "claim": "Malaria has a high vectorial capacity.",
+    "created_at": "2026-11-10T17:36:00.931230Z",
+    "retrieved_at": "2026-11-10T17:36:00.931230Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "753",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "40900567": {
+        "paper_id": "40900567",
+        "title": "Parasite multiplication potential and the severity of Falciparum malaria.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1349033": {
+        "paper_id": "1349033",
+        "title": "Advantages of larval control for African malaria vectors: Low mobility and behavioural responsiveness of immature mosquito stages allow high effective coverage",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5289038": {
+        "paper_id": "5289038",
+        "title": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13959707": {
+        "paper_id": "13959707",
+        "title": "The Ratio of Monocytes to Lymphocytes in Peripheral Blood Correlates with Increased Susceptibility to Clinical Malaria in Kenyan Children",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18074797": {
+        "paper_id": "18074797",
+        "title": "Reducing Plasmodium falciparum Malaria Transmission in Africa: A Model-Based Evaluation of Intervention Strategies",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "40900567": {
+          "paper_id": "40900567",
+          "title": "Parasite multiplication potential and the severity of Falciparum malaria.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1349033": {
+          "paper_id": "1349033",
+          "title": "Advantages of larval control for African malaria vectors: Low mobility and behavioural responsiveness of immature mosquito stages allow high effective coverage",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9968857169151306,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "1349033:abstract:0:1540:cf0dbb0ac7b6"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "5289038": {
+          "paper_id": "5289038",
+          "title": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13959707": {
+          "paper_id": "13959707",
+          "title": "The Ratio of Monocytes to Lymphocytes in Peripheral Blood Correlates with Increased Susceptibility to Clinical Malaria in Kenyan Children",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18074797": {
+          "paper_id": "18074797",
+          "title": "Reducing Plasmodium falciparum Malaria Transmission in Africa: A Model-Based Evaluation of Intervention Strategies",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "1349033:abstract:0:1540:cf0dbb0ac7b6": {
+          "passage_id": "1349033:abstract:0:1540:cf0dbb0ac7b6",
+          "paper_id": "1349033",
+          "label": "SUPPORT",
+          "confidence": 0.9968857169151306,
+          "truncated": false
+        },
+        "5289038:abstract:0:918:be9ef2b8fe30": {
+          "passage_id": "5289038:abstract:0:918:be9ef2b8fe30",
+          "paper_id": "5289038",
+          "label": "NEUTRAL",
+          "confidence": 0.9994970560073853,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "1349033:abstract:0:1540:cf0dbb0ac7b6",
+          "paper_id": "1349033",
+          "section": "abstract",
+          "text": "Based on sensitivity analysis of the MacDonald-Ross model, it has long been argued that the best way to reduce malaria transmission is to target adult female mosquitoes with insecticides that can reduce the longevity and human-feeding frequency of vectors. However, these analyses have ignored a fundamental biological difference between mosquito adults and the immature stages that precede them: adults are highly mobile flying insects that can readily detect and avoid many intervention measures whereas mosquito eggs, larvae and pupae are confined within relatively small aquatic habitats and cannot readily escape control measures. We hypothesize that the control of adult but not immature mosquitoes is compromised by their ability to avoid interventions such as excito-repellant insecticides. We apply a simple model of intervention avoidance by mosquitoes and demonstrate that this can substantially reduce effective coverage, in terms of the proportion of the vector population that is covered, and overall impact on malaria transmission. We review historical evidence that larval control of African malaria vectors can be effective and conclude that the only limitations to the effective coverage of larval control are practical rather than fundamental. Larval control strategies against the vectors of malaria in sub-Saharan Africa could be highly effective, complementary to adult control interventions, and should be prioritized for further development, evaluation and implementation as an integral part of Rolling Back Malaria.",
+          "score": 0.6708070635795593,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5289038:abstract:0:918:be9ef2b8fe30",
+          "paper_id": "5289038",
+          "section": "abstract",
+          "text": "Immune clearance and resource limitation (via red blood cell depletion) shape the peaks and troughs of malaria parasitemia, which in turn affect disease severity and transmission. Quantitatively partitioning the relative roles of these effects through time is challenging. Using data from rodent malaria, we estimated the effective propagation number, which reflects the relative importance of contrasting within-host control mechanisms through time and is sensitive to the inoculating parasite dose. Our analysis showed that the capacity of innate responses to restrict initial parasite growth saturates with parasite dose and that experimentally enhanced innate immunity can affect parasite density indirectly via resource depletion. Such a statistical approach offers a tool to improve targeting of drugs or vaccines for human therapy by revealing the dynamics and interactions of within-host regulatory mechanisms.",
+          "score": 0.6915985345840454,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Malaria has a high vectorial capacity.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "1349033:abstract:0:1540:cf0dbb0ac7b6",
+          "paper_id": "1349033",
+          "section": "abstract",
+          "text": "Based on sensitivity analysis of the MacDonald-Ross model, it has long been argued that the best way to reduce malaria transmission is to target adult female mosquitoes with insecticides that can reduce the longevity and human-feeding frequency of vectors. However, these analyses have ignored a fundamental biological difference between mosquito adults and the immature stages that precede them: adults are highly mobile flying insects that can readily detect and avoid many intervention measures whereas mosquito eggs, larvae and pupae are confined within relatively small aquatic habitats and cannot readily escape control measures. We hypothesize that the control of adult but not immature mosquitoes is compromised by their ability to avoid interventions such as excito-repellant insecticides. We apply a simple model of intervention avoidance by mosquitoes and demonstrate that this can substantially reduce effective coverage, in terms of the proportion of the vector population that is covered, and overall impact on malaria transmission. We review historical evidence that larval control of African malaria vectors can be effective and conclude that the only limitations to the effective coverage of larval control are practical rather than fundamental. Larval control strategies against the vectors of malaria in sub-Saharan Africa could be highly effective, complementary to adult control interventions, and should be prioritized for further development, evaluation and implementation as an integral part of Rolling Back Malaria.",
+          "score": 0.6708070635795593,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9968857169151306,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "afe27f449fe0acfba759a01fbbb922e0b7b6e332c62b94938010660db637e296",
+  "selected_paper_ids": [
+    "1349033",
+    "13959707",
+    "18074797",
+    "40900567",
+    "5289038"
+  ],
+  "aggregation": {
+    "claim": "Malaria has a high vectorial capacity.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "1349033:abstract:0:1540:cf0dbb0ac7b6",
+        "paper_id": "1349033",
+        "section": "abstract",
+        "text": "Based on sensitivity analysis of the MacDonald-Ross model, it has long been argued that the best way to reduce malaria transmission is to target adult female mosquitoes with insecticides that can reduce the longevity and human-feeding frequency of vectors. However, these analyses have ignored a fundamental biological difference between mosquito adults and the immature stages that precede them: adults are highly mobile flying insects that can readily detect and avoid many intervention measures whereas mosquito eggs, larvae and pupae are confined within relatively small aquatic habitats and cannot readily escape control measures. We hypothesize that the control of adult but not immature mosquitoes is compromised by their ability to avoid interventions such as excito-repellant insecticides. We apply a simple model of intervention avoidance by mosquitoes and demonstrate that this can substantially reduce effective coverage, in terms of the proportion of the vector population that is covered, and overall impact on malaria transmission. We review historical evidence that larval control of African malaria vectors can be effective and conclude that the only limitations to the effective coverage of larval control are practical rather than fundamental. Larval control strategies against the vectors of malaria in sub-Saharan Africa could be highly effective, complementary to adult control interventions, and should be prioritized for further development, evaluation and implementation as an integral part of Rolling Back Malaria.",
+        "score": 0.6708070635795593,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9968857169151306,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "3d8fa44253d879a39e509dfac2d4c6e226111949aa8a6b6d48f62740fe3cb0dd",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Based on sensitivity analysis of the MacDonald-Ross model, it has long been argued that the best way to reduce malaria transmission is to target adult female mosquitoes with insecticides that can reduce the longevity and human-feeding frequency of vectors. However, these analyses have ignored a fundamental biological difference between mosquito adults and the immature stages that precede them: adults are highly mobile flying insects that can readily detect and avoid many intervention measures whereas mosquito eggs, larvae and pupae are confined within relatively small aquatic habitats and cannot readily escape control measures. We hypothesize that the control of adult but not immature mosquitoes is compromised by their ability to avoid interventions such as excito-repellant insecticides. We apply a simple model of intervention avoidance by mosquitoes and demonstrate that this can substantially reduce effective coverage, in terms of the proportion of the vector population that is covered, and overall impact on malaria transmission. We review historical evidence that larval control of African malaria vectors can be effective and conclude that the only limitations to the effective coverage of larval control are practical rather than fundamental. Larval control strategies against the vectors of malaria in sub-Saharan Africa could be highly effective, complementary to adult control interventions, and should be prioritized for further development, evaluation and implementation as an integral part of Rolling Back Malaria.",
+        "citation_ids": [
+          "1349033:abstract:0:1540:cf0dbb0ac7b6"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

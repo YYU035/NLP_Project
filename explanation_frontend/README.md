@@ -1,3 +1,11 @@
+# Regression review pack — 11 November 2026
+
+All 21 reserved-audit regressions are traced without new inference or tuning: 10 lose the original correct verdict when only the new retained paper scope is used; 11 require changed context predictions to explain the loss. Retrieval order is identical in all 21. These are diagnostic counterfactuals, not proof of a single cause or a new accuracy result.
+
+Start with [the nine-case offline review guide](evaluation/regression_review_20261111/index.html), [the complete findings](evaluation/regression_review_20261111/ALL_REGRESSIONS.md) and [the blank review form](evaluation/regression_review_20261111/REVIEW_FORM.csv). The pack includes all 21 regressions, source abstracts/rationales, baseline/primary replay files, two recovered examples, a persistent error and a PDF source check. Human ratings remain blank. Read the instructions before filling a copy; keep completed reviews under ignored outputs.
+
+The shareable local ZIP is `outputs/regression_review_20261111/review-kit.zip`. Primary default, thresholds, weights and the frozen 209-claim audit remain unchanged. Future policy work must use separate development data, not this inspected audit.
+
 # Primary abstract policy — 11 November 2026
 
 Yu Yue’s frozen bounded-context +0.65 paper-gate policy is now the default for new Live/Selected search abstract verification and pipeline_smoke. In an offline full-corpus RRF top-5 audit of 209 reserved, cited-paper-disjoint internal SciFact claims, accuracy improved 56.5%→67.9% and macro F1 improved 0.583→0.679. The paired cited-paper-cluster 95% interval for accuracy gain is +3.8 to +18.7 percentage points; all 418 condition runs completed without processing failures.

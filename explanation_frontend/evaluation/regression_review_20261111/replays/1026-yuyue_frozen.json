@@ -1,0 +1,254 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:36:00.943749+00:00",
+    "claim": "Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.",
+    "created_at": "2026-11-10T17:36:00.943749Z",
+    "retrieved_at": "2026-11-10T17:36:00.943749Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1026",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "22185730": {
+        "paper_id": "22185730",
+        "title": "PP2A regulates tau phosphorylation directly and also indirectly via activating GSK-3beta.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3113630": {
+        "paper_id": "3113630",
+        "title": "Nuclear accumulation of HDAC4 in ATM deficiency promotes neurodegeneration in ataxia-telangiectasia",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23634484": {
+        "paper_id": "23634484",
+        "title": "Nuclear HuR accumulation through phosphorylation by Cdk1.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "6157371": {
+        "paper_id": "6157371",
+        "title": "Chronophin mediates an ATP-sensing mechanism for cofilin dephosphorylation and neuronal cofilin-actin rod formation.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21307488": {
+        "paper_id": "21307488",
+        "title": "HER-2/neu induces p53 ubiquitination via Akt-mediated MDM2 phosphorylation",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "22185730": {
+          "paper_id": "22185730",
+          "title": "PP2A regulates tau phosphorylation directly and also indirectly via activating GSK-3beta.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3113630": {
+          "paper_id": "3113630",
+          "title": "Nuclear accumulation of HDAC4 in ATM deficiency promotes neurodegeneration in ataxia-telangiectasia",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9805548787117004,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "3113630:abstract:0:1292:da0c23cb4a03"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "23634484": {
+          "paper_id": "23634484",
+          "title": "Nuclear HuR accumulation through phosphorylation by Cdk1.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "6157371": {
+          "paper_id": "6157371",
+          "title": "Chronophin mediates an ATP-sensing mechanism for cofilin dephosphorylation and neuronal cofilin-actin rod formation.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21307488": {
+          "paper_id": "21307488",
+          "title": "HER-2/neu induces p53 ubiquitination via Akt-mediated MDM2 phosphorylation",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "3113630:abstract:0:1292:da0c23cb4a03": {
+          "passage_id": "3113630:abstract:0:1292:da0c23cb4a03",
+          "paper_id": "3113630",
+          "label": "SUPPORT",
+          "confidence": 0.9805548787117004,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "3113630:abstract:0:1292:da0c23cb4a03",
+          "paper_id": "3113630",
+          "section": "abstract",
+          "text": "Ataxia telangiectasia is a neurodegenerative disease caused by mutation of the Atm gene. Here we report that ataxia telangiectasia mutated (ATM) deficiency causes nuclear accumulation of histone deacetylase 4 (HDAC4) in neurons and promotes neurodegeneration. Nuclear HDAC4 binds to chromatin, as well as to myocyte enhancer factor 2A (MEF2A) and cAMP-responsive element binding protein (CREB), leading to histone deacetylation and altered neuronal gene expression. Blocking either HDAC4 activity or its nuclear accumulation blunts these neurodegenerative changes and rescues several behavioral abnormalities of ATM-deficient mice. Full rescue of the neurodegeneration, however, also requires the presence of HDAC4 in the cytoplasm, suggesting that the ataxia telangiectasia phenotype results both from a loss of cytoplasmic HDAC4 as well as its nuclear accumulation. To remain cytoplasmic, HDAC4 must be phosphorylated. The activity of the HDAC4 phosphatase, protein phosphatase 2A (PP2A), is downregulated by ATM-mediated phosphorylation. In ATM deficiency, enhanced PP2A activity leads to HDAC4 dephosphorylation and the nuclear accumulation of HDAC4. Our results define a crucial role of the cellular localization of HDAC4 in the events leading to ataxia telangiectasia neurodegeneration.",
+          "score": 0.8345490097999573,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "3113630:abstract:0:1292:da0c23cb4a03",
+          "paper_id": "3113630",
+          "section": "abstract",
+          "text": "Ataxia telangiectasia is a neurodegenerative disease caused by mutation of the Atm gene. Here we report that ataxia telangiectasia mutated (ATM) deficiency causes nuclear accumulation of histone deacetylase 4 (HDAC4) in neurons and promotes neurodegeneration. Nuclear HDAC4 binds to chromatin, as well as to myocyte enhancer factor 2A (MEF2A) and cAMP-responsive element binding protein (CREB), leading to histone deacetylation and altered neuronal gene expression. Blocking either HDAC4 activity or its nuclear accumulation blunts these neurodegenerative changes and rescues several behavioral abnormalities of ATM-deficient mice. Full rescue of the neurodegeneration, however, also requires the presence of HDAC4 in the cytoplasm, suggesting that the ataxia telangiectasia phenotype results both from a loss of cytoplasmic HDAC4 as well as its nuclear accumulation. To remain cytoplasmic, HDAC4 must be phosphorylated. The activity of the HDAC4 phosphatase, protein phosphatase 2A (PP2A), is downregulated by ATM-mediated phosphorylation. In ATM deficiency, enhanced PP2A activity leads to HDAC4 dephosphorylation and the nuclear accumulation of HDAC4. Our results define a crucial role of the cellular localization of HDAC4 in the events leading to ataxia telangiectasia neurodegeneration.",
+          "score": 0.8345490097999573,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9805548787117004,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "a4da8b5361bd9748513899a9a4eeb395ecb8557e65fabe43d5a17fceab64675d",
+  "selected_paper_ids": [
+    "21307488",
+    "22185730",
+    "23634484",
+    "3113630",
+    "6157371"
+  ],
+  "aggregation": {
+    "claim": "Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "3113630:abstract:0:1292:da0c23cb4a03",
+        "paper_id": "3113630",
+        "section": "abstract",
+        "text": "Ataxia telangiectasia is a neurodegenerative disease caused by mutation of the Atm gene. Here we report that ataxia telangiectasia mutated (ATM) deficiency causes nuclear accumulation of histone deacetylase 4 (HDAC4) in neurons and promotes neurodegeneration. Nuclear HDAC4 binds to chromatin, as well as to myocyte enhancer factor 2A (MEF2A) and cAMP-responsive element binding protein (CREB), leading to histone deacetylation and altered neuronal gene expression. Blocking either HDAC4 activity or its nuclear accumulation blunts these neurodegenerative changes and rescues several behavioral abnormalities of ATM-deficient mice. Full rescue of the neurodegeneration, however, also requires the presence of HDAC4 in the cytoplasm, suggesting that the ataxia telangiectasia phenotype results both from a loss of cytoplasmic HDAC4 as well as its nuclear accumulation. To remain cytoplasmic, HDAC4 must be phosphorylated. The activity of the HDAC4 phosphatase, protein phosphatase 2A (PP2A), is downregulated by ATM-mediated phosphorylation. In ATM deficiency, enhanced PP2A activity leads to HDAC4 dephosphorylation and the nuclear accumulation of HDAC4. Our results define a crucial role of the cellular localization of HDAC4 in the events leading to ataxia telangiectasia neurodegeneration.",
+        "score": 0.8345490097999573,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9805548787117004,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "eada70e8948bad97b4ef93be06f377f5ac89e5df7bdaef701f6611ab8c170fdc",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Ataxia telangiectasia is a neurodegenerative disease caused by mutation of the Atm gene. Here we report that ataxia telangiectasia mutated (ATM) deficiency causes nuclear accumulation of histone deacetylase 4 (HDAC4) in neurons and promotes neurodegeneration. Nuclear HDAC4 binds to chromatin, as well as to myocyte enhancer factor 2A (MEF2A) and cAMP-responsive element binding protein (CREB), leading to histone deacetylation and altered neuronal gene expression. Blocking either HDAC4 activity or its nuclear accumulation blunts these neurodegenerative changes and rescues several behavioral abnormalities of ATM-deficient mice. Full rescue of the neurodegeneration, however, also requires the presence of HDAC4 in the cytoplasm, suggesting that the ataxia telangiectasia phenotype results both from a loss of cytoplasmic HDAC4 as well as its nuclear accumulation. To remain cytoplasmic, HDAC4 must be phosphorylated. The activity of the HDAC4 phosphatase, protein phosphatase 2A (PP2A), is downregulated by ATM-mediated phosphorylation. In ATM deficiency, enhanced PP2A activity leads to HDAC4 dephosphorylation and the nuclear accumulation of HDAC4. Our results define a crucial role of the cellular localization of HDAC4 in the events leading to ataxia telangiectasia neurodegeneration.",
+        "citation_ids": [
+          "3113630:abstract:0:1292:da0c23cb4a03"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}
