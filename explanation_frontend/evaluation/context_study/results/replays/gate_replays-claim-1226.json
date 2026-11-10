@@ -1,0 +1,302 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.768122+00:00",
+    "claim": "The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",
+    "created_at": "2026-11-10T16:49:55.768122Z",
+    "retrieved_at": "2026-11-10T16:49:55.768122Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "11951999": {
+        "paper_id": "11951999",
+        "title": "The Ten-Eleven Translocation-2 (TET2) gene in hematopoiesis and hematopoietic diseases",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "2086909": {
+        "paper_id": "2086909",
+        "title": "Tet1 is dispensable for maintaining pluripotency and its loss is compatible with embryonic and postnatal development.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "25832301": {
+        "paper_id": "25832301",
+        "title": "Tetraspanin 7 (TSPAN7) expression is upregulated in multiple myeloma patients and inhibits myeloma tumour development in vivo.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24731248": {
+        "paper_id": "24731248",
+        "title": "Tet proteins can convert 5-methylcytosine to 5-formylcytosine and 5-carboxylcytosine.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14019636": {
+        "paper_id": "14019636",
+        "title": "Ribosomal DNA copy number loss and sequence variation in cancer",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "11951999": {
+          "paper_id": "11951999",
+          "title": "The Ten-Eleven Translocation-2 (TET2) gene in hematopoiesis and hematopoietic diseases",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9978576302528381,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "11951999:abstract:0:1801:217767428164"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "2086909": {
+          "paper_id": "2086909",
+          "title": "Tet1 is dispensable for maintaining pluripotency and its loss is compatible with embryonic and postnatal development.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "25832301": {
+          "paper_id": "25832301",
+          "title": "Tetraspanin 7 (TSPAN7) expression is upregulated in multiple myeloma patients and inhibits myeloma tumour development in vivo.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24731248": {
+          "paper_id": "24731248",
+          "title": "Tet proteins can convert 5-methylcytosine to 5-formylcytosine and 5-carboxylcytosine.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14019636": {
+          "paper_id": "14019636",
+          "title": "Ribosomal DNA copy number loss and sequence variation in cancer",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9886398315429688,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "14019636:abstract:0:1471:28a63e95e4c1"
+          ],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "11951999:abstract:0:1801:217767428164": {
+          "passage_id": "11951999:abstract:0:1801:217767428164",
+          "paper_id": "11951999",
+          "label": "SUPPORT",
+          "confidence": 0.9978576302528381,
+          "truncated": false
+        },
+        "2086909:abstract:0:998:9618bd78024a": {
+          "passage_id": "2086909:abstract:0:998:9618bd78024a",
+          "paper_id": "2086909",
+          "label": "NEUTRAL",
+          "confidence": 0.9970771074295044,
+          "truncated": false
+        },
+        "24731248:abstract:0:890:160a29664a98": {
+          "passage_id": "24731248:abstract:0:890:160a29664a98",
+          "paper_id": "24731248",
+          "label": "NEUTRAL",
+          "confidence": 0.9994977712631226,
+          "truncated": false
+        },
+        "14019636:abstract:0:1471:28a63e95e4c1": {
+          "passage_id": "14019636:abstract:0:1471:28a63e95e4c1",
+          "paper_id": "14019636",
+          "label": "SUPPORT",
+          "confidence": 0.9886398315429688,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "11951999:abstract:0:1801:217767428164",
+          "paper_id": "11951999",
+          "section": "abstract",
+          "text": "Ten-Eleven Translocation-2 (TET2) inactivation through loss-of-function mutation, deletion and IDH1/2 (Isocitrate Dehydrogenase 1 and 2) gene mutation is a common event in myeloid and lymphoid malignancies. TET2 gene mutations similar to those observed in myeloid and lymphoid malignancies also accumulate with age in otherwise healthy subjects with clonal hematopoiesis. TET2 is one of the three proteins of the TET (Ten-Eleven Translocation) family, which are evolutionarily conserved dioxygenases that catalyze the conversion of 5-methyl-cytosine (5-mC) to 5-hydroxymethyl-cytosine (5-hmC) and promote DNA demethylation. TET dioxygenases require 2-oxoglutarate, oxygen and Fe(II) for their activity, which is enhanced in the presence of ascorbic acid. TET2 is the most expressed TET gene in the hematopoietic tissue, especially in hematopoietic stem cells. In addition to their hydroxylase activity, TET proteins recruit the O-linked β-D-N-acetylglucosamine (O-GlcNAc) transferase (OGT) enzyme to chromatin, which promotes post-transcriptional modifications of histones and facilitates gene expression. The TET2 level is regulated by interaction with IDAX, originating from TET2 gene fission during evolution, and by the microRNA miR-22. TET2 has pleiotropic roles during hematopoiesis, including stem-cell self-renewal, lineage commitment and terminal differentiation of monocytes. Analysis of Tet2 knockout mice, which are viable and fertile, demonstrated that Tet2 functions as a tumor suppressor whose haploinsufficiency initiates myeloid and lymphoid transformations. This review summarizes the recently identified TET2 physiological and pathological functions and discusses how this knowledge influences our therapeutic approaches in hematological malignancies and possibly other tumor types.",
+          "score": 0.6512711644172668,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "2086909:abstract:0:998:9618bd78024a",
+          "paper_id": "2086909",
+          "section": "abstract",
+          "text": "The Tet family of enzymes (Tet1/2/3) converts 5-methylcytosine (5mC) to 5-hydroxymethylcytosine (5hmC). Mouse embryonic stem cells (mESCs) highly express Tet1 and have an elevated level of 5hmC. Tet1 has been implicated in ESC maintenance and lineage specification in vitro but its precise function in development is not well defined. To establish the role of Tet1 in pluripotency and development, we have generated Tet1 mutant mESCs and mice. Tet1(-/-) ESCs have reduced levels of 5hmC and subtle changes in global gene expression, and are pluripotent and support development of live-born mice in tetraploid complementation assay, but display skewed differentiation toward trophectoderm in vitro. Tet1 mutant mice are viable, fertile, and grossly normal, though some mutant mice have a slightly smaller body size at birth. Our data suggest that Tet1 loss leading to a partial reduction in 5hmC levels does not affect pluripotency in ESCs and is compatible with embryonic and postnatal development.",
+          "score": 0.5477009415626526,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24731248:abstract:0:890:160a29664a98",
+          "paper_id": "24731248",
+          "section": "abstract",
+          "text": "5-methylcytosine (5mC) in DNA plays an important role in gene expression, genomic imprinting, and suppression of transposable elements. 5mC can be converted to 5-hydroxymethylcytosine (5hmC) by the Tet (ten eleven translocation) proteins. Here, we show that, in addition to 5hmC, the Tet proteins can generate 5-formylcytosine (5fC) and 5-carboxylcytosine (5caC) from 5mC in an enzymatic activity-dependent manner. Furthermore, we reveal the presence of 5fC and 5caC in genomic DNA of mouse embryonic stem cells and mouse organs. The genomic content of 5hmC, 5fC, and 5caC can be increased or reduced through overexpression or depletion of Tet proteins. Thus, we identify two previously unknown cytosine derivatives in genomic DNA as the products of Tet proteins. Our study raises the possibility that DNA demethylation may occur through Tet-catalyzed oxidation followed by decarboxylation.",
+          "score": 0.520350456237793,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14019636:abstract:0:1471:28a63e95e4c1",
+          "paper_id": "14019636",
+          "section": "abstract",
+          "text": "Ribosomal DNA is one of the most variable regions in the human genome with respect to copy number. Despite the importance of rDNA for cellular function, we know virtually nothing about what governs its copy number, stability, and sequence in the mammalian genome due to challenges associated with mapping and analysis. We applied computational and droplet digital PCR approaches to measure rDNA copy number in normal and cancer states in human and mouse genomes. We find that copy number and sequence can change in cancer genomes. Counterintuitively, human cancer genomes show a loss of copies, accompanied by global copy number co-variation. The sequence can also be more variable in the cancer genome. Cancer genomes with lower copies have mutational evidence of mTOR hyperactivity. The PTEN phosphatase is a tumor suppressor that is critical for genome stability and a negative regulator of the mTOR kinase pathway. Surprisingly, but consistent with the human cancer genomes, hematopoietic cancer stem cells from a Pten-/- mouse model for leukemia have lower rDNA copy number than normal tissue, despite increased proliferation, rRNA production, and protein synthesis. Loss of copies occurs early and is associated with hypersensitivity to DNA damage. Therefore, copy loss is a recurrent feature in cancers associated with mTOR activation. Ribosomal DNA copy number may be a simple and useful indicator of whether a cancer will be sensitive to DNA damaging treatments.",
+          "score": 0.5019392967224121,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "11951999:abstract:0:1801:217767428164",
+          "paper_id": "11951999",
+          "section": "abstract",
+          "text": "Ten-Eleven Translocation-2 (TET2) inactivation through loss-of-function mutation, deletion and IDH1/2 (Isocitrate Dehydrogenase 1 and 2) gene mutation is a common event in myeloid and lymphoid malignancies. TET2 gene mutations similar to those observed in myeloid and lymphoid malignancies also accumulate with age in otherwise healthy subjects with clonal hematopoiesis. TET2 is one of the three proteins of the TET (Ten-Eleven Translocation) family, which are evolutionarily conserved dioxygenases that catalyze the conversion of 5-methyl-cytosine (5-mC) to 5-hydroxymethyl-cytosine (5-hmC) and promote DNA demethylation. TET dioxygenases require 2-oxoglutarate, oxygen and Fe(II) for their activity, which is enhanced in the presence of ascorbic acid. TET2 is the most expressed TET gene in the hematopoietic tissue, especially in hematopoietic stem cells. In addition to their hydroxylase activity, TET proteins recruit the O-linked β-D-N-acetylglucosamine (O-GlcNAc) transferase (OGT) enzyme to chromatin, which promotes post-transcriptional modifications of histones and facilitates gene expression. The TET2 level is regulated by interaction with IDAX, originating from TET2 gene fission during evolution, and by the microRNA miR-22. TET2 has pleiotropic roles during hematopoiesis, including stem-cell self-renewal, lineage commitment and terminal differentiation of monocytes. Analysis of Tet2 knockout mice, which are viable and fertile, demonstrated that Tet2 functions as a tumor suppressor whose haploinsufficiency initiates myeloid and lymphoid transformations. This review summarizes the recently identified TET2 physiological and pathological functions and discusses how this knowledge influences our therapeutic approaches in hematological malignancies and possibly other tumor types.",
+          "score": 0.6512711644172668,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9978576302528381,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "333915aa554d16979faa64260cb0498dd3c97a586a5e6333011bb86e762bf18d",
+  "selected_paper_ids": [
+    "11951999"
+  ],
+  "aggregation": {
+    "claim": "The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "11951999:abstract:0:1801:217767428164",
+        "paper_id": "11951999",
+        "section": "abstract",
+        "text": "Ten-Eleven Translocation-2 (TET2) inactivation through loss-of-function mutation, deletion and IDH1/2 (Isocitrate Dehydrogenase 1 and 2) gene mutation is a common event in myeloid and lymphoid malignancies. TET2 gene mutations similar to those observed in myeloid and lymphoid malignancies also accumulate with age in otherwise healthy subjects with clonal hematopoiesis. TET2 is one of the three proteins of the TET (Ten-Eleven Translocation) family, which are evolutionarily conserved dioxygenases that catalyze the conversion of 5-methyl-cytosine (5-mC) to 5-hydroxymethyl-cytosine (5-hmC) and promote DNA demethylation. TET dioxygenases require 2-oxoglutarate, oxygen and Fe(II) for their activity, which is enhanced in the presence of ascorbic acid. TET2 is the most expressed TET gene in the hematopoietic tissue, especially in hematopoietic stem cells. In addition to their hydroxylase activity, TET proteins recruit the O-linked β-D-N-acetylglucosamine (O-GlcNAc) transferase (OGT) enzyme to chromatin, which promotes post-transcriptional modifications of histones and facilitates gene expression. The TET2 level is regulated by interaction with IDAX, originating from TET2 gene fission during evolution, and by the microRNA miR-22. TET2 has pleiotropic roles during hematopoiesis, including stem-cell self-renewal, lineage commitment and terminal differentiation of monocytes. Analysis of Tet2 knockout mice, which are viable and fertile, demonstrated that Tet2 functions as a tumor suppressor whose haploinsufficiency initiates myeloid and lymphoid transformations. This review summarizes the recently identified TET2 physiological and pathological functions and discusses how this knowledge influences our therapeutic approaches in hematological malignancies and possibly other tumor types.",
+        "score": 0.6512711644172668,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9978576302528381,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "8c737397a01d5a07a03d32fcfc882b17993d1a66ee87d80d224a1bc3f197d159",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Ten-Eleven Translocation-2 (TET2) inactivation through loss-of-function mutation, deletion and IDH1/2 (Isocitrate Dehydrogenase 1 and 2) gene mutation is a common event in myeloid and lymphoid malignancies. TET2 gene mutations similar to those observed in myeloid and lymphoid malignancies also accumulate with age in otherwise healthy subjects with clonal hematopoiesis. TET2 is one of the three proteins of the TET (Ten-Eleven Translocation) family, which are evolutionarily conserved dioxygenases that catalyze the conversion of 5-methyl-cytosine (5-mC) to 5-hydroxymethyl-cytosine (5-hmC) and promote DNA demethylation. TET dioxygenases require 2-oxoglutarate, oxygen and Fe(II) for their activity, which is enhanced in the presence of ascorbic acid. TET2 is the most expressed TET gene in the hematopoietic tissue, especially in hematopoietic stem cells. In addition to their hydroxylase activity, TET proteins recruit the O-linked β-D-N-acetylglucosamine (O-GlcNAc) transferase (OGT) enzyme to chromatin, which promotes post-transcriptional modifications of histones and facilitates gene expression. The TET2 level is regulated by interaction with IDAX, originating from TET2 gene fission during evolution, and by the microRNA miR-22. TET2 has pleiotropic roles during hematopoiesis, including stem-cell self-renewal, lineage commitment and terminal differentiation of monocytes. Analysis of Tet2 knockout mice, which are viable and fertile, demonstrated that Tet2 functions as a tumor suppressor whose haploinsufficiency initiates myeloid and lymphoid transformations. This review summarizes the recently identified TET2 physiological and pathological functions and discusses how this knowledge influences our therapeutic approaches in hematological malignancies and possibly other tumor types.",
+        "citation_ids": [
+          "11951999:abstract:0:1801:217767428164"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

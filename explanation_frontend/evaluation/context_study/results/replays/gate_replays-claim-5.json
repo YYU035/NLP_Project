@@ -1,0 +1,270 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.702613+00:00",
+    "claim": "1/2000 in UK have abnormal PrP positivity.",
+    "created_at": "2026-11-10T16:49:55.702613Z",
+    "retrieved_at": "2026-11-10T16:49:55.702613Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "baseline",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "13734012": {
+        "paper_id": "13734012",
+        "title": "Prevalent abnormal prion protein in human appendixes after bovine spongiform encephalopathy epizootic: large scale survey",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18617259": {
+        "paper_id": "18617259",
+        "title": "Research Letters",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3413083": {
+        "paper_id": "3413083",
+        "title": "Patterns of chlamydia testing in different settings and implications for wider STI diagnosis and care: a probability sample survey of the British population",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11880289": {
+        "paper_id": "11880289",
+        "title": "Effect of mammographic screening from age 40 years on breast cancer mortality in the UK Age trial at 17 years' follow-up: a randomised controlled trial.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "841371": {
+        "paper_id": "841371",
+        "title": "Reliability of patient responses in pay for performance schemes: analysis of national General Practitioner Patient Survey data in England",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "13734012": {
+          "paper_id": "13734012",
+          "title": "Prevalent abnormal prion protein in human appendixes after bovine spongiform encephalopathy epizootic: large scale survey",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.890765368938446,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "13734012:abstract:1667:1873:5d0cfa9cd179"
+          ]
+        },
+        "18617259": {
+          "paper_id": "18617259",
+          "title": "Research Letters",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3413083": {
+          "paper_id": "3413083",
+          "title": "Patterns of chlamydia testing in different settings and implications for wider STI diagnosis and care: a probability sample survey of the British population",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11880289": {
+          "paper_id": "11880289",
+          "title": "Effect of mammographic screening from age 40 years on breast cancer mortality in the UK Age trial at 17 years' follow-up: a randomised controlled trial.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "841371": {
+          "paper_id": "841371",
+          "title": "Reliability of patient responses in pay for performance schemes: analysis of national General Practitioner Patient Survey data in England",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "13734012:abstract:893:1079:a1d8bd2633b2": {
+          "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2",
+          "paper_id": "13734012",
+          "label": "NEUTRAL",
+          "confidence": 0.9953651428222656,
+          "truncated": false
+        },
+        "13734012:abstract:1667:1873:5d0cfa9cd179": {
+          "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+          "paper_id": "13734012",
+          "label": "CONTRADICT",
+          "confidence": 0.890765368938446,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "13734012:abstract:893:1079:a1d8bd2633b2",
+          "paper_id": "13734012",
+          "section": "abstract",
+          "text": "RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million).",
+          "score": 0.663375973701477,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+          "paper_id": "13734012",
+          "section": "abstract",
+          "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+          "score": 0.5231196284294128,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "1/2000 in UK have abnormal PrP positivity.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+          "paper_id": "13734012",
+          "section": "abstract",
+          "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+          "score": 0.5231196284294128,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.890765368938446,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "261ed14739500736339ca1f95126c175af6643426b54c804b515af4457a0b909",
+  "selected_paper_ids": [
+    "11880289",
+    "13734012",
+    "18617259",
+    "3413083",
+    "841371"
+  ],
+  "aggregation": {
+    "claim": "1/2000 in UK have abnormal PrP positivity.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "13734012:abstract:1667:1873:5d0cfa9cd179",
+        "paper_id": "13734012",
+        "section": "abstract",
+        "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+        "score": 0.5231196284294128,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.890765368938446,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "61e12d5ced11bb991edf4ca319a0e39ea527ca71316f7690833f9ab71ad317f4",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.",
+        "citation_ids": [
+          "13734012:abstract:1667:1873:5d0cfa9cd179"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "train_ids": 200,
+  "dev_ids": 300,
+  "id_overlap": [],
+  "exact_claim_text_overlap": [
+    "Obesity decreases life quality."
+  ],
+  "focused_cached_claim_text_agreement": 200,
+  "focused_cached_gold_agreement": 200,
+  "training_source_sha256": "f4c8fa82d8bd0653a9cc8d61a6ea48c25eacea64e90af5dbf390ebb1b74372f0",
+  "scope": "Disjoint IDs and exact-text checks do not exclude related claims or shared papers."
+}

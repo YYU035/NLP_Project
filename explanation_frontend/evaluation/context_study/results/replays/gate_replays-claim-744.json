@@ -1,0 +1,287 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.747121+00:00",
+    "claim": "Macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+    "created_at": "2026-11-10T16:49:55.747121Z",
+    "retrieved_at": "2026-11-10T16:49:55.747121Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "4138659": {
+        "paper_id": "4138659",
+        "title": "Macropinocytosis of protein is an amino acid supply route in Ras-transformed cells",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8460275": {
+        "paper_id": "8460275",
+        "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "6454371": {
+        "paper_id": "6454371",
+        "title": "Macropinocytosis: an endocytic pathway for internalising large gulps.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23895668": {
+        "paper_id": "23895668",
+        "title": "mTORC2 Regulates Amino Acid Metabolism in Cancer by Phosphorylation of the Cystine-Glutamate Antiporter xCT.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "33920995": {
+        "paper_id": "33920995",
+        "title": "RKIKK motif in the intracellular domain is critical for spatial and dynamic organization of ICAM-1: functional implication for the leukocyte adhesion and transmigration.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "4138659": {
+          "paper_id": "4138659",
+          "title": "Macropinocytosis of protein is an amino acid supply route in Ras-transformed cells",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9993322491645813,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "4138659:abstract:0:1181:2a995e02459a"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "8460275": {
+          "paper_id": "8460275",
+          "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+          "verdict": "SUPPORTED",
+          "confidence": 0.998885452747345,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "8460275:abstract:0:1149:f61c256b8260"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "6454371": {
+          "paper_id": "6454371",
+          "title": "Macropinocytosis: an endocytic pathway for internalising large gulps.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23895668": {
+          "paper_id": "23895668",
+          "title": "mTORC2 Regulates Amino Acid Metabolism in Cancer by Phosphorylation of the Cystine-Glutamate Antiporter xCT.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "33920995": {
+          "paper_id": "33920995",
+          "title": "RKIKK motif in the intracellular domain is critical for spatial and dynamic organization of ICAM-1: functional implication for the leukocyte adhesion and transmigration.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "4138659:abstract:0:1181:2a995e02459a": {
+          "passage_id": "4138659:abstract:0:1181:2a995e02459a",
+          "paper_id": "4138659",
+          "label": "SUPPORT",
+          "confidence": 0.9993322491645813,
+          "truncated": false
+        },
+        "8460275:abstract:0:1149:f61c256b8260": {
+          "passage_id": "8460275:abstract:0:1149:f61c256b8260",
+          "paper_id": "8460275",
+          "label": "SUPPORT",
+          "confidence": 0.998885452747345,
+          "truncated": false
+        },
+        "6454371:abstract:0:932:329568fe4dab": {
+          "passage_id": "6454371:abstract:0:932:329568fe4dab",
+          "paper_id": "6454371",
+          "label": "NEUTRAL",
+          "confidence": 0.9976075887680054,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "4138659:abstract:0:1181:2a995e02459a",
+          "paper_id": "4138659",
+          "section": "abstract",
+          "text": "Macropinocytosis is a highly conserved endocytic process by which extracellular fluid and its contents are internalized into cells through large, heterogeneous vesicles known as macropinosomes. Oncogenic Ras proteins have been shown to stimulate macropinocytosis but the functional contribution of this uptake mechanism to the transformed phenotype remains unknown. Here we show that Ras-transformed cells use macropinocytosis to transport extracellular protein into the cell. The internalized protein undergoes proteolytic degradation, yielding amino acids including glutamine that can enter central carbon metabolism. Accordingly, the dependence of Ras-transformed cells on free extracellular glutamine for growth can be suppressed by the macropinocytic uptake of protein. Consistent with macropinocytosis representing an important route of nutrient uptake in tumours, its pharmacological inhibition compromises the growth of Ras-transformed pancreatic tumour xenografts. These results identify macropinocytosis as a mechanism by which cancer cells support their unique metabolic needs and point to the possible exploitation of this process in the design of anticancer therapies.",
+          "score": 0.7110255360603333,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8460275:abstract:0:1149:f61c256b8260",
+          "paper_id": "8460275",
+          "section": "abstract",
+          "text": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids. Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine. Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source. Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation. Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source. Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo. Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids. These results may have important implications for the use of mTOR inhibitors as therapeutics.",
+          "score": 0.8927984237670898,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6454371:abstract:0:932:329568fe4dab",
+          "paper_id": "6454371",
+          "section": "abstract",
+          "text": "Macropinocytosis is a regulated form of endocytosis that mediates the non-selective uptake of solute molecules, nutrients and antigens. It is an actin-dependent process initiated from surface membrane ruffles that give rise to large endocytic vacuoles called macropinosomes. Macropinocytosis is important in a range of physiological processes; it is highly active in macrophages and dendritic cells where it is a major pathway for the capture of antigens, it is relevant to cell migration and tumour metastasis and it represents a portal of cell entry exploited by a range of pathogens. The molecular basis for the formation and maturation of macropinosomes has only recently begun to be defined. Here, we review the general characteristics of macropinocytosis, describe some of the regulators of this pathway, which have been identified to date and highlight strategies to explore the relevance of this endocytosis pathway in vivo.",
+          "score": 0.7629970908164978,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "4138659:abstract:0:1181:2a995e02459a",
+          "paper_id": "4138659",
+          "section": "abstract",
+          "text": "Macropinocytosis is a highly conserved endocytic process by which extracellular fluid and its contents are internalized into cells through large, heterogeneous vesicles known as macropinosomes. Oncogenic Ras proteins have been shown to stimulate macropinocytosis but the functional contribution of this uptake mechanism to the transformed phenotype remains unknown. Here we show that Ras-transformed cells use macropinocytosis to transport extracellular protein into the cell. The internalized protein undergoes proteolytic degradation, yielding amino acids including glutamine that can enter central carbon metabolism. Accordingly, the dependence of Ras-transformed cells on free extracellular glutamine for growth can be suppressed by the macropinocytic uptake of protein. Consistent with macropinocytosis representing an important route of nutrient uptake in tumours, its pharmacological inhibition compromises the growth of Ras-transformed pancreatic tumour xenografts. These results identify macropinocytosis as a mechanism by which cancer cells support their unique metabolic needs and point to the possible exploitation of this process in the design of anticancer therapies.",
+          "score": 0.7110255360603333,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9993322491645813,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "6b84e41f45fb4c3b6d90c44e108bdadd45effc8b0ceadedb3904789331758542",
+  "selected_paper_ids": [
+    "4138659",
+    "6454371",
+    "8460275"
+  ],
+  "aggregation": {
+    "claim": "Macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "4138659:abstract:0:1181:2a995e02459a",
+        "paper_id": "4138659",
+        "section": "abstract",
+        "text": "Macropinocytosis is a highly conserved endocytic process by which extracellular fluid and its contents are internalized into cells through large, heterogeneous vesicles known as macropinosomes. Oncogenic Ras proteins have been shown to stimulate macropinocytosis but the functional contribution of this uptake mechanism to the transformed phenotype remains unknown. Here we show that Ras-transformed cells use macropinocytosis to transport extracellular protein into the cell. The internalized protein undergoes proteolytic degradation, yielding amino acids including glutamine that can enter central carbon metabolism. Accordingly, the dependence of Ras-transformed cells on free extracellular glutamine for growth can be suppressed by the macropinocytic uptake of protein. Consistent with macropinocytosis representing an important route of nutrient uptake in tumours, its pharmacological inhibition compromises the growth of Ras-transformed pancreatic tumour xenografts. These results identify macropinocytosis as a mechanism by which cancer cells support their unique metabolic needs and point to the possible exploitation of this process in the design of anticancer therapies.",
+        "score": 0.7110255360603333,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9993322491645813,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "42aa75879c4abc9e18825a8f49a2dc0809cd595d70855c9bb9d3f79f98f1b854",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Macropinocytosis is a highly conserved endocytic process by which extracellular fluid and its contents are internalized into cells through large, heterogeneous vesicles known as macropinosomes. Oncogenic Ras proteins have been shown to stimulate macropinocytosis but the functional contribution of this uptake mechanism to the transformed phenotype remains unknown. Here we show that Ras-transformed cells use macropinocytosis to transport extracellular protein into the cell. The internalized protein undergoes proteolytic degradation, yielding amino acids including glutamine that can enter central carbon metabolism. Accordingly, the dependence of Ras-transformed cells on free extracellular glutamine for growth can be suppressed by the macropinocytic uptake of protein. Consistent with macropinocytosis representing an important route of nutrient uptake in tumours, its pharmacological inhibition compromises the growth of Ras-transformed pancreatic tumour xenografts. These results identify macropinocytosis as a mechanism by which cancer cells support their unique metabolic needs and point to the possible exploitation of this process in the design of anticancer therapies.",
+        "citation_ids": [
+          "4138659:abstract:0:1181:2a995e02459a"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

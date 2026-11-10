@@ -1,3 +1,9 @@
+# Context research update — 11 November 2026
+
+Tested six policies on the same 300 previously inspected SciFact dev claims. The train-selected guarded-context +0.65 gate candidate scores **66.0% accuracy /79.7% contradiction recall**, compared with the original 56.7%/75.0% and Yu Yue’s 67.0%/53.1%. It fixes 36 original errors and introduces 8 regressions (all INSUFFICIENT cases). It sacrifices contradiction precision, insufficient-evidence recall and evidence F1 relative to her candidate; this is not an all-round upgrade.
+
+Read the [new research report](evaluation/context_study/REPORT.md), [all changed claims](evaluation/context_study/results/changed_claims.csv) and [contradiction regression analysis](evaluation/context_study/results/contradiction_regressions.csv). The full suite now passes **174 tests**. Run `context-study.cmd` to reproduce/reuse the frozen studies. **Production defaults and the original validation baseline remain unchanged.** No model weights or NLI threshold were changed. The local review ZIP is `outputs/context_study_20261111/review-kit.zip`.
+
 # Full-pipeline validation — 10 November 2026
 
 The full automated offline route completed all **300 SciFact dev claims** with **zero processing failures**, **56.7% claim accuracy** and **0.584 macro F1**. This is a frozen descriptive audit of previously inspected dev data, not an untouched test set. Retrieval is stronger than final verification: RRF Recall@10 is 95.6% on eligible SciFact claims, 39.2% on CSFCube test and 93.7% on RECIPER. These are different retrieval tasks and protocols.

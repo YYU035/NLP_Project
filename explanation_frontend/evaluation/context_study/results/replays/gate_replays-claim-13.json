@@ -1,0 +1,318 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.704613+00:00",
+    "claim": "5% of perinatal mortality is due to low birth weight.",
+    "created_at": "2026-11-10T16:49:55.704613Z",
+    "retrieved_at": "2026-11-10T16:49:55.704613Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "7662395": {
+        "paper_id": "7662395",
+        "title": "Perinatal mortality in rural China: retrospective cohort study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1263446": {
+        "paper_id": "1263446",
+        "title": "Determinants of neonatal mortality in Indonesia",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17450673": {
+        "paper_id": "17450673",
+        "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8842332": {
+        "paper_id": "8842332",
+        "title": "Contemporary type 1 diabetes pregnancy outcomes: impact of obesity and glycaemic control.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23557241": {
+        "paper_id": "23557241",
+        "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "7662395": {
+          "paper_id": "7662395",
+          "title": "Perinatal mortality in rural China: retrospective cohort study.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1263446": {
+          "paper_id": "1263446",
+          "title": "Determinants of neonatal mortality in Indonesia",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17450673": {
+          "paper_id": "17450673",
+          "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "8842332": {
+          "paper_id": "8842332",
+          "title": "Contemporary type 1 diabetes pregnancy outcomes: impact of obesity and glycaemic control.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23557241": {
+          "paper_id": "23557241",
+          "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7662395:abstract:0:1535:a60a578e5569": {
+          "passage_id": "7662395:abstract:0:1535:a60a578e5569",
+          "paper_id": "7662395",
+          "label": "NEUTRAL",
+          "confidence": 0.9994750618934631,
+          "truncated": false
+        },
+        "1263446:abstract:0:2391:0d7515b02b2a": {
+          "passage_id": "1263446:abstract:0:2391:0d7515b02b2a",
+          "paper_id": "1263446",
+          "label": "NEUTRAL",
+          "confidence": 0.7003301978111267,
+          "truncated": false
+        },
+        "17450673:abstract:0:1965:58d78ad97291": {
+          "passage_id": "17450673:abstract:0:1965:58d78ad97291",
+          "paper_id": "17450673",
+          "label": "NEUTRAL",
+          "confidence": 0.9990333318710327,
+          "truncated": false
+        },
+        "8842332:abstract:1222:1697:de285c2af489": {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9992228746414185,
+          "truncated": false
+        },
+        "8842332:abstract:723:791:55c60f9e0a78": {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9985812902450562,
+          "truncated": false
+        },
+        "8842332:abstract:1698:1907:59c4e2dabc12": {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "label": "NEUTRAL",
+          "confidence": 0.9989442229270935,
+          "truncated": false
+        },
+        "23557241:abstract:0:1671:b6cf03ba8ed8": {
+          "passage_id": "23557241:abstract:0:1671:b6cf03ba8ed8",
+          "paper_id": "23557241",
+          "label": "NEUTRAL",
+          "confidence": 0.9988865256309509,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7662395:abstract:0:1535:a60a578e5569",
+          "paper_id": "7662395",
+          "section": "abstract",
+          "text": "OBJECTIVES To explore the use of local civil registration data to assess the perinatal mortality in a typical rural county in a less developed province in China, 1999-2000.   \n DESIGN Retrospective cohort study. Pregnancies in a cohort of women followed from registration of pregnancy to outcome of infant seven days after birth.   \n SETTING Routine family planning records in 20 rural townships in eastern China.    SUBJECTS 3697 pregnancies registered by the local family planning system during 1999.   \n MAIN OUTCOME MEASURES Abortions, stillbirths, early neonatal mortality, perinatal mortality.   \n RESULTS Only three cases were lost to follow up. The average age of the women at pregnancy was 25.9 years. Three hundred and twelve pregnancies were aborted and 240 ended in miscarriage (total 552, 15%). The perinatal mortality rate was 69 per 1000 births, the rate of stillbirth was 24 per 1000 births, and the early neonatal mortality was 46 per 1000 live births. The early neonatal mortality was 29 in boys and 69 in girls per 1000 live births. The perinatal mortality rate increased notably with parity and was higher in townships having lower income per capita.   \n CONCLUSIONS The family planning system at the most local level is a useful data source for studying perinatal mortality in rural China. The perinatal mortality rate in the study county was higher than previously reported for both rural and urban areas in China. The results by parity and sex of the infant raise concern over the impact of the one child policy.",
+          "score": 0.6062597632408142,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1263446:abstract:0:2391:0d7515b02b2a",
+          "paper_id": "1263446",
+          "section": "abstract",
+          "text": "BACKGROUND Neonatal mortality accounts for almost 40 per cent of under-five child mortality, globally. An understanding of the factors related to neonatal mortality is important to guide the development of focused and evidence-based health interventions to prevent neonatal deaths. This study aimed to identify the determinants of neonatal mortality in Indonesia, for a nationally representative sample of births from 1997 to 2002.   \n METHODS The data source for the analysis was the 2002-2003 Indonesia Demographic and Health Survey from which survival information of 15,952 singleton live-born infants born between 1997 and 2002 was examined. Multilevel logistic regression using a hierarchical approach was performed to analyze the factors associated with neonatal deaths, using community, socio-economic status and proximate determinants.   \n RESULTS At the community level, the odds of neonatal death was significantly higher for infants from East Java (OR = 5.01, p = 0.00), and for North, Central and Southeast Sulawesi and Gorontalo combined (OR = 3.17, p = 0.03) compared to the lowest neonatal mortality regions of Bali, South Sulawesi and Jambi provinces. A progressive reduction in the odds was found as the percentage of deliveries assisted by trained delivery attendants in the cluster increased. The odds of neonatal death were higher for infants born to both mother and father who were employed (OR = 1.84, p = 0.00) and for infants born to father who were unemployed (OR = 2.99, p = 0.02). The odds were also higher for higher rank infants with a short birth interval (OR = 2.82, p = 0.00), male infants (OR = 1.49, p = 0.01), smaller than average-sized infants (OR = 2.80, p = 0.00), and infant's whose mother had a history of delivery complications (OR = 1.81, p = 0.00). Infants receiving any postnatal care were significantly protected from neonatal death (OR = 0.63, p = 0.03).   \n CONCLUSION Public health interventions directed at reducing neonatal death should address community, household and individual level factors which significantly influence neonatal mortality in Indonesia. Low birth weight and short birth interval infants as well as perinatal health services factors, such as the availability of skilled birth attendance and postnatal care utilization should be taken into account when planning the interventions to reduce neonatal mortality in Indonesia.",
+          "score": 0.6482915878295898,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17450673:abstract:0:1965:58d78ad97291",
+          "paper_id": "17450673",
+          "section": "abstract",
+          "text": "INTRODUCTION Various perinatal factors, including birth weight, birth order, maternal age, gestational age, twin status, and parental smoking, have been postulated to affect breast cancer risk in daughters by altering the hormonal environment of the developing fetal mammary glands. Despite ample biologic plausibility, epidemiologic studies to date have yielded conflicting results. We investigated the associations between perinatal factors and subsequent breast cancer risk through meta-analyses.   \n METHODS We reviewed breast cancer studies published from January 1966 to February 2007 that included data on birth weight, birth order, maternal age, gestational age, twin status, and maternal or paternal smoking. Meta-analyses using random effect models were employed to summarize the results.   \n RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g. These studies provided no support for a J-shaped relationship of birthweight to risk. Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g). Women born to older mothers and twins were also at some increased risk, but the results were heterogeneous across studies and publication years. Birth order, prematurity, and maternal smoking were unrelated to breast cancer risk.   \n CONCLUSION Our findings provide some support for the hypothesis that in utero exposures reflective of higher endogenous hormone levels could affect risk for development of breast cancer in adulthood.",
+          "score": 0.6231936812400818,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1222:1697:de285c2af489",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "Women with type 1 diabetes were more likely to have had labour induced (aOR, 3.0; 95% CI, 2.0-4.5), a caesarean delivery (aOR, 4.6; 95% CI, 3.1-7.0), or a pre-term birth (aOR, 6.7; 95% CI, 4.5-10.0); their babies were more likely to have shoulder dystocia (aOR, 8.2; 95% CI, 3.6-18.7), hypoglycaemia (aOR, 10.3; 95% CI, 6.8-15.6), jaundice (aOR, 5.1; 95% CI, 3.3-7.7), respiratory distress (aOR, 2.5; 95% CI, 1.4-4.4) or to suffer perinatal death (aOR, 4.3; 95% CI, 1.9-9.9).",
+          "score": 0.518733561038971,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:723:791:55c60f9e0a78",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "MAIN OUTCOME MEASURES Mode of birth; maternal and neonatal outcomes.",
+          "score": 0.5145706534385681,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "8842332:abstract:1698:1907:59c4e2dabc12",
+          "paper_id": "8842332",
+          "section": "abstract",
+          "text": "In women with type 1 diabetes, greater obesity was associated with increased odds for an LGA baby or congenital malformation, and increased HbA1c levels were associated with pre-term birth and perinatal death.",
+          "score": 0.500117838382721,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23557241:abstract:0:1671:b6cf03ba8ed8",
+          "paper_id": "23557241",
+          "section": "abstract",
+          "text": "BACKGROUND Emerging evidence suggests an association between female prenatal experience and her subsequent risk of developing breast cancer. Potential underlying mechanisms include variation in amounts of maternal endogenous sex hormones and growth hormones, germ-cell mutations, formation of cancer stem-cells, and other genetic or epigenetic events. We reviewed and summarised quantitatively the available data on intrauterine exposures and risk of breast cancer.   \n METHODS We systematically searched for studies that assessed association between perinatal factors and risk of breast cancer. We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.   \n FINDINGS We identified 57 studies published between Oct 1, 1980, and June 21, 2007. Increased risk of breast cancer was noted with increased birthweight (relative risk [RR] 1.15 [95% CI 1.09-1.21]), birth length (1.28 [1.11-1.48]), higher maternal age (1.13 [1.02-1.25]), and paternal age (1.12 [1.05-1.19]). Decreased risk of breast cancer was noted for maternal pre-eclampsia and eclampsia (0.48 [0.30-0.78]) and twin membership (0.93 [0.87-1.00]). No association was noted between risk of breast cancer and gestational age at birth (0.95 [0.71-1.26]) or maternal diethylstilbestrol treatment (1.40 [0.86-2.28]).   \n INTERPRETATION The intrauterine environment contributes to the predisposition of women to breast cancer in adulthood. The in-utero mechanisms responsible for such predisposition need to be elucidated.",
+          "score": 0.5342559814453125,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "5% of perinatal mortality is due to low birth weight.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "51316e5897982dd39cf00152b7ade9d7d4371d38b05742959fd29e42ecc69320",
+  "selected_paper_ids": [],
+  "aggregation": {
+    "claim": "5% of perinatal mortality is due to low birth weight.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers selected in subset.",
+    "status": "ok",
+    "sufficiency_cause": "EMPTY_SELECTION"
+  },
+  "explanation": {
+    "context_key": "a3e8d388f39c3af4279af01c6b553798fc5d9db367c957ca6b0a72e2cb6acb56",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: EMPTY_SELECTION"
+    ]
+  }
+}
