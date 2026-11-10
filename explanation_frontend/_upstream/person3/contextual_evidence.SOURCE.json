@@ -1,0 +1,6 @@
+{
+  "source_commit": "ba8cdd6e7766306447913d8087b23f62195fa05a",
+  "source_path": "ranking_evaluation/contextual_evidence.py",
+  "source_sha256": "e931543344a6f93728cb8ef3a98b754437bf4a9b5fbecc2dd5427e9f5a43a3bf",
+  "modifications": "None; sibling bindings use existing owned pinned Person3 interfaces. Separate addon; original baseline modules unchanged."
+}

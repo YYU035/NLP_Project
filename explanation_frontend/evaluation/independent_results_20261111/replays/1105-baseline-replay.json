@@ -1,0 +1,253 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:31.432095+00:00",
+    "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+    "created_at": "2026-11-10T17:03:31.432095Z",
+    "retrieved_at": "2026-11-10T17:03:31.432095Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "6710713": {
+        "paper_id": "6710713",
+        "title": "Risk factors at medical school for subsequent professional misconduct: multicentre retrospective case-control study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17374970": {
+        "paper_id": "17374970",
+        "title": "Predictors of Attrition and Academic Success of Medical Students: A 30-Year Retrospective Study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "28017005": {
+        "paper_id": "28017005",
+        "title": "Assessment for selection for the health care professions and specialty training: consensus statement and recommendations from the Ottawa 2010 Conference.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "38664102": {
+        "paper_id": "38664102",
+        "title": "What do medical schools teach about women's health and gender differences?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12789595": {
+        "paper_id": "12789595",
+        "title": "Computer assisted learning in undergraduate medical education.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "6710713": {
+          "paper_id": "6710713",
+          "title": "Risk factors at medical school for subsequent professional misconduct: multicentre retrospective case-control study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17374970": {
+          "paper_id": "17374970",
+          "title": "Predictors of Attrition and Academic Success of Medical Students: A 30-Year Retrospective Study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "28017005": {
+          "paper_id": "28017005",
+          "title": "Assessment for selection for the health care professions and specialty training: consensus statement and recommendations from the Ottawa 2010 Conference.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "38664102": {
+          "paper_id": "38664102",
+          "title": "What do medical schools teach about women's health and gender differences?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12789595": {
+          "paper_id": "12789595",
+          "title": "Computer assisted learning in undergraduate medical education.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "6710713:abstract:0:151:382ccd651eb0": {
+          "passage_id": "6710713:abstract:0:151:382ccd651eb0",
+          "paper_id": "6710713",
+          "label": "NEUTRAL",
+          "confidence": 0.9982143640518188,
+          "truncated": false
+        },
+        "6710713:abstract:1533:1731:4db19347a3e1": {
+          "passage_id": "6710713:abstract:1533:1731:4db19347a3e1",
+          "paper_id": "6710713",
+          "label": "NEUTRAL",
+          "confidence": 0.9759519696235657,
+          "truncated": false
+        },
+        "6710713:abstract:271:589:652c4f1b0d4b": {
+          "passage_id": "6710713:abstract:271:589:652c4f1b0d4b",
+          "paper_id": "6710713",
+          "label": "NEUTRAL",
+          "confidence": 0.9997193217277527,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "6710713:abstract:0:151:382ccd651eb0",
+          "paper_id": "6710713",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether there are risk factors in a doctor's time at medical school that are associated with subsequent professional misconduct.",
+          "score": 0.777798593044281,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6710713:abstract:1533:1731:4db19347a3e1",
+          "paper_id": "6710713",
+          "section": "abstract",
+          "text": "CONCLUSIONS This small study suggests that male sex, a lower socioeconomic background, and early academic difficulties at medical school could be risk factors for subsequent professional misconduct.",
+          "score": 0.7297860980033875,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6710713:abstract:271:589:652c4f1b0d4b",
+          "paper_id": "6710713",
+          "section": "abstract",
+          "text": "PARTICIPANTS 59 doctors who had graduated from any one of eight medical schools in the United Kingdom in 1958-97 and had a proved finding of serious professional misconduct in GMC proceedings in 1999-2004 (cases); 236 controls (four for each case) were selected by systematic sampling from matching graduation cohorts.",
+          "score": 0.5817757844924927,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "5b75930ac0b9efda29adb3eb70072dd48022784102433908df0114c2b8fd09e2",
+  "selected_paper_ids": [
+    "12789595",
+    "17374970",
+    "28017005",
+    "38664102",
+    "6710713"
+  ],
+  "aggregation": {
+    "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "dd61549a0ce44e09dd3e3b47acf3485ea3049bba20e980e5a44a7ede98c0f7fc",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

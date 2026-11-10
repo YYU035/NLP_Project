@@ -1,0 +1,423 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:19.933479+00:00",
+    "claim": "MT binding domain drives amyloid structure formation.",
+    "created_at": "2026-11-10T17:03:19.933479Z",
+    "retrieved_at": "2026-11-10T17:03:19.933479Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "36180468": {
+        "paper_id": "36180468",
+        "title": "Processing of the beta-amyloid precursor. Multiple proteases generate and degrade potentially amyloidogenic fragments.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4361990": {
+        "paper_id": "4361990",
+        "title": "Targeting of cell-surface β-amyloid precursor protein to lysosomes: alternative processing into amyloid-bearing fragments",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "37450671": {
+        "paper_id": "37450671",
+        "title": "Neuronal origin of a cerebral amyloid: neurofibrillary tangles of Alzheimer's disease contain the same protein as the amyloid of plaque cores and blood vessels.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "46266579": {
+        "paper_id": "46266579",
+        "title": "Therapeutic Clearance of Amyloid by Antibodies to Serum Amyloid P Component.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4459491": {
+        "paper_id": "4459491",
+        "title": "A three-dimensional human neural cell culture model of Alzheimer’s disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "36180468": {
+          "paper_id": "36180468",
+          "title": "Processing of the beta-amyloid precursor. Multiple proteases generate and degrade potentially amyloidogenic fragments.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9301643371582031,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "36180468:abstract:573:665:69f1c4b1eadb"
+          ]
+        },
+        "4361990": {
+          "paper_id": "4361990",
+          "title": "Targeting of cell-surface β-amyloid precursor protein to lysosomes: alternative processing into amyloid-bearing fragments",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "37450671": {
+          "paper_id": "37450671",
+          "title": "Neuronal origin of a cerebral amyloid: neurofibrillary tangles of Alzheimer's disease contain the same protein as the amyloid of plaque cores and blood vessels.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "46266579": {
+          "paper_id": "46266579",
+          "title": "Therapeutic Clearance of Amyloid by Antibodies to Serum Amyloid P Component.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9674462080001831,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "46266579:abstract:417:641:33b2a510d55f"
+          ]
+        },
+        "4459491": {
+          "paper_id": "4459491",
+          "title": "A three-dimensional human neural cell culture model of Alzheimer’s disease",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.5795843005180359,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "4459491:abstract:1581:1683:0aaefa9c4747"
+          ]
+        }
+      },
+      "per_passage_labels": {
+        "36180468:abstract:999:1202:5c90bc4f2724": {
+          "passage_id": "36180468:abstract:999:1202:5c90bc4f2724",
+          "paper_id": "36180468",
+          "label": "NEUTRAL",
+          "confidence": 0.995574951171875,
+          "truncated": false
+        },
+        "36180468:abstract:1378:1582:0556dcd2a514": {
+          "passage_id": "36180468:abstract:1378:1582:0556dcd2a514",
+          "paper_id": "36180468",
+          "label": "NEUTRAL",
+          "confidence": 0.9194847345352173,
+          "truncated": false
+        },
+        "36180468:abstract:573:665:69f1c4b1eadb": {
+          "passage_id": "36180468:abstract:573:665:69f1c4b1eadb",
+          "paper_id": "36180468",
+          "label": "CONTRADICT",
+          "confidence": 0.9301643371582031,
+          "truncated": false
+        },
+        "4361990:abstract:1067:1226:6c91d923d6cc": {
+          "passage_id": "4361990:abstract:1067:1226:6c91d923d6cc",
+          "paper_id": "4361990",
+          "label": "NEUTRAL",
+          "confidence": 0.9959391355514526,
+          "truncated": false
+        },
+        "37450671:abstract:782:940:b0679cb89a02": {
+          "passage_id": "37450671:abstract:782:940:b0679cb89a02",
+          "paper_id": "37450671",
+          "label": "NEUTRAL",
+          "confidence": 0.9978688955307007,
+          "truncated": false
+        },
+        "37450671:abstract:603:781:cf6b858d20c6": {
+          "passage_id": "37450671:abstract:603:781:cf6b858d20c6",
+          "paper_id": "37450671",
+          "label": "NEUTRAL",
+          "confidence": 0.9838494062423706,
+          "truncated": false
+        },
+        "37450671:abstract:208:340:9a7363ec9f10": {
+          "passage_id": "37450671:abstract:208:340:9a7363ec9f10",
+          "paper_id": "37450671",
+          "label": "NEUTRAL",
+          "confidence": 0.9297617673873901,
+          "truncated": false
+        },
+        "46266579:abstract:417:641:33b2a510d55f": {
+          "passage_id": "46266579:abstract:417:641:33b2a510d55f",
+          "paper_id": "46266579",
+          "label": "CONTRADICT",
+          "confidence": 0.9674462080001831,
+          "truncated": false
+        },
+        "4459491:abstract:149:335:7332fcd40b73": {
+          "passage_id": "4459491:abstract:149:335:7332fcd40b73",
+          "paper_id": "4459491",
+          "label": "NEUTRAL",
+          "confidence": 0.9937869310379028,
+          "truncated": false
+        },
+        "4459491:abstract:1581:1683:0aaefa9c4747": {
+          "passage_id": "4459491:abstract:1581:1683:0aaefa9c4747",
+          "paper_id": "4459491",
+          "label": "CONTRADICT",
+          "confidence": 0.5795843005180359,
+          "truncated": false
+        },
+        "4459491:abstract:1684:1795:084a4ec90d72": {
+          "passage_id": "4459491:abstract:1684:1795:084a4ec90d72",
+          "paper_id": "4459491",
+          "label": "NEUTRAL",
+          "confidence": 0.9994398951530457,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "36180468:abstract:999:1202:5c90bc4f2724",
+          "paper_id": "36180468",
+          "section": "abstract",
+          "text": "Thus, large numbers of potentially amyloidogenic fragments of APP are routinely generated in an acidic compartment by noncysteine proteases and then are eliminated within lysosomes by cysteine proteases.",
+          "score": 0.5454497337341309,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "36180468:abstract:1378:1582:0556dcd2a514",
+          "paper_id": "36180468",
+          "section": "abstract",
+          "text": "The results provide further support for the hypothesis that an acidic compartment may be involved in amyloid formation and begin to define the proteolytic events that may be important for amyloidogenesis.",
+          "score": 0.5327003002166748,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "36180468:abstract:573:665:69f1c4b1eadb",
+          "paper_id": "36180468",
+          "section": "abstract",
+          "text": "Nine likely contain the entire beta/A4 domain and, therefore, are potentially amyloidogenic.",
+          "score": 0.5276012420654297,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4361990:abstract:1067:1226:6c91d923d6cc",
+          "paper_id": "4361990",
+          "section": "abstract",
+          "text": "Our results define a second processing pathway for βAPP and suggest that it may be responsible for generating amyloid-bearing fragments in Alzheimer's disease.",
+          "score": 0.5164185762405396,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "37450671:abstract:782:940:b0679cb89a02",
+          "paper_id": "37450671",
+          "section": "abstract",
+          "text": "The amyloid of Alzheimer's disease is similar in subunit size, composition but not sequence to the scrapie-associated fibril and its constituent polypeptides.",
+          "score": 0.5798745155334473,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "37450671:abstract:603:781:cf6b858d20c6",
+          "paper_id": "37450671",
+          "section": "abstract",
+          "text": "The non-protein component of the amyloid (aluminum silicate) may form the basis for the deposition or amplification (possible self-replication) of the aggregated amyloid protein.",
+          "score": 0.5788760781288147,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "37450671:abstract:208:340:9a7363ec9f10",
+          "paper_id": "37450671",
+          "section": "abstract",
+          "text": "Based on the degree of N-terminal heterogeneity, the amyloid is first deposited in the neuron, and later in the extracellular space.",
+          "score": 0.5525366067886353,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "46266579:abstract:417:641:33b2a510d55f",
+          "paper_id": "46266579",
+          "section": "abstract",
+          "text": "In murine amyloid A type amyloidosis, the binding of these antibodies to the residual SAP in amyloid deposits activates complement and triggers the rapid clearance of amyloid by macrophage-derived multinucleated giant cells.",
+          "score": 0.51356440782547,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4459491:abstract:149:335:7332fcd40b73",
+          "paper_id": "4459491",
+          "section": "abstract",
+          "text": "The amyloid hypothesis of Alzheimer’s disease posits that the excessive accumulation of amyloid-β peptide leads to neurofibrillary tangles composed of aggregated hyperphosphorylated tau.",
+          "score": 0.5248110890388489,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4459491:abstract:1581:1683:0aaefa9c4747",
+          "paper_id": "4459491",
+          "section": "abstract",
+          "text": "We also found that glycogen synthase kinase 3 (GSK3) regulated amyloid-β-mediated tau phosphorylation.",
+          "score": 0.5110760927200317,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4459491:abstract:1684:1795:084a4ec90d72",
+          "paper_id": "4459491",
+          "section": "abstract",
+          "text": "We have successfully recapitulated amyloid-β and tau pathology in a single 3D human neural cell culture system.",
+          "score": 0.5031173229217529,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "MT binding domain drives amyloid structure formation.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "46266579:abstract:417:641:33b2a510d55f",
+          "paper_id": "46266579",
+          "section": "abstract",
+          "text": "In murine amyloid A type amyloidosis, the binding of these antibodies to the residual SAP in amyloid deposits activates complement and triggers the rapid clearance of amyloid by macrophage-derived multinucleated giant cells.",
+          "score": 0.51356440782547,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9674462080001831,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c4b9765c749e1acec88c9eb28af8a5818c25b7f689e2338eed197e3148c60b0b",
+  "selected_paper_ids": [
+    "36180468",
+    "37450671",
+    "4361990",
+    "4459491",
+    "46266579"
+  ],
+  "aggregation": {
+    "claim": "MT binding domain drives amyloid structure formation.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "46266579:abstract:417:641:33b2a510d55f",
+        "paper_id": "46266579",
+        "section": "abstract",
+        "text": "In murine amyloid A type amyloidosis, the binding of these antibodies to the residual SAP in amyloid deposits activates complement and triggers the rapid clearance of amyloid by macrophage-derived multinucleated giant cells.",
+        "score": 0.51356440782547,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9674462080001831,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "53aba17761be50a2716bb8f52481963f9049fe8f818e1741d32163890a6a5c44",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "In murine amyloid A type amyloidosis, the binding of these antibodies to the residual SAP in amyloid deposits activates complement and triggers the rapid clearance of amyloid by macrophage-derived multinucleated giant cells.",
+        "citation_ids": [
+          "46266579:abstract:417:641:33b2a510d55f"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

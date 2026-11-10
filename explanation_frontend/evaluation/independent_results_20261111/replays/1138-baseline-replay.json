@@ -1,0 +1,423 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:20.795964+00:00",
+    "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+    "created_at": "2026-11-10T17:03:20.795964Z",
+    "retrieved_at": "2026-11-10T17:03:20.795964Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "24356383": {
+        "paper_id": "24356383",
+        "title": "Reduced osteoblastic population and defective mineralization in osteopetrotic (op/op) mice.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "39776978": {
+        "paper_id": "39776978",
+        "title": "Advances in osteoclast biology: old findings and new insights from mouse models",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "43619625": {
+        "paper_id": "43619625",
+        "title": "Inflammatory T cells rapidly induce differentiation of human bone marrow stromal cells into mature osteoblasts.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12130067": {
+        "paper_id": "12130067",
+        "title": "Osteoclasts promote the formation of hematopoietic stem cell niches in the bone marrow",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3531388": {
+        "paper_id": "3531388",
+        "title": "CD200R/CD200 Inhibits Osteoclastogenesis: New Mechanism of Osteoclast Control by Mesenchymal Stem Cells in Human",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "24356383": {
+          "paper_id": "24356383",
+          "title": "Reduced osteoblastic population and defective mineralization in osteopetrotic (op/op) mice.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "39776978": {
+          "paper_id": "39776978",
+          "title": "Advances in osteoclast biology: old findings and new insights from mouse models",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "43619625": {
+          "paper_id": "43619625",
+          "title": "Inflammatory T cells rapidly induce differentiation of human bone marrow stromal cells into mature osteoblasts.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12130067": {
+          "paper_id": "12130067",
+          "title": "Osteoclasts promote the formation of hematopoietic stem cell niches in the bone marrow",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3531388": {
+          "paper_id": "3531388",
+          "title": "CD200R/CD200 Inhibits Osteoclastogenesis: New Mechanism of Osteoclast Control by Mesenchymal Stem Cells in Human",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "24356383:abstract:1661:1787:9460faa0337e": {
+          "passage_id": "24356383:abstract:1661:1787:9460faa0337e",
+          "paper_id": "24356383",
+          "label": "NEUTRAL",
+          "confidence": 0.9987157583236694,
+          "truncated": false
+        },
+        "24356383:abstract:456:654:80e134e43045": {
+          "passage_id": "24356383:abstract:456:654:80e134e43045",
+          "paper_id": "24356383",
+          "label": "NEUTRAL",
+          "confidence": 0.8247323036193848,
+          "truncated": false
+        },
+        "24356383:abstract:158:338:77fd3343a405": {
+          "passage_id": "24356383:abstract:158:338:77fd3343a405",
+          "paper_id": "24356383",
+          "label": "NEUTRAL",
+          "confidence": 0.9968816041946411,
+          "truncated": false
+        },
+        "39776978:abstract:947:1216:ac3bfb0c185a": {
+          "passage_id": "39776978:abstract:947:1216:ac3bfb0c185a",
+          "paper_id": "39776978",
+          "label": "NEUTRAL",
+          "confidence": 0.9974620342254639,
+          "truncated": false
+        },
+        "39776978:abstract:200:372:1427f65e9282": {
+          "passage_id": "39776978:abstract:200:372:1427f65e9282",
+          "paper_id": "39776978",
+          "label": "NEUTRAL",
+          "confidence": 0.9948614239692688,
+          "truncated": false
+        },
+        "39776978:abstract:112:199:131ea23b46ea": {
+          "passage_id": "39776978:abstract:112:199:131ea23b46ea",
+          "paper_id": "39776978",
+          "label": "NEUTRAL",
+          "confidence": 0.995561957359314,
+          "truncated": false
+        },
+        "43619625:abstract:148:311:8a2d00b6eea1": {
+          "passage_id": "43619625:abstract:148:311:8a2d00b6eea1",
+          "paper_id": "43619625",
+          "label": "NEUTRAL",
+          "confidence": 0.9849373698234558,
+          "truncated": false
+        },
+        "43619625:abstract:913:1056:2ac68830d0e0": {
+          "passage_id": "43619625:abstract:913:1056:2ac68830d0e0",
+          "paper_id": "43619625",
+          "label": "NEUTRAL",
+          "confidence": 0.7331538200378418,
+          "truncated": false
+        },
+        "43619625:abstract:1496:1814:08e5275e0268": {
+          "passage_id": "43619625:abstract:1496:1814:08e5275e0268",
+          "paper_id": "43619625",
+          "label": "NEUTRAL",
+          "confidence": 0.9673800468444824,
+          "truncated": false
+        },
+        "12130067:abstract:178:386:c7dc26b4bd4a": {
+          "passage_id": "12130067:abstract:178:386:c7dc26b4bd4a",
+          "paper_id": "12130067",
+          "label": "NEUTRAL",
+          "confidence": 0.9991059899330139,
+          "truncated": false
+        },
+        "3531388:abstract:0:110:409b84a4b500": {
+          "passage_id": "3531388:abstract:0:110:409b84a4b500",
+          "paper_id": "3531388",
+          "label": "NEUTRAL",
+          "confidence": 0.9980756044387817,
+          "truncated": false
+        },
+        "3531388:abstract:200:359:66f554a433e5": {
+          "passage_id": "3531388:abstract:200:359:66f554a433e5",
+          "paper_id": "3531388",
+          "label": "NEUTRAL",
+          "confidence": 0.9982104301452637,
+          "truncated": false
+        },
+        "3531388:abstract:111:199:2e215542c159": {
+          "passage_id": "3531388:abstract:111:199:2e215542c159",
+          "paper_id": "3531388",
+          "label": "NEUTRAL",
+          "confidence": 0.9986138343811035,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "24356383:abstract:1661:1787:9460faa0337e",
+          "paper_id": "24356383",
+          "section": "abstract",
+          "text": "Thus, osteoclasts appear to be involved in the osteoblastic population and activity as well as subsequent bone mineralization.",
+          "score": 0.6458749175071716,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24356383:abstract:456:654:80e134e43045",
+          "paper_id": "24356383",
+          "section": "abstract",
+          "text": "In the femoral metaphyses of op/op mice, intense alkaline phosphatase (ALPase)-positive osteoblasts were observed on the metaphyseal bone in close proximity to the erosion zone of the growth plates.",
+          "score": 0.596338152885437,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24356383:abstract:158:338:77fd3343a405",
+          "paper_id": "24356383",
+          "section": "abstract",
+          "text": "In this study, we investigated the femora of op/op mice to clarify whether the osteoblastic population and bone mineralization are involved in osteoclasts or their bone resorption.",
+          "score": 0.5699487328529358,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39776978:abstract:947:1216:ac3bfb0c185a",
+          "paper_id": "39776978",
+          "section": "abstract",
+          "text": "This Review focuses on the principal observations in osteoclast biology derived from genetic mouse models, and highlights emerging concepts that describe how the osteoclast is thought to contribute to the maintenance of adequate bone mass and integrity throughout life.",
+          "score": 0.6539289951324463,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39776978:abstract:200:372:1427f65e9282",
+          "paper_id": "39776978",
+          "section": "abstract",
+          "text": "Over the past 15 years, a detailed picture has emerged describing the origins, differentiation pathways and activation stages that contribute to normal osteoclast function.",
+          "score": 0.6277114152908325,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39776978:abstract:112:199:131ea23b46ea",
+          "paper_id": "39776978",
+          "section": "abstract",
+          "text": "This complex process is performed by the highly specialized, multinucleated osteoclast.",
+          "score": 0.5421150922775269,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "43619625:abstract:148:311:8a2d00b6eea1",
+          "paper_id": "43619625",
+          "section": "abstract",
+          "text": "While the role of T cells in osteoclastogenesis has received much attention recently, the effect of T cells on osteoblast formation and activity is poorly defined.",
+          "score": 0.5927380323410034,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "43619625:abstract:913:1056:2ac68830d0e0",
+          "paper_id": "43619625",
+          "section": "abstract",
+          "text": "In contrast, RANKL was constitutively expressed in primary osteoblasts and only moderately up-regulated by activated T cell conditioned medium.",
+          "score": 0.5745493769645691,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "43619625:abstract:1496:1814:08e5275e0268",
+          "paper_id": "43619625",
+          "section": "abstract",
+          "text": "Based on our data we propose that during chronic inflammation, T cells regulate bone loss by a dual mechanism involving both direct stimulation of osteoclastogenesis, by production of osteoclastogenic cytokines, and indirectly by induction of osteoblast differentiation and up-regulation of bone turnover via coupling.",
+          "score": 0.5266991853713989,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12130067:abstract:178:386:c7dc26b4bd4a",
+          "paper_id": "12130067",
+          "section": "abstract",
+          "text": "We used the oc/oc mouse, a mouse model with impaired endochondral ossification caused by a loss of osteoclast (OCL) activity, to investigate the role of osteoblasts (OBLs) and OCLs in the HSC niche formation.",
+          "score": 0.5874127149581909,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3531388:abstract:0:110:409b84a4b500",
+          "paper_id": "3531388",
+          "section": "abstract",
+          "text": "Bone homeostasis is maintained by the balance between bone-forming osteoblasts and bone-degrading osteoclasts.",
+          "score": 0.717057466506958,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3531388:abstract:200:359:66f554a433e5",
+          "paper_id": "3531388",
+          "section": "abstract",
+          "text": "Osteoclast and osteoblast communication occurs through soluble factors secretion, cell-bone interaction and cell-cell contact, which modulate their activities.",
+          "score": 0.6142995357513428,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3531388:abstract:111:199:2e215542c159",
+          "paper_id": "3531388",
+          "section": "abstract",
+          "text": "Osteoblasts have a mesenchymal origin whereas osteoclasts belong to the myeloid lineage.",
+          "score": 0.5391308069229126,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "fc2826881a656822073aad771081d82986c14032b2ee0691825e40780ea29e3d",
+  "selected_paper_ids": [
+    "12130067",
+    "24356383",
+    "3531388",
+    "39776978",
+    "43619625"
+  ],
+  "aggregation": {
+    "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "096f82cd44ae356232348878ba9baca6e52a3aa2979bfebea26e9403077a1d8f",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+﻿claim_id,claim,gold,baseline,candidate,correct_before,correct_after
+418,Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.,INSUFFICIENT,SUPPORTED,INSUFFICIENT,False,True
+1036,Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+1293,There is no increased risk of hypospadias with clomiphene.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+564,"In British Men, haplogroup I increases risk of cardiovascular disease by 50%.",SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+372,Eilat virus (EILV) produced in mosquitos elicits rapid and long-lasting neutralizing antibodies in nonhuman primates.,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+1349,Upregulation of PD1 causes the downmodulation of Satb1.,INSUFFICIENT,INSUFFICIENT,SUPPORTED,True,False
+1114,"Surfactin producing cells and exopolymer producing cells cooperate to generate ""Van Gogh"" bundles that have sliding abilities on specialized media.",SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+866,Nuclear transfer from adult human fibroblasts to human oocytes can give rise to blastocysts containing expandable pluripotent cells.,INSUFFICIENT,SUPPORTED,CONTRADICTED,False,False
+926,Patients with common epithelial cancers  are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+626,Induction of urokinase receptor signaling in podocytes causes foot process effacement and proteinuria.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+426,Forkhead 0 (fox0) transcription factors are involved in apoptosis.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+1381,YAP/TAZ is required in intestinal regeneration in mouse models of ulcerative colitis.,SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+753,Malaria has a high vectorial capacity.,INSUFFICIENT,INSUFFICIENT,SUPPORTED,True,False
+1327,Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+472,Glucose restriction to 0.05% reduces RLS (replicative life span) by 20-40% in S. cerevisiae.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+428,Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+403,Expression of oncolytic virus antigens as peptides makes relapse more likely.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+375,Elevated cell-free mitochondrial DNA levels are associated with mortality.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+489,HIV trans-activator protein (TAT) effectively transports large and small molecules across cellular membranes into larger populations of neurons.,INSUFFICIENT,CONTRADICTED,SUPPORTED,False,False
+370,Egr2 regulates the homeostasis of B and T cells.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+576,"In melanoma, anti-CTLA-4 treatment reinvigorates exhausted PD-1+Eomes+CD8 T cells.",SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+1072,Sepsis related mortality has remained stable between 2009-2014.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+1001,R2D2 stops miRNA production by increasing the selectivity of Dcr2 for long dsRNA.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+739,MT binding domain drives amyloid structure formation.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+365,ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+1065,Satellite cell dysfunction is a key factor in sarcopenia development.,CONTRADICTED,CONTRADICTED,SUPPORTED,True,False
+1126,Systemic immunosuppressive (IS) therapy increases the chance of cancer mortality in patients with inflammatory eye disease (IED),CONTRADICTED,INSUFFICIENT,SUPPORTED,False,False
+643,Insulin effects appetite via ventral tegmental neurons.,SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+1034,Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+1228,The mean suicide rate in women is lower after miscarriage than live birth.,CONTRADICTED,CONTRADICTED,SUPPORTED,True,False
+1311,"Trans-acting factors, such as lncRNAs, influence mRNA translation.",SUPPORTED,CONFLICTING,SUPPORTED,False,True
+631,Inhibiting HDAC6 increases survival of mice with ARID1A mutated tumors.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+945,Physical activity level has no association with the difference in maximal oxygen consumption between black and white youth.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+1356,Vaccinating the gastrointestinal tract induces protection of rectal and vaginal mucosa.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+647,Integrated care is ineffective at tackling multiple comorbidities.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+951,Piezo1 channels are sensors for cell migration in epithelial cells.,SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+1003,RAD52 is involved in break-induced DNA replication (BIR).,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+989,"Pure neural progenitor cell (NPC) populations can only be obtained from cell cultures that undergo passaging, filtration, or other isolation and cell sorting methods.",INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+709,Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+611,Increased lipolysis leads to higher P38 phosphorylation in adipose tissue.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+1294,There is no known interaction between Pioneer factor OCT3/4 and major chromatin remodeling factors.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+458,Genetic deficiency of mast cells leads to decreased weight gain in a mouse model of diet-induced obesity.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+1261,The removal of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.,CONTRADICTED,CONFLICTING,INSUFFICIENT,False,False
+669,Klf4 is not required for proper myeloid cell differentiation.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+751,Major vault protein (MVP) leads to more aggressive tumors by regulating the sorting of tumor suppressive miR-193a into extracellular vesicles (EVs).,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+927,Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False
+698,Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).,INSUFFICIENT,INSUFFICIENT,SUPPORTED,True,False
+933,Pediatric SCD patients with vaso-occlusive crisis show increased morphine use after breathing 80 ppm iNO for 4 hours.,SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+406,F4/80+ macrophages regulate mature osteoblast maintenance.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+1220,The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.,SUPPORTED,SUPPORTED,INSUFFICIENT,True,False
+1105,Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+710,Long chain polyunsaturated fatty acids supplementation reduces wheezing and asthma.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+1026,Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.,INSUFFICIENT,INSUFFICIENT,SUPPORTED,True,False
+749,Major antigen-induced signals from the T cell receptor and secondary signals from costimulatory receptors are required for T cell activation.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+893,Osteocytes have an essential role in G-CSF induced HSPC mobilization.,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+696,Lipopolysaccharides have an inflammation independent effect on kidney barrier function.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+548,IL-6 signaling plays a major role in atherosclerotic cardiovascular disease.,SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+1115,Surgical treatment is not superior to non-surgical in treating adults with displaced fractures of the proximal humerus.,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+792,Misunderstandings between doctors and patients can lead to non-adherence.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+867,Oat tolerant coeliac patients may have oat specific inflammatory cells in their small bowel mucosa.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+788,Microcin J25 inhibits nucleoside triphosphate (NTP) binding.,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+779,Mice lacking Sirt1 in Sf1-expressing neurons have increased susceptibility to diet-induced obesity and insulin resistance.,SUPPORTED,CONTRADICTED,CONFLICTING,False,False
+667,Klf2 is important for proper myeloid cell function.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+654,Intra-cerebroventricular infusion of amyloid-β oligomers increases expression of fibronectin type-III domain-containing protein 5 mRNA in mice hippocampi.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+479,Gpr124 increases BBB breakdown in mouse models of ischemic stroke.,CONTRADICTED,CONFLICTING,SUPPORTED,False,False
+371,Egr3 regulates the homeostasis of B and T cells.,SUPPORTED,CONFLICTING,SUPPORTED,False,True
+1043,Retinoic acid receptor-related orphan receptor gamma (RORγ) is a therapeutic target for castration-resistant prostate cancer (CRPC),SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+1182,The Snf1 complex regulates carbon and energy metabolism in baker's yeast (Saccharomyces cerevisiae).,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+1350,Upregulation of PD1 causes the upregulation of Satb1.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+499,HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).,CONTRADICTED,CONTRADICTED,CONFLICTING,True,False
+480,Gpr124 suppresses BBB breakdown in mouse models of ischemic stroke.,SUPPORTED,CONTRADICTED,SUPPORTED,False,True
+505,Helicobacter pylori-induced aberrant NF-kB-dependent expression of activation-induced cytidine deaminase contributes to the mutagenesis of host DNA.,SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+1125,Systemic immunosuppressive (IS) therapy does not enhance the chance of cancer mortality in patients with inflammatory eye disease (IED),SUPPORTED,INSUFFICIENT,SUPPORTED,False,True
+758,Marmosets have a brain region homologous to Broca's area.,INSUFFICIENT,SUPPORTED,INSUFFICIENT,False,True
+1253,The predominant localization of Linc00173 is in mononuclear macrophage nuclei.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+826,NAC destabilizes NO to increase the effect of contrast agents on renal functions.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,False,True
+568,"In a naive state, blocking Wingless-Int-1 secretion from mouse embryonic stem cells inhibits self-renewal of the mouse embryonic stem cells.",SUPPORTED,CONTRADICTED,INSUFFICIENT,False,False
+787,Microcin J25 encourages nucleoside triphosphate (NTP) binding.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,True,False

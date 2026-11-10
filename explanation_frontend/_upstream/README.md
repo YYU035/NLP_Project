@@ -8,3 +8,6 @@ Each package stays inside Kireeti's folder. No model weights or full corpora are
 
 - person3: Yu Yue 7ed93fa4be69c661422b33b6c88b949dd2636e12; unchanged semantic/evidence/PDF/budget modules and frozen configuration.
 - xai: Naila 56f46c12d8ef1cc36202f046b4bbaa7825fc6ade; attribution and evaluation helper with isolated package imports. See SOURCE.json and ../../COMBINED_INTEGRATION.md.
+
+
+Context addon: `person3/contextual_evidence.py` is byte-exact from Yu Yue commit ba8cdd6, with a separate companion SOURCE record. Existing baseline Person3 modules remain pinned and unchanged. The primary provider uses bounded abstract context and the frozen 0.65 relevance gate; original policy and historical study code remain available.

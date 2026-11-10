@@ -83,6 +83,18 @@ def render_overview():
                 st.download_button('Download error catalogue',(validation_root/'results/error_catalogue.csv').read_bytes(),file_name='error_catalogue.csv',mime='text/csv')
             except (OSError,ValueError,KeyError,TypeError):
                 st.error('Validation report could not be loaded; no validation scores are inferred.')
+    audit_path=ROOT/'evaluation/independent_results_20261111/summary.json'
+    if audit_path.is_file():
+        with st.expander('Primary abstract policy · internal holdout audit'):
+            try:
+                audit=json.loads(audit_path.read_text(encoding='utf-8'))
+                metrics=audit['metrics'];columns=st.columns(2)
+                columns[0].metric('Original ·209 reserved claims',f"{metrics['baseline']['all']['accuracy']:.1%}")
+                columns[1].metric('Yu Yue primary ·209 reserved claims',f"{metrics['yuyue_frozen']['all']['accuracy']:.1%}")
+                st.caption('Published SciFact training records reserved from the logged experiments, with disjoint cited papers. Internal audit, not an official hidden test. Overall accuracy improves; contradiction recall and input evidence F1 fall. PDF selection is unchanged.')
+                st.download_button('Download primary-policy audit',(audit_path.parent/'REPORT.md').read_bytes(),file_name='PRIMARY_POLICY_AUDIT.md',mime='text/markdown')
+            except (OSError,ValueError,KeyError,TypeError):
+                st.error('Primary-policy audit could not be loaded; no scores are inferred.')
     st.subheader('Measured retrieval results')
     cards=st.columns(3)
     for col,dataset in zip(cards,datasets):

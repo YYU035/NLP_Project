@@ -15,6 +15,7 @@ from .export import export_snapshot, import_snapshot
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--live", action="store_true")
+    parser.add_argument("--baseline", action="store_true", help="Use the retained original abstract selector")
     parser.add_argument("--limit", type=int, default=3)
     parser.add_argument("--claim", default="Long-term exposure to fine particulate matter is associated with cardiovascular mortality.")
     args = parser.parse_args()
@@ -30,7 +31,8 @@ def main():
     else:
         source = sample_discovery()
     ids = [p.identity for p in source.result.papers if p.paper.abstract][:args.limit]
-    pipeline = LocalPipeline()
+    from .primary_candidate import create_provider
+    pipeline = LocalPipeline() if args.baseline else create_provider()
     snapshot = pipeline.run_from_discovery(source, ids)
     context = make_context(snapshot, ids, snapshot.provisional)
     explanation = build_template(context)
@@ -49,10 +51,11 @@ def main():
         "displayable": gate.displayable, "subset_verdict": subset.aggregated_verdict,
         "subset_ms": subset_ms, "elapsed_seconds": perf_counter() - started,
         "model": snapshot.verification.model_settings.model_dump(mode="json"),
-        "scientific_quality": "not independently evaluated"}
+        "abstract_policy": snapshot.filters.get("abstract_policy", "baseline"),
+        "scientific_quality": "Functional check; this claim is not independently adjudicated"}
     directory = Path(__file__).parent / "outputs" / "integration"
     directory.mkdir(parents=True, exist_ok=True)
-    name = "live" if args.live else "recorded"
+    name = ("live" if args.live else "recorded") + ("-baseline" if args.baseline else "")
     (directory / f"{name}-run.json").write_text(bundle, encoding="utf-8")
     (directory / f"{name}-report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps(report, ensure_ascii=True, indent=2), flush=True)

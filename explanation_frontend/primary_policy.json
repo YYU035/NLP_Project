@@ -1,0 +1,8 @@
+{
+  "default": "yuyue_primary",
+  "status": "Promoted under frozen overall-accuracy rule after209-claim internal audit; contradiction recall and evidence quality remain limitations.",
+  "validation_report": "evaluation/independent_results_20261111/REPORT.md",
+  "validation_summary_sha256": "aaeba5d1a4352c6c9162301fbee9b0e4269c53e15750204b7faad0d7bd8b5ea1",
+  "baseline_override": "EXPLANATION_ABSTRACT_POLICY=baseline",
+  "pdf_policy": "Unchanged; this promotion covers abstracts only."
+}

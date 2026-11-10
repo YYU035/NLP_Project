@@ -1,0 +1,300 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:22.722954+00:00",
+    "claim": "The peak incidence of fractures occurs in toddlers.",
+    "created_at": "2026-11-10T17:03:22.722954Z",
+    "retrieved_at": "2026-11-10T17:03:22.722954Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "7209559": {
+        "paper_id": "7209559",
+        "title": "Incidence of childhood distal forearm fractures over 30 years: a population-based study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "19878070": {
+        "paper_id": "19878070",
+        "title": "Effects of risedronate treatment on vertebral and nonvertebral fractures in women with postmenopausal osteoporosis: a randomized controlled trial. Vertebral Efficacy With Risedronate Therapy (VERT) Study Group.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "44048701": {
+        "paper_id": "44048701",
+        "title": "Surgical vs nonsurgical treatment of adults with displaced fractures of the proximal humerus: the PROFHER randomized clinical trial.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "16812091": {
+        "paper_id": "16812091",
+        "title": "Clinical use of bone densitometry: scientific review.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "26000593": {
+        "paper_id": "26000593",
+        "title": "Effect of osteoporosis treatments on risk of non-vertebral fractures: review and meta-analysis of intention-to-treat studies",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "7209559": {
+          "paper_id": "7209559",
+          "title": "Incidence of childhood distal forearm fractures over 30 years: a population-based study.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9987226128578186,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "7209559:abstract:0:283:9ba3687ae6bc"
+          ]
+        },
+        "19878070": {
+          "paper_id": "19878070",
+          "title": "Effects of risedronate treatment on vertebral and nonvertebral fractures in women with postmenopausal osteoporosis: a randomized controlled trial. Vertebral Efficacy With Risedronate Therapy (VERT) Study Group.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "44048701": {
+          "paper_id": "44048701",
+          "title": "Surgical vs nonsurgical treatment of adults with displaced fractures of the proximal humerus: the PROFHER randomized clinical trial.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "16812091": {
+          "paper_id": "16812091",
+          "title": "Clinical use of bone densitometry: scientific review.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "26000593": {
+          "paper_id": "26000593",
+          "title": "Effect of osteoporosis treatments on risk of non-vertebral fractures: review and meta-analysis of intention-to-treat studies",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "7209559:abstract:1834:1949:f673e3d35645": {
+          "passage_id": "7209559:abstract:1834:1949:f673e3d35645",
+          "paper_id": "7209559",
+          "label": "NEUTRAL",
+          "confidence": 0.9994288086891174,
+          "truncated": false
+        },
+        "7209559:abstract:375:503:2cee8ac11267": {
+          "passage_id": "7209559:abstract:375:503:2cee8ac11267",
+          "paper_id": "7209559",
+          "label": "NEUTRAL",
+          "confidence": 0.9990247488021851,
+          "truncated": false
+        },
+        "7209559:abstract:0:283:9ba3687ae6bc": {
+          "passage_id": "7209559:abstract:0:283:9ba3687ae6bc",
+          "paper_id": "7209559",
+          "label": "CONTRADICT",
+          "confidence": 0.9987226128578186,
+          "truncated": false
+        },
+        "19878070:abstract:1741:1845:7391e7395446": {
+          "passage_id": "19878070:abstract:1741:1845:7391e7395446",
+          "paper_id": "19878070",
+          "label": "NEUTRAL",
+          "confidence": 0.995864748954773,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "7209559:abstract:1834:1949:f673e3d35645",
+          "paper_id": "7209559",
+          "section": "abstract",
+          "text": "Given the large number of childhood fractures, however, studies are needed to define the cause(s) of this increase.",
+          "score": 0.7177728414535522,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7209559:abstract:375:503:2cee8ac11267",
+          "paper_id": "7209559",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether there has been a change in the incidence of distal forearm fractures in children in recent years.",
+          "score": 0.6585171222686768,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7209559:abstract:0:283:9ba3687ae6bc",
+          "paper_id": "7209559",
+          "section": "abstract",
+          "text": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "score": 0.6106493473052979,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "19878070:abstract:1741:1845:7391e7395446",
+          "paper_id": "19878070",
+          "section": "abstract",
+          "text": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "score": 0.5091619491577148,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The peak incidence of fractures occurs in toddlers.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "7209559:abstract:0:283:9ba3687ae6bc",
+          "paper_id": "7209559",
+          "section": "abstract",
+          "text": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "score": 0.6106493473052979,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9987226128578186,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c5eb09d3754c256fc9bfe252ab915539c36b14b79d26e11c6a3b6be449c10efc",
+  "selected_paper_ids": [
+    "16812091",
+    "19878070",
+    "26000593",
+    "44048701",
+    "7209559"
+  ],
+  "aggregation": {
+    "claim": "The peak incidence of fractures occurs in toddlers.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "7209559:abstract:0:283:9ba3687ae6bc",
+        "paper_id": "7209559",
+        "section": "abstract",
+        "text": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+        "score": 0.6106493473052979,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9987226128578186,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "d092c0048b2212d85afe3dd22988b716a76bcae4ee1085984f196e6ed08e5394",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+        "citation_ids": [
+          "7209559:abstract:0:283:9ba3687ae6bc"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

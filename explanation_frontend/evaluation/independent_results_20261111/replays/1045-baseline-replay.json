@@ -1,0 +1,402 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:20.357889+00:00",
+    "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+    "created_at": "2026-11-10T17:03:20.357889Z",
+    "retrieved_at": "2026-11-10T17:03:20.357889Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "22500262": {
+        "paper_id": "22500262",
+        "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13277039": {
+        "paper_id": "13277039",
+        "title": "CRTC2 (TORC2) contributes to the transcriptional response to fasting in the liver but is not required for the maintenance of glucose homeostasis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4587978": {
+        "paper_id": "4587978",
+        "title": "Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11565780": {
+        "paper_id": "11565780",
+        "title": "Circadian regulation of intracellular G-protein signalling mediates intercellular synchrony and rhythmicity in the suprachiasmatic nucleus",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14471161": {
+        "paper_id": "14471161",
+        "title": "Cancer inhibition through circadian reprogramming of tumor transcriptome with meal timing.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "22500262": {
+          "paper_id": "22500262",
+          "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9077129364013672,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "22500262:abstract:973:1227:2c506c3bc86b"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "13277039": {
+          "paper_id": "13277039",
+          "title": "CRTC2 (TORC2) contributes to the transcriptional response to fasting in the liver but is not required for the maintenance of glucose homeostasis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4587978": {
+          "paper_id": "4587978",
+          "title": "Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11565780": {
+          "paper_id": "11565780",
+          "title": "Circadian regulation of intracellular G-protein signalling mediates intercellular synchrony and rhythmicity in the suprachiasmatic nucleus",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14471161": {
+          "paper_id": "14471161",
+          "title": "Cancer inhibition through circadian reprogramming of tumor transcriptome with meal timing.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "22500262:abstract:973:1227:2c506c3bc86b": {
+          "passage_id": "22500262:abstract:973:1227:2c506c3bc86b",
+          "paper_id": "22500262",
+          "label": "SUPPORT",
+          "confidence": 0.9077129364013672,
+          "truncated": false
+        },
+        "22500262:abstract:427:617:22082ea9c03e": {
+          "passage_id": "22500262:abstract:427:617:22082ea9c03e",
+          "paper_id": "22500262",
+          "label": "NEUTRAL",
+          "confidence": 0.9853061437606812,
+          "truncated": false
+        },
+        "22500262:abstract:848:972:ffcaf7ad0b06": {
+          "passage_id": "22500262:abstract:848:972:ffcaf7ad0b06",
+          "paper_id": "22500262",
+          "label": "NEUTRAL",
+          "confidence": 0.9992048144340515,
+          "truncated": false
+        },
+        "13277039:abstract:0:136:8d27aa64071e": {
+          "passage_id": "13277039:abstract:0:136:8d27aa64071e",
+          "paper_id": "13277039",
+          "label": "NEUTRAL",
+          "confidence": 0.9985091090202332,
+          "truncated": false
+        },
+        "13277039:abstract:137:337:10003a7b2355": {
+          "passage_id": "13277039:abstract:137:337:10003a7b2355",
+          "paper_id": "13277039",
+          "label": "NEUTRAL",
+          "confidence": 0.9976363182067871,
+          "truncated": false
+        },
+        "4587978:abstract:572:767:b26e6cc2d7e5": {
+          "passage_id": "4587978:abstract:572:767:b26e6cc2d7e5",
+          "paper_id": "4587978",
+          "label": "NEUTRAL",
+          "confidence": 0.998806357383728,
+          "truncated": false
+        },
+        "4587978:abstract:332:571:1d773e2f1a8e": {
+          "passage_id": "4587978:abstract:332:571:1d773e2f1a8e",
+          "paper_id": "4587978",
+          "label": "NEUTRAL",
+          "confidence": 0.9985938668251038,
+          "truncated": false
+        },
+        "11565780:abstract:459:597:c7439c022be0": {
+          "passage_id": "11565780:abstract:459:597:c7439c022be0",
+          "paper_id": "11565780",
+          "label": "NEUTRAL",
+          "confidence": 0.9743248820304871,
+          "truncated": false
+        },
+        "11565780:abstract:220:458:6ae34da85bdc": {
+          "passage_id": "11565780:abstract:220:458:6ae34da85bdc",
+          "paper_id": "11565780",
+          "label": "NEUTRAL",
+          "confidence": 0.9772243499755859,
+          "truncated": false
+        },
+        "14471161:abstract:389:570:1de959a940ba": {
+          "passage_id": "14471161:abstract:389:570:1de959a940ba",
+          "paper_id": "14471161",
+          "label": "NEUTRAL",
+          "confidence": 0.9993873834609985,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "22500262:abstract:973:1227:2c506c3bc86b",
+          "paper_id": "22500262",
+          "section": "abstract",
+          "text": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "score": 0.7261519432067871,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22500262:abstract:427:617:22082ea9c03e",
+          "paper_id": "22500262",
+          "section": "abstract",
+          "text": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "score": 0.6794618964195251,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22500262:abstract:848:972:ffcaf7ad0b06",
+          "paper_id": "22500262",
+          "section": "abstract",
+          "text": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "score": 0.6594104170799255,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13277039:abstract:0:136:8d27aa64071e",
+          "paper_id": "13277039",
+          "section": "abstract",
+          "text": "The liver contributes to glucose homeostasis by promoting either storage or production of glucose, depending on the physiological state.",
+          "score": 0.5543609261512756,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13277039:abstract:137:337:10003a7b2355",
+          "paper_id": "13277039",
+          "section": "abstract",
+          "text": "The cAMP response element-binding protein (CREB) is a principal regulator of genes involved in coordinating the hepatic response to fasting, but its mechanism of gene activation remains controversial.",
+          "score": 0.5078442692756653,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4587978:abstract:572:767:b26e6cc2d7e5",
+          "paper_id": "4587978",
+          "section": "abstract",
+          "text": "This gain-of-function CRY1 variant causes reduced expression of key transcriptional targets and lengthens the period of circadian molecular rhythms, providing a mechanistic link to DSPD symptoms.",
+          "score": 0.7121212482452393,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4587978:abstract:332:571:1d773e2f1a8e",
+          "paper_id": "4587978",
+          "section": "abstract",
+          "text": "Here, we report a hereditary form of DSPD associated with a dominant coding variation in the core circadian clock gene CRY1, which creates a transcriptional inhibitor with enhanced affinity for circadian activator proteins Clock and Bmal1.",
+          "score": 0.6104193329811096,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11565780:abstract:459:597:c7439c022be0",
+          "paper_id": "11565780",
+          "section": "abstract",
+          "text": "Gene ablation of Rgs16 leads to the loss of circadian production of cAMP and as a result lengthens circadian period of behavioural rhythm.",
+          "score": 0.5568222999572754,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11565780:abstract:220:458:6ae34da85bdc",
+          "paper_id": "11565780",
+          "section": "abstract",
+          "text": "Here we show that the amount of RGS16 (regulator of G protein signalling 16), a protein known to inactivate Gαi, increases at a selective circadian time to allow time-dependent activation of intracellular cyclic AMP signalling in the SCN.",
+          "score": 0.5186244249343872,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14471161:abstract:389:570:1de959a940ba",
+          "paper_id": "14471161",
+          "section": "abstract",
+          "text": "Circadian mRNA expression patterns were determined for clock genes Rev-erbalpha, Per2, and Bmal1, cellular stress genes Hspa8 and Cirbp, and cyclin A2 gene Ccna2 in liver and tumor.",
+          "score": 0.5464942455291748,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "22500262:abstract:973:1227:2c506c3bc86b",
+          "paper_id": "22500262",
+          "section": "abstract",
+          "text": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "score": 0.7261519432067871,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9077129364013672,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "9f5368c7f3d6a86fe9af5ec96ad627ac794689be364cc649696b5bb9a4192986",
+  "selected_paper_ids": [
+    "11565780",
+    "13277039",
+    "14471161",
+    "22500262",
+    "4587978"
+  ],
+  "aggregation": {
+    "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "22500262:abstract:973:1227:2c506c3bc86b",
+        "paper_id": "22500262",
+        "section": "abstract",
+        "text": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+        "score": 0.7261519432067871,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9077129364013672,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "8445c041029b6bcd710a19822d76ad0488aed87e4848acdb9d92a59c71e623de",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+        "citation_ids": [
+          "22500262:abstract:973:1227:2c506c3bc86b"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

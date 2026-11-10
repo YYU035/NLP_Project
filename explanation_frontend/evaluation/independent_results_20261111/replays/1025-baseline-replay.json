@@ -1,0 +1,406 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:29.013070+00:00",
+    "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+    "created_at": "2026-11-10T17:03:29.013070Z",
+    "retrieved_at": "2026-11-10T17:03:29.013070Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "32408470": {
+        "paper_id": "32408470",
+        "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4319174": {
+        "paper_id": "4319174",
+        "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17933691": {
+        "paper_id": "17933691",
+        "title": "Characterization of adipocytes derived from fibro/adipogenic progenitors resident in human skeletal muscle",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5106691": {
+        "paper_id": "5106691",
+        "title": "Adipocyte inflammation is essential for healthy adipose tissue expansion and remodeling.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "9178310": {
+        "paper_id": "9178310",
+        "title": "Involvement of lysosomal dysfunction in autophagosome accumulation and early pathologies in adipose tissue of obese mice",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "32408470": {
+          "paper_id": "32408470",
+          "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4319174": {
+          "paper_id": "4319174",
+          "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17933691": {
+          "paper_id": "17933691",
+          "title": "Characterization of adipocytes derived from fibro/adipogenic progenitors resident in human skeletal muscle",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5106691": {
+          "paper_id": "5106691",
+          "title": "Adipocyte inflammation is essential for healthy adipose tissue expansion and remodeling.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "9178310": {
+          "paper_id": "9178310",
+          "title": "Involvement of lysosomal dysfunction in autophagosome accumulation and early pathologies in adipose tissue of obese mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "32408470:abstract:707:843:a5243eacb1af": {
+          "passage_id": "32408470:abstract:707:843:a5243eacb1af",
+          "paper_id": "32408470",
+          "label": "NEUTRAL",
+          "confidence": 0.9931943416595459,
+          "truncated": false
+        },
+        "4319174:abstract:387:691:cf052812d704": {
+          "passage_id": "4319174:abstract:387:691:cf052812d704",
+          "paper_id": "4319174",
+          "label": "NEUTRAL",
+          "confidence": 0.9927033185958862,
+          "truncated": false
+        },
+        "4319174:abstract:959:1188:fff5369512cb": {
+          "passage_id": "4319174:abstract:959:1188:fff5369512cb",
+          "paper_id": "4319174",
+          "label": "NEUTRAL",
+          "confidence": 0.9892682433128357,
+          "truncated": false
+        },
+        "17933691:abstract:983:1174:c2f286edd88d": {
+          "passage_id": "17933691:abstract:983:1174:c2f286edd88d",
+          "paper_id": "17933691",
+          "label": "NEUTRAL",
+          "confidence": 0.9973028898239136,
+          "truncated": false
+        },
+        "17933691:abstract:126:250:12fafd5003ad": {
+          "passage_id": "17933691:abstract:126:250:12fafd5003ad",
+          "paper_id": "17933691",
+          "label": "NEUTRAL",
+          "confidence": 0.9945409893989563,
+          "truncated": false
+        },
+        "17933691:abstract:1175:1374:7567c28a8338": {
+          "passage_id": "17933691:abstract:1175:1374:7567c28a8338",
+          "paper_id": "17933691",
+          "label": "NEUTRAL",
+          "confidence": 0.9665588736534119,
+          "truncated": false
+        },
+        "5106691:abstract:104:336:3770ae4135ac": {
+          "passage_id": "5106691:abstract:104:336:3770ae4135ac",
+          "paper_id": "5106691",
+          "label": "NEUTRAL",
+          "confidence": 0.9981287121772766,
+          "truncated": false
+        },
+        "5106691:abstract:337:558:fc40fd908de7": {
+          "passage_id": "5106691:abstract:337:558:fc40fd908de7",
+          "paper_id": "5106691",
+          "label": "NEUTRAL",
+          "confidence": 0.9950624108314514,
+          "truncated": false
+        },
+        "5106691:abstract:773:927:09eb4b229a85": {
+          "passage_id": "5106691:abstract:773:927:09eb4b229a85",
+          "paper_id": "5106691",
+          "label": "NEUTRAL",
+          "confidence": 0.9295373558998108,
+          "truncated": false
+        },
+        "9178310:abstract:576:663:bb6bf384df7e": {
+          "passage_id": "9178310:abstract:576:663:bb6bf384df7e",
+          "paper_id": "9178310",
+          "label": "NEUTRAL",
+          "confidence": 0.9936293959617615,
+          "truncated": false
+        },
+        "9178310:abstract:1229:1338:976dfeaffc9f": {
+          "passage_id": "9178310:abstract:1229:1338:976dfeaffc9f",
+          "paper_id": "9178310",
+          "label": "NEUTRAL",
+          "confidence": 0.9973894953727722,
+          "truncated": false
+        },
+        "9178310:abstract:402:575:337ece57e51f": {
+          "passage_id": "9178310:abstract:402:575:337ece57e51f",
+          "paper_id": "9178310",
+          "label": "NEUTRAL",
+          "confidence": 0.9979090690612793,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "32408470:abstract:707:843:a5243eacb1af",
+          "paper_id": "32408470",
+          "section": "abstract",
+          "text": "Phosphorylation of IRS1 leads to its degradation, protein kinase B inhibition, and the loss of insulin-mediated inhibition of lipolysis.",
+          "score": 0.5222561955451965,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4319174:abstract:387:691:cf052812d704",
+          "paper_id": "4319174",
+          "section": "abstract",
+          "text": "Acting via the β(3)-adrenergic receptors, noradrenaline induces lipolysis in white adipocytes, whereas it stimulates the expression of thermogenic genes, such as PPAR-γ coactivator 1a (Ppargc1a), uncoupling protein 1 (Ucp1) and acyl-CoA synthetase long-chain family member 1 (Acsl1), in brown adipocytes.",
+          "score": 0.5577727556228638,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4319174:abstract:959:1188:fff5369512cb",
+          "paper_id": "4319174",
+          "section": "abstract",
+          "text": "Exposure to cold temperature rapidly promoted alternative activation of adipose tissue macrophages, which secrete catecholamines to induce thermogenic gene expression in brown adipose tissue and lipolysis in white adipose tissue.",
+          "score": 0.5302087068557739,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17933691:abstract:983:1174:c2f286edd88d",
+          "paper_id": "17933691",
+          "section": "abstract",
+          "text": "Similarly, basic adipocyte functions, such as triglyceride synthesis and lipolysis occurred at levels similar to those observed with subcutaneous adipose tissue progenitor-derived adipocytes.",
+          "score": 0.6036329865455627,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17933691:abstract:126:250:12fafd5003ad",
+          "paper_id": "17933691",
+          "section": "abstract",
+          "text": "The aim of this study was to determine the extent to which these progenitors differentiate into fully functional adipocytes.",
+          "score": 0.5476478338241577,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17933691:abstract:1175:1374:7567c28a8338",
+          "paper_id": "17933691",
+          "section": "abstract",
+          "text": "However, muscle progenitor-derived adipocytes were found to be insensitive to insulin-induced glucose uptake, in association with the impairment of phosphorylation of key insulin-signaling effectors.",
+          "score": 0.5392953157424927,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5106691:abstract:104:336:3770ae4135ac",
+          "paper_id": "5106691",
+          "section": "abstract",
+          "text": "In contrast to the belief that inflammatory signals exert a fundamentally negative impact on metabolism, we show that proinflammatory signaling in the adipocyte is in fact required for proper adipose tissue remodeling and expansion.",
+          "score": 0.5955714583396912,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5106691:abstract:337:558:fc40fd908de7",
+          "paper_id": "5106691",
+          "section": "abstract",
+          "text": "Three mouse models with an adipose tissue-specific reduction in proinflammatory potential were generated that display a reduced capacity for adipogenesis in vivo, while the differentiation potential is unaltered in vitro.",
+          "score": 0.5848541259765625,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5106691:abstract:773:927:09eb4b229a85",
+          "paper_id": "5106691",
+          "section": "abstract",
+          "text": "An impaired local proinflammatory response in the adipocyte leads to increased ectopic lipid accumulation, glucose intolerance, and systemic inflammation.",
+          "score": 0.5373210906982422,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9178310:abstract:576:663:bb6bf384df7e",
+          "paper_id": "9178310",
+          "section": "abstract",
+          "text": "Moreover, cellular senescence and inflammasomes were activated in obese adipose tissue.",
+          "score": 0.5363191366195679,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9178310:abstract:1229:1338:976dfeaffc9f",
+          "paper_id": "9178310",
+          "section": "abstract",
+          "text": "Our findings strongly suggest lysosomal dysfunction is involved in early pathologies of obese adipose tissue.",
+          "score": 0.5288715362548828,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "9178310:abstract:402:575:337ece57e51f",
+          "paper_id": "9178310",
+          "section": "abstract",
+          "text": "We also found protein and activity levels of CTSL (cathepsin L) were suppressed in obese adipose tissue, while the activity of CTSB (cathepsin B) was significantly enhanced.",
+          "score": 0.5174919366836548,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c14d68994eb475f5bd4fcb12e4b11f5675fb1520dcc1ca7b206a10ed2f78c958",
+  "selected_paper_ids": [
+    "17933691",
+    "32408470",
+    "4319174",
+    "5106691",
+    "9178310"
+  ],
+  "aggregation": {
+    "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "67a9c5152713236380f0ed05a2af30beccd24c59def7b9bfe0d58dc9bcc6cf25",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

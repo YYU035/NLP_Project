@@ -1,3 +1,11 @@
+# Primary abstract policy — 11 November 2026
+
+Yu Yue’s frozen bounded-context +0.65 paper-gate policy is now the default for new Live/Selected search abstract verification and pipeline_smoke. In an offline full-corpus RRF top-5 audit of 209 reserved, cited-paper-disjoint internal SciFact claims, accuracy improved 56.5%→67.9% and macro F1 improved 0.583→0.679. The paired cited-paper-cluster 95% interval for accuracy gain is +3.8 to +18.7 percentage points; all 418 condition runs completed without processing failures.
+
+The tradeoff remains: contradiction recall fell 82.1%→53.8%, while contradiction precision rose 47.8%→84.0%; evidence F1 fell 0.210→0.165. This is an internal audit from published training data, not an official hidden test or external-domain proof. Read the [audit and all limitations](evaluation/independent_results_20261111/REPORT.md) and [every changed claim](evaluation/independent_results_20261111/changed_claims.csv).
+
+PDF selection is unchanged. Older saved runs keep their original results and provenance. Set `EXPLANATION_ABSTRACT_POLICY=baseline` for the original app provider; `pipeline_smoke --baseline` and direct `LocalPipeline()` retain the frozen baseline. New primary runs export their context configuration and source commit; cached subset aggregation still reuses predictions. Historical research notes below predate this promotion.
+
 # Context research update — 11 November 2026
 
 Tested six policies on the same 300 previously inspected SciFact dev claims. The train-selected guarded-context +0.65 gate candidate scores **66.0% accuracy /79.7% contradiction recall**, compared with the original 56.7%/75.0% and Yu Yue’s 67.0%/53.1%. It fixes 36 original errors and introduces 8 regressions (all INSUFFICIENT cases). It sacrifices contradiction precision, insufficient-evidence recall and evidence F1 relative to her candidate; this is not an all-round upgrade.

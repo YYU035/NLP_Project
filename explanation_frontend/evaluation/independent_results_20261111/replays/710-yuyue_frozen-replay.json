@@ -1,0 +1,219 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:39.559189+00:00",
+    "claim": "Long chain polyunsaturated fatty acids supplementation reduces wheezing and asthma.",
+    "created_at": "2026-11-10T17:03:39.559189Z",
+    "retrieved_at": "2026-11-10T17:03:39.559189Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "22442133": {
+        "paper_id": "22442133",
+        "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "20148808": {
+        "paper_id": "20148808",
+        "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "33912748": {
+        "paper_id": "33912748",
+        "title": "Pathologic indicators of degradation and inflammation in human osteoarthritic cartilage are abrogated by exposure to n-3 fatty acids.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24269361": {
+        "paper_id": "24269361",
+        "title": "Atopy risk in infants and children in relation to early exposure to fish, oily fish, or long-chain omega-3 fatty acids: a systematic review.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23388442": {
+        "paper_id": "23388442",
+        "title": "Fatty acids as modulators of the immune response.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "22442133": {
+          "paper_id": "22442133",
+          "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "20148808": {
+          "paper_id": "20148808",
+          "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "33912748": {
+          "paper_id": "33912748",
+          "title": "Pathologic indicators of degradation and inflammation in human osteoarthritic cartilage are abrogated by exposure to n-3 fatty acids.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24269361": {
+          "paper_id": "24269361",
+          "title": "Atopy risk in infants and children in relation to early exposure to fish, oily fish, or long-chain omega-3 fatty acids: a systematic review.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23388442": {
+          "paper_id": "23388442",
+          "title": "Fatty acids as modulators of the immune response.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "20148808:abstract:0:1090:5625c2e945b7": {
+          "passage_id": "20148808:abstract:0:1090:5625c2e945b7",
+          "paper_id": "20148808",
+          "label": "NEUTRAL",
+          "confidence": 0.6914471387863159,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "20148808:abstract:0:1090:5625c2e945b7",
+          "paper_id": "20148808",
+          "section": "abstract",
+          "text": "The mammalian gastrointestinal tract harbors a microbial community with metabolic activity critical for host health, including metabolites that can modulate effector functions of immune cells. Mice treated with vancomycin have an altered microbiome and metabolite profile, exhibit exacerbated T helper type 2 cell (Th2) responses, and are more susceptible to allergic lung inflammation. Here we show that dietary supplementation with short-chain fatty acids (SCFAs) ameliorates this enhanced asthma susceptibility by modulating the activity of T cells and dendritic cells (DCs). Dysbiotic mice treated with SCFAs have fewer interleukin-4 (IL4)-producing CD4+ T cells and decreased levels of circulating immunoglobulin E (IgE). In addition, DCs exposed to SCFAs activate T cells less robustly, are less motile in response to CCL19 in vitro, and exhibit a dampened ability to transport inhaled allergens to lung draining nodes. Our data thus demonstrate that gut dysbiosis can exacerbate allergic lung inflammation through both T cell- and DC-dependent mechanisms that are inhibited by SCFAs.",
+          "score": 0.6813420057296753,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Long chain polyunsaturated fatty acids supplementation reduces wheezing and asthma.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "e216cb866e26796526a1bbd6e4ec9c3b27080704c40b817ae57af4e5988a86f1",
+  "selected_paper_ids": [
+    "20148808",
+    "22442133",
+    "23388442",
+    "24269361",
+    "33912748"
+  ],
+  "aggregation": {
+    "claim": "Long chain polyunsaturated fatty acids supplementation reduces wheezing and asthma.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "120eaea2bfa7bce0f943698337f48a4a6e4d49d0f4fa1e6985d3dc8b2a4ff81d",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

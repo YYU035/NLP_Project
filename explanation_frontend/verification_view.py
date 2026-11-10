@@ -72,7 +72,7 @@ def render_verification():
         # This is trusted server configuration, never a path or code supplied by a paper/upload.
         selected_search = ss.mode == "Selected search"
         spec = os.environ.get("EXPLANATION_VERIFY_DISCOVERY_FACTORY" if selected_search else "EXPLANATION_PIPELINE_FACTORY",
-                              "explanation_frontend.pipeline:create_provider")
+                              "explanation_frontend.primary_candidate:create_provider")
         if not spec or ":" not in spec:
             raise ValueError("Configure the trusted upstream pipeline factory first")
         module, name = spec.split(":", 1)

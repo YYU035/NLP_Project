@@ -1,0 +1,436 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:04:00.222435+00:00",
+    "claim": "Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.",
+    "created_at": "2026-11-10T17:04:00.222435Z",
+    "retrieved_at": "2026-11-10T17:04:00.222435Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "16494316": {
+        "paper_id": "16494316",
+        "title": "Receptor tyrosine kinases endocytosis in endothelium: biology and signaling.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11771811": {
+        "paper_id": "11771811",
+        "title": "FGF regulates TGF-β signaling and endothelial-to-mesenchymal transition via control of let-7 miRNA expression.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "19752008": {
+        "paper_id": "19752008",
+        "title": "A specific inhibitor of phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one (LY294002).",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "39291138": {
+        "paper_id": "39291138",
+        "title": "Integration of Smad and MAPK pathways: a link and a linker revisited.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21931005": {
+        "paper_id": "21931005",
+        "title": "Signal transduction proteins that associate with the platelet-derived growth factor (PDGF) receptor mediate the PDGF-induced release of glucose-6-phosphate dehydrogenase from permeabilized cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16494316": {
+          "paper_id": "16494316",
+          "title": "Receptor tyrosine kinases endocytosis in endothelium: biology and signaling.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11771811": {
+          "paper_id": "11771811",
+          "title": "FGF regulates TGF-β signaling and endothelial-to-mesenchymal transition via control of let-7 miRNA expression.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "19752008": {
+          "paper_id": "19752008",
+          "title": "A specific inhibitor of phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one (LY294002).",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "39291138": {
+          "paper_id": "39291138",
+          "title": "Integration of Smad and MAPK pathways: a link and a linker revisited.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21931005": {
+          "paper_id": "21931005",
+          "title": "Signal transduction proteins that associate with the platelet-derived growth factor (PDGF) receptor mediate the PDGF-induced release of glucose-6-phosphate dehydrogenase from permeabilized cells.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9731101989746094,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "21931005:abstract:665:759:5f761072672f"
+          ],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16494316:abstract:0:147:0a2e8dce643f": {
+          "passage_id": "16494316:abstract:0:147:0a2e8dce643f",
+          "paper_id": "16494316",
+          "label": "NEUTRAL",
+          "confidence": 0.9992884397506714,
+          "truncated": false
+        },
+        "16494316:abstract:537:729:f11eccaacee2": {
+          "passage_id": "16494316:abstract:537:729:f11eccaacee2",
+          "paper_id": "16494316",
+          "label": "NEUTRAL",
+          "confidence": 0.7353840470314026,
+          "truncated": false
+        },
+        "16494316:abstract:148:324:17d0cbacb888": {
+          "passage_id": "16494316:abstract:148:324:17d0cbacb888",
+          "paper_id": "16494316",
+          "label": "NEUTRAL",
+          "confidence": 0.9994679093360901,
+          "truncated": false
+        },
+        "11771811:abstract:141:494:4d7da1942d68": {
+          "passage_id": "11771811:abstract:141:494:4d7da1942d68",
+          "paper_id": "11771811",
+          "label": "NEUTRAL",
+          "confidence": 0.9913580417633057,
+          "truncated": false
+        },
+        "11771811:abstract:655:888:37e1c0256bdd": {
+          "passage_id": "11771811:abstract:655:888:37e1c0256bdd",
+          "paper_id": "11771811",
+          "label": "NEUTRAL",
+          "confidence": 0.9862999320030212,
+          "truncated": false
+        },
+        "11771811:abstract:889:1055:d016fe5c393e": {
+          "passage_id": "11771811:abstract:889:1055:d016fe5c393e",
+          "paper_id": "11771811",
+          "label": "NEUTRAL",
+          "confidence": 0.9859268665313721,
+          "truncated": false
+        },
+        "19752008:abstract:0:217:467969825a40": {
+          "passage_id": "19752008:abstract:0:217:467969825a40",
+          "paper_id": "19752008",
+          "label": "NEUTRAL",
+          "confidence": 0.6428868174552917,
+          "truncated": false
+        },
+        "19752008:abstract:1756:2083:b633eee3c5f8": {
+          "passage_id": "19752008:abstract:1756:2083:b633eee3c5f8",
+          "paper_id": "19752008",
+          "label": "NEUTRAL",
+          "confidence": 0.9983851909637451,
+          "truncated": false
+        },
+        "39291138:abstract:1818:1970:a7fef7ee9fd7": {
+          "passage_id": "39291138:abstract:1818:1970:a7fef7ee9fd7",
+          "paper_id": "39291138",
+          "label": "NEUTRAL",
+          "confidence": 0.9971318244934082,
+          "truncated": false
+        },
+        "39291138:abstract:2760:2932:6ab505f98f45": {
+          "passage_id": "39291138:abstract:2760:2932:6ab505f98f45",
+          "paper_id": "39291138",
+          "label": "NEUTRAL",
+          "confidence": 0.973709762096405,
+          "truncated": false
+        },
+        "39291138:abstract:2035:2089:07218b1d89da": {
+          "passage_id": "39291138:abstract:2035:2089:07218b1d89da",
+          "paper_id": "39291138",
+          "label": "NEUTRAL",
+          "confidence": 0.9903934597969055,
+          "truncated": false
+        },
+        "21931005:abstract:665:759:5f761072672f": {
+          "passage_id": "21931005:abstract:665:759:5f761072672f",
+          "paper_id": "21931005",
+          "label": "SUPPORT",
+          "confidence": 0.9731101989746094,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16494316:abstract:0:147:0a2e8dce643f",
+          "paper_id": "16494316",
+          "section": "abstract",
+          "text": "Receptor tyrosine kinases are involved in regulation of key processes in endothelial biology, including proliferation, migration, and angiogenesis.",
+          "score": 0.5938435792922974,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16494316:abstract:537:729:f11eccaacee2",
+          "paper_id": "16494316",
+          "section": "abstract",
+          "text": "This review summarizes recent advances in our understanding of endothelial receptor tyrosine kinase endocytosis and signaling using vascular endothelial growth factor receptor-2 as a paradigm.",
+          "score": 0.5585147738456726,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16494316:abstract:148:324:17d0cbacb888",
+          "paper_id": "16494316",
+          "section": "abstract",
+          "text": "It is now generally accepted that receptor tyrosine kinase signaling occurs intracellularly and on the plasma membrane, although many important details remain to be worked out.",
+          "score": 0.5116940140724182,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11771811:abstract:141:494:4d7da1942d68",
+          "paper_id": "11771811",
+          "section": "abstract",
+          "text": "In this study, we show that disruption of baseline fibroblast growth factor (FGF) signaling to the endothelium leads to a dramatic reduction in let-7 miRNA levels that, in turn, increases expression of transforming growth factor (TGF)-β ligands and receptors and activation of TGF-β signaling, leading to endothelial-to-mesenchymal transition (Endo-MT).",
+          "score": 0.5644722580909729,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11771811:abstract:655:888:37e1c0256bdd",
+          "paper_id": "11771811",
+          "section": "abstract",
+          "text": "The decline in endothelial FGF signaling input is due to the appearance of an FGF resistance state that is characterized by inflammation-dependent reduction in expression and activation of key components of the FGF signaling cascade.",
+          "score": 0.5618536472320557,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11771811:abstract:889:1055:d016fe5c393e",
+          "paper_id": "11771811",
+          "section": "abstract",
+          "text": "These results establish FGF signaling as a critical factor in maintenance of endothelial homeostasis and point to an unexpected role of Endo-MT in vascular pathology.",
+          "score": 0.5383813977241516,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "19752008:abstract:0:217:467969825a40",
+          "paper_id": "19752008",
+          "section": "abstract",
+          "text": "Phosphatidylinositol (PtdIns) 3-kinase is an enzyme implicated in growth factor signal transduction by associating with receptor and nonreceptor tyrosine kinases, including the platelet-derived growth factor receptor.",
+          "score": 0.6185033321380615,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "19752008:abstract:1756:2083:b633eee3c5f8",
+          "paper_id": "19752008",
+          "section": "abstract",
+          "text": "Since PtdIns 3-kinase appears to be centrally involved with growth factor signal transduction, the development of specific inhibitors against the kinase may be beneficial in the treatment of proliferative diseases as well as in elucidating the biological role of the kinase in cellular proliferation and growth factor response.",
+          "score": 0.6153344511985779,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39291138:abstract:1818:1970:a7fef7ee9fd7",
+          "paper_id": "39291138",
+          "section": "abstract",
+          "text": "As it turns out, neural induction can also be achieved with FGF (fibroblast growth factor; Kengaku and Okamoto 1993; Lamb and Harland 1995; Hongo et al.",
+          "score": 0.6685353517532349,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39291138:abstract:2760:2932:6ab505f98f45",
+          "paper_id": "39291138",
+          "section": "abstract",
+          "text": "Because FGF8 and IFG2 activate MAPK, Pera et al. (2003) took heed from previous work showing that MAPK inhibits the BMP signal-transduction factor Smad1 (Kretzschmar et al.",
+          "score": 0.5903931260108948,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39291138:abstract:2035:2089:07218b1d89da",
+          "paper_id": "39291138",
+          "section": "abstract",
+          "text": "2000) and IGF (insulin-like growth factor; Pera et al.",
+          "score": 0.5788148641586304,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21931005:abstract:665:759:5f761072672f",
+          "paper_id": "21931005",
+          "section": "abstract",
+          "text": "PDGF did not stimulate G6PD release in cells transfected with tyrosine kinase-deficient PDGFR.",
+          "score": 0.5180798768997192,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "21931005:abstract:665:759:5f761072672f",
+          "paper_id": "21931005",
+          "section": "abstract",
+          "text": "PDGF did not stimulate G6PD release in cells transfected with tyrosine kinase-deficient PDGFR.",
+          "score": 0.5180798768997192,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9731101989746094,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "bc42a824b1d8d9a4b8186d3b46bedb93d1f21a0865c5a69a92478e1ca7babb0a",
+  "selected_paper_ids": [
+    "11771811",
+    "16494316",
+    "19752008",
+    "21931005",
+    "39291138"
+  ],
+  "aggregation": {
+    "claim": "Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "21931005:abstract:665:759:5f761072672f",
+        "paper_id": "21931005",
+        "section": "abstract",
+        "text": "PDGF did not stimulate G6PD release in cells transfected with tyrosine kinase-deficient PDGFR.",
+        "score": 0.5180798768997192,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9731101989746094,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "16f36fd71ad246d369dc422dbd848bf02eb4e1d23e8931dda66f2b1e140c4a54",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "PDGF did not stimulate G6PD release in cells transfected with tyrosine kinase-deficient PDGFR.",
+        "citation_ids": [
+          "21931005:abstract:665:759:5f761072672f"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:44.518728+00:00",
+    "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+    "created_at": "2026-11-10T17:03:44.518728Z",
+    "retrieved_at": "2026-11-10T17:03:44.518728Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "24705390": {
+        "paper_id": "24705390",
+        "title": "Chronic Helicobacter pylori infections induce gastric mutations in mice.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22703082": {
+        "paper_id": "22703082",
+        "title": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29367554": {
+        "paper_id": "29367554",
+        "title": "Interaction of Helicobacter pylori with gastric epithelial cells is mediated by the p53 protein family.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "39550665": {
+        "paper_id": "39550665",
+        "title": "Tolerance rather than immunity protects from Helicobacter pylori-induced gastric preneoplasia.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7465900": {
+        "paper_id": "7465900",
+        "title": "Acetylation of apurinic/apyrimidinic endonuclease-1 regulates Helicobacter pylori-mediated gastric epithelial cell apoptosis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "24705390": {
+          "paper_id": "24705390",
+          "title": "Chronic Helicobacter pylori infections induce gastric mutations in mice.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22703082": {
+          "paper_id": "22703082",
+          "title": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9485730528831482,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "22703082:abstract:603:811:85b772a3918a"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "29367554": {
+          "paper_id": "29367554",
+          "title": "Interaction of Helicobacter pylori with gastric epithelial cells is mediated by the p53 protein family.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "39550665": {
+          "paper_id": "39550665",
+          "title": "Tolerance rather than immunity protects from Helicobacter pylori-induced gastric preneoplasia.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7465900": {
+          "paper_id": "7465900",
+          "title": "Acetylation of apurinic/apyrimidinic endonuclease-1 regulates Helicobacter pylori-mediated gastric epithelial cell apoptosis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "24705390:abstract:0:108:f17e654019fd": {
+          "passage_id": "24705390:abstract:0:108:f17e654019fd",
+          "paper_id": "24705390",
+          "label": "NEUTRAL",
+          "confidence": 0.9920117259025574,
+          "truncated": false
+        },
+        "24705390:abstract:109:244:b6649c1b611a": {
+          "passage_id": "24705390:abstract:109:244:b6649c1b611a",
+          "paper_id": "24705390",
+          "label": "NEUTRAL",
+          "confidence": 0.9972432851791382,
+          "truncated": false
+        },
+        "24705390:abstract:745:913:38d721f20eb8": {
+          "passage_id": "24705390:abstract:745:913:38d721f20eb8",
+          "paper_id": "24705390",
+          "label": "NEUTRAL",
+          "confidence": 0.9986722469329834,
+          "truncated": false
+        },
+        "22703082:abstract:603:811:85b772a3918a": {
+          "passage_id": "22703082:abstract:603:811:85b772a3918a",
+          "paper_id": "22703082",
+          "label": "SUPPORT",
+          "confidence": 0.9485730528831482,
+          "truncated": false
+        },
+        "22703082:abstract:0:102:ac3fe6670a91": {
+          "passage_id": "22703082:abstract:0:102:ac3fe6670a91",
+          "paper_id": "22703082",
+          "label": "NEUTRAL",
+          "confidence": 0.9938821792602539,
+          "truncated": false
+        },
+        "22703082:abstract:448:602:1720c2132cbe": {
+          "passage_id": "22703082:abstract:448:602:1720c2132cbe",
+          "paper_id": "22703082",
+          "label": "NEUTRAL",
+          "confidence": 0.9926970601081848,
+          "truncated": false
+        },
+        "29367554:abstract:821:1005:6e474e667453": {
+          "passage_id": "29367554:abstract:821:1005:6e474e667453",
+          "paper_id": "29367554",
+          "label": "NEUTRAL",
+          "confidence": 0.9986360669136047,
+          "truncated": false
+        },
+        "29367554:abstract:347:576:67f2eccdc832": {
+          "passage_id": "29367554:abstract:347:576:67f2eccdc832",
+          "paper_id": "29367554",
+          "label": "NEUTRAL",
+          "confidence": 0.999233603477478,
+          "truncated": false
+        },
+        "29367554:abstract:1378:1563:74a52d6439ba": {
+          "passage_id": "29367554:abstract:1378:1563:74a52d6439ba",
+          "paper_id": "29367554",
+          "label": "NEUTRAL",
+          "confidence": 0.9959273934364319,
+          "truncated": false
+        },
+        "39550665:abstract:1491:1658:4b88f95fba04": {
+          "passage_id": "39550665:abstract:1491:1658:4b88f95fba04",
+          "paper_id": "39550665",
+          "label": "NEUTRAL",
+          "confidence": 0.998489260673523,
+          "truncated": false
+        },
+        "39550665:abstract:0:167:5c1aa916a799": {
+          "passage_id": "39550665:abstract:0:167:5c1aa916a799",
+          "paper_id": "39550665",
+          "label": "NEUTRAL",
+          "confidence": 0.9969996809959412,
+          "truncated": false
+        },
+        "39550665:abstract:691:884:fb12c57d09dd": {
+          "passage_id": "39550665:abstract:691:884:fb12c57d09dd",
+          "paper_id": "39550665",
+          "label": "NEUTRAL",
+          "confidence": 0.9978366494178772,
+          "truncated": false
+        },
+        "7465900:abstract:625:774:b284f9ef0481": {
+          "passage_id": "7465900:abstract:625:774:b284f9ef0481",
+          "paper_id": "7465900",
+          "label": "NEUTRAL",
+          "confidence": 0.9983166456222534,
+          "truncated": false
+        },
+        "7465900:abstract:0:271:331d320a4e78": {
+          "passage_id": "7465900:abstract:0:271:331d320a4e78",
+          "paper_id": "7465900",
+          "label": "NEUTRAL",
+          "confidence": 0.9870757460594177,
+          "truncated": false
+        },
+        "7465900:abstract:1650:1791:fc8b1893b6a5": {
+          "passage_id": "7465900:abstract:1650:1791:fc8b1893b6a5",
+          "paper_id": "7465900",
+          "label": "NEUTRAL",
+          "confidence": 0.9943162798881531,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "24705390:abstract:0:108:f17e654019fd",
+          "paper_id": "24705390",
+          "section": "abstract",
+          "text": "BACKGROUND & AIMS Helicobacter pylori is an important etiologic factor in the development of gastric cancer.",
+          "score": 0.8327507972717285,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24705390:abstract:109:244:b6649c1b611a",
+          "paper_id": "24705390",
+          "section": "abstract",
+          "text": "The aim of this study was to analyze the role of H. pylori infections in the induction of mutagenic events in gastric epithelial cells.",
+          "score": 0.8186066150665283,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "24705390:abstract:745:913:38d721f20eb8",
+          "paper_id": "24705390",
+          "section": "abstract",
+          "text": "RESULTS After 6 months, the gastric mutant frequency was 4-fold and 1.7-fold higher in mice infected with H. pylori and H. felis, respectively, than in uninfected mice.",
+          "score": 0.7348768711090088,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22703082:abstract:603:811:85b772a3918a",
+          "paper_id": "22703082",
+          "section": "abstract",
+          "text": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "score": 0.9048489332199097,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22703082:abstract:0:102:ac3fe6670a91",
+          "paper_id": "22703082",
+          "section": "abstract",
+          "text": "Infection with Helicobacter pylori (H. pylori) is a risk factor for the development of gastric cancer.",
+          "score": 0.8354583978652954,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "22703082:abstract:448:602:1720c2132cbe",
+          "paper_id": "22703082",
+          "section": "abstract",
+          "text": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+          "score": 0.8072202205657959,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "29367554:abstract:821:1005:6e474e667453",
+          "paper_id": "29367554",
+          "section": "abstract",
+          "text": "RESULTS Interaction of H pylori with gastric epithelial cells leads to robust up-regulation of p73 protein in vitro and in vivo in human gastritis specimens and H pylori-infected mice.",
+          "score": 0.7809178233146667,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "29367554:abstract:347:576:67f2eccdc832",
+          "paper_id": "29367554",
+          "section": "abstract",
+          "text": "METHODS Gastric epithelial cells were cocultured with Helicobacter pylori, and the roles of p63 and p73 proteins were assessed by luciferase reporter, real-time polymerase chain reaction, immunoblotting, and cell survival assays.",
+          "score": 0.7437189817428589,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "29367554:abstract:1378:1563:74a52d6439ba",
+          "paper_id": "29367554",
+          "section": "abstract",
+          "text": "CONCLUSION Our findings implicate p73 in H pylori-induced apoptosis and more generally suggest that the p53 family may play a role in the epithelial cell response to H pylori infection.",
+          "score": 0.6432054042816162,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39550665:abstract:1491:1658:4b88f95fba04",
+          "paper_id": "39550665",
+          "section": "abstract",
+          "text": "CONCLUSIONS Using a novel CagA(+)H pylori infection model, we report here that the development of tolerance to H pylori protects from gastric cancer precursor lesions.",
+          "score": 0.8063737154006958,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39550665:abstract:0:167:5c1aa916a799",
+          "paper_id": "39550665",
+          "section": "abstract",
+          "text": "BACKGROUND & AIMS Chronic infection with the bacterial pathogen Helicobacter pylori causes gastric disorders, ranging from chronic gastritis to gastric adenocarcinoma.",
+          "score": 0.683314859867096,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "39550665:abstract:691:884:fb12c57d09dd",
+          "paper_id": "39550665",
+          "section": "abstract",
+          "text": "RESULTS Mice infected at 5-6 weeks of age with CagA(+)H pylori rapidly develop gastritis, gastric atrophy, epithelial hyperplasia, and metaplasia in a type IV secretion system-dependent manner.",
+          "score": 0.6729142665863037,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7465900:abstract:625:774:b284f9ef0481",
+          "paper_id": "7465900",
+          "section": "abstract",
+          "text": "METHODS AGS cells (wild-type or with suppressed APE-1), KATO III cells, and cells isolated from gastric biopsy specimens were infected with H pylori.",
+          "score": 0.7306632995605469,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7465900:abstract:0:271:331d320a4e78",
+          "paper_id": "7465900",
+          "section": "abstract",
+          "text": "BACKGROUND & AIMS Helicobacter pylori-induced gastric epithelial cell (GEC) apoptosis is a complex process that includes activation of the tumor suppressor p53. p53-mediated apoptosis involves p53 activation, bax transcription, and cytochrome c release from mitochondria.",
+          "score": 0.6652500629425049,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7465900:abstract:1650:1791:fc8b1893b6a5",
+          "paper_id": "7465900",
+          "section": "abstract",
+          "text": "CONCLUSIONS H pylori-mediated acetylation of APE-1 suppresses Bax expression; this prevents p53-mediated apoptosis when H pylori infect GECs.",
+          "score": 0.5418198704719543,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "22703082:abstract:603:811:85b772a3918a",
+          "paper_id": "22703082",
+          "section": "abstract",
+          "text": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "score": 0.9048489332199097,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9485730528831482,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "29fbf150d7a73d6528d8e5121c261f6ba22181c1122c8b33350ab06cdbc4f128",
+  "selected_paper_ids": [
+    "22703082",
+    "24705390",
+    "29367554",
+    "39550665",
+    "7465900"
+  ],
+  "aggregation": {
+    "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "22703082:abstract:603:811:85b772a3918a",
+        "paper_id": "22703082",
+        "section": "abstract",
+        "text": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+        "score": 0.9048489332199097,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9485730528831482,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "54cedf84c51ffb3ccbc148a9a3af98ce1f485b079368b127ae3997ebd6365ba9",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+        "citation_ids": [
+          "22703082:abstract:603:811:85b772a3918a"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}
