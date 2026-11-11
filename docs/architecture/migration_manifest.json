@@ -1,0 +1,3534 @@
+{
+  "source_commit": "11ba8dcadbbdd5ab2d672f9e42d61b53a7b592ce",
+  "migration": "Function-based package layout; no model or policy tuning",
+  "modules": {
+    "explanation_frontend.abstract_quality": "research_verifier.discovery.abstract_quality",
+    "explanation_frontend.abstract_quality_view": "research_verifier.ui.abstract_quality",
+    "explanation_frontend.adaptive_ig": "research_verifier.interpretability.integrated_gradients",
+    "explanation_frontend.app": "research_verifier.ui.app",
+    "explanation_frontend.attribution_cache": "research_verifier.interpretability.cache",
+    "explanation_frontend.attribution_view": "research_verifier.ui.attribution",
+    "explanation_frontend.benchmark_view": "research_verifier.ui.benchmarks",
+    "explanation_frontend.discovery": "research_verifier.discovery.service",
+    "explanation_frontend.discovery_view": "research_verifier.ui.discovery",
+    "explanation_frontend.export": "research_verifier.explanations.replay",
+    "explanation_frontend.inspection": "research_verifier.evidence.inspection",
+    "explanation_frontend.llm": "research_verifier.explanations.language_model",
+    "explanation_frontend.local_model_setup": "research_verifier.runtime.setup_language_model",
+    "explanation_frontend.models": "research_verifier.contracts.models",
+    "explanation_frontend.occlusion": "research_verifier.interpretability.occlusion",
+    "explanation_frontend.overview_view": "research_verifier.ui.overview",
+    "explanation_frontend.passage_selection": "research_verifier.evidence.fallback",
+    "explanation_frontend.pdf_view": "research_verifier.ui.pdf",
+    "explanation_frontend.person4": "research_verifier.verification.adapter",
+    "explanation_frontend.pipeline": "research_verifier.pipeline",
+    "explanation_frontend.pipeline_setup": "research_verifier.runtime.setup_verifier",
+    "explanation_frontend.pipeline_smoke": "research_verifier.runtime.smoke",
+    "explanation_frontend.primary_candidate": "research_verifier.verification.primary_policy",
+    "explanation_frontend.providers": "research_verifier.verification.providers",
+    "explanation_frontend.ranking": "research_verifier.retrieval.ranking",
+    "explanation_frontend.reviews": "research_verifier.explanations.reviews",
+    "explanation_frontend.review_view": "research_verifier.ui.reviews",
+    "explanation_frontend.semantic_integration": "research_verifier.evidence.semantic",
+    "explanation_frontend.semantic_setup": "research_verifier.runtime.setup_evidence",
+    "explanation_frontend.state": "research_verifier.runtime.session",
+    "explanation_frontend.templates": "research_verifier.explanations.templates",
+    "explanation_frontend.validation": "research_verifier.explanations.grounding",
+    "explanation_frontend.verification_view": "research_verifier.ui.verification",
+    "explanation_frontend.xai_runtime": "research_verifier.interpretability.service",
+    "explanation_frontend._upstream.claim_verifier.schemas": "research_verifier.verification.schemas",
+    "explanation_frontend._upstream.claim_verifier.verifier": "research_verifier.verification.engine",
+    "explanation_frontend._upstream.discovery_quality.abstract_quality": "research_verifier.discovery.quality_rules",
+    "explanation_frontend._upstream.discovery_quality.assess_saved": "research_verifier.discovery.assess_saved",
+    "explanation_frontend._upstream.person3.evidence_selection": "research_verifier.evidence.spans",
+    "explanation_frontend._upstream.person3.semantic_evidence": "research_verifier.evidence.selector",
+    "explanation_frontend._upstream.person3.pdf_evidence": "research_verifier.evidence.pdf",
+    "explanation_frontend._upstream.person3.verifier_budget": "research_verifier.evidence.budget",
+    "explanation_frontend._upstream.person3.contextual_evidence": "research_verifier.evidence.context",
+    "explanation_frontend._upstream.ranking_evaluation.latency": "research_verifier.retrieval.latency",
+    "explanation_frontend._upstream.ranking_evaluation.pipeline": "research_verifier.retrieval.fusion_pipeline",
+    "explanation_frontend._upstream.ranking_evaluation.reranker": "research_verifier.retrieval.reranker",
+    "explanation_frontend._upstream.ranking_evaluation.rrf": "research_verifier.retrieval.fusion",
+    "explanation_frontend._upstream.ranking_evaluation.schemas": "research_verifier.retrieval.fusion_schemas",
+    "explanation_frontend._upstream.retrieval.bm25": "research_verifier.retrieval.bm25",
+    "explanation_frontend._upstream.retrieval.data": "research_verifier.retrieval.data",
+    "explanation_frontend._upstream.retrieval.retriever": "research_verifier.retrieval.engine",
+    "explanation_frontend._upstream.retrieval.sbert": "research_verifier.retrieval.embeddings",
+    "explanation_frontend._upstream.retrieval.schema": "research_verifier.retrieval.schemas",
+    "explanation_frontend._upstream.xai.eval_ig_dev": "research_verifier.interpretability.metrics",
+    "explanation_frontend._upstream.xai.explain_ig": "research_verifier.interpretability.gradients",
+    "explanation_frontend.tests.test_abstract_quality_integration": "tests.test_abstract_quality_integration",
+    "explanation_frontend.tests.test_abstract_quality_upstream": "tests.test_abstract_quality_upstream",
+    "explanation_frontend.tests.test_app": "tests.test_app",
+    "explanation_frontend.tests.test_combined_integration": "tests.test_combined_integration",
+    "explanation_frontend.tests.test_context_study": "tests.test_context_study",
+    "explanation_frontend.tests.test_core": "tests.test_core",
+    "explanation_frontend.tests.test_discovery": "tests.test_discovery",
+    "explanation_frontend.tests.test_discovery_app": "tests.test_discovery_app",
+    "explanation_frontend.tests.test_discovery_verification": "tests.test_discovery_verification",
+    "explanation_frontend.tests.test_evaluation": "tests.test_evaluation",
+    "explanation_frontend.tests.test_hardening": "tests.test_hardening",
+    "explanation_frontend.tests.test_local_llm": "tests.test_local_llm",
+    "explanation_frontend.tests.test_model_setup": "tests.test_model_setup",
+    "explanation_frontend.tests.test_naila_ig": "tests.test_integrated_gradients",
+    "explanation_frontend.tests.test_occlusion": "tests.test_occlusion",
+    "explanation_frontend.tests.test_person4": "tests.test_verification_adapter",
+    "explanation_frontend.tests.test_pipeline": "tests.test_pipeline",
+    "explanation_frontend.tests.test_primary_candidate": "tests.test_primary_policy",
+    "explanation_frontend.tests.test_ranking": "tests.test_ranking",
+    "explanation_frontend.tests.test_regression_review": "tests.test_regression_review",
+    "explanation_frontend.tests.test_release": "tests.test_release",
+    "explanation_frontend.tests.test_review_app": "tests.test_review_app",
+    "explanation_frontend.tests.test_review_bundle": "tests.test_review_bundle",
+    "explanation_frontend.tests.test_reviews": "tests.test_reviews",
+    "explanation_frontend.tests.test_runtime": "tests.test_runtime",
+    "explanation_frontend.tests.test_validation_study": "tests.test_validation_study",
+    "explanation_frontend.tests.test_xai_qc": "tests.test_xai_qc"
+  },
+  "files": [
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/.gitattributes",
+      "new_path": "docs/architecture/project_map/.gitattributes",
+      "category": "generated_architecture",
+      "original_sha256": "24db659c7a1828da0d1683f54276a343ff9b91d91c24258c40275848dc8c029a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "710be11b662c952098cfc661bf685a14bc47872271334ec948878e273df4fa47",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/.gitignore",
+      "new_path": "docs/architecture/project_map/.gitignore",
+      "category": "generated_architecture",
+      "original_sha256": "91237ed558efb016079a51aded4dddc003df6aece82c99acc891abca953b638c",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "9568164a8e0ed32504f05c167bc1c44bc8f27f56dc4e4367eb0df81eb90ffa1d",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/ARCHIFY_LICENSE-MIT.txt",
+      "new_path": "docs/architecture/project_map/ARCHIFY_LICENSE-MIT.txt",
+      "category": "generated_architecture",
+      "original_sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/ARCHIFY_LICENSE.txt",
+      "new_path": "docs/architecture/project_map/ARCHIFY_LICENSE.txt",
+      "category": "generated_architecture",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/ARCHIFY_NOTICE.txt",
+      "new_path": "docs/architecture/project_map/ARCHIFY_NOTICE.txt",
+      "category": "generated_architecture",
+      "original_sha256": "665eb53e6fcf09cee183c9f23c8052645dc95570d9ccbbf53dc0f5213a1b5edd",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/ARCHIFY_THIRD_PARTY_NOTICES.md",
+      "new_path": "docs/architecture/project_map/ARCHIFY_THIRD_PARTY_NOTICES.md",
+      "category": "generated_architecture",
+      "original_sha256": "b5e129197f391568f7abf287c74b24f4835f10e5388f600407c8788feaeb9015",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/BUILD_INFO.json",
+      "new_path": "docs/architecture/project_map/BUILD_INFO.json",
+      "category": "generated_architecture",
+      "original_sha256": "fd98d1b2bc0a06450f4e9675ea3d1e1e5a6a9eb8efbb0e7c3ec55595d8441ee9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/PROJECT_SUMMARY.md",
+      "new_path": "docs/architecture/project_map/PROJECT_SUMMARY.md",
+      "category": "generated_architecture",
+      "original_sha256": "39efa6abc8086451832d3757bcc97e44ffbadc362a54621fbf452d37468d401d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/README.md",
+      "new_path": "docs/architecture/project_map/README.md",
+      "category": "generated_architecture",
+      "original_sha256": "d7510c5399f90882aeee08c5330950fd0f71e6134865c6f63ccbc503f1041532",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/candidate.json",
+      "new_path": "docs/architecture/project_map/candidate.json",
+      "category": "generated_architecture",
+      "original_sha256": "d100cb4c6ca2ed53bbbc92609df7f9b1bfa08a9accf42f27ed4b530a5ad9ae1d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/project-summary.delivery.json",
+      "new_path": "docs/architecture/project_map/project-summary.delivery.json",
+      "category": "generated_architecture",
+      "original_sha256": "ac04222414a956cd447ed7ef5c5b7a2c39da7e027ffb684ec44827f687aa4be3",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/.archify/architecture-nlp-capstone-20261111-162650/project-summary.html",
+      "new_path": "docs/architecture/project_map/project-summary.html",
+      "category": "generated_architecture",
+      "original_sha256": "4b46b5188f94a6ad4f84e7819cbd750e1b8dcc23a7810a2b05d777af0439df5e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/ABSTRACT_QUALITY.md",
+      "new_path": "docs/history/integration/ABSTRACT_QUALITY.md",
+      "category": "historical_document",
+      "original_sha256": "0c284e26a6a057e91dc262dda4bc12e1f74b0b22df3f32ebeefb7f6fe5f4ee20",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "3fbbd7b40ed080d9ec816e8c353f0fe6822f34f5714928f20675cbd856645db6",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/API_POLICY.md",
+      "new_path": "docs/history/integration/API_POLICY.md",
+      "category": "historical_document",
+      "original_sha256": "94179576affde9c9f6c01052d49937edc927c97ef3eaf7a6ba1d6e9b3003587c",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "8dd007990f4457788d73799e36da8c8a9d508f09fbff1f49474efb6ed99606c1",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/COMBINED_INTEGRATION.md",
+      "new_path": "docs/history/integration/COMBINED_INTEGRATION.md",
+      "category": "historical_document",
+      "original_sha256": "8dbd47941c98f4cdce14ac39cbda8c98f5ca18cedc70cdfa65e02fffee194fe8",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "dba738186542bf29f811975b333d4f28c4628c4a614509995a13727ae565ee09",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/DEMO_RUBRIC_GUIDE.md",
+      "new_path": "docs/history/integration/DEMO_RUBRIC_GUIDE.md",
+      "category": "historical_document",
+      "original_sha256": "1ce9fe3809d301e3551404ca87852bea6682841c43c63e74921ba31b2c2369a3",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "a92b62cc92a29a49474b068793841143570fa53eae4e88d4e2d2100c12d9e7b5",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/FINAL_INTEGRATION.md",
+      "new_path": "docs/history/integration/FINAL_INTEGRATION.md",
+      "category": "historical_document",
+      "original_sha256": "67b0f81e569fda1658cd92c64242cd299601bc4c40381618f67f8b2095baf4e6",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "21375c61216b1472b22592a1536f72f30305c7a4f80f5b3a54e1f4f8351ae563",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/FORWARD_PLAN.md",
+      "new_path": "docs/history/integration/FORWARD_PLAN.md",
+      "category": "historical_document",
+      "original_sha256": "095c6e4d6e1440d6aa836851e814e1f7bd6f892376377d4c87b996570b370ca4",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "5e496c42a10721c3b3cfc6a6d09105fd4f5a80af58dd5020a3d1179fb62a030b",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/IMPLEMENTATION.md",
+      "new_path": "docs/history/integration/IMPLEMENTATION.md",
+      "category": "historical_document",
+      "original_sha256": "e4e6cb46248161e4b811ee68e75d4c9490f0e75e81930e50b386075db66c7055",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "48002f206ac44c3a3e753ccb480b31a60e4f464f0b97e6e7580934cdf5f04751",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/INTEGRATION_CHANGELOG.md",
+      "new_path": "docs/history/integration/INTEGRATION_CHANGELOG.md",
+      "category": "historical_document",
+      "original_sha256": "59d8f0208b92d5775b7c0bcb6d504ca72c435ccb424ba4f774955520033961b7",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "f564b6f289e78120d13c0519ea00b0ec538ae343c0aa90f151e981904979a04e",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/PERSON4_INTEGRATION.md",
+      "new_path": "docs/history/integration/PERSON4_INTEGRATION.md",
+      "category": "historical_document",
+      "original_sha256": "394349f3014aed436e02a2c72a1c9f9f0fa8ef4981ee908654af3d8872569eda",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "08ac8d820ab6d17831d79f39e24fcf2bb29d740861dc48142b4dd1dfa4db288f",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/RANKING_INTEGRATION.md",
+      "new_path": "docs/history/integration/RANKING_INTEGRATION.md",
+      "category": "historical_document",
+      "original_sha256": "70785dc8f468a16b0cfbdf24f8a90c93786e203e441f9036bd104cb24e582094",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "c7e2cd01008d9c4f12961f0127e618deb1eb831e1d8a7992add9fcd44e330a72",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/README.md",
+      "new_path": "docs/history/integration/README.md",
+      "category": "historical_document",
+      "original_sha256": "10024a8d819597ba1fd712c08f1e01364724b54471adfd4ddc7e18271eeca1bd",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "af98f3435a32d16280d7cfbb13faca729c18425cc2e7d0e8a4c481917dd57173",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/TEAM_QC_REPORT.md",
+      "new_path": "docs/history/integration/TEAM_QC_REPORT.md",
+      "category": "historical_document",
+      "original_sha256": "05f60fe91d968e40f34a6be9963448fb87aa81cf93eaad61645fd94cddc55431",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "e84a4e72ca6ce3a5db048ce0bae80d15657f73b6546fb9019bf357385e3a64cf",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/XAI_VALIDATION.md",
+      "new_path": "docs/history/integration/XAI_VALIDATION.md",
+      "category": "historical_document",
+      "original_sha256": "bc47c6c573f5da32a1493ac87583b2a31c63fb2956778759a3c970c0a75270f2",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "43f4aa037b65358869c805a7bf9cc3e754fda502b9dcc8637db30d9477e0cd9e",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/__init__.py",
+      "new_path": "src/research_verifier/__init__.py",
+      "category": "python",
+      "original_sha256": "49343afdf8b359369f447e3c5a52d59b58678847f2a60ed2d25c6e8edeecb65f",
+      "preserve_bytes": false,
+      "migrated_sha256": "700ef1715c918b33a857b205f9dbc6e5832ee751a3636f8b95e84314ff295fe7"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/README.md",
+      "new_path": "docs/contributions/source_records/README.md",
+      "category": "source_record",
+      "original_sha256": "434cf288e63ad48965a2ba48466a05d33cdc49cfd68c91e2ca93b1127c505d6e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/claim_verifier/SOURCE.md",
+      "new_path": "docs/contributions/source_records/claim_verifier/SOURCE.md",
+      "category": "source_record",
+      "original_sha256": "f721a1efc717f77383b94ca9e7c67aee221b060b70e67f240a44e48dd78a3854",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/claim_verifier/schemas.py",
+      "new_path": "src/research_verifier/verification/schemas.py",
+      "category": "python",
+      "original_sha256": "8dc34fe10a5d0b510ebbde736b32eceef62e58030d282882f26f7e5dc21c3829",
+      "preserve_bytes": false,
+      "migrated_sha256": "8dc34fe10a5d0b510ebbde736b32eceef62e58030d282882f26f7e5dc21c3829"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/claim_verifier/verifier.py",
+      "new_path": "src/research_verifier/verification/engine.py",
+      "category": "python",
+      "original_sha256": "78739d556d70d13e2b727cd6ee0a39152f321189fd40458800fee3d2d852f2f8",
+      "preserve_bytes": false,
+      "migrated_sha256": "6d07f8663d435fdef832bfeefbd96cc4bce64352f5925ce849ff6f202b346992"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/discovery_quality/SOURCE.json",
+      "new_path": "docs/contributions/source_records/discovery_quality/SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "a7a4bae428f39d47e9096ce7ef73a3875a414ed6badc45e419cec4598a83d3e6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/discovery_quality/abstract_quality.py",
+      "new_path": "src/research_verifier/discovery/quality_rules.py",
+      "category": "python",
+      "original_sha256": "55245cb60dd965e93b641f220d724a010c723615fcbb06802cdb3f5d39a3dd2b",
+      "preserve_bytes": false,
+      "migrated_sha256": "55245cb60dd965e93b641f220d724a010c723615fcbb06802cdb3f5d39a3dd2b"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/discovery_quality/assess_saved.py",
+      "new_path": "src/research_verifier/discovery/assess_saved.py",
+      "category": "python",
+      "original_sha256": "2a9b3eb3575c559bbd417e5a34ff9a6f2109d6e8e41cf87e9e1b37984b20a4fc",
+      "preserve_bytes": false,
+      "migrated_sha256": "4d4e738c06c7da9a3025cb8858ff977ec5d164af6a802cef855ea2f630c90a49"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/SOURCE.json",
+      "new_path": "docs/contributions/source_records/person3/SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "9564a301285954ac7080689535e26b300277b35e28a24874e9c88cc7ebb31a5a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/contextual_evidence.SOURCE.json",
+      "new_path": "docs/contributions/source_records/person3/contextual_evidence.SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "3c6ffaf5050e883b453ad0c348080b29e94c3f90d8ecdf74dd9b17be5c914c00",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/contextual_evidence.py",
+      "new_path": "src/research_verifier/evidence/context.py",
+      "category": "python",
+      "original_sha256": "e931543344a6f93728cb8ef3a98b754437bf4a9b5fbecc2dd5427e9f5a43a3bf",
+      "preserve_bytes": false,
+      "migrated_sha256": "5a34d9b1185fc0a4eddea1ad0cc592fede13a5b72f9c54791e6289c1f9edb5f2"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/evidence_selection.py",
+      "new_path": "src/research_verifier/evidence/spans.py",
+      "category": "python",
+      "original_sha256": "1286f25488aa206aa0437e3e00c28acbe3e6a1da3eaaf04469301790468727a1",
+      "preserve_bytes": false,
+      "migrated_sha256": "1286f25488aa206aa0437e3e00c28acbe3e6a1da3eaaf04469301790468727a1"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/pdf_evidence.py",
+      "new_path": "src/research_verifier/evidence/pdf.py",
+      "category": "python",
+      "original_sha256": "42aad42c3bf6ba4dffc71393fe254eb88a18a8158ca7eba998018f34202d58b4",
+      "preserve_bytes": false,
+      "migrated_sha256": "7ac60d2237b4ed32e01f9386b91785d101bf7b0f205a8786b6b9103c4da5151e"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/semantic-train-frozen.json",
+      "new_path": "config/evidence_selection.json",
+      "category": "configuration",
+      "original_sha256": "005ea954fb75473921da506dfc05af8c6be9e4ceb880011dfbf54e32270a1b81",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/semantic_evidence.py",
+      "new_path": "src/research_verifier/evidence/selector.py",
+      "category": "python",
+      "original_sha256": "20b13b7fd0bd4a9926390dd43c6f30ad8118ebd0010c8319f3daacb3cb363a9f",
+      "preserve_bytes": false,
+      "migrated_sha256": "e7bcce4d814d20435fb42694289cda8715d04360aa2939af789436e52aaf37d3"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/verifier_budget.py",
+      "new_path": "src/research_verifier/evidence/budget.py",
+      "category": "python",
+      "original_sha256": "53238e4c6781bb2bd79a5f3adf13d30841febb830bd326a9968265dfc78645cb",
+      "preserve_bytes": false,
+      "migrated_sha256": "53238e4c6781bb2bd79a5f3adf13d30841febb830bd326a9968265dfc78645cb"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/SOURCE.json",
+      "new_path": "docs/contributions/source_records/ranking_evaluation/SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "07a7daae8fe305021e767911983525939d4e6509ae3a41b67dfc591c32d65dd4",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/latency.py",
+      "new_path": "src/research_verifier/retrieval/latency.py",
+      "category": "python",
+      "original_sha256": "34791e1390d143d1e166da4dda80f191c9d8c45aa21b27de495e5c224fa84d68",
+      "preserve_bytes": false,
+      "migrated_sha256": "34791e1390d143d1e166da4dda80f191c9d8c45aa21b27de495e5c224fa84d68"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/pipeline.py",
+      "new_path": "src/research_verifier/retrieval/fusion_pipeline.py",
+      "category": "python",
+      "original_sha256": "d016b70b88b088d1eaf2ca1d05cebf6c8e50e7166646ccc1e2afb1a69cca002a",
+      "preserve_bytes": false,
+      "migrated_sha256": "73e5a67cfb59faf10d91a6eba59e78afb0885a42110119e51f1d3f824e153e22"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/reranker.py",
+      "new_path": "src/research_verifier/retrieval/reranker.py",
+      "category": "python",
+      "original_sha256": "3a8df29dc507778bd524d40ff10842b83dc16fb8c846701b782e1d13b73a583e",
+      "preserve_bytes": false,
+      "migrated_sha256": "c9f5835982485320df5eb150b278b030555eaa96e4c9939d0c624944507d0d4a"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/rrf.py",
+      "new_path": "src/research_verifier/retrieval/fusion.py",
+      "category": "python",
+      "original_sha256": "cdeeabc87cf9c3f85c99a6b1165a478ef4921b9acd740b7a48cfb380d6d25b35",
+      "preserve_bytes": false,
+      "migrated_sha256": "059737846a2e4bb72fc8036f1f16f5b88fd101f35f2e8c23ceeb78f181bc011f"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/schemas.py",
+      "new_path": "src/research_verifier/retrieval/fusion_schemas.py",
+      "category": "python",
+      "original_sha256": "cd0b19cf20df06c7b6fc7dfc31e127695abbe5d7fc587288dd8230b8d882df02",
+      "preserve_bytes": false,
+      "migrated_sha256": "cd0b19cf20df06c7b6fc7dfc31e127695abbe5d7fc587288dd8230b8d882df02"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/SOURCE.json",
+      "new_path": "docs/contributions/source_records/retrieval/SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "6bfcbbbcc055cf9495a39eaa0766df290a71bfd1d4862d7b707e2e93d5c536b2",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/SOURCE.md",
+      "new_path": "docs/contributions/source_records/retrieval/SOURCE.md",
+      "category": "source_record",
+      "original_sha256": "74e1b0ee9256d36b7b403665bf4a00355b253bdb7b05aab6bd0470cded780842",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/bm25.py",
+      "new_path": "src/research_verifier/retrieval/bm25.py",
+      "category": "python",
+      "original_sha256": "27ba66c0493bb57c8b3ed19200ceadb85fdf6b1f8d3b0ed2cac7ed663b902d8d",
+      "preserve_bytes": false,
+      "migrated_sha256": "ce564d323f1cfd096e98b24f6d1ebfdee96bde89520ed8292b73a020adaf31d8"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/data.py",
+      "new_path": "src/research_verifier/retrieval/data.py",
+      "category": "python",
+      "original_sha256": "b35b49a8977a5b24b8fe243a5d2e20441c74911c0ff0ad9a289e4dccedd6cd25",
+      "preserve_bytes": false,
+      "migrated_sha256": "5b3136db09997111081ce9abe9a60a24cbfce652c894bf132bba08154ac54200"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/retriever.py",
+      "new_path": "src/research_verifier/retrieval/engine.py",
+      "category": "python",
+      "original_sha256": "1c450f9e5a9a4f5eea6a389300e19d4bb1c01d34a3c9f99c86fc91afabe22e07",
+      "preserve_bytes": false,
+      "migrated_sha256": "8bfb3c6462314ad7bbb163591bdf935ab59535ee6e15063d5ed429ba1d232a64"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/sbert.py",
+      "new_path": "src/research_verifier/retrieval/embeddings.py",
+      "category": "python",
+      "original_sha256": "118a944f44476f6b2dfc288e233884add7ec1719c09350ea7e90c4a7c75233ad",
+      "preserve_bytes": false,
+      "migrated_sha256": "d36e92d0848a86b13d47388a49cbf050c50225621c153e04dfb83cbb1dcc66f7"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/schema.py",
+      "new_path": "src/research_verifier/retrieval/schemas.py",
+      "category": "python",
+      "original_sha256": "b1f081ccca05558dba5f7453d4a242a6e01cefee290f90e0458a16de327fa225",
+      "preserve_bytes": false,
+      "migrated_sha256": "b1f081ccca05558dba5f7453d4a242a6e01cefee290f90e0458a16de327fa225"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/xai/SOURCE.json",
+      "new_path": "docs/contributions/source_records/xai/SOURCE.json",
+      "category": "source_record",
+      "original_sha256": "516bba86e72064d054d5af7a3d555fefbfb1b9d99d8ab1197a2cad404d5fa10d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/xai/eval_ig_dev.py",
+      "new_path": "src/research_verifier/interpretability/metrics.py",
+      "category": "python",
+      "original_sha256": "c915bf4eb185a742d2c15461863701686814b215737ceb35d4dd87f952cc7717",
+      "preserve_bytes": false,
+      "migrated_sha256": "c25aee4baefd65c6af5aff6cf51ed6e87fc9ae61355306c444edd9d06f9bdd81"
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/xai/explain_ig.py",
+      "new_path": "src/research_verifier/interpretability/gradients.py",
+      "category": "python",
+      "original_sha256": "a172689babb913f661e95241deda1078e2436035c14c41e0ef35497a9594777f",
+      "preserve_bytes": false,
+      "migrated_sha256": "2cbbf8130c4a0956b51670f3f79ffb5bcb895a51008e9ce642eb3a01ab9b8666"
+    },
+    {
+      "old_path": "explanation_frontend/abstract_quality.py",
+      "new_path": "src/research_verifier/discovery/abstract_quality.py",
+      "category": "python",
+      "original_sha256": "6067964cf817b69b6067715b1e63e509d66ffcb9359e5e557f56fc7e5b0e16b1",
+      "preserve_bytes": false,
+      "migrated_sha256": "9ccc1bad2f0e0914a7530fd7f831f76b462c763f59502a4a9dc789e8cc2130d3"
+    },
+    {
+      "old_path": "explanation_frontend/abstract_quality_view.py",
+      "new_path": "src/research_verifier/ui/abstract_quality.py",
+      "category": "python",
+      "original_sha256": "872d4b822da5212c53a13b6b969480123a8da238a1db6a1feb72481e5edf6db2",
+      "preserve_bytes": false,
+      "migrated_sha256": "7b60824f7888ca9b030f46f255106fece803836704a6e75331209108d9d759dc"
+    },
+    {
+      "old_path": "explanation_frontend/adaptive_ig.py",
+      "new_path": "src/research_verifier/interpretability/integrated_gradients.py",
+      "category": "python",
+      "original_sha256": "8ef27891ce60a6d3dfded6cb13b2c95f490af454dfd6d3b81c08e39834623f30",
+      "preserve_bytes": false,
+      "migrated_sha256": "f9f7c136998649ad65987cf5e6478f4c5485ceafb900210f1f7f26b5edece201"
+    },
+    {
+      "old_path": "explanation_frontend/app.py",
+      "new_path": "src/research_verifier/ui/app.py",
+      "category": "python",
+      "original_sha256": "323e9b917fbb0eea97d284f488715dce0de22db53fe95cb3b624f0bd0106648f",
+      "preserve_bytes": false,
+      "migrated_sha256": "0b61592e584188432ef06780d758d6458f7ec9df159a3e9d77221231b3f3cfcb"
+    },
+    {
+      "old_path": "explanation_frontend/attribution_cache.py",
+      "new_path": "src/research_verifier/interpretability/cache.py",
+      "category": "python",
+      "original_sha256": "5aae5ea2d3a2575eb3b674a080f16cdecd9cdba627c08eff8d9c50ed8aca6835",
+      "preserve_bytes": false,
+      "migrated_sha256": "03bef3393fcca70d1b80e353ec477db25184ad9608bca832d2fabce158f9f18d"
+    },
+    {
+      "old_path": "explanation_frontend/attribution_view.py",
+      "new_path": "src/research_verifier/ui/attribution.py",
+      "category": "python",
+      "original_sha256": "cbbcacb82ddc6db51f9463f7578711bf176549f91d08cbffec94a9d2e5cad97b",
+      "preserve_bytes": false,
+      "migrated_sha256": "827381d7da58e7771cb4ba9096b149022aba2a2c57bef39f6620a2167e3d338e"
+    },
+    {
+      "old_path": "explanation_frontend/benchmark_view.py",
+      "new_path": "src/research_verifier/ui/benchmarks.py",
+      "category": "python",
+      "original_sha256": "60ff02495bd766058f478e61a12a0af76a2118c364b13f072cbaad145348badf",
+      "preserve_bytes": false,
+      "migrated_sha256": "440840997e122d106e4ee34a9ed56e8780aea26ee2bef511e31a4ae40dabd052"
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/SOURCE.json",
+      "new_path": "examples/benchmarks/SOURCE.json",
+      "category": "frozen_evidence",
+      "original_sha256": "74e2ac801dce7fee89c5d7cde3b69323dd58696e8e699d3966d8d6ce1cc4014f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/ablations.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/ablations.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "74e15b9e684fb5cf0676314bf4cd1f43334bb47bc86ad4d35865fe33c92e8e4a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/evidence_summary.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/evidence_summary.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "1dd6d0d138508e6178ca8843a454427d84ace0f12828209c00d61329313b203b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/latency.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/latency.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "0d06a73d47daaa82ac2c19d081ff52281e599698fc0629bd07949a7e413658cc",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/manifest.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e742227b368ff000d38a2afe9cabc450eee27b311a21137fdb1319c514f1e8e0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/ranking_summary.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/ranking_summary.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "f3610b26a4a0ab0aed6fa01424b5a7bc3fe554b6d7f561415aac5c8817fa8b80",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/uncertainty.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/comprehensive-three-datasets/uncertainty.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "4543878b0b416bc23e91cba79044c58c03c2858e24e2b31776c9b24ee513fb3e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/csfcube-fold1-dev/manifest.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/csfcube-fold1-dev/manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "8c846a550414108388e796bba55788fa8fde52e55d3c76ea906eaea9dfc7751b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/csfcube-fold1-dev/summary.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/csfcube-fold1-dev/summary.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "f82e33aab9e3484d00449570d26cf6f601e84ba942f16b7f2dfd071c4fb0f36b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/csfcube-fold1-test/manifest.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/csfcube-fold1-test/manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ead9ae2c094e064c0f96b8a9d8482aa5976edd3d0beb9f829af288751d286198",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/csfcube-fold1-test/summary.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/csfcube-fold1-test/summary.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "de3328bab82990e6c67e82a65ad160efbd50e514c9079008aa78f926fa7d067b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/person3-v2/retrieval-results.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/person3-v2/retrieval-results.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "d9f828644faf116064f8f69b180c9fe2e4d907c3ce13def9413f1d89bd1dc5dc",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/person3-v2/semantic-dev-summary.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/person3-v2/semantic-dev-summary.json",
+      "category": "frozen_evidence",
+      "original_sha256": "dd503fcd4a6d10cb07355350413bc91c0f1dc27e73f1a48a7dd8e2b5810b17e6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/person3-v2/semantic-manifest.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/person3-v2/semantic-manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ac928361c94120df5699e73184af682c5b9831bd9f254173af046d95e6e7aeaa",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/reciper-title-abstract/manifest.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/reciper-title-abstract/manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "63af39e0ffae7d1b1b59c5c8274610d06cf9ad0f9c14963fbd34ba5317809368",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/reciper-title-abstract/summary.csv",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/reciper-title-abstract/summary.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "3b3291f7effb7f86f84bbd52b264d6edc273095bd5861d5595a5ae76116de9d7",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/ranking_evaluation/results/reciper-title-abstract/verification.json",
+      "new_path": "examples/benchmarks/ranking_evaluation/results/reciper-title-abstract/verification.json",
+      "category": "frozen_evidence",
+      "original_sha256": "82954c69b01ff32a0fbcb75c3d79e8897e7b803af1c5b078fdafdcaca267c7a5",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/shared/APP_EVALUATION_INTEGRATION.md",
+      "new_path": "examples/benchmarks/shared/APP_EVALUATION_INTEGRATION.md",
+      "category": "frozen_evidence",
+      "original_sha256": "f87b1cb7c1d22d9d7b0ce3e0053121e55e8cee688e09dfa19144c88722cd7b66",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/shared/COMPREHENSIVE_EVALUATION.md",
+      "new_path": "examples/benchmarks/shared/COMPREHENSIVE_EVALUATION.md",
+      "category": "frozen_evidence",
+      "original_sha256": "6e92d5c38e3af541bfd1f055afbbe3e9e61bd9def30d5bdae36e51dc5f1c58c9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/shared/datasets/CSFCUBE_REPORT.md",
+      "new_path": "examples/benchmarks/shared/datasets/CSFCUBE_REPORT.md",
+      "category": "frozen_evidence",
+      "original_sha256": "79b1b19043990eb5cfe5c5633a37208930eac2ac87cdd9368b822fffa53bd8f6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/shared/datasets/RECIPER_REPORT.md",
+      "new_path": "examples/benchmarks/shared/datasets/RECIPER_REPORT.md",
+      "category": "frozen_evidence",
+      "original_sha256": "acbc2ae9a9eab1210bda19ccf3363009ee8431c083282716fcc670ad1d060abd",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/benchmarks/shared/datasets/evaluation_catalog.json",
+      "new_path": "examples/benchmarks/shared/datasets/evaluation_catalog.json",
+      "category": "frozen_evidence",
+      "original_sha256": "569fed7e24a2230f4943d81b4d3ddd7cfe0b4bf42b6a51757f65945eebaebac1",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/contracts.md",
+      "new_path": "docs/history/integration/contracts.md",
+      "category": "historical_document",
+      "original_sha256": "6bdf9e8b4308981f645fdb7b22fbf833964256fbdc24682de5d64b41f0a303f9",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "3ff2045edf381d72edcd4e3849968d3aa39604bc7caca9b3cdaff60e2797ec78",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/discovery.py",
+      "new_path": "src/research_verifier/discovery/service.py",
+      "category": "python",
+      "original_sha256": "409f0843de535cceb3c3ae5aa48cc8c989115d97004dc8f5a0b9713c217b1cbb",
+      "preserve_bytes": false,
+      "migrated_sha256": "9eabfa2cf0c792cd8a1f4d869f324bddd11222a436a4720fe985e5ac5542ac0b"
+    },
+    {
+      "old_path": "explanation_frontend/discovery_view.py",
+      "new_path": "src/research_verifier/ui/discovery.py",
+      "category": "python",
+      "original_sha256": "3e533498a2b177dbecec33efd30c0568ac160aa5e479b16fe154bd5861223121",
+      "preserve_bytes": false,
+      "migrated_sha256": "2c6fc0a15e4dbeea6c46b2548f48bf44f2bfa945e3daf316484ac8cd9866eddb"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/__init__.py",
+      "new_path": "evaluation/__init__.py",
+      "category": "python",
+      "original_sha256": "bc310c7ab891e5466eed32b4ecc46cd96b781403fddee2237644864a5e39f143",
+      "preserve_bytes": false,
+      "migrated_sha256": "fb883d5d07b8bfe8e3edafa4cf97167b1f9fc9d491f49f503e70f6be029f383c"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/cases.jsonl",
+      "new_path": "evaluation/cases.jsonl",
+      "category": "frozen_evidence",
+      "original_sha256": "5b731e5a72d76465e164c321d48af539ce10dfc468c5705671e2fdb2646a1dbb",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "be46ef673a356ca20945d5bf9f3d18e0baa356a04d680373721f8fa288433c22",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/combined-validation.json",
+      "new_path": "evaluation/combined-validation.json",
+      "category": "frozen_evidence",
+      "original_sha256": "435285cf28f3f51c9ed9df59f27e472812ff99dca765b08841fd77bd77f66377",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "1ee05f82270f5c20bcf31425faaa6dfcb3287d4b0144fb7e083766eba4c701ec",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/.gitattributes",
+      "new_path": "evaluation/context_study/.gitattributes",
+      "category": "frozen_evidence",
+      "original_sha256": "d959cf08e1af48148bf061c9fd084ac2d6bc1cf6edad090d2ef87060e6d6f054",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "dcc22cde4847e1c793e6598f331c450d29b2bf60efaa5ef3d1c0742a28167d0b",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/GATE_TRAIN_FROZEN.json",
+      "new_path": "evaluation/context_study/GATE_TRAIN_FROZEN.json",
+      "category": "frozen_evidence",
+      "original_sha256": "43c220ddd48d380cd785ac165faab99733d44bd31c8a8fc46bf815f374903161",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/README.md",
+      "new_path": "evaluation/context_study/README.md",
+      "category": "frozen_evidence",
+      "original_sha256": "de2f0d8e394a6c320bc67f129502145bfe78c32ea9181ad34fd833b54916ca6b",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "99efa6ccf5f348de38948d339f27cd2fb68f7034a5bc8bba552b749c1ca4ab12",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/REPORT.md",
+      "new_path": "evaluation/context_study/REPORT.md",
+      "category": "frozen_evidence",
+      "original_sha256": "60b2f373a9e8587f91a62f7791a7a30a5a7cb2a562f6ea837aab18974bf97cbb",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "b06248552d7054cf72c3253744d55802893d21642e535304b72e26930b10a40a",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/SOURCE.json",
+      "new_path": "evaluation/context_study/SOURCE.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e2913b3f3361a7cc7b55369afb60c20a0ea9da61ad906b783175565952832554",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/TRAIN_FROZEN.json",
+      "new_path": "evaluation/context_study/TRAIN_FROZEN.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0db1c603fac2edee0e9766fd4b6b56e9770c81b3601ced34e55d18a161626d29",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/context_adapter.py",
+      "new_path": "evaluation/context_study/context_adapter.py",
+      "category": "python",
+      "original_sha256": "bc37bbac2c41fc8265ac777c255ca7cc25a6ba3fdc9b71db8b4b7ecac0a0fdf5",
+      "preserve_bytes": false,
+      "migrated_sha256": "5a34d9b1185fc0a4eddea1ad0cc592fede13a5b72f9c54791e6289c1f9edb5f2"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/evaluate_gate.py",
+      "new_path": "evaluation/context_study/evaluate_gate.py",
+      "category": "python",
+      "original_sha256": "82288b095462db9b07fd752095cb99b220a2ed304b7be9085aa1aa8abb34ae72",
+      "preserve_bytes": false,
+      "migrated_sha256": "9d99c3ef2f493d99e8a19f87e246d32d7d9760d8d5dd0a3f8af7555b3e048133"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/freeze_train.py",
+      "new_path": "evaluation/context_study/freeze_train.py",
+      "category": "python",
+      "original_sha256": "5bfef8d025366e59614184d9395c343d0586c63d34f43e104aa75bb63db6951d",
+      "preserve_bytes": false,
+      "migrated_sha256": "fcfd1e694f7660771e2fa56a3d840fe0fc8fea5a8aa72c3f9a25ec3cea3a4b5c"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/policy.py",
+      "new_path": "evaluation/context_study/policy.py",
+      "category": "python",
+      "original_sha256": "5f7818919c45c559c01cc66fcb8281d0b73988d6105cbf8cc546d76c29498b2e",
+      "preserve_bytes": false,
+      "migrated_sha256": "c4d3f986e3bb7ead6dfccbc067707d4b777a503e976407c6595d1c16f26c071d"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/provenance.py",
+      "new_path": "evaluation/context_study/provenance.py",
+      "category": "python",
+      "original_sha256": "ace5ca4994f13009346f041efe6380efe3242eaa0b3302db48a961aa7ea6c20b",
+      "preserve_bytes": false,
+      "migrated_sha256": "8c3a1e6de4f3fa12bcc8ce0427b8ac943c0a7f7766ac46ec9cf102cb595fd190"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/report.py",
+      "new_path": "evaluation/context_study/report.py",
+      "category": "python",
+      "original_sha256": "241ff6f4e7da7e7bf979141fdb7562851a2f075e9bc24c2e13d054fd3ca6f41d",
+      "preserve_bytes": false,
+      "migrated_sha256": "35a95b7109e75ac1b12819483f60d02d4cc441589afd3c15a6a37cffa1b58c0b"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/ARTIFACTS.json",
+      "new_path": "evaluation/context_study/results/ARTIFACTS.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0100d8804c562a96f2b180abde04a446fe4929c321b701066f43b9a2dd8e8d5d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/GATE_TRAIN_FROZEN.json",
+      "new_path": "evaluation/context_study/results/GATE_TRAIN_FROZEN.json",
+      "category": "frozen_evidence",
+      "original_sha256": "43c220ddd48d380cd785ac165faab99733d44bd31c8a8fc46bf815f374903161",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/RUN_PROTOCOL.json",
+      "new_path": "evaluation/context_study/results/RUN_PROTOCOL.json",
+      "category": "frozen_evidence",
+      "original_sha256": "1774b3e9a0c19946c0b18beeabfe031af3ac0ba3c608824ea8ffab751c68a783",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/SPLIT_AUDIT.json",
+      "new_path": "evaluation/context_study/results/SPLIT_AUDIT.json",
+      "category": "frozen_evidence",
+      "original_sha256": "8127b5ca4c0e7c23a5bfe84f30c2703dbdae713de24fb4f3976c2a9b94251748",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/TRAIN_FROZEN.json",
+      "new_path": "evaluation/context_study/results/TRAIN_FROZEN.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0db1c603fac2edee0e9766fd4b6b56e9770c81b3601ced34e55d18a161626d29",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/changed_claims.csv",
+      "new_path": "evaluation/context_study/results/changed_claims.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "2b2783b8d2b140235867fa4159335c39249e776041e4e31171fdb5a0397d5784",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/contradiction_regressions.csv",
+      "new_path": "evaluation/context_study/results/contradiction_regressions.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "3fa3cf76d551b4a5903187873c1c0a0055d877380ab4fe4901417f69fe7a98db",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/per_claim_results.csv",
+      "new_path": "evaluation/context_study/results/per_claim_results.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "c4d7762533d45ca4a665938b7be4f646499bfc964475fe63794465dd579c46be",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-1.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-1.json",
+      "category": "frozen_evidence",
+      "original_sha256": "19eefcf80201e007e2c669ab64a050647d6a175d075bbd980cba3623d8a882f9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-1187.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-1187.json",
+      "category": "frozen_evidence",
+      "original_sha256": "035f90fdfa2e2281995215b59a41254a96327b47e248aa53fe4ced57f9676883",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-1226.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-1226.json",
+      "category": "frozen_evidence",
+      "original_sha256": "628c2cc490890bbf8e06ba31626334dab72e4654a1da915876551577a5279d35",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-13.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-13.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3a0f499a24a29335f7e2851d310436df5ddb0f7ed1db7abcec51ed59bfb8b2ee",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-3.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-3.json",
+      "category": "frozen_evidence",
+      "original_sha256": "40c0ceed56ba6b587756b8c92732acc4eb48a3f4b08b314435444b276e30afeb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-312.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-312.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d8af47139f66e096196d26484a5761f99d1b175c92e5099f2842ac192549abd5",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-36.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-36.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0ab6c10ac57766647e4e0a3aac912b2be3b0a909732d2a412afbc7c671a19494",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-399.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-399.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ea883e944bd04ba7c42f2d7e99c0f3ff0b39b46cf4df4efb70b42c5cd97338f6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-5.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-5.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e25b35c7e84f359d8b16f9eb0485d069830fc6b47162714b6c1071dd6b01370a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-721.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-721.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0fc89158040d6f9653defb0e419f8df61530448e35a43bc4eb8528c717b9fbad",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/gate_replays-claim-744.json",
+      "new_path": "evaluation/context_study/results/replays/gate_replays-claim-744.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d1fec0620d7a7989a4cd9851e6b5b2a4cea630ccdf52d8558f2941e7deb6ed5d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-1.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-1.json",
+      "category": "frozen_evidence",
+      "original_sha256": "08fecca3876a79fcc38721752f066548b07d3dd104553d3c57ecd6931ba58038",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-1187.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-1187.json",
+      "category": "frozen_evidence",
+      "original_sha256": "8d7f80e7e47ab02f959b526b5fa6a0cd5ecad9e4a34bfe46567fec4700addbb4",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-1226.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-1226.json",
+      "category": "frozen_evidence",
+      "original_sha256": "9f684be34b7f71c4fa4ad5c468ed7e54de999334ca066bfd02c700443cf17331",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-13.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-13.json",
+      "category": "frozen_evidence",
+      "original_sha256": "4ca693a3160c8f2d8feed6a015d672cf956453784ef84030dfbac82928919345",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-198.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-198.json",
+      "category": "frozen_evidence",
+      "original_sha256": "35292f7ce62875f9d13b539e7a6ef122022faf3876dfdabb527f9d442cf8fe45",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-3.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-3.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ee7a77387183bede52f2b301be7c89e7998a5e58fa508200a802304d70ae7e54",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-312.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-312.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ccb80cdec08fa56d2bf06d5c046ca4cc1b3d25cfa2d3702177186a17b19cc9ad",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-36.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-36.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f00968a40ca8d0011e185810d39312e1fd1003eccc439edebfbf643626bf7dd5",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-399.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-399.json",
+      "category": "frozen_evidence",
+      "original_sha256": "4539eb1369511d87d051ac3f6f281aa364623939955629367b178b8ba889d6d3",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-5.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-5.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a908337ff8ccf5c0d0b8f1c3ad41ad07fde8ce9b4697e2cd7bc8195d1286169e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-533.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-533.json",
+      "category": "frozen_evidence",
+      "original_sha256": "237fda172097d30286fd18a4da83406a759f2a5005264d9f0232182d73a13df0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-721.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-721.json",
+      "category": "frozen_evidence",
+      "original_sha256": "25ed757c18e8259fd4d85395b637015c7f8da13feaa1cc97b3c6c7aa0f863116",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-744.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-744.json",
+      "category": "frozen_evidence",
+      "original_sha256": "05375efa62fa5fae588c980ee6e23be34938d52bbf2a801394499f7e794e25fc",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/replays/replays-claim-975.json",
+      "new_path": "evaluation/context_study/results/replays/replays-claim-975.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e1a19f6849cd20b7bdea8ae18b4ab5f5f64f2c992e811081aa5ff68466fec32f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/summary.json",
+      "new_path": "evaluation/context_study/results/summary.json",
+      "category": "frozen_evidence",
+      "original_sha256": "b42319e83b65a07e0860057926848074689f3ba74a994db50633745806d51889",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/tradeoffs.pdf",
+      "new_path": "evaluation/context_study/results/tradeoffs.pdf",
+      "category": "frozen_evidence",
+      "original_sha256": "52042e7ca4f26fd4754fb2c51adb2cee7f0a4fa48ad386d2067254e9812a0fc8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/results/tradeoffs.png",
+      "new_path": "evaluation/context_study/results/tradeoffs.png",
+      "category": "frozen_evidence",
+      "original_sha256": "ff04925bb75cdf7d82f5a986f1dcbb3f8ee5e057b409c7483db4414bcbbd7da6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/run_local.py",
+      "new_path": "evaluation/context_study/run_local.py",
+      "category": "python",
+      "original_sha256": "76f9e6926603b9198b46337714fa11ea0e1a038297d833ed258a5da2411b1ebb",
+      "preserve_bytes": false,
+      "migrated_sha256": "cad939a9220bb8ffbda69e2c64d8735e4f9d7c95e7a06fa91c7b920b5c6becf9"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/context_study/train_gate.py",
+      "new_path": "evaluation/context_study/train_gate.py",
+      "category": "python",
+      "original_sha256": "cafe9e036d83d9fe718bf1c2238f162fc83fe5a4ac69247671d54e03188098ae",
+      "preserve_bytes": false,
+      "migrated_sha256": "cf77ceaeaa6aab8f327f6cf8a1f90ddc40cd352b41bfbe0a31765c245ecd2bdb"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/contract_probes.py",
+      "new_path": "docs/history/reproduction_tools/contract_probes.py",
+      "category": "historical_source",
+      "original_sha256": "db19b458a2ac9623e105e031cfacb529afd68d52a4f28475acdc3286aa93fe59",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "bd278fc6c54c1faba1d342bac5765885e51ebd22276c171486dc3391ba4b561f",
+      "restoration": "Historical source restored from exact committed blob; original_checkout_sha256 retains checkout newline variant."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/development_qc.py",
+      "new_path": "evaluation/development_qc.py",
+      "category": "python",
+      "original_sha256": "92bc69c24fe0a7ccc97aa4ee5bf8d7732ecaab0e1c0f8559664ea056e681f194",
+      "preserve_bytes": false,
+      "migrated_sha256": "c99e08c1170c47844a1ae97e349a42a85c325750ffe067c87aeac89b8f210f03"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/edge-cases.md",
+      "new_path": "evaluation/edge-cases.md",
+      "category": "frozen_evidence",
+      "original_sha256": "34335febf917abb4a42b2e8eaea2a80c7c066ebe6a619459f5e2c5d688f6c69c",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "deac55350f53aadcfcdabe6f9dc96245a7df24d15dece1fafe9a4d9eec5c1bbd",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/efficiency-results.json",
+      "new_path": "evaluation/efficiency-results.json",
+      "category": "frozen_evidence",
+      "original_sha256": "754faae0d9850eeab17b8c88b53e511e29d1fc56e3f227ff7a15c98893c1767a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "9abed3403b38643524c88805e03f088036900aca4af9e720655368ba5956762e",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/efficiency_qc.py",
+      "new_path": "evaluation/efficiency_qc.py",
+      "category": "python",
+      "original_sha256": "091affb3d38e27e56ce514347e85d3d48bac20740711587c354a077962601e28",
+      "preserve_bytes": false,
+      "migrated_sha256": "972995e60f63997f3d56fc31dca3c481134cde14ef7193b3ade323b13b2bfd57"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/end-to-end-smoke.md",
+      "new_path": "evaluation/end-to-end-smoke.md",
+      "category": "frozen_evidence",
+      "original_sha256": "7872709f693f51a8199de92b87a095ace029af2c0d144c1d0186a9b9e77b343a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "01a7a3c421bc067257de0779a1324d84a7aa6366d970756398d76d8d452f0bf3",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_audit.py",
+      "new_path": "evaluation/independent_audit.py",
+      "category": "python",
+      "original_sha256": "eeac13a1cd3c3663f865630d88820525a3a538a622fd6920fb62521f85c5d61e",
+      "preserve_bytes": false,
+      "migrated_sha256": "863bcfc2147f419be5786a1e4725dbd317e2bca0fe444f3cf2d867673a6cebed"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_report.py",
+      "new_path": "evaluation/independent_report.py",
+      "category": "python",
+      "original_sha256": "f6d5cb64e7ca69014bedd4ef69520e75c923089d096102eb3a95e8960210ce9c",
+      "preserve_bytes": false,
+      "migrated_sha256": "77f29dfd319e9139cbd635f6b332921173195038a59bb7cd8cb877d4a9913566"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/ACTIVATION.json",
+      "new_path": "evaluation/independent_results_20261111/ACTIVATION.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a380f379440018b4d0dcdf099a95b431d51ea36fda0dad499fbad27b01b4b62b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/ARTIFACTS.json",
+      "new_path": "evaluation/independent_results_20261111/ARTIFACTS.json",
+      "category": "frozen_evidence",
+      "original_sha256": "44b335bc583c2e04c2116b5ead65cb3b4ae4a3b17ebbab5751af521c9af82475",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/PROTOCOL.json",
+      "new_path": "evaluation/independent_results_20261111/PROTOCOL.json",
+      "category": "frozen_evidence",
+      "original_sha256": "622aefd85ac66d7822c62a8863b8f3ef557f89f9db61c7ee6569d9b29346d2f0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/PROVENANCE.json",
+      "new_path": "evaluation/independent_results_20261111/PROVENANCE.json",
+      "category": "frozen_evidence",
+      "original_sha256": "51c1bbe3767512b707974f60ee0e3d6e048725b36cf84eeaae3f5059fbbfbb76",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/REPORT.md",
+      "new_path": "evaluation/independent_results_20261111/REPORT.md",
+      "category": "frozen_evidence",
+      "original_sha256": "b78abe7c739ad73df9d356ef8a607007d8f606387a73240969dfcafb8db4e322",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/changed_claims.csv",
+      "new_path": "evaluation/independent_results_20261111/changed_claims.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "abbc7e513fb0a4d54722cf2ccd17d2b7e1d02ce788cc2ef508c78af9ee1683f0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/per_claim.csv",
+      "new_path": "evaluation/independent_results_20261111/per_claim.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "d631e8698075baa4b64cf0c1ab9679ad9ed320180ed3e3c1d2b7b1e484e4ee45",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1006-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1006-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "27d4495a12ca7447d4169b6d073269b8351a4dfa61dafeded644e1f752bed203",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1006-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1006-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f531d7b7282788c9b395c59948e295b2179aff38c1455d2d2f6b4b382aa92940",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1025-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1025-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "56b640c7eb1882ba886e91ff4625587289b97d3ad0a0f26c9e4a0bb8f30c9109",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1025-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1025-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "1d54425d873da6a4684f437e248a7cf2007483a465a51582783373beb5b1da7b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1045-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1045-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "404c5e29bec44f176a51d25d5db8e385d5765ec695d542440cb4e024aad768b7",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1045-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1045-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e6b1fa68e2f3dd9bdde9441136283bfdc1a00787307b084cbb2cfd1365265f40",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1098-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1098-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "baabedbb66226b4a272397bb2c1323a1ac5a7f5d6b62f574ee8836f7f5c038c0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1098-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1098-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e928ee02c21083009c46c987383c44f8416f0aa851a87e5b5a26032f5bd23587",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1105-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1105-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "94db392bc6d8e952145cab9f65220ef90f54c0b7e387578e927ffcb51b209bc8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1105-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1105-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "23dc018f64b58697b60b9fa32bf64282276eeb5d5965e4f527716cc8e11a34ca",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1138-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1138-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c5e90e3113ab59908a5ed558b370e7c2ece2ab7f161eb0727a99b8ea74b2b6bb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1138-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1138-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "856d5501fb17860bab47c963de667fc29dd7e96b46098e75a3105969e6e4aa5c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1183-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1183-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "8bc12729c92632a214d744222e0596076f3e223c0ee487770df89119d9073f82",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1183-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1183-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f484e3bafdf833f1850f0e5ce802edca684a44775ea6a4363a1b81b85e95c024",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1249-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1249-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ec9edcb8c1217875ab064d418f0d09a9f228f7758a262abf5fe76d5e767b6f4c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/1249-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/1249-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "7dfea9814d43069677a9613d4d39dcc1106e1ae9100c6486e370c1af930aae8f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/365-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/365-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "87928c97fbeeb8bf414650055ef6f45dcb41baf63a7185e94e4bf081d1e380cf",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/365-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/365-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ffeed89b728b0c98db22987475679e0839bf57d012f2e463f0a2f80504ecf34f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/418-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/418-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "22e79ea147b4e8d5b3848e7f1245983a55290f97671c3be479987d3d1c03e426",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/418-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/418-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3c7b55039e194e3a87af49df9f597408811a6352ab70b4a7a2f54ead39dd1ffe",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/483-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/483-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f6e89947b3caf10ea27e3c6726cfc7d6fecfe0f7b045e8a2a7316950953a687c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/483-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/483-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "474a60361d5520183b91c52563227987a65901f192d0c9b6549b587735659ccd",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/710-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/710-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "bd2e7408aa9de985272ff3b17ceb34df3436a589065103976fc1d64a3ebdf332",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/710-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/710-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3a293539103c27c3339058fcb3e46d4c225f4545d8bdba12d23d789a3719fcf5",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/739-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/739-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "7ce1a0eccbf8e24f09a10548643e9aa2ddf6cc1ef776b512dfb3068ce24c506b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/739-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/739-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d113f323fe70f92b9b709206acd759a364f9381987c200ab56d112921ded2966",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/828-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/828-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "af97d705004566a5ebc50f74157a993e8f1d7fc316d413fbc3a7ddcaab142ca8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/828-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/828-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "e487999fe8323dbb82530fc19885517c60f2902d639e9673f5a193e9ee541104",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/955-baseline-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/955-baseline-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "9d568c3dd9139cc71cc6c8b6ed856c58f0f69f61fc5e5f69c30dceb9aa098792",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/replays/955-yuyue_frozen-replay.json",
+      "new_path": "evaluation/independent_results_20261111/replays/955-yuyue_frozen-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "489edc3571633152351417598e2cd7f8fe6cb39d97ea155f04af0dfde62b3e91",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/independent_results_20261111/summary.json",
+      "new_path": "evaluation/independent_results_20261111/summary.json",
+      "category": "frozen_evidence",
+      "original_sha256": "aaeba5d1a4352c6c9162301fbee9b0e4269c53e15750204b7faad0d7bd8b5ea1",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/occlusion-results.json",
+      "new_path": "evaluation/occlusion-results.json",
+      "category": "frozen_evidence",
+      "original_sha256": "2beae1d50a54f2df4c4eb334e5048c0971fb8e2c481d77a830ae6a9fbf42bdf4",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "740f4e39f7fa659a4d2f7daadf98c968c07d895a9ac5c3b3cb84863c73a078fb",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/occlusion_qc.py",
+      "new_path": "evaluation/occlusion_qc.py",
+      "category": "python",
+      "original_sha256": "43cb2938eea8c053965c34f582d0d47150dca0852e8438e2de832fc320441c85",
+      "preserve_bytes": false,
+      "migrated_sha256": "8802648eee9b8ab2e871c8649f61cea990ada83629465f059932227b613eb119"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/pdf-acceptance.json",
+      "new_path": "evaluation/pdf-acceptance.json",
+      "category": "frozen_evidence",
+      "original_sha256": "aea27af62ea3444f3c155f88cf31b385dc5c0ccc00fa350c2d6386922dd0ce98",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "0f813eee5bb26c0db12179f9a28c5e36a2f7aab1838f48cf7a2cf29686257fbf",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/qc_development_manifest.json",
+      "new_path": "evaluation/qc_development_manifest.json",
+      "category": "frozen_evidence",
+      "original_sha256": "1b266ca63b2691a39bd210dc3eaf82a6579f9afc6f304479974df3bb8093c0ac",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "01c08bc9364ba9ea1cb51265cffb34eae98cbd109599be3262eabf618cf1c834",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review.py",
+      "new_path": "evaluation/regression_review.py",
+      "category": "python",
+      "original_sha256": "f77f40c3013282a9b506679eed022ce8f9f03e368c94b75c89939f3eb6afabd0",
+      "preserve_bytes": false,
+      "migrated_sha256": "7cc8563c09daa79a9450ad74900da78b53e14d8499d5e12a921d159e2ca83912"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/ALL_REGRESSIONS.md",
+      "new_path": "evaluation/regression_review_20261111/ALL_REGRESSIONS.md",
+      "category": "frozen_evidence",
+      "original_sha256": "ae060abe1a4cd5f7e34a1586766ec11b30b42908d22e27aab383f72814bef382",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/ARTIFACTS.json",
+      "new_path": "evaluation/regression_review_20261111/ARTIFACTS.json",
+      "category": "frozen_evidence",
+      "original_sha256": "de609165ae5143b8b51c030b1dbfea3ad20953b470b0d4a59d8852976aaff137",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/HOW_TO_REVIEW.md",
+      "new_path": "evaluation/regression_review_20261111/HOW_TO_REVIEW.md",
+      "category": "frozen_evidence",
+      "original_sha256": "2d1a94c393b8562a4679a3ab3b8d11e4c747ca7a8b6479e85acc120c8c24af71",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/REGRESSIONS.csv",
+      "new_path": "evaluation/regression_review_20261111/REGRESSIONS.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "e384c111b1edc3e299e1233732926b43b31feb131dfb4ce418173017cfb07aa7",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/REVIEW_FORM.csv",
+      "new_path": "evaluation/regression_review_20261111/REVIEW_FORM.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "4ecdecb05b473143d8832984eb3d88ff8fc20228a69b0963debf7d0537327dce",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/SUMMARY.json",
+      "new_path": "evaluation/regression_review_20261111/SUMMARY.json",
+      "category": "frozen_evidence",
+      "original_sha256": "fce31e0d8d72556587be37ab57b0c22510e5583123abc5880599f25de29457c4",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/case_diagnostics.json",
+      "new_path": "evaluation/regression_review_20261111/case_diagnostics.json",
+      "category": "frozen_evidence",
+      "original_sha256": "07fb4be82399977c4f627c1352637cabcedd2e44b037d7f020e635b4bd6f61bf",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1026.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1026.html",
+      "category": "frozen_evidence",
+      "original_sha256": "181ae17ee0ac09a15fc6888ff0601b9cd207c1894dc41f4516e02070639ff466",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1034.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1034.html",
+      "category": "frozen_evidence",
+      "original_sha256": "644903973f7b952d05984947e029675e796fed4b9977cc9548dcb9433c256732",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1036.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1036.html",
+      "category": "frozen_evidence",
+      "original_sha256": "2fa7dc3454e448f262190db78cb532fa68a1286d6359b35742e3cc59418d3469",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1065.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1065.html",
+      "category": "frozen_evidence",
+      "original_sha256": "6ecb7e734d4f8b155b3c6a7f9eb5d7868d1d249c2c4511c53fbdd7df97c6dc4c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1220.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1220.html",
+      "category": "frozen_evidence",
+      "original_sha256": "327c8275cef06126723a951f426115aeb67457a9c1cc93f61029dfeb1e8b9875",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1228.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1228.html",
+      "category": "frozen_evidence",
+      "original_sha256": "6f9e991a388d00bb0e200deae66cc9d9bb59a66beaed2da27364c89f44e7b33c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1293.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1293.html",
+      "category": "frozen_evidence",
+      "original_sha256": "0e0934552236e8f5a4d3e8dfdc03f35ef3e042f44b319b6144632143961f62bb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1294.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1294.html",
+      "category": "frozen_evidence",
+      "original_sha256": "389afc355388bcf9e7114ab56e56c19c0701d1925f7ee0824d79ab1f3c5ced8f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1327.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1327.html",
+      "category": "frozen_evidence",
+      "original_sha256": "244af23abee26702b6d49341a8597933af07c60b0a0c325ab92e5759dce97005",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/1349.html",
+      "new_path": "evaluation/regression_review_20261111/cases/1349.html",
+      "category": "frozen_evidence",
+      "original_sha256": "f44bbd8bd0280d1d625e3a4d57c88ffd2eba2b3da30715e9bdbe258211211384",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/365.html",
+      "new_path": "evaluation/regression_review_20261111/cases/365.html",
+      "category": "frozen_evidence",
+      "original_sha256": "9aaa27efb799f976fce1f69bd34c4b567b0a556f56e9f07e16f8540b4132d049",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/370.html",
+      "new_path": "evaluation/regression_review_20261111/cases/370.html",
+      "category": "frozen_evidence",
+      "original_sha256": "e7108908e53e3bbc8b664eb88fe7bc98bf49dc9cbc26d94ffc15bcd4fd6b082c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/375.html",
+      "new_path": "evaluation/regression_review_20261111/cases/375.html",
+      "category": "frozen_evidence",
+      "original_sha256": "51c9edf314a342b053fd08cba34ddff4128dc14474db6f1b4549ea22469e36f9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/426.html",
+      "new_path": "evaluation/regression_review_20261111/cases/426.html",
+      "category": "frozen_evidence",
+      "original_sha256": "faecde80f2374f7f33fe997b5b0dd46c6f1f9aa6c38f2c01101060752506a4c0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/428.html",
+      "new_path": "evaluation/regression_review_20261111/cases/428.html",
+      "category": "frozen_evidence",
+      "original_sha256": "1c962b483fe1b7b5edb7e399e2111f4a9addc8e1b948b25297f5235f8ef1f975",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/466.html",
+      "new_path": "evaluation/regression_review_20261111/cases/466.html",
+      "category": "frozen_evidence",
+      "original_sha256": "6a024683d2bc32a4834498bfa3b8721e4ac19bf50d0764829584b5669d0d8771",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/499.html",
+      "new_path": "evaluation/regression_review_20261111/cases/499.html",
+      "category": "frozen_evidence",
+      "original_sha256": "062d7a45d5da13ade38d4b87b1ac65b1effc76748f2cc158ca062d13d5fb4daa",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/647.html",
+      "new_path": "evaluation/regression_review_20261111/cases/647.html",
+      "category": "frozen_evidence",
+      "original_sha256": "424545aa201d5c0d6ea2b3d9841d2047a913a59e849a3300dcdf0cba6c1dfcb8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/669.html",
+      "new_path": "evaluation/regression_review_20261111/cases/669.html",
+      "category": "frozen_evidence",
+      "original_sha256": "961313076402587f14bac996895d11d65811413c8375879135089af7872a632a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/698.html",
+      "new_path": "evaluation/regression_review_20261111/cases/698.html",
+      "category": "frozen_evidence",
+      "original_sha256": "3bb5c9e496b28adc6b6a96baf48cfaa6bbe06eef39bdd80fd59405ccb54a5696",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/709.html",
+      "new_path": "evaluation/regression_review_20261111/cases/709.html",
+      "category": "frozen_evidence",
+      "original_sha256": "0adc84b4925e0bfb14849dbe4db82e186c51aa17ed5d58fa8cad0bee1adcfa37",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/753.html",
+      "new_path": "evaluation/regression_review_20261111/cases/753.html",
+      "category": "frozen_evidence",
+      "original_sha256": "b49057b49ea5e75578ca1e245c3e2b4b12d864e31105eac788f68fbe22f6df94",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/787.html",
+      "new_path": "evaluation/regression_review_20261111/cases/787.html",
+      "category": "frozen_evidence",
+      "original_sha256": "076f649e81d0f5379f2a5e18e3418be463e51f3349e460c45bb3edcdf7a2d2b5",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/927.html",
+      "new_path": "evaluation/regression_review_20261111/cases/927.html",
+      "category": "frozen_evidence",
+      "original_sha256": "2cf057f8fe9b0efcff8b66381ac75c314ef42c7a4c0aacdcd25e269172c62c82",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/cases/pdf.html",
+      "new_path": "evaluation/regression_review_20261111/cases/pdf.html",
+      "category": "frozen_evidence",
+      "original_sha256": "58eeb864d61c03b7d26104e4af2f72d932b4dfe36e038f6432694405391fd1ac",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/index.html",
+      "new_path": "evaluation/regression_review_20261111/index.html",
+      "category": "frozen_evidence",
+      "original_sha256": "423a02f011de5c80a247ccdfa4f4e2f78e9b1bc392c7cbf60f35aa4bc842a37f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1026-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1026-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "04cf3312dbbdfe2089e44acca1979fb7d6b30f9473ac718ec47fada58a34df07",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1026-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1026-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c529c46ca6f56f769386cc145eaacc73c35fdd19fb977709a17400c4027db04b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1034-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1034-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "96214aebdfac5a38d66d6518728c1c1333b6c41432c039a2ca48224a23a62228",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1034-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1034-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "2c3235c4d1f2d6244f5340e5ed73c48b0d49c254bdc70befc456e1ec2e799571",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1036-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1036-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "306b4b20e0f686f7e4eb347750e89e91b907bd2ba47cee49e15057ee7f85f42e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1036-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1036-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "696606a282768c2aa2f807d82ae976638faae5899558da3b599a284768f9254d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1065-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1065-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "071dfab331c7baa492f8fd53eb378bb9e108a5598a6ae687e43b056f2f0110d0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1065-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1065-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "b50fe7e0706c2976ebf570b7049f70e311c02c64ab532b481229c516ede309f0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1220-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1220-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0a65950f0372ff51f14bafb43e1eda08741203a76b6c5e6033905815cff4d5df",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1220-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1220-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f88e6306e6804e5a4c13016e7f86af83e4e83bb7a75eb04994752e9d6914e8ce",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1228-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1228-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "fed4ebc7b4c06209c1fbf892a592d51b785f2aa7b3d87ee87af1c21b15761e01",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1228-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1228-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "13e3c89adad991ed366c138f42893cd162d5b4430ca1765f6c7d124294479921",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1293-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1293-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3d841a0c2c6ae4acaa401a6571a7277c076cf591bf4d633165e09ab3fe893658",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1293-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1293-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "aaaa94522439124a100aaea61e904bf1100480a4750ceb4b161d382f4896f014",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1294-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1294-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "140e57186f515403a4d1f824e6f7880f1979f419008a80e2d62c49d6eacd1d60",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1294-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1294-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d5c3ba7c47794720401cbf4278041fc6a1e51274f8f6a0d27c5d268a71c599f9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1327-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1327-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "f7643a6a2bc07fc6f9b054885e3d30415087135d3545311017c8c787ae223688",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1327-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1327-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "497e07e0403ae510bcce7f9841493894fcc7707220ca7c05cf98c163c9e20761",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1349-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1349-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3f5921d661175931169159c304e74e82545009fc16c0d0eada6be235348dadb6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/1349-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/1349-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "1d6a095f09276b832935f778016945554a6f99f7be99328f3916ae4f8a5b3ac2",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/365-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/365-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "bff634b88888a14b850c24725bc363855247bfd300d8ee7132dc97d168b5d596",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/365-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/365-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "edbedfbc11c251a384600d8ae7db5ac13f8334256d0d33b6286940a97bf290c2",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/370-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/370-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "eb7651726874438b162af16479751bf0826cbfe6af71e4b0a97678ce80c364fe",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/370-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/370-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "6f90e8980d726655b411e571422ef0cb1d471adfa71b275efcaae1790d62bb90",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/375-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/375-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "665fa48f59acc37d226590d385aa4ce5f5b699fc69ed84a2cd56ca64c933bd6f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/375-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/375-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "4067efaa511b7379c7ef8b052cb445a9f96e24796519724e85f4f193b912ab94",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/426-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/426-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "541b1f7ab6c30f40d7e8ad685aa7f2360fc37b394ef104b44d3821b17d9dcfba",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/426-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/426-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "293b8315d6e162ac02d64d5abe17a3657fa4348fbe0dd9a9ad0ba3f76dfca25e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/428-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/428-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a8e9223d85c90a185519bd03cd20bcae12dc98d57324130bdf641c9eb5228fd8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/428-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/428-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "bfe27254f059056e0431e6e0b6e78137412f5e4378146fb17b9711d0f3c8d5c8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/466-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/466-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "07dae2f587c8f75a0221807c8007be1e565b2dbd3ee92149ab6a72728b7a221d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/466-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/466-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "618a19c2f567f6d1c465fa4b2e0d22c0b7f917c1dd1c7a1fcc668fa248a1157a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/499-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/499-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "acf1b87785de1903618e988aa1bbc04e32e53cec3e572c0e04398485c9668db4",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/499-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/499-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "423f2e89da2ab4fcfed2c1fee0489aee69ad319d7083a0014c70f61e1841ab40",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/647-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/647-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "2e368cc7954b68d5cd85c8f597ece5358722bc4621de56606c86eb79dafbd51a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/647-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/647-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "4574a2280daf21560b6911ade0d6356d55b008292d87dc627d1d8eac4f576179",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/669-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/669-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ded6e2446c3603a043104b3f72c26731bf00ef4c63e0c2d69baa7927fefdafc7",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/669-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/669-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "b143d33a190183895dd98100b2df7b62460f539113d256fc4246f6f54c5db782",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/698-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/698-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ec44387e310737f6872faa63baff5fda116f33e442fc2949a4bc5dc3c4f2f393",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/698-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/698-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "ae9ac02c06c379bbebc375aa2adf22690ace704f3afcf537693feff5a176ebed",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/709-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/709-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "99d5b98659e0fd197f50b9f102ab22b744ad872419b7907fa1c9c8667b5a17a9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/709-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/709-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "29b26934618d6838a84e11e571b1bcc457b7b2362dd57e7d09e817928065e077",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/753-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/753-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "250fcb549aee2ea03dab01de38a1465cb1b9b246b49b31c05d0b1e488c1e79b1",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/753-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/753-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c4af31383b087c79d0afba27605c3c83431f8c8c2cc4dd5137b8fc1adffa6e9e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/787-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/787-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "42a107a1ac5cf6790eedb09294cf8a7f580e7c91c4532648e4577a1138dc2ede",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/787-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/787-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "7cba36fede0839c268c8675b63557529d32c3b469a4b9d6ae109abab44c708fb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/927-baseline.json",
+      "new_path": "evaluation/regression_review_20261111/replays/927-baseline.json",
+      "category": "frozen_evidence",
+      "original_sha256": "11966ced25521a299902d26c4b3333ac6d7d1f3537cd5cb0773177b27621ffd0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/927-yuyue_frozen.json",
+      "new_path": "evaluation/regression_review_20261111/replays/927-yuyue_frozen.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c926f609caa191a67dd1afceb172c1506df0457f81e3c9d2b0e28b63a67616eb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/regression_review_20261111/replays/pdf-ig-paper.json",
+      "new_path": "evaluation/regression_review_20261111/replays/pdf-ig-paper.json",
+      "category": "frozen_evidence",
+      "original_sha256": "6c2afeb8612ffa6f62d8a5dcc0e0f96e7ddcef8db53869abb724545bb71fa2eb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/release-acceptance.json",
+      "new_path": "evaluation/release-acceptance.json",
+      "category": "frozen_evidence",
+      "original_sha256": "5afc568a71d710f13795f249ab91e198488b8b25a159264fa53c2697ce35fc0f",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "ea570f3d8c7e4cb287d3b643c3993df68eef10404957d602e681b911e90277aa",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/release-report.json",
+      "new_path": "evaluation/release-report.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c856da2c8d4c7d9c4ac32e4d616d20071258803520bd42e0b64d36940854735f",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "8af3295f1b909ad9048f02906ff62cc5f6295e85fbe8e9fb9793d117141ff0c5",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/release_acceptance.py",
+      "new_path": "evaluation/release_acceptance.py",
+      "category": "python",
+      "original_sha256": "36252fd3e3a58d2b6797999acc0c5aeb74389892c233a111d4532583fee2516c",
+      "preserve_bytes": false,
+      "migrated_sha256": "bbcc23fa888ee33159d80f5d60a74c37a50fa81c06197044c47afdae77a94f8d"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/report.md",
+      "new_path": "evaluation/report.md",
+      "category": "frozen_evidence",
+      "original_sha256": "50c87574e1209f31f10a608c37869abf2502d5908d5bd1ce9941cdd2bf6c6e16",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "ea4309a626b4fdd1afae4f047735150f2703f18327a3543186effcd3150480a2",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/reranker_qc.py",
+      "new_path": "evaluation/reranker_qc.py",
+      "category": "python",
+      "original_sha256": "998b5d46563f0ced0a556a8bed1a067d239b3be1e523bf62087a73d1b3663486",
+      "preserve_bytes": false,
+      "migrated_sha256": "3f3fae47cb878cf907ca34a6b3c24a7659283b6eada449a45a64006fefd43612"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/review_bundle.py",
+      "new_path": "evaluation/review_bundle.py",
+      "category": "python",
+      "original_sha256": "76d44f925347543f863864312711d3e2ccc8fd3cc5b2d8b5d218f65b9603cb36",
+      "preserve_bytes": false,
+      "migrated_sha256": "3fa7f0a3de04ca753c923cb755171b9a7eec7a38700dc8017ef2372ad8c472ce"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/rubric.md",
+      "new_path": "evaluation/rubric.md",
+      "category": "frozen_evidence",
+      "original_sha256": "0d9aed1a5ae7d23eab5250a3dfa06a70980cb6967fff962f8e2b458c40e88db9",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "3e40346dbc79253e13bb066102ba632db533b96e6b14d1f265ab91586e394760",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/run.py",
+      "new_path": "src/research_verifier/explanations/review_study.py",
+      "category": "python",
+      "original_sha256": "4a0a24102e552dd4a8567dc776e76dc89f6de8d1fcea62e335f642a7fef1c0ad",
+      "preserve_bytes": false,
+      "migrated_sha256": "7aef67d13e8a91d1dd03a919fb831e1689f15905e74a22c3bc8c27cf7ddb13a6"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/selection_qc.py",
+      "new_path": "evaluation/selection_qc.py",
+      "category": "python",
+      "original_sha256": "330a5ff862f18a2dce9630631917783d74a4208e2da2ba28e15c4610b46cbf6b",
+      "preserve_bytes": false,
+      "migrated_sha256": "1d2a622c315d9d16993b86b60470aea9c2dc76e878948fa1a17863948a4e4628"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/sync_benchmarks.py",
+      "new_path": "docs/history/reproduction_tools/sync_benchmarks.py",
+      "category": "historical_source",
+      "original_sha256": "c532de636edcf54dc40ddcd12373c5fdd847aa9d96b92f851d83800f2f7f0014",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "718c12cad638f65d527eb525fb6981156f76b98fb1782a4262ffbcae0bd98ae4",
+      "restoration": "Historical source restored from exact committed blob; original_checkout_sha256 retains checkout newline variant."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/team_edge_case_coverage.md",
+      "new_path": "evaluation/team_edge_case_coverage.md",
+      "category": "frozen_evidence",
+      "original_sha256": "441ce0c615916afea966a904e5f435f13ac9d79b0334b82b88684970683bacd3",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "e00c3ec076a87fc2e21514f3012c1f26b532494ecbfdf4163f8cf7617cb24e34",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/team_qc.py",
+      "new_path": "docs/history/reproduction_tools/team_qc.py",
+      "category": "historical_source",
+      "original_sha256": "fc84b6471e01177fee0a763e031478a7e12d5ff5d916aaff2b207728e103cfcb",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "894f37f1308075d852ab11a7f2b0c25a5f12c08059e0b2f52e4e105c12eb994b",
+      "restoration": "Historical source restored from exact committed blob; original_checkout_sha256 retains checkout newline variant."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/team_qc_summary.json",
+      "new_path": "evaluation/team_qc_summary.json",
+      "category": "frozen_evidence",
+      "original_sha256": "2d3d9bcfb99047bc308de7615fbe41aff9bed6846b32e78276e8986c3d7425dc",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "cd0221a379ada1a6f44b7e836a6a69873af87b62fe1f6d5c1556517cba7e188d",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/.gitattributes",
+      "new_path": "evaluation/validation/.gitattributes",
+      "category": "frozen_evidence",
+      "original_sha256": "ee869f80b8f4708cb8f5c1d9c40ab24578280844583a472eeb0ee690603e524a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "d1081c9c33d8477d0d38f7027ae85443704137d7d6f22ff914852ddaf6d11212",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/FINAL_TEST_REPORT.md",
+      "new_path": "evaluation/validation/FINAL_TEST_REPORT.md",
+      "category": "frozen_evidence",
+      "original_sha256": "1394cab7a1774d4276c7018af40c6043244a09d4b645e37a463e527cc8a5ea55",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "51e936f5caef338dbafb01b1f02df7fa80355855df28f393687ff867fd3d77a5",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/PROTOCOL.json",
+      "new_path": "evaluation/validation/PROTOCOL.json",
+      "category": "frozen_evidence",
+      "original_sha256": "cc367281746dcbd6b32147c7eb8dff86e6e67b5608fd0f4a0339f8d40b06826b",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "1c6f4966ec8fedfe7c29ea8ab9e8e04310f1ea3c69371434c39ce7926e4bc8e2",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/audit_artifacts.py",
+      "new_path": "evaluation/validation/audit_artifacts.py",
+      "category": "python",
+      "original_sha256": "70c4fa8357eee5182cc0521d646275334f18859a7415953e16322fca5f5c85bb",
+      "preserve_bytes": false,
+      "migrated_sha256": "3c63e9fdf7821f93f2e049cc7a0b0751b37dc7f5293fd5023885511e43c87ec9"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/clean_setup.py",
+      "new_path": "evaluation/validation/clean_setup.py",
+      "category": "python",
+      "original_sha256": "5f642081c39f2248e0a8804e7a2ab82a5fd69a5b572d1a81b3887a7468bc7f9b",
+      "preserve_bytes": false,
+      "migrated_sha256": "97f038a377ddcebf3c2ee4e44f71d82d8a2cdc7a844c46b2c90c7c80a960cb8b"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/dataset_adapters/SOURCE.json",
+      "new_path": "evaluation/validation/dataset_adapters/SOURCE.json",
+      "category": "frozen_evidence",
+      "original_sha256": "11ca71abf5b64259322079a10cbcb201056e536d04c6e4c8b69f54cd2074b511",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/dataset_adapters/__init__.py",
+      "new_path": "evaluation/validation/dataset_adapters/__init__.py",
+      "category": "python",
+      "original_sha256": "3cc3fb6b6399383944fc3cfb4bc4168d9ea9ec32431548c2024c8c46bd46be74",
+      "preserve_bytes": false,
+      "migrated_sha256": "3cc3fb6b6399383944fc3cfb4bc4168d9ea9ec32431548c2024c8c46bd46be74"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/dataset_adapters/csfcube.py",
+      "new_path": "evaluation/validation/dataset_adapters/csfcube.py",
+      "category": "python",
+      "original_sha256": "9049c21e044d0971d99a5d4e87546f55b56bf33178313430a185c43bba02423f",
+      "preserve_bytes": false,
+      "migrated_sha256": "c7137610df5abd27ae246574144db03ec5c344fc193787fc48509dd47a6ea782"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/dataset_adapters/reciper.py",
+      "new_path": "evaluation/validation/dataset_adapters/reciper.py",
+      "category": "python",
+      "original_sha256": "f128acbf674ef5895ad26d49b1014c017da95d0a7bbe1d83d5f3bc31ce8fa66b",
+      "preserve_bytes": false,
+      "migrated_sha256": "bf164113b35f370a7078ffc8ad5821b1a11efe6c6c7dba4cac6977daa1ef0631"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/dataset_adapters/setup.py",
+      "new_path": "evaluation/validation/dataset_adapters/setup.py",
+      "category": "python",
+      "original_sha256": "d4def6b88268944a25b5fbd25063b6df8b750ca2d3a416df61fce94e9292cc6a",
+      "preserve_bytes": false,
+      "migrated_sha256": "d4def6b88268944a25b5fbd25063b6df8b750ca2d3a416df61fce94e9292cc6a"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/freeze.py",
+      "new_path": "evaluation/validation/freeze.py",
+      "category": "python",
+      "original_sha256": "3b2301b3754f9b977924d7247c5e9f26737196535f18161cb3acf41f2e6be365",
+      "preserve_bytes": false,
+      "migrated_sha256": "758a487e367f3b674929d99ef78f03bfc83fd1ce053d29d40e0e6db2af3f9fff"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/metrics.py",
+      "new_path": "evaluation/validation/metrics.py",
+      "category": "python",
+      "original_sha256": "e8963bdf26db179d661e584de72c309a4f6b673d581cdb76da983e8ecd4c9dca",
+      "preserve_bytes": false,
+      "migrated_sha256": "09657fbac40d4555a5c639b137ce0b0bbb37bec2f9c0f0e53583a217ddc1123e"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/other_datasets.py",
+      "new_path": "evaluation/validation/other_datasets.py",
+      "category": "python",
+      "original_sha256": "acee6e5dd0b8d3a79bcd51820d7e2ce5b80951172f0817d24c6bbdcbd4fcf219",
+      "preserve_bytes": false,
+      "migrated_sha256": "475efaebddadfebc1de09e26ae848aa97b3709ffcb09c51bc59a2d99c4ecf4e0"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/reliability_checks.py",
+      "new_path": "evaluation/validation/reliability_checks.py",
+      "category": "python",
+      "original_sha256": "7f3a49c991e319188b371c6ce4c54ac0e6f8e60300c038ebfbc72315db73e01a",
+      "preserve_bytes": false,
+      "migrated_sha256": "4512947962634b597703940b00938527a6ded927057b0beafc7bb05210221524"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/report.py",
+      "new_path": "evaluation/validation/report.py",
+      "category": "python",
+      "original_sha256": "0e18a03966365cdafe920f0960727f65511f2142294170e1580b32a28de133b5",
+      "preserve_bytes": false,
+      "migrated_sha256": "4be964b46181e044b42d679bcdaad9d1be9f0806879544a5664f4c44abb6e1cd"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/ARTIFACTS.json",
+      "new_path": "evaluation/validation/results/ARTIFACTS.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d3e361d5a400895f6b55e6ac0a91879b63c04160ea3604155d4116c8703d2b5f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/BASELINE.json",
+      "new_path": "evaluation/validation/results/BASELINE.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c35ea3914f6f350c644e9a54917a99b7f008dda0b73f9050a7b8dba0d86d692c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/error_catalogue.csv",
+      "new_path": "evaluation/validation/results/error_catalogue.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "bcb3414b83525907b95b2b2f3d775e8725d65e1853d9a8e88cefa8ca8eb02b1a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/oracle_reliability.png",
+      "new_path": "evaluation/validation/results/oracle_reliability.png",
+      "category": "frozen_evidence",
+      "original_sha256": "2b2f6520c3082b7add4d90d66f8a9879d56129a4f0a29291cf1329b408a82897",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/pipeline_accuracy.pdf",
+      "new_path": "evaluation/validation/results/pipeline_accuracy.pdf",
+      "category": "frozen_evidence",
+      "original_sha256": "e4ef38d69e4e27732fc4bb5c2d9a8921fc8916963353429a6c636aa478a3c692",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/pipeline_accuracy.png",
+      "new_path": "evaluation/validation/results/pipeline_accuracy.png",
+      "category": "frozen_evidence",
+      "original_sha256": "56f6694d3167b70b0cb52dbc61f74c889ea6df3e9e847d8e94c36e44e8d8daa0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-1.json",
+      "new_path": "evaluation/validation/results/replays/claim-1.json",
+      "category": "frozen_evidence",
+      "original_sha256": "cd1352e7f001191259483e878933df34969d49968cc737accc8616fcc12256d4",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-113.json",
+      "new_path": "evaluation/validation/results/replays/claim-113.json",
+      "category": "frozen_evidence",
+      "original_sha256": "666871b7e0845a3e186c822c9664cefa9c8a9690f74596e0890d875bb54f7e2e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-1163.json",
+      "new_path": "evaluation/validation/results/replays/claim-1163.json",
+      "category": "frozen_evidence",
+      "original_sha256": "eb9e96c3444a7ca3c9e79b8f6ba876e3d56d11c5ba474c9be37703a69cd9e4b7",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-1199.json",
+      "new_path": "evaluation/validation/results/replays/claim-1199.json",
+      "category": "frozen_evidence",
+      "original_sha256": "aa09380417dd4d711138e9eb02cdaa715778fa0f780df77e79d513d7d84e50de",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-1274.json",
+      "new_path": "evaluation/validation/results/replays/claim-1274.json",
+      "category": "frozen_evidence",
+      "original_sha256": "eea81d8327eeb5b9db52d74ed2a5153b0df8632f09225b065d56deed4262fd3c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-13.json",
+      "new_path": "evaluation/validation/results/replays/claim-13.json",
+      "category": "frozen_evidence",
+      "original_sha256": "5bf47e8688543619951323e36cb46d49370ad81ce80ff07154946638f5d2c09d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-137.json",
+      "new_path": "evaluation/validation/results/replays/claim-137.json",
+      "category": "frozen_evidence",
+      "original_sha256": "84f54421d2033f122c00949d51f7ee7213f5a01174781908edf3e0b8a3d57ead",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-268.json",
+      "new_path": "evaluation/validation/results/replays/claim-268.json",
+      "category": "frozen_evidence",
+      "original_sha256": "088bc90a2fa5bdf8ee9183a369d95e8792f6e22a3fb1fa8014eaa30ef19e405c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-3.json",
+      "new_path": "evaluation/validation/results/replays/claim-3.json",
+      "category": "frozen_evidence",
+      "original_sha256": "da2e23904bd26f9bf4985a8386d2973da5f7ffdca502c9f469103c8df464adc9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-36.json",
+      "new_path": "evaluation/validation/results/replays/claim-36.json",
+      "category": "frozen_evidence",
+      "original_sha256": "3dc771652927af2b62e8b639f61466b6eb5d0821008ce42dddb526abdd518df8",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-436.json",
+      "new_path": "evaluation/validation/results/replays/claim-436.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a2956677485c6e5046ca51082770a8e85c022f4b90329d460ec3b1051167dea6",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-5.json",
+      "new_path": "evaluation/validation/results/replays/claim-5.json",
+      "category": "frozen_evidence",
+      "original_sha256": "814e8a7aa8ed1bc9bb684ec43c89d036d1e91f4202ccf9a3f20e0d3d3c44ab62",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-528.json",
+      "new_path": "evaluation/validation/results/replays/claim-528.json",
+      "category": "frozen_evidence",
+      "original_sha256": "be895dfc655d0814c4520e5e92c6029269343e56266134b57e453c2f1fc8255c",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-743.json",
+      "new_path": "evaluation/validation/results/replays/claim-743.json",
+      "category": "frozen_evidence",
+      "original_sha256": "4fca3fc09b8c2544a15496475b69ffaaa2f047c41567825302517ba0f57051df",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/claim-913.json",
+      "new_path": "evaluation/validation/results/replays/claim-913.json",
+      "category": "frozen_evidence",
+      "original_sha256": "accaac7144313bcfe7a789ce85e26593afe29865b0e51306d89630a12de0149e",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/multi_column_text-replay.json",
+      "new_path": "evaluation/validation/results/replays/multi_column_text-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a6249e6ab184812995ac20b8c91af556bb596bfc7264375c810083d80271182f",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/replays/real-arxiv-replay.json",
+      "new_path": "evaluation/validation/results/replays/real-arxiv-replay.json",
+      "category": "frozen_evidence",
+      "original_sha256": "6c2afeb8612ffa6f62d8a5dcc0e0f96e7ddcef8db53869abb724545bb71fa2eb",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/retrieval_domains.pdf",
+      "new_path": "evaluation/validation/results/retrieval_domains.pdf",
+      "category": "frozen_evidence",
+      "original_sha256": "15b5471c7c9b67598fc95860a491f452c05ec93ba15f42f4ef40fb035cbd8e24",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/retrieval_domains.png",
+      "new_path": "evaluation/validation/results/retrieval_domains.png",
+      "category": "frozen_evidence",
+      "original_sha256": "2a7a6b0dc2728c7212c1da3b013e9b8ca5d1b0d90a73e8be0b1320ae8229bafc",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/test_results.csv",
+      "new_path": "evaluation/validation/results/test_results.csv",
+      "category": "frozen_evidence",
+      "original_sha256": "4425b16dcad071dff287677944cb323d840c78b4f83f7b19c691bea0d3ae6def",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/results/validation-summary.json",
+      "new_path": "evaluation/validation/results/validation-summary.json",
+      "category": "frozen_evidence",
+      "original_sha256": "0422e3984bf257ba0bc8f0d385865dca1413ca1c03be72f28d9b1ad45de6b3ba",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/retrieval.py",
+      "new_path": "evaluation/validation/retrieval.py",
+      "category": "python",
+      "original_sha256": "49a099506c8cf57389bf862a22c9cdcddf73ca84c4ceae9bb78883de5679b758",
+      "preserve_bytes": false,
+      "migrated_sha256": "025d69d2a35fed9d7c7d1e51f8682dd33ce6c80ec4d7e4f3b68bd606a75e7f27"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/run.py",
+      "new_path": "evaluation/validation/run.py",
+      "category": "python",
+      "original_sha256": "f7df12997200871e469181ab0b1cf9d4c789cb649ea44bc7bb207d03b320fb6a",
+      "preserve_bytes": false,
+      "migrated_sha256": "a39e1035cce8d19067a3b1ccbdbcfe93661f9eaf4a9c41366672d6608bf11c44"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/scifact.py",
+      "new_path": "evaluation/validation/scifact.py",
+      "category": "python",
+      "original_sha256": "5f99e4440368f131f9a0458ae26256a3e4ea83b85d3980947ff8f19165e240a5",
+      "preserve_bytes": false,
+      "migrated_sha256": "b4820dfc2c3e7192108c7afe4639416b228b0f6d46c18e552bb4660df4b65b1e"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/stage_data.py",
+      "new_path": "evaluation/validation/stage_data.py",
+      "category": "python",
+      "original_sha256": "3ade981d08411c2df80b3c93acf7b067d52c7e6cdbd90b1a825d944bc30cff29",
+      "preserve_bytes": false,
+      "migrated_sha256": "f969e7a24451212a83278a9e1e7715be442a66d55d9b33daa51145fc095ebf51"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/validation/stress.py",
+      "new_path": "evaluation/validation/stress.py",
+      "category": "python",
+      "original_sha256": "3f9f5c1e9123b1b4be1e9ea7abbb36e64ae24cd51807019af121f38111d295b7",
+      "preserve_bytes": false,
+      "migrated_sha256": "8756be515ab39c89012d028ccdea2148cccb8e82f15f69333c6868601fe4d0d7"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/verifier-metrics.json",
+      "new_path": "evaluation/verifier-metrics.json",
+      "category": "frozen_evidence",
+      "original_sha256": "c6de5983196b6e7e24b0318ab8ad4e0146b5f0308226e91308b3ea4b5caf2bbf",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "9a7607229540d2856d9e0cacb595ee975cf7bef8801ab04898f4a9523bc96665",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai-diagnosis.json",
+      "new_path": "evaluation/xai-diagnosis.json",
+      "category": "frozen_evidence",
+      "original_sha256": "a7b63a092cb87a4f69ab4f7538f8fdc5dfcb16b973781a2a24d2e006640494b1",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "4a690263448e54a51ab2232c20c8e57ca4329eb9f583c3369bb46cfdd4064986",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai-gradient-check.json",
+      "new_path": "evaluation/xai-gradient-check.json",
+      "category": "frozen_evidence",
+      "original_sha256": "d862a02a6058b1344fd2cb0793db7da74988a09265c993db5897b34fb14a06cc",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "7f6be1b0448a7f9480b80daf1d3fa5df57137c67690739ee56c7759752696cac",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai-results.json",
+      "new_path": "evaluation/xai-results.json",
+      "category": "frozen_evidence",
+      "original_sha256": "1f5be144157aa2ce35c3d2ae8727ceb09f3ec40dd1679e426583402bfd218fc6",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "305d4ca9749132a762fc76093abb094911d868ed1972abb75129ca55f1c3efad",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai-verifier-audit.json",
+      "new_path": "evaluation/xai-verifier-audit.json",
+      "category": "frozen_evidence",
+      "original_sha256": "7182b5ede96019d931bf4c6944a98547c785bf7a3c656b9ac71baaa2d9a7bb8a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "038ac40820fc3f612dfa0201cde95b283ca81ed94b08baaff168e406126e0da9",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai_data.py",
+      "new_path": "evaluation/xai_data.py",
+      "category": "python",
+      "original_sha256": "6355b4c81c4bd7f9fcfc6754f998697498c3d4833098d8449c5ad67947101b6c",
+      "preserve_bytes": false,
+      "migrated_sha256": "94586703a5109031526406b41dd04115017b1e68bda0dd69578b1bfaddf252f4"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai_gradient_check.py",
+      "new_path": "evaluation/xai_gradient_check.py",
+      "category": "python",
+      "original_sha256": "187fc7d8a4ae8a5b2f6c427b3495c467e92c36e94e38feef24211b526e86ffb7",
+      "preserve_bytes": false,
+      "migrated_sha256": "bd172f02aa4b1a30b5cb3fb320e304920115c1d4919213d744f0921a49acfe6f"
+    },
+    {
+      "old_path": "explanation_frontend/evaluation/xai_qc.py",
+      "new_path": "evaluation/xai_qc.py",
+      "category": "python",
+      "original_sha256": "66b44aa1e219f1e12006faa2d6c7f12a4ab0e2ad1848f01ca22e796fd0914e23",
+      "preserve_bytes": false,
+      "migrated_sha256": "be1d928484afd633744e13acb2a40cf6d818bcd6ea6653bb3f684a1b95964c27"
+    },
+    {
+      "old_path": "explanation_frontend/export.py",
+      "new_path": "src/research_verifier/explanations/replay.py",
+      "category": "python",
+      "original_sha256": "10466d050ee413dc0d5ae317c8082259b8a453c16f5419a607928b32ffe68795",
+      "preserve_bytes": false,
+      "migrated_sha256": "7cd813cc0589ebdf2315360f526c7635f6ab59d827895ab4a7b5f0cfb3efd939"
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/abstract_only.json",
+      "new_path": "examples/scenarios/abstract_only.json",
+      "category": "example",
+      "original_sha256": "0efe9ad73f8b29de0a85620d70a0f5f8f7eacf3dd34982da531c1cbb0509aa70",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "f86cac7f3aca8d41e05a8ca3f17fe610366df24123c596a00485e0a26bb78ddf",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/build.py",
+      "new_path": "examples/scenarios/build.py",
+      "category": "python",
+      "original_sha256": "5875d97039d97f26eb1a7fbfea637653e1353fd01ce1f1199bf5e231fbd985dc",
+      "preserve_bytes": false,
+      "migrated_sha256": "5875d97039d97f26eb1a7fbfea637653e1353fd01ce1f1199bf5e231fbd985dc"
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/conflict.json",
+      "new_path": "examples/scenarios/conflict.json",
+      "category": "example",
+      "original_sha256": "2c3fa5946cd631e3661260389ca3920fb3816a819b22c642265b4649a8642fdc",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "0e6973f86f6909280460b3e44a20264ecb1e472bf2fc1586db55e6ef7d851c39",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/contradicted.json",
+      "new_path": "examples/scenarios/contradicted.json",
+      "category": "example",
+      "original_sha256": "3e12c9794c320a6a3ebe905d77c899d944889243ab7f86a1826afa0d22a82cd5",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "59d3aa4eea19a930146943b7f51e9243af21e08853a2f00f266f4ed139f142fb",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/discovery/README.md",
+      "new_path": "examples/searches/README.md",
+      "category": "example",
+      "original_sha256": "f67a86bce8a932d99e82e74eeacc1ecd5ecf36c45c8d42346b2e920776780067",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "edab9934f235275324ee5dcd047df3898fdfc724992065e07ac789b3563d9214",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/discovery/raghavi-c01.json",
+      "new_path": "examples/searches/recorded_search.json",
+      "category": "example",
+      "original_sha256": "998252c700a7df99f649da5856f5953ace5da3a37edfb9196599476d21656661",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "8c8865218fda2a1302b383d55bffcdf0080ea071e230778624ec8f4fd22a8dc1",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/empty.json",
+      "new_path": "examples/scenarios/empty.json",
+      "category": "example",
+      "original_sha256": "486c5cee7227d58e1276f0887396440a9c719caa6625fe6e957e27cb184192cd",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "30004993633037f1a43a250580c64158ca185ef7696c6e5ecf6c603bf33186a1",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/failure.json",
+      "new_path": "examples/scenarios/failure.json",
+      "category": "example",
+      "original_sha256": "29038d7c0e64776d2e71c272394e3d0e7b962a4a675005792d1be2db6b3257f3",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "86c3cf4a041feeaa75709cb4d88d12fc8fa7b1847807c07edff442c761ef2ad8",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/neutral.json",
+      "new_path": "examples/scenarios/neutral.json",
+      "category": "example",
+      "original_sha256": "363a7e0137bb862675822fe5cb7e133ee85fe0f0fc51e3d6ac55a3f690a1c698",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "e5b69aaab9d32fa5675c3df1e7fd67d4a4ebf4f08f1925086660bf12ed31a3cd",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/partial_failure.json",
+      "new_path": "examples/scenarios/partial_failure.json",
+      "category": "example",
+      "original_sha256": "9b039fabf3310d9bc553caa5271679d2a9e7a432776e397f06bbafeaddfc58f8",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "9e2f1bc0bc70fe940fe70a9a01d494fb1e3524dd429bc1bf2930d3d9a8f7c4ba",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/qualified.json",
+      "new_path": "examples/scenarios/qualified.json",
+      "category": "example",
+      "original_sha256": "e37447eb2f62772025697337cad2307fcc1d0003eb9075a1e7a18cad84fb59d4",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "9de0c1bbe3a668e8e77f04415c479a2e693a97f320a66282c96b93ced1a22310",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/supported.json",
+      "new_path": "examples/scenarios/supported.json",
+      "category": "example",
+      "original_sha256": "72a8f05d9738ff80b3a4e3e348e69eb4c5a57b9b272ea88ba020fabc82171104",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "7767ee822192b78f1d9b6b53dbad6b1a47972045bd8705a3e9bcb12bbab4e73e",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/truncated.json",
+      "new_path": "examples/scenarios/truncated.json",
+      "category": "example",
+      "original_sha256": "7db1615e411af7ab546bd94d47812323a70e241d9ec87915fbc75f47a004cd5a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "3188f7cb5fc201515b132b04c81dad6545f5528b52147b93a3e11d1456580ffb",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/untrusted.json",
+      "new_path": "examples/scenarios/untrusted.json",
+      "category": "example",
+      "original_sha256": "5d3dcec67f0220be4290564238f6f139c4163e58636ad4ddccf8987800c72102",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "ed1d40b6684a0e980986a984e7cc50b988465b9a8a525707c4a202abd7b133bc",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/fixtures/within_paper_conflict.json",
+      "new_path": "examples/scenarios/within_paper_conflict.json",
+      "category": "example",
+      "original_sha256": "55139b78c4aa07e348423732e6fb25a2a17b698d8f401d675445ef4dc7a9153a",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "6155e043bdb7eac0142318bc840a646dffcaff5dc4546f320aeaa8cf46e8805a",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/inspection.py",
+      "new_path": "src/research_verifier/evidence/inspection.py",
+      "category": "python",
+      "original_sha256": "b714321092f90012408d58566c41e963178247bd96c83493ecffd9afbdbb09d4",
+      "preserve_bytes": false,
+      "migrated_sha256": "cf1368a6883aee45b5a8c3c6b4d8238e67fdbc95e49874c3a956907867bfa737"
+    },
+    {
+      "old_path": "explanation_frontend/llm.py",
+      "new_path": "src/research_verifier/explanations/language_model.py",
+      "category": "python",
+      "original_sha256": "ecd9d40aa2d34ae0546859e9f6969cd57e91c25c62ca426de57a30c716ea6188",
+      "preserve_bytes": false,
+      "migrated_sha256": "aacaa9cb123b3a1e1f328b5c269a1a345fac987d6d4e2c76bd7407b78080f676"
+    },
+    {
+      "old_path": "explanation_frontend/local_model_setup.py",
+      "new_path": "src/research_verifier/runtime/setup_language_model.py",
+      "category": "python",
+      "original_sha256": "30b398beb58b7541869ee3e0ec5962f01a47a8385f9fef474d35e9baf83c0451",
+      "preserve_bytes": false,
+      "migrated_sha256": "46d33ca9a5f61e7cc11c769d5ef1af1f368e9b9fe946713ccfa3bf427edf42cd"
+    },
+    {
+      "old_path": "explanation_frontend/models.py",
+      "new_path": "src/research_verifier/contracts/models.py",
+      "category": "python",
+      "original_sha256": "bf7a9657405d48ca86eead164b7274ddb30b58dceda70822da9e6aa4cd73a7a2",
+      "preserve_bytes": false,
+      "migrated_sha256": "af4957ae5d48af1b62fa3c711b05229113272190ee29ec9cb07d0f7d644744c4"
+    },
+    {
+      "old_path": "explanation_frontend/occlusion.py",
+      "new_path": "src/research_verifier/interpretability/occlusion.py",
+      "category": "python",
+      "original_sha256": "f01957e2853215a33db4f702197696b5d3bfbfcd760bbcc4be0351a43b47946f",
+      "preserve_bytes": false,
+      "migrated_sha256": "fad768166eadd5fa819f8c41b1a046aa3dedb190dcaba19395d37227f20950d5"
+    },
+    {
+      "old_path": "explanation_frontend/overview_view.py",
+      "new_path": "src/research_verifier/ui/overview.py",
+      "category": "python",
+      "original_sha256": "d18564326a5e7fe0bffb9c2c0214d3e33c6adb1a5a2099938d06d439a8ee9312",
+      "preserve_bytes": false,
+      "migrated_sha256": "02459821a1622f67942ca36847f7318dc59e842dea66e174d9ba30f0554c7bd1"
+    },
+    {
+      "old_path": "explanation_frontend/passage_selection.py",
+      "new_path": "src/research_verifier/evidence/fallback.py",
+      "category": "python",
+      "original_sha256": "10a12bc4e171cb352c9cd2d3a14bcee52b79d47e3574dd274d94c4e1edb3c324",
+      "preserve_bytes": false,
+      "migrated_sha256": "8e99f7229032d658251753ab98f42bc344cc7fc6f2702c7da11842e7001097ae"
+    },
+    {
+      "old_path": "explanation_frontend/pdf_view.py",
+      "new_path": "src/research_verifier/ui/pdf.py",
+      "category": "python",
+      "original_sha256": "b2723fb7a939f1bbf8e260fbac08c8502ab1f13aa680cedbacc451d290cf6880",
+      "preserve_bytes": false,
+      "migrated_sha256": "7b54cddaf034f9b2b2a31b0b95905f454f566496151350dfa51f5ac0218ea443"
+    },
+    {
+      "old_path": "explanation_frontend/person4.py",
+      "new_path": "src/research_verifier/verification/adapter.py",
+      "category": "python",
+      "original_sha256": "9cba016a0c17ad6fd2b8872d47749f1065b6847de8f67a603e7654791e0c1466",
+      "preserve_bytes": false,
+      "migrated_sha256": "a4381a3ffb670664d9095856279270d31bfdd3769659f2a3a9b21fd5f96ecdab"
+    },
+    {
+      "old_path": "explanation_frontend/pipeline.py",
+      "new_path": "src/research_verifier/pipeline.py",
+      "category": "python",
+      "original_sha256": "3ceaac6194ed6a2571c6b3b45a63ab08af6098580b21df822b23175f55f82e8a",
+      "preserve_bytes": false,
+      "migrated_sha256": "a73ebc0e280ec8dc4fe7a471624869977b94333b00190d3ddfbc9d0c76c7bc35"
+    },
+    {
+      "old_path": "explanation_frontend/pipeline_setup.py",
+      "new_path": "src/research_verifier/runtime/setup_verifier.py",
+      "category": "python",
+      "original_sha256": "a2645739ac918451506fde3239617fce57ccc2a47ac78dd1793cfcf679c38312",
+      "preserve_bytes": false,
+      "migrated_sha256": "7ba82f8d23bfdeaf8b1d76ed09a69b58f8f8428658fb8e357728ececfa97dcef"
+    },
+    {
+      "old_path": "explanation_frontend/pipeline_smoke.py",
+      "new_path": "src/research_verifier/runtime/smoke.py",
+      "category": "python",
+      "original_sha256": "0372fba9166fbe74526a48151a449ab63ccf9d1afd5c0f4ee162debf0bfbe4df",
+      "preserve_bytes": false,
+      "migrated_sha256": "f8dc728d85b961b1739c3149aa89d20f643e5800df85f291834e07ad9975e3d2"
+    },
+    {
+      "old_path": "explanation_frontend/poster/DEPENDENCIES.json",
+      "new_path": "docs/history/poster_20261109/DEPENDENCIES.json",
+      "category": "historical_evidence",
+      "original_sha256": "0029d30d516f5b45e75b87940bf894c3bd84223d64a2c2fccaf8c7b932b770c9",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "e8ba54d58d4aa0282afb7a68225ae5a3dd431a5dfd69d7e4d945674cea94d4af",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/poster/LAYOUT_CHECKS.json",
+      "new_path": "docs/history/poster_20261109/LAYOUT_CHECKS.json",
+      "category": "historical_evidence",
+      "original_sha256": "6702e0a4044d8bdb816b532689ce7037294d57569cf53ea2d721b29ad823c2d3",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "5391099844d10e093761e633bc5677f650e900fac84e615ea269002903923bad",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/poster/PROJECT_EXPLAINED.md",
+      "new_path": "docs/history/poster_20261109/PROJECT_EXPLAINED.md",
+      "category": "historical_evidence",
+      "original_sha256": "00416c632eb1fa74cd253193d0ef859d5d3ff0b2f0d623884ac5e409f8038921",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "4ca08c2d49265888bbc350ba87cc40992c1a230b98cc654c62a8c11051d7cb68",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/poster/PROJECT_POSTER_A3.pdf",
+      "new_path": "docs/history/poster_20261109/PROJECT_POSTER_A3.pdf",
+      "category": "historical_evidence",
+      "original_sha256": "0c4c8fa455b0dea04ca3d92863f5cf4653ff3cc30c36b923dfaa992a51cc2de1",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/poster/PROJECT_POSTER_A3.svg",
+      "new_path": "docs/history/poster_20261109/PROJECT_POSTER_A3.svg",
+      "category": "historical_evidence",
+      "original_sha256": "a316e157198bfd2af45fa897861168d866749d60535be2ac0e7efe28c2f0b8bf",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "45ff7055d43b9b47e644272e1e01e313b5e7f780c0669476fe48f03023b46365",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/poster/PROJECT_POSTER_PREVIEW.png",
+      "new_path": "docs/history/poster_20261109/PROJECT_POSTER_PREVIEW.png",
+      "category": "historical_evidence",
+      "original_sha256": "28712c3820d43a25f3fe50a2083e01bc1c0edfffa389cfc47ad650b06e0b1848",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/poster/README.md",
+      "new_path": "docs/history/poster_20261109/README.md",
+      "category": "historical_evidence",
+      "original_sha256": "ed7cab796aeacb25166e5a52bdb84e5c4bdcb09b68d82a4132c1ddf91ca23860",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "f311446b6cc025c26caac0d9dd5ab016abcb16a5b38d6c0ccd4f14605952ca18",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/poster/build_poster.py",
+      "new_path": "docs/history/poster_20261109/build_poster.py",
+      "category": "historical_evidence",
+      "original_sha256": "7fe3790fcff8e2e0ebc67af96640910717aa3fa9cc7bd373b6ba76e1aec555fa",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "c39e17c55273209267b036a3439aa73e52e00ddcef3b5101f25eae53e9eeaa57",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/primary_candidate.py",
+      "new_path": "src/research_verifier/verification/primary_policy.py",
+      "category": "python",
+      "original_sha256": "1bf834bd83dd4ae2d2bb5914bbf139da77019bd8bf6fa3984888e7347c8d4d34",
+      "preserve_bytes": false,
+      "migrated_sha256": "1528299d827dfd975bb068b93ca3f98b477df06c3ca9d63839d565707ac43e9e"
+    },
+    {
+      "old_path": "explanation_frontend/primary_policy.json",
+      "new_path": "config/primary_policy.json",
+      "category": "configuration",
+      "original_sha256": "b3d857ec8ab80154ac84dbd9115c36b45af72c3ab96ffe29415394b06dfb1463",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "fd06ddd4d201a5c09d0638d1f264d9ba44a129ddde0bb256165e85c0e472a545",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/providers.py",
+      "new_path": "src/research_verifier/verification/providers.py",
+      "category": "python",
+      "original_sha256": "d04db6eeb1cc6d162af81123de5f2657df8f80b7f329ef0d152a58568c9ce86c",
+      "preserve_bytes": false,
+      "migrated_sha256": "52b35a0c235bb63a482c38856804c38b164432937ac452b79502dc6d3ab31b3a"
+    },
+    {
+      "old_path": "explanation_frontend/qc_suggestions/README.md",
+      "new_path": "docs/history/patch_suggestions/README.md",
+      "category": "historical_evidence",
+      "original_sha256": "2f8fff91cc5274d921b60c97df2ea73b27c23b2ddd49f32d9b976d0bacc245af",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "cff6d35a88725b5b72c89a95f7228db2af0c9703799a89dac8a0aa250d7451d9",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/qc_suggestions/naila-stable-cutoff.patch",
+      "new_path": "docs/history/patch_suggestions/naila-stable-cutoff.patch",
+      "category": "historical_evidence",
+      "original_sha256": "d44360c0312feb6f3b15eab91b3cbe59b76823d29d2805ced1b17d79e1480296",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "317f3f154a9518f2625b264c52e6362e9338231fc6e5023a00b92c51a8f5adaf",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/qc_suggestions/yuyue-windows-provenance.patch",
+      "new_path": "docs/history/patch_suggestions/yuyue-windows-provenance.patch",
+      "category": "historical_evidence",
+      "original_sha256": "7ac1b88360db8afa0da3570fa59020b096b1bcfcbb668f9e6ba43d54d38911f6",
+      "preserve_bytes": true,
+      "original_checkout_sha256": "0490496390a0bffc4c985e453b7e285bd67cf62db923fe2822faa50682a70df7",
+      "restoration": "Exact pre-consolidation committed blob; checkout-only newline variant recorded separately."
+    },
+    {
+      "old_path": "explanation_frontend/ranking.py",
+      "new_path": "src/research_verifier/retrieval/ranking.py",
+      "category": "python",
+      "original_sha256": "0903aa8e4217b4db8cac1083f9341c7c35fd8f5079f39fd29f8411182e57b4dd",
+      "preserve_bytes": false,
+      "migrated_sha256": "4581697f52dbbe7f71771721c17222277a2ff4ff8d1ce9379be9b957adf0deac"
+    },
+    {
+      "old_path": "explanation_frontend/review_view.py",
+      "new_path": "src/research_verifier/ui/reviews.py",
+      "category": "python",
+      "original_sha256": "040062c91a4953f1d03c9eb5c2d2d8f2983e2dd6696b2afd15363eaf730c1169",
+      "preserve_bytes": false,
+      "migrated_sha256": "5acc6367621b42d44e3a2c1d1a366ef25b49ff5f80486683a1555b9202bdb9e6"
+    },
+    {
+      "old_path": "explanation_frontend/reviews.py",
+      "new_path": "src/research_verifier/explanations/reviews.py",
+      "category": "python",
+      "original_sha256": "ed77d86e2f9f211dae5187a5e2d889f5434ba60ca0e6b34bf9dd0fb0f990f7dc",
+      "preserve_bytes": false,
+      "migrated_sha256": "686bc43597b9f82deaf9e3c62a0a31d0430d26dde0aecef2b2a597a139acd547"
+    },
+    {
+      "old_path": "explanation_frontend/semantic_integration.py",
+      "new_path": "src/research_verifier/evidence/semantic.py",
+      "category": "python",
+      "original_sha256": "52cae7e27dbfe5820a7798b95fae95cc088e18a63b36df57ea0e4fa4f2a9ea8c",
+      "preserve_bytes": false,
+      "migrated_sha256": "5b645edfd2a3243548a1e27c2336c4464642263958c008f97b11940d2ca5c0f3"
+    },
+    {
+      "old_path": "explanation_frontend/semantic_setup.py",
+      "new_path": "src/research_verifier/runtime/setup_evidence.py",
+      "category": "python",
+      "original_sha256": "c08a49a5972c0d4fe0aaac9e7a824823deed69a7327adcb53fd0daadd37b9fdb",
+      "preserve_bytes": false,
+      "migrated_sha256": "d50f745268c7179c10617de533215585c5ace693f77e220e047940416cfed412"
+    },
+    {
+      "old_path": "explanation_frontend/showcase/attributions/manifest.json",
+      "new_path": "examples/replays/attributions/manifest.json",
+      "category": "example",
+      "original_sha256": "d4315409adfa0a6b1cc693523da4f01a12deca866d6d85674891954e5d3ada98",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/attributions/scifact-230.json",
+      "new_path": "examples/replays/attributions/scifact-230.json",
+      "category": "example",
+      "original_sha256": "30a9f0b9664e84883aff2ca654f625773bc8ec41a22eeff918825734d824aca9",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/manifest.json",
+      "new_path": "examples/replays/manifest.json",
+      "category": "example",
+      "original_sha256": "201d9c1e082cd3c6144cae9c3ce058e83e75a528eb0ca77d05bed919b39d6002",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/review_blank.csv",
+      "new_path": "examples/replays/review_blank.csv",
+      "category": "example",
+      "original_sha256": "6d89c7672d288f849fb95883c0c75cc2e8b069ee8c70c8817821d4ed380a27ee",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/review_packets.jsonl",
+      "new_path": "examples/replays/review_packets.jsonl",
+      "category": "example",
+      "original_sha256": "bce0fbb14ddba8273db5c6f320f6c16d024c47a5528e6661fc91a49703454b03",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-230.json",
+      "new_path": "examples/replays/scifact-230.json",
+      "category": "example",
+      "original_sha256": "44b7cec3cf30305b57f53358403a6ce6f08972c4182b9585a07401ad6e11a41a",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-380.json",
+      "new_path": "examples/replays/scifact-380.json",
+      "category": "example",
+      "original_sha256": "a09592cbd4c0c53f6f3e9ed6dffb5089a8902da127c5859a0b788c894f22614b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-452.json",
+      "new_path": "examples/replays/scifact-452.json",
+      "category": "example",
+      "original_sha256": "fb995bdc96c0570b2f618a0d17b4777b348dde236b02c5470137cde8d866e1fe",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-51.json",
+      "new_path": "examples/replays/scifact-51.json",
+      "category": "example",
+      "original_sha256": "e1e46fbafaa9c69d8a083a70b7bc222a6b7ba6ea77e89792b9def3e8dfef9919",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-578.json",
+      "new_path": "examples/replays/scifact-578.json",
+      "category": "example",
+      "original_sha256": "ad343dd471d7debdc5b804796e54d781aa5e7dd9cfab8582bce5081ce6a8d26d",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-70.json",
+      "new_path": "examples/replays/scifact-70.json",
+      "category": "example",
+      "original_sha256": "0c600b2a151aa820a273b0eec28a6a20c4c53358b433307f05e531c68c512d0b",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-723.json",
+      "new_path": "examples/replays/scifact-723.json",
+      "category": "example",
+      "original_sha256": "d0290a31de1b24be20dd2e78211c3674dee11ab3c16fda2c0c7e1c8ecf88fbe0",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/showcase/scifact-852.json",
+      "new_path": "examples/replays/scifact-852.json",
+      "category": "example",
+      "original_sha256": "d7458fde921dd818a9d6bc7fa8dfdc57a648e787c3156155cd4925e381a8effc",
+      "preserve_bytes": true
+    },
+    {
+      "old_path": "explanation_frontend/state.py",
+      "new_path": "src/research_verifier/runtime/session.py",
+      "category": "python",
+      "original_sha256": "604ce9a2a6a1e0e90960cd44aa18c4febd439e3388c0dcf0e7045d3abe230043",
+      "preserve_bytes": false,
+      "migrated_sha256": "46c4d95fd0069db05f326e835a5164e32f845fa7b2fa8ade8e9cce34888aaca5"
+    },
+    {
+      "old_path": "explanation_frontend/templates.py",
+      "new_path": "src/research_verifier/explanations/templates.py",
+      "category": "python",
+      "original_sha256": "8ba8a3a69986f4bcf2b7b8e7d248d6aeb6a4cefd81c6ae4b06cff76ce35df5e1",
+      "preserve_bytes": false,
+      "migrated_sha256": "8843ccc12e4c06acb9f59ea1afb26c70cb1aa9e0255e593ec098a79974e509a8"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_abstract_quality_integration.py",
+      "new_path": "tests/test_abstract_quality_integration.py",
+      "category": "python",
+      "original_sha256": "61a6e2e2acf32a3d9bf703943b6150f97a8e0ab14e15b2083b9fccf211cdd950",
+      "preserve_bytes": false,
+      "migrated_sha256": "1dfc4098d3c5411a31e970d30cce416da5d1ddb7750e84aca1558b9b7232b732"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_abstract_quality_upstream.py",
+      "new_path": "tests/test_abstract_quality_upstream.py",
+      "category": "python",
+      "original_sha256": "be7ae2366525c18ed78940a2297caf30971d1f32d606a3da6901853df7d1f343",
+      "preserve_bytes": false,
+      "migrated_sha256": "b139f2627724daa4df062ef004c3fa57ebe2cf4c579e0c67814d130914fb935a"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_app.py",
+      "new_path": "tests/test_app.py",
+      "category": "python",
+      "original_sha256": "d0369f70a8e113af2826ab73806d3692dfa58fda6b0986a579b065301b5d9edd",
+      "preserve_bytes": false,
+      "migrated_sha256": "1e2cb8bbad254e555097fa46993721ea4ee5dbfcd225160fe4771bf781cfa3f4"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_combined_integration.py",
+      "new_path": "tests/test_combined_integration.py",
+      "category": "python",
+      "original_sha256": "ec42a6480bac11e539e1880ad93376f23885ac51bc1e48116c80763a225c50ed",
+      "preserve_bytes": false,
+      "migrated_sha256": "150528997607d9f3daab887e83e282e35745a10bfa2777c1a814dab4f7f18510"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_context_study.py",
+      "new_path": "tests/test_context_study.py",
+      "category": "python",
+      "original_sha256": "155bb72c8122644efc1dd1d1620f04822a7b4d436a52eddffeb24757fd9b4230",
+      "preserve_bytes": false,
+      "migrated_sha256": "2ac423fee02628d38f31be6099e2c50ff9bfd81a22d1bcb0fc94449b2e0feae1"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_core.py",
+      "new_path": "tests/test_core.py",
+      "category": "python",
+      "original_sha256": "f8e96335d4774255cd5a435c8cee498e93e9f868dbba6e7571390b986f0937e1",
+      "preserve_bytes": false,
+      "migrated_sha256": "c652fe5a18f018403243fe0caf10664c466ffd610f4b8f36cbd52444670a6ef0"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_discovery.py",
+      "new_path": "tests/test_discovery.py",
+      "category": "python",
+      "original_sha256": "f3e9cd77f4b9a50655c88ce2628e22fa47408e14e8163e3596ee6b9686358380",
+      "preserve_bytes": false,
+      "migrated_sha256": "ffb306a3875d98e15e0cbd8c71d3f6d568a71a6dc5a4df09084ca747d418d44c"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_discovery_app.py",
+      "new_path": "tests/test_discovery_app.py",
+      "category": "python",
+      "original_sha256": "52b8246fe11d0d8be200e0bdf505207f91121f0fa153ccbd0adb133308342b75",
+      "preserve_bytes": false,
+      "migrated_sha256": "4f18aaf1a953bbe5f226bf758e2680ee5895d16e6934a5fb6381493ad67644a6"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_discovery_verification.py",
+      "new_path": "tests/test_discovery_verification.py",
+      "category": "python",
+      "original_sha256": "a6e551bdfeeb3a2206c1556f68a5f3336dd2d6a2c73d2d53e1f48f21cac4d5a5",
+      "preserve_bytes": false,
+      "migrated_sha256": "f287552e14c90ad7c67cc5b3a3c025ae23212c44df64aad367337c521a9c2ffe"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_evaluation.py",
+      "new_path": "tests/test_evaluation.py",
+      "category": "python",
+      "original_sha256": "313f5dcb3f0c05decfe9cb93377a9c7e9d8d41c842a301e9bcd9aa09ffc9b0df",
+      "preserve_bytes": false,
+      "migrated_sha256": "db4c3b07cf44b9b4c0587822cfe9f9b4481e324e4adf7c55dfaa5f7768058fc1"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_hardening.py",
+      "new_path": "tests/test_hardening.py",
+      "category": "python",
+      "original_sha256": "ff5b7945e6e157b6ad0967bf2b80c3b390267380a37717e8b6e7180ad4e73a5c",
+      "preserve_bytes": false,
+      "migrated_sha256": "defccdcd66c13895c42ebf62d26181771d199923e7ea2806d96aef0f108c36b9"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_local_llm.py",
+      "new_path": "tests/test_local_llm.py",
+      "category": "python",
+      "original_sha256": "14f35792ec30ca65124036e00d092fba1e3323e383957a4578ce7f6bc39ddc89",
+      "preserve_bytes": false,
+      "migrated_sha256": "64eeba868a14bb2bc64d19c0991ea285b3bb2f865f7ad1368bcc763b55a9ebfb"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_model_setup.py",
+      "new_path": "tests/test_model_setup.py",
+      "category": "python",
+      "original_sha256": "91c2d84fe830a0c06cfe23e602ede34e989149f30d55803a09375834517e3dc5",
+      "preserve_bytes": false,
+      "migrated_sha256": "bce74a013b01dd1dd4c991487c19fb69844cd44b1c79d4edf375514c8cf8589a"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_naila_ig.py",
+      "new_path": "tests/test_integrated_gradients.py",
+      "category": "python",
+      "original_sha256": "90b875b106ed8aae6eb6f075742e6157977872dbacb5c352c5e2a787f9965473",
+      "preserve_bytes": false,
+      "migrated_sha256": "6c75e636a2338b92571e4c11cc1e46ef920bd05dd653f23d54b4e214341da5f1"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_occlusion.py",
+      "new_path": "tests/test_occlusion.py",
+      "category": "python",
+      "original_sha256": "57348a4c6ce7a14f3e9011929cb2812a3eef5996619381b21228e3d9329d9c99",
+      "preserve_bytes": false,
+      "migrated_sha256": "a95d30191890bb6610bb75c50e1a997d4b1a80753d4bafd4e07e906f0f30ee1b"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_person4.py",
+      "new_path": "tests/test_verification_adapter.py",
+      "category": "python",
+      "original_sha256": "9a9a18ce984c8ea0a623d9adf44214daa5300148c070f8211e33cd7d9368cc81",
+      "preserve_bytes": false,
+      "migrated_sha256": "4f5cc3987576cd694190ed084ed5676516c17f68870fdebd510f857514d5ce49"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_pipeline.py",
+      "new_path": "tests/test_pipeline.py",
+      "category": "python",
+      "original_sha256": "1a40ac687687dbd2a8213c5b54f316b52a94bcc08382a1caa2e9b7c04d1f2b0d",
+      "preserve_bytes": false,
+      "migrated_sha256": "e14b9afe197aff3eea7e4d27d4c02d24699fea68e943cd967d05cae0ad276fd8"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_primary_candidate.py",
+      "new_path": "tests/test_primary_policy.py",
+      "category": "python",
+      "original_sha256": "0c2ad31588246d4bdc789288485d067a0e84378e05f071bc6bb058c6d293e682",
+      "preserve_bytes": false,
+      "migrated_sha256": "19c4eabaf846e908d10ddbec73c454ad498479814a2e3b6f80d78d283b432044"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_ranking.py",
+      "new_path": "tests/test_ranking.py",
+      "category": "python",
+      "original_sha256": "42805e7bdbd70ff9af5832d2f2df8423ee938d35be996d51d5b921d8633bf5da",
+      "preserve_bytes": false,
+      "migrated_sha256": "034342bb1a3cc3627d63b10c239f4550ad589e5dfe41938a8b8f82c44437f610"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_regression_review.py",
+      "new_path": "tests/test_regression_review.py",
+      "category": "python",
+      "original_sha256": "1c3bdd4aaef65275fb597cc57c9197dd9ab631eda3126e02707c7c215db3456e",
+      "preserve_bytes": false,
+      "migrated_sha256": "25ed31044748f817751310beb3c84747d0a2a3e6a41b4ffec158bf0b50b62c2c"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_release.py",
+      "new_path": "tests/test_release.py",
+      "category": "python",
+      "original_sha256": "356cfcf1d3bb42b5a239efd105edd06a3364cc2d03385231afa1c52ea6a2be5e",
+      "preserve_bytes": false,
+      "migrated_sha256": "538b5a3062237e5071ac0fd3acbd3f26a04a71529bc3485a75327dde4616a9c1"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_review_app.py",
+      "new_path": "tests/test_review_app.py",
+      "category": "python",
+      "original_sha256": "8621dfc4fb1db194aa4a4324fc2b825108f30776096d61a7534030c26be1f29b",
+      "preserve_bytes": false,
+      "migrated_sha256": "d53d9954d21d08f9700de3ba228df5a193515147cd3779fbeb6a66be91039f23"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_review_bundle.py",
+      "new_path": "tests/test_review_bundle.py",
+      "category": "python",
+      "original_sha256": "8caae847c3e2abb8c73e954a098a2ee951d8599f70f9b13b333c46bb0009a469",
+      "preserve_bytes": false,
+      "migrated_sha256": "f2c1f1d06c3f491682c1f2bf907adb8e5f05cd61d913156c51d257b32f9ad917"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_reviews.py",
+      "new_path": "tests/test_reviews.py",
+      "category": "python",
+      "original_sha256": "71a31095f05c808f8c96e8030f3399a3c89eebd98c2834110b3770fcf6b930e4",
+      "preserve_bytes": false,
+      "migrated_sha256": "5e3129a070e02ae4fb30c6e86ad65514627260c94b27e12b421186ef74f0f909"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_runtime.py",
+      "new_path": "tests/test_runtime.py",
+      "category": "python",
+      "original_sha256": "ee559e28debb5ad04a0bb37262de6cb6b17ec175971ee342d5ec9e540578dae1",
+      "preserve_bytes": false,
+      "migrated_sha256": "683a6b6c1973d78edc22fba8faec1abaf72adbe4d9cb3087810246f77d5b0d5f"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_validation_study.py",
+      "new_path": "tests/test_validation_study.py",
+      "category": "python",
+      "original_sha256": "5827faa77732681fabf3fdf4395b1195d7eae54ce96061909a1bdb837029aab4",
+      "preserve_bytes": false,
+      "migrated_sha256": "1a82206a877ab9abd8f513cfebcebe04dd0f100a95d8425ea9390abdb3a067c7"
+    },
+    {
+      "old_path": "explanation_frontend/tests/test_xai_qc.py",
+      "new_path": "tests/test_xai_qc.py",
+      "category": "python",
+      "original_sha256": "1565dca98eeb30978f116f526071ace2999b80df1bae35893dc68683265d24d6",
+      "preserve_bytes": false,
+      "migrated_sha256": "1cebc725dfb18dc82fcea47d514eb99ee0c875634f0460163456ade36b2264f6"
+    },
+    {
+      "old_path": "explanation_frontend/validation.py",
+      "new_path": "src/research_verifier/explanations/grounding.py",
+      "category": "python",
+      "original_sha256": "1f07b70cf6920dc88bd1455bb6ff1776c221498b2d5841b54491a70a622a3fdb",
+      "preserve_bytes": false,
+      "migrated_sha256": "0f6b226470faa245489ac5da5b427032294450cad036dc3690f3409571c9ad97"
+    },
+    {
+      "old_path": "explanation_frontend/verification_view.py",
+      "new_path": "src/research_verifier/ui/verification.py",
+      "category": "python",
+      "original_sha256": "368222a6300ff74596d4c8becb816a877fe3d888308458afb96c490f8f34ec82",
+      "preserve_bytes": false,
+      "migrated_sha256": "67f7c96ce66793308bc40e7b4483a810862dfbbf59d9c2869194815ce2bb8b81"
+    },
+    {
+      "old_path": "explanation_frontend/xai_runtime.py",
+      "new_path": "src/research_verifier/interpretability/service.py",
+      "category": "python",
+      "original_sha256": "857e273b583c7c9793348d9513eb1131d3bd505919c025c8b681c68dd55594ff",
+      "preserve_bytes": false,
+      "migrated_sha256": "f0010222df914ab4628a8ba0dbf640f8d806a8d42fefdbf942438a1e97ebec9c"
+    }
+  ],
+  "retired_files": [
+    {
+      "old_path": "evidence_verification/.gitkeep",
+      "reason": "Empty original contribution scaffold; actual integrated runtime is in src."
+    },
+    {
+      "old_path": "explanation_frontend/.env.example",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/.gitattributes",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/.gitignore",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/.gitkeep",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/.streamlit/config.toml",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/claim_verifier/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/discovery_quality/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/person3/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/ranking_evaluation/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/retrieval/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/_upstream/xai/__init__.py",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/context-study.cmd",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/context-study.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements-attribution.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements-discovery-lock.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements-local-llm.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements-local-pdf.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements-lock.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/requirements.txt",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/run.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/setup-discovery.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/setup-local-llm.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/setup-pipeline.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/setup.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/start.cmd",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/test.cmd",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/test.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/validate.cmd",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "explanation_frontend/validate.ps1",
+      "reason": "Replaced by root packaging/setup/configuration or empty legacy package initializer. Original available at archived source commit."
+    },
+    {
+      "old_path": "live_search/.gitkeep",
+      "reason": "Empty original contribution scaffold; actual integrated runtime is in src."
+    },
+    {
+      "old_path": "ranking_evaluation/.gitkeep",
+      "reason": "Empty original contribution scaffold; actual integrated runtime is in src."
+    },
+    {
+      "old_path": "retrieval/.gitkeep",
+      "reason": "Empty original contribution scaffold; actual integrated runtime is in src."
+    },
+    {
+      "old_path": "shared/.gitkeep",
+      "reason": "Empty original contribution scaffold; actual integrated runtime is in src."
+    }
+  ],
+  "finalized": true,
+  "scope": "Existing frozen studies/examples preserved by byte hash. Current production modules relocated with import/resource changes; model revisions and policies retained. Historical source newline variant recorded explicitly."
+}

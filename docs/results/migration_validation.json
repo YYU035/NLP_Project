@@ -1,0 +1,82 @@
+{
+  "migration_comparison": {
+    "original_commit": "11ba8dcadbbdd5ab2d672f9e42d61b53a7b592ce",
+    "checks": {
+      "claim": true,
+      "model_settings": true,
+      "ranked_paper_order": true,
+      "exact_passages_and_verification": true,
+      "provisional_aggregation": true,
+      "exported_aggregation": true,
+      "exported_explanation_content": true,
+      "primary_policy": true,
+      "ranked_candidates": true,
+      "retrieval_scores_abs_tolerance_1e_12": true
+    },
+    "all_passed": true,
+    "maximum_retrieval_score_absolute_difference": 8.881784197001252e-16,
+    "exclusions": "Run-specific timestamps, latency, generated fingerprints/context_key and hashes of latency-bearing JSON are not compared. These are not scientific predictions. Verification, aggregation and explanation content compare exactly.",
+    "scope": "Recorded discovery,3 selected papers,2 retained passages,actual local CPUmodels; migration equivalence, not a new scientific accuracy benchmark."
+  },
+  "migration_model_checks": {
+    "environment": "Independent new .venv; existing exact pinned model files reused by explicit ignored local junctions. No new model download, no accuracy benchmark.",
+    "recorded_claim_verdict": "CONTRADICTED",
+    "verified_papers": 3,
+    "neural_passage_calls": 2,
+    "subset_changes": 20,
+    "subset_extra_neural_calls": 0,
+    "pdf": {
+      "source": "Constructed one-page text PDF",
+      "verdict": "CONTRADICTED",
+      "passages": 1,
+      "all_page_references": 1,
+      "grounded": true,
+      "replay_roundtrip": true
+    }
+  },
+  "live-report": {
+    "source": "live",
+    "claim": "Long-term exposure to fine particulate matter is associated with cardiovascular mortality.",
+    "candidate_count": 9,
+    "verified_papers": 3,
+    "passages": 3,
+    "verdict": "SUPPORTED",
+    "status": "ok",
+    "displayable": true,
+    "subset_verdict": "SUPPORTED",
+    "subset_ms": 3.3837999999377644,
+    "elapsed_seconds": 11.668895599999814,
+    "model": {
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "max_length": 512,
+      "threshold": 0.5,
+      "seed": 42
+    },
+    "abstract_policy": "yuyue_primary",
+    "scientific_quality": "Functional check; this claim is not independently adjudicated"
+  },
+  "software_checks": {
+    "passed": 416,
+    "warnings": 3,
+    "warning_scope": "Streamlit/Pandas upstream deprecation notices",
+    "dependency_check": "pass",
+    "independent_environment": "New Python3.12.15 venv; no system-site-packages, bundled code imports from src. Only third-party package download cache reused.",
+    "app_http_health": 200,
+    "app_http_page": 200
+  },
+  "integrity": {
+    "status": "pass",
+    "migration_files": 435,
+    "preserved_files": 312,
+    "transformed_files": 123,
+    "unfinalized_files": 0,
+    "frozen_manifests": 4,
+    "frozen_artifacts": 179,
+    "benchmark_artifacts": 21,
+    "demo_replays": 8,
+    "recorded_attributions": 1,
+    "source_files_scanned": 505,
+    "tracked_files_checked": 2
+  }
+}

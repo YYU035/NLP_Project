@@ -1,4 +1,0 @@
--r requirements-lock.txt
-torch==2.15.0
-transformers==5.22.1
-huggingface-hub==2.4.0

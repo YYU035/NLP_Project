@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-verifier"
+version = "1.0.0"
+description = "Local, evidence-grounded scientific claim verification with a Streamlit workspace"
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "streamlit==1.58.0",
+    "pydantic==2.12.5",
+    "httpx==0.28.1",
+    "spacy==3.8.18",
+    "keybert==0.9.0",
+    "numpy==2.5.4",
+    "sentence-transformers==5.7.0",
+    "torch==2.15.0",
+    "transformers==5.22.1",
+    "huggingface-hub==2.4.0",
+    "pymupdf==2.1",
+    "scikit-learn==1.9.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+interpretability = ["captum==0.9.0", "matplotlib==3.11.2"]
+
+[project.scripts]
+research-verifier = "research_verifier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["research_verifier*", "paper_search*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-ra -m 'not live and not model'"
+cache_dir = ".cache/pytest"
+markers = [
+    "live: opt-in tests that call public paper catalogues",
+    "model: explicit checks requiring downloaded local model weights",
+]

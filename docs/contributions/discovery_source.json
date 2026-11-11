@@ -1,0 +1,255 @@
+{
+  "repository": "https://github.com/YYU035/NLP_Project",
+  "revision": "259d2a9e90fb8e9d5988f030a156733f4f3576d1",
+  "component": "Public research-paper discovery",
+  "author": "Raghavi",
+  "policy": "Bundled runtime source copied from exact Git objects, not site-packages. Existing paper_search import namespace is retained. No license file was present in the original component source tree; no new license grant is inferred.",
+  "excluded_paths": [
+    "live_search/src/paper_search/evaluation/__init__.py",
+    "live_search/src/paper_search/evaluation/analysis.py",
+    "live_search/src/paper_search/evaluation/dataset.py",
+    "live_search/src/paper_search/evaluation/depth.py",
+    "live_search/src/paper_search/evaluation/models.py",
+    "live_search/src/paper_search/evaluation/replay.py",
+    "live_search/src/paper_search/evaluation/reporting.py",
+    "live_search/src/paper_search/evaluation/runner.py",
+    "live_search/src/paper_search/relevance/__init__.py",
+    "live_search/src/paper_search/relevance/cache.py",
+    "live_search/src/paper_search/relevance/dataset.py",
+    "live_search/src/paper_search/relevance/gemini.py",
+    "live_search/src/paper_search/relevance/report.py"
+  ],
+  "exclusion_reason": "Unused owner research/evaluation tooling, including the optional proprietary Gemini relevance evaluator. Not imported by the integrated discovery runtime.",
+  "files": [
+    {
+      "original_path": "live_search/src/paper_search/__init__.py",
+      "path": "src/paper_search/__init__.py",
+      "sha256": "368180e75dede8147854f81ed82f9a75977bc9db56b099a74ce0a313159d827e",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/arxiv_fallback.py",
+      "path": "src/paper_search/arxiv_fallback.py",
+      "sha256": "4a5e2c387cf6ee2cc846e58d2be1ff04db078b59211909e5e5411d00b551c8bd",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/arxiv_rendering.py",
+      "path": "src/paper_search/arxiv_rendering.py",
+      "sha256": "0a10dffb5b3b8e2b8925b2b22bca9008202fa9f139c5537053a3fb324168275d",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/__init__.py",
+      "path": "src/paper_search/clients/__init__.py",
+      "sha256": "d7c360eea6ca431169f09307ef5378126af9c3e3ca97cc879754d4aaf1c4c420",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/arxiv.py",
+      "path": "src/paper_search/clients/arxiv.py",
+      "sha256": "10abef2f52b9ab66d7e3e9b2d07ffc234a902424bbe02324b1341cdc76d19442",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/base.py",
+      "path": "src/paper_search/clients/base.py",
+      "sha256": "a5c54c65e5618fbb47aef7c950c22ca8fe04e150e290c2dc257db94130ddaa06",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/http.py",
+      "path": "src/paper_search/clients/http.py",
+      "sha256": "b328865b7d491c6b97968efa9f2699b2baefea25573df089b006b73b6643a7e1",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/normalization.py",
+      "path": "src/paper_search/clients/normalization.py",
+      "sha256": "1b9f3813b330e402344386b2cec644091609ce7229c046b12acc51dddd16c664",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/openaire.py",
+      "path": "src/paper_search/clients/openaire.py",
+      "sha256": "c17816637ed68ff1bf75fb17b24812ca6bf97eb702b1af15e92635a1277ab7f2",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/openalex.py",
+      "path": "src/paper_search/clients/openalex.py",
+      "sha256": "bb35e2e1545667402eee18291bb8731a02ac3ba0734d289859b44090b454871b",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/clients/semantic_scholar.py",
+      "path": "src/paper_search/clients/semantic_scholar.py",
+      "sha256": "a5bd60cf223a27e4b0e32ad46e1b25647ef70188e29aa09e3403169a9bab0a51",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/config.py",
+      "path": "src/paper_search/config.py",
+      "sha256": "4dcddf8fb36b2cb0a881fbf2991ef794f1b481b951325d33402264a8d272e454",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/deduplication.py",
+      "path": "src/paper_search/deduplication.py",
+      "sha256": "3095bad44817a4b739a6c7b58b063fc2176ba90b76d6c1e41f9ed42bfd39a066",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/exceptions.py",
+      "path": "src/paper_search/exceptions.py",
+      "sha256": "fb776bf323cb09245d09e981628fb7a9c15de0543e07e0355d3dfab84280386c",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/keybert_queries.py",
+      "path": "src/paper_search/keybert_queries.py",
+      "sha256": "bd8ea3b750d9a15e2a4aa7125cc0e9ad9e36b2ca7d53f2bead6c1da206d0bfb1",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/linguistic.py",
+      "path": "src/paper_search/linguistic.py",
+      "sha256": "50c9c898423dcbc27df6d45b0ae75fc330d580c9c803ab9a7177d28632b672ac",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/logging_config.py",
+      "path": "src/paper_search/logging_config.py",
+      "sha256": "13b6f06ce6420bf1ee42d6955688c120e7c6a8414ee4b27185d897d6fe58bb90",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/metadata.py",
+      "path": "src/paper_search/metadata.py",
+      "sha256": "dc3667e1202fc2466be81988a029ed504d4f815167c454e817df3daecc06e5b2",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/model_setup.py",
+      "path": "src/paper_search/model_setup.py",
+      "sha256": "591c8e95f99d7051a8300d473c214b681e9ea47881104daa7a12bd8eaf227988",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/pdf_verification.py",
+      "path": "src/paper_search/pdf_verification.py",
+      "sha256": "d2ebfa5f85028da5689bb89858b8380ad898e9783cce31bab30995af31a087a1",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/pipeline.py",
+      "path": "src/paper_search/pipeline.py",
+      "sha256": "1d8fe5dc54f12fc4788ab302c5ab69b63bd656c1eefc8b574061c646b8fea466",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/query_construction.py",
+      "path": "src/paper_search/query_construction.py",
+      "sha256": "69e64ed78075a4fba188ef79e83152e3cc306b1e9df1d0e63995b86c14478b9d",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/query_processing.py",
+      "path": "src/paper_search/query_processing.py",
+      "sha256": "bfc5a7a2eb506c2e09c386ac56d7ba03c179e34c794387a2839572c768d2d912",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/query_rendering.py",
+      "path": "src/paper_search/query_rendering.py",
+      "sha256": "13aa8e48a523bf02bc77090ed18cfa1cf824460e9ad2ad22b27848e9f0b97d8e",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/retrieval.py",
+      "path": "src/paper_search/retrieval.py",
+      "sha256": "f97c229f29b14e189b72d2fc026a45ad9fefb87135cc242240cdbf32f0155e2a",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/src/paper_search/retrieval_models.py",
+      "path": "src/paper_search/retrieval_models.py",
+      "sha256": "d77c1937ae913f349469029d068ee1c0773f61ea2724e28f3a86a7c1fcfdde2e",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_keybert_queries.py",
+      "path": "tests/discovery/test_keybert_queries.py",
+      "sha256": "5c0196d763ad9f3271adecae03c0659561385974ed1c20fa7559a8cd0f012746",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_linguistic.py",
+      "path": "tests/discovery/test_linguistic.py",
+      "sha256": "ddb8479f03818ead09515b05b6002a9eef7321cafd3e9d0647abfba1d8a66cc9",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_openalex.py",
+      "path": "tests/discovery/test_openalex.py",
+      "sha256": "e08cc7cb4396340526232c619382f6f583138bd884582eaf64cac16903450d2f",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_pipeline.py",
+      "path": "tests/discovery/test_pipeline.py",
+      "sha256": "17d3f0a7a0e98c8275ad50b8faca95aab79c58f82ea9cb7a0e9f9a1556c2af38",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_providers.py",
+      "path": "tests/discovery/test_providers.py",
+      "sha256": "2c27a3e922a381338d20854cde8c4ab6e0c97f4fcd08535d7328edef462f79c8",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_query_construction.py",
+      "path": "tests/discovery/test_query_construction.py",
+      "sha256": "2ca2c68c23250a36404cc757efc7fe850be6bf326787183c8dc816a6f59b4752",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_query_processing.py",
+      "path": "tests/discovery/test_query_processing.py",
+      "sha256": "202d66e5b57a169d786fd8f6a44b3fe862051c20bac0784de2daf599c0f8fe9f",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_query_rendering.py",
+      "path": "tests/discovery/test_query_rendering.py",
+      "sha256": "fa5d9ca6669f07e7458df57d6588b69690a69afdba1fcbc049c6fec8b6270738",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_retrieval_handoff.py",
+      "path": "tests/discovery/test_retrieval_handoff.py",
+      "sha256": "0c2d3dd21f873198e6826f7cda03eed502c7452aab377e1057a5d4fcfa1f3f04",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_scaffold.py",
+      "path": "tests/discovery/test_scaffold.py",
+      "sha256": "5843c397d4e98111293834869b953cbfaeef91205598eb21cf9e815d782c961b",
+      "adaptation": null
+    },
+    {
+      "original_path": "live_search/tests/test_openaire.py",
+      "path": "tests/discovery/test_openaire.py",
+      "sha256": "6cfdac97d81cb5992e2c2a1cf67282350ffcee20198269c12e6a0c6cadf3af91",
+      "original_sha256": "5dd1152a7539db10e6956acb0825f3361f5bbc0a2ec25936286da002247d27d7",
+      "adaptation": "Removed only owner experimental-script imports and their research-artifact tests; runtime provider tests retained."
+    },
+    {
+      "original_path": "live_search/tests/test_arxiv_discovery.py",
+      "path": "tests/discovery/test_arxiv_discovery.py",
+      "sha256": "a5ec59f354242b4855126152baa2e96f7c97d506cb36dfa806d674f6cdebe7aa",
+      "original_sha256": "ca01abffff08b22a0a0f6ea1419bc5a43252b0c136faaa0c0688b344cc7908dd",
+      "adaptation": "Removed only owner experimental-script imports and their research-artifact tests; runtime provider tests retained."
+    }
+  ]
+}

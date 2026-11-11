@@ -1,0 +1,42 @@
+name: Software and artifact validation
+
+on:
+  push:
+    branches: [main, codex/main-consolidation]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  software:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: 'false'
+      MPLCONFIGDIR: ${{ github.workspace }}/.cache/matplotlib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements/*.lock
+      - name: Install pinned software without model weights
+        run: |
+          python -m pip install -r requirements/runtime.lock -r requirements/interpretability.lock
+          python -m pip install --no-deps --no-build-isolation -e .
+      - name: Check dependencies
+        run: python -m pip check
+      - name: Run software tests
+        run: |
+          mkdir -p .cache
+          python -m pytest tests -q --basetemp .cache/pytest_tmp
+      - name: Verify frozen artifact integrity
+        run: python scripts/check_integrity.py

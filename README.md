@@ -1,167 +1,87 @@
-# Research Claim Verification
+# Research Claim Verifier
 
-An evidence-based system for checking scientific claims against research papers. The project combines live paper search, lexical and semantic retrieval, hybrid ranking, natural language inference, and grounded explanations in a Streamlit interface.
+Inspect scientific claims against traceable research evidence. The integrated application connects public paper discovery, BM25 and semantic retrieval, Reciprocal Rank Fusion, exact evidence selection, local DeBERTa inference and cited explanations in Streamlit.
 
-Given a claim, the system will find relevant papers, identify evidence passages, and return one of three verdicts: **Supported**, **Contradicted**, or **Insufficient Evidence**, together with citations and an explanation.
+This is the combined five-person project. Functional packages replace the original contribution folders; authorship and source pins remain in the [contribution record](docs/contributions/index.md).
 
-> **Project status:** Planning and initial folder setup. The modules described below are planned work and have not been implemented yet.
+## Install and run
 
-## System Workflow
+Use **Python 3.12**. From a Windows checkout:
 
-```text
-User Claim
-    |
-    v
-Live Research Paper Search
-(arXiv / Semantic Scholar / OpenAlex)
-    |
-    v
-Publication Date Filtering & Deduplication
-    |
-    v
-BM25 Retrieval + SBERT Retrieval
-    |
-    v
-Reciprocal Rank Fusion (RRF)
-    |
-    v
-Optional Cross-Encoder Reranking
-    |
-    v
-PDF Text Extraction & Chunking
-(Abstract fallback when full text is unavailable)
-    |
-    v
-Relevant Evidence Passages with Source References
-    |
-    v
-DeBERTa-MNLI Claim–Evidence Predictions
-    |
-    v
-Verdict Aggregation
-(Supported / Contradicted / Insufficient Evidence)
-    |
-    v
-Evidence-Grounded Explanation & Streamlit Display
+```powershell
+.\setup.cmd
+.\run.cmd
 ```
 
-## Modules and Team Responsibilities
+Setup creates `.venv`, installs pinned dependencies and bundled source packages, and explicitly provisions required public model files. See `scripts/setup.ps1` for available options. Initial setup needs internet and disk space; DeBERTa weights alone are about 870 MB. The app opens at `http://127.0.0.1:8501`.
 
-### Person 1 — Live Research Paper Search · Raghavi
+Use `setup.cmd -SkipModels` for software-only setup, or `setup.cmd -WithInterpretability` to add Captum. Optional local generation is provisioned explicitly with `.venv\Scripts\python.exe -m research_verifier.cli setup-models --language-model`; template explanations remain the default.
 
-**Folder:** `live_search/`
+The `.cmd` entry points invoke PowerShell with a process-scoped execution-policy setting, without changing permanent machine policy. Discovery is bundled in `src/paper_search/`; installation no longer fetches application code from an old private Git revision. `.env.example` documents settings and is not automatically loaded.
 
-- Integrate arXiv, Semantic Scholar, or OpenAlex APIs.
-- Search for relevant papers based on user claims.
-- Filter results by publication date and remove duplicate papers.
-- Return paper metadata, including titles, authors, publication dates, abstracts, and source links where available.
+## Follow one claim
 
-### Person 2 — Retrieval · Naila
+1. In **Find papers**, enter a claim, load a recorded search or import a search. Inspect candidate abstracts, provenance and advisory quality warnings, then select papers.
+2. Prepare the selection and open **Verify evidence**. Retrieval ranks available selected records; exact passages feed the local verifier.
+3. Inspect Supported, Contradicted, Conflicting or Insufficient with citations and source scope. Processing failures remain separate from insufficient evidence.
+4. Change the paper selection to reuse stored predictions, then export JSON and reload through Cached replay.
 
-**Folder:** `retrieval/`
-
-- Implement BM25 for lexical retrieval.
-- Implement SBERT for semantic retrieval.
-- Rank candidate papers by relevance to the claim.
-- Compare lexical and semantic retrieval performance.
-
-### Person 3 — Hybrid Ranking & Evaluation · Yu Yue
-
-**Folder:** `ranking_evaluation/`
-
-- Combine BM25 and SBERT rankings using Reciprocal Rank Fusion (RRF).
-- Implement optional Cross-Encoder reranking.
-- Evaluate retrieval using Recall@K, MRR, nDCG, and latency.
-- Conduct comparative experiments and ablation studies.
-
-### Person 4 — Evidence Extraction & Claim Verification · Chong Yao
-
-**Folder:** `evidence_verification/`
-
-- Extract and chunk available PDF full text, with abstract fallback when necessary.
-- Identify relevant evidence passages and retain source references.
-- Apply pretrained DeBERTa-MNLI to claim–evidence pairs.
-- Aggregate predictions into Supported, Contradicted, or Insufficient Evidence.
-- Evaluate claim verification using Accuracy and Macro-F1 on labeled data.
-
-### Person 5 — Grounded Explanation & Frontend · Kireeti
-
-**Folder:** `explanation_frontend/`
-
-- Use an LLM to generate explanations based on retrieved evidence and verification results.
-- Generate evidence-grounded explanations and optional claim corrections.
-- Display verdicts, evidence passages, citations, and relevant papers.
-- Build the Streamlit interface.
-
-### Shared — Dataset & Integration · Everyone
-
-**Folder:** `shared/`
-
-- Use SciFact as a fixed benchmark for reproducible evaluation.
-- Agree on shared data formats and interfaces between modules.
-- Integrate the five modules into one end-to-end pipeline.
-- Test the complete system using live research paper search.
-
-## Project Structure
+The seven workspaces are **Project overview**, **Find papers**, **Verify evidence**, **Local PDF**, **Benchmark results**, **Model attribution** and **Evaluate explanations**. PDF upload preserves page references; saved runs support inspection without catalogue availability.
 
 ```text
-NLP_Project/
-├── live_search/              # Live paper search, filtering, and deduplication
-├── retrieval/                # BM25 and SBERT retrieval
-├── ranking_evaluation/       # RRF, reranking, experiments, and retrieval metrics
-├── evidence_verification/    # Evidence extraction, NLI, and verdict aggregation
-├── explanation_frontend/     # Grounded explanations and Streamlit interface
-├── shared/                   # Dataset preparation and shared integration work
-├── .gitignore
-└── README.md
+Claim → discovery → BM25 + semantic retrieval → RRF → exact evidence
+      → DeBERTa → scoped aggregation → cited explanation → export/replay
 ```
 
-Each contributor owns the implementation and internal structure of their assigned module. The folders currently contain only `.gitkeep` files so Git can track them.
+The primary abstract policy uses up to three semantic anchors, exact whole-abstract context when the claim pair fits 512 tokens, and a 0.65 paper relevance gate. The focused baseline remains an explicit comparison route; PDF selection is separate.
 
-## Evaluation Plan
+**No paid or hosted inference API is required.** Fresh Live search sends the claim to public OpenAlex, OpenAIRE and arXiv catalogues. Setup downloads public model files explicitly. Inference, ranking, templates, PDF extraction and replay run locally; missing weights do not trigger a hosted fallback.
 
-### Fixed Benchmark: SciFact
+See the [architecture](docs/architecture/overview.md), [interactive historical map](docs/architecture/project_map/project-summary.html) and [dependency/source inventory](docs/contributions/dependencies.md).
 
-Use a fixed SciFact corpus and labeled claims to compare methods under reproducible conditions. Record the dataset version, splits, model versions, and experiment settings. Keep benchmark evaluation separate from live API search, whose results can change over time.
+## Existing measured results
 
-### Retrieval Evaluation
+These frozen studies predate consolidation; cleanup is not a new accuracy experiment.
 
-| Metric | Purpose |
-| --- | --- |
-| Recall@K | Measure how many relevant papers appear among the top K results |
-| MRR | Measure the rank of the first relevant paper |
-| nDCG@K | Measure ranking quality with higher weight on relevant papers near the top |
-| Latency | Measure retrieval, reranking, and end-to-end response time |
+| Internal SciFact audit: 209 reserved claims | Original baseline | Primary policy |
+|---|---:|---:|
+| Accuracy | 56.5% | 67.9% |
+| Macro F1 | 0.583 | 0.679 |
+| Contradiction precision | 47.8% | 84.0% |
+| Contradiction recall | 82.1% | 53.8% |
+| Input evidence F1 | 0.210 | 0.165 |
 
-Planned comparisons:
+The candidate fixes 45 errors and introduces 21 regressions. This is an internal audit of published training records, **not an official hidden test**. Overall accuracy improves while contradiction recall and rationale coverage fall.
 
-- BM25 alone.
-- SBERT alone.
-- BM25 + SBERT combined with RRF.
-- RRF with Cross-Encoder reranking.
+Separate RRF Recall@10 results are **95.6% SciFact**, **39.2% CSFCube test** and **93.7% RECIPER**. Tasks, candidate pools and model/preprocessing protocols differ. CSFCube/RECIPER do not establish verifier accuracy. Read the [results and complete protocols](docs/results/index.md) before quoting scores.
 
-Ablation studies will examine the contribution of each retrieval branch and optional reranking stage.
+## Validate
 
-### Claim Verification Evaluation
+```powershell
+.\test.cmd
+.\validate.cmd
+```
 
-Report **Accuracy** and **Macro-F1** for the three verdict classes. Document how SciFact annotations map to system verdicts and distinguish evaluation with gold evidence from evaluation with retrieved evidence.
+Software checks cover contracts, failures, source preservation, UI flows, replay and cached aggregation. Actual-model smoke and scientific evaluations are separate. The [migration validation report](docs/results/migration_validation.md) records checks rerun on the renamed release; historical test counts stay in their dated reports. Do not tune new policies on the inspected frozen audit.
 
-### Live Integration Testing
+After model setup, `validate.cmd -WithModels` adds the recorded-search real-model smoke. `validate.cmd -WithModels -Live` also makes an explicit public-catalogue search. `research-verifier check` runs only the local artifact/provenance checks. Default `test.cmd` and `validate.cmd` do not download or infer with models.
 
-Run user claims through live paper search and the complete downstream pipeline. Check that paper metadata, evidence references, verdicts, and explanations remain connected throughout the process, including when PDF full text is unavailable.
+| Path | Purpose |
+|---|---|
+| `src/research_verifier/` | Functional pipeline, UI and runtime |
+| `src/paper_search/` | Bundled discovery implementation |
+| `tests/` | Software tests and controlled inputs |
+| `examples/` | Recorded searches, scenarios, replays and benchmark snapshots |
+| `evaluation/` | Metrics, protocols, frozen studies and review evidence |
+| `config/` | Versioned policy settings |
+| `scripts/` | Setup, launch and validation |
+| `docs/` | Architecture, results, contributions and history |
+| `data/`, `.cache/`, `outputs/` | Ignored downloads, models and run artifacts |
 
-## Planned User Output
+## Limits and review
 
-For each claim, the interface will show:
+A verdict describes selected evidence, not scientific truth; confidence is not calibrated correctness. Provider coverage, PDF reading order and population/generalisation errors remain limitations. OCR/scanned-PDF interpretation and arbitrary paper-URL fetching are unsupported.
 
-- The claim and final verdict.
-- Relevant evidence passages with source references.
-- Research paper metadata and citations.
-- An explanation grounded in the displayed evidence.
-- An optional evidence-grounded claim correction, when appropriate.
+Word-MASK sensitivity is available. IG remains experimental after failed real-case numerical gates. All 12 recorded raw local-Qwen generations failed the strict schema and used templates. The prepared human explanation-review study has no completed ratings.
 
-Unavailable or insufficient evidence should be made explicit. Explanations must not invent evidence or citations.
-
-## Setup and Usage
-
-Installation requirements and run commands will be added as the modules are implemented and integrated. There is currently no runnable application or benchmark command.
+Historical documents retain their original paths, terminology and counts. Start here for current navigation; see [history and provenance](docs/history/README.md).
