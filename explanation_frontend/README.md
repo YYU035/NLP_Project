@@ -1,3 +1,11 @@
+# Abstract-quality integration — 11 November 2026
+
+Raghavi's latest offline quality rules (`0ee9565`) now appear beside candidate abstracts in **Find papers** and source-backed **Verify evidence** results, including saved replays. Warning reasons and a provenance-preserving JSON report are available. Checks are advisory: text, selection, ranking, verifier inputs and recorded accuracy results remain unchanged. **No warning detected** does not establish source completeness or scientific correctness.
+
+The isolated saved-result CLI also fixes empty-result CSV reporting. No API calls or dependencies were added. See [the usage and integration notes](ABSTRACT_QUALITY.md) for scope, source provenance and limitations.
+
+Validation: **212 frontend tests passed** and the dependency check passed. The 31 new cases cover rule/source preservation, empty reports, legacy provenance, selection/ranking invariance and source-backed replay display without model loading. These are software checks, not new scientific-accuracy measurements.
+
 # Regression review pack — 11 November 2026
 
 All 21 reserved-audit regressions are traced without new inference or tuning: 10 lose the original correct verdict when only the new retained paper scope is used; 11 require changed context predictions to explain the loss. Retrieval order is identical in all 21. These are diagnostic counterfactuals, not proof of a single cause or a new accuracy result.

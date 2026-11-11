@@ -18,6 +18,8 @@ from explanation_frontend.providers import FixtureProvider, fixture_names, repla
 from explanation_frontend.state import Workspace, start_job, poll_job
 from explanation_frontend.templates import build_template
 from explanation_frontend.validation import safe_url, validate_explanation
+from explanation_frontend.abstract_quality import quality_label, review_discovery
+from explanation_frontend.abstract_quality_view import render_abstract_quality, render_quality_summary
 
 
 
@@ -259,6 +261,12 @@ def render_verification():
 
     if "snapshot" in ss:
         snapshot = ss.snapshot
+        quality_review = None
+        quality_by_identity = {}
+        if snapshot.discovery_context:
+            from explanation_frontend.discovery import DiscoverySnapshot
+            quality_review = review_discovery(DiscoverySnapshot.model_validate(snapshot.discovery_context))
+            quality_by_identity = quality_review.by_identity
         if ss.get("selection_snapshot") != snapshot.fingerprint:
             ss.selection_snapshot = snapshot.fingerprint
             ss.paper_selection = {pid: ss.get(f"paper:{snapshot.fingerprint}:{pid}", True) for pid in snapshot.papers}
@@ -268,6 +276,8 @@ def render_verification():
             st.caption("CACHED REPLAY" if ss.mode == "Cached replay" else "SYNTHETIC DEMO" if snapshot.mode == "demo" else "VERIFIED SAVED DISCOVERY" if snapshot.discovery_context and snapshot.mode == "cached" else "LIVE SEARCH")
             if snapshot.discovery_context:
                 st.text("Discovery source: " + snapshot.discovery_context["source_reference"])
+                render_quality_summary(quality_review, key_prefix="verification")
+                st.caption("Current advisory checks on stored source text; saved predictions are unchanged.")
             retrieval_time = ("unknown; snapshot bookkeeping time: " if snapshot.filters.get("retrieval_timestamp", "").startswith("unknown")
                               else "retrieved: ") + snapshot.retrieved_at.isoformat()
             st.text(f"Discovery time {retrieval_time} | original mode: {snapshot.mode} | search complete: {snapshot.search_complete}")
@@ -303,6 +313,8 @@ def render_verification():
                     include = st.checkbox(f"Include paper {i}", key=widget_key,
                                           on_change=update_selection, args=(pid, widget_key))
                     st.text(paper.title)
+                    if pid in quality_by_identity:
+                        st.caption("Abstract check: " + quality_label(quality_by_identity[pid]))
                     verdict = snapshot.verification.per_paper_verdicts.get(pid)
                     if verdict:
                         st.text(f"Paper verdict: {verdict.verdict} | inspected evidence: {verdict.evidence_type} | conflict: {verdict.conflict_flag}")
@@ -313,6 +325,11 @@ def render_verification():
                     else:
                         st.warning("No paper verdict is available; inspect processing failures.")
                     with st.expander("Metadata, scores and exact passages"):
+                        if pid in quality_by_identity:
+                            with st.expander("Stored provider abstract and quality checks"):
+                                assessment = quality_by_identity[pid]
+                                st.text(assessment.text or "No abstract or description was supplied.")
+                                render_abstract_quality(assessment)
                         st.text(f"{', '.join(paper.authors) or 'Authors unavailable'} | {paper.year or 'Year unavailable'} | {paper.venue or 'Venue unavailable'}")
                         st.caption("Paper provenance and availability")
                         st.text(f"ID: {pid} | source status: {paper.source_status} | version: {paper.source_version or 'unknown'}")

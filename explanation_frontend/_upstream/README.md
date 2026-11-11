@@ -1,5 +1,7 @@
 # Pinned team runtime sources
 
+- discovery_quality: Raghavi `0ee95651cdd0c9d40a0ffb09a6bba896db3be455`; independently pinned advisory abstract checks and optional offline batch report. Type-only/import isolation plus an explicitly recorded empty-result CSV fix; classification logic unchanged. The installed discovery dependency remains pinned at259d2a9. See discovery_quality/SOURCE.json.
+
 - ranking_evaluation: Yu Yue 7ed93fa4be69c661422b33b6c88b949dd2636e12; six unchanged runtime files.
 - claim_verifier: Chong Yao 1ac06b675e3d0719a63cb8efe98eda4f2c5fd576; schemas and verifier, with bare schemas import changed to relative .schemas for isolation.
 - retrieval: Naila 2bc7d81292313498fd70dd13656024d00cf3dda4; six runtime files; retriever._top_k has a documented frontend stable-cutoff fix (SOURCE.json).

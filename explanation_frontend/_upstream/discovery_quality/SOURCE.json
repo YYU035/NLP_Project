@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/YYU035/NLP_Project",
+  "revision": "0ee95651cdd0c9d40a0ffb09a6bba896db3be455",
+  "rule_version": "abstract-quality-v1",
+  "sources": [
+    {
+      "source": "live_search/src/paper_search/abstract_quality.py",
+      "path": "abstract_quality.py",
+      "source_sha256": "1fb76776e6546adae2c873a98fd29a99952ad4f715a961fb542cdb2926c3cf4d",
+      "adapted_sha256": "55245cb60dd965e93b641f220d724a010c723615fcbb06802cdb3f5d39a3dd2b"
+    },
+    {
+      "source": "live_search/scripts/assess_abstract_quality.py",
+      "path": "assess_saved.py",
+      "source_sha256": "2eca427a1b77ffa29606ff73a3fde63e2ff7683edd88cfa640a4d1725869a5b0",
+      "adapted_sha256": "2a9b3eb3575c559bbd417e5a34ff9a6f2109d6e8e41cf87e9e1b37984b20a4fc"
+    }
+  ],
+  "changes": [
+    "abstract_quality.py: add postponed annotations and move the RetrievalResult type-only import behind TYPE_CHECKING. Assessment rules, records, hashes and provenance logic are unchanged.",
+    "assess_saved.py: import the isolated local quality module. Retain the existing pinned paper_search models and merge function for the optional saved-result CLI.",
+    "assess_saved.py: derive stable CSV headers from assessment record models instead of flat[0], so valid zero-result inputs produce all three report files without IndexError."
+  ],
+  "runtime_scope": "Advisory sidecar only. Does not mutate source text, filter candidates, rerank, verify, contact APIs, or add dependencies.",
+  "cli": "python -m explanation_frontend._upstream.discovery_quality.assess_saved --input PATH --output NEW_PATH --depths 10 30"
+}

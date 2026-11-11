@@ -1,3 +1,11 @@
+# Advisory abstract-quality integration — 11 November 2026
+
+Integrated Raghavi's `0ee9565` abstract-quality helper as a separately pinned sidecar. Find papers displays per-candidate check labels, exact-text warnings and a JSON review export. Source-backed verification/replay results expose the same checks against stored abstracts. PDF and synthetic fragments are excluded. Provider-occurrence and unique-candidate counts remain separate.
+
+The owned copy repairs empty-batch CSV reporting and preserves the original heuristic rules. No source text, selection, ranking, model input, inference setting or benchmark result changed. No new API or dependency is required. Human validation of these warning rules remains pending. See [ABSTRACT_QUALITY.md](ABSTRACT_QUALITY.md) and [the source record](_upstream/discovery_quality/SOURCE.json).
+
+Full frontend validation: **212 passed**, dependency check passed. This includes 31 new functional/regression cases; scientific benchmark metrics are unchanged.
+
 # Regression review pack — 11 November 2026
 
 All 21 reserved-audit regressions are traced without new inference or tuning: 10 lose the original correct verdict when only the new retained paper scope is used; 11 require changed context predictions to explain the loss. Retrieval order is identical in all 21. These are diagnostic counterfactuals, not proof of a single cause or a new accuracy result.

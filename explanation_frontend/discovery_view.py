@@ -9,6 +9,8 @@ from .discovery import (LiveDiscoveryBridge, import_discovery, export_discovery,
 from .state import start_job, poll_job
 from .validation import safe_url
 from .ranking import connect_ranking, ranking_request, ranked_candidates
+from .abstract_quality import quality_label, review_discovery
+from .abstract_quality_view import render_abstract_quality, render_quality_summary
 
 
 def render_discovery():
@@ -132,6 +134,8 @@ def render_discovery():
 
     snapshot = ss.discovery_snapshot
     result = snapshot.result
+    quality_review = review_discovery(snapshot)
+    quality_by_identity = quality_review.by_identity
     with st.expander("Connect BM25/SBERT rankings and Person 3 RRF"):
         st.write("Download the input contract for Person 2 to fill with ordered canonical IDs. Upload their RankingInput to run Yu Yue's pinned RRF locally, or upload an RRF-only RankingOutput. No API or model is called.")
         st.caption("The downloaded branch lists are empty placeholders. Ranking scores measure retrieval relevance, not truth. Cross-encoder integration remains pending.")
@@ -196,6 +200,7 @@ def render_discovery():
                     st.text(f"HTTP {attempt.status} · {attempt.seconds:.2f}s")
             if provider.error:
                 st.caption("Provider error recorded. Raw exception text is withheld from this view.")
+    render_quality_summary(quality_review, key_prefix="discovery")
     st.divider()
     st.text_input("Filter by title, abstract, author or identity", key="discovery_filter", on_change=reset_page)
     st.multiselect("Provider origins (empty means all)", list(result.providers), key="discovery_provider_filter", on_change=reset_page)
@@ -222,6 +227,7 @@ def render_discovery():
                     st.checkbox(f"Include candidate {(ss.discovery_page - 1) * 10 + offset}", key=key,
                                 on_change=select_paper, args=(pid, key))
                     st.text(entry.paper.title or "Title unavailable")
+                    st.caption("Abstract check: " + quality_label(quality_by_identity[pid]))
                     if snapshot.ranking_context is not None:
                         row = next(r for r in snapshot.ranking_context["papers"] if r["entry"]["identity"] == pid)
                         st.text(f"RRF rank {row['rank']} · score {row['rrf_score']:.6f} · BM25 rank {row['bm25_rank']} · SBERT rank {row['sbert_rank']}")
@@ -243,6 +249,7 @@ def render_discovery():
             st.text("Identity aliases: " + ", ".join(entry.identity_aliases))
             st.write("Abstract / provider description")
             st.text(paper.abstract or "No abstract or description was supplied.")
+            render_abstract_quality(quality_by_identity[pid])
             st.caption("Provider descriptions, especially OpenAIRE records, are not guaranteed scientific abstracts or verification evidence.")
             if safe_url(paper.landing_url):
                 st.link_button("Open source record", safe_url(paper.landing_url))

@@ -1,3 +1,12 @@
+# Advisory abstract-quality integration — 11 November 2026
+
+- Isolated Raghavi `0ee95651cdd0c9d40a0ffb09a6bba896db3be455` rules and optional batch runner under `_upstream/discovery_quality/`, with original/adapted hashes and explicit changes in SOURCE.json. The existing discovery dependency stays pinned at259d2a9.
+- Added `abstract_quality.py` to map current frontend contracts to a separate advisory report, retaining exact text/hashes, canonical IDs, aliases and provenance. Legacy handoffs with missing provider records disclose incomplete occurrence counts; orphan occurrences withhold that scope. Candidate checks remain usable.
+- Added shared presentation in `abstract_quality_view.py`: candidate labels, detailed reasons, separate report scopes and JSON download. Discovery and source-backed verification/replay views use it. PDF and synthetic fragments are not reclassified as abstracts.
+- Fixed the owned batch runner's empty-result `flat[0]` crash by deriving stable CSV headers from the record models. All three reports now exist for valid zero-result input; source archives remain unchanged.
+- Classification rules, source text, selections, ranking, verifier inputs, model settings and scientific results are unchanged. No API calls or dependencies were added. The rules remain unvalidated heuristics, not a quality guarantee.
+- Validation: full frontend suite212 passed; dependency check passed. New coverage includes31 cases across rule behavior, exact text/hash preservation, empty-batch output, incomplete legacy provenance, UI selections/ranking and source-backed replay without inference.
+
 Current final-integration/demo update: see [FINAL_INTEGRATION.md](FINAL_INTEGRATION.md) and [DEMO_RUBRIC_GUIDE.md](DEMO_RUBRIC_GUIDE.md). Later changes include latest benchmarks, actual-model replays, efficiency instrumentation, word occlusion and additional negative IG studies. Earlier observations below remain historical.
 
 Subsequent XAI validation: see [XAI_VALIDATION.md](XAI_VALIDATION.md) for baseline sensitivity, new numerical gates, real-model SciFact evaluation and the verifier audit. Earlier attribution results below are retained as historical observations.
