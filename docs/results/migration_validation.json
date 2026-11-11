@@ -76,7 +76,26 @@
     "benchmark_artifacts": 21,
     "demo_replays": 8,
     "recorded_attributions": 1,
-    "source_files_scanned": 505,
-    "tracked_files_checked": 2
+    "source_files_scanned": 507,
+    "tracked_files_checked": 516
+  },
+  "clean_checkout": {
+    "source_commit": "918003b4d9dfdcc77a060057de934dc2bac3721c",
+    "shallow": true,
+    "source": "Fresh depth-one, single-branch GitHub clone; no historical teammate objects",
+    "software_tests_passed": 416,
+    "integrity": "pass",
+    "git_status": "clean",
+    "environment": "Reused the independently installed new .venv; source import guards prove checked-out clone src is used. This is not a second dependency installation."
+  },
+  "github_linux_validation": {
+    "source_commit": "918003b4d9dfdcc77a060057de934dc2bac3721c",
+    "status": "success",
+    "tests_passed": 416,
+    "warnings": 3,
+    "dependency_check": "pass",
+    "artifact_integrity": "pass",
+    "url": "https://github.com/YYU035/NLP_Project/actions/runs/42994968491",
+    "scope": "Ubuntu GitHub runner, Python3.12, pinned software, no downloaded model weights. Final validation-record edits do not alter the tested runtime source."
   }
 }

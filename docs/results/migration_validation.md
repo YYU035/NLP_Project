@@ -5,7 +5,8 @@ The release reorganizes the integrated project from `kireeti` snapshot `11ba8dc`
 | Check | Result |
 |---|---|
 | Independent Python environment | Pass: Python 3.12.15, no system packages; local source imports verified |
-| Software tests | 416 passed; three upstream Streamlit/Pandas deprecation warnings |
+| Software tests | 416 passed on Windows and GitHub Ubuntu; three upstream Streamlit/Pandas deprecation warnings |
+| Fresh depth-one GitHub clone | 416 tests and all integrity checks passed; no old branch objects |
 | Dependency compatibility | `pip check` passed |
 | CLI and Windows entry points | Help, wheel build, PowerShell parse and invocation from another working directory passed |
 | App server | Health and page both HTTP 200 on loopback |
@@ -26,3 +27,7 @@ Run-specific timestamps, timings, fingerprints/context keys and hashes containin
 The original frozen reports and examples retain their evidence bytes. New experiment publication goes to ignored outputs rather than replacing the recorded study bundles. Historical owner-checkout QC tools remain as source records under `docs/history/reproduction_tools/`; current setup, application and dataset staging do not need those old branch objects.
 
 See [the machine-readable receipt](migration_validation.json), [the migration path/hash manifest](../architecture/migration_manifest.json), [existing scientific results](index.md), and [current architecture](../architecture/overview.md). Existing scientific limitations—contradiction recall, rationale coverage, failed IG gates, rejected local generation and pending human reviews—remain open.
+
+Windows checkout normalization is explicitly controlled for frozen bundles, including the architecture bundle metadata. Staged Git blobs were independently compared against every one of the 435 migration hashes before publication.
+
+[GitHub Linux validation](https://github.com/YYU035/NLP_Project/actions/runs/42994968491) passed on source snapshot `918003b`; the subsequent validation-record update changes documentation only.
