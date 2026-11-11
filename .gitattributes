@@ -22,3 +22,6 @@ docs/history/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
 # Upstream source/test EOF formatting is provenance, not a release edit.
 src/paper_search/** whitespace=-blank-at-eof
 tests/discovery/** whitespace=-blank-at-eof
+
+# Include the architecture bundle metadata in its byte-preserving boundary.
+docs/architecture/project_map/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
