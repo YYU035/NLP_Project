@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "d5a48754-24e3-483d-a205-58f8288b5867",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "C:\\Users\\Kireeti\\Documents\\ChatGPT\\NLP Capstone Project\\explanation_frontend\\.archify\\architecture-nlp-capstone-20261111-162650\\candidate.json",
+  "output": "C:\\Users\\Kireeti\\Documents\\ChatGPT\\NLP Capstone Project\\explanation_frontend\\.archify\\architecture-nlp-capstone-20261111-162650\\project-summary.html",
+  "specification": {
+    "sha256": "d100cb4c6ca2ed53bbbc92609df7f9b1bfa08a9accf42f27ed4b530a5ad9ae1d",
+    "bytes": 10993
+  },
+  "artifact": {
+    "sha256": "4b46b5188f94a6ad4f84e7819cbd750e1b8dcc23a7810a2b05d777af0439df5e",
+    "bytes": 864977
+  }
+}

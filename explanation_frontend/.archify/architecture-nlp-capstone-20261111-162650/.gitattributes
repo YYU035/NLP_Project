@@ -1,0 +1,6 @@
+# Preserve generated HTML bytes, including renderer whitespace, for provenance.
+*.html -text whitespace=-blank-at-eol
+*.json -text
+*.png -text
+*.md text eol=lf
+*.txt text eol=lf

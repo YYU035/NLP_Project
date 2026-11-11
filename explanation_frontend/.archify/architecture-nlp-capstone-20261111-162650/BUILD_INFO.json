@@ -1,0 +1,41 @@
+{
+  "project_repository": "https://github.com/YYU035/NLP_Project.git",
+  "project_revision": "abaaff7cd76749a8d93e75c7d747cb349e1f5f91",
+  "archify_repository": "https://github.com/tt-a1i/archify",
+  "archify_revision": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
+  "archify_version": "3.2.0",
+  "created_date_singapore": "2026-11-11",
+  "source_evidence_mode": "local-only paths and line ranges; committed bytes verified with Git",
+  "automated_artifact_checks": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "visual_inspection": {
+    "diagram_composition": "reviewed",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "viewports": [
+      "1440x900",
+      "2048x1320"
+    ]
+  },
+  "scientific_results": "Summarized from existing scoped reports; no new benchmark inference or human study performed.",
+  "files": {
+    "candidate.json": {
+      "bytes": 10993,
+      "sha256": "d100cb4c6ca2ed53bbbc92609df7f9b1bfa08a9accf42f27ed4b530a5ad9ae1d"
+    },
+    "project-summary.html": {
+      "bytes": 864977,
+      "sha256": "4b46b5188f94a6ad4f84e7819cbd750e1b8dcc23a7810a2b05d777af0439df5e"
+    },
+    "PROJECT_SUMMARY.md": {
+      "bytes": 22467,
+      "sha256": "39efa6abc8086451832d3757bcc97e44ffbadc362a54621fbf452d37468d401d"
+    }
+  }
+}

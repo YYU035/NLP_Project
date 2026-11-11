@@ -1,0 +1,5 @@
+visual-check/
+review-*/
+*.browser-check.json
+*.finalize.json
+*.finalize-summary.json

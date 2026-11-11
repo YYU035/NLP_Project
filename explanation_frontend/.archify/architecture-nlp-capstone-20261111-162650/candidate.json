@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Scientific claim verification",
+    "output": ".archify/architecture-nlp-capstone-20261111-162650/project-summary.html",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/YYU035/NLP_Project.git",
+      "revision": "abaaff7cd76749a8d93e75c7d747cb349e1f5f91",
+      "link_mode": "local-only"
+    },
+    "views": [
+      {"id":"main-route","label":"Claim to verdict","focus":["claim","discover","rank","select","verify","aggregate","explain","inspect"],"note":"The active abstract route. Relevance and token-budget gates can abstain before verification."},
+      {"id":"diagnostics","label":"Sources and diagnostics","focus":["catalogues","discover","quality","inspect","xai","verify"],"note":"Quality flags leave inputs unchanged. Optional word sensitivity can run extra local neural inference."},
+      {"id":"alternative-inputs","label":"PDF or saved replay","focus":["pdf","verify","aggregate","explain","inspect","replay"],"note":"PDF bypasses discovery. JSON replay uses stored predictions and its own documented changed-selection policy."}
+    ]
+  },
+  "components": [
+    {"id":"claim","type":"frontend","label":"Claim workspace","sublabel":"Streamlit / original claim","tag":"Kireeti","pos":[40,40],"size":[200,84],"sources":[{"path":"explanation_frontend/app.py","line":14,"end_line":48,"label":"Seven workspaces and input memory"},{"path":"explanation_frontend/verification_view.py","line":130,"end_line":143,"label":"Original-claim input"}]},
+    {"id":"discover","type":"backend","label":"Paper discovery","sublabel":"Queries / identities / sources","tag":"Raghavi","pos":[340,40],"size":[200,84],"sources":[{"path":"explanation_frontend/discovery.py","line":227,"end_line":246,"label":"Pinned local query generation"},{"path":"explanation_frontend/discovery.py","line":266,"end_line":307,"label":"Session-owned public search"},{"path":"explanation_frontend/pipeline.py","line":91,"end_line":109,"label":"Fresh or selected discovery"}]},
+    {"id":"rank","type":"backend","label":"Hybrid paper ranking","sublabel":"BM25 + SBERT + RRF","tag":"Naila + Yu Yue","pos":[640,40],"size":[200,84],"sources":[{"path":"explanation_frontend/pipeline.py","line":117,"end_line":130,"label":"Lexical and semantic branches"},{"path":"explanation_frontend/_upstream/ranking_evaluation/rrf.py","line":7,"end_line":35,"label":"Reciprocal Rank Fusion"},{"path":"explanation_frontend/ranking.py","line":20,"end_line":52,"label":"Exact-search ranking contract"}]},
+    {"id":"select","type":"backend","label":"Evidence selection","sublabel":"Anchors / bounded context","tag":"Yu Yue","pos":[940,40],"size":[200,84],"sources":[{"path":"explanation_frontend/primary_candidate.py","line":9,"end_line":23,"label":"Current primary configuration"},{"path":"explanation_frontend/_upstream/person3/contextual_evidence.py","line":47,"end_line":72,"label":"Budget branch then relevance gate"},{"path":"explanation_frontend/semantic_integration.py","line":29,"end_line":37,"label":"Whole-span token preflight"}]},
+    {"id":"verify","type":"backend","label":"Passage verification","sublabel":"Local DeBERTa NLI","tag":"Chong Yao","pos":[940,430],"size":[200,84],"sources":[{"path":"explanation_frontend/pipeline.py","line":27,"end_line":44,"label":"Pinned CPU model and threshold"},{"path":"explanation_frontend/_upstream/claim_verifier/verifier.py","line":80,"end_line":146,"label":"Evidence premise and claim hypothesis"},{"path":"explanation_frontend/pipeline.py","line":155,"end_line":171,"label":"Typed verification handoff"}]},
+    {"id":"aggregate","type":"backend","label":"Cached aggregation","sublabel":"Selected-paper verdict","tag":"Chong Yao + Kireeti","pos":[640,430],"size":[200,84],"sources":[{"path":"explanation_frontend/person4.py","line":80,"end_line":114,"label":"Original response and subset checks"},{"path":"explanation_frontend/pipeline.py","line":48,"end_line":80,"label":"Preserve both conflict sides"},{"path":"explanation_frontend/pipeline.py","line":226,"end_line":235,"label":"Subset aggregation without verify"}]},
+    {"id":"explain","type":"backend","label":"Grounded explanation","sublabel":"Exact quotes / citation checks","tag":"Kireeti","pos":[340,430],"size":[200,84],"sources":[{"path":"explanation_frontend/templates.py","line":8,"end_line":31,"label":"Active extractive template"},{"path":"explanation_frontend/validation.py","line":17,"end_line":54,"label":"Mechanical grounding gate"},{"path":"explanation_frontend/llm.py","line":91,"end_line":126,"label":"Optional generation and fallback"}]},
+    {"id":"inspect","type":"frontend","label":"Evidence inspection","sublabel":"Scope / sources / export","tag":"Kireeti","pos":[40,430],"size":[200,84],"sources":[{"path":"explanation_frontend/verification_view.py","line":300,"end_line":421,"label":"Paper scope, explanation and export"},{"path":"explanation_frontend/attribution_view.py","line":120,"end_line":152,"label":"Inspect the measured word scores"},{"path":"explanation_frontend/app.py","line":23,"end_line":48,"label":"Separate inspection workspaces"}]},
+    {"id":"quality","type":"backend","label":"Abstract quality","sublabel":"Offline heuristic flags","tag":"Advisory only","pos":[40,225],"size":[200,84],"sources":[{"path":"explanation_frontend/abstract_quality.py","line":51,"end_line":139,"label":"Separate report with provenance"},{"path":"explanation_frontend/abstract_quality_view.py","line":10,"end_line":45,"label":"Warnings and report download"},{"path":"explanation_frontend/discovery_view.py","line":227,"end_line":253,"label":"Flags beside unchanged source text"}]},
+    {"id":"catalogues","type":"external","label":"Public catalogues","sublabel":"OpenAlex / OpenAIRE / arXiv","tag":"Fresh-search network","pos":[340,225],"size":[200,84],"sources":[{"path":"explanation_frontend/discovery.py","line":239,"end_line":246,"label":"Anonymous enabled providers"},{"path":"explanation_frontend/API_POLICY.md","line":17,"end_line":26,"label":"Public metadata API policy"}]},
+    {"id":"pdf","type":"backend","label":"Local PDF route","sublabel":"PyMuPDF / exact page spans","tag":"Uploaded text PDF","pos":[940,690],"size":[200,84],"sources":[{"path":"explanation_frontend/pdf_view.py","line":21,"end_line":61,"label":"Extraction, selection and NLI"},{"path":"explanation_frontend/pdf_view.py","line":64,"end_line":78,"label":"Upload limits and no URL fetch"}]},
+    {"id":"xai","type":"backend","label":"Word sensitivity","sublabel":"Word-MASK occlusion","tag":"Optional local inference","pos":[640,690],"size":[200,84],"sources":[{"path":"explanation_frontend/attribution_view.py","line":78,"end_line":101,"label":"Recorded or computed attribution"},{"path":"explanation_frontend/occlusion.py","line":24,"end_line":58,"label":"Bounded word masking"},{"path":"explanation_frontend/xai_runtime.py","line":8,"end_line":35,"label":"Experimental IG numerical gates"}]},
+    {"id":"replay","type":"external","label":"Replay JSON file","sublabel":"Saved predictions / sources","tag":"User-managed artifact","pos":[40,690],"size":[200,84],"sources":[{"path":"explanation_frontend/export.py","line":10,"end_line":46,"label":"Versioned export and validated import"},{"path":"explanation_frontend/providers.py","line":22,"end_line":50,"label":"Changed-replay selection policy"},{"path":"explanation_frontend/verification_view.py","line":114,"end_line":132,"label":"User-uploaded cached replay"}]}
+  ],
+  "connections": [
+    {"id":"claim-discovery","from":"claim","to":"discover","label":"Claim","variant":"emphasis"},
+    {"id":"discovery-ranking","from":"discover","to":"rank","label":"Candidates","variant":"emphasis"},
+    {"id":"ranking-selection","from":"rank","to":"select","label":"Ranked scope","variant":"emphasis"},
+    {"id":"selection-verification","from":"select","to":"verify","label":"Bounded spans","variant":"emphasis"},
+    {"id":"verification-aggregation","from":"verify","to":"aggregate","label":"Labels","variant":"emphasis"},
+    {"id":"aggregation-explanation","from":"aggregate","to":"explain","label":"Verdict","variant":"emphasis"},
+    {"id":"explanation-inspection","from":"explain","to":"inspect","label":"Cited text","variant":"emphasis"},
+    {"id":"catalogue-request","from":"discover","to":"catalogues","label":"Public APIs"},
+    {"id":"quality-input","from":"discover","to":"quality","label":"Stored text"},
+    {"id":"quality-display","from":"quality","to":"inspect","label":"Advisory flags"},
+    {"id":"pdf-inference","from":"pdf","to":"verify","label":"PDF spans"},
+    {"id":"masked-inference","from":"xai","to":"verify","label":"Masked pairs"},
+    {"id":"attribution-display","from":"xai","to":"inspect","label":"Word scores"},
+    {"id":"json-export","from":"inspect","to":"replay","label":"Export JSON"},
+    {"id":"json-import","from":"replay","to":"inspect","label":"Saved results"}
+  ],
+  "cards": [
+    {"dot":"cyan","title":"Five contributions, one workflow","items":["Raghavi finds papers. Naila ranks by words and meaning.","Yu Yue fuses ranks and selects exact evidence. Chong Yao verifies it.","Kireeti connects the UI, grounding, scope controls and replay."]},
+    {"dot":"emerald","title":"Active decision rules","items":["Anchors: top 3, cosine at least 0.5. Keep exact context within 512 pair tokens.","Then retain eligible context at relevance 0.65 or abstain. NLI threshold is separately 0.50.","Paper scope determines Supported, Contradicted, Conflicting or Insufficient."]},
+    {"dot":"violet","title":"Local inference and reusable results","items":["PyTorch and Transformers run pinned DeBERTa locally. Fresh discovery calls public APIs.","Session subset changes reuse original predictions. Imported replay has a separate local policy.","PDF follows a separate page-aware route. Quality flags never alter evidence or ranking."]},
+    {"dot":"amber","title":"Measured results and their scope","items":["209 reserved internal SciFact claims: 67.9% accuracy, up from 56.5%; not an official hidden test.","Contradiction precision rose to 84.0%, but recall fell to 53.8%. Evidence F1 also fell.","RRF Recall@10: SciFact 95.6%, CSFCube 39.2%, RECIPER 93.7%; different retrieval protocols."]},
+    {"dot":"rose","title":"Working diagnostics and experimental work","items":["Word-MASK occlusion works as bounded model sensitivity. Its small pilot is exploratory.","Integrated Gradients remains experimental after failed numerical gates. Local Qwen raw outputs passed 0 of 12 cases.","Grounded templates stay active. Human explanation and PDF reviews remain pending."]},
+    {"dot":"slate","title":"What reliability means here","items":["212 frontend software tests passed. They do not establish scientific correctness.","Exact source IDs, quotations, hashes and scope remain inspectable. No database cluster is required.","Provider failures, missing text and model insufficiency remain different outcomes."]}
+  ]
+}
