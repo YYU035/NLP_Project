@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "regressions": 21,
+  "transition_counts": {
+    "SUPPORTED \u2192 INSUFFICIENT": 6,
+    "CONTRADICTED \u2192 CONFLICTING": 1,
+    "CONTRADICTED \u2192 INSUFFICIENT": 8,
+    "INSUFFICIENT \u2192 SUPPORTED": 4,
+    "CONTRADICTED \u2192 SUPPORTED": 2
+  },
+  "diagnostic_counts": {
+    "gate_sufficient_to_lose_focused_correctness": 10,
+    "retained_context_predictions_needed_for_change": 11
+  },
+  "retrieval_order_agreement": 21,
+  "cases_missing_annotated_gold_papers": 1,
+  "regressions_with_dropped_gold_papers": 10,
+  "baseline_correct_without_any_gold_sentence": 5,
+  "review_cases": 9,
+  "review_selection": "One minimum-ID case per regression transition, one recovered SUPPORT, one recovered INSUFFICIENT, one persistent CONTRADICTED error, and one unadjudicated PDF. Diagnostic sample, not representative performance estimate.",
+  "human_ratings_completed": 0,
+  "new_model_calls": 0,
+  "policy_or_threshold_changes": false,
+  "frozen_audit_summary_sha256": "aaeba5d1a4352c6c9162301fbee9b0e4269c53e15750204b7faad0d7bd8b5ea1",
+  "limitations": [
+    "Scope-only counterfactual isolates paper removal on recorded baseline predictions, not a sole-cause proof.",
+    "Context diagnosis does not identify causative words or establish that benchmark-unannotated evidence is false.",
+    "The reserved audit is now inspected; future policy work must use separate development data."
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.986510+00:00",
+    "claim": "HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).",
+    "created_at": "2026-11-10T17:37:54.986510Z",
+    "retrieved_at": "2026-11-10T17:37:54.986510Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "499",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "26064662": {
+        "paper_id": "26064662",
+        "title": "Association of Sickle Cell Trait With Hemoglobin A1c in African Americans",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12662435": {
+        "paper_id": "12662435",
+        "title": "Reversing the tide — diagnosis and prevention of T2DM in populations of African descent",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "30983338": {
+        "paper_id": "30983338",
+        "title": "The prevalence of congenital malformations is still higher in pregnant women with pregestational diabetes despite near-normal HbA1c: a literature review.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "23206239": {
+        "paper_id": "23206239",
+        "title": "Advantages and pitfalls of fructosamine and glycated albumin in the diagnosis and treatment of diabetes.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5262240": {
+        "paper_id": "5262240",
+        "title": "Variations in the quality and sustainability of long-term glycaemic control with continuous subcutaneous insulin infusion.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "26064662": {
+          "paper_id": "26064662",
+          "title": "Association of Sickle Cell Trait With Hemoglobin A1c in African Americans",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9919492602348328,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "26064662:abstract:2672:2815:0923d26fb08a",
+            "26064662:abstract:2438:2671:51ec8b7aa3b2"
+          ]
+        },
+        "12662435": {
+          "paper_id": "12662435",
+          "title": "Reversing the tide — diagnosis and prevention of T2DM in populations of African descent",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "30983338": {
+          "paper_id": "30983338",
+          "title": "The prevalence of congenital malformations is still higher in pregnant women with pregestational diabetes despite near-normal HbA1c: a literature review.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "23206239": {
+          "paper_id": "23206239",
+          "title": "Advantages and pitfalls of fructosamine and glycated albumin in the diagnosis and treatment of diabetes.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5262240": {
+          "paper_id": "5262240",
+          "title": "Variations in the quality and sustainability of long-term glycaemic control with continuous subcutaneous insulin infusion.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "26064662:abstract:0:169:c30aa740684e": {
+          "passage_id": "26064662:abstract:0:169:c30aa740684e",
+          "paper_id": "26064662",
+          "label": "NEUTRAL",
+          "confidence": 0.9936096668243408,
+          "truncated": false
+        },
+        "26064662:abstract:2672:2815:0923d26fb08a": {
+          "passage_id": "26064662:abstract:2672:2815:0923d26fb08a",
+          "paper_id": "26064662",
+          "label": "CONTRADICT",
+          "confidence": 0.999118983745575,
+          "truncated": false
+        },
+        "26064662:abstract:2438:2671:51ec8b7aa3b2": {
+          "passage_id": "26064662:abstract:2438:2671:51ec8b7aa3b2",
+          "paper_id": "26064662",
+          "label": "CONTRADICT",
+          "confidence": 0.9847795367240906,
+          "truncated": false
+        },
+        "12662435:abstract:737:1011:ee628ad70487": {
+          "passage_id": "12662435:abstract:737:1011:ee628ad70487",
+          "paper_id": "12662435",
+          "label": "NEUTRAL",
+          "confidence": 0.9953611493110657,
+          "truncated": false
+        },
+        "23206239:abstract:1325:1584:61c8c9e6d0c3": {
+          "passage_id": "23206239:abstract:1325:1584:61c8c9e6d0c3",
+          "paper_id": "23206239",
+          "label": "NEUTRAL",
+          "confidence": 0.9992313385009766,
+          "truncated": false
+        },
+        "5262240:abstract:0:145:23048d9ca052": {
+          "passage_id": "5262240:abstract:0:145:23048d9ca052",
+          "paper_id": "5262240",
+          "label": "NEUTRAL",
+          "confidence": 0.984409511089325,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "26064662:abstract:0:169:c30aa740684e",
+          "paper_id": "26064662",
+          "section": "abstract",
+          "text": "Importance Hemoglobin A1c (HbA1c) reflects past glucose concentrations, but this relationship may differ between those with sickle cell trait (SCT) and those without it.",
+          "score": 0.7673660516738892,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26064662:abstract:2672:2815:0923d26fb08a",
+          "paper_id": "26064662",
+          "section": "abstract",
+          "text": "These findings suggest that HbA1c may systematically underestimate past glycemia in black patients with SCT and may require further evaluation.",
+          "score": 0.7326517105102539,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26064662:abstract:2438:2671:51ec8b7aa3b2",
+          "paper_id": "26064662",
+          "section": "abstract",
+          "text": "Conclusions and Relevance Among African Americans from 2 large, well-established cohorts, participants with SCT had lower levels of HbA1c at any given concentration of fasting or 2-hour glucose compared with participants without SCT.",
+          "score": 0.6524932384490967,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12662435:abstract:737:1011:ee628ad70487",
+          "paper_id": "12662435",
+          "section": "abstract",
+          "text": "However, differences in diet, exercise, BMI, environment, gene‐environment interactions and the prevalence of sickle cell trait mean that neither diagnostic tests nor interventions will be uniformly effective in individuals of African, Caribbean or African‐American descent.",
+          "score": 0.6539066433906555,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "23206239:abstract:1325:1584:61c8c9e6d0c3",
+          "paper_id": "23206239",
+          "section": "abstract",
+          "text": "Although further studies are needed to definitely establish that GA can complement or even replace conventional measures of glycemic control such as HbA1c, GA may help the clinical management of patients with diabetes in whom HbA1c values might be unreliable.",
+          "score": 0.5386629104614258,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5262240:abstract:0:145:23048d9ca052",
+          "paper_id": "5262240",
+          "section": "abstract",
+          "text": "AIMS To investigate the pattern of changes in HbA1c in people with Type 1 diabetes managed by long-term Continuous subcutaneous insulin infusion.",
+          "score": 0.5309537053108215,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "26064662:abstract:2672:2815:0923d26fb08a",
+          "paper_id": "26064662",
+          "section": "abstract",
+          "text": "These findings suggest that HbA1c may systematically underestimate past glycemia in black patients with SCT and may require further evaluation.",
+          "score": 0.7326517105102539,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26064662:abstract:2438:2671:51ec8b7aa3b2",
+          "paper_id": "26064662",
+          "section": "abstract",
+          "text": "Conclusions and Relevance Among African Americans from 2 large, well-established cohorts, participants with SCT had lower levels of HbA1c at any given concentration of fasting or 2-hour glucose compared with participants without SCT.",
+          "score": 0.6524932384490967,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9919492602348328,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "df11bd6c09e4564e3085b76b0ee9738549e704f5f52c99c46a93658223d383b6",
+  "selected_paper_ids": [
+    "12662435",
+    "23206239",
+    "26064662",
+    "30983338",
+    "5262240"
+  ],
+  "aggregation": {
+    "claim": "HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "26064662:abstract:2672:2815:0923d26fb08a",
+        "paper_id": "26064662",
+        "section": "abstract",
+        "text": "These findings suggest that HbA1c may systematically underestimate past glycemia in black patients with SCT and may require further evaluation.",
+        "score": 0.7326517105102539,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "26064662:abstract:2438:2671:51ec8b7aa3b2",
+        "paper_id": "26064662",
+        "section": "abstract",
+        "text": "Conclusions and Relevance Among African Americans from 2 large, well-established cohorts, participants with SCT had lower levels of HbA1c at any given concentration of fasting or 2-hour glucose compared with participants without SCT.",
+        "score": 0.6524932384490967,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9919492602348328,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "2edbbf10b31cf22db459bfae1b108c667cc7b3cc6272cc8fbcdca6453abc8cc6",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "These findings suggest that HbA1c may systematically underestimate past glycemia in black patients with SCT and may require further evaluation.",
+        "citation_ids": [
+          "26064662:abstract:2672:2815:0923d26fb08a"
+        ]
+      },
+      {
+        "text": "Conclusions and Relevance Among African Americans from 2 large, well-established cohorts, participants with SCT had lower levels of HbA1c at any given concentration of fasting or 2-hour glucose compared with participants without SCT.",
+        "citation_ids": [
+          "26064662:abstract:2438:2671:51ec8b7aa3b2"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

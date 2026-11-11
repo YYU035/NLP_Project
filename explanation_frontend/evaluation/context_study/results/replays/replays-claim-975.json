@@ -1,0 +1,320 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:42:13.568890+00:00",
+    "claim": "Primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.",
+    "created_at": "2026-11-10T16:42:13.568890Z",
+    "retrieved_at": "2026-11-10T16:42:13.568890Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "auxiliary_inference": "Focused route always required. Context route may additionally be required; both actual input traces retained in local_traces. Replay displays the decisive arm."
+    },
+    "search_complete": false,
+    "papers": {
+      "4454788": {
+        "paper_id": "4454788",
+        "title": "Pro-resolving lipid mediators are leads for resolution physiology",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "343052": {
+        "paper_id": "343052",
+        "title": "Curcumin attenuates inflammatory response in IL-1beta-induced human synovial fibroblasts and collagen-induced arthritis in mouse model.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29509926": {
+        "paper_id": "29509926",
+        "title": "High-Density Lipoproteins Exert Pro-inflammatory Effects on Macrophages via Passive Cholesterol Depletion and PKC-NF-κB/STAT1-IRF1 Signaling.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "20722510": {
+        "paper_id": "20722510",
+        "title": "IL-6 as a keystone cytokine in health and disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "27093166": {
+        "paper_id": "27093166",
+        "title": "Ketamine reduces LPS-induced HMGB1 via activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "4454788": {
+          "paper_id": "4454788",
+          "title": "Pro-resolving lipid mediators are leads for resolution physiology",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "343052": {
+          "paper_id": "343052",
+          "title": "Curcumin attenuates inflammatory response in IL-1beta-induced human synovial fibroblasts and collagen-induced arthritis in mouse model.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "29509926": {
+          "paper_id": "29509926",
+          "title": "High-Density Lipoproteins Exert Pro-inflammatory Effects on Macrophages via Passive Cholesterol Depletion and PKC-NF-κB/STAT1-IRF1 Signaling.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "20722510": {
+          "paper_id": "20722510",
+          "title": "IL-6 as a keystone cytokine in health and disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "27093166": {
+          "paper_id": "27093166",
+          "title": "Ketamine reduces LPS-induced HMGB1 via activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9277774095535278,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "27093166:abstract:0:1885:194bdb2a447a"
+          ],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "4454788:abstract:0:890:bb013cab06da": {
+          "passage_id": "4454788:abstract:0:890:bb013cab06da",
+          "paper_id": "4454788",
+          "label": "NEUTRAL",
+          "confidence": 0.9986816048622131,
+          "truncated": false
+        },
+        "343052:abstract:0:1573:cd5f7adab66f": {
+          "passage_id": "343052:abstract:0:1573:cd5f7adab66f",
+          "paper_id": "343052",
+          "label": "NEUTRAL",
+          "confidence": 0.9979311227798462,
+          "truncated": false
+        },
+        "29509926:abstract:0:1134:3dc6071bd909": {
+          "passage_id": "29509926:abstract:0:1134:3dc6071bd909",
+          "paper_id": "29509926",
+          "label": "NEUTRAL",
+          "confidence": 0.9984415173530579,
+          "truncated": false
+        },
+        "20722510:abstract:0:829:dac041b3afa4": {
+          "passage_id": "20722510:abstract:0:829:dac041b3afa4",
+          "paper_id": "20722510",
+          "label": "NEUTRAL",
+          "confidence": 0.975202739238739,
+          "truncated": false
+        },
+        "27093166:abstract:0:1885:194bdb2a447a": {
+          "passage_id": "27093166:abstract:0:1885:194bdb2a447a",
+          "paper_id": "27093166",
+          "label": "SUPPORT",
+          "confidence": 0.9277774095535278,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "4454788:abstract:0:890:bb013cab06da",
+          "paper_id": "4454788",
+          "section": "abstract",
+          "text": "Advances in our understanding of the mechanisms that bring about the resolution of acute inflammation have uncovered a new genus of pro-resolving lipid mediators that include the lipoxin, resolvin, protectin and maresin families, collectively called specialized pro-resolving mediators. Synthetic versions of these mediators have potent bioactions when administered in vivo. In animal experiments, the mediators evoke anti-inflammatory and novel pro-resolving mechanisms, and enhance microbial clearance. Although they have been identified in inflammation resolution, specialized pro-resolving mediators are conserved structures that also function in host defence, pain, organ protection and tissue remodelling. This Review covers the mechanisms of specialized pro-resolving mediators and omega-3 essential fatty acid pathways that could help us to understand their physiological functions.",
+          "score": 0.5881417393684387,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "343052:abstract:0:1573:cd5f7adab66f",
+          "paper_id": "343052",
+          "section": "abstract",
+          "text": "Curcumin, a major component of turmeric, has been shown to exhibit anti-oxidant and anti-inflammatory activities. The present study was performed to determine whether curcumin is efficacious against both collagen-induced arthritis (CIA) in mice and IL-1beta-induced activation in fibroblast-like synoviocytes (FLSs). DBA/1 mice were immunized with bovine type II collagen (CII) and treated with curcumin every other day for 2weeks after the initial immunization. For arthritis, we evaluated the incidence of disease and used an arthritis index based on paw thickness. In vitro proliferation of CII- or concanavalin A-induced splenic T cells was examined using IFN-gamma production. Pro-inflammatory cytokines TNF-alpha and IL-1beta were examined in the mouse ankle joint and serum IgG1 and IgG2a isotypes were analyzed. The expression levels of prostaglandin E(2) (PGE(2)), cyclooxygenase-2 (COX-2), and matrix metalloproteinases (MMPs) in human FLSs were also determined. The results showed that compared with untreated CIA mice, curcumin-treated mice downregulated clinical arthritis score, the proliferation of splenic T cells, expression levels of TNF-alpha and IL-1beta in the ankle joint, and expression levels of IgG2a in serum. Additionally, by altering nuclear factor (NF)-kappaB transcription activity in FLSs, curcumin inhibited PGE(2) production, COX-2 expression, and MMP secretion. These results suggest that curcumin can effectively suppress inflammatory response by inhibiting pro-inflammatory mediators and regulating humoral and cellular immune responses.",
+          "score": 0.5477927923202515,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "29509926:abstract:0:1134:3dc6071bd909",
+          "paper_id": "29509926",
+          "section": "abstract",
+          "text": "Membrane cholesterol modulates a variety of cell signaling pathways and functions. While cholesterol depletion by high-density lipoproteins (HDLs) has potent anti-inflammatory effects in various cell types, its effects on inflammatory responses in macrophages remain elusive. Here we show overt pro-inflammatory effects of HDL-mediated passive cholesterol depletion and lipid raft disruption in murine and human primary macrophages in vitro. These pro-inflammatory effects were confirmed in vivo in peritoneal macrophages from apoA-I transgenic mice, which have elevated HDL levels. In line with these findings, the innate immune responses required for clearance of P. aeruginosa bacterial infection in lung were compromised in mice with low HDL levels. Expression analysis, ChIP-PCR, and combinatorial pharmacological and genetic intervention studies unveiled that both native and reconstituted HDL enhance Toll-like-receptor-induced signaling by activating a PKC-NF-κB/STAT1-IRF1 axis, leading to increased inflammatory cytokine expression. HDL's pro-inflammatory activity supports proper functioning of macrophage immune responses.",
+          "score": 0.5220398902893066,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "20722510:abstract:0:829:dac041b3afa4",
+          "paper_id": "20722510",
+          "section": "abstract",
+          "text": "Interleukin 6 (IL-6) has a broad effect on cells of the immune system and those not of the immune system and often displays hormone-like characteristics that affect homeostatic processes. IL-6 has context-dependent pro- and anti-inflammatory properties and is now regarded as a prominent target for clinical intervention. However, the signaling cassette that controls the activity of IL-6 is complicated, and distinct intervention strategies can inhibit this pathway. Clinical experience with antagonists of IL-6 has raised new questions about how and when to block this cytokine to improve disease outcome and patient wellbeing. Here we discuss the effect of IL-6 on innate and adaptive immunity and the possible advantages of various antagonists of IL-6 and consider how the immunobiology of IL-6 may inform clinical decisions.",
+          "score": 0.5868561267852783,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "27093166:abstract:0:1885:194bdb2a447a",
+          "paper_id": "27093166",
+          "section": "abstract",
+          "text": "BACKGROUND Ketamine, as an anesthetic agent, has an anti-inflammatory effect. In the present study, we investigated whether ketamine inhibits release of high mobility group box 1 (HMGB1), a late-phase cytokine of sepsis, in lipopolysaccharide (LPS)-stimulated macrophages through heme oxygenase-1 (HO-1) induction.   \n METHODS Macrophages were preincubated with various concentrations of ketamine and then treated with LPS (1 μg/mL). The cell culture supernatants were collected to measure inflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor-α, and interleukin 1β) by enzyme-linked immunosorbent assay. Moreover, HO-1 protein expression, the phosphorylation and degradation of IκB-α, and the nuclear translocation of nuclear factor E2-related factor 2 and nuclear factor κB (NF-κB) p65 were tested by Western blot analysis. In addition, to further identify the role of HO-1 in this process, tin protoporphyrin (SnPP), an HO-1 inhibitor, was used.   \n RESULTS Ketamine treatment dose-dependently attenuated the increased levels of proinflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor α, and interleukin 1β) and increased the HO-1 protein expression in LPS-activated macrophages. Furthermore, ketamine suppressed the phosphorylation and degradation of IκB-α as well as the LPS-stimulated nuclear translocation of NF-κB p65 in macrophages. In addition, the present study also demonstrated that ketamine induced HO-1 expression through the nuclear translocation of nuclear factor E2-related factor 2 in macrophages. The effects of ketamine on LPS-induced proinflammatory cytokines production were partially reversed by the HO inhibitor tin protoporphyrin (SnPP).   \n CONCLUSION Ketamine inhibits the release of HMGB1 in LPS-stimulated macrophages, and this effect is at least partly mediated by the activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+          "score": 0.5419912338256836,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "27093166:abstract:0:1885:194bdb2a447a",
+          "paper_id": "27093166",
+          "section": "abstract",
+          "text": "BACKGROUND Ketamine, as an anesthetic agent, has an anti-inflammatory effect. In the present study, we investigated whether ketamine inhibits release of high mobility group box 1 (HMGB1), a late-phase cytokine of sepsis, in lipopolysaccharide (LPS)-stimulated macrophages through heme oxygenase-1 (HO-1) induction.   \n METHODS Macrophages were preincubated with various concentrations of ketamine and then treated with LPS (1 μg/mL). The cell culture supernatants were collected to measure inflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor-α, and interleukin 1β) by enzyme-linked immunosorbent assay. Moreover, HO-1 protein expression, the phosphorylation and degradation of IκB-α, and the nuclear translocation of nuclear factor E2-related factor 2 and nuclear factor κB (NF-κB) p65 were tested by Western blot analysis. In addition, to further identify the role of HO-1 in this process, tin protoporphyrin (SnPP), an HO-1 inhibitor, was used.   \n RESULTS Ketamine treatment dose-dependently attenuated the increased levels of proinflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor α, and interleukin 1β) and increased the HO-1 protein expression in LPS-activated macrophages. Furthermore, ketamine suppressed the phosphorylation and degradation of IκB-α as well as the LPS-stimulated nuclear translocation of NF-κB p65 in macrophages. In addition, the present study also demonstrated that ketamine induced HO-1 expression through the nuclear translocation of nuclear factor E2-related factor 2 in macrophages. The effects of ketamine on LPS-induced proinflammatory cytokines production were partially reversed by the HO inhibitor tin protoporphyrin (SnPP).   \n CONCLUSION Ketamine inhibits the release of HMGB1 in LPS-stimulated macrophages, and this effect is at least partly mediated by the activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+          "score": 0.5419912338256836,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9277774095535278,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "26b93ba164f7f0409399d9af1c17188df413d3a66e18f1d53de8296896b74956",
+  "selected_paper_ids": [
+    "20722510",
+    "27093166",
+    "29509926",
+    "343052",
+    "4454788"
+  ],
+  "aggregation": {
+    "claim": "Primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "27093166:abstract:0:1885:194bdb2a447a",
+        "paper_id": "27093166",
+        "section": "abstract",
+        "text": "BACKGROUND Ketamine, as an anesthetic agent, has an anti-inflammatory effect. In the present study, we investigated whether ketamine inhibits release of high mobility group box 1 (HMGB1), a late-phase cytokine of sepsis, in lipopolysaccharide (LPS)-stimulated macrophages through heme oxygenase-1 (HO-1) induction.   \n METHODS Macrophages were preincubated with various concentrations of ketamine and then treated with LPS (1 μg/mL). The cell culture supernatants were collected to measure inflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor-α, and interleukin 1β) by enzyme-linked immunosorbent assay. Moreover, HO-1 protein expression, the phosphorylation and degradation of IκB-α, and the nuclear translocation of nuclear factor E2-related factor 2 and nuclear factor κB (NF-κB) p65 were tested by Western blot analysis. In addition, to further identify the role of HO-1 in this process, tin protoporphyrin (SnPP), an HO-1 inhibitor, was used.   \n RESULTS Ketamine treatment dose-dependently attenuated the increased levels of proinflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor α, and interleukin 1β) and increased the HO-1 protein expression in LPS-activated macrophages. Furthermore, ketamine suppressed the phosphorylation and degradation of IκB-α as well as the LPS-stimulated nuclear translocation of NF-κB p65 in macrophages. In addition, the present study also demonstrated that ketamine induced HO-1 expression through the nuclear translocation of nuclear factor E2-related factor 2 in macrophages. The effects of ketamine on LPS-induced proinflammatory cytokines production were partially reversed by the HO inhibitor tin protoporphyrin (SnPP).   \n CONCLUSION Ketamine inhibits the release of HMGB1 in LPS-stimulated macrophages, and this effect is at least partly mediated by the activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+        "score": 0.5419912338256836,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9277774095535278,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "0f1baaa42c214fd5b47f12e120528d4df552b3e49d6a05dfe6d0bc5977de9ed7",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "BACKGROUND Ketamine, as an anesthetic agent, has an anti-inflammatory effect. In the present study, we investigated whether ketamine inhibits release of high mobility group box 1 (HMGB1), a late-phase cytokine of sepsis, in lipopolysaccharide (LPS)-stimulated macrophages through heme oxygenase-1 (HO-1) induction.   \n METHODS Macrophages were preincubated with various concentrations of ketamine and then treated with LPS (1 μg/mL). The cell culture supernatants were collected to measure inflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor-α, and interleukin 1β) by enzyme-linked immunosorbent assay. Moreover, HO-1 protein expression, the phosphorylation and degradation of IκB-α, and the nuclear translocation of nuclear factor E2-related factor 2 and nuclear factor κB (NF-κB) p65 were tested by Western blot analysis. In addition, to further identify the role of HO-1 in this process, tin protoporphyrin (SnPP), an HO-1 inhibitor, was used.   \n RESULTS Ketamine treatment dose-dependently attenuated the increased levels of proinflammatory mediators (HMGB1, nitric oxide, tumor necrosis factor α, and interleukin 1β) and increased the HO-1 protein expression in LPS-activated macrophages. Furthermore, ketamine suppressed the phosphorylation and degradation of IκB-α as well as the LPS-stimulated nuclear translocation of NF-κB p65 in macrophages. In addition, the present study also demonstrated that ketamine induced HO-1 expression through the nuclear translocation of nuclear factor E2-related factor 2 in macrophages. The effects of ketamine on LPS-induced proinflammatory cytokines production were partially reversed by the HO inhibitor tin protoporphyrin (SnPP).   \n CONCLUSION Ketamine inhibits the release of HMGB1 in LPS-stimulated macrophages, and this effect is at least partly mediated by the activation of the Nrf2/HO-1 pathway and NF-κB suppression.",
+        "citation_ids": [
+          "27093166:abstract:0:1885:194bdb2a447a"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

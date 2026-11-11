@@ -1,0 +1,351 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.726122+00:00",
+    "claim": "Exposure to fine particulate air pollution is relate to anxiety prevalence.",
+    "created_at": "2026-11-10T16:49:55.726122Z",
+    "retrieved_at": "2026-11-10T16:49:55.726122Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "791050": {
+        "paper_id": "791050",
+        "title": "The relation between past exposure to fine particulate air pollution and prevalent anxiety: observational cohort study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "471921": {
+        "paper_id": "471921",
+        "title": "Air pollution and cardiovascular disease: a statement for healthcare professionals from the Expert Panel on Population and Prevention Science of the American Heart Association.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "42387637": {
+        "paper_id": "42387637",
+        "title": "Rapid DNA methylation changes after exposure to traffic particles.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21003930": {
+        "paper_id": "21003930",
+        "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32357890": {
+        "paper_id": "32357890",
+        "title": "Global prevalence of anxiety disorders: a systematic review and meta-regression.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "791050": {
+          "paper_id": "791050",
+          "title": "The relation between past exposure to fine particulate air pollution and prevalent anxiety: observational cohort study",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9980144500732422,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "791050:abstract:0:2158:434fc5da3a9c"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "471921": {
+          "paper_id": "471921",
+          "title": "Air pollution and cardiovascular disease: a statement for healthcare professionals from the Expert Panel on Population and Prevention Science of the American Heart Association.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "42387637": {
+          "paper_id": "42387637",
+          "title": "Rapid DNA methylation changes after exposure to traffic particles.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21003930": {
+          "paper_id": "21003930",
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32357890": {
+          "paper_id": "32357890",
+          "title": "Global prevalence of anxiety disorders: a systematic review and meta-regression.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "791050:abstract:0:2158:434fc5da3a9c": {
+          "passage_id": "791050:abstract:0:2158:434fc5da3a9c",
+          "paper_id": "791050",
+          "label": "SUPPORT",
+          "confidence": 0.9980144500732422,
+          "truncated": false
+        },
+        "471921:abstract:0:1046:9dd6ae38ebaa": {
+          "passage_id": "471921:abstract:0:1046:9dd6ae38ebaa",
+          "paper_id": "471921",
+          "label": "NEUTRAL",
+          "confidence": 0.9938858151435852,
+          "truncated": false
+        },
+        "42387637:abstract:0:2089:b12ed92ae72b": {
+          "passage_id": "42387637:abstract:0:2089:b12ed92ae72b",
+          "paper_id": "42387637",
+          "label": "NEUTRAL",
+          "confidence": 0.9966289401054382,
+          "truncated": false
+        },
+        "21003930:abstract:0:361:b8d0bdb1588a": {
+          "passage_id": "21003930:abstract:0:361:b8d0bdb1588a",
+          "paper_id": "21003930",
+          "label": "NEUTRAL",
+          "confidence": 0.9927122592926025,
+          "truncated": false
+        },
+        "21003930:abstract:3427:3550:3e0f79273202": {
+          "passage_id": "21003930:abstract:3427:3550:3e0f79273202",
+          "paper_id": "21003930",
+          "label": "NEUTRAL",
+          "confidence": 0.9972706437110901,
+          "truncated": false
+        },
+        "21003930:abstract:3317:3426:2074e667b241": {
+          "passage_id": "21003930:abstract:3317:3426:2074e667b241",
+          "paper_id": "21003930",
+          "label": "NEUTRAL",
+          "confidence": 0.988471269607544,
+          "truncated": false
+        },
+        "32357890:abstract:0:1831:f53ab2480d59": {
+          "passage_id": "32357890:abstract:0:1831:f53ab2480d59",
+          "paper_id": "32357890",
+          "label": "NEUTRAL",
+          "confidence": 0.9985849857330322,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "791050:abstract:0:2158:434fc5da3a9c",
+          "paper_id": "791050",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   \n DESIGN Observational cohort study.   \n SETTING Nurses' Health Study.   \n PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   \n MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   \n RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 μm in diameter (PM2.5) and 2.5 to 10 μm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment. Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 µg/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26). Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods. There was no association between anxiety and exposure to PM2.5-10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   \n CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.",
+          "score": 0.9031020998954773,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "471921:abstract:0:1046:9dd6ae38ebaa",
+          "paper_id": "471921",
+          "section": "abstract",
+          "text": "Air pollution is a heterogeneous, complex mixture of gases, liquids, and particulate matter. Epidemiological studies have demonstrated a consistent increased risk for cardiovascular events in relation to both short- and long-term exposure to present-day concentrations of ambient particulate matter. Several plausible mechanistic pathways have been described, including enhanced coagulation/thrombosis, a propensity for arrhythmias, acute arterial vasoconstriction, systemic inflammatory responses, and the chronic promotion of atherosclerosis. The purpose of this statement is to provide healthcare professionals and regulatory agencies with a comprehensive review of the literature on air pollution and cardiovascular disease. In addition, the implications of these findings in relation to public health and regulatory policies are addressed. Practical recommendations for healthcare providers and their patients are outlined. In the final section, suggestions for future research are made to address a number of remaining scientific questions.",
+          "score": 0.6253347396850586,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "42387637:abstract:0:2089:b12ed92ae72b",
+          "paper_id": "42387637",
+          "section": "abstract",
+          "text": "RATIONALE Exposure to particulate air pollution has been related to increased hospitalization and death, particularly from cardiovascular disease. Lower blood DNA methylation content is found in processes related to cardiovascular outcomes, such as oxidative stress, aging, and atherosclerosis.   \n OBJECTIVES We evaluated whether particulate pollution modifies DNA methylation in heavily methylated sequences with high representation throughout the human genome.   \n METHODS We measured DNA methylation of long interspersed nucleotide element (LINE)-1 and Alu repetitive elements by quantitative polymerase chain reaction-pyrosequencing of 1,097 blood samples from 718 elderly participants in the Boston area Normative Aging Study. We used covariate-adjusted mixed models to account for within-subject correlation in repeated measures. We estimated the effects on DNA methylation of ambient particulate pollutants (black carbon, particulate matter with aerodynamic diameter < or = 2.5 microm [PM2.5], or sulfate) in multiple time windows (4 h to 7 d) before the examination. We estimated standardized regression coefficients (beta) expressing the fraction of a standard deviation change in DNA methylation associated with a standard deviation increase in exposure.   \n MEASUREMENTS AND MAIN RESULTS Repetitive element DNA methylation varied in association with time-related variables, such as day of the week and season. LINE-1 methylation decreased after recent exposure to higher black carbon (beta = -0.11; 95% confidence interval [CI], -0.18 to -0.04; P = 0.002) and PM2.5 (beta = -0.13; 95% CI, -0.19 to -0.06; P < 0.001 for the 7-d moving average). In two-pollutant models, only black carbon, a tracer of traffic particles, was significantly associated with LINE-1 methylation (beta = -0.09; 95% CI, -0.17 to -0.01; P = 0.03). No association was found with Alu methylation (P > 0.12).   \n CONCLUSIONS We found decreased repeated-element methylation after exposure to traffic particles. Whether decreased methylation mediates exposure-related health effects remains to be determined.",
+          "score": 0.6221755743026733,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21003930:abstract:0:361:b8d0bdb1588a",
+          "paper_id": "21003930",
+          "section": "abstract",
+          "text": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD.",
+          "score": 0.5333796739578247,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21003930:abstract:3427:3550:3e0f79273202",
+          "paper_id": "21003930",
+          "section": "abstract",
+          "text": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.",
+          "score": 0.5093568563461304,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "21003930:abstract:3317:3426:2074e667b241",
+          "paper_id": "21003930",
+          "section": "abstract",
+          "text": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease.",
+          "score": 0.5087277293205261,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "32357890:abstract:0:1831:f53ab2480d59",
+          "paper_id": "32357890",
+          "section": "abstract",
+          "text": "BACKGROUND The literature describing the global prevalence of anxiety disorders is highly variable. A systematic review and meta-regression were undertaken to estimate the prevalence of anxiety disorders and to identify factors that may influence these estimates. The findings will inform the new Global Burden of Disease study. Method A systematic review identified prevalence studies of anxiety disorders published between 1980 and 2009. Electronic databases, reference lists, review articles and monographs were searched and experts then contacted to identify missing studies. Substantive and methodological factors associated with inter-study variability were identified through meta-regression analyses and the global prevalence of anxiety disorders was calculated adjusting for study methodology.   \n RESULTS The prevalence of anxiety disorders was obtained from 87 studies across 44 countries. Estimates of current prevalence ranged between 0.9% and 28.3% and past-year prevalence between 2.4% and 29.8%. Substantive factors including gender, age, culture, conflict and economic status, and urbanicity accounted for the greatest proportion of variability. Methodological factors in the final multivariate model (prevalence period, number of disorders and diagnostic instrument) explained an additional 13% of variance between studies. The global current prevalence of anxiety disorders adjusted for methodological differences was 7.3% (4.8-10.9%) and ranged from 5.3% (3.5-8.1%) in African cultures to 10.4% (7.0-15.5%) in Euro/Anglo cultures.   \n CONCLUSIONS Anxiety disorders are common and the substantive and methodological factors identified here explain much of the variability in prevalence estimates. Specific attention should be paid to cultural differences in responses to survey instruments for anxiety disorders.",
+          "score": 0.6223140954971313,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Exposure to fine particulate air pollution is relate to anxiety prevalence.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "791050:abstract:0:2158:434fc5da3a9c",
+          "paper_id": "791050",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   \n DESIGN Observational cohort study.   \n SETTING Nurses' Health Study.   \n PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   \n MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   \n RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 μm in diameter (PM2.5) and 2.5 to 10 μm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment. Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 µg/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26). Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods. There was no association between anxiety and exposure to PM2.5-10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   \n CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.",
+          "score": 0.9031020998954773,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9980144500732422,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "eb3da3ef12331d7788d8937171a7e809fdf09b85233073c7188aecf97dd0f081",
+  "selected_paper_ids": [
+    "791050"
+  ],
+  "aggregation": {
+    "claim": "Exposure to fine particulate air pollution is relate to anxiety prevalence.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "791050:abstract:0:2158:434fc5da3a9c",
+        "paper_id": "791050",
+        "section": "abstract",
+        "text": "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   \n DESIGN Observational cohort study.   \n SETTING Nurses' Health Study.   \n PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   \n MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   \n RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 μm in diameter (PM2.5) and 2.5 to 10 μm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment. Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 µg/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26). Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods. There was no association between anxiety and exposure to PM2.5-10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   \n CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.",
+        "score": 0.9031020998954773,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9980144500732422,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "8a328093f91aa7d963a47998ea5e53fb2b977fc8e88cf9f98599f0cc2f71d946",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   \n DESIGN Observational cohort study.   \n SETTING Nurses' Health Study.   \n PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   \n MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   \n RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 μm in diameter (PM2.5) and 2.5 to 10 μm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment. Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 µg/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26). Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods. There was no association between anxiety and exposure to PM2.5-10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   \n CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.",
+        "citation_ids": [
+          "791050:abstract:0:2158:434fc5da3a9c"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

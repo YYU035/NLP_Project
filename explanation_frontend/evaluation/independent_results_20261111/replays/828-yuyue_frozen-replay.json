@@ -1,0 +1,200 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:28.211181+00:00",
+    "claim": "NAC inhibits the generation of angiotensin-converting enzyme.",
+    "created_at": "2026-11-10T17:03:28.211181Z",
+    "retrieved_at": "2026-11-10T17:03:28.211181Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "14584755": {
+        "paper_id": "14584755",
+        "title": "Differences in the Clinical Effects of Angiotensin-Converting Enzyme Inhibitors and Angiotensin Receptor Blockers: A Critical Review of the Evidence",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "26025370": {
+        "paper_id": "26025370",
+        "title": "Differential Effects of N-Acetylcysteine, Theophylline or Bicarbonate on Contrast-Induced Rat Renal Vasoconstriction",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "43417006": {
+        "paper_id": "43417006",
+        "title": "Comparative risk of new-onset diabetes mellitus for antihypertensive drugs: A network meta-analysis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "26199970": {
+        "paper_id": "26199970",
+        "title": "Blockade of the angiotensin system improves mental health domain of quality of life: A meta-analysis of randomized clinical trials",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4700428": {
+        "paper_id": "4700428",
+        "title": "The effect of N-acetylcysteine in the nucleus accumbens on neurotransmission and relapse to cocaine.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "14584755": {
+          "paper_id": "14584755",
+          "title": "Differences in the Clinical Effects of Angiotensin-Converting Enzyme Inhibitors and Angiotensin Receptor Blockers: A Critical Review of the Evidence",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "26025370": {
+          "paper_id": "26025370",
+          "title": "Differential Effects of N-Acetylcysteine, Theophylline or Bicarbonate on Contrast-Induced Rat Renal Vasoconstriction",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "43417006": {
+          "paper_id": "43417006",
+          "title": "Comparative risk of new-onset diabetes mellitus for antihypertensive drugs: A network meta-analysis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "26199970": {
+          "paper_id": "26199970",
+          "title": "Blockade of the angiotensin system improves mental health domain of quality of life: A meta-analysis of randomized clinical trials",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4700428": {
+          "paper_id": "4700428",
+          "title": "The effect of N-acetylcysteine in the nucleus accumbens on neurotransmission and relapse to cocaine.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {},
+      "processing_failures": [],
+      "evidence_passages": [],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "NAC inhibits the generation of angiotensin-converting enzyme.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "ba9a6b7a092fe5cb8627f4fcd6a965261bdd229226a2a40a28d4fc798d681c64",
+  "selected_paper_ids": [
+    "14584755",
+    "26025370",
+    "26199970",
+    "43417006",
+    "4700428"
+  ],
+  "aggregation": {
+    "claim": "NAC inhibits the generation of angiotensin-converting enzyme.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "9fb362aeb618bc70fa9af9865df7aeb62e17ffbba50acca0b2588d5260a3b0dc",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

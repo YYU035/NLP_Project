@@ -1,0 +1,390 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.958838+00:00",
+    "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
+    "created_at": "2026-11-10T17:37:54.958838Z",
+    "retrieved_at": "2026-11-10T17:37:54.958838Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "365",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "600437": {
+        "paper_id": "600437",
+        "title": "Endosome-ER Contacts Control Actin Nucleation and Retromer Function through VAP-Dependent Regulation of PI4P",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "25623469": {
+        "paper_id": "25623469",
+        "title": "A conserved phosphatase cascade that regulates nuclear membrane biogenesis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4429388": {
+        "paper_id": "4429388",
+        "title": "ESCRT-III recognition by VPS4 ATPases",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "26019505": {
+        "paper_id": "26019505",
+        "title": "Protein interaction network of the mammalian Hippo pathway reveals mechanisms of kinase-phosphatase interactions.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11250124": {
+        "paper_id": "11250124",
+        "title": "AP-1/sigma1B-adaptin mediates endosomal synaptic vesicle recycling, learning and memory.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "600437": {
+          "paper_id": "600437",
+          "title": "Endosome-ER Contacts Control Actin Nucleation and Retromer Function through VAP-Dependent Regulation of PI4P",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "25623469": {
+          "paper_id": "25623469",
+          "title": "A conserved phosphatase cascade that regulates nuclear membrane biogenesis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4429388": {
+          "paper_id": "4429388",
+          "title": "ESCRT-III recognition by VPS4 ATPases",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "26019505": {
+          "paper_id": "26019505",
+          "title": "Protein interaction network of the mammalian Hippo pathway reveals mechanisms of kinase-phosphatase interactions.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11250124": {
+          "paper_id": "11250124",
+          "title": "AP-1/sigma1B-adaptin mediates endosomal synaptic vesicle recycling, learning and memory.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.6210978627204895,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "11250124:abstract:265:390:9cfecf16a4b5"
+          ]
+        }
+      },
+      "per_passage_labels": {
+        "600437:abstract:646:793:3e33feb3d5dc": {
+          "passage_id": "600437:abstract:646:793:3e33feb3d5dc",
+          "paper_id": "600437",
+          "label": "NEUTRAL",
+          "confidence": 0.9743930101394653,
+          "truncated": false
+        },
+        "600437:abstract:219:435:b730a824580a": {
+          "passage_id": "600437:abstract:219:435:b730a824580a",
+          "paper_id": "600437",
+          "label": "NEUTRAL",
+          "confidence": 0.9928197264671326,
+          "truncated": false
+        },
+        "600437:abstract:794:881:de171a9a4f00": {
+          "passage_id": "600437:abstract:794:881:de171a9a4f00",
+          "paper_id": "600437",
+          "label": "NEUTRAL",
+          "confidence": 0.9944986701011658,
+          "truncated": false
+        },
+        "25623469:abstract:829:1109:34eac2bf90d6": {
+          "passage_id": "25623469:abstract:829:1109:34eac2bf90d6",
+          "paper_id": "25623469",
+          "label": "NEUTRAL",
+          "confidence": 0.8890376687049866,
+          "truncated": false
+        },
+        "25623469:abstract:1110:1287:8c6b6f1c2938": {
+          "passage_id": "25623469:abstract:1110:1287:8c6b6f1c2938",
+          "paper_id": "25623469",
+          "label": "NEUTRAL",
+          "confidence": 0.9816049933433533,
+          "truncated": false
+        },
+        "4429388:abstract:242:430:64d71df2017e": {
+          "passage_id": "4429388:abstract:242:430:64d71df2017e",
+          "paper_id": "4429388",
+          "label": "NEUTRAL",
+          "confidence": 0.5842872262001038,
+          "truncated": false
+        },
+        "26019505:abstract:377:582:87bbd83c5aff": {
+          "passage_id": "26019505:abstract:377:582:87bbd83c5aff",
+          "paper_id": "26019505",
+          "label": "NEUTRAL",
+          "confidence": 0.9977008700370789,
+          "truncated": false
+        },
+        "26019505:abstract:978:1281:27dd6a223f84": {
+          "passage_id": "26019505:abstract:978:1281:27dd6a223f84",
+          "paper_id": "26019505",
+          "label": "NEUTRAL",
+          "confidence": 0.9799162149429321,
+          "truncated": false
+        },
+        "11250124:abstract:265:390:9cfecf16a4b5": {
+          "passage_id": "11250124:abstract:265:390:9cfecf16a4b5",
+          "paper_id": "11250124",
+          "label": "CONTRADICT",
+          "confidence": 0.6210978627204895,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "600437:abstract:646:793:3e33feb3d5dc",
+          "paper_id": "600437",
+          "section": "abstract",
+          "text": "Such defects are mimicked by downregulation of OSBP, a VAP interactor and PI4P transporter that participates in VAP-dependent ER-endosomes tethers.",
+          "score": 0.6325727701187134,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "600437:abstract:219:435:b730a824580a",
+          "paper_id": "600437",
+          "section": "abstract",
+          "text": "Here, we report that by regulating PI4P levels on endosomes, VAP affects WASH-dependent actin nucleation on these organelles and the function of the retromer, a protein coat responsible for endosome-to-Golgi traffic.",
+          "score": 0.6302318572998047,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "600437:abstract:794:881:de171a9a4f00",
+          "paper_id": "600437",
+          "section": "abstract",
+          "text": "These results reveal a role of PI4P in retromer-/WASH-dependent budding from endosomes.",
+          "score": 0.5576017498970032,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25623469:abstract:829:1109:34eac2bf90d6",
+          "paper_id": "25623469",
+          "section": "abstract",
+          "text": "Finally, Nem1p, has been shown to deposphorylate the yeast phosphatidic acid phosphatase Smp2p [Santos-Rosa H, Leung J, Grimsey N, Peak-Chew S, Siniossoglou S (2005) EMBO J 24:1931-1941], and we show that Dullard dephosphorylates the mammalian phospatidic acid phosphatase, lipin.",
+          "score": 0.5370891094207764,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25623469:abstract:1110:1287:8c6b6f1c2938",
+          "paper_id": "25623469",
+          "section": "abstract",
+          "text": "Therefore, we propose that Dullard participates in a unique phosphatase cascade regulating nuclear membrane biogenesis, and that this cascade is conserved from yeast to mammals.",
+          "score": 0.5056991577148438,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4429388:abstract:242:430:64d71df2017e",
+          "paper_id": "4429388",
+          "section": "abstract",
+          "text": "VPS4 ATPases perform a key function in this pathway by recognizing membrane-associated ESCRT-III assemblies and catalysing their disassembly, possibly in conjunction with membrane fission.",
+          "score": 0.5243349075317383,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26019505:abstract:377:582:87bbd83c5aff",
+          "paper_id": "26019505",
+          "section": "abstract",
+          "text": "We identified 749 protein interactions, including 599 previously unrecognized interactions, and demonstrated that several interactions with serine and threonine phosphatases were phosphorylation-dependent.",
+          "score": 0.5307501554489136,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26019505:abstract:978:1281:27dd6a223f84",
+          "paper_id": "26019505",
+          "section": "abstract",
+          "text": "Phosphatase inhibition produced temporally distinct changes in proteins that interacted with MOB1A and MOB1B (Mps one binder kinase activator-like 1A and 1B) and promoted interactions with upstream Hippo pathway proteins, such as MST1 and MST2, and with the trimeric protein phosphatase 6 complex (PP6).",
+          "score": 0.5235857963562012,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11250124:abstract:265:390:9cfecf16a4b5",
+          "paper_id": "11250124",
+          "section": "abstract",
+          "text": "The ubiquitously expressed AP-1-sigma1A complex mediates protein sorting between the trans-Golgi network and early endosomes.",
+          "score": 0.5723040699958801,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "11250124:abstract:265:390:9cfecf16a4b5",
+          "paper_id": "11250124",
+          "section": "abstract",
+          "text": "The ubiquitously expressed AP-1-sigma1A complex mediates protein sorting between the trans-Golgi network and early endosomes.",
+          "score": 0.5723040699958801,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.6210978627204895,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "5d3dd3f9b325e1d5757c2bcd4e8bea5150c26eebcb9f49b179bd7e8a14e690e4",
+  "selected_paper_ids": [
+    "11250124",
+    "25623469",
+    "26019505",
+    "4429388",
+    "600437"
+  ],
+  "aggregation": {
+    "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "11250124:abstract:265:390:9cfecf16a4b5",
+        "paper_id": "11250124",
+        "section": "abstract",
+        "text": "The ubiquitously expressed AP-1-sigma1A complex mediates protein sorting between the trans-Golgi network and early endosomes.",
+        "score": 0.5723040699958801,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.6210978627204895,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "941580245ec4a0d64241a3c5a635037d29c8ade90a37d6a6f334c767e341b48b",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "The ubiquitously expressed AP-1-sigma1A complex mediates protein sorting between the trans-Golgi network and early endosomes.",
+        "citation_ids": [
+          "11250124:abstract:265:390:9cfecf16a4b5"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

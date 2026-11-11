@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "condition": "Actual local CPU models already loaded; case230 fixed3-paper input. Timings are local observations under concurrent research jobs, not a controlled SLA.",
+  "first_verification_ms": 2748.6079999944195,
+  "first_verification_neural_forwards": 3,
+  "cached_subset_runs": 100,
+  "cached_subset_extra_neural_forwards": 0,
+  "cached_subset_p50_ms": 1.1418000212870538,
+  "cached_subset_p95_ms": 1.3348000356927514,
+  "replay_loads": 20,
+  "replay_p50_ms": 3.298650000942871,
+  "replay_p95_ms": 3.35869996342808,
+  "replay_extra_neural_forwards": 0,
+  "limits": "Verification and subset aggregation are different workloads. No speedup factor, production throughput or model accuracy is inferred."
+}

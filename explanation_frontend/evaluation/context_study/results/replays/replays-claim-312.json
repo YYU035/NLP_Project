@@ -1,0 +1,320 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:34:24.823926+00:00",
+    "claim": "De novo assembly of sequence data has more specific contigs than unassembled sequence data.",
+    "created_at": "2026-11-10T16:34:24.823926Z",
+    "retrieved_at": "2026-11-10T16:34:24.823926Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "auxiliary_inference": "Focused route always required. Context route may additionally be required; both actual input traces retained in local_traces. Replay displays the decisive arm."
+    },
+    "search_complete": false,
+    "papers": {
+      "14464451": {
+        "paper_id": "14464451",
+        "title": "Effects of GC Bias in Next-Generation-Sequencing Data on De Novo Genome Assembly",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32770503": {
+        "paper_id": "32770503",
+        "title": "Full-length transcriptome assembly from RNA-Seq data without a reference genome.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13123189": {
+        "paper_id": "13123189",
+        "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17447653": {
+        "paper_id": "17447653",
+        "title": "BLAST+: architecture and applications",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14185503": {
+        "paper_id": "14185503",
+        "title": "The miniature genome of a carnivorous plant Genlisea aurea contains a low number of genes and short non-coding sequences",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "14464451": {
+          "paper_id": "14464451",
+          "title": "Effects of GC Bias in Next-Generation-Sequencing Data on De Novo Genome Assembly",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32770503": {
+          "paper_id": "32770503",
+          "title": "Full-length transcriptome assembly from RNA-Seq data without a reference genome.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13123189": {
+          "paper_id": "13123189",
+          "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8466790318489075,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "13123189:abstract:0:2071:7b879e423e2b"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "17447653": {
+          "paper_id": "17447653",
+          "title": "BLAST+: architecture and applications",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14185503": {
+          "paper_id": "14185503",
+          "title": "The miniature genome of a carnivorous plant Genlisea aurea contains a low number of genes and short non-coding sequences",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "14464451:abstract:0:1245:afea0307b937": {
+          "passage_id": "14464451:abstract:0:1245:afea0307b937",
+          "paper_id": "14464451",
+          "label": "NEUTRAL",
+          "confidence": 0.9875998497009277,
+          "truncated": false
+        },
+        "32770503:abstract:0:1054:38d9f6c95692": {
+          "passage_id": "32770503:abstract:0:1054:38d9f6c95692",
+          "paper_id": "32770503",
+          "label": "NEUTRAL",
+          "confidence": 0.9958297610282898,
+          "truncated": false
+        },
+        "13123189:abstract:0:2071:7b879e423e2b": {
+          "passage_id": "13123189:abstract:0:2071:7b879e423e2b",
+          "paper_id": "13123189",
+          "label": "SUPPORT",
+          "confidence": 0.8466790318489075,
+          "truncated": false
+        },
+        "17447653:abstract:0:1511:0aac1456621f": {
+          "passage_id": "17447653:abstract:0:1511:0aac1456621f",
+          "paper_id": "17447653",
+          "label": "NEUTRAL",
+          "confidence": 0.9703662991523743,
+          "truncated": false
+        },
+        "14185503:abstract:0:1114:7ce38ac5ae53": {
+          "passage_id": "14185503:abstract:0:1114:7ce38ac5ae53",
+          "paper_id": "14185503",
+          "label": "NEUTRAL",
+          "confidence": 0.7084358334541321,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "14464451:abstract:0:1245:afea0307b937",
+          "paper_id": "14464451",
+          "section": "abstract",
+          "text": "Next-generation-sequencing (NGS) has revolutionized the field of genome assembly because of its much higher data throughput and much lower cost compared with traditional Sanger sequencing. However, NGS poses new computational challenges to de novo genome assembly. Among the challenges, GC bias in NGS data is known to aggravate genome assembly. However, it is not clear to what extent GC bias affects genome assembly in general. In this work, we conduct a systematic analysis on the effects of GC bias on genome assembly. Our analyses reveal that GC bias only lowers assembly completeness when the degree of GC bias is above a threshold. At a strong GC bias, the assembly fragmentation due to GC bias can be explained by the low coverage of reads in the GC-poor or GC-rich regions of a genome. This effect is observed for all the assemblers under study. Increasing the total amount of NGS data thus rescues the assembly fragmentation because of GC bias. However, the amount of data needed for a full rescue depends on the distribution of GC contents. Both low and high coverage depths due to GC bias lower the accuracy of assembly. These pieces of information provide guidance toward a better de novo genome assembly in the presence of GC bias.",
+          "score": 0.6437414884567261,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "32770503:abstract:0:1054:38d9f6c95692",
+          "paper_id": "32770503",
+          "section": "abstract",
+          "text": "Massively parallel sequencing of cDNA has enabled deep and efficient probing of transcriptomes. Current approaches for transcript reconstruction from such data often rely on aligning reads to a reference genome, and are thus unsuitable for samples with a partial or missing reference genome. Here we present the Trinity method for de novo assembly of full-length transcripts and evaluate it on samples from fission yeast, mouse and whitefly, whose reference genome is not yet available. By efficiently constructing and analyzing sets of de Bruijn graphs, Trinity fully reconstructs a large fraction of transcripts, including alternatively spliced isoforms and transcripts from recently duplicated genes. Compared with other de novo transcriptome assemblers, Trinity recovers more full-length transcripts across a broad range of expression levels, with a sensitivity similar to methods that rely on genome alignments. Our approach provides a unified solution for transcriptome reconstruction in any sample, especially in the absence of a reference genome.",
+          "score": 0.5509020090103149,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13123189:abstract:0:2071:7b879e423e2b",
+          "paper_id": "13123189",
+          "section": "abstract",
+          "text": "BACKGROUND RNA-Seq is revolutionizing the way transcript abundances are measured. A key challenge in transcript quantification from RNA-Seq data is the handling of reads that map to multiple genes or isoforms. This issue is particularly important for quantification with de novo transcriptome assemblies in the absence of sequenced genomes, as it is difficult to determine which transcripts are isoforms of the same gene. A second significant issue is the design of RNA-Seq experiments, in terms of the number of reads, read length, and whether reads come from one or both ends of cDNA fragments.   \n RESULTS We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or paired-end RNA-Seq data. RSEM outputs abundance estimates, 95% credibility intervals, and visualization files and can also simulate RNA-Seq data. In contrast to other existing tools, the software does not require a reference genome. Thus, in combination with a de novo transcriptome assembler, RSEM enables accurate transcript quantification for species without sequenced genomes. On simulated and real data sets, RSEM has superior or comparable performance to quantification methods that rely on a reference genome. Taking advantage of RSEM's ability to effectively use ambiguously-mapping reads, we show that accurate gene-level abundance estimates are best obtained with large numbers of short single-end reads. On the other hand, estimates of the relative frequencies of isoforms within single genes may be improved through the use of paired-end reads, depending on the number of possible splice forms for each gene.   \n CONCLUSIONS RSEM is an accurate and user-friendly software tool for quantifying transcript abundances from RNA-Seq data. As it does not rely on the existence of a reference genome, it is particularly useful for quantification with de novo transcriptome assemblies. In addition, RSEM has enabled valuable guidance for cost-efficient design of quantification experiments with RNA-Seq, which is currently relatively expensive.",
+          "score": 0.6990288496017456,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "17447653:abstract:0:1511:0aac1456621f",
+          "paper_id": "17447653",
+          "section": "abstract",
+          "text": "BACKGROUND Sequence similarity searching is a very important bioinformatics task. While Basic Local Alignment Search Tool (BLAST) outperforms exact methods through its use of heuristics, the speed of the current BLAST software is suboptimal for very long queries or database sequences. There are also some shortcomings in the user-interface of the current command-line applications.   \n RESULTS We describe features and improvements of rewritten BLAST software and introduce new command-line applications. Long query sequences are broken into chunks for processing, in some cases leading to dramatically shorter run times. For long database sequences, it is possible to retrieve only the relevant parts of the sequence, reducing CPU time and memory usage for searches of short queries against databases of contigs or chromosomes. The program can now retrieve masking information for database sequences from the BLAST databases. A new modular software library can now access subject sequence data from arbitrary data sources. We introduce several new features, including strategy files that allow a user to save and reuse their favorite set of options. The strategy files can be uploaded to and downloaded from the NCBI BLAST web site.   \n CONCLUSION The new BLAST command-line applications, compared to the current BLAST tools, demonstrate substantial speed improvements for long queries as well as chromosome length database sequences. We have also improved the user interface of the command-line applications.",
+          "score": 0.5550297498703003,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14185503:abstract:0:1114:7ce38ac5ae53",
+          "paper_id": "14185503",
+          "section": "abstract",
+          "text": "BACKGROUND Genlisea aurea (Lentibulariaceae) is a carnivorous plant with unusually small genome size - 63.6 Mb - one of the smallest known among higher plants. Data on the genome sizes and the phylogeny of Genlisea suggest that this is a derived state within the genus. Thus, G. aurea is an excellent model organism for studying evolutionary mechanisms of genome contraction.   \n RESULTS Here we report sequencing and de novo draft assembly of G. aurea genome. The assembly consists of 10,687 contigs of the total length of 43.4 Mb and includes 17,755 complete and partial protein-coding genes. Its comparison with the genome of Mimulus guttatus, another representative of higher core Lamiales clade, reveals striking differences in gene content and length of non-coding regions.   \n CONCLUSIONS Genome contraction was a complex process, which involved gene loss and reduction of lengths of introns and intergenic regions, but not intron loss. The gene loss is more frequent for the genes that belong to multigenic families indicating that genetic redundancy is an important prerequisite for genome size reduction.",
+          "score": 0.5681792497634888,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "De novo assembly of sequence data has more specific contigs than unassembled sequence data.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "13123189:abstract:0:2071:7b879e423e2b",
+          "paper_id": "13123189",
+          "section": "abstract",
+          "text": "BACKGROUND RNA-Seq is revolutionizing the way transcript abundances are measured. A key challenge in transcript quantification from RNA-Seq data is the handling of reads that map to multiple genes or isoforms. This issue is particularly important for quantification with de novo transcriptome assemblies in the absence of sequenced genomes, as it is difficult to determine which transcripts are isoforms of the same gene. A second significant issue is the design of RNA-Seq experiments, in terms of the number of reads, read length, and whether reads come from one or both ends of cDNA fragments.   \n RESULTS We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or paired-end RNA-Seq data. RSEM outputs abundance estimates, 95% credibility intervals, and visualization files and can also simulate RNA-Seq data. In contrast to other existing tools, the software does not require a reference genome. Thus, in combination with a de novo transcriptome assembler, RSEM enables accurate transcript quantification for species without sequenced genomes. On simulated and real data sets, RSEM has superior or comparable performance to quantification methods that rely on a reference genome. Taking advantage of RSEM's ability to effectively use ambiguously-mapping reads, we show that accurate gene-level abundance estimates are best obtained with large numbers of short single-end reads. On the other hand, estimates of the relative frequencies of isoforms within single genes may be improved through the use of paired-end reads, depending on the number of possible splice forms for each gene.   \n CONCLUSIONS RSEM is an accurate and user-friendly software tool for quantifying transcript abundances from RNA-Seq data. As it does not rely on the existence of a reference genome, it is particularly useful for quantification with de novo transcriptome assemblies. In addition, RSEM has enabled valuable guidance for cost-efficient design of quantification experiments with RNA-Seq, which is currently relatively expensive.",
+          "score": 0.6990288496017456,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.8466790318489075,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "a81ce41a8db903ee6633e470189d78ee1bbb1d686b22f3a7f147e08740869947",
+  "selected_paper_ids": [
+    "13123189",
+    "14185503",
+    "14464451",
+    "17447653",
+    "32770503"
+  ],
+  "aggregation": {
+    "claim": "De novo assembly of sequence data has more specific contigs than unassembled sequence data.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "13123189:abstract:0:2071:7b879e423e2b",
+        "paper_id": "13123189",
+        "section": "abstract",
+        "text": "BACKGROUND RNA-Seq is revolutionizing the way transcript abundances are measured. A key challenge in transcript quantification from RNA-Seq data is the handling of reads that map to multiple genes or isoforms. This issue is particularly important for quantification with de novo transcriptome assemblies in the absence of sequenced genomes, as it is difficult to determine which transcripts are isoforms of the same gene. A second significant issue is the design of RNA-Seq experiments, in terms of the number of reads, read length, and whether reads come from one or both ends of cDNA fragments.   \n RESULTS We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or paired-end RNA-Seq data. RSEM outputs abundance estimates, 95% credibility intervals, and visualization files and can also simulate RNA-Seq data. In contrast to other existing tools, the software does not require a reference genome. Thus, in combination with a de novo transcriptome assembler, RSEM enables accurate transcript quantification for species without sequenced genomes. On simulated and real data sets, RSEM has superior or comparable performance to quantification methods that rely on a reference genome. Taking advantage of RSEM's ability to effectively use ambiguously-mapping reads, we show that accurate gene-level abundance estimates are best obtained with large numbers of short single-end reads. On the other hand, estimates of the relative frequencies of isoforms within single genes may be improved through the use of paired-end reads, depending on the number of possible splice forms for each gene.   \n CONCLUSIONS RSEM is an accurate and user-friendly software tool for quantifying transcript abundances from RNA-Seq data. As it does not rely on the existence of a reference genome, it is particularly useful for quantification with de novo transcriptome assemblies. In addition, RSEM has enabled valuable guidance for cost-efficient design of quantification experiments with RNA-Seq, which is currently relatively expensive.",
+        "score": 0.6990288496017456,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.8466790318489075,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "2a0ed336e33a7e7af3fd5da570ad3ed9af7c1c9f197babf26680b165be9cb589",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "BACKGROUND RNA-Seq is revolutionizing the way transcript abundances are measured. A key challenge in transcript quantification from RNA-Seq data is the handling of reads that map to multiple genes or isoforms. This issue is particularly important for quantification with de novo transcriptome assemblies in the absence of sequenced genomes, as it is difficult to determine which transcripts are isoforms of the same gene. A second significant issue is the design of RNA-Seq experiments, in terms of the number of reads, read length, and whether reads come from one or both ends of cDNA fragments.   \n RESULTS We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or paired-end RNA-Seq data. RSEM outputs abundance estimates, 95% credibility intervals, and visualization files and can also simulate RNA-Seq data. In contrast to other existing tools, the software does not require a reference genome. Thus, in combination with a de novo transcriptome assembler, RSEM enables accurate transcript quantification for species without sequenced genomes. On simulated and real data sets, RSEM has superior or comparable performance to quantification methods that rely on a reference genome. Taking advantage of RSEM's ability to effectively use ambiguously-mapping reads, we show that accurate gene-level abundance estimates are best obtained with large numbers of short single-end reads. On the other hand, estimates of the relative frequencies of isoforms within single genes may be improved through the use of paired-end reads, depending on the number of possible splice forms for each gene.   \n CONCLUSIONS RSEM is an accurate and user-friendly software tool for quantifying transcript abundances from RNA-Seq data. As it does not rely on the existence of a reference genome, it is particularly useful for quantification with de novo transcriptome assemblies. In addition, RSEM has enabled valuable guidance for cost-efficient design of quantification experiments with RNA-Seq, which is currently relatively expensive.",
+        "citation_ids": [
+          "13123189:abstract:0:2071:7b879e423e2b"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

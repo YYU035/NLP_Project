@@ -1,0 +1,3 @@
+# Preserve measured bytes and replay fingerprints on all checkouts.
+results/** -text whitespace=cr-at-eol
+dataset_adapters/* -text whitespace=cr-at-eol

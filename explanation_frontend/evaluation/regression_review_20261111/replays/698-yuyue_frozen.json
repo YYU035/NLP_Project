@@ -1,0 +1,254 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.002048+00:00",
+    "claim": "Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).",
+    "created_at": "2026-11-10T17:37:55.002048Z",
+    "retrieved_at": "2026-11-10T17:37:55.002048Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "698",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "22544171": {
+        "paper_id": "22544171",
+        "title": "Reversal of the cellular phenotype in the premature aging disease Hutchinson-Gilford progeria syndrome",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "834336": {
+        "paper_id": "834336",
+        "title": "Compound heterozygous ZMPSTE24 mutations reduce prelamin A processing and result in a severe progeroid phenotype.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "15692098": {
+        "paper_id": "15692098",
+        "title": "Hutchinson-Gilford progeria syndrome: review of the phenotype",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14178995": {
+        "paper_id": "14178995",
+        "title": "Summary",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "34747208": {
+        "paper_id": "34747208",
+        "title": "Lamin A-dependent nuclear defects in human aging.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "22544171": {
+          "paper_id": "22544171",
+          "title": "Reversal of the cellular phenotype in the premature aging disease Hutchinson-Gilford progeria syndrome",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8393470048904419,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "22544171:abstract:0:1330:2f13a3515f60"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "834336": {
+          "paper_id": "834336",
+          "title": "Compound heterozygous ZMPSTE24 mutations reduce prelamin A processing and result in a severe progeroid phenotype.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "15692098": {
+          "paper_id": "15692098",
+          "title": "Hutchinson-Gilford progeria syndrome: review of the phenotype",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14178995": {
+          "paper_id": "14178995",
+          "title": "Summary",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "34747208": {
+          "paper_id": "34747208",
+          "title": "Lamin A-dependent nuclear defects in human aging.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "22544171:abstract:0:1330:2f13a3515f60": {
+          "passage_id": "22544171:abstract:0:1330:2f13a3515f60",
+          "paper_id": "22544171",
+          "label": "SUPPORT",
+          "confidence": 0.8393470048904419,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "22544171:abstract:0:1330:2f13a3515f60",
+          "paper_id": "22544171",
+          "section": "abstract",
+          "text": "Hutchinson-Gilford progeria syndrome (HGPS) is a childhood premature aging disease caused by a spontaneous point mutation in lamin A (encoded by LMNA), one of the major architectural elements of the mammalian cell nucleus. The HGPS mutation activates an aberrant cryptic splice site in LMNA pre-mRNA, leading to synthesis of a truncated lamin A protein and concomitant reduction in wild-type lamin A. Fibroblasts from individuals with HGPS have severe morphological abnormalities in nuclear envelope structure. Here we show that the cellular disease phenotype is reversible in cells from individuals with HGPS. Introduction of wild-type lamin A protein does not rescue the cellular disease symptoms. The mutant LMNA mRNA and lamin A protein can be efficiently eliminated by correction of the aberrant splicing event using a modified oligonucleotide targeted to the activated cryptic splice site. Upon splicing correction, HGPS fibroblasts assume normal nuclear morphology, the aberrant nuclear distribution and cellular levels of lamina-associated proteins are rescued, defects in heterochromatin-specific histone modifications are corrected and proper expression of several misregulated genes is reestablished. Our results establish proof of principle for the correction of the premature aging phenotype in individuals with HGPS.",
+          "score": 0.6993837356567383,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "22544171:abstract:0:1330:2f13a3515f60",
+          "paper_id": "22544171",
+          "section": "abstract",
+          "text": "Hutchinson-Gilford progeria syndrome (HGPS) is a childhood premature aging disease caused by a spontaneous point mutation in lamin A (encoded by LMNA), one of the major architectural elements of the mammalian cell nucleus. The HGPS mutation activates an aberrant cryptic splice site in LMNA pre-mRNA, leading to synthesis of a truncated lamin A protein and concomitant reduction in wild-type lamin A. Fibroblasts from individuals with HGPS have severe morphological abnormalities in nuclear envelope structure. Here we show that the cellular disease phenotype is reversible in cells from individuals with HGPS. Introduction of wild-type lamin A protein does not rescue the cellular disease symptoms. The mutant LMNA mRNA and lamin A protein can be efficiently eliminated by correction of the aberrant splicing event using a modified oligonucleotide targeted to the activated cryptic splice site. Upon splicing correction, HGPS fibroblasts assume normal nuclear morphology, the aberrant nuclear distribution and cellular levels of lamina-associated proteins are rescued, defects in heterochromatin-specific histone modifications are corrected and proper expression of several misregulated genes is reestablished. Our results establish proof of principle for the correction of the premature aging phenotype in individuals with HGPS.",
+          "score": 0.6993837356567383,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.8393470048904419,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "214f4e21b839170349942cf0c396c8fb7767664d2088f72a3ef93df12400bdfc",
+  "selected_paper_ids": [
+    "14178995",
+    "15692098",
+    "22544171",
+    "34747208",
+    "834336"
+  ],
+  "aggregation": {
+    "claim": "Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "22544171:abstract:0:1330:2f13a3515f60",
+        "paper_id": "22544171",
+        "section": "abstract",
+        "text": "Hutchinson-Gilford progeria syndrome (HGPS) is a childhood premature aging disease caused by a spontaneous point mutation in lamin A (encoded by LMNA), one of the major architectural elements of the mammalian cell nucleus. The HGPS mutation activates an aberrant cryptic splice site in LMNA pre-mRNA, leading to synthesis of a truncated lamin A protein and concomitant reduction in wild-type lamin A. Fibroblasts from individuals with HGPS have severe morphological abnormalities in nuclear envelope structure. Here we show that the cellular disease phenotype is reversible in cells from individuals with HGPS. Introduction of wild-type lamin A protein does not rescue the cellular disease symptoms. The mutant LMNA mRNA and lamin A protein can be efficiently eliminated by correction of the aberrant splicing event using a modified oligonucleotide targeted to the activated cryptic splice site. Upon splicing correction, HGPS fibroblasts assume normal nuclear morphology, the aberrant nuclear distribution and cellular levels of lamina-associated proteins are rescued, defects in heterochromatin-specific histone modifications are corrected and proper expression of several misregulated genes is reestablished. Our results establish proof of principle for the correction of the premature aging phenotype in individuals with HGPS.",
+        "score": 0.6993837356567383,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.8393470048904419,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "dac88b37090c230dee05e32ce7d6c8f07053849fd331715b4037d57e0b905ac4",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Hutchinson-Gilford progeria syndrome (HGPS) is a childhood premature aging disease caused by a spontaneous point mutation in lamin A (encoded by LMNA), one of the major architectural elements of the mammalian cell nucleus. The HGPS mutation activates an aberrant cryptic splice site in LMNA pre-mRNA, leading to synthesis of a truncated lamin A protein and concomitant reduction in wild-type lamin A. Fibroblasts from individuals with HGPS have severe morphological abnormalities in nuclear envelope structure. Here we show that the cellular disease phenotype is reversible in cells from individuals with HGPS. Introduction of wild-type lamin A protein does not rescue the cellular disease symptoms. The mutant LMNA mRNA and lamin A protein can be efficiently eliminated by correction of the aberrant splicing event using a modified oligonucleotide targeted to the activated cryptic splice site. Upon splicing correction, HGPS fibroblasts assume normal nuclear morphology, the aberrant nuclear distribution and cellular levels of lamina-associated proteins are rescued, defects in heterochromatin-specific histone modifications are corrected and proper expression of several misregulated genes is reestablished. Our results establish proof of principle for the correction of the premature aging phenotype in individuals with HGPS.",
+        "citation_ids": [
+          "22544171:abstract:0:1330:2f13a3515f60"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

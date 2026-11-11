@@ -1,0 +1,249 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:33.877928+00:00",
+    "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+    "created_at": "2026-11-10T17:03:33.877928Z",
+    "retrieved_at": "2026-11-10T17:03:33.877928Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "6710713": {
+        "paper_id": "6710713",
+        "title": "Risk factors at medical school for subsequent professional misconduct: multicentre retrospective case-control study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17374970": {
+        "paper_id": "17374970",
+        "title": "Predictors of Attrition and Academic Success of Medical Students: A 30-Year Retrospective Study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "28017005": {
+        "paper_id": "28017005",
+        "title": "Assessment for selection for the health care professions and specialty training: consensus statement and recommendations from the Ottawa 2010 Conference.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "38664102": {
+        "paper_id": "38664102",
+        "title": "What do medical schools teach about women's health and gender differences?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12789595": {
+        "paper_id": "12789595",
+        "title": "Computer assisted learning in undergraduate medical education.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "6710713": {
+          "paper_id": "6710713",
+          "title": "Risk factors at medical school for subsequent professional misconduct: multicentre retrospective case-control study",
+          "verdict": "SUPPORTED",
+          "confidence": 0.975567102432251,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "6710713:abstract:0:1883:a57eb016b967"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "17374970": {
+          "paper_id": "17374970",
+          "title": "Predictors of Attrition and Academic Success of Medical Students: A 30-Year Retrospective Study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "28017005": {
+          "paper_id": "28017005",
+          "title": "Assessment for selection for the health care professions and specialty training: consensus statement and recommendations from the Ottawa 2010 Conference.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "38664102": {
+          "paper_id": "38664102",
+          "title": "What do medical schools teach about women's health and gender differences?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12789595": {
+          "paper_id": "12789595",
+          "title": "Computer assisted learning in undergraduate medical education.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "6710713:abstract:0:1883:a57eb016b967": {
+          "passage_id": "6710713:abstract:0:1883:a57eb016b967",
+          "paper_id": "6710713",
+          "label": "SUPPORT",
+          "confidence": 0.975567102432251,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "6710713:abstract:0:1883:a57eb016b967",
+          "paper_id": "6710713",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether there are risk factors in a doctor's time at medical school that are associated with subsequent professional misconduct.   \n DESIGN Matched case-control study. Setting Records from medical schools and the General Medical Council (GMC).   \n PARTICIPANTS 59 doctors who had graduated from any one of eight medical schools in the United Kingdom in 1958-97 and had a proved finding of serious professional misconduct in GMC proceedings in 1999-2004 (cases); 236 controls (four for each case) were selected by systematic sampling from matching graduation cohorts. Case-control status was revealed by the GMC after completion of data entry.   \n MAIN OUTCOME MEASURE Odds ratios for being a \"case,\" with multivariable conditional logistic regression of potential risk factors including pre-admission characteristics and progress during the course. These data were obtained from anonymised copies of the students' progress files held by their original medical schools.   \n RESULTS Univariate conditional logistic regression analysis found that cases were more likely to be men, to be of lower estimated social class, and to have had academic difficulties during their medical course, especially in the early years. Multivariable analysis showed that male sex (odds ratio 9.80, 95% confidence interval 2.43 to 39.44, P=0.001), lower social class (4.28, 1.52 to 12.09, P=0.006), and failure of early or preclinical examinations (5.47, 2.17 to 13.79, P<0.001) were independently associated with being a case.   \n CONCLUSIONS This small study suggests that male sex, a lower socioeconomic background, and early academic difficulties at medical school could be risk factors for subsequent professional misconduct. The findings are preliminary and should be interpreted with caution. Most doctors with risk factors will not come before the GMC's disciplinary panels.",
+          "score": 0.777798593044281,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "6710713:abstract:0:1883:a57eb016b967",
+          "paper_id": "6710713",
+          "section": "abstract",
+          "text": "OBJECTIVE To determine whether there are risk factors in a doctor's time at medical school that are associated with subsequent professional misconduct.   \n DESIGN Matched case-control study. Setting Records from medical schools and the General Medical Council (GMC).   \n PARTICIPANTS 59 doctors who had graduated from any one of eight medical schools in the United Kingdom in 1958-97 and had a proved finding of serious professional misconduct in GMC proceedings in 1999-2004 (cases); 236 controls (four for each case) were selected by systematic sampling from matching graduation cohorts. Case-control status was revealed by the GMC after completion of data entry.   \n MAIN OUTCOME MEASURE Odds ratios for being a \"case,\" with multivariable conditional logistic regression of potential risk factors including pre-admission characteristics and progress during the course. These data were obtained from anonymised copies of the students' progress files held by their original medical schools.   \n RESULTS Univariate conditional logistic regression analysis found that cases were more likely to be men, to be of lower estimated social class, and to have had academic difficulties during their medical course, especially in the early years. Multivariable analysis showed that male sex (odds ratio 9.80, 95% confidence interval 2.43 to 39.44, P=0.001), lower social class (4.28, 1.52 to 12.09, P=0.006), and failure of early or preclinical examinations (5.47, 2.17 to 13.79, P<0.001) were independently associated with being a case.   \n CONCLUSIONS This small study suggests that male sex, a lower socioeconomic background, and early academic difficulties at medical school could be risk factors for subsequent professional misconduct. The findings are preliminary and should be interpreted with caution. Most doctors with risk factors will not come before the GMC's disciplinary panels.",
+          "score": 0.777798593044281,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.975567102432251,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "2b47f347f955c70ece81dde68f537b5714640632272421e57270c6dba8705a9e",
+  "selected_paper_ids": [
+    "12789595",
+    "17374970",
+    "28017005",
+    "38664102",
+    "6710713"
+  ],
+  "aggregation": {
+    "claim": "Students who perform poorly in the early years of medical school are at increased risk for professional misconduct later in their careers.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "6710713:abstract:0:1883:a57eb016b967",
+        "paper_id": "6710713",
+        "section": "abstract",
+        "text": "OBJECTIVE To determine whether there are risk factors in a doctor's time at medical school that are associated with subsequent professional misconduct.   \n DESIGN Matched case-control study. Setting Records from medical schools and the General Medical Council (GMC).   \n PARTICIPANTS 59 doctors who had graduated from any one of eight medical schools in the United Kingdom in 1958-97 and had a proved finding of serious professional misconduct in GMC proceedings in 1999-2004 (cases); 236 controls (four for each case) were selected by systematic sampling from matching graduation cohorts. Case-control status was revealed by the GMC after completion of data entry.   \n MAIN OUTCOME MEASURE Odds ratios for being a \"case,\" with multivariable conditional logistic regression of potential risk factors including pre-admission characteristics and progress during the course. These data were obtained from anonymised copies of the students' progress files held by their original medical schools.   \n RESULTS Univariate conditional logistic regression analysis found that cases were more likely to be men, to be of lower estimated social class, and to have had academic difficulties during their medical course, especially in the early years. Multivariable analysis showed that male sex (odds ratio 9.80, 95% confidence interval 2.43 to 39.44, P=0.001), lower social class (4.28, 1.52 to 12.09, P=0.006), and failure of early or preclinical examinations (5.47, 2.17 to 13.79, P<0.001) were independently associated with being a case.   \n CONCLUSIONS This small study suggests that male sex, a lower socioeconomic background, and early academic difficulties at medical school could be risk factors for subsequent professional misconduct. The findings are preliminary and should be interpreted with caution. Most doctors with risk factors will not come before the GMC's disciplinary panels.",
+        "score": 0.777798593044281,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.975567102432251,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "ca84ac7c344d800790a0340485f5e133f5220fe1aee010f87840cf4ae9e8b914",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "OBJECTIVE To determine whether there are risk factors in a doctor's time at medical school that are associated with subsequent professional misconduct.   \n DESIGN Matched case-control study. Setting Records from medical schools and the General Medical Council (GMC).   \n PARTICIPANTS 59 doctors who had graduated from any one of eight medical schools in the United Kingdom in 1958-97 and had a proved finding of serious professional misconduct in GMC proceedings in 1999-2004 (cases); 236 controls (four for each case) were selected by systematic sampling from matching graduation cohorts. Case-control status was revealed by the GMC after completion of data entry.   \n MAIN OUTCOME MEASURE Odds ratios for being a \"case,\" with multivariable conditional logistic regression of potential risk factors including pre-admission characteristics and progress during the course. These data were obtained from anonymised copies of the students' progress files held by their original medical schools.   \n RESULTS Univariate conditional logistic regression analysis found that cases were more likely to be men, to be of lower estimated social class, and to have had academic difficulties during their medical course, especially in the early years. Multivariable analysis showed that male sex (odds ratio 9.80, 95% confidence interval 2.43 to 39.44, P=0.001), lower social class (4.28, 1.52 to 12.09, P=0.006), and failure of early or preclinical examinations (5.47, 2.17 to 13.79, P<0.001) were independently associated with being a case.   \n CONCLUSIONS This small study suggests that male sex, a lower socioeconomic background, and early academic difficulties at medical school could be risk factors for subsequent professional misconduct. The findings are preliminary and should be interpreted with caution. Most doctors with risk factors will not come before the GMC's disciplinary panels.",
+        "citation_ids": [
+          "6710713:abstract:0:1883:a57eb016b967"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

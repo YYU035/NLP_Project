@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-09",
+  "protocol": "8 seeded balanced SciFact dev claim/document examples, known annotated paper plus2 random distractors each. Actual retrieval/ranking/semantic/NLI/template/subset/replay; imported corpus boundary replaces external discovery.",
+  "not_a_quality_score": "Annotated paper is deliberately included; not retrieval accuracy or representative claim verification accuracy. Every case retained.",
+  "attempted": 8,
+  "passed": 8,
+  "cases": [
+    {
+      "claim_id": 230,
+      "gold_document_label": "SUPPORT",
+      "status": "passed",
+      "verdict": "SUPPORTED",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-230.json",
+      "sha256": "28c7ed465cb7b9c5d8d64a1cc1c9deaa093ac57ff752d0c4128862f67f778e5f",
+      "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+      "seconds": 2.6996834000456147
+    },
+    {
+      "claim_id": 852,
+      "gold_document_label": "CONTRADICT",
+      "status": "passed",
+      "verdict": "CONTRADICTED",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-852.json",
+      "sha256": "7bbce549cc6292e59c9973758b747517c55eb99a88badb4a463429a0d6f8a38c",
+      "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+      "seconds": 1.0526403000112623
+    },
+    {
+      "claim_id": 70,
+      "gold_document_label": "SUPPORT",
+      "status": "passed",
+      "verdict": "SUPPORTED",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-70.json",
+      "sha256": "ac9a8d173b87af54760ae37118bf89eef36eea062348545f93b7000940720208",
+      "claim": "Activation of PPM1D suppresses p53 function.",
+      "seconds": 1.1967385999741964
+    },
+    {
+      "claim_id": 578,
+      "gold_document_label": "CONTRADICT",
+      "status": "passed",
+      "verdict": "CONTRADICTED",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-578.json",
+      "sha256": "378f6f02e208233af0f16c5442dce67d2a6c92d7bc3287ef9f5cfc8f3ad6db17",
+      "claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+      "seconds": 1.306930300022941
+    },
+    {
+      "claim_id": 723,
+      "gold_document_label": "SUPPORT",
+      "status": "passed",
+      "verdict": "CONFLICTING",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-723.json",
+      "sha256": "19a89d48099de8cf79b77dc3b47332afdea82180e66130407365ff6520700930",
+      "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+      "seconds": 1.2101127000059932
+    },
+    {
+      "claim_id": 452,
+      "gold_document_label": "CONTRADICT",
+      "status": "passed",
+      "verdict": "CONTRADICTED",
+      "run_status": "ok",
+      "passages": 2,
+      "export_path": "scifact-452.json",
+      "sha256": "c0ac0d8950bb753102eed8583b316c541a777290c603de1deff7654c47d8010f",
+      "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+      "seconds": 0.7102866999921389
+    },
+    {
+      "claim_id": 380,
+      "gold_document_label": "SUPPORT",
+      "status": "passed",
+      "verdict": "SUPPORTED",
+      "run_status": "ok",
+      "passages": 1,
+      "export_path": "scifact-380.json",
+      "sha256": "2afd82f88d4091e71193de9ec2733fb1baaee3f1d8f8be48f7b3b2fe98955f21",
+      "claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+      "seconds": 0.5868527999846265
+    },
+    {
+      "claim_id": 51,
+      "gold_document_label": "CONTRADICT",
+      "status": "passed",
+      "verdict": "CONTRADICTED",
+      "run_status": "ok",
+      "passages": 3,
+      "export_path": "scifact-51.json",
+      "sha256": "2dfa7c77773efc7cb77d48864d3f8b047e5a1af5564d5bb9cd6b51492728a923",
+      "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+      "seconds": 1.1788433999754488
+    }
+  ],
+  "seconds": 9.94245079997927
+}

@@ -1,0 +1,322 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.973476+00:00",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+    "created_at": "2026-11-10T17:37:54.973476Z",
+    "retrieved_at": "2026-11-10T17:37:54.973476Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "426",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "16728949": {
+        "paper_id": "16728949",
+        "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29429111": {
+        "paper_id": "29429111",
+        "title": "Transcriptional regulation of neuronal genes and its effect on neural functions: expression and function of forkhead transcription factors in neurons.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "28937856": {
+        "paper_id": "28937856",
+        "title": "Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14496749": {
+        "paper_id": "14496749",
+        "title": "A Conserved MST-FOXO Signaling Pathway Mediates Oxidative-Stress Responses and Extends Life Span",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4418070": {
+        "paper_id": "4418070",
+        "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16728949": {
+          "paper_id": "16728949",
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9753245115280151,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "16728949:abstract:0:205:9f3bc1d31dd4"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "29429111": {
+          "paper_id": "29429111",
+          "title": "Transcriptional regulation of neuronal genes and its effect on neural functions: expression and function of forkhead transcription factors in neurons.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "28937856": {
+          "paper_id": "28937856",
+          "title": "Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14496749": {
+          "paper_id": "14496749",
+          "title": "A Conserved MST-FOXO Signaling Pathway Mediates Oxidative-Stress Responses and Extends Life Span",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4418070": {
+          "paper_id": "4418070",
+          "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16728949:abstract:0:205:9f3bc1d31dd4": {
+          "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+          "paper_id": "16728949",
+          "label": "SUPPORT",
+          "confidence": 0.9753245115280151,
+          "truncated": false
+        },
+        "29429111:abstract:0:241:b71f787f6389": {
+          "passage_id": "29429111:abstract:0:241:b71f787f6389",
+          "paper_id": "29429111",
+          "label": "NEUTRAL",
+          "confidence": 0.9813867211341858,
+          "truncated": false
+        },
+        "14496749:abstract:336:550:1e53feb88e23": {
+          "passage_id": "14496749:abstract:336:550:1e53feb88e23",
+          "paper_id": "14496749",
+          "label": "NEUTRAL",
+          "confidence": 0.9827081561088562,
+          "truncated": false
+        },
+        "14496749:abstract:157:335:81b4d6c08602": {
+          "passage_id": "14496749:abstract:157:335:81b4d6c08602",
+          "paper_id": "14496749",
+          "label": "NEUTRAL",
+          "confidence": 0.9675676226615906,
+          "truncated": false
+        },
+        "4418070:abstract:186:429:389edd487429": {
+          "passage_id": "4418070:abstract:186:429:389edd487429",
+          "paper_id": "4418070",
+          "label": "NEUTRAL",
+          "confidence": 0.9120752811431885,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+          "paper_id": "16728949",
+          "section": "abstract",
+          "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "score": 0.7911686897277832,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "29429111:abstract:0:241:b71f787f6389",
+          "paper_id": "29429111",
+          "section": "abstract",
+          "text": "Forkhead box transcription factor, class O (FOXO) is a mammalian homologue of DAF-16, which is known to regulate the lifespan of Caenorhabditis elegans and includes subfamilies of forkhead transcription factors such as AFX, FKHRL1, and FKHR.",
+          "score": 0.6332119703292847,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14496749:abstract:336:550:1e53feb88e23",
+          "paper_id": "14496749",
+          "section": "abstract",
+          "text": "MST1 phosphorylates FOXO proteins at a conserved site within the forkhead domain that disrupts their interaction with 14-3-3 proteins, promotes FOXO nuclear translocation, and thereby induces cell death in neurons.",
+          "score": 0.6653388142585754,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14496749:abstract:157:335:81b4d6c08602",
+          "paper_id": "14496749",
+          "section": "abstract",
+          "text": "Here, we demonstrate that the protein kinase MST1 mediates oxidative-stress-induced cell death in primary mammalian neurons by directly activating the FOXO transcription factors.",
+          "score": 0.5198583006858826,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4418070:abstract:186:429:389edd487429",
+          "paper_id": "4418070",
+          "section": "abstract",
+          "text": "Foxp3 operates as a late-acting differentiation factor controlling Treg cell homeostasis and function, whereas the early Treg-cell-lineage commitment is regulated by the Akt kinase and the forkhead box O (Foxo) family of transcription factors.",
+          "score": 0.5340427756309509,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+          "paper_id": "16728949",
+          "section": "abstract",
+          "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "score": 0.7911686897277832,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9753245115280151,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "d50b189ed16fb0f185f4c4492eb4ab395c626653c9d81bfda25edbd11b754996",
+  "selected_paper_ids": [
+    "14496749",
+    "16728949",
+    "28937856",
+    "29429111",
+    "4418070"
+  ],
+  "aggregation": {
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "16728949:abstract:0:205:9f3bc1d31dd4",
+        "paper_id": "16728949",
+        "section": "abstract",
+        "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+        "score": 0.7911686897277832,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9753245115280151,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "d2c1127829ea315df06c7daa94bf9584a81c7693c500bd0a087d3f01de16e2e4",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+        "citation_ids": [
+          "16728949:abstract:0:205:9f3bc1d31dd4"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

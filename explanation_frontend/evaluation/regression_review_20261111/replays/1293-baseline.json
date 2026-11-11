@@ -1,0 +1,288 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.047596+00:00",
+    "claim": "There is no increased risk of hypospadias with clomiphene.",
+    "created_at": "2026-11-10T17:37:55.047596Z",
+    "retrieved_at": "2026-11-10T17:37:55.047596Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1293",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "43329366": {
+        "paper_id": "43329366",
+        "title": "Use of clomifene during early pregnancy and risk of hypospadias: population based case-control study.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14827874": {
+        "paper_id": "14827874",
+        "title": "0021-972X/06/$15.00/0 The Journal of Clinical Endocrinology & Metabolism 91(3):760–771 Printed in U.S.A. Copyright © 2006 by The Endocrine Society doi: 10.1210/jc.2005-1923 REVIEW: Aromatase Inhibitors for Ovulation Induction",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24323369": {
+        "paper_id": "24323369",
+        "title": "Comparison of clomiphene citrate, metformin, or the combination of both for first-line ovulation induction and achievement of pregnancy in 154 women with polycystic ovary syndrome.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "380526": {
+        "paper_id": "380526",
+        "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17625068": {
+        "paper_id": "17625068",
+        "title": "Penile Curvature Incidence in Hypospadias: Can It Be Determined?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "43329366": {
+          "paper_id": "43329366",
+          "title": "Use of clomifene during early pregnancy and risk of hypospadias: population based case-control study.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9815938472747803,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "43329366:abstract:199:707:e00c3c431320"
+          ]
+        },
+        "14827874": {
+          "paper_id": "14827874",
+          "title": "0021-972X/06/$15.00/0 The Journal of Clinical Endocrinology & Metabolism 91(3):760–771 Printed in U.S.A. Copyright © 2006 by The Endocrine Society doi: 10.1210/jc.2005-1923 REVIEW: Aromatase Inhibitors for Ovulation Induction",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24323369": {
+          "paper_id": "24323369",
+          "title": "Comparison of clomiphene citrate, metformin, or the combination of both for first-line ovulation induction and achievement of pregnancy in 154 women with polycystic ovary syndrome.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "380526": {
+          "paper_id": "380526",
+          "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17625068": {
+          "paper_id": "17625068",
+          "title": "Penile Curvature Incidence in Hypospadias: Can It Be Determined?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "43329366:abstract:708:942:d7923b8fb109": {
+          "passage_id": "43329366:abstract:708:942:d7923b8fb109",
+          "paper_id": "43329366",
+          "label": "NEUTRAL",
+          "confidence": 0.997860848903656,
+          "truncated": false
+        },
+        "43329366:abstract:199:707:e00c3c431320": {
+          "passage_id": "43329366:abstract:199:707:e00c3c431320",
+          "paper_id": "43329366",
+          "label": "CONTRADICT",
+          "confidence": 0.9815938472747803,
+          "truncated": false
+        },
+        "43329366:abstract:0:198:3ffdfd16708f": {
+          "passage_id": "43329366:abstract:0:198:3ffdfd16708f",
+          "paper_id": "43329366",
+          "label": "NEUTRAL",
+          "confidence": 0.9984493255615234,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "43329366:abstract:708:942:d7923b8fb109",
+          "paper_id": "43329366",
+          "section": "abstract",
+          "text": "Little is known about the risk of hypospadias in boys born to women who have used clomifene to induce ovulation.   ### Methods and results  Our case-control study was done in the Danish counties of North Jutland, Aarhus, Viborg, and …",
+          "score": 0.6346307992935181,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "43329366:abstract:199:707:e00c3c431320",
+          "paper_id": "43329366",
+          "section": "abstract",
+          "text": "The adverse effect is less severe in sons, although links to testicular cancer and urogenital anomalies, such as epididymal cysts, have been reported.2 3 A recent study also found an increased risk of hypospadias in the sons of women exposed to diethylstilbestrol in utero.4 Clomifene has a half life of about five days, but its metabolites have been found in blood samples on day 22 of the menstrual cycle and in faeces up to six weeks after administration.5 The occurrence of hypospadias may be increasing.",
+          "score": 0.6323667764663696,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "43329366:abstract:0:198:3ffdfd16708f",
+          "paper_id": "43329366",
+          "section": "abstract",
+          "text": "Clomifene is widely used for inducing ovulation.1 It is structurally related to diethylstilbestrol, which has been linked to vaginal and cervical clear cell adenocarcinoma in women exposed in utero.",
+          "score": 0.5181550979614258,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "There is no increased risk of hypospadias with clomiphene.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "43329366:abstract:199:707:e00c3c431320",
+          "paper_id": "43329366",
+          "section": "abstract",
+          "text": "The adverse effect is less severe in sons, although links to testicular cancer and urogenital anomalies, such as epididymal cysts, have been reported.2 3 A recent study also found an increased risk of hypospadias in the sons of women exposed to diethylstilbestrol in utero.4 Clomifene has a half life of about five days, but its metabolites have been found in blood samples on day 22 of the menstrual cycle and in faeces up to six weeks after administration.5 The occurrence of hypospadias may be increasing.",
+          "score": 0.6323667764663696,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9815938472747803,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "1d79b41979ddc160358233737aa3b18e36149de7a60a0f41dfec5eae90720a0d",
+  "selected_paper_ids": [
+    "14827874",
+    "17625068",
+    "24323369",
+    "380526",
+    "43329366"
+  ],
+  "aggregation": {
+    "claim": "There is no increased risk of hypospadias with clomiphene.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "43329366:abstract:199:707:e00c3c431320",
+        "paper_id": "43329366",
+        "section": "abstract",
+        "text": "The adverse effect is less severe in sons, although links to testicular cancer and urogenital anomalies, such as epididymal cysts, have been reported.2 3 A recent study also found an increased risk of hypospadias in the sons of women exposed to diethylstilbestrol in utero.4 Clomifene has a half life of about five days, but its metabolites have been found in blood samples on day 22 of the menstrual cycle and in faeces up to six weeks after administration.5 The occurrence of hypospadias may be increasing.",
+        "score": 0.6323667764663696,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9815938472747803,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "68363f68544d151fe4c064b1a1e03510ec54bbf1988e3846cc431466fe6a5593",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "The adverse effect is less severe in sons, although links to testicular cancer and urogenital anomalies, such as epididymal cysts, have been reported.2 3 A recent study also found an increased risk of hypospadias in the sons of women exposed to diethylstilbestrol in utero.4 Clomifene has a half life of about five days, but its metabolites have been found in blood samples on day 22 of the menstrual cycle and in faeces up to six weeks after administration.5 The occurrence of hypospadias may be increasing.",
+        "citation_ids": [
+          "43329366:abstract:199:707:e00c3c431320"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

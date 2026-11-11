@@ -1,0 +1,241 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.978987+00:00",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+    "created_at": "2026-11-10T17:37:54.978987Z",
+    "retrieved_at": "2026-11-10T17:37:54.978987Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "428",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "16728949": {
+        "paper_id": "16728949",
+        "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4418070": {
+        "paper_id": "4418070",
+        "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "919007": {
+        "paper_id": "919007",
+        "title": "The evolution of Fox genes and their role in development and disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "9393969": {
+        "paper_id": "9393969",
+        "title": "DAF-16/FOXO employs the chromatin remodeller SWI/SNF to promote stress resistance and longevity",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14225271": {
+        "paper_id": "14225271",
+        "title": "Molecular features of cellular reprogramming and development",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16728949": {
+          "paper_id": "16728949",
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4418070": {
+          "paper_id": "4418070",
+          "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "919007": {
+          "paper_id": "919007",
+          "title": "The evolution of Fox genes and their role in development and disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "9393969": {
+          "paper_id": "9393969",
+          "title": "DAF-16/FOXO employs the chromatin remodeller SWI/SNF to promote stress resistance and longevity",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14225271": {
+          "paper_id": "14225271",
+          "title": "Molecular features of cellular reprogramming and development",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16728949:abstract:0:897:c3ad86fe25b8": {
+          "passage_id": "16728949:abstract:0:897:c3ad86fe25b8",
+          "paper_id": "16728949",
+          "label": "NEUTRAL",
+          "confidence": 0.8418694138526917,
+          "truncated": false
+        },
+        "919007:abstract:0:661:8b31ba617d77": {
+          "passage_id": "919007:abstract:0:661:8b31ba617d77",
+          "paper_id": "919007",
+          "label": "NEUTRAL",
+          "confidence": 0.9985116124153137,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16728949:abstract:0:897:c3ad86fe25b8",
+          "paper_id": "16728949",
+          "section": "abstract",
+          "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism. Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival. These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems. Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues.",
+          "score": 0.7611713409423828,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "919007:abstract:0:661:8b31ba617d77",
+          "paper_id": "919007",
+          "section": "abstract",
+          "text": "The forkhead box (Fox) family of transcription factors, which originated in unicellular eukaryotes, has expanded over time through multiple duplication events, and sometimes through gene loss, to over 40 members in mammals. Fox genes have evolved to acquire a specialized function in many key biological processes. Mutations in Fox genes have a profound effect on human disease, causing phenotypes as varied as cancer, glaucoma and language disorders. We summarize the salient features of the evolution of the Fox gene family and highlight the diverse contribution of various Fox subfamilies to developmental processes, from organogenesis to speech acquisition.",
+          "score": 0.7157260775566101,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "79dc422ceeb8f0c1d1d9acc297c9dd7b5951784b663b875cfe8f207ac9c7d90b",
+  "selected_paper_ids": [
+    "14225271",
+    "16728949",
+    "4418070",
+    "919007",
+    "9393969"
+  ],
+  "aggregation": {
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "bb353c042c0c683e7e9b8ca9893fddf2a30426a5f6aea7c42921b6923f770956",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

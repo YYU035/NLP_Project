@@ -1,0 +1,269 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:39:29.666048+00:00",
+    "claim": "Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.",
+    "created_at": "2026-11-10T16:39:29.666048Z",
+    "retrieved_at": "2026-11-10T16:39:29.666048Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "auxiliary_inference": "Focused route always required. Context route may additionally be required; both actual input traces retained in local_traces. Replay displays the decisive arm."
+    },
+    "search_complete": false,
+    "papers": {
+      "1834762": {
+        "paper_id": "1834762",
+        "title": "Amyloid-DNA Composites of Bacterial Biofilms Stimulate Autoimmunity.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12670680": {
+        "paper_id": "12670680",
+        "title": "BASOPHILS AND THE T HELPER 2 ENVIRONMENT CAN PROMOTE THE DEVELOPMENT OF LUPUS NEPHRITIS",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7433668": {
+        "paper_id": "7433668",
+        "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32454714": {
+        "paper_id": "32454714",
+        "title": "Role of gut commensal microflora in the development of experimental autoimmune encephalomyelitis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5476778": {
+        "paper_id": "5476778",
+        "title": "Autoimmunity due to molecular mimicry as a cause of neurological disease",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "1834762": {
+          "paper_id": "1834762",
+          "title": "Amyloid-DNA Composites of Bacterial Biofilms Stimulate Autoimmunity.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9984880685806274,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "1834762:abstract:0:1086:1f8ce475eb4c"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "12670680": {
+          "paper_id": "12670680",
+          "title": "BASOPHILS AND THE T HELPER 2 ENVIRONMENT CAN PROMOTE THE DEVELOPMENT OF LUPUS NEPHRITIS",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7433668": {
+          "paper_id": "7433668",
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32454714": {
+          "paper_id": "32454714",
+          "title": "Role of gut commensal microflora in the development of experimental autoimmune encephalomyelitis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5476778": {
+          "paper_id": "5476778",
+          "title": "Autoimmunity due to molecular mimicry as a cause of neurological disease",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "1834762:abstract:0:1086:1f8ce475eb4c": {
+          "passage_id": "1834762:abstract:0:1086:1f8ce475eb4c",
+          "paper_id": "1834762",
+          "label": "SUPPORT",
+          "confidence": 0.9984880685806274,
+          "truncated": false
+        },
+        "12670680:abstract:0:1124:c6cec4133a03": {
+          "passage_id": "12670680:abstract:0:1124:c6cec4133a03",
+          "paper_id": "12670680",
+          "label": "NEUTRAL",
+          "confidence": 0.9552419185638428,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "1834762:abstract:0:1086:1f8ce475eb4c",
+          "paper_id": "1834762",
+          "section": "abstract",
+          "text": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown. We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation. This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE). When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice. We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria. These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity.",
+          "score": 0.9270351529121399,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "12670680:abstract:0:1124:c6cec4133a03",
+          "paper_id": "12670680",
+          "section": "abstract",
+          "text": "In systemic lupus erythematosus (SLE), self-reactive antibodies can target the kidney (lupus nephritis), leading to functional failure and possible mortality. We report that activation of basophils by autoreactive IgE causes their homing to lymph nodes, promoting T helper type 2 (T(H)2) cell differentiation and enhancing the production of self-reactive antibodies that cause lupus-like nephritis in mice lacking the Src family protein tyrosine kinase Lyn (Lyn(-/-) mice). Individuals with SLE also have elevated serum IgE, self-reactive IgEs and activated basophils that express CD62 ligand (CD62L) and the major histocompatibility complex (MHC) class II molecule human leukocyte antigen-DR (HLA-DR), parameters that are associated with increased disease activity and active lupus nephritis. Basophils were also present in the lymph nodes and spleen of subjects with SLE. Thus, in Lyn(-/-) mice, basophils and IgE autoantibodies amplify autoantibody production that leads to lupus nephritis, and in individuals with SLE IgE autoantibodies and activated basophils are factors associated with disease activity and nephritis.",
+          "score": 0.5122954845428467,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "1834762:abstract:0:1086:1f8ce475eb4c",
+          "paper_id": "1834762",
+          "section": "abstract",
+          "text": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown. We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation. This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE). When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice. We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria. These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity.",
+          "score": 0.9270351529121399,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9984880685806274,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "8404f7818a63d2fa9e1c20c023e74f3346932da58461428700a5fcbe18a637ed",
+  "selected_paper_ids": [
+    "12670680",
+    "1834762",
+    "32454714",
+    "5476778",
+    "7433668"
+  ],
+  "aggregation": {
+    "claim": "Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "1834762:abstract:0:1086:1f8ce475eb4c",
+        "paper_id": "1834762",
+        "section": "abstract",
+        "text": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown. We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation. This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE). When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice. We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria. These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity.",
+        "score": 0.9270351529121399,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9984880685806274,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "27d7c2ec6188c3b0f806bb2c2b9f7fe65ba33b845c57e0789f9665d7c2ce4f6b",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown. We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation. This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE). When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice. We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria. These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity.",
+        "citation_ids": [
+          "1834762:abstract:0:1086:1f8ce475eb4c"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

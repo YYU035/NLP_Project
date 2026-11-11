@@ -1,0 +1,921 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:10.916103+00:00",
+    "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+    "created_at": "2026-11-09T14:33:10.916103Z",
+    "retrieved_at": "2026-11-09T14:33:09.732497Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"20e7e125679278941bf1636a01a50b5799d7e909f02ab3efc41cd0266aca2295\", \"candidates\": {\"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:5531479\", \"identity_aliases\": [\"scifact:5531479\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.\", \"authors\": [], \"abstract\": \"Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.\", \"authors\": [], \"abstract\": \"Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:8417211\", \"identity_aliases\": [\"scifact:8417211\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.\", \"authors\": [], \"abstract\": \"HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.\", \"authors\": [], \"abstract\": \"HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:356218\", \"identity_aliases\": [\"scifact:356218\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"Outcome of pregnancy in women with moderate or severe renal insufficiency.\", \"authors\": [], \"abstract\": \"BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \\n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \\n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \\n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"356218\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"356218\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Outcome of pregnancy in women with moderate or severe renal insufficiency.\", \"authors\": [], \"abstract\": \"BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \\n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \\n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \\n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"356218\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.\", \"authors\": [], \"abstract\": \"Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.\", \"authors\": [], \"abstract\": \"HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Outcome of pregnancy in women with moderate or severe renal insufficiency.\", \"authors\": [], \"abstract\": \"BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \\n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \\n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \\n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"356218\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:5531479\", \"scifact:8417211\", \"scifact:356218\"], \"sbert_ranking\": [\"scifact:5531479\", \"scifact:8417211\", \"scifact:356218\"], \"bm25_seconds\": 8.950004121288657e-05, \"sbert_seconds\": 0.007195400015916675}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:5531479\", \"identity_aliases\": [\"scifact:5531479\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.\", \"authors\": [], \"abstract\": \"Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.\", \"authors\": [], \"abstract\": \"Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"5531479\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:8417211\", \"identity_aliases\": [\"scifact:8417211\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.\", \"authors\": [], \"abstract\": \"HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.\", \"authors\": [], \"abstract\": \"HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"8417211\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03225806451612903, \"bm25_rank\": 2, \"sbert_rank\": 2, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:356218\", \"identity_aliases\": [\"scifact:356218\"], \"original_claim\": \"Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.\", \"paper\": {\"title\": \"Outcome of pregnancy in women with moderate or severe renal insufficiency.\", \"authors\": [], \"abstract\": \"BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \\n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \\n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \\n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"356218\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"356218\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Outcome of pregnancy in women with moderate or severe renal insufficiency.\", \"authors\": [], \"abstract\": \"BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \\n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \\n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \\n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"356218\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.031746031746031744, \"bm25_rank\": 3, \"sbert_rank\": 3, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 8.950004121288657e-05, \"sbert_seconds\": 0.007195400015916675, \"rrf_seconds\": 9.71999834291637e-05, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.00026619998971000314, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:5531479\": {\"passages\": [{\"passage_id\": \"scifact:5531479:abstract:767:990:c73f586b9dcc\", \"paper_id\": \"scifact:5531479\", \"section\": \"abstract\", \"text\": \"We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"score\": 0.9308445453643799}, {\"passage_id\": \"scifact:5531479:abstract:401:555:e42ef979e7e2\", \"paper_id\": \"scifact:5531479\", \"section\": \"abstract\", \"text\": \"However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner.\", \"score\": 0.7873779535293579}, {\"passage_id\": \"scifact:5531479:abstract:259:400:64ae8c637aaa\", \"paper_id\": \"scifact:5531479\", \"section\": \"abstract\", \"text\": \"During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.\", \"score\": 0.7770440578460693}], \"source_spans\": [{\"paper_id\": \"scifact:5531479\", \"sentence_indices\": [6], \"start\": 767, \"end\": 990, \"text\": \"We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.\", \"score\": 0.9308445453643799, \"passage_id\": \"scifact:5531479:abstract:767:990:c73f586b9dcc\"}, {\"paper_id\": \"scifact:5531479\", \"sentence_indices\": [3], \"start\": 401, \"end\": 555, \"text\": \"However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner.\", \"score\": 0.7873779535293579, \"passage_id\": \"scifact:5531479:abstract:401:555:e42ef979e7e2\"}, {\"paper_id\": \"scifact:5531479\", \"sentence_indices\": [2], \"start\": 259, \"end\": 400, \"text\": \"During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.\", \"score\": 0.7770440578460693, \"passage_id\": \"scifact:5531479:abstract:259:400:64ae8c637aaa\"}], \"budget_checks\": [{\"passage_id\": \"scifact:5531479:abstract:767:990:c73f586b9dcc\", \"pair_tokens\": 56, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:5531479:abstract:401:555:e42ef979e7e2\", \"pair_tokens\": 50, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:5531479:abstract:259:400:64ae8c637aaa\", \"pair_tokens\": 49, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:8417211\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:356218\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:5531479": {
+        "paper_id": "scifact:5531479",
+        "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 10.587004188491033,
+          "sbert": 0.7903925180435181,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:8417211": {
+        "paper_id": "scifact:8417211",
+        "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 1.0832078463013646,
+          "sbert": 0.15785716474056244,
+          "rrf": 0.03225806451612903
+        }
+      },
+      "scifact:356218": {
+        "paper_id": "scifact:356218",
+        "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.5923172036251889,
+          "sbert": -0.04334075003862381,
+          "rrf": 0.031746031746031744
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:5531479": {
+          "paper_id": "scifact:5531479",
+          "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.9907858371734619,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "MODEL_UNCERTAINTY",
+          "conflict_flag": true,
+          "supporting_passage_ids": [
+            "scifact:5531479:abstract:767:990:c73f586b9dcc"
+          ],
+          "contradicting_passage_ids": [
+            "scifact:5531479:abstract:259:400:64ae8c637aaa"
+          ]
+        },
+        "scifact:8417211": {
+          "paper_id": "scifact:8417211",
+          "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:356218": {
+          "paper_id": "scifact:356218",
+          "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:5531479:abstract:767:990:c73f586b9dcc": {
+          "passage_id": "scifact:5531479:abstract:767:990:c73f586b9dcc",
+          "paper_id": "scifact:5531479",
+          "label": "SUPPORT",
+          "confidence": 0.9584325551986694,
+          "truncated": false
+        },
+        "scifact:5531479:abstract:401:555:e42ef979e7e2": {
+          "passage_id": "scifact:5531479:abstract:401:555:e42ef979e7e2",
+          "paper_id": "scifact:5531479",
+          "label": "NEUTRAL",
+          "confidence": 0.9975457787513733,
+          "truncated": false
+        },
+        "scifact:5531479:abstract:259:400:64ae8c637aaa": {
+          "passage_id": "scifact:5531479:abstract:259:400:64ae8c637aaa",
+          "paper_id": "scifact:5531479",
+          "label": "CONTRADICT",
+          "confidence": 0.9907858371734619,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:5531479:abstract:767:990:c73f586b9dcc",
+          "paper_id": "scifact:5531479",
+          "section": "abstract",
+          "text": "We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+          "score": 0.9308445453643799,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:5531479:abstract:401:555:e42ef979e7e2",
+          "paper_id": "scifact:5531479",
+          "section": "abstract",
+          "text": "However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner.",
+          "score": 0.7873779535293579,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:5531479:abstract:259:400:64ae8c637aaa",
+          "paper_id": "scifact:5531479",
+          "section": "abstract",
+          "text": "During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.",
+          "score": 0.7770440578460693,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+      "aggregated_verdict": "CONFLICTING",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:5531479:abstract:767:990:c73f586b9dcc",
+          "paper_id": "scifact:5531479",
+          "section": "abstract",
+          "text": "We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+          "score": 0.9308445453643799,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:5531479:abstract:259:400:64ae8c637aaa",
+          "paper_id": "scifact:5531479",
+          "section": "abstract",
+          "text": "During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.",
+          "score": 0.7770440578460693,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9907858371734619,
+      "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "1.1837908999877982",
+      "ranking_output_sha256": "4c2a0aaba8881976869987146ed4e5796e55e58736a31351b48eae4e683e8de4"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:09.732497Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:5531479",
+            "identity_aliases": [
+              "scifact:5531479"
+            ],
+            "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+            "paper": {
+              "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+              "authors": [],
+              "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "5531479",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "5531479",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                "authors": [],
+                "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "5531479",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:8417211",
+            "identity_aliases": [
+              "scifact:8417211"
+            ],
+            "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+            "paper": {
+              "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+              "authors": [],
+              "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "8417211",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "8417211",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                "authors": [],
+                "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8417211",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:356218",
+            "identity_aliases": [
+              "scifact:356218"
+            ],
+            "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+            "paper": {
+              "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+              "authors": [],
+              "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "356218",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "356218",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                "authors": [],
+                "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "356218",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                  "authors": [],
+                  "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5531479",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                  "authors": [],
+                  "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8417211",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                  "authors": [],
+                  "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "356218",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:356218",
+        "scifact:5531479",
+        "scifact:8417211"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "20e7e125679278941bf1636a01a50b5799d7e909f02ab3efc41cd0266aca2295",
+          "candidates": {
+            "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:5531479",
+                "identity_aliases": [
+                  "scifact:5531479"
+                ],
+                "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+                "paper": {
+                  "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                  "authors": [],
+                  "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5531479",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "5531479",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                    "authors": [],
+                    "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "5531479",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:8417211",
+                "identity_aliases": [
+                  "scifact:8417211"
+                ],
+                "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+                "paper": {
+                  "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                  "authors": [],
+                  "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8417211",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "8417211",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                    "authors": [],
+                    "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "8417211",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:356218",
+                "identity_aliases": [
+                  "scifact:356218"
+                ],
+                "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+                "paper": {
+                  "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                  "authors": [],
+                  "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "356218",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "356218",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                    "authors": [],
+                    "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "356218",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                      "authors": [],
+                      "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "5531479",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                      "authors": [],
+                      "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "8417211",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                      "authors": [],
+                      "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "356218",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:5531479",
+            "scifact:8417211",
+            "scifact:356218"
+          ],
+          "sbert_ranking": [
+            "scifact:5531479",
+            "scifact:8417211",
+            "scifact:356218"
+          ],
+          "bm25_seconds": 0.00008950004121288657,
+          "sbert_seconds": 0.007195400015916675
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:5531479",
+              "identity_aliases": [
+                "scifact:5531479"
+              ],
+              "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+              "paper": {
+                "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                "authors": [],
+                "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "5531479",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "5531479",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "The Ly49Q receptor plays a crucial role in neutrophil polarization and migration by regulating raft trafficking.",
+                  "authors": [],
+                  "abstract": "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation. Here, we show that an inhibitory MHC I receptor, Ly49Q, was crucial for the swift polarization of and tissue infiltration by neutrophils. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions. We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "5531479",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:8417211",
+              "identity_aliases": [
+                "scifact:8417211"
+              ],
+              "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+              "paper": {
+                "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                "authors": [],
+                "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "8417211",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "8417211",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Phosphorylation site mutations in heterochromatin protein 1 (HP1) reduce or eliminate silencing activity.",
+                  "authors": [],
+                  "abstract": "HP1 is an essential heterochromatin-associated protein in Drosophila. HP1 has dosage-dependent effects on the silencing of euchromatic genes that are mislocalized to heterochromatin and is required for the normal expression of at least two heterochromatic genes. HP1 is multiply phosphorylated in vivo, and HP1 hyperphosphorylation is correlated with heterochromatin assembly during development. The purpose of this study was to test whether HP1 phosphorylation modifies biological activity and biochemical properties of HP1. To determine sites of HP1 phosphorylation in vivo and whether phosphorylation affects any biochemical properties of HP1, we expressed Drosophila HP1 in lepidopteran cultured cells using a recombinant baculovirus vector. Phosphopeptides were identified by matrix-assisted laser desorption ionization/time of flight mass spectroscopy; these peptides contain target sites for casein kinase II, protein tyrosine kinase, and PIM-1 kinase. Purified HP1 from bacterial (unphosphorylated) and lepidopteran (phosphorylated) cells has similar secondary structure. Phosphorylation has no effect on HP1 self-association but alters the DNA binding properties of HP1, suggesting that phosphorylation could differentially regulate HP1-dependent interactions. Serine-to-alanine and serine-to-glutamate substitutions at consensus protein kinase motifs resulted in reduction or loss of silencing activity of mutant HP1 in transgenic flies. These results suggest that dynamic phosphorylation/dephosphorylation regulates HP1 activity in heterochromatic silencing.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "8417211",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03225806451612903,
+            "bm25_rank": 2,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:356218",
+              "identity_aliases": [
+                "scifact:356218"
+              ],
+              "original_claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+              "paper": {
+                "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                "authors": [],
+                "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "356218",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "356218",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+                  "authors": [],
+                  "abstract": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies). All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n RESULTS The mean (+/- SD) serum creatinine concentration increased from 1.9 +/- 0.8 mg per deciliter (168 +/- 71 mumol per liter) in early pregnancy to 2.5 +/- 1.3 mg per deciliter (221 +/- 115 mumol per liter) in the third trimester. The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent. For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent. Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency. Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent.   \n CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "356218",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.031746031746031744,
+            "bm25_rank": 3,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00008950004121288657,
+          "sbert_seconds": 0.007195400015916675,
+          "rrf_seconds": 0.0000971999834291637,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.00026619998971000314,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "d491d1e6cdd3740db237e4620be4473ae121db29a77fc8490cfb4bb3ebb4c31f",
+  "selected_paper_ids": [
+    "scifact:356218",
+    "scifact:5531479",
+    "scifact:8417211"
+  ],
+  "aggregation": {
+    "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+    "aggregated_verdict": "CONFLICTING",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:5531479:abstract:767:990:c73f586b9dcc",
+        "paper_id": "scifact:5531479",
+        "section": "abstract",
+        "text": "We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+        "score": 0.9308445453643799,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "scifact:5531479:abstract:259:400:64ae8c637aaa",
+        "paper_id": "scifact:5531479",
+        "section": "abstract",
+        "text": "During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.",
+        "score": 0.7770440578460693,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9907858371734619,
+    "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "b38b6ab07e54c55347b8c3bdc6f9f596241247114522e94d61fd5adfcf111d9f",
+    "verdict": "CONFLICTING",
+    "statements": [
+      {
+        "text": "We propose that Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation, through its spatiotemporal regulation of membrane rafts and raft-associated signaling molecules.",
+        "citation_ids": [
+          "scifact:5531479:abstract:767:990:c73f586b9dcc"
+        ]
+      },
+      {
+        "text": "During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.",
+        "citation_ids": [
+          "scifact:5531479:abstract:259:400:64ae8c637aaa"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

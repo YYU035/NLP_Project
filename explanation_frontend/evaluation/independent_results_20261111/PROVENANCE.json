@@ -1,0 +1,29 @@
+{
+  "ranking_sha256": "1b2443d2ad74e8dbd5c0bf63ff5971e3f2c7616cd62f5a3f31e85b2767d9dd7d",
+  "model_files_sha256": {
+    "claim-verifier": {
+      "config.json": "7f9d420b616691c5b575bab8839719aefbddc656d8e1316519414b097ce43e3d",
+      "model.safetensors": "c03cd208bf920b4fbbb182a0535859a566e8acc3477d2b536bf87b769978524b",
+      "pinned_revision.txt": "190f690b357d26f9173b5808b08c97adbb287814d1eaec93554058ab2850a778",
+      "tokenizer.json": "7aa118770f066a74530d161c7d0b994d0629cc0ff3a0df213f184192773f960a"
+    },
+    "all-MiniLM-L6-v2": {
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "pinned_revision.txt": "541945f73661f7b6150e571f964fe72c78469298ba9e1abfc1707cc60c748745",
+      "pytorch_model.bin": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "1_Pooling\\config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+    },
+    "person3-semantic": {
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "download_manifest.json": "b3fd6d443091bfe10404f2fccf01ba4c4eca85839ebe19132679ac7ec05a858c",
+      "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "1_Pooling\\config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+    }
+  },
+  "inference": "3 CPU processes,4 Torch threads each, float32, actual pinned local models. No hosted model calls.",
+  "scope": "Integrity provenance; cohort/policy fixed before inference.",
+  "model_hashes_verified_now": true,
+  "model_files_verified": 14
+}

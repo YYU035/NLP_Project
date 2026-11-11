@@ -1,0 +1,254 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.965856+00:00",
+    "claim": "Egr2 regulates the homeostasis of B and T cells.",
+    "created_at": "2026-11-10T17:37:54.965856Z",
+    "retrieved_at": "2026-11-10T17:37:54.965856Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "370",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "1550937": {
+        "paper_id": "1550937",
+        "title": "The Transcription Factors Egr2 and Egr3 Are Essential for the Control of Inflammation and Antigen-Induced Proliferation of B and T Cells",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7399084": {
+        "paper_id": "7399084",
+        "title": "Transcriptional repressor Blimp-1 is essential for T cell homeostasis and self-tolerance",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "38587347": {
+        "paper_id": "38587347",
+        "title": "Finding the right niche: B-cell migration in the early phases of T-dependent antibody responses.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32101982": {
+        "paper_id": "32101982",
+        "title": "Krüppel-like factor 2 (KLF2) regulates B-cell reactivity, subset differentiation, and trafficking molecule expression.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "21012916": {
+        "paper_id": "21012916",
+        "title": "Ephrin B1–mediated repulsion and signaling control germinal center T cell territoriality and function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "1550937": {
+          "paper_id": "1550937",
+          "title": "The Transcription Factors Egr2 and Egr3 Are Essential for the Control of Inflammation and Antigen-Induced Proliferation of B and T Cells",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9961212277412415,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "1550937:abstract:0:1030:cd10461f8774"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "7399084": {
+          "paper_id": "7399084",
+          "title": "Transcriptional repressor Blimp-1 is essential for T cell homeostasis and self-tolerance",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "38587347": {
+          "paper_id": "38587347",
+          "title": "Finding the right niche: B-cell migration in the early phases of T-dependent antibody responses.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32101982": {
+          "paper_id": "32101982",
+          "title": "Krüppel-like factor 2 (KLF2) regulates B-cell reactivity, subset differentiation, and trafficking molecule expression.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "21012916": {
+          "paper_id": "21012916",
+          "title": "Ephrin B1–mediated repulsion and signaling control germinal center T cell territoriality and function",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "1550937:abstract:0:1030:cd10461f8774": {
+          "passage_id": "1550937:abstract:0:1030:cd10461f8774",
+          "paper_id": "1550937",
+          "label": "SUPPORT",
+          "confidence": 0.9961212277412415,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "1550937:abstract:0:1030:cd10461f8774",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology. However, the intrinsic mechanisms regulating these responses are unknown. Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells. Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired. We discovered that Egr2 and/or Egr3 directly induced expression of suppressor of cytokine signaling-1 (SOCS1) and SOCS3, inhibitors of STAT1 and STAT3, and also blocked the function of Batf, an AP-1 inhibitor, in B and T cells. Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+          "score": 0.8518802523612976,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Egr2 regulates the homeostasis of B and T cells.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "1550937:abstract:0:1030:cd10461f8774",
+          "paper_id": "1550937",
+          "section": "abstract",
+          "text": "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology. However, the intrinsic mechanisms regulating these responses are unknown. Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells. Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired. We discovered that Egr2 and/or Egr3 directly induced expression of suppressor of cytokine signaling-1 (SOCS1) and SOCS3, inhibitors of STAT1 and STAT3, and also blocked the function of Batf, an AP-1 inhibitor, in B and T cells. Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+          "score": 0.8518802523612976,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9961212277412415,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "015750d92bc232968a926888ac85a0a8c79f0366307240cd2334b429706c858d",
+  "selected_paper_ids": [
+    "1550937",
+    "21012916",
+    "32101982",
+    "38587347",
+    "7399084"
+  ],
+  "aggregation": {
+    "claim": "Egr2 regulates the homeostasis of B and T cells.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "1550937:abstract:0:1030:cd10461f8774",
+        "paper_id": "1550937",
+        "section": "abstract",
+        "text": "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology. However, the intrinsic mechanisms regulating these responses are unknown. Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells. Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired. We discovered that Egr2 and/or Egr3 directly induced expression of suppressor of cytokine signaling-1 (SOCS1) and SOCS3, inhibitors of STAT1 and STAT3, and also blocked the function of Batf, an AP-1 inhibitor, in B and T cells. Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+        "score": 0.8518802523612976,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9961212277412415,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "91b8ea137bd5a3e740e821794421bde4977159a465706d8d95ccf9cb09432a70",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology. However, the intrinsic mechanisms regulating these responses are unknown. Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells. Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired. We discovered that Egr2 and/or Egr3 directly induced expression of suppressor of cytokine signaling-1 (SOCS1) and SOCS3, inhibitors of STAT1 and STAT3, and also blocked the function of Batf, an AP-1 inhibitor, in B and T cells. Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation.",
+        "citation_ids": [
+          "1550937:abstract:0:1030:cd10461f8774"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

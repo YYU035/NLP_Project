@@ -1,0 +1,1110 @@
+[
+  {
+    "claim_id": "365",
+    "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
+    "gold": "INSUFFICIENT",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": false,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "recovered_baseline_error",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "11250124",
+      "25623469",
+      "26019505",
+      "4429388",
+      "600437"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 0,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "600437": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6325727701187134,
+        "candidate_passages": 0
+      },
+      "25623469": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5370891094207764,
+        "candidate_passages": 0
+      },
+      "4429388": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5243349075317383,
+        "candidate_passages": 0
+      },
+      "26019505": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5307501554489136,
+        "candidate_passages": 0
+      },
+      "11250124": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5723040699958801,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 9,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "370",
+    "claim": "Egr2 regulates the homeostasis of B and T cells.",
+    "gold": "SUPPORTED",
+    "baseline": "CONFLICTING",
+    "candidate": "SUPPORTED",
+    "is_regression": false,
+    "scope_only_counterfactual": "SUPPORTED",
+    "diagnosis": "recovered_baseline_error",
+    "candidate_retained_papers": [
+      "1550937"
+    ],
+    "dropped_papers": [
+      "21012916",
+      "32101982",
+      "38587347",
+      "7399084"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "1550937"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 3,
+    "candidate_gold_sentence_tp": 4,
+    "paper_changes": {
+      "7399084": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5849015712738037,
+        "candidate_passages": 0
+      },
+      "38587347": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5197994112968445,
+        "candidate_passages": 0
+      },
+      "32101982": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5245848298072815,
+        "candidate_passages": 0
+      },
+      "21012916": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5688570737838745,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 11,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "375",
+    "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [
+      "20459964"
+    ],
+    "dropped_papers": [
+      "1522647",
+      "28249680",
+      "3883485",
+      "44693226"
+    ],
+    "dropped_gold_papers": [
+      "1522647"
+    ],
+    "gold_papers_retrieved": [
+      "1522647"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "1522647": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6436275243759155,
+        "candidate_passages": 0
+      },
+      "3883485": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5915555953979492,
+        "candidate_passages": 0
+      },
+      "44693226": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6128090620040894,
+        "candidate_passages": 0
+      },
+      "28249680": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.546624481678009,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 13,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "426",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "SUPPORTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "14496749",
+      "16728949"
+    ],
+    "dropped_papers": [
+      "29429111",
+      "4418070"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "16728949"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 1,
+    "paper_changes": {
+      "16728949": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.7911686897277832,
+        "candidate_passages": 1
+      },
+      "29429111": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6332119703292847,
+        "candidate_passages": 0
+      },
+      "4418070": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5340427756309509,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 7,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "428",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in cellular differentiation.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "SUPPORTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "16728949",
+      "919007"
+    ],
+    "dropped_papers": [
+      "4418070",
+      "9393969"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "16728949"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 1,
+    "paper_changes": {
+      "16728949": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.7611713409423828,
+        "candidate_passages": 1
+      },
+      "4418070": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5809476375579834,
+        "candidate_passages": 0
+      },
+      "9393969": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6454992294311523,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 9,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "466",
+    "claim": "Genomic sequences involved in alternative splicing responsible for Hutchinson-Gilford progeria syndrome (HGPS) are abundant in the ''progerinonly'' allele of Lmna knock-in models.",
+    "gold": "CONTRADICTED",
+    "baseline": "INSUFFICIENT",
+    "candidate": "INSUFFICIENT",
+    "is_regression": false,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "persistent_error_not_a_regression",
+    "candidate_retained_papers": [
+      "14178995",
+      "15692098",
+      "22544171"
+    ],
+    "dropped_papers": [
+      "34747208",
+      "834336"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "22544171"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 2,
+    "candidate_gold_sentence_tp": 3,
+    "paper_changes": {
+      "834336": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6292802691459656,
+        "candidate_passages": 0
+      },
+      "34747208": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5335434675216675,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 13,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "499",
+    "claim": "HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "CONFLICTING",
+    "is_regression": true,
+    "scope_only_counterfactual": "CONTRADICTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "12662435",
+      "26064662"
+    ],
+    "dropped_papers": [
+      "23206239",
+      "5262240"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "26064662"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 2,
+    "candidate_gold_sentence_tp": 2,
+    "paper_changes": {
+      "12662435": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.6539066433906555,
+        "candidate_passages": 1
+      },
+      "23206239": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5386629104614258,
+        "candidate_passages": 0
+      },
+      "5262240": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5309537053108215,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 10,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "647",
+    "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "15041758"
+    ],
+    "dropped_gold_papers": [
+      "15041758"
+    ],
+    "gold_papers_retrieved": [
+      "15041758"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "15041758": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5749698281288147,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 2,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "669",
+    "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [
+      "22150633",
+      "6493422"
+    ],
+    "dropped_papers": [
+      "18489989",
+      "25148216"
+    ],
+    "dropped_gold_papers": [
+      "25148216"
+    ],
+    "gold_papers_retrieved": [
+      "25148216"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 3,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "25148216": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5960831642150879,
+        "candidate_passages": 0
+      },
+      "18489989": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5877899527549744,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 13,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "698",
+    "claim": "Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).",
+    "gold": "INSUFFICIENT",
+    "baseline": "INSUFFICIENT",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "22544171"
+    ],
+    "dropped_papers": [
+      "14178995",
+      "15692098",
+      "34747208",
+      "834336"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 0,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "22544171": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.6993837356567383,
+        "candidate_passages": 1
+      },
+      "834336": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6494480967521667,
+        "candidate_passages": 0
+      },
+      "15692098": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.640072226524353,
+        "candidate_passages": 0
+      },
+      "14178995": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6408100128173828,
+        "candidate_passages": 0
+      },
+      "34747208": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5202928185462952,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 7,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "709",
+    "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "20148808",
+      "22442133"
+    ],
+    "dropped_gold_papers": [
+      "22442133"
+    ],
+    "gold_papers_retrieved": [
+      "22442133"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "22442133": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6085320711135864,
+        "candidate_passages": 0
+      },
+      "20148808": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5321531295776367,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 4,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "753",
+    "claim": "Malaria has a high vectorial capacity.",
+    "gold": "INSUFFICIENT",
+    "baseline": "INSUFFICIENT",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "1349033",
+      "5289038"
+    ],
+    "dropped_papers": [
+      "13959707",
+      "18074797",
+      "40900567"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 0,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "40900567": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6272525787353516,
+        "candidate_passages": 0
+      },
+      "1349033": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.6708070635795593,
+        "candidate_passages": 1
+      },
+      "13959707": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6106932163238525,
+        "candidate_passages": 0
+      },
+      "18074797": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6322886347770691,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 17,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "787",
+    "claim": "Microcin J25 encourages nucleoside triphosphate (NTP) binding.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "393001",
+      "4740447"
+    ],
+    "dropped_gold_papers": [
+      "4740447"
+    ],
+    "gold_papers_retrieved": [
+      "4740447"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "4740447": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6168051958084106,
+        "candidate_passages": 0
+      },
+      "393001": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5253405570983887,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 3,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "927",
+    "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "16390264",
+      "5372432",
+      "5641851"
+    ],
+    "dropped_gold_papers": [
+      "16390264"
+    ],
+    "gold_papers_retrieved": [
+      "16390264"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "16390264": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6181018352508545,
+        "candidate_passages": 0
+      },
+      "5641851": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6055437326431274,
+        "candidate_passages": 0
+      },
+      "5372432": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5468701124191284,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 7,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1026",
+    "claim": "Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.",
+    "gold": "INSUFFICIENT",
+    "baseline": "INSUFFICIENT",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "3113630"
+    ],
+    "dropped_papers": [
+      "22185730"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 0,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "22185730": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6396483182907104,
+        "candidate_passages": 0
+      },
+      "3113630": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.8345490097999573,
+        "candidate_passages": 1
+      }
+    },
+    "source_span_checks": 7,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1034",
+    "claim": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "CONTRADICTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "15803282"
+    ],
+    "dropped_papers": [
+      "12100854",
+      "4547102",
+      "8548635"
+    ],
+    "dropped_gold_papers": [
+      "4547102"
+    ],
+    "gold_papers_retrieved": [
+      "4547102"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "15803282": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6959171295166016,
+        "candidate_passages": 1
+      },
+      "4547102": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.64869624376297,
+        "candidate_passages": 0
+      },
+      "12100854": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5815646648406982,
+        "candidate_passages": 0
+      },
+      "8548635": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5592308044433594,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 10,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1036",
+    "claim": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "14225271",
+      "15803282",
+      "37822406",
+      "4547102"
+    ],
+    "dropped_gold_papers": [
+      "4547102"
+    ],
+    "gold_papers_retrieved": [
+      "4547102"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "15803282": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.639018177986145,
+        "candidate_passages": 0
+      },
+      "4547102": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6051872372627258,
+        "candidate_passages": 0
+      },
+      "14225271": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6406117677688599,
+        "candidate_passages": 0
+      },
+      "37822406": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5924465656280518,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 6,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1065",
+    "claim": "Satellite cell dysfunction is a key factor in sarcopenia development.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "CONTRADICTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "20418809"
+    ],
+    "dropped_papers": [
+      "20186814"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "20418809"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 2,
+    "paper_changes": {
+      "20418809": {
+        "baseline": "CONTRADICTED",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.7654998302459717,
+        "candidate_passages": 1
+      },
+      "20186814": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5145826935768127,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 4,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1220",
+    "claim": "The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+    "gold": "SUPPORTED",
+    "baseline": "SUPPORTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "10993232",
+      "13023410",
+      "1941721",
+      "5765455"
+    ],
+    "dropped_gold_papers": [
+      "13023410"
+    ],
+    "gold_papers_retrieved": [
+      "13023410"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 3,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "5765455": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5207221508026123,
+        "candidate_passages": 0
+      },
+      "13023410": {
+        "baseline": "SUPPORTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6201141476631165,
+        "candidate_passages": 0
+      },
+      "1941721": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6117972135543823,
+        "candidate_passages": 0
+      },
+      "10993232": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5280442237854004,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 7,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1228",
+    "claim": "The mean suicide rate in women is lower after miscarriage than live birth.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "CONTRADICTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "25641414",
+      "881332"
+    ],
+    "dropped_papers": [
+      "1102268",
+      "25806385",
+      "7662395"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "25641414"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 1,
+    "paper_changes": {
+      "25641414": {
+        "baseline": "CONTRADICTED",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.8252027630805969,
+        "candidate_passages": 1
+      },
+      "7662395": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5204894542694092,
+        "candidate_passages": 0
+      },
+      "25806385": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5312817096710205,
+        "candidate_passages": 0
+      },
+      "1102268": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5039325952529907,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 11,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1293",
+    "claim": "There is no increased risk of hypospadias with clomiphene.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "43329366"
+    ],
+    "dropped_gold_papers": [
+      "43329366"
+    ],
+    "gold_papers_retrieved": [
+      "43329366"
+    ],
+    "gold_papers_total": 1,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "43329366": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6346307992935181,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 3,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1294",
+    "claim": "There is no known interaction between Pioneer factor OCT3/4 and major chromatin remodeling factors.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "gate_sufficient_to_lose_focused_correctness",
+    "candidate_retained_papers": [],
+    "dropped_papers": [
+      "11011905",
+      "4896726"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 2,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "11011905": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.6104768514633179,
+        "candidate_passages": 0
+      },
+      "4896726": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.603156566619873,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 3,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1327",
+    "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+    "gold": "CONTRADICTED",
+    "baseline": "CONTRADICTED",
+    "candidate": "INSUFFICIENT",
+    "is_regression": true,
+    "scope_only_counterfactual": "CONTRADICTED",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "10365749",
+      "24241932"
+    ],
+    "dropped_papers": [
+      "22414304",
+      "5284188",
+      "7111021"
+    ],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [
+      "24241932"
+    ],
+    "gold_papers_total": 2,
+    "baseline_gold_sentence_tp": 1,
+    "candidate_gold_sentence_tp": 2,
+    "paper_changes": {
+      "24241932": {
+        "baseline": "CONTRADICTED",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.7262752056121826,
+        "candidate_passages": 1
+      },
+      "22414304": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5508223176002502,
+        "candidate_passages": 0
+      },
+      "5284188": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.616804301738739,
+        "candidate_passages": 0
+      },
+      "7111021": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "INSUFFICIENT",
+        "baseline_max_cosine": 0.5396096706390381,
+        "candidate_passages": 0
+      }
+    },
+    "source_span_checks": 14,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  },
+  {
+    "claim_id": "1349",
+    "claim": "Upregulation of PD1 causes the downmodulation of Satb1.",
+    "gold": "INSUFFICIENT",
+    "baseline": "INSUFFICIENT",
+    "candidate": "SUPPORTED",
+    "is_regression": true,
+    "scope_only_counterfactual": "INSUFFICIENT",
+    "diagnosis": "retained_context_predictions_needed_for_change",
+    "candidate_retained_papers": [
+      "5377642"
+    ],
+    "dropped_papers": [],
+    "dropped_gold_papers": [],
+    "gold_papers_retrieved": [],
+    "gold_papers_total": 0,
+    "baseline_gold_sentence_tp": 0,
+    "candidate_gold_sentence_tp": 0,
+    "paper_changes": {
+      "5377642": {
+        "baseline": "INSUFFICIENT",
+        "candidate": "SUPPORTED",
+        "baseline_max_cosine": 0.7293726801872253,
+        "candidate_passages": 1
+      }
+    },
+    "source_span_checks": 4,
+    "notes": "Scope-only reuses original recorded predictions on candidate-retained papers. It is a diagnostic counterfactual, not a new benchmark result or proof of sole cause. No new NLI calls."
+  }
+]

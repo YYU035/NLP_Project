@@ -1,0 +1,538 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:21:04.295665+00:00",
+    "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+    "created_at": "2026-11-10T04:21:04.295665Z",
+    "retrieved_at": "2026-11-10T04:21:04.295665Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "6157837": {
+        "paper_id": "6157837",
+        "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1759213": {
+        "paper_id": "1759213",
+        "title": "The effect of combination treatment with aliskiren and blockers of the renin-angiotensin system on hyperkalaemia and acute kidney injury: systematic review and meta-analysis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14584755": {
+        "paper_id": "14584755",
+        "title": "Differences in the Clinical Effects of Angiotensin-Converting Enzyme Inhibitors and Angiotensin Receptor Blockers: A Critical Review of the Evidence",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "25816994": {
+        "paper_id": "25816994",
+        "title": "Renal outcomes with telmisartan, ramipril, or both, in people at high vascular risk (the ONTARGET study): a multicentre, randomised, double-blind, controlled trial.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "26199970": {
+        "paper_id": "26199970",
+        "title": "Blockade of the angiotensin system improves mental health domain of quality of life: A meta-analysis of randomized clinical trials",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "6157837": {
+          "paper_id": "6157837",
+          "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.832125335931778,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "6157837:abstract:334:617:59bb22c7846b",
+            "6157837:abstract:618:825:b146a7c6686c"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "1759213": {
+          "paper_id": "1759213",
+          "title": "The effect of combination treatment with aliskiren and blockers of the renin-angiotensin system on hyperkalaemia and acute kidney injury: systematic review and meta-analysis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14584755": {
+          "paper_id": "14584755",
+          "title": "Differences in the Clinical Effects of Angiotensin-Converting Enzyme Inhibitors and Angiotensin Receptor Blockers: A Critical Review of the Evidence",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9894945025444031,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "14584755:abstract:709:834:ccd8ed947ef7"
+          ]
+        },
+        "25816994": {
+          "paper_id": "25816994",
+          "title": "Renal outcomes with telmisartan, ramipril, or both, in people at high vascular risk (the ONTARGET study): a multicentre, randomised, double-blind, controlled trial.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.8408477306365967,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "25816994:abstract:1480:1727:1e4287298749"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "26199970": {
+          "paper_id": "26199970",
+          "title": "Blockade of the angiotensin system improves mental health domain of quality of life: A meta-analysis of randomized clinical trials",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "6157837:abstract:0:121:1e6eb45e2c55": {
+          "passage_id": "6157837:abstract:0:121:1e6eb45e2c55",
+          "paper_id": "6157837",
+          "label": "NEUTRAL",
+          "confidence": 0.9950200319290161,
+          "truncated": false
+        },
+        "6157837:abstract:334:617:59bb22c7846b": {
+          "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+          "paper_id": "6157837",
+          "label": "SUPPORT",
+          "confidence": 0.9809344410896301,
+          "truncated": false
+        },
+        "6157837:abstract:618:825:b146a7c6686c": {
+          "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+          "paper_id": "6157837",
+          "label": "SUPPORT",
+          "confidence": 0.6833162307739258,
+          "truncated": false
+        },
+        "1759213:abstract:1379:1556:e152f60ff679": {
+          "passage_id": "1759213:abstract:1379:1556:e152f60ff679",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9922620058059692,
+          "truncated": false
+        },
+        "1759213:abstract:309:671:c3695abe43b2": {
+          "passage_id": "1759213:abstract:309:671:c3695abe43b2",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9973840117454529,
+          "truncated": false
+        },
+        "1759213:abstract:881:1239:85e65d92d8dd": {
+          "passage_id": "1759213:abstract:881:1239:85e65d92d8dd",
+          "paper_id": "1759213",
+          "label": "NEUTRAL",
+          "confidence": 0.9934775829315186,
+          "truncated": false
+        },
+        "14584755:abstract:155:587:0f080de95554": {
+          "passage_id": "14584755:abstract:155:587:0f080de95554",
+          "paper_id": "14584755",
+          "label": "NEUTRAL",
+          "confidence": 0.9977402687072754,
+          "truncated": false
+        },
+        "14584755:abstract:709:834:ccd8ed947ef7": {
+          "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+          "paper_id": "14584755",
+          "label": "CONTRADICT",
+          "confidence": 0.9894945025444031,
+          "truncated": false
+        },
+        "25816994:abstract:0:130:8653385331dd": {
+          "passage_id": "25816994:abstract:0:130:8653385331dd",
+          "paper_id": "25816994",
+          "label": "NEUTRAL",
+          "confidence": 0.9931950569152832,
+          "truncated": false
+        },
+        "25816994:abstract:282:516:9364137c2c99": {
+          "passage_id": "25816994:abstract:282:516:9364137c2c99",
+          "paper_id": "25816994",
+          "label": "NEUTRAL",
+          "confidence": 0.9991525411605835,
+          "truncated": false
+        },
+        "25816994:abstract:1480:1727:1e4287298749": {
+          "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+          "paper_id": "25816994",
+          "label": "SUPPORT",
+          "confidence": 0.8408477306365967,
+          "truncated": false
+        },
+        "26199970:abstract:434:646:e28f1fdca2c6": {
+          "passage_id": "26199970:abstract:434:646:e28f1fdca2c6",
+          "paper_id": "26199970",
+          "label": "NEUTRAL",
+          "confidence": 0.9990059733390808,
+          "truncated": false
+        },
+        "26199970:abstract:1863:2027:419b2b5f3531": {
+          "passage_id": "26199970:abstract:1863:2027:419b2b5f3531",
+          "paper_id": "26199970",
+          "label": "NEUTRAL",
+          "confidence": 0.998051643371582,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "6157837:abstract:0:121:1e6eb45e2c55",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs.",
+          "score": 0.6514753103256226,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "score": 0.5564429759979248,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+          "score": 0.5124160051345825,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:1379:1556:e152f60ff679",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "CONCLUSION Use of aliskerin in combination with angiotensin converting enzyme inhibitors or angiotensin receptor blockers is associated with an increased risk for hyperkalaemia.",
+          "score": 0.5962096452713013,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:309:671:c3695abe43b2",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "STUDY SELECTION Published and unpublished randomised controlled trials that compared combined treatment using aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers with monotherapy using these agents for at least four weeks and that provided numerical data on the adverse event outcomes of hyperkalaemia and acute kidney injury.",
+          "score": 0.5883934497833252,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1759213:abstract:881:1239:85e65d92d8dd",
+          "paper_id": "1759213",
+          "section": "abstract",
+          "text": "Combination therapy with aliskiren and angiotensin converting enzyme inhibitors or angiotensin receptor blockers significantly increased the risk of hyperkalaemia compared with monotherapy using angiotensin converting enzymes or angiotensin receptor blockers (relative risk 1.58, 95% confidence interval 1.24 to 2.02) or aliskiren alone (1.67, 1.01 to 2.79).",
+          "score": 0.5803587436676025,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14584755:abstract:155:587:0f080de95554",
+          "paper_id": "14584755",
+          "section": "abstract",
+          "text": "Although both angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor antagonists (angiotensin receptor blockers; ARBs) are equally important in the treatment of hypertension, according to the results of recent years, there might be substantial differences in their cardiovascular protective effects, and these differences might be explained by our increasing knowledge of their non-overlapping mechanisms of action.",
+          "score": 0.60280841588974,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+          "paper_id": "14584755",
+          "section": "abstract",
+          "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+          "score": 0.5035731792449951,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:0:130:8653385331dd",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "BACKGROUND Angiotensin receptor blockers (ARB) and angiotensin converting enzyme (ACE) inhibitors are known to reduce proteinuria.",
+          "score": 0.6942750215530396,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:282:516:9364137c2c99",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "We investigated the renal effects of ramipril (an ACE inhibitor), telmisartan (an ARB), and their combination in patients aged 55 years or older with established atherosclerotic vascular disease or with diabetes with end-organ damage.",
+          "score": 0.5353361368179321,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+          "score": 0.5161715745925903,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26199970:abstract:434:646:e28f1fdca2c6",
+          "paper_id": "26199970",
+          "section": "abstract",
+          "text": "Study selection: Randomized controlled trials comparing any angiotensin converting enzyme inhibitor or AT1R blocker versus placebo or non-angiotensin converting enzyme inhibitor or non-AT1R blocker were selected.",
+          "score": 0.5671086311340332,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "26199970:abstract:1863:2027:419b2b5f3531",
+          "paper_id": "26199970",
+          "section": "abstract",
+          "text": "Research specifically designed to analyse the usefulness of drugs that block the angiotensin system is necessary to properly evaluate this novel psychiatric target.",
+          "score": 0.529029130935669,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "aggregated_verdict": "CONFLICTING",
+      "primary_evidence": [
+        {
+          "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "score": 0.5564429759979248,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+          "paper_id": "14584755",
+          "section": "abstract",
+          "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+          "score": 0.5035731792449951,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+          "paper_id": "6157837",
+          "section": "abstract",
+          "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+          "score": 0.5124160051345825,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+          "paper_id": "25816994",
+          "section": "abstract",
+          "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+          "score": 0.5161715745925903,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9894945025444031,
+      "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "f602422b7534c25cecfe22ab2db2fdb073f9de97b41f2105960712a5458a5199",
+  "selected_paper_ids": [
+    "14584755",
+    "1759213",
+    "25816994",
+    "26199970",
+    "6157837"
+  ],
+  "aggregation": {
+    "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+    "aggregated_verdict": "CONFLICTING",
+    "primary_evidence": [
+      {
+        "passage_id": "6157837:abstract:334:617:59bb22c7846b",
+        "paper_id": "6157837",
+        "section": "abstract",
+        "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+        "score": 0.5564429759979248,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "14584755:abstract:709:834:ccd8ed947ef7",
+        "paper_id": "14584755",
+        "section": "abstract",
+        "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+        "score": 0.5035731792449951,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "6157837:abstract:618:825:b146a7c6686c",
+        "paper_id": "6157837",
+        "section": "abstract",
+        "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+        "score": 0.5124160051345825,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "25816994:abstract:1480:1727:1e4287298749",
+        "paper_id": "25816994",
+        "section": "abstract",
+        "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+        "score": 0.5161715745925903,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9894945025444031,
+    "verdict_delta_reason": "Frontend integration policy: preserve both eligible conflict sides, including internal paper conflict.",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "31e346a4c6b86f1387d310b768d9cbca3aeda3d08fa785ae9fca241489c1367f",
+    "verdict": "CONFLICTING",
+    "statements": [
+      {
+        "text": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+        "citation_ids": [
+          "6157837:abstract:334:617:59bb22c7846b"
+        ]
+      },
+      {
+        "text": "ACE inhibitors are the safe therapeutic opportunity for hypertensive patients at high risk, with a cardiological comorbidity.",
+        "citation_ids": [
+          "14584755:abstract:709:834:ccd8ed947ef7"
+        ]
+      },
+      {
+        "text": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects.",
+        "citation_ids": [
+          "6157837:abstract:618:825:b146a7c6686c"
+        ]
+      },
+      {
+        "text": "The secondary renal outcome, dialysis or doubling of serum creatinine, was similar with telmisartan (189 [2.21%]) and ramipril (174 [2.03%]; HR 1.09, 0.89-1.34) and more frequent with combination therapy (212 [2.49%]: HR 1.24, 1.01-1.51, p=0.038).",
+        "citation_ids": [
+          "25816994:abstract:1480:1727:1e4287298749"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.017630+00:00",
+    "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+    "created_at": "2026-11-10T17:37:55.017630Z",
+    "retrieved_at": "2026-11-10T17:37:55.017630Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "927",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "16390264": {
+        "paper_id": "16390264",
+        "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5641851": {
+        "paper_id": "5641851",
+        "title": "Social and geographical factors affecting access to treatment of colorectal cancer: a cancer registry study",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5372432": {
+        "paper_id": "5372432",
+        "title": "Geographical access to healthcare in Northern England and post-mortem diagnosis of cancer.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14021596": {
+        "paper_id": "14021596",
+        "title": "The association of Red cell distribution width and in-hospital mortality in older adults admitted to the emergency department",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "32084655": {
+        "paper_id": "32084655",
+        "title": "Time from finding abnormality on mass-screening to final diagnosis of lung cancer.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16390264": {
+          "paper_id": "16390264",
+          "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.7739285528659821,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "16390264:abstract:664:773:a9ab34b2a017",
+            "16390264:abstract:1198:1312:01934a43161b"
+          ]
+        },
+        "5641851": {
+          "paper_id": "5641851",
+          "title": "Social and geographical factors affecting access to treatment of colorectal cancer: a cancer registry study",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5372432": {
+          "paper_id": "5372432",
+          "title": "Geographical access to healthcare in Northern England and post-mortem diagnosis of cancer.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14021596": {
+          "paper_id": "14021596",
+          "title": "The association of Red cell distribution width and in-hospital mortality in older adults admitted to the emergency department",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "32084655": {
+          "paper_id": "32084655",
+          "title": "Time from finding abnormality on mass-screening to final diagnosis of lung cancer.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16390264:abstract:0:240:da0d1f676d1b": {
+          "passage_id": "16390264:abstract:0:240:da0d1f676d1b",
+          "paper_id": "16390264",
+          "label": "NEUTRAL",
+          "confidence": 0.9885966181755066,
+          "truncated": false
+        },
+        "16390264:abstract:1198:1312:01934a43161b": {
+          "passage_id": "16390264:abstract:1198:1312:01934a43161b",
+          "paper_id": "16390264",
+          "label": "CONTRADICT",
+          "confidence": 0.5532686114311218,
+          "truncated": false
+        },
+        "16390264:abstract:664:773:a9ab34b2a017": {
+          "passage_id": "16390264:abstract:664:773:a9ab34b2a017",
+          "paper_id": "16390264",
+          "label": "CONTRADICT",
+          "confidence": 0.9945884943008423,
+          "truncated": false
+        },
+        "5641851:abstract:1207:1570:8211429c67bc": {
+          "passage_id": "5641851:abstract:1207:1570:8211429c67bc",
+          "paper_id": "5641851",
+          "label": "NEUTRAL",
+          "confidence": 0.9954336285591125,
+          "truncated": false
+        },
+        "5641851:abstract:0:132:a7640307c319": {
+          "passage_id": "5641851:abstract:0:132:a7640307c319",
+          "paper_id": "5641851",
+          "label": "NEUTRAL",
+          "confidence": 0.9682139754295349,
+          "truncated": false
+        },
+        "5372432:abstract:662:898:89de5e624f7b": {
+          "passage_id": "5372432:abstract:662:898:89de5e624f7b",
+          "paper_id": "5372432",
+          "label": "NEUTRAL",
+          "confidence": 0.899696946144104,
+          "truncated": false
+        },
+        "5372432:abstract:182:467:3fb04a2c026a": {
+          "passage_id": "5372432:abstract:182:467:3fb04a2c026a",
+          "paper_id": "5372432",
+          "label": "NEUTRAL",
+          "confidence": 0.9977454543113708,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16390264:abstract:0:240:da0d1f676d1b",
+          "paper_id": "16390264",
+          "section": "abstract",
+          "text": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.",
+          "score": 0.6181018352508545,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16390264:abstract:1198:1312:01934a43161b",
+          "paper_id": "16390264",
+          "section": "abstract",
+          "text": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer.",
+          "score": 0.5902427434921265,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16390264:abstract:664:773:a9ab34b2a017",
+          "paper_id": "16390264",
+          "section": "abstract",
+          "text": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "score": 0.557497501373291,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5641851:abstract:1207:1570:8211429c67bc",
+          "paper_id": "5641851",
+          "section": "abstract",
+          "text": "Patients with colonic cancer were very significantly less likely to receive any treatment if they came from any but the most affluent area (ORs 0.639, 0.603 and 0.544 in increasingly deprived quartiles), this may have been exacerbated if the hospital was distant from their residence (OR for forth quartile for both travel and deprivation 0.731, not significant).",
+          "score": 0.6055437326431274,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5641851:abstract:0:132:a7640307c319",
+          "paper_id": "5641851",
+          "section": "abstract",
+          "text": "OBJECTIVE Cancer outcomes vary between and within countries with patients from deprived backgrounds known to have inferior survival.",
+          "score": 0.5682249665260315,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5372432:abstract:662:898:89de5e624f7b",
+          "paper_id": "5372432",
+          "section": "abstract",
+          "text": "For all sites except breast, the highest odds of being a cancer diagnosed at death fell among those living in the highest quartile of hospital travel time, although it was only statistically significant for colorectal and ovary tumours.",
+          "score": 0.5468701124191284,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5372432:abstract:182:467:3fb04a2c026a",
+          "paper_id": "5372432",
+          "section": "abstract",
+          "text": "METHODS Records from the Northern and Yorkshire Cancer Registry for patients registered with breast, colorectal, lung, ovarian or prostate cancer between 1994 and 2002 were supplemented with measures of travel time to general practitioner and hospital services, and social deprivation.",
+          "score": 0.5095508694648743,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "16390264:abstract:664:773:a9ab34b2a017",
+          "paper_id": "16390264",
+          "section": "abstract",
+          "text": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "score": 0.557497501373291,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16390264:abstract:1198:1312:01934a43161b",
+          "paper_id": "16390264",
+          "section": "abstract",
+          "text": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer.",
+          "score": 0.5902427434921265,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.7739285528659821,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "ac8e2fd164c53a46c1f7444f1386bab2ac6c6a33643d3537e8df2504a71c99ad",
+  "selected_paper_ids": [
+    "14021596",
+    "16390264",
+    "32084655",
+    "5372432",
+    "5641851"
+  ],
+  "aggregation": {
+    "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "16390264:abstract:664:773:a9ab34b2a017",
+        "paper_id": "16390264",
+        "section": "abstract",
+        "text": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+        "score": 0.557497501373291,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "16390264:abstract:1198:1312:01934a43161b",
+        "paper_id": "16390264",
+        "section": "abstract",
+        "text": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer.",
+        "score": 0.5902427434921265,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.7739285528659821,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "c96d6f679428025029a8394961eae547ce10a7beabe2ee05b2ba84265307a974",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+        "citation_ids": [
+          "16390264:abstract:664:773:a9ab34b2a017"
+        ]
+      },
+      {
+        "text": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer.",
+        "citation_ids": [
+          "16390264:abstract:1198:1312:01934a43161b"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

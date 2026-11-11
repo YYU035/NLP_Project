@@ -1,0 +1,236 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:23.234441+00:00",
+    "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+    "created_at": "2026-11-10T17:03:23.234441Z",
+    "retrieved_at": "2026-11-10T17:03:23.234441Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "24356383": {
+        "paper_id": "24356383",
+        "title": "Reduced osteoblastic population and defective mineralization in osteopetrotic (op/op) mice.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "39776978": {
+        "paper_id": "39776978",
+        "title": "Advances in osteoclast biology: old findings and new insights from mouse models",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "43619625": {
+        "paper_id": "43619625",
+        "title": "Inflammatory T cells rapidly induce differentiation of human bone marrow stromal cells into mature osteoblasts.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "12130067": {
+        "paper_id": "12130067",
+        "title": "Osteoclasts promote the formation of hematopoietic stem cell niches in the bone marrow",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3531388": {
+        "paper_id": "3531388",
+        "title": "CD200R/CD200 Inhibits Osteoclastogenesis: New Mechanism of Osteoclast Control by Mesenchymal Stem Cells in Human",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "24356383": {
+          "paper_id": "24356383",
+          "title": "Reduced osteoblastic population and defective mineralization in osteopetrotic (op/op) mice.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "39776978": {
+          "paper_id": "39776978",
+          "title": "Advances in osteoclast biology: old findings and new insights from mouse models",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "43619625": {
+          "paper_id": "43619625",
+          "title": "Inflammatory T cells rapidly induce differentiation of human bone marrow stromal cells into mature osteoblasts.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "12130067": {
+          "paper_id": "12130067",
+          "title": "Osteoclasts promote the formation of hematopoietic stem cell niches in the bone marrow",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "3531388": {
+          "paper_id": "3531388",
+          "title": "CD200R/CD200 Inhibits Osteoclastogenesis: New Mechanism of Osteoclast Control by Mesenchymal Stem Cells in Human",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "39776978:abstract:0:1216:af1540f4b989": {
+          "passage_id": "39776978:abstract:0:1216:af1540f4b989",
+          "paper_id": "39776978",
+          "label": "NEUTRAL",
+          "confidence": 0.9975484013557434,
+          "truncated": false
+        },
+        "3531388:abstract:0:1579:4117817019fd": {
+          "passage_id": "3531388:abstract:0:1579:4117817019fd",
+          "paper_id": "3531388",
+          "label": "NEUTRAL",
+          "confidence": 0.9891247749328613,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "39776978:abstract:0:1216:af1540f4b989",
+          "paper_id": "39776978",
+          "section": "abstract",
+          "text": "The maintenance of adequate bone mass is dependent upon the controlled and timely removal of old, damaged bone. This complex process is performed by the highly specialized, multinucleated osteoclast. Over the past 15 years, a detailed picture has emerged describing the origins, differentiation pathways and activation stages that contribute to normal osteoclast function. This information has primarily been obtained by the development and skeletal analysis of genetically modified mouse models. Mice harboring mutations in specific genetic loci exhibit bone defects as a direct result of aberrations in normal osteoclast recruitment, formation or function. These findings include the identification of the RANK–RANKL–OPG system as a primary mediator of osteoclastogenesis, the characterization of ion transport and cellular attachment mechanisms and the recognition that matrix-degrading enzymes are essential components of resorptive activity. This Review focuses on the principal observations in osteoclast biology derived from genetic mouse models, and highlights emerging concepts that describe how the osteoclast is thought to contribute to the maintenance of adequate bone mass and integrity throughout life.",
+          "score": 0.6539289951324463,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3531388:abstract:0:1579:4117817019fd",
+          "paper_id": "3531388",
+          "section": "abstract",
+          "text": "Bone homeostasis is maintained by the balance between bone-forming osteoblasts and bone-degrading osteoclasts. Osteoblasts have a mesenchymal origin whereas osteoclasts belong to the myeloid lineage. Osteoclast and osteoblast communication occurs through soluble factors secretion, cell-bone interaction and cell-cell contact, which modulate their activities. CD200 is an immunoglobulin superfamilly member expressed on various types of cells including mesenchymal stem cells (MSCs). CD200 receptor (CD200R) is expressed on myeloid cells such as monocytes/macrophages. We assume that CD200 could be a new molecule involved in the control of osteoclastogenesis and could play a role in MSC-osteoclast communication in humans. In this study, we demonstrated that soluble CD200 inhibited the differentiation of osteoclast precursors as well as their maturation in bone-resorbing cells in vitro. Soluble CD200 did not modify the monocyte phenotype but inhibited the receptor activator of nuclear factor kappa-B ligand (RANKL) signaling pathway as well as the gene expression of osteoclast markers such as osteoclast-associated receptor (OSCAR) and nuclear factor of activated T cells cytoplasmic 1 (NFATc1). Moreover, MSCs inhibited osteoclast formation, which depended on cell-cell contact and was associated with CD200 expression on the MSC surface. Our results clearly demonstrate that MSCs, through the expression of CD200, play a major role in the regulation of bone resorption and bone physiology and that the CD200-CD200R couple could be a new target to control bone diseases.",
+          "score": 0.717057466506958,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "2fbde37ec775cde24915c9a02fc3cb168160ed9797fba8ef56b08b6b58ee03dd",
+  "selected_paper_ids": [
+    "12130067",
+    "24356383",
+    "3531388",
+    "39776978",
+    "43619625"
+  ],
+  "aggregation": {
+    "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "dccb0a0c59d4d2c7e8ff07d850cc97d238c9d04d676fb80838ec7859affa670d",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

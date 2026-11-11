@@ -1,0 +1,317 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:28.214182+00:00",
+    "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+    "created_at": "2026-11-10T17:03:28.214182Z",
+    "retrieved_at": "2026-11-10T17:03:28.214182Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "4926049": {
+        "paper_id": "4926049",
+        "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7848113": {
+        "paper_id": "7848113",
+        "title": "Telomere-bound TRF1 and TRF2 stall the replication fork at telomeric repeats.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7468449": {
+        "paper_id": "7468449",
+        "title": "A beginning of the end: new insights into the functional organization of telomeres",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4429388": {
+        "paper_id": "4429388",
+        "title": "ESCRT-III recognition by VPS4 ATPases",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "213017": {
+        "paper_id": "213017",
+        "title": "PML induces compaction, TRF2 depletion and DNA damage signaling at telomeres and promotes their alternative lengthening.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "4926049": {
+          "paper_id": "4926049",
+          "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9968816041946411,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "4926049:abstract:476:661:f634e94969a3"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "7848113": {
+          "paper_id": "7848113",
+          "title": "Telomere-bound TRF1 and TRF2 stall the replication fork at telomeric repeats.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7468449": {
+          "paper_id": "7468449",
+          "title": "A beginning of the end: new insights into the functional organization of telomeres",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4429388": {
+          "paper_id": "4429388",
+          "title": "ESCRT-III recognition by VPS4 ATPases",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "213017": {
+          "paper_id": "213017",
+          "title": "PML induces compaction, TRF2 depletion and DNA damage signaling at telomeres and promotes their alternative lengthening.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "4926049:abstract:476:661:f634e94969a3": {
+          "passage_id": "4926049:abstract:476:661:f634e94969a3",
+          "paper_id": "4926049",
+          "label": "SUPPORT",
+          "confidence": 0.9968816041946411,
+          "truncated": false
+        },
+        "4926049:abstract:662:936:9e3671294a2b": {
+          "passage_id": "4926049:abstract:662:936:9e3671294a2b",
+          "paper_id": "4926049",
+          "label": "NEUTRAL",
+          "confidence": 0.9984819293022156,
+          "truncated": false
+        },
+        "4926049:abstract:937:1051:1812654a97b7": {
+          "passage_id": "4926049:abstract:937:1051:1812654a97b7",
+          "paper_id": "4926049",
+          "label": "NEUTRAL",
+          "confidence": 0.9987059831619263,
+          "truncated": false
+        },
+        "7848113:abstract:328:400:0f646943e6b0": {
+          "passage_id": "7848113:abstract:328:400:0f646943e6b0",
+          "paper_id": "7848113",
+          "label": "NEUTRAL",
+          "confidence": 0.9865837693214417,
+          "truncated": false
+        },
+        "7848113:abstract:704:832:11e3fbc77eb8": {
+          "passage_id": "7848113:abstract:704:832:11e3fbc77eb8",
+          "paper_id": "7848113",
+          "label": "NEUTRAL",
+          "confidence": 0.9989207983016968,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "4926049:abstract:476:661:f634e94969a3",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+          "score": 0.7642272710800171,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4926049:abstract:662:936:9e3671294a2b",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle.",
+          "score": 0.6762097477912903,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4926049:abstract:937:1051:1812654a97b7",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase.",
+          "score": 0.6735917329788208,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7848113:abstract:328:400:0f646943e6b0",
+          "paper_id": "7848113",
+          "section": "abstract",
+          "text": "TRF1 and TRF2 are believed to promote the formation of the closed state.",
+          "score": 0.5291423797607422,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "7848113:abstract:704:832:11e3fbc77eb8",
+          "paper_id": "7848113",
+          "section": "abstract",
+          "text": "Moreover, the addition of recombinant TRF1 and TRF2 significantly stalled the replication fork progression at telomeric repeats.",
+          "score": 0.5102147459983826,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "4926049:abstract:476:661:f634e94969a3",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+          "score": 0.7642272710800171,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9968816041946411,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "c191f544938a677c3e9253ad32dd6b1e8d16dc68d1b17906761e9a942e409bad",
+  "selected_paper_ids": [
+    "213017",
+    "4429388",
+    "4926049",
+    "7468449",
+    "7848113"
+  ],
+  "aggregation": {
+    "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "4926049:abstract:476:661:f634e94969a3",
+        "paper_id": "4926049",
+        "section": "abstract",
+        "text": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+        "score": 0.7642272710800171,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9968816041946411,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "0755fb0dccbe8bc63ad8e7726ebbd83c9c90ae759a2600136841639cc7ffaa98",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+        "citation_ids": [
+          "4926049:abstract:476:661:f634e94969a3"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

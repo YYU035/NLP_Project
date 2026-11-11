@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-06",
+  "branch": "kireeti",
+  "scope": "Only explanation_frontend changed; teammate branches read-only",
+  "teammate_tests": {
+    "raghavi": {
+      "owner": "raghavi",
+      "revision": "259d2a9e90fb8e9d5988f030a156733f4f3576d1",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "total": 268,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 268
+    },
+    "naila": {
+      "owner": "naila",
+      "revision": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "exit_code": 0,
+      "network": "blocked",
+      "initialization_adapter": false,
+      "total": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 13
+    },
+    "yuyue": {
+      "owner": "yuyue",
+      "revision": "a91e257ab260ded8df8c2cc2f214c4c7fd16af6c",
+      "exit_code": 1,
+      "network": "blocked",
+      "initialization_adapter": false,
+      "total": 98,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 97
+    },
+    "chong_yao": {
+      "owner": "chong_yao",
+      "revision": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "exit_code": 0,
+      "network": "blocked",
+      "initialization_adapter": true,
+      "total": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 5
+    },
+    "yuyue-portability-patched": {
+      "owner": "yuyue",
+      "revision": "a91e257ab260ded8df8c2cc2f214c4c7fd16af6c",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "scratch_portability_patch": true,
+      "total": 98,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 98
+    },
+    "naila-stable-cutoff-patched": {
+      "owner": "naila",
+      "revision": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "scratch_portability_patch": false,
+      "scratch_stable_cutoff_patch": true,
+      "total": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 14
+    }
+  },
+  "frontend_tests": {
+    "passed": 116,
+    "failed": 0
+  },
+  "development": {
+    "dataset": "SciFact-dev",
+    "development_only": true,
+    "pairs": 24,
+    "corpus_documents": 5183,
+    "claims": 22,
+    "index_seconds": 100.50733749999199,
+    "oracle_pair_accuracy": 0.5,
+    "oracle_confusion": {
+      "SUPPORT": {
+        "SUPPORT": 5,
+        "CONTRADICT": 0,
+        "NEUTRAL": 7
+      },
+      "CONTRADICT": {
+        "SUPPORT": 0,
+        "CONTRADICT": 7,
+        "NEUTRAL": 5
+      }
+    },
+    "selected_window_verdict_agreement": 0.75,
+    "grounding_gate_passed": 24,
+    "subset_mean_ms": 0.08141299995865363,
+    "retrieval": {
+      "bm25": {
+        "mrr_at_100": 0.7218407854771491,
+        "recall_at_10": 0.725,
+        "recall_at_100": 0.9681818181818183,
+        "ndcg_at_10": 0.6932960984618839,
+        "query_ms": 0.27900909348814323
+      },
+      "sbert": {
+        "mrr_at_100": 0.7805555555555554,
+        "recall_at_10": 0.9272727272727272,
+        "recall_at_100": 1.0,
+        "ndcg_at_10": 0.8124285059736028,
+        "query_ms": 6.664063638626513
+      },
+      "rrf": {
+        "mrr_at_100": 0.8061868686868686,
+        "recall_at_10": 0.9272727272727272,
+        "recall_at_100": 1.0,
+        "ndcg_at_10": 0.7890268171338178,
+        "query_ms": 6.544395450460301
+      }
+    },
+    "elapsed_seconds": 141.20516080001835,
+    "limitations": [
+      "Label-stratified small dev sample; not untouched test performance",
+      "Oracle document for selector; not a full-chain verdict accuracy metric",
+      "Retrieval uses entire corpus and no gold candidate filtering",
+      "NLI threshold fixed at owner 0.50; no tuning performed",
+      "Human scientific usefulness not rated"
+    ]
+  },
+  "selection": {
+    "cases": 24,
+    "selected_sentences": 106,
+    "gold_sentences": 27,
+    "matched_sentences": 16,
+    "micro_precision": 0.1509433962264151,
+    "micro_recall": 0.5925925925925926,
+    "micro_f1": 0.2406015037593985,
+    "macro_f1": 0.2501984126984127,
+    "cases_with_partial_sentence": 0,
+    "source_span_checks_passed": 24,
+    "metric": "Strict complete coverage of original SciFact sentence non-whitespace characters",
+    "limitations": [
+      "Small label-stratified development sample; oracle document supplied",
+      "Only the chosen annotated rationale is counted; other valid rationales can be penalized",
+      "Context neighbours count as false positives against that rationale",
+      "Custom diagnostic, not the official SciFact scorer or full-pipeline evidence F1"
+    ]
+  },
+  "contract_probes": {
+    "naila_tie_cutoff": {
+      "expected_index_order": [
+        4,
+        0,
+        1
+      ],
+      "actual_index_order": [
+        4,
+        0,
+        2
+      ],
+      "documented_rule_satisfied": false
+    },
+    "person4_foreign_passage": {
+      "rejected": false,
+      "paper_verdict_id": "selected-paper",
+      "passage_paper_id": "outside-paper",
+      "frontend_protection": "RunSnapshot validation rejects the mismatched lineage"
+    },
+    "rrf_cross_owner_real_data": {
+      "claims": 22,
+      "identical_top100": 22
+    }
+  },
+  "reranker": {
+    "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+    "license": "Apache-2.0",
+    "packages": {
+      "torch": "2.15.0",
+      "transformers": "5.22.1",
+      "sentence-transformers": "5.7.0"
+    },
+    "pair_count": 3,
+    "results": [
+      {
+        "dtype": "default",
+        "finite": true,
+        "parameter_dtype": "torch.float32",
+        "scores": [
+          8.500707626342773,
+          -11.051223754882812,
+          7.626503944396973
+        ]
+      },
+      {
+        "dtype": "float64",
+        "finite": true,
+        "parameter_dtype": "torch.float64",
+        "scores": [
+          8.500706672668457,
+          -11.051223754882812,
+          7.626502990722656
+        ]
+      }
+    ],
+    "note": "Finite-score and frozen development checks completed; production remains RRF-only pending team review.",
+    "development_top20_rerank": {
+      "claims": 22,
+      "mrr_at_100": 0.9106060606060606,
+      "recall_at_10": 0.95,
+      "ndcg_at_10": 0.9026105207900897,
+      "rerank_seconds": 0.6071928181759589,
+      "note": "Same frozen small dev sample; not untouched test performance; no tuning or production enablement."
+    }
+  },
+  "qwen": {
+    "synthetic": {
+      "mode": "llm",
+      "seed": 19,
+      "cases": 6,
+      "outputs": 12,
+      "datasets": {
+        "synthetic stress QC": 6
+      },
+      "llm_statuses": {
+        "rejected": 6
+      },
+      "fallback_count": 6,
+      "human_reviews_completed": 0,
+      "note": "Human support/usefulness scores pending review."
+    },
+    "scifact_development": {
+      "mode": "llm",
+      "seed": 19,
+      "cases": 6,
+      "outputs": 12,
+      "datasets": {
+        "SciFact-dev-oracle-document-QC": 6
+      },
+      "llm_statuses": {
+        "rejected": 6
+      },
+      "fallback_count": 6,
+      "human_reviews_completed": 0,
+      "note": "Human support/usefulness scores pending review."
+    },
+    "total_attempts": 12,
+    "accepted": 0,
+    "displayed_fallback_gate_passed": 12
+  },
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "sentence-transformers": "5.7.0",
+    "pydantic": "2.12.5",
+    "streamlit": "1.58.0",
+    "pytest": "9.0.2"
+  },
+  "task_document": {
+    "url": "https://docs.google.com/document/d/1LoGlwoSwHwdG5S-0kq-lb8F2BmkJtAu0JpnAoHucpZY/edit?tab=t.hnn6tra4n34f",
+    "checked": "2026-11-06",
+    "ownership": "Person 3 explicitly owns evidence passage selection; Person 4 consumes it",
+    "revision": "AHj4eMQD5Lp7Zv7IF0S9tvhDy0G9DwzxX4dPIHCMboyGcCPqQgiZSsJ4DXqKbDWDErgBppO7dCMMN-84C6DsWU2Otyns7-EhanvdHANMgjU"
+  },
+  "human_review": {
+    "completed": 0,
+    "pending_rows": 48,
+    "paired_outputs": 24,
+    "public_zip_excludes_method_key": true
+  },
+  "source_sha256": {
+    "__init__.py": "700ef1715c918b33a857b205f9dbc6e5832ee751a3636f8b95e84314ff295fe7",
+    "app.py": "08b781539f4aba1c80aa0e4f291470dbe2baec54576860f62ac41a8caaffcaf9",
+    "discovery.py": "409f0843de535cceb3c3ae5aa48cc8c989115d97004dc8f5a0b9713c217b1cbb",
+    "discovery_view.py": "908870ec27d759ef3a2b7e8e8889851016ca702754fc9e2822d0db7294a75b83",
+    "export.py": "e4fdd9311eec3cbeb07961f40acff1569717a1401daa1cb4952e58d9818a755c",
+    "llm.py": "ecd9d40aa2d34ae0546859e9f6969cd57e91c25c62ca426de57a30c716ea6188",
+    "local_model_setup.py": "89010e098bd474a6128f779c32604c06fe69abd3ba03cd3cdd616f614b2f9778",
+    "models.py": "ea3b8efa453459be5c98cded27419cd90f8952dfa2c40339e132ec499d06b49f",
+    "passage_selection.py": "a48021cc307d312dec984bf505ef2ee023c2b3a90b78d6c830bccb99f584ecf6",
+    "person4.py": "8ef548733fbf097c37e7cbe196c681d55fe6768af0b4e88c72d9ce22418fa24a",
+    "pipeline.py": "259cdb040fe3bb7e7b1ad37b12761905f2f09204393c744a5b504d8358fd27d9",
+    "pipeline_setup.py": "7a2d2f3f2bc38bdd47154433b5f0906651304c983f6df56ce12b948b06ba2cb8",
+    "pipeline_smoke.py": "3d0265fd0ae435d8057bd6e77f26bb1ca1e2f8dd39aa9e3eb4983f766dcca410",
+    "providers.py": "2e2c9142343134515917f1b631c77b649f6c56d4158b2035a6f21f3a546ae417",
+    "ranking.py": "62df3b71f06b8a2e865e917a3dd935eeede6398a6b927dfa20da0e2ed06577d8",
+    "review_view.py": "24bc2c5093de43953c62f6fd218b5cdbfc2c82700dd44f1656f8f5f486c9d70f",
+    "reviews.py": "ed77d86e2f9f211dae5187a5e2d889f5434ba60ca0e6b34bf9dd0fb0f990f7dc",
+    "state.py": "bcdf4fcab46968f762be4e7d9d59b7a2eb511dd05f640808979f66605753bcf6",
+    "templates.py": "9be2ed1522bf001d74ca1dd831e346b8ba5b2a5fecf05cf2efed312f53deab28",
+    "validation.py": "2e1d777c4dde153bb985eecc353205cf4a342efae0c651c019a889c03d0e4f0e",
+    "verification_view.py": "b05e12d2bd85c3779ac82dc70315c0ce84822cf537083d505d5d9daed7300c15",
+    "evaluation/__init__.py": "fb883d5d07b8bfe8e3edafa4cf97167b1f9fc9d491f49f503e70f6be029f383c",
+    "evaluation/contract_probes.py": "db19b458a2ac9623e105e031cfacb529afd68d52a4f28475acdc3286aa93fe59",
+    "evaluation/development_qc.py": "8cb49eca4d1921905c3c17dd33cc3fe1f9577753b9a3566a990a4be1a15ee398",
+    "evaluation/reranker_qc.py": "34c8d5bc0fb21da1ea08d7a2e44601c736d41473d1314a8d86ce2aef83cfc3cf",
+    "evaluation/review_bundle.py": "cf79baf0dd4c3d3d3109ff4821f7ca330a73dcd51670493f61b80f40c2c3860e",
+    "evaluation/run.py": "4a0a24102e552dd4a8567dc776e76dc89f6de8d1fcea62e335f642a7fef1c0ad",
+    "evaluation/selection_qc.py": "f8e04e3c2080a36bd764073f47b88f1a8ea0365e4cc531296bf2c19f68538a3b",
+    "evaluation/team_qc.py": "3c317622ddace3e4aa203e2fd78e7475f417abd83840f7feb2e40dc2c72c18b4"
+  },
+  "legacy_replay_checks": {
+    "recorded_real_run": "passed; known safety note restored",
+    "live_real_run": "passed; known safety note restored",
+    "arbitrary_limitation_tampering": "rejected"
+  }
+}

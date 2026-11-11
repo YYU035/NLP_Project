@@ -1,0 +1,920 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:13.394044+00:00",
+    "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+    "created_at": "2026-11-09T14:33:13.394044Z",
+    "retrieved_at": "2026-11-09T14:33:12.239284Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"3c4c5b1faf4c2aee89c03f4d1fe256dbb818488366e4020eb5fa8bd98b2faca1\", \"candidates\": {\"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:45638119\", \"identity_aliases\": [\"scifact:45638119\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.\", \"authors\": [], \"abstract\": \"Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.\", \"authors\": [], \"abstract\": \"Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:10165723\", \"identity_aliases\": [\"scifact:10165723\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"CpG island methylator phenotype predicts progression of malignant melanoma.\", \"authors\": [], \"abstract\": \"PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \\n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \\n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"CpG island methylator phenotype predicts progression of malignant melanoma.\", \"authors\": [], \"abstract\": \"PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \\n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \\n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:20428155\", \"identity_aliases\": [\"scifact:20428155\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"Marine organisms as a source of new anticancer agents.\", \"authors\": [], \"abstract\": \"Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Marine organisms as a source of new anticancer agents.\", \"authors\": [], \"abstract\": \"Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.\", \"authors\": [], \"abstract\": \"Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"CpG island methylator phenotype predicts progression of malignant melanoma.\", \"authors\": [], \"abstract\": \"PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \\n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \\n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Marine organisms as a source of new anticancer agents.\", \"authors\": [], \"abstract\": \"Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:45638119\", \"scifact:10165723\", \"scifact:20428155\"], \"sbert_ranking\": [\"scifact:45638119\", \"scifact:10165723\", \"scifact:20428155\"], \"bm25_seconds\": 0.00010190001921728253, \"sbert_seconds\": 0.007126099953893572}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:45638119\", \"identity_aliases\": [\"scifact:45638119\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.\", \"authors\": [], \"abstract\": \"Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.\", \"authors\": [], \"abstract\": \"Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"45638119\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:10165723\", \"identity_aliases\": [\"scifact:10165723\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"CpG island methylator phenotype predicts progression of malignant melanoma.\", \"authors\": [], \"abstract\": \"PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \\n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \\n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"CpG island methylator phenotype predicts progression of malignant melanoma.\", \"authors\": [], \"abstract\": \"PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \\n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \\n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"10165723\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03225806451612903, \"bm25_rank\": 2, \"sbert_rank\": 2, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:20428155\", \"identity_aliases\": [\"scifact:20428155\"], \"original_claim\": \"ALDH1 expression is associated with better breast cancer outcomes.\", \"paper\": {\"title\": \"Marine organisms as a source of new anticancer agents.\", \"authors\": [], \"abstract\": \"Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Marine organisms as a source of new anticancer agents.\", \"authors\": [], \"abstract\": \"Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"20428155\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.031746031746031744, \"bm25_rank\": 3, \"sbert_rank\": 3, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 0.00010190001921728253, \"sbert_seconds\": 0.007126099953893572, \"rrf_seconds\": 9.429996134713292e-05, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.0002340999781154096, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:45638119\": {\"passages\": [{\"passage_id\": \"scifact:45638119:abstract:742:858:dadb76b5a638\", \"paper_id\": \"scifact:45638119\", \"section\": \"abstract\", \"text\": \"In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.\", \"score\": 0.8752200603485107}, {\"passage_id\": \"scifact:45638119:abstract:551:741:fc8f618171ca\", \"paper_id\": \"scifact:45638119\", \"section\": \"abstract\", \"text\": \"In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.\", \"score\": 0.728236198425293}, {\"passage_id\": \"scifact:45638119:abstract:175:376:316f2168aabd\", \"paper_id\": \"scifact:45638119\", \"section\": \"abstract\", \"text\": \"Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties.\", \"score\": 0.5789973735809326}], \"source_spans\": [{\"paper_id\": \"scifact:45638119\", \"sentence_indices\": [4], \"start\": 742, \"end\": 858, \"text\": \"In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.\", \"score\": 0.8752200603485107, \"passage_id\": \"scifact:45638119:abstract:742:858:dadb76b5a638\"}, {\"paper_id\": \"scifact:45638119\", \"sentence_indices\": [3], \"start\": 551, \"end\": 741, \"text\": \"In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.\", \"score\": 0.728236198425293, \"passage_id\": \"scifact:45638119:abstract:551:741:fc8f618171ca\"}, {\"paper_id\": \"scifact:45638119\", \"sentence_indices\": [1], \"start\": 175, \"end\": 376, \"text\": \"Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties.\", \"score\": 0.5789973735809326, \"passage_id\": \"scifact:45638119:abstract:175:376:316f2168aabd\"}], \"budget_checks\": [{\"passage_id\": \"scifact:45638119:abstract:742:858:dadb76b5a638\", \"pair_tokens\": 37, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:45638119:abstract:551:741:fc8f618171ca\", \"pair_tokens\": 50, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"scifact:45638119:abstract:175:376:316f2168aabd\", \"pair_tokens\": 51, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:10165723\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:20428155\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:45638119": {
+        "paper_id": "scifact:45638119",
+        "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 3.249718527894249,
+          "sbert": 0.7292473316192627,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:10165723": {
+        "paper_id": "scifact:10165723",
+        "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 1.5340068515012892,
+          "sbert": 0.19068112969398499,
+          "rrf": 0.03225806451612903
+        }
+      },
+      "scifact:20428155": {
+        "paper_id": "scifact:20428155",
+        "title": "Marine organisms as a source of new anticancer agents.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.6141419033389598,
+          "sbert": 0.13025866448879242,
+          "rrf": 0.031746031746031744
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:45638119": {
+          "paper_id": "scifact:45638119",
+          "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9968327879905701,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "scifact:45638119:abstract:742:858:dadb76b5a638",
+            "scifact:45638119:abstract:551:741:fc8f618171ca"
+          ]
+        },
+        "scifact:10165723": {
+          "paper_id": "scifact:10165723",
+          "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:20428155": {
+          "paper_id": "scifact:20428155",
+          "title": "Marine organisms as a source of new anticancer agents.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:45638119:abstract:742:858:dadb76b5a638": {
+          "passage_id": "scifact:45638119:abstract:742:858:dadb76b5a638",
+          "paper_id": "scifact:45638119",
+          "label": "CONTRADICT",
+          "confidence": 0.9992927312850952,
+          "truncated": false
+        },
+        "scifact:45638119:abstract:551:741:fc8f618171ca": {
+          "passage_id": "scifact:45638119:abstract:551:741:fc8f618171ca",
+          "paper_id": "scifact:45638119",
+          "label": "CONTRADICT",
+          "confidence": 0.9943728446960449,
+          "truncated": false
+        },
+        "scifact:45638119:abstract:175:376:316f2168aabd": {
+          "passage_id": "scifact:45638119:abstract:175:376:316f2168aabd",
+          "paper_id": "scifact:45638119",
+          "label": "NEUTRAL",
+          "confidence": 0.9946547746658325,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:45638119:abstract:742:858:dadb76b5a638",
+          "paper_id": "scifact:45638119",
+          "section": "abstract",
+          "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+          "score": 0.8752200603485107,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:45638119:abstract:551:741:fc8f618171ca",
+          "paper_id": "scifact:45638119",
+          "section": "abstract",
+          "text": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.",
+          "score": 0.728236198425293,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:45638119:abstract:175:376:316f2168aabd",
+          "paper_id": "scifact:45638119",
+          "section": "abstract",
+          "text": "Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties.",
+          "score": 0.5789973735809326,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:45638119:abstract:742:858:dadb76b5a638",
+          "paper_id": "scifact:45638119",
+          "section": "abstract",
+          "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+          "score": 0.8752200603485107,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "scifact:45638119:abstract:551:741:fc8f618171ca",
+          "paper_id": "scifact:45638119",
+          "section": "abstract",
+          "text": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.",
+          "score": 0.728236198425293,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9968327879905701,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "1.154788899992127",
+      "ranking_output_sha256": "cb98c57980aef12f492358e54788058c323488a0492a5462fddc2bbf502892a5"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:12.239284Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:45638119",
+            "identity_aliases": [
+              "scifact:45638119"
+            ],
+            "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+            "paper": {
+              "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+              "authors": [],
+              "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "45638119",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "45638119",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                "authors": [],
+                "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "45638119",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:10165723",
+            "identity_aliases": [
+              "scifact:10165723"
+            ],
+            "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+            "paper": {
+              "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+              "authors": [],
+              "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "10165723",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "10165723",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                "authors": [],
+                "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "10165723",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:20428155",
+            "identity_aliases": [
+              "scifact:20428155"
+            ],
+            "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+            "paper": {
+              "title": "Marine organisms as a source of new anticancer agents.",
+              "authors": [],
+              "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "20428155",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "20428155",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Marine organisms as a source of new anticancer agents.",
+                "authors": [],
+                "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "20428155",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "ALDH1 expression is associated with better breast cancer outcomes.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                  "authors": [],
+                  "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "45638119",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                  "authors": [],
+                  "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "10165723",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Marine organisms as a source of new anticancer agents.",
+                  "authors": [],
+                  "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20428155",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:10165723",
+        "scifact:20428155",
+        "scifact:45638119"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "3c4c5b1faf4c2aee89c03f4d1fe256dbb818488366e4020eb5fa8bd98b2faca1",
+          "candidates": {
+            "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:45638119",
+                "identity_aliases": [
+                  "scifact:45638119"
+                ],
+                "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+                "paper": {
+                  "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                  "authors": [],
+                  "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "45638119",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "45638119",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                    "authors": [],
+                    "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "45638119",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:10165723",
+                "identity_aliases": [
+                  "scifact:10165723"
+                ],
+                "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+                "paper": {
+                  "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                  "authors": [],
+                  "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "10165723",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "10165723",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                    "authors": [],
+                    "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "10165723",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:20428155",
+                "identity_aliases": [
+                  "scifact:20428155"
+                ],
+                "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+                "paper": {
+                  "title": "Marine organisms as a source of new anticancer agents.",
+                  "authors": [],
+                  "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20428155",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "20428155",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Marine organisms as a source of new anticancer agents.",
+                    "authors": [],
+                    "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "20428155",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "ALDH1 expression is associated with better breast cancer outcomes.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                      "authors": [],
+                      "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "45638119",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                      "authors": [],
+                      "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "10165723",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Marine organisms as a source of new anticancer agents.",
+                      "authors": [],
+                      "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "20428155",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:45638119",
+            "scifact:10165723",
+            "scifact:20428155"
+          ],
+          "sbert_ranking": [
+            "scifact:45638119",
+            "scifact:10165723",
+            "scifact:20428155"
+          ],
+          "bm25_seconds": 0.00010190001921728253,
+          "sbert_seconds": 0.007126099953893572
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:45638119",
+              "identity_aliases": [
+                "scifact:45638119"
+              ],
+              "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+              "paper": {
+                "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                "authors": [],
+                "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "45638119",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "45638119",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+                  "authors": [],
+                  "abstract": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor. In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "45638119",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:10165723",
+              "identity_aliases": [
+                "scifact:10165723"
+              ],
+              "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+              "paper": {
+                "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                "authors": [],
+                "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "10165723",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "10165723",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "CpG island methylator phenotype predicts progression of malignant melanoma.",
+                  "authors": [],
+                  "abstract": "PURPOSE The CpG island methylator phenotype (CIMP) may be associated with development of malignancy through coordinated inactivation of tumor suppressor and tumor-related genes (TRG) and methylation of multiple noncoding, methylated-in-tumor (MINT) loci. These epigenetic changes create a distinct CIMP pattern that has been linked to recurrence and survival in gastrointestinal cancers. Because epigenetic inactivation of TRGs also has been shown in malignant melanoma, we hypothesized the existence of a clinically significant CIMP in cutaneous melanoma progression.    EXPERIMENTAL DESIGN The methylation status of the CpG island promoter region of TRGs related to melanoma pathophysiology (WIF1, TFPI2, RASSF1A, RARbeta2, SOCS1, and GATA4) and a panel of MINT loci (MINT1, MINT2, MINT3, MINT12, MINT17, MINT25, and MINT31) in primary and metastatic tumors of different clinical stages (n=122) was assessed.   \n RESULTS Here, we show an increase in hypermethylation of the TRGs WIF1, TFPI2, RASSF1A, and SOCS1 with advancing clinical tumor stage. Furthermore, we find a significant positive association between the methylation status of MINT17, MINT31, and TRGs. The methylation status of MINT31 is associated with disease outcome in stage III melanoma.   \n CONCLUSIONS These findings show the significance of a CIMP pattern that is associated with advancing clinical stage of malignant melanoma. Future prospective large-scale studies may determine if CIMP-positive primary melanomas are at high risk of metastasis or recurrence.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "10165723",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03225806451612903,
+            "bm25_rank": 2,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:20428155",
+              "identity_aliases": [
+                "scifact:20428155"
+              ],
+              "original_claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+              "paper": {
+                "title": "Marine organisms as a source of new anticancer agents.",
+                "authors": [],
+                "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "20428155",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "20428155",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Marine organisms as a source of new anticancer agents.",
+                  "authors": [],
+                  "abstract": "Various active anticancer agents are derived from plants and terrestrial microorganisms. The isolation of C-nucleosides from the Caribbean sponge, Cryptotheca crypta, four decades ago, provided the basis for the synthesis of cytarabine, the first marine-derived anticancer agent to be developed for clinical use. Cytarabine is currently used in the routine treatment of patients with leukaemia and lymphoma. Gemcitabine, one of its fluorinated derivatives, has also been approved for use in patients with pancreatic, breast, bladder, and non-small-cell lung cancer. Over the past decade, several new experimental anticancer agents derived from marine sources have entered preclinical and clinical trials. This field has expanded significantly as a result of improvements in the technology of deep-sea collection, extraction, and large-scale production through aquaculture and synthesis. In this paper, examples of marine-derived experimental agents that are currently undergoing preclinical and early clinical evaluation are briefly discussed. A summary of the available information on the results of phase I and II trials of agents such as aplidine, ecteinascidin-734 (ET-734), dolastatin 10 and bryostatin 1 is also presented.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "20428155",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.031746031746031744,
+            "bm25_rank": 3,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00010190001921728253,
+          "sbert_seconds": 0.007126099953893572,
+          "rrf_seconds": 0.00009429996134713292,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.0002340999781154096,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "340f388befe3e4a9fb5cdb7798979d97fd510aabd2cfc9e690015fe1c36939dd",
+  "selected_paper_ids": [
+    "scifact:10165723",
+    "scifact:20428155",
+    "scifact:45638119"
+  ],
+  "aggregation": {
+    "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:45638119:abstract:742:858:dadb76b5a638",
+        "paper_id": "scifact:45638119",
+        "section": "abstract",
+        "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+        "score": 0.8752200603485107,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "scifact:45638119:abstract:551:741:fc8f618171ca",
+        "paper_id": "scifact:45638119",
+        "section": "abstract",
+        "text": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.",
+        "score": 0.728236198425293,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9968327879905701,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "104c9521adc575904c9142caa15dd3c7ff89bebca1a2adea636e4ae49a70a73c",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+        "citation_ids": [
+          "scifact:45638119:abstract:742:858:dadb76b5a638"
+        ]
+      },
+      {
+        "text": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.",
+        "citation_ids": [
+          "scifact:45638119:abstract:551:741:fc8f618171ca"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.036050+00:00",
+    "claim": "Satellite cell dysfunction is a key factor in sarcopenia development.",
+    "created_at": "2026-11-10T17:37:55.036050Z",
+    "retrieved_at": "2026-11-10T17:37:55.036050Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1065",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "20418809": {
+        "paper_id": "20418809",
+        "title": "Inducible depletion of satellite cells in adult, sedentary mice impairs muscle regenerative capacity without affecting sarcopenia",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "16660256": {
+        "paper_id": "16660256",
+        "title": "Sprouty1 Regulates Reversible Quiescence of a Self-Renewing Adult Muscle Stem Cell Pool during Regeneration",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "20186814": {
+        "paper_id": "20186814",
+        "title": "A new look at the origin, function, and \"stem-cell\" status of muscle satellite cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4627816": {
+        "paper_id": "4627816",
+        "title": "Relationship between advanced glycation end‐product accumulation and low skeletal muscle mass in Japanese men and women",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4326318": {
+        "paper_id": "4326318",
+        "title": "Rejuvenation of aged progenitor cells by exposure to a young systemic environment",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "20418809": {
+          "paper_id": "20418809",
+          "title": "Inducible depletion of satellite cells in adult, sedentary mice impairs muscle regenerative capacity without affecting sarcopenia",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9308420419692993,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "20418809:abstract:0:1150:fc9e9289aea6"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "16660256": {
+          "paper_id": "16660256",
+          "title": "Sprouty1 Regulates Reversible Quiescence of a Self-Renewing Adult Muscle Stem Cell Pool during Regeneration",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "20186814": {
+          "paper_id": "20186814",
+          "title": "A new look at the origin, function, and \"stem-cell\" status of muscle satellite cells.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4627816": {
+          "paper_id": "4627816",
+          "title": "Relationship between advanced glycation end‐product accumulation and low skeletal muscle mass in Japanese men and women",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4326318": {
+          "paper_id": "4326318",
+          "title": "Rejuvenation of aged progenitor cells by exposure to a young systemic environment",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "20418809:abstract:0:1150:fc9e9289aea6": {
+          "passage_id": "20418809:abstract:0:1150:fc9e9289aea6",
+          "paper_id": "20418809",
+          "label": "SUPPORT",
+          "confidence": 0.9308420419692993,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "20418809:abstract:0:1150:fc9e9289aea6",
+          "paper_id": "20418809",
+          "section": "abstract",
+          "text": "A key determinant of geriatric frailty is sarcopenia, the age-associated loss of skeletal muscle mass and strength. Although the etiology of sarcopenia is unknown, the correlation during aging between the loss of activity of satellite cells, which are endogenous muscle stem cells, and impaired muscle regenerative capacity has led to the hypothesis that the loss of satellite cell activity is also a cause of sarcopenia. We tested this hypothesis in male sedentary mice by experimentally depleting satellite cells in young adult animals to a degree sufficient to impair regeneration throughout the rest of their lives. A detailed analysis of multiple muscles harvested at various time points during aging in different cohorts of these mice showed that the muscles were of normal size, despite low regenerative capacity, but did have increased fibrosis. These results suggest that lifelong reduction of satellite cells neither accelerated nor exacerbated sarcopenia and that satellite cells did not contribute to the maintenance of muscle size or fiber type composition during aging, but that their loss may contribute to age-related muscle fibrosis.",
+          "score": 0.7654998302459717,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Satellite cell dysfunction is a key factor in sarcopenia development.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "20418809:abstract:0:1150:fc9e9289aea6",
+          "paper_id": "20418809",
+          "section": "abstract",
+          "text": "A key determinant of geriatric frailty is sarcopenia, the age-associated loss of skeletal muscle mass and strength. Although the etiology of sarcopenia is unknown, the correlation during aging between the loss of activity of satellite cells, which are endogenous muscle stem cells, and impaired muscle regenerative capacity has led to the hypothesis that the loss of satellite cell activity is also a cause of sarcopenia. We tested this hypothesis in male sedentary mice by experimentally depleting satellite cells in young adult animals to a degree sufficient to impair regeneration throughout the rest of their lives. A detailed analysis of multiple muscles harvested at various time points during aging in different cohorts of these mice showed that the muscles were of normal size, despite low regenerative capacity, but did have increased fibrosis. These results suggest that lifelong reduction of satellite cells neither accelerated nor exacerbated sarcopenia and that satellite cells did not contribute to the maintenance of muscle size or fiber type composition during aging, but that their loss may contribute to age-related muscle fibrosis.",
+          "score": 0.7654998302459717,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9308420419692993,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "cd3654523b8f27ac4f1fa324d648ec742f167f9e2e61b23011957ac2b8b691c7",
+  "selected_paper_ids": [
+    "16660256",
+    "20186814",
+    "20418809",
+    "4326318",
+    "4627816"
+  ],
+  "aggregation": {
+    "claim": "Satellite cell dysfunction is a key factor in sarcopenia development.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "20418809:abstract:0:1150:fc9e9289aea6",
+        "paper_id": "20418809",
+        "section": "abstract",
+        "text": "A key determinant of geriatric frailty is sarcopenia, the age-associated loss of skeletal muscle mass and strength. Although the etiology of sarcopenia is unknown, the correlation during aging between the loss of activity of satellite cells, which are endogenous muscle stem cells, and impaired muscle regenerative capacity has led to the hypothesis that the loss of satellite cell activity is also a cause of sarcopenia. We tested this hypothesis in male sedentary mice by experimentally depleting satellite cells in young adult animals to a degree sufficient to impair regeneration throughout the rest of their lives. A detailed analysis of multiple muscles harvested at various time points during aging in different cohorts of these mice showed that the muscles were of normal size, despite low regenerative capacity, but did have increased fibrosis. These results suggest that lifelong reduction of satellite cells neither accelerated nor exacerbated sarcopenia and that satellite cells did not contribute to the maintenance of muscle size or fiber type composition during aging, but that their loss may contribute to age-related muscle fibrosis.",
+        "score": 0.7654998302459717,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9308420419692993,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "4d0db4649794e3553a7c2be18d4f580841264b40b060c113f6f15da6fa3a858e",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "A key determinant of geriatric frailty is sarcopenia, the age-associated loss of skeletal muscle mass and strength. Although the etiology of sarcopenia is unknown, the correlation during aging between the loss of activity of satellite cells, which are endogenous muscle stem cells, and impaired muscle regenerative capacity has led to the hypothesis that the loss of satellite cell activity is also a cause of sarcopenia. We tested this hypothesis in male sedentary mice by experimentally depleting satellite cells in young adult animals to a degree sufficient to impair regeneration throughout the rest of their lives. A detailed analysis of multiple muscles harvested at various time points during aging in different cohorts of these mice showed that the muscles were of normal size, despite low regenerative capacity, but did have increased fibrosis. These results suggest that lifelong reduction of satellite cells neither accelerated nor exacerbated sarcopenia and that satellite cells did not contribute to the maintenance of muscle size or fiber type composition during aging, but that their loss may contribute to age-related muscle fibrosis.",
+        "citation_ids": [
+          "20418809:abstract:0:1150:fc9e9289aea6"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

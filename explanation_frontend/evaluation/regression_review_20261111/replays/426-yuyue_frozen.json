@@ -1,0 +1,241 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.975469+00:00",
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+    "created_at": "2026-11-10T17:37:54.975469Z",
+    "retrieved_at": "2026-11-10T17:37:54.975469Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "426",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "16728949": {
+        "paper_id": "16728949",
+        "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29429111": {
+        "paper_id": "29429111",
+        "title": "Transcriptional regulation of neuronal genes and its effect on neural functions: expression and function of forkhead transcription factors in neurons.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "28937856": {
+        "paper_id": "28937856",
+        "title": "Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14496749": {
+        "paper_id": "14496749",
+        "title": "A Conserved MST-FOXO Signaling Pathway Mediates Oxidative-Stress Responses and Extends Life Span",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4418070": {
+        "paper_id": "4418070",
+        "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "16728949": {
+          "paper_id": "16728949",
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "29429111": {
+          "paper_id": "29429111",
+          "title": "Transcriptional regulation of neuronal genes and its effect on neural functions: expression and function of forkhead transcription factors in neurons.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "28937856": {
+          "paper_id": "28937856",
+          "title": "Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14496749": {
+          "paper_id": "14496749",
+          "title": "A Conserved MST-FOXO Signaling Pathway Mediates Oxidative-Stress Responses and Extends Life Span",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4418070": {
+          "paper_id": "4418070",
+          "title": "Novel Foxo1-dependent transcriptional programs control Treg cell function",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "16728949:abstract:0:897:c3ad86fe25b8": {
+          "passage_id": "16728949:abstract:0:897:c3ad86fe25b8",
+          "paper_id": "16728949",
+          "label": "NEUTRAL",
+          "confidence": 0.820094645023346,
+          "truncated": false
+        },
+        "14496749:abstract:0:1096:f9c237ae346a": {
+          "passage_id": "14496749:abstract:0:1096:f9c237ae346a",
+          "paper_id": "14496749",
+          "label": "NEUTRAL",
+          "confidence": 0.9987128973007202,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "16728949:abstract:0:897:c3ad86fe25b8",
+          "paper_id": "16728949",
+          "section": "abstract",
+          "text": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism. Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival. These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems. Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues.",
+          "score": 0.7911686897277832,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14496749:abstract:0:1096:f9c237ae346a",
+          "paper_id": "14496749",
+          "section": "abstract",
+          "text": "Oxidative stress influences cell survival and homeostasis, but the mechanisms underlying the biological effects of oxidative stress remain to be elucidated. Here, we demonstrate that the protein kinase MST1 mediates oxidative-stress-induced cell death in primary mammalian neurons by directly activating the FOXO transcription factors. MST1 phosphorylates FOXO proteins at a conserved site within the forkhead domain that disrupts their interaction with 14-3-3 proteins, promotes FOXO nuclear translocation, and thereby induces cell death in neurons. We also extend the MST-FOXO signaling link to nematodes. Knockdown of the C. elegans MST1 ortholog CST-1 shortens life span and accelerates tissue aging, while overexpression of cst-1 promotes life span and delays aging. The cst-1-induced life-span extension occurs in a daf-16-dependent manner. The identification of the FOXO transcription factors as major and evolutionarily conserved targets of MST1 suggests that MST kinases play important roles in diverse biological processes including cellular responses to oxidative stress and longevity.",
+          "score": 0.6653388142585754,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "33b79d56e462393ea4efb81069732bce4984abc0679f39e7b1d4f1dc657b829d",
+  "selected_paper_ids": [
+    "14496749",
+    "16728949",
+    "28937856",
+    "29429111",
+    "4418070"
+  ],
+  "aggregation": {
+    "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "e7b87f96c9a1cc0fdea27d7231631b6a9bd9ec75fd2fde1f1efb3b0f314fed18",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:29.347625+00:00",
+    "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+    "created_at": "2026-11-10T17:03:29.347625Z",
+    "retrieved_at": "2026-11-10T17:03:29.347625Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "32408470": {
+        "paper_id": "32408470",
+        "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4319174": {
+        "paper_id": "4319174",
+        "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "17933691": {
+        "paper_id": "17933691",
+        "title": "Characterization of adipocytes derived from fibro/adipogenic progenitors resident in human skeletal muscle",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5106691": {
+        "paper_id": "5106691",
+        "title": "Adipocyte inflammation is essential for healthy adipose tissue expansion and remodeling.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "9178310": {
+        "paper_id": "9178310",
+        "title": "Involvement of lysosomal dysfunction in autophagosome accumulation and early pathologies in adipose tissue of obese mice",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "32408470": {
+          "paper_id": "32408470",
+          "title": "Activation of AMPKα2 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4319174": {
+          "paper_id": "4319174",
+          "title": "Alternatively activated macrophages produce catecholamines to sustain adaptive thermogenesis",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "17933691": {
+          "paper_id": "17933691",
+          "title": "Characterization of adipocytes derived from fibro/adipogenic progenitors resident in human skeletal muscle",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5106691": {
+          "paper_id": "5106691",
+          "title": "Adipocyte inflammation is essential for healthy adipose tissue expansion and remodeling.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "9178310": {
+          "paper_id": "9178310",
+          "title": "Involvement of lysosomal dysfunction in autophagosome accumulation and early pathologies in adipose tissue of obese mice",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {},
+      "processing_failures": [],
+      "evidence_passages": [],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "7dc5e647d5a8ec6432573e518233bdfa7b551fad1a77aaaec6622f01f6876c1b",
+  "selected_paper_ids": [
+    "17933691",
+    "32408470",
+    "4319174",
+    "5106691",
+    "9178310"
+  ],
+  "aggregation": {
+    "claim": "Reduced levels of lipolysis leads to higher P38 phosphorylation in adipose tissue.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "76fc039d0362fe5c616bf91546b7e0993d2c0127dba84d59db5e7a9b8d3d8532",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

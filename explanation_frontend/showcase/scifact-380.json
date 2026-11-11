@@ -1,0 +1,859 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-09T14:33:12.216284+00:00",
+    "claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+    "created_at": "2026-11-09T14:33:12.216284Z",
+    "retrieved_at": "2026-11-09T14:33:11.652970Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "scope": "selected discovery candidates; abstract only",
+      "nli_license": "MIT",
+      "retrieval_timestamp": "unknown; import time used for snapshot bookkeeping",
+      "retrieval_commit": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "ranking_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+      "verifier_commit": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "ranking_source": "Yu Yue",
+      "retrieval_source": "Naila",
+      "ranking_output_json": "{\"schema_version\": \"1\", \"inputs\": {\"claim_id\": \"6c632b1757c75cc763b7a5b5387b4d61a925d7b10bdc4dfaed73eff775917ca0\", \"candidates\": {\"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"top_k\": 3, \"limit_scope\": \"per_provider\", \"from_publication_date\": null, \"to_publication_date\": null, \"papers\": [{\"identity\": \"scifact:19005293\", \"identity_aliases\": [\"scifact:19005293\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Memory CD4+ T cells induce innate responses independently of pathogen\", \"authors\": [], \"abstract\": \"Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Memory CD4+ T cells induce innate responses independently of pathogen\", \"authors\": [], \"abstract\": \"Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:9650982\", \"identity_aliases\": [\"scifact:9650982\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer\", \"authors\": [], \"abstract\": \"To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer\", \"authors\": [], \"abstract\": \"To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, {\"identity\": \"scifact:28206748\", \"identity_aliases\": [\"scifact:28206748\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.\", \"authors\": [], \"abstract\": \"CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.\", \"authors\": [], \"abstract\": \"CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}], \"providers\": {\"scifact-benchmark\": {\"provider\": \"scifact-benchmark\", \"status\": \"success\", \"seconds\": 0.0, \"error\": null, \"queries\": [{\"id\": \"fixed\", \"provider\": \"scifact-benchmark\", \"strategy\": \"fixed candidate engineering test\", \"stage\": \"evaluation\", \"query\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"notes\": [], \"status\": \"success\", \"returned\": null, \"seconds\": 0.0, \"error\": null, \"attempts\": []}], \"records\": [{\"paper\": {\"title\": \"Memory CD4+ T cells induce innate responses independently of pathogen\", \"authors\": [], \"abstract\": \"Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 1}, {\"paper\": {\"title\": \"Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer\", \"authors\": [], \"abstract\": \"To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 2}, {\"paper\": {\"title\": \"Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.\", \"authors\": [], \"abstract\": \"CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"query_id\": \"fixed\", \"rank\": 3}]}}, \"seconds\": 0.0, \"http_attempts\": 0}, \"bm25_ranking\": [\"scifact:19005293\", \"scifact:28206748\", \"scifact:9650982\"], \"sbert_ranking\": [\"scifact:19005293\", \"scifact:28206748\", \"scifact:9650982\"], \"bm25_seconds\": 0.00010590004967525601, \"sbert_seconds\": 0.008141700003761798}, \"configuration\": {\"rrf_k\": 60, \"output_top_k\": null, \"rerank_enabled\": false, \"rerank_top_n\": 20}, \"model\": null, \"papers\": [{\"entry\": {\"identity\": \"scifact:19005293\", \"identity_aliases\": [\"scifact:19005293\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Memory CD4+ T cells induce innate responses independently of pathogen\", \"authors\": [], \"abstract\": \"Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"query_id\": \"fixed\", \"rank\": 1}], \"source_records\": [{\"title\": \"Memory CD4+ T cells induce innate responses independently of pathogen\", \"authors\": [], \"abstract\": \"Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"19005293\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 1, \"rrf_score\": 0.03278688524590164, \"bm25_rank\": 1, \"sbert_rank\": 1, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:28206748\", \"identity_aliases\": [\"scifact:28206748\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.\", \"authors\": [], \"abstract\": \"CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"query_id\": \"fixed\", \"rank\": 3}], \"source_records\": [{\"title\": \"Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.\", \"authors\": [], \"abstract\": \"CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"28206748\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 2, \"rrf_score\": 0.03225806451612903, \"bm25_rank\": 2, \"sbert_rank\": 2, \"cross_encoder_score\": null}, {\"entry\": {\"identity\": \"scifact:9650982\", \"identity_aliases\": [\"scifact:9650982\"], \"original_claim\": \"Enhanced early production of inflammatory chemokines improves viral control in the lung.\", \"paper\": {\"title\": \"Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer\", \"authors\": [], \"abstract\": \"To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}, \"provenance\": [{\"provider\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"query_id\": \"fixed\", \"rank\": 2}], \"source_records\": [{\"title\": \"Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer\", \"authors\": [], \"abstract\": \"To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.\", \"year\": null, \"publication_date\": null, \"doi\": null, \"source\": \"scifact-benchmark\", \"source_id\": \"9650982\", \"landing_url\": null, \"pdf_url\": null, \"pdf_urls\": []}]}, \"rank\": 3, \"rrf_score\": 0.031746031746031744, \"bm25_rank\": 3, \"sbert_rank\": 3, \"cross_encoder_score\": null}], \"ranked_union_size\": 3, \"rerank_scored_count\": 0, \"latency\": {\"search_seconds\": null, \"bm25_seconds\": 0.00010590004967525601, \"sbert_seconds\": 0.008141700003761798, \"rrf_seconds\": 9.139999747276306e-05, \"rerank_seconds\": null, \"end_to_end_seconds\": null}, \"ranking_seconds\": 0.0002403000253252685, \"warnings\": []}",
+      "passage_selector": "Yu Yue train-frozen semantic selector; threshold 0.5; top 3; exact spans",
+      "person3_evidence_json": "{\"scifact:19005293\": {\"passages\": [{\"passage_id\": \"scifact:19005293:abstract:248:485:206f9579adf0\", \"paper_id\": \"scifact:19005293\", \"section\": \"abstract\", \"text\": \"We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.\", \"score\": 0.6069896221160889}], \"source_spans\": [{\"paper_id\": \"scifact:19005293\", \"sentence_indices\": [2], \"start\": 248, \"end\": 485, \"text\": \"We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.\", \"score\": 0.6069896221160889, \"passage_id\": \"scifact:19005293:abstract:248:485:206f9579adf0\"}], \"budget_checks\": [{\"passage_id\": \"scifact:19005293:abstract:248:485:206f9579adf0\", \"pair_tokens\": 67, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"selected\"}, \"scifact:28206748\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}, \"scifact:9650982\": {\"passages\": [], \"source_spans\": [], \"budget_checks\": [], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"status\": \"below_threshold\"}}",
+      "person3_commit": "7ed93fa4be69c661422b33b6c88b949dd2636e12"
+    },
+    "search_complete": true,
+    "papers": {
+      "scifact:19005293": {
+        "paper_id": "scifact:19005293",
+        "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 8.058917682733467,
+          "sbert": 0.5973625779151917,
+          "rrf": 0.03278688524590164
+        }
+      },
+      "scifact:28206748": {
+        "paper_id": "scifact:28206748",
+        "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.6241089084259358,
+          "sbert": 0.2785436809062958,
+          "rrf": 0.03225806451612903
+        }
+      },
+      "scifact:9650982": {
+        "paper_id": "scifact:9650982",
+        "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {
+          "bm25": 0.6060340944357543,
+          "sbert": 0.12422284483909607,
+          "rrf": 0.031746031746031744
+        }
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "scifact:19005293": {
+          "paper_id": "scifact:19005293",
+          "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9891822934150696,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "scifact:19005293:abstract:248:485:206f9579adf0"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "scifact:28206748": {
+          "paper_id": "scifact:28206748",
+          "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "scifact:9650982": {
+          "paper_id": "scifact:9650982",
+          "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "scifact:19005293:abstract:248:485:206f9579adf0": {
+          "passage_id": "scifact:19005293:abstract:248:485:206f9579adf0",
+          "paper_id": "scifact:19005293",
+          "label": "SUPPORT",
+          "confidence": 0.9891822934150696,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "scifact:19005293:abstract:248:485:206f9579adf0",
+          "paper_id": "scifact:19005293",
+          "section": "abstract",
+          "text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+          "score": 0.6069896221160889,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "scifact:19005293:abstract:248:485:206f9579adf0",
+          "paper_id": "scifact:19005293",
+          "section": "abstract",
+          "text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+          "score": 0.6069896221160889,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9891822934150696,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "discovery": "ok",
+      "retrieval": "local_bm25_sbert",
+      "ranking": "upstream_rrf",
+      "passages": "person3_semantic_bounded_train_frozen",
+      "verification": "local_nli",
+      "integration_seconds": "0.5639715000288561",
+      "ranking_output_sha256": "1ba924a9e3a83976d6500e0eb5422e6dd3f07ddeef7c7a5d470619971dedeb32"
+    },
+    "explicit_replacements": {},
+    "discovery_context": {
+      "schema_version": "discovery-1.0",
+      "mode": "cached",
+      "imported_at": "2026-11-09T14:33:11.652970Z",
+      "retrieved_at": null,
+      "source_reference": "SciFact dev fixed candidate acceptance: known annotated paper plus2 seeded distractors; not live discovery",
+      "result": {
+        "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+        "top_k": 3,
+        "limit_scope": "per_provider",
+        "from_publication_date": null,
+        "to_publication_date": null,
+        "papers": [
+          {
+            "identity": "scifact:19005293",
+            "identity_aliases": [
+              "scifact:19005293"
+            ],
+            "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+            "paper": {
+              "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+              "authors": [],
+              "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "19005293",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "19005293",
+                "query_id": "fixed",
+                "rank": 1
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                "authors": [],
+                "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "19005293",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:9650982",
+            "identity_aliases": [
+              "scifact:9650982"
+            ],
+            "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+            "paper": {
+              "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+              "authors": [],
+              "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "9650982",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "9650982",
+                "query_id": "fixed",
+                "rank": 2
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                "authors": [],
+                "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "9650982",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          },
+          {
+            "identity": "scifact:28206748",
+            "identity_aliases": [
+              "scifact:28206748"
+            ],
+            "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+            "paper": {
+              "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+              "authors": [],
+              "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+              "year": null,
+              "publication_date": null,
+              "doi": null,
+              "source": "scifact-benchmark",
+              "source_id": "28206748",
+              "landing_url": null,
+              "pdf_url": null,
+              "pdf_urls": []
+            },
+            "provenance": [
+              {
+                "provider": "scifact-benchmark",
+                "source_id": "28206748",
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ],
+            "source_records": [
+              {
+                "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                "authors": [],
+                "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "28206748",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              }
+            ]
+          }
+        ],
+        "providers": {
+          "scifact-benchmark": {
+            "provider": "scifact-benchmark",
+            "status": "success",
+            "seconds": 0.0,
+            "error": null,
+            "queries": [
+              {
+                "id": "fixed",
+                "provider": "scifact-benchmark",
+                "strategy": "fixed candidate engineering test",
+                "stage": "evaluation",
+                "query": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+                "notes": [],
+                "status": "success",
+                "returned": null,
+                "seconds": 0.0,
+                "error": null,
+                "attempts": []
+              }
+            ],
+            "records": [
+              {
+                "paper": {
+                  "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                  "authors": [],
+                  "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "19005293",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 1
+              },
+              {
+                "paper": {
+                  "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                  "authors": [],
+                  "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "9650982",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 2
+              },
+              {
+                "paper": {
+                  "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                  "authors": [],
+                  "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "28206748",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "query_id": "fixed",
+                "rank": 3
+              }
+            ]
+          }
+        },
+        "seconds": 0.0,
+        "http_attempts": 0
+      },
+      "selected_paper_ids": [
+        "scifact:19005293",
+        "scifact:28206748",
+        "scifact:9650982"
+      ],
+      "ranking_context": {
+        "schema_version": "1",
+        "inputs": {
+          "claim_id": "6c632b1757c75cc763b7a5b5387b4d61a925d7b10bdc4dfaed73eff775917ca0",
+          "candidates": {
+            "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+            "top_k": 3,
+            "limit_scope": "per_provider",
+            "from_publication_date": null,
+            "to_publication_date": null,
+            "papers": [
+              {
+                "identity": "scifact:19005293",
+                "identity_aliases": [
+                  "scifact:19005293"
+                ],
+                "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+                "paper": {
+                  "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                  "authors": [],
+                  "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "19005293",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "19005293",
+                    "query_id": "fixed",
+                    "rank": 1
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                    "authors": [],
+                    "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "19005293",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:9650982",
+                "identity_aliases": [
+                  "scifact:9650982"
+                ],
+                "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+                "paper": {
+                  "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                  "authors": [],
+                  "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "9650982",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "9650982",
+                    "query_id": "fixed",
+                    "rank": 2
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                    "authors": [],
+                    "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "9650982",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              },
+              {
+                "identity": "scifact:28206748",
+                "identity_aliases": [
+                  "scifact:28206748"
+                ],
+                "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+                "paper": {
+                  "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                  "authors": [],
+                  "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "28206748",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                },
+                "provenance": [
+                  {
+                    "provider": "scifact-benchmark",
+                    "source_id": "28206748",
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ],
+                "source_records": [
+                  {
+                    "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                    "authors": [],
+                    "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                    "year": null,
+                    "publication_date": null,
+                    "doi": null,
+                    "source": "scifact-benchmark",
+                    "source_id": "28206748",
+                    "landing_url": null,
+                    "pdf_url": null,
+                    "pdf_urls": []
+                  }
+                ]
+              }
+            ],
+            "providers": {
+              "scifact-benchmark": {
+                "provider": "scifact-benchmark",
+                "status": "success",
+                "seconds": 0.0,
+                "error": null,
+                "queries": [
+                  {
+                    "id": "fixed",
+                    "provider": "scifact-benchmark",
+                    "strategy": "fixed candidate engineering test",
+                    "stage": "evaluation",
+                    "query": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+                    "notes": [],
+                    "status": "success",
+                    "returned": null,
+                    "seconds": 0.0,
+                    "error": null,
+                    "attempts": []
+                  }
+                ],
+                "records": [
+                  {
+                    "paper": {
+                      "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                      "authors": [],
+                      "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "19005293",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 1
+                  },
+                  {
+                    "paper": {
+                      "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                      "authors": [],
+                      "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "9650982",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 2
+                  },
+                  {
+                    "paper": {
+                      "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                      "authors": [],
+                      "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                      "year": null,
+                      "publication_date": null,
+                      "doi": null,
+                      "source": "scifact-benchmark",
+                      "source_id": "28206748",
+                      "landing_url": null,
+                      "pdf_url": null,
+                      "pdf_urls": []
+                    },
+                    "query_id": "fixed",
+                    "rank": 3
+                  }
+                ]
+              }
+            },
+            "seconds": 0.0,
+            "http_attempts": 0
+          },
+          "bm25_ranking": [
+            "scifact:19005293",
+            "scifact:28206748",
+            "scifact:9650982"
+          ],
+          "sbert_ranking": [
+            "scifact:19005293",
+            "scifact:28206748",
+            "scifact:9650982"
+          ],
+          "bm25_seconds": 0.00010590004967525601,
+          "sbert_seconds": 0.008141700003761798
+        },
+        "configuration": {
+          "rrf_k": 60,
+          "output_top_k": null,
+          "rerank_enabled": false,
+          "rerank_top_n": 20
+        },
+        "model": null,
+        "papers": [
+          {
+            "entry": {
+              "identity": "scifact:19005293",
+              "identity_aliases": [
+                "scifact:19005293"
+              ],
+              "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+              "paper": {
+                "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                "authors": [],
+                "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "19005293",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "19005293",
+                  "query_id": "fixed",
+                  "rank": 1
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Memory CD4+ T cells induce innate responses independently of pathogen",
+                  "authors": [],
+                  "abstract": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses. We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses. We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus. Memory CD4+ T cell–induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production and do not require activation of conserved pathogen recognition pathways. This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "19005293",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 1,
+            "rrf_score": 0.03278688524590164,
+            "bm25_rank": 1,
+            "sbert_rank": 1,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:28206748",
+              "identity_aliases": [
+                "scifact:28206748"
+              ],
+              "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+              "paper": {
+                "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                "authors": [],
+                "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "28206748",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "28206748",
+                  "query_id": "fixed",
+                  "rank": 3
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Core binding factors are necessary for natural killer cell development and cooperate with Notch signaling during T-cell specification.",
+                  "authors": [],
+                  "abstract": "CBFbeta is the non-DNA binding subunit of the core binding factors (CBFs). Mice with reduced CBFbeta levels display profound, early defects in T-cell but not B-cell development. Here we show that CBFbeta is also required at very early stages of natural killer (NK)-cell development. We also demonstrate that T-cell development aborts during specification, as the expression of Gata3 and Tcf7, which encode key regulators of T lineage specification, is substantially reduced, as are functional thymic progenitors. Constitutively active Notch or IL-7 signaling cannot restore T-cell expansion or differentiation of CBFbeta insufficient cells, nor can overexpression of Runx1 or CBFbeta overcome a lack of Notch signaling. Therefore, the ability of the prethymic cell to respond appropriately to Notch is dependent on CBFbeta, and both signals converge to activate the T-cell developmental program.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "28206748",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 2,
+            "rrf_score": 0.03225806451612903,
+            "bm25_rank": 2,
+            "sbert_rank": 2,
+            "cross_encoder_score": null
+          },
+          {
+            "entry": {
+              "identity": "scifact:9650982",
+              "identity_aliases": [
+                "scifact:9650982"
+              ],
+              "original_claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+              "paper": {
+                "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                "authors": [],
+                "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                "year": null,
+                "publication_date": null,
+                "doi": null,
+                "source": "scifact-benchmark",
+                "source_id": "9650982",
+                "landing_url": null,
+                "pdf_url": null,
+                "pdf_urls": []
+              },
+              "provenance": [
+                {
+                  "provider": "scifact-benchmark",
+                  "source_id": "9650982",
+                  "query_id": "fixed",
+                  "rank": 2
+                }
+              ],
+              "source_records": [
+                {
+                  "title": "Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer",
+                  "authors": [],
+                  "abstract": "To identify new genetic factors for colorectal cancer (CRC), we conducted a                 genome-wide association study in east Asians. By analyzing genome-wide data in 2,098                 cases and 5,749 controls, we selected 64 promising SNPs for replication in an                 independent set of samples, including up to 5,358 cases and 5,922 controls. We                 identified four SNPs with association P values of 8.58 ×                     10(-7) to 3.77 × 10(-10)                 in the combined analysis of all east Asian samples. Three of the four were                 replicated in a study conducted in 26,060 individuals of European descent, with                 combined P values of 1.22 × 10(-10) for                 rs647161 (5q31.1), 6.64 × 10(-9) for rs2423279                 (20p12.3) and 3.06 × 10(-8) for rs10774214                 (12p13.32 near the CCND2 gene), derived from meta-analysis of data from both                 east Asian and European-ancestry populations. This study identified three new CRC                 susceptibility loci and provides additional insight into the genetics and biology of                 CRC.",
+                  "year": null,
+                  "publication_date": null,
+                  "doi": null,
+                  "source": "scifact-benchmark",
+                  "source_id": "9650982",
+                  "landing_url": null,
+                  "pdf_url": null,
+                  "pdf_urls": []
+                }
+              ]
+            },
+            "rank": 3,
+            "rrf_score": 0.031746031746031744,
+            "bm25_rank": 3,
+            "sbert_rank": 3,
+            "cross_encoder_score": null
+          }
+        ],
+        "ranked_union_size": 3,
+        "rerank_scored_count": 0,
+        "latency": {
+          "search_seconds": null,
+          "bm25_seconds": 0.00010590004967525601,
+          "sbert_seconds": 0.008141700003761798,
+          "rrf_seconds": 0.00009139999747276306,
+          "rerank_seconds": null,
+          "end_to_end_seconds": null
+        },
+        "ranking_seconds": 0.0002403000253252685,
+        "warnings": []
+      }
+    }
+  },
+  "snapshot_hash": "5cd8e4e3c12ffa82b83a8bbb88e9ca0d150df20b492a2db50ba7870c9099e60f",
+  "selected_paper_ids": [
+    "scifact:19005293",
+    "scifact:28206748",
+    "scifact:9650982"
+  ],
+  "aggregation": {
+    "claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "scifact:19005293:abstract:248:485:206f9579adf0",
+        "paper_id": "scifact:19005293",
+        "section": "abstract",
+        "text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+        "score": 0.6069896221160889,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9891822934150696,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "eced8b90c267a5e8a7249e4c5fff06a9eacc15f590e34dc98b3f4ed14eab48d5",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+        "citation_ids": [
+          "scifact:19005293:abstract:248:485:206f9579adf0"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

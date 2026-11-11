@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/YYU035/NLP_Project",
+  "commit": "ba8cdd6e7766306447913d8087b23f62195fa05a",
+  "source": "ranking_evaluation/contextual_evidence.py",
+  "upstream_sha256": "e931543344a6f93728cb8ef3a98b754437bf4a9b5fbecc2dd5427e9f5a43a3bf",
+  "adaptation": "Relative imports point to the existing owned pinned Person3 modules; no algorithm changes."
+}

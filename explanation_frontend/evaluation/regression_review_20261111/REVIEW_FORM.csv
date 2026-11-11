@@ -1,0 +1,10 @@
+﻿review_order,case_id,claim,reference_label,baseline,candidate,selection_reason,case_page,evidence_supports_verdict,citation_correct,context_helpful,reviewer_name,issue_notes
+1,499,HbA1c consistently overestimates glycemic control in black individuals with Sickle cell trait (SCT).,CONTRADICTED,CONTRADICTED,CONFLICTING,One representative of CONTRADICTED → CONFLICTING,cases/499.html,,,,,
+2,647,Integrated care is ineffective at tackling multiple comorbidities.,CONTRADICTED,CONTRADICTED,INSUFFICIENT,One representative of CONTRADICTED → INSUFFICIENT,cases/647.html,,,,,
+3,1065,Satellite cell dysfunction is a key factor in sarcopenia development.,CONTRADICTED,CONTRADICTED,SUPPORTED,One representative of CONTRADICTED → SUPPORTED,cases/1065.html,,,,,
+4,698,Lmna knock-in models are appropriate for testing therapeutic approaches against Hutchinson-Gilford progeria syndrome (HGPS).,INSUFFICIENT,INSUFFICIENT,SUPPORTED,One representative of INSUFFICIENT → SUPPORTED,cases/698.html,,,,,
+5,375,Elevated cell-free mitochondrial DNA levels are associated with mortality.,SUPPORTED,SUPPORTED,INSUFFICIENT,One representative of SUPPORTED → INSUFFICIENT,cases/375.html,,,,,
+6,370,Egr2 regulates the homeostasis of B and T cells.,SUPPORTED,CONFLICTING,SUPPORTED,Recovered SUPPORTED case,cases/370.html,,,,,
+7,365,ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.,INSUFFICIENT,CONTRADICTED,INSUFFICIENT,Recovered INSUFFICIENT case,cases/365.html,,,,,
+8,466,Genomic sequences involved in alternative splicing responsible for Hutchinson-Gilford progeria syndrome (HGPS) are abundant in the ''progerinonly'' allele of Lmna knock-in models.,CONTRADICTED,INSUFFICIENT,INSUFFICIENT,Persistent contradiction error,cases/466.html,,,,,
+9,pdf-ig-paper,Integrated Gradients satisfies Sensitivity and Implementation Invariance.,NOT_ADJUDICATED,recorded existing PDF policy,INSUFFICIENT,Real PDF page/citation/reading-order inspection; PDF selector unchanged,cases/pdf.html,,,,,

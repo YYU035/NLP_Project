@@ -1,0 +1,241 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.057600+00:00",
+    "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+    "created_at": "2026-11-10T17:37:55.057600Z",
+    "retrieved_at": "2026-11-10T17:37:55.057600Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "yuyue_primary",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1327",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"bounded_abstract\", \"min_paper_score\": 0.65, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "24241932": {
+        "paper_id": "24241932",
+        "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "10365749": {
+        "paper_id": "10365749",
+        "title": "Neighbourhood risk factors for tuberculosis in Hong Kong.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22414304": {
+        "paper_id": "22414304",
+        "title": "Treatment outcome of an unselected cohort of tuberculosis patients in relation to human immunodeficiency virus serostatus in Zomba Hospital, Malawi.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5284188": {
+        "paper_id": "5284188",
+        "title": "Alarming levels of drug-resistant tuberculosis in Belarus: results of a survey in Minsk",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7111021": {
+        "paper_id": "7111021",
+        "title": "Integration of antiretroviral therapy with tuberculosis treatment.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "24241932": {
+          "paper_id": "24241932",
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10365749": {
+          "paper_id": "10365749",
+          "title": "Neighbourhood risk factors for tuberculosis in Hong Kong.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "22414304": {
+          "paper_id": "22414304",
+          "title": "Treatment outcome of an unselected cohort of tuberculosis patients in relation to human immunodeficiency virus serostatus in Zomba Hospital, Malawi.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5284188": {
+          "paper_id": "5284188",
+          "title": "Alarming levels of drug-resistant tuberculosis in Belarus: results of a survey in Minsk",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7111021": {
+          "paper_id": "7111021",
+          "title": "Integration of antiretroviral therapy with tuberculosis treatment.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "24241932:abstract:0:1373:bdc70eb834ee": {
+          "passage_id": "24241932:abstract:0:1373:bdc70eb834ee",
+          "paper_id": "24241932",
+          "label": "NEUTRAL",
+          "confidence": 0.9941421151161194,
+          "truncated": false
+        },
+        "10365749:abstract:0:1355:8ad1877f972b": {
+          "passage_id": "10365749:abstract:0:1355:8ad1877f972b",
+          "paper_id": "10365749",
+          "label": "NEUTRAL",
+          "confidence": 0.9951855540275574,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "24241932:abstract:0:1373:bdc70eb834ee",
+          "paper_id": "24241932",
+          "section": "abstract",
+          "text": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n SETTING Birmingham, 1989-93.    SUBJECTS 1516 notified cases of tuberculosis.   \n MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01). All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates. For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036). No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity. These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group.",
+          "score": 0.7262752056121826,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10365749:abstract:0:1355:8ad1877f972b",
+          "paper_id": "10365749",
+          "section": "abstract",
+          "text": "BACKGROUND Tuberculosis (TB) has been reported to be associated with poverty, especially in developing countries. Hong Kong is one of the few industrialised areas with a high incidence of TB where previous reports on the effect of poverty at neighbourhood level have been conflicting.   \n OBJECTIVE To examine the spatial distribution of TB and its association with neighbourhood risk factors.   \n METHOD A total of 17 294 TB cases notified from 2005 to 2007 were mapped down to the District Council Constituency Area (DCCA) level, and were indirectly standardised by age and sex using 2006 census population data. The standardised TB ratio was correlated with neighbourhood risk factors classified by family, ethnicity, economic and environmental domains.   \n RESULTS The indirect age- and sex-standardised ratio demonstrated a spatially varied pattern, and was significantly associated with all neighbourhood factors on univariate analysis. Only marital status, place of birth and low household income were independently associated with the standardised TB ratio on multivariate analysis.   \n CONCLUSION Despite the virtual elimination of absolute poverty by a well-developed social assistance scheme, low household income in the neighbourhood was significantly associated with TB, independently of place of birth, marital status and other risk factors.",
+          "score": 0.6649034023284912,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "12e896028a13033c589ecc9b38cf5491687afeb16acfd3207e6399fa3f17fcc3",
+  "selected_paper_ids": [
+    "10365749",
+    "22414304",
+    "24241932",
+    "5284188",
+    "7111021"
+  ],
+  "aggregation": {
+    "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "edb3f7139198ca44e94a61fc5376bc633c3114b79f6eea32e27c778e2a1e48db",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

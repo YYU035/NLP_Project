@@ -1,0 +1,462 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.008551+00:00",
+    "claim": "Malaria has a high vectorial capacity.",
+    "created_at": "2026-11-10T17:37:55.008551Z",
+    "retrieved_at": "2026-11-10T17:37:55.008551Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "753",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "40900567": {
+        "paper_id": "40900567",
+        "title": "Parasite multiplication potential and the severity of Falciparum malaria.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1349033": {
+        "paper_id": "1349033",
+        "title": "Advantages of larval control for African malaria vectors: Low mobility and behavioural responsiveness of immature mosquito stages allow high effective coverage",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5289038": {
+        "paper_id": "5289038",
+        "title": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13959707": {
+        "paper_id": "13959707",
+        "title": "The Ratio of Monocytes to Lymphocytes in Peripheral Blood Correlates with Increased Susceptibility to Clinical Malaria in Kenyan Children",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18074797": {
+        "paper_id": "18074797",
+        "title": "Reducing Plasmodium falciparum Malaria Transmission in Africa: A Model-Based Evaluation of Intervention Strategies",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "40900567": {
+          "paper_id": "40900567",
+          "title": "Parasite multiplication potential and the severity of Falciparum malaria.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "1349033": {
+          "paper_id": "1349033",
+          "title": "Advantages of larval control for African malaria vectors: Low mobility and behavioural responsiveness of immature mosquito stages allow high effective coverage",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5289038": {
+          "paper_id": "5289038",
+          "title": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13959707": {
+          "paper_id": "13959707",
+          "title": "The Ratio of Monocytes to Lymphocytes in Peripheral Blood Correlates with Increased Susceptibility to Clinical Malaria in Kenyan Children",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18074797": {
+          "paper_id": "18074797",
+          "title": "Reducing Plasmodium falciparum Malaria Transmission in Africa: A Model-Based Evaluation of Intervention Strategies",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "40900567:abstract:814:963:5d396e49b697": {
+          "passage_id": "40900567:abstract:814:963:5d396e49b697",
+          "paper_id": "40900567",
+          "label": "NEUTRAL",
+          "confidence": 0.9990184307098389,
+          "truncated": false
+        },
+        "40900567:abstract:620:813:1732ad749721": {
+          "passage_id": "40900567:abstract:620:813:1732ad749721",
+          "paper_id": "40900567",
+          "label": "NEUTRAL",
+          "confidence": 0.9878833889961243,
+          "truncated": false
+        },
+        "40900567:abstract:224:374:2b6d4289520b": {
+          "passage_id": "40900567:abstract:224:374:2b6d4289520b",
+          "paper_id": "40900567",
+          "label": "NEUTRAL",
+          "confidence": 0.9987081289291382,
+          "truncated": false
+        },
+        "1349033:abstract:1047:1262:a126a4d70db1": {
+          "passage_id": "1349033:abstract:1047:1262:a126a4d70db1",
+          "paper_id": "1349033",
+          "label": "NEUTRAL",
+          "confidence": 0.9954264760017395,
+          "truncated": false
+        },
+        "1349033:abstract:1263:1540:7daec2fa0d21": {
+          "passage_id": "1349033:abstract:1263:1540:7daec2fa0d21",
+          "paper_id": "1349033",
+          "label": "NEUTRAL",
+          "confidence": 0.9723005890846252,
+          "truncated": false
+        },
+        "1349033:abstract:0:256:381716385cd4": {
+          "passage_id": "1349033:abstract:0:256:381716385cd4",
+          "paper_id": "1349033",
+          "label": "NEUTRAL",
+          "confidence": 0.9780738949775696,
+          "truncated": false
+        },
+        "5289038:abstract:0:179:cdc4ef403239": {
+          "passage_id": "5289038:abstract:0:179:cdc4ef403239",
+          "paper_id": "5289038",
+          "label": "NEUTRAL",
+          "confidence": 0.9931641221046448,
+          "truncated": false
+        },
+        "5289038:abstract:273:500:aec5327dd884": {
+          "passage_id": "5289038:abstract:273:500:aec5327dd884",
+          "paper_id": "5289038",
+          "label": "NEUTRAL",
+          "confidence": 0.9938598871231079,
+          "truncated": false
+        },
+        "5289038:abstract:501:735:fde4fce317d9": {
+          "passage_id": "5289038:abstract:501:735:fde4fce317d9",
+          "paper_id": "5289038",
+          "label": "NEUTRAL",
+          "confidence": 0.999032735824585,
+          "truncated": false
+        },
+        "13959707:abstract:0:106:4ef5537f0d29": {
+          "passage_id": "13959707:abstract:0:106:4ef5537f0d29",
+          "paper_id": "13959707",
+          "label": "NEUTRAL",
+          "confidence": 0.9989727735519409,
+          "truncated": false
+        },
+        "13959707:abstract:296:519:350b567b0500": {
+          "passage_id": "13959707:abstract:296:519:350b567b0500",
+          "paper_id": "13959707",
+          "label": "NEUTRAL",
+          "confidence": 0.9981935620307922,
+          "truncated": false
+        },
+        "13959707:abstract:721:892:e13d042aaaa2": {
+          "passage_id": "13959707:abstract:721:892:e13d042aaaa2",
+          "paper_id": "13959707",
+          "label": "NEUTRAL",
+          "confidence": 0.9989699125289917,
+          "truncated": false
+        },
+        "18074797:abstract:214:558:75c38eb206dd": {
+          "passage_id": "18074797:abstract:214:558:75c38eb206dd",
+          "paper_id": "18074797",
+          "label": "NEUTRAL",
+          "confidence": 0.8196009993553162,
+          "truncated": false
+        },
+        "18074797:abstract:2164:2323:5eeb39b35a45": {
+          "passage_id": "18074797:abstract:2164:2323:5eeb39b35a45",
+          "paper_id": "18074797",
+          "label": "NEUTRAL",
+          "confidence": 0.9954289197921753,
+          "truncated": false
+        },
+        "18074797:abstract:0:95:c789667495ab": {
+          "passage_id": "18074797:abstract:0:95:c789667495ab",
+          "paper_id": "18074797",
+          "label": "NEUTRAL",
+          "confidence": 0.9989758729934692,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "40900567:abstract:814:963:5d396e49b697",
+          "paper_id": "40900567",
+          "section": "abstract",
+          "text": "P. falciparum parasites causing severe malaria were less selective and multiplied more at high parasitemias than those causing uncomplicated malaria.",
+          "score": 0.6272525787353516,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "40900567:abstract:620:813:1732ad749721",
+          "paper_id": "40900567",
+          "section": "abstract",
+          "text": "Parasites causing severe malaria exhibited unrestricted red blood cell invasion, whereas those from uncomplicated malaria were restricted to a geometric mean of 40 (31%-53%) of red blood cells.",
+          "score": 0.6057469248771667,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "40900567:abstract:224:374:2b6d4289520b",
+          "paper_id": "40900567",
+          "section": "abstract",
+          "text": "To simulate severe malaria and control for host effects, the in vitro cultures were adjusted to 1% parasitemia and used the same red blood cell donor.",
+          "score": 0.5922529697418213,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1349033:abstract:1047:1262:a126a4d70db1",
+          "paper_id": "1349033",
+          "section": "abstract",
+          "text": "We review historical evidence that larval control of African malaria vectors can be effective and conclude that the only limitations to the effective coverage of larval control are practical rather than fundamental.",
+          "score": 0.6708070635795593,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1349033:abstract:1263:1540:7daec2fa0d21",
+          "paper_id": "1349033",
+          "section": "abstract",
+          "text": "Larval control strategies against the vectors of malaria in sub-Saharan Africa could be highly effective, complementary to adult control interventions, and should be prioritized for further development, evaluation and implementation as an integral part of Rolling Back Malaria.",
+          "score": 0.6277798414230347,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1349033:abstract:0:256:381716385cd4",
+          "paper_id": "1349033",
+          "section": "abstract",
+          "text": "Based on sensitivity analysis of the MacDonald-Ross model, it has long been argued that the best way to reduce malaria transmission is to target adult female mosquitoes with insecticides that can reduce the longevity and human-feeding frequency of vectors.",
+          "score": 0.6257884502410889,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5289038:abstract:0:179:cdc4ef403239",
+          "paper_id": "5289038",
+          "section": "abstract",
+          "text": "Immune clearance and resource limitation (via red blood cell depletion) shape the peaks and troughs of malaria parasitemia, which in turn affect disease severity and transmission.",
+          "score": 0.6915985345840454,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5289038:abstract:273:500:aec5327dd884",
+          "paper_id": "5289038",
+          "section": "abstract",
+          "text": "Using data from rodent malaria, we estimated the effective propagation number, which reflects the relative importance of contrasting within-host control mechanisms through time and is sensitive to the inoculating parasite dose.",
+          "score": 0.612435519695282,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5289038:abstract:501:735:fde4fce317d9",
+          "paper_id": "5289038",
+          "section": "abstract",
+          "text": "Our analysis showed that the capacity of innate responses to restrict initial parasite growth saturates with parasite dose and that experimentally enhanced innate immunity can affect parasite density indirectly via resource depletion.",
+          "score": 0.5662504434585571,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13959707:abstract:0:106:4ef5537f0d29",
+          "paper_id": "13959707",
+          "section": "abstract",
+          "text": "BACKGROUND Plasmodium falciparum malaria remains a major cause of illness and death in sub-Saharan Africa.",
+          "score": 0.6106932163238525,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13959707:abstract:296:519:350b567b0500",
+          "paper_id": "13959707",
+          "section": "abstract",
+          "text": "A better understanding of the host factors associated with immunity to clinical malaria and the ability to sustain asymptomatic P. falciparum infection will aid the development of improved strategies for disease prevention.",
+          "score": 0.6067520976066589,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13959707:abstract:721:892:e13d042aaaa2",
+          "paper_id": "13959707",
+          "section": "abstract",
+          "text": "We find that the ratio of monocytes to lymphocytes, measured in peripheral blood at the time of survey, directly correlates with risk of clinical malaria during follow-up.",
+          "score": 0.57955002784729,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18074797:abstract:214:558:75c38eb206dd",
+          "paper_id": "18074797",
+          "section": "abstract",
+          "text": "METHODS AND FINDINGS We developed an individual-based simulation model for Plasmodium falciparum transmission in an African context incorporating the three major vector species (Anopheles gambiae s.s., An. arabiensis, and An. funestus) with parameters obtained by fitting to parasite prevalence data from 34 transmission settings across Africa.",
+          "score": 0.6322886347770691,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18074797:abstract:2164:2323:5eeb39b35a45",
+          "paper_id": "18074797",
+          "section": "abstract",
+          "text": "CONCLUSIONS Interventions using current tools can result in major reductions in P. falciparum malaria transmission and the associated disease burden in Africa.",
+          "score": 0.6253900527954102,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18074797:abstract:0:95:c789667495ab",
+          "paper_id": "18074797",
+          "section": "abstract",
+          "text": "BACKGROUND Over the past decade malaria intervention coverage has been scaled up across Africa.",
+          "score": 0.5921595692634583,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Malaria has a high vectorial capacity.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "90525be7f246cfb51caf30325d4e8068898f9ea34b83b7d4a52227bc4fb230a2",
+  "selected_paper_ids": [
+    "1349033",
+    "13959707",
+    "18074797",
+    "40900567",
+    "5289038"
+  ],
+  "aggregation": {
+    "claim": "Malaria has a high vectorial capacity.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "6af3814b131ead5d78cfcde581016f0d76fa4fa8ac58cf3caeaa8b256b9e52ea",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

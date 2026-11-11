@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "run_id": "synthetic-truncated-v1",
+  "claim": "In the simulated benchmark, method A reduces latency relative to method B.",
+  "created_at": "2026-10-31T09:00:00Z",
+  "retrieved_at": "2026-10-31T09:00:00Z",
+  "mode": "demo",
+  "source_snapshot_id": "synthetic-truncated-v1",
+  "filters": {
+    "corpus": "synthetic"
+  },
+  "search_complete": true,
+  "papers": {
+    "demo:alpha": {
+      "paper_id": "demo:alpha",
+      "title": "Synthetic latency experiment alpha",
+      "authors": [
+        "Invented Researcher"
+      ],
+      "year": 2026,
+      "venue": "Synthetic fixture (not a publication)",
+      "url": null,
+      "source_version": "fixture-v1",
+      "source_status": "synthetic",
+      "has_fulltext": false,
+      "is_open_access": null,
+      "retrieval_scores": {
+        "demo_relevance": 0.8
+      }
+    }
+  },
+  "stage_statuses": {
+    "search": "fixture",
+    "retrieval": "fixture",
+    "passage_selection": "fixture",
+    "verification": "fixture"
+  },
+  "verification": {
+    "per_paper_verdicts": {
+      "demo:alpha": {
+        "paper_id": "demo:alpha",
+        "title": "Synthetic latency experiment alpha",
+        "verdict": "INSUFFICIENT",
+        "confidence": 0.91,
+        "evidence_type": "abstract_only",
+        "sufficiency_cause": "TRUNCATED",
+        "conflict_flag": false,
+        "supporting_passage_ids": [],
+        "contradicting_passage_ids": []
+      }
+    },
+    "per_passage_labels": {
+      "demo:alpha#p0": {
+        "passage_id": "demo:alpha#p0",
+        "paper_id": "demo:alpha",
+        "label": "NEUTRAL",
+        "confidence": 0.91,
+        "truncated": true
+      }
+    },
+    "processing_failures": [],
+    "evidence_passages": [
+      {
+        "passage_id": "demo:alpha#p0",
+        "paper_id": "demo:alpha",
+        "section": "abstract",
+        "text": "This synthetic study measured memory usage and did not evaluate latency.",
+        "score": 0.8,
+        "page": null,
+        "sentence_indices": [
+          0
+        ],
+        "source_version": "fixture-v1"
+      }
+    ],
+    "model_settings": {
+      "checkpoint": "synthetic-no-model",
+      "revision": "fixture-v1",
+      "max_length": 512,
+      "threshold": null,
+      "seed": 0
+    }
+  },
+  "provisional": {
+    "claim": "In the simulated benchmark, method A reduces latency relative to method B.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.91,
+    "verdict_delta_reason": "Synthetic all-paper baseline.",
+    "status": "ok",
+    "sufficiency_cause": "TRUNCATED"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:29.583987+00:00",
+    "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+    "created_at": "2026-11-10T17:03:29.583987Z",
+    "retrieved_at": "2026-11-10T17:03:29.583987Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "4926049": {
+        "paper_id": "4926049",
+        "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7848113": {
+        "paper_id": "7848113",
+        "title": "Telomere-bound TRF1 and TRF2 stall the replication fork at telomeric repeats.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "7468449": {
+        "paper_id": "7468449",
+        "title": "A beginning of the end: new insights into the functional organization of telomeres",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4429388": {
+        "paper_id": "4429388",
+        "title": "ESCRT-III recognition by VPS4 ATPases",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "213017": {
+        "paper_id": "213017",
+        "title": "PML induces compaction, TRF2 depletion and DNA damage signaling at telomeres and promotes their alternative lengthening.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "4926049": {
+          "paper_id": "4926049",
+          "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9995762705802917,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "4926049:abstract:0:1051:5ce7c9787580"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "7848113": {
+          "paper_id": "7848113",
+          "title": "Telomere-bound TRF1 and TRF2 stall the replication fork at telomeric repeats.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "7468449": {
+          "paper_id": "7468449",
+          "title": "A beginning of the end: new insights into the functional organization of telomeres",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4429388": {
+          "paper_id": "4429388",
+          "title": "ESCRT-III recognition by VPS4 ATPases",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "213017": {
+          "paper_id": "213017",
+          "title": "PML induces compaction, TRF2 depletion and DNA damage signaling at telomeres and promotes their alternative lengthening.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "4926049:abstract:0:1051:5ce7c9787580": {
+          "passage_id": "4926049:abstract:0:1051:5ce7c9787580",
+          "paper_id": "4926049",
+          "label": "SUPPORT",
+          "confidence": 0.9995762705802917,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "4926049:abstract:0:1051:5ce7c9787580",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres. An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear. Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases. We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H). Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle. These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase.",
+          "score": 0.7642272710800171,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "4926049:abstract:0:1051:5ce7c9787580",
+          "paper_id": "4926049",
+          "section": "abstract",
+          "text": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres. An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear. Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases. We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H). Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle. These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase.",
+          "score": 0.7642272710800171,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9995762705802917,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "b0eeafcb7f8036e14441709a2db8a6c27b879e6c57195c57cb20be748f59847f",
+  "selected_paper_ids": [
+    "213017",
+    "4429388",
+    "4926049",
+    "7468449",
+    "7848113"
+  ],
+  "aggregation": {
+    "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "4926049:abstract:0:1051:5ce7c9787580",
+        "paper_id": "4926049",
+        "section": "abstract",
+        "text": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres. An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear. Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases. We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H). Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle. These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase.",
+        "score": 0.7642272710800171,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9995762705802917,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "419a3eef3f6a3dd5f546db56bc366649ef7f6a9edb7f73eefac522c21cb36841",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres. An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear. Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases. We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H). Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle. These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase.",
+        "citation_ids": [
+          "4926049:abstract:0:1051:5ce7c9787580"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

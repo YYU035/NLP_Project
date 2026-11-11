@@ -1,0 +1,357 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.706934+00:00",
+    "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+    "created_at": "2026-11-10T16:49:55.706934Z",
+    "retrieved_at": "2026-11-10T16:49:55.706934Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "33409100": {
+        "paper_id": "33409100",
+        "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "42441846": {
+        "paper_id": "42441846",
+        "title": "Gene--nutrition interactions in coronary artery disease: correlation between the MTHFR C677T polymorphism and folate and homocysteine status in a Korean population.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18557974": {
+        "paper_id": "18557974",
+        "title": "British Journal of Nutrition (2003), 89, 295–301 q The Authors 2003 DOI: 10.1079/BJN2002776 Plasma homocysteine concentration is decreased by dietary intervention*",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "16252863": {
+        "paper_id": "16252863",
+        "title": "Preventing coronary heart disease: B vitamins and homocysteine.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "11705328": {
+        "paper_id": "11705328",
+        "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "33409100": {
+          "paper_id": "33409100",
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "42441846": {
+          "paper_id": "42441846",
+          "title": "Gene--nutrition interactions in coronary artery disease: correlation between the MTHFR C677T polymorphism and folate and homocysteine status in a Korean population.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9988229870796204,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "42441846:abstract:0:1800:217532fd12f0"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "18557974": {
+          "paper_id": "18557974",
+          "title": "British Journal of Nutrition (2003), 89, 295–301 q The Authors 2003 DOI: 10.1079/BJN2002776 Plasma homocysteine concentration is decreased by dietary intervention*",
+          "verdict": "SUPPORTED",
+          "confidence": 0.984786331653595,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "18557974:abstract:0:1436:0b3a7b2a1c7b"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "16252863": {
+          "paper_id": "16252863",
+          "title": "Preventing coronary heart disease: B vitamins and homocysteine.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "11705328": {
+          "paper_id": "11705328",
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "33409100:abstract:159:277:cd2bf2f16841": {
+          "passage_id": "33409100:abstract:159:277:cd2bf2f16841",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9977467656135559,
+          "truncated": false
+        },
+        "33409100:abstract:1373:1496:5e0755110a76": {
+          "passage_id": "33409100:abstract:1373:1496:5e0755110a76",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9989186525344849,
+          "truncated": false
+        },
+        "33409100:abstract:0:158:b8aebccf37e6": {
+          "passage_id": "33409100:abstract:0:158:b8aebccf37e6",
+          "paper_id": "33409100",
+          "label": "NEUTRAL",
+          "confidence": 0.9986295700073242,
+          "truncated": false
+        },
+        "42441846:abstract:0:1800:217532fd12f0": {
+          "passage_id": "42441846:abstract:0:1800:217532fd12f0",
+          "paper_id": "42441846",
+          "label": "SUPPORT",
+          "confidence": 0.9988229870796204,
+          "truncated": false
+        },
+        "18557974:abstract:0:1436:0b3a7b2a1c7b": {
+          "passage_id": "18557974:abstract:0:1436:0b3a7b2a1c7b",
+          "paper_id": "18557974",
+          "label": "SUPPORT",
+          "confidence": 0.984786331653595,
+          "truncated": false
+        },
+        "16252863:abstract:0:2151:a5f9a0452ab9": {
+          "passage_id": "16252863:abstract:0:2151:a5f9a0452ab9",
+          "paper_id": "16252863",
+          "label": "NEUTRAL",
+          "confidence": 0.9984337687492371,
+          "truncated": false
+        },
+        "11705328:abstract:0:1699:847feb38dd24": {
+          "passage_id": "11705328:abstract:0:1699:847feb38dd24",
+          "paper_id": "11705328",
+          "label": "NEUTRAL",
+          "confidence": 0.998869001865387,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "33409100:abstract:159:277:cd2bf2f16841",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.",
+          "score": 0.7371882200241089,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "33409100:abstract:1373:1496:5e0755110a76",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "score": 0.6972770094871521,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "33409100:abstract:0:158:b8aebccf37e6",
+          "paper_id": "33409100",
+          "section": "abstract",
+          "text": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease.",
+          "score": 0.6507083177566528,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "42441846:abstract:0:1800:217532fd12f0",
+          "paper_id": "42441846",
+          "section": "abstract",
+          "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD). Methyltetrahydrofolate reductase (MTHFR) is a main regulatory enzyme in homocysteine metabolism; a common C677T mutation in the MTHFR gene results in decreased enzyme activity, and contributes to increased homocysteine levels and decreased folate levels. We investigated the frequency of MTHFR C677T alleles in a Korean population, determined the genotype-specific threshold levels of folate or vitamin B12, and investigated the relationship between the TT genotype and the risk of CAD.    MATERIALS AND METHODS We enrolled a study population of 163 CAD patients and 50 control subjects, and screened the MTHFR C677T polymorphism using real-time PCR with melting point analysis. Levels of plasma homocysteine, folate and vitamin B12 were also determined. We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.   \n RESULTS The frequency of the TT genotype was 18% in control subjects and 26% in patients group (P>0.05). Individuals homozygous for the TT genotype had significantly elevated homocysteine levels (P<0.05). The genotype-specific folate threshold level was significantly higher in TT individuals than in the CC or CT genotypes. The OR of individuals with low folate status and the TT genotype to estimate the relative risk of CAD was 2.2 and the OR of those with high folate status and the TT genotype was 1.5 (95% CI, 0.5-9.6 and 0.7-3.2, respectively).   \n CONCLUSION We were able to define a gene-nutrient interaction that shows a higher risk for CAD based on specific threshold folate levels required by different MTHFR C677T genotypes in a Korean population.",
+          "score": 0.8477963805198669,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "18557974:abstract:0:1436:0b3a7b2a1c7b",
+          "paper_id": "18557974",
+          "section": "abstract",
+          "text": "High plasma total homocysteine (tHcy) concentration is reported to be a risk factor for vascular diseases. We investigated the extent to which serum folate and plasma tHcy respond to a high intake of natural folate from food. Thirty-seven healthy females volunteered t o participate in a crossover dietary intervention. The study included a baseline period and two 5-week diet periods (low- and high-folate diets) with a 3-week washout in between. The low-folate diet contained one serving of both vegetables and fruit/d, while during the high-folate diet the subjects ate at least seven servings of vegetables, berries, and citrus fruit/d. Serum and erythrocyte (RBC) folate, serum vitamin B (12), and plasma tHcy concentrations were measured at the base-line and at the end of each diet period. The mean concentrations of serum and RBC folate were 11.0 (SD 3.0) nmol/l and 412 (SD 120) nmol/l at the end of the low-folate diet and 78 (95 % CI 62, 94) % and 14 (95 % CI 8, 20) % higher in response to the high-folate diet (P< 0.001). The serum concentration of vitamin B12 remained unchanged during the intervention. The mean plasma tHcy concentration was 8.0 pmol/ at the end of the low-folate diet and decreased by 13 (95% CI 9, 18) % in response to the high-folate diet (P<0.001). In conclusion, a diet high in fresh berries, citrus fruit, and vegetables effectively increases serum and RBC folate and decreases plasma homocysteine.",
+          "score": 0.7128431797027588,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "16252863:abstract:0:2151:a5f9a0452ab9",
+          "paper_id": "16252863",
+          "section": "abstract",
+          "text": "The list of preventable and reversible risk factors for atherosclerotic cardiovascular disease continues to grow. Cigarette smoking, high blood pressure, physical inactivity, elevated cholesterol, underlying lipoprotein abnormalities, lipoprotein(a), diabetes, overweight, male gender, and age are well-established risk factors. During the 1990s, there have been many reports associating elevated plasma homocysteine levels with arteriosclerotic cardiovascular disease and consistent evidence that dietary and supplemental folic acid can reduce homocysteine levels.1 2   The article by Robinson and colleagues3 in this issue of Circulation presents further evidence of the importance of homocysteine and suggestive evidence that plasma folate and plasma pyrixodal-l-phosphate (vitamin B6) are protective factors. Their study is part of the European Concerted Action Project,4 which examined 750 patients younger than age 60 with diagnoses within the previous 12 months of coronary, cerebrovascular, or peripheral vascular disease and 800 healthy control subjects. The patient groups were young (47 years for cases and 44 years for control subjects) and heterogeneous, with nonfatal clinical events or symptoms of arteriosclerotic cardiovascular disease supported by ECG, angiographic, or Doppler evidence; the study involved 19 centers in nine European countries. Men in the highest quintile for fasting total homocysteine (tHcy), compared with the remainder of the population, had an estimated relative risk of 2.2 (95% confidence interval [CI], 1.6 to 2.9), with a striking dose-response relationship and a more-than-multiplicative interaction with cigarette smoking and high blood pressure on vascular disease risk4 ; the corresponding estimated relative risk for coronary heart disease was similar (2.0; 95% CI 1.6 to 2.8). (tHcy is the sum of homocysteine and homocysteinyl moieties of oxidized disulfides, homocystine, and cysteine- homocysteine. )   Robinson and colleagues3 examined three B vitamins in detail to determine their effects on fasting and post–methionine-loading tHcy levels and any independent effects on cardiovascular disease …",
+          "score": 0.7099510431289673,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "11705328:abstract:0:1699:847feb38dd24",
+          "paper_id": "11705328",
+          "section": "abstract",
+          "text": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease. Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo. Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above. The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level. Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid). Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population. Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "score": 0.6865218877792358,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "42441846:abstract:0:1800:217532fd12f0",
+          "paper_id": "42441846",
+          "section": "abstract",
+          "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD). Methyltetrahydrofolate reductase (MTHFR) is a main regulatory enzyme in homocysteine metabolism; a common C677T mutation in the MTHFR gene results in decreased enzyme activity, and contributes to increased homocysteine levels and decreased folate levels. We investigated the frequency of MTHFR C677T alleles in a Korean population, determined the genotype-specific threshold levels of folate or vitamin B12, and investigated the relationship between the TT genotype and the risk of CAD.    MATERIALS AND METHODS We enrolled a study population of 163 CAD patients and 50 control subjects, and screened the MTHFR C677T polymorphism using real-time PCR with melting point analysis. Levels of plasma homocysteine, folate and vitamin B12 were also determined. We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.   \n RESULTS The frequency of the TT genotype was 18% in control subjects and 26% in patients group (P>0.05). Individuals homozygous for the TT genotype had significantly elevated homocysteine levels (P<0.05). The genotype-specific folate threshold level was significantly higher in TT individuals than in the CC or CT genotypes. The OR of individuals with low folate status and the TT genotype to estimate the relative risk of CAD was 2.2 and the OR of those with high folate status and the TT genotype was 1.5 (95% CI, 0.5-9.6 and 0.7-3.2, respectively).   \n CONCLUSION We were able to define a gene-nutrient interaction that shows a higher risk for CAD based on specific threshold folate levels required by different MTHFR C677T genotypes in a Korean population.",
+          "score": 0.8477963805198669,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9988229870796204,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "772a02c80518a26680ee8af410710095a971313c362de8cd7b0588f4d5c1a238",
+  "selected_paper_ids": [
+    "11705328",
+    "16252863",
+    "18557974",
+    "33409100",
+    "42441846"
+  ],
+  "aggregation": {
+    "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "42441846:abstract:0:1800:217532fd12f0",
+        "paper_id": "42441846",
+        "section": "abstract",
+        "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD). Methyltetrahydrofolate reductase (MTHFR) is a main regulatory enzyme in homocysteine metabolism; a common C677T mutation in the MTHFR gene results in decreased enzyme activity, and contributes to increased homocysteine levels and decreased folate levels. We investigated the frequency of MTHFR C677T alleles in a Korean population, determined the genotype-specific threshold levels of folate or vitamin B12, and investigated the relationship between the TT genotype and the risk of CAD.    MATERIALS AND METHODS We enrolled a study population of 163 CAD patients and 50 control subjects, and screened the MTHFR C677T polymorphism using real-time PCR with melting point analysis. Levels of plasma homocysteine, folate and vitamin B12 were also determined. We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.   \n RESULTS The frequency of the TT genotype was 18% in control subjects and 26% in patients group (P>0.05). Individuals homozygous for the TT genotype had significantly elevated homocysteine levels (P<0.05). The genotype-specific folate threshold level was significantly higher in TT individuals than in the CC or CT genotypes. The OR of individuals with low folate status and the TT genotype to estimate the relative risk of CAD was 2.2 and the OR of those with high folate status and the TT genotype was 1.5 (95% CI, 0.5-9.6 and 0.7-3.2, respectively).   \n CONCLUSION We were able to define a gene-nutrient interaction that shows a higher risk for CAD based on specific threshold folate levels required by different MTHFR C677T genotypes in a Korean population.",
+        "score": 0.8477963805198669,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9988229870796204,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "1d638c0661c97729d5c780fc2164334fd6ff9f8440b224c262080c4bba92b3f9",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "INTRODUCTION Elevated plasma total homocysteine is a major risk for coronary artery disease (CAD). Methyltetrahydrofolate reductase (MTHFR) is a main regulatory enzyme in homocysteine metabolism; a common C677T mutation in the MTHFR gene results in decreased enzyme activity, and contributes to increased homocysteine levels and decreased folate levels. We investigated the frequency of MTHFR C677T alleles in a Korean population, determined the genotype-specific threshold levels of folate or vitamin B12, and investigated the relationship between the TT genotype and the risk of CAD.    MATERIALS AND METHODS We enrolled a study population of 163 CAD patients and 50 control subjects, and screened the MTHFR C677T polymorphism using real-time PCR with melting point analysis. Levels of plasma homocysteine, folate and vitamin B12 were also determined. We then defined the genotype-specific threshold values of folate and vitamin B12 required to keep homocysteine levels in a normal range for individuals of each MTHFR C677T genotype.   \n RESULTS The frequency of the TT genotype was 18% in control subjects and 26% in patients group (P>0.05). Individuals homozygous for the TT genotype had significantly elevated homocysteine levels (P<0.05). The genotype-specific folate threshold level was significantly higher in TT individuals than in the CC or CT genotypes. The OR of individuals with low folate status and the TT genotype to estimate the relative risk of CAD was 2.2 and the OR of those with high folate status and the TT genotype was 1.5 (95% CI, 0.5-9.6 and 0.7-3.2, respectively).   \n CONCLUSION We were able to define a gene-nutrient interaction that shows a higher risk for CAD based on specific threshold folate levels required by different MTHFR C677T genotypes in a Korean population.",
+        "citation_ids": [
+          "42441846:abstract:0:1800:217532fd12f0"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

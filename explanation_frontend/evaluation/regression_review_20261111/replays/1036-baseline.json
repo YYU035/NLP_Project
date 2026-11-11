@@ -1,0 +1,339 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.030050+00:00",
+    "claim": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
+    "created_at": "2026-11-10T17:37:55.030050Z",
+    "retrieved_at": "2026-11-10T17:37:55.030050Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1036",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "15803282": {
+        "paper_id": "15803282",
+        "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "22490293": {
+        "paper_id": "22490293",
+        "title": "Production of cloned mice and ES cells from adult somatic cells by nuclear transfer: how to improve cloning efficiency?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4547102": {
+        "paper_id": "4547102",
+        "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "14225271": {
+        "paper_id": "14225271",
+        "title": "Molecular features of cellular reprogramming and development",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "37822406": {
+        "paper_id": "37822406",
+        "title": "Human somatic cell nuclear transfer using adult cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "15803282": {
+          "paper_id": "15803282",
+          "title": "Histone Demethylase Expression Enhances Human Somatic Cell Nuclear Transfer Efficiency and Promotes Derivation of Pluripotent Stem Cells.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9884103536605835,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "15803282:abstract:447:636:820d7d5fe4f5"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "22490293": {
+          "paper_id": "22490293",
+          "title": "Production of cloned mice and ES cells from adult somatic cells by nuclear transfer: how to improve cloning efficiency?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4547102": {
+          "paper_id": "4547102",
+          "title": "H3K9 demethylase KDM4E is an epigenetic regulator for bovine embryonic development and a defective factor for nuclear reprogramming.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "14225271": {
+          "paper_id": "14225271",
+          "title": "Molecular features of cellular reprogramming and development",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "37822406": {
+          "paper_id": "37822406",
+          "title": "Human somatic cell nuclear transfer using adult cells.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15803282:abstract:0:152:d8cba1b22aa6": {
+          "passage_id": "15803282:abstract:0:152:d8cba1b22aa6",
+          "paper_id": "15803282",
+          "label": "NEUTRAL",
+          "confidence": 0.9988695979118347,
+          "truncated": false
+        },
+        "15803282:abstract:447:636:820d7d5fe4f5": {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "label": "SUPPORT",
+          "confidence": 0.9884103536605835,
+          "truncated": false
+        },
+        "4547102:abstract:0:162:42f8f0c4df7a": {
+          "passage_id": "4547102:abstract:0:162:42f8f0c4df7a",
+          "paper_id": "4547102",
+          "label": "NEUTRAL",
+          "confidence": 0.9982044696807861,
+          "truncated": false
+        },
+        "4547102:abstract:831:1038:08b59cb88f5a": {
+          "passage_id": "4547102:abstract:831:1038:08b59cb88f5a",
+          "paper_id": "4547102",
+          "label": "NEUTRAL",
+          "confidence": 0.9814885854721069,
+          "truncated": false
+        },
+        "14225271:abstract:218:428:fd065351dd5b": {
+          "passage_id": "14225271:abstract:218:428:fd065351dd5b",
+          "paper_id": "14225271",
+          "label": "NEUTRAL",
+          "confidence": 0.9986016154289246,
+          "truncated": false
+        },
+        "37822406:abstract:0:171:76484a9ccd37": {
+          "passage_id": "37822406:abstract:0:171:76484a9ccd37",
+          "paper_id": "37822406",
+          "label": "NEUTRAL",
+          "confidence": 0.998540997505188,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15803282:abstract:0:152:d8cba1b22aa6",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "The extremely low efficiency of human embryonic stem cell (hESC) derivation using somatic cell nuclear transfer (SCNT) limits its potential application.",
+          "score": 0.639018177986145,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+          "score": 0.6340251564979553,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4547102:abstract:0:162:42f8f0c4df7a",
+          "paper_id": "4547102",
+          "section": "abstract",
+          "text": "Aberrant epigenetic reprogramming often results in developmental defects in somatic cell nuclear transfer (SCNT) embryos during embryonic genome activation (EGA).",
+          "score": 0.6051872372627258,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4547102:abstract:831:1038:08b59cb88f5a",
+          "paper_id": "4547102",
+          "section": "abstract",
+          "text": "Our results thereby indicate that KDM4E can function as a crucial epigenetic regulator of EGA and as an internal defective factor responsible for persistent H3K9me3/2 barriers to SCNT-mediated reprogramming.",
+          "score": 0.5536450147628784,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "14225271:abstract:218:428:fd065351dd5b",
+          "paper_id": "14225271",
+          "section": "abstract",
+          "text": "Early nuclear reprogramming methods, such as somatic cell nuclear transfer (SCNT) and cell fusion, posed significant technical hurdles to precise dissection of the regulatory programmes governing cell identity.",
+          "score": 0.6406117677688599,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "37822406:abstract:0:171:76484a9ccd37",
+          "paper_id": "37822406",
+          "section": "abstract",
+          "text": "Derivation of patient-specific human pluripotent stem cells via somatic cell nuclear transfer (SCNT) has the potential for applications in a range of therapeutic contexts.",
+          "score": 0.5924465656280518,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+          "paper_id": "15803282",
+          "section": "abstract",
+          "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+          "score": 0.6340251564979553,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9884103536605835,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "94e045058f991798b1dbc47f8d8c6a47cea7306db3a9b5f12a445f90fc856940",
+  "selected_paper_ids": [
+    "14225271",
+    "15803282",
+    "22490293",
+    "37822406",
+    "4547102"
+  ],
+  "aggregation": {
+    "claim": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "15803282:abstract:447:636:820d7d5fe4f5",
+        "paper_id": "15803282",
+        "section": "abstract",
+        "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+        "score": 0.6340251564979553,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9884103536605835,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "dafccfd63e1c7c59602e6d00ceb92749a6bc5dd67a0a1c628d071f39f97f4a1e",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "Here we show that overexpression of a related H3K9me3 demethylase KDM4A improves human SCNT, and that, as in mice, H3K9me3 in the human somatic cell genome is an SCNT reprogramming barrier.",
+        "citation_ids": [
+          "15803282:abstract:447:636:820d7d5fe4f5"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

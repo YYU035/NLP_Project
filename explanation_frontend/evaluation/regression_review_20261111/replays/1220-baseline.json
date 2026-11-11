@@ -1,0 +1,383 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:55.039087+00:00",
+    "claim": "The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+    "created_at": "2026-11-10T17:37:55.039087Z",
+    "retrieved_at": "2026-11-10T17:37:55.039087Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "1220",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "5765455": {
+        "paper_id": "5765455",
+        "title": "Reactive oxygen species, DNA damage, and error-prone repair: a model for genomic instability with progression in myeloid leukemia?",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13023410": {
+        "paper_id": "13023410",
+        "title": "BCR/ABL oncogenic kinase promotes unfaithful repair of the reactive oxygen species-dependent DNA double-strand breaks.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "1941721": {
+        "paper_id": "1941721",
+        "title": "Oxygen Metabolism Causes Chromosome Breaks and Is Associated with the Neuronal Apoptosis Observed in DNA Double-Strand Break Repair Mutants",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "10993232": {
+        "paper_id": "10993232",
+        "title": "Cell death from antibiotics without the involvement of reactive oxygen species.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "6259170": {
+        "paper_id": "6259170",
+        "title": "Emerging functional cross-talk between the Keap1-Nrf2 system and mitochondria",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "5765455": {
+          "paper_id": "5765455",
+          "title": "Reactive oxygen species, DNA damage, and error-prone repair: a model for genomic instability with progression in myeloid leukemia?",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13023410": {
+          "paper_id": "13023410",
+          "title": "BCR/ABL oncogenic kinase promotes unfaithful repair of the reactive oxygen species-dependent DNA double-strand breaks.",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9892118275165558,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "13023410:abstract:632:852:1381b4d08abc",
+            "13023410:abstract:127:297:afeeae046ff4"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "1941721": {
+          "paper_id": "1941721",
+          "title": "Oxygen Metabolism Causes Chromosome Breaks and Is Associated with the Neuronal Apoptosis Observed in DNA Double-Strand Break Repair Mutants",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "10993232": {
+          "paper_id": "10993232",
+          "title": "Cell death from antibiotics without the involvement of reactive oxygen species.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "6259170": {
+          "paper_id": "6259170",
+          "title": "Emerging functional cross-talk between the Keap1-Nrf2 system and mitochondria",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "5765455:abstract:669:784:1b9c4de7a97e": {
+          "passage_id": "5765455:abstract:669:784:1b9c4de7a97e",
+          "paper_id": "5765455",
+          "label": "NEUTRAL",
+          "confidence": 0.9983291029930115,
+          "truncated": false
+        },
+        "13023410:abstract:632:852:1381b4d08abc": {
+          "passage_id": "13023410:abstract:632:852:1381b4d08abc",
+          "paper_id": "13023410",
+          "label": "SUPPORT",
+          "confidence": 0.9944010376930237,
+          "truncated": false
+        },
+        "13023410:abstract:127:297:afeeae046ff4": {
+          "passage_id": "13023410:abstract:127:297:afeeae046ff4",
+          "paper_id": "13023410",
+          "label": "SUPPORT",
+          "confidence": 0.9840226173400879,
+          "truncated": false
+        },
+        "13023410:abstract:0:126:6717a6f2dcd6": {
+          "passage_id": "13023410:abstract:0:126:6717a6f2dcd6",
+          "paper_id": "13023410",
+          "label": "NEUTRAL",
+          "confidence": 0.9950805902481079,
+          "truncated": false
+        },
+        "1941721:abstract:802:939:e87c92888f6a": {
+          "passage_id": "1941721:abstract:802:939:e87c92888f6a",
+          "paper_id": "1941721",
+          "label": "NEUTRAL",
+          "confidence": 0.9926062822341919,
+          "truncated": false
+        },
+        "1941721:abstract:350:534:3719be75dacb": {
+          "passage_id": "1941721:abstract:350:534:3719be75dacb",
+          "paper_id": "1941721",
+          "label": "NEUTRAL",
+          "confidence": 0.9697759747505188,
+          "truncated": false
+        },
+        "10993232:abstract:490:652:14cd1e88b920": {
+          "passage_id": "10993232:abstract:490:652:14cd1e88b920",
+          "paper_id": "10993232",
+          "label": "NEUTRAL",
+          "confidence": 0.994579553604126,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "5765455:abstract:669:784:1b9c4de7a97e",
+          "paper_id": "5765455",
+          "section": "abstract",
+          "text": "There is a concomitant increase in reactive oxygen species (ROS) in these transgenic mice with disease progression.",
+          "score": 0.5207221508026123,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13023410:abstract:632:852:1381b4d08abc",
+          "paper_id": "13023410",
+          "section": "abstract",
+          "text": "We propose that the following series of events may contribute to genomic instability of Ph-positive leukemias: BCR/ABL --> ROSs --> oxidative DNA damage --> DSBs in proliferating cells --> unfaithful HRR and NHEJ repair.",
+          "score": 0.6201141476631165,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13023410:abstract:127:297:afeeae046ff4",
+          "paper_id": "13023410",
+          "section": "abstract",
+          "text": "We find that BCR/ABL-induced reactive oxygen species (ROSs) cause chronic oxidative DNA damage resulting in double-strand breaks (DSBs) in S and G(2)/M cell cycle phases.",
+          "score": 0.5554670691490173,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13023410:abstract:0:126:6717a6f2dcd6",
+          "paper_id": "13023410",
+          "section": "abstract",
+          "text": "The oncogenic BCR/ABL tyrosine kinase induces constitutive DNA damage in Philadelphia chromosome (Ph)-positive leukemia cells.",
+          "score": 0.5055263042449951,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1941721:abstract:802:939:e87c92888f6a",
+          "paper_id": "1941721",
+          "section": "abstract",
+          "text": "Therefore, oxygen metabolism is a major source of the genomic instability observed in NHEJ-deficient cells and, presumably, in all cells.",
+          "score": 0.6117972135543823,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "1941721:abstract:350:534:3719be75dacb",
+          "paper_id": "1941721",
+          "section": "abstract",
+          "text": "Conversely, elevating the level of reactive oxygen species by overexpressing the antioxidant enzyme superoxide dismutase 1 (SOD1), in a transgenic mouse, increases chromosome breakage.",
+          "score": 0.5324500799179077,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "10993232:abstract:490:652:14cd1e88b920",
+          "paper_id": "10993232",
+          "section": "abstract",
+          "text": "Lethality persisted in the absence of oxygen, and DNA repair mutants were not hypersensitive, undermining the idea that toxicity arose from oxidative DNA lesions.",
+          "score": 0.5280442237854004,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "13023410:abstract:632:852:1381b4d08abc",
+          "paper_id": "13023410",
+          "section": "abstract",
+          "text": "We propose that the following series of events may contribute to genomic instability of Ph-positive leukemias: BCR/ABL --> ROSs --> oxidative DNA damage --> DSBs in proliferating cells --> unfaithful HRR and NHEJ repair.",
+          "score": 0.6201141476631165,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "13023410:abstract:127:297:afeeae046ff4",
+          "paper_id": "13023410",
+          "section": "abstract",
+          "text": "We find that BCR/ABL-induced reactive oxygen species (ROSs) cause chronic oxidative DNA damage resulting in double-strand breaks (DSBs) in S and G(2)/M cell cycle phases.",
+          "score": 0.5554670691490173,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9892118275165558,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "11b3f274c0c69375689ca86d5047e4bc3711271ae4b2aa86eabe0d8d6a152600",
+  "selected_paper_ids": [
+    "10993232",
+    "13023410",
+    "1941721",
+    "5765455",
+    "6259170"
+  ],
+  "aggregation": {
+    "claim": "The generation of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "13023410:abstract:632:852:1381b4d08abc",
+        "paper_id": "13023410",
+        "section": "abstract",
+        "text": "We propose that the following series of events may contribute to genomic instability of Ph-positive leukemias: BCR/ABL --> ROSs --> oxidative DNA damage --> DSBs in proliferating cells --> unfaithful HRR and NHEJ repair.",
+        "score": 0.6201141476631165,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      },
+      {
+        "passage_id": "13023410:abstract:127:297:afeeae046ff4",
+        "paper_id": "13023410",
+        "section": "abstract",
+        "text": "We find that BCR/ABL-induced reactive oxygen species (ROSs) cause chronic oxidative DNA damage resulting in double-strand breaks (DSBs) in S and G(2)/M cell cycle phases.",
+        "score": 0.5554670691490173,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9892118275165558,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "92f9c18b1c172897b8a35f302fd640ac0dff45177231c19819927ee7d2cb2ad6",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "We propose that the following series of events may contribute to genomic instability of Ph-positive leukemias: BCR/ABL --> ROSs --> oxidative DNA damage --> DSBs in proliferating cells --> unfaithful HRR and NHEJ repair.",
+        "citation_ids": [
+          "13023410:abstract:632:852:1381b4d08abc"
+        ]
+      },
+      {
+        "text": "We find that BCR/ABL-induced reactive oxygen species (ROSs) cause chronic oxidative DNA damage resulting in double-strand breaks (DSBs) in S and G(2)/M cell cycle phases.",
+        "citation_ids": [
+          "13023410:abstract:127:297:afeeae046ff4"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

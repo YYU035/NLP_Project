@@ -1,0 +1,319 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:28:34.861075+00:00",
+    "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+    "created_at": "2026-11-10T04:28:34.861075Z",
+    "retrieved_at": "2026-11-10T04:28:34.861075Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "evaluation_scope": "Full5183-paper corpus, top100 per branch, RRFtop5; no gold injection; not live web discovery"
+    },
+    "search_complete": true,
+    "papers": {
+      "15305881": {
+        "paper_id": "15305881",
+        "title": "The structure of DdrB from Deinococcus: a new fold for single-stranded DNA binding proteins",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "799586": {
+        "paper_id": "799586",
+        "title": "Role of the Single-Stranded DNA–Binding Protein SsbB in Pneumococcal Transformation: Maintenance of a Reservoir for Genetic Plasticity",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "8065561": {
+        "paper_id": "8065561",
+        "title": "Specific and cooperative binding of E. coli single-stranded DNA binding protein to mRNA.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "52944377": {
+        "paper_id": "52944377",
+        "title": "ROS-induced R loops trigger a transcription-coupled but BRCA1/2-independent homologous recombination pathway through CSB",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18261004": {
+        "paper_id": "18261004",
+        "title": "Expression and purification of recombinant methylated HBHA in Mycobacterium smegmatis.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "15305881": {
+          "paper_id": "15305881",
+          "title": "The structure of DdrB from Deinococcus: a new fold for single-stranded DNA binding proteins",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "799586": {
+          "paper_id": "799586",
+          "title": "Role of the Single-Stranded DNA–Binding Protein SsbB in Pneumococcal Transformation: Maintenance of a Reservoir for Genetic Plasticity",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.6478974223136902,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "799586:abstract:100:299:934cb663cc95"
+          ]
+        },
+        "8065561": {
+          "paper_id": "8065561",
+          "title": "Specific and cooperative binding of E. coli single-stranded DNA binding protein to mRNA.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "52944377": {
+          "paper_id": "52944377",
+          "title": "ROS-induced R loops trigger a transcription-coupled but BRCA1/2-independent homologous recombination pathway through CSB",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18261004": {
+          "paper_id": "18261004",
+          "title": "Expression and purification of recombinant methylated HBHA in Mycobacterium smegmatis.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15305881:abstract:337:505:71ef8083aa07": {
+          "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9838640689849854,
+          "truncated": false
+        },
+        "15305881:abstract:0:188:85d1b6c71acd": {
+          "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.9987753033638,
+          "truncated": false
+        },
+        "15305881:abstract:801:1080:296783cd1d2d": {
+          "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+          "paper_id": "15305881",
+          "label": "NEUTRAL",
+          "confidence": 0.8950538039207458,
+          "truncated": false
+        },
+        "799586:abstract:100:299:934cb663cc95": {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "label": "CONTRADICT",
+          "confidence": 0.6478974223136902,
+          "truncated": false
+        },
+        "799586:abstract:1247:1379:ec8b70b33d58": {
+          "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+          "paper_id": "799586",
+          "label": "NEUTRAL",
+          "confidence": 0.980080246925354,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15305881:abstract:337:505:71ef8083aa07",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp. that is crucial for recovery following DNA damage.",
+          "score": 0.6934131979942322,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15305881:abstract:0:188:85d1b6c71acd",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation.",
+          "score": 0.5860298871994019,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15305881:abstract:801:1080:296783cd1d2d",
+          "paper_id": "15305881",
+          "section": "abstract",
+          "text": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+          "score": 0.5800168514251709,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "section": "abstract",
+          "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+          "score": 0.5164722800254822,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "799586:abstract:1247:1379:ec8b70b33d58",
+          "paper_id": "799586",
+          "section": "abstract",
+          "text": "SsbBΔ7 fulfils the reservoir function, suggesting that SsbB C-ter is not necessary for processing protein(s) to access stored ssDNA.",
+          "score": 0.5049631595611572,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "799586:abstract:100:299:934cb663cc95",
+          "paper_id": "799586",
+          "section": "abstract",
+          "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+          "score": 0.5164722800254822,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.6478974223136902,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied",
+      "passages": "person3_semantic_bounded_train_frozen"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "5d50e7625dcc8419c46c91c25d4dc1db48164aadf7038e10326ac3e3ee1e6dd3",
+  "selected_paper_ids": [
+    "15305881",
+    "18261004",
+    "52944377",
+    "799586",
+    "8065561"
+  ],
+  "aggregation": {
+    "claim": "The DdrB protein from Deinococcus radiodurans is an alternative SSB.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "799586:abstract:100:299:934cb663cc95",
+        "paper_id": "799586",
+        "section": "abstract",
+        "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+        "score": 0.5164722800254822,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.6478974223136902,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "b1c8255920cc5308327d8eaa271b5ed7fee4033246b8adf28be43ca8c05e6d9f",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "In Bacillus subtilis and Streptococcus pneumoniae, an alternative SSB, SsbB, is expressed uniquely during competence for genetic transformation, but its precise role has been disappointingly obscure.",
+        "citation_ids": [
+          "799586:abstract:100:299:934cb663cc95"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Passages were selected automatically from unverified provider abstracts/descriptions; full text and source authenticity were not checked.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

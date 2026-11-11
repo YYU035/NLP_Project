@@ -1,0 +1,318 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:49:55.764129+00:00",
+    "claim": "The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+    "created_at": "2026-11-10T16:49:55.764129Z",
+    "retrieved_at": "2026-11-10T16:49:55.764129Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "context_paper_gate": "0.65",
+      "auxiliary_inputs": "Focused input always required. Context applies only to uncertain focus. Full auxiliary source traces retained; replay shows decisive arm and selected scope."
+    },
+    "search_complete": false,
+    "papers": {
+      "12737132": {
+        "paper_id": "12737132",
+        "title": "TEAD mediates YAP-dependent gene induction and growth control.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "52873726": {
+        "paper_id": "52873726",
+        "title": "Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "3893473": {
+        "paper_id": "3893473",
+        "title": "TAL effectors are remote controls for gene activation.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5116145": {
+        "paper_id": "5116145",
+        "title": "A library of yeast transcription factor motifs reveals a widespread function for Rsc3 in targeting nucleosome exclusion at promoters.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "30303335": {
+        "paper_id": "30303335",
+        "title": "Control of NFAT Isoform Activation and NFAT-Dependent Gene Expression through Two Coincident and Spatially Segregated Intracellular Ca2+ Signals",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "12737132": {
+          "paper_id": "12737132",
+          "title": "TEAD mediates YAP-dependent gene induction and growth control.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "52873726": {
+          "paper_id": "52873726",
+          "title": "Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation",
+          "verdict": "SUPPORTED",
+          "confidence": 0.9097440242767334,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [
+            "52873726:abstract:0:1373:4ab34165e8d6"
+          ],
+          "contradicting_passage_ids": []
+        },
+        "3893473": {
+          "paper_id": "3893473",
+          "title": "TAL effectors are remote controls for gene activation.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5116145": {
+          "paper_id": "5116145",
+          "title": "A library of yeast transcription factor motifs reveals a widespread function for Rsc3 in targeting nucleosome exclusion at promoters.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "30303335": {
+          "paper_id": "30303335",
+          "title": "Control of NFAT Isoform Activation and NFAT-Dependent Gene Expression through Two Coincident and Spatially Segregated Intracellular Ca2+ Signals",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "12737132:abstract:0:797:ec43ca363e8b": {
+          "passage_id": "12737132:abstract:0:797:ec43ca363e8b",
+          "paper_id": "12737132",
+          "label": "NEUTRAL",
+          "confidence": 0.997733473777771,
+          "truncated": false
+        },
+        "52873726:abstract:0:1373:4ab34165e8d6": {
+          "passage_id": "52873726:abstract:0:1373:4ab34165e8d6",
+          "paper_id": "52873726",
+          "label": "SUPPORT",
+          "confidence": 0.9097440242767334,
+          "truncated": false
+        },
+        "3893473:abstract:0:855:3816dd446d64": {
+          "passage_id": "3893473:abstract:0:855:3816dd446d64",
+          "paper_id": "3893473",
+          "label": "NEUTRAL",
+          "confidence": 0.9848078489303589,
+          "truncated": false
+        },
+        "5116145:abstract:0:1048:134d4a330af9": {
+          "passage_id": "5116145:abstract:0:1048:134d4a330af9",
+          "paper_id": "5116145",
+          "label": "NEUTRAL",
+          "confidence": 0.998653769493103,
+          "truncated": false
+        },
+        "30303335:abstract:0:1154:1791940730e8": {
+          "passage_id": "30303335:abstract:0:1154:1791940730e8",
+          "paper_id": "30303335",
+          "label": "NEUTRAL",
+          "confidence": 0.9981219172477722,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "12737132:abstract:0:797:ec43ca363e8b",
+          "paper_id": "12737132",
+          "section": "abstract",
+          "text": "The YAP transcription coactivator has been implicated as an oncogene and is amplified in human cancers. Recent studies have established that YAP is phosphorylated and inhibited by the Hippo tumor suppressor pathway. Here we demonstrate that the TEAD family transcription factors are essential in mediating YAP-dependent gene expression. TEAD is also required for YAP-induced cell growth, oncogenic transformation, and epithelial-mesenchymal transition. CTGF is identified as a direct YAP target gene important for cell growth. Moreover, the functional relationship between YAP and TEAD is conserved in Drosophila Yki (the YAP homolog) and Scalloped (the TEAD homolog). Our study reveals TEAD as a new component in the Hippo pathway playing essential roles in mediating biological functions of YAP.",
+          "score": 0.7645521759986877,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "52873726:abstract:0:1373:4ab34165e8d6",
+          "paper_id": "52873726",
+          "section": "abstract",
+          "text": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer. The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2. Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ. YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD). The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components. However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked. In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner. Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth. Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output.",
+          "score": 0.7598418593406677,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "3893473:abstract:0:855:3816dd446d64",
+          "paper_id": "3893473",
+          "section": "abstract",
+          "text": "TAL (transcription activator-like) effectors constitute a novel class of DNA-binding proteins with predictable specificity. They are employed by Gram-negative plant-pathogenic bacteria of the genus Xanthomonas which translocate a cocktail of different effector proteins via a type III secretion system (T3SS) into plant cells where they serve as virulence determinants. Inside the plant cell, TALs localize to the nucleus, bind to target promoters, and induce expression of plant genes. DNA-binding specificity of TALs is determined by a central domain of tandem repeats. Each repeat confers recognition of one base pair (bp) in the DNA. Rearrangement of repeat modules allows design of proteins with desired DNA-binding specificities. Here, we summarize how TAL specificity is encoded, first structural data and first data on site-specific TAL nucleases.",
+          "score": 0.5772069692611694,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "5116145:abstract:0:1048:134d4a330af9",
+          "paper_id": "5116145",
+          "section": "abstract",
+          "text": "The sequence specificity of DNA-binding proteins is the primary mechanism by which the cell recognizes genomic features. Here, we describe systematic determination of yeast transcription factor DNA-binding specificities. We obtained binding specificities for 112 DNA-binding proteins representing 19 distinct structural classes. One-third of the binding specificities have not been previously reported. Several binding sequences have striking genomic distributions relative to transcription start sites, supporting their biological relevance and suggesting a role in promoter architecture. Among these are Rsc3 binding sequences, containing the core CGCG, which are found preferentially approximately 100 bp upstream of transcription start sites. Mutation of RSC3 results in a dramatic increase in nucleosome occupancy in hundreds of proximal promoters containing a Rsc3 binding element, but has little impact on promoters lacking Rsc3 binding sequences, indicating that Rsc3 plays a broad role in targeting nucleosome exclusion at yeast promoters.",
+          "score": 0.5112478733062744,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "30303335:abstract:0:1154:1791940730e8",
+          "paper_id": "30303335",
+          "section": "abstract",
+          "text": "Excitation-transcription coupling, linking stimulation at the cell surface to changes in nuclear gene expression, is conserved throughout eukaryotes. How closely related coexpressed transcription factors are differentially activated remains unclear. Here, we show that two Ca2+-dependent transcription factor isoforms, NFAT1 and NFAT4, require distinct sub-cellular InsP3 and Ca2+ signals for physiologically sustained activation. NFAT1 is stimulated by sub-plasmalemmal Ca2+ microdomains, whereas NFAT4 additionally requires Ca2+ mobilization from the inner nuclear envelope by nuclear InsP3 receptors. NFAT1 is rephosphorylated (deactivated) more slowly than NFAT4 in both cytoplasm and nucleus, enabling a more prolonged activation phase. Oscillations in cytoplasmic Ca2+, long considered the physiological form of Ca2+ signaling, play no role in activating either NFAT protein. Instead, effective sustained physiological activation of NFAT4 is tightly linked to oscillations in nuclear Ca2+. Our results show how gene expression can be controlled by coincident yet geographically distinct Ca2+ signals, generated by a freely diffusible InsP3 message.",
+          "score": 0.5163581371307373,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+      "aggregated_verdict": "SUPPORTED",
+      "primary_evidence": [
+        {
+          "passage_id": "52873726:abstract:0:1373:4ab34165e8d6",
+          "paper_id": "52873726",
+          "section": "abstract",
+          "text": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer. The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2. Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ. YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD). The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components. However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked. In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner. Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth. Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output.",
+          "score": 0.7598418593406677,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9097440242767334,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "452397c1d10fbfcd2ea57bc6f67583e5380bea57393ad07aabba821aa330e5e9",
+  "selected_paper_ids": [
+    "12737132",
+    "52873726"
+  ],
+  "aggregation": {
+    "claim": "The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+    "aggregated_verdict": "SUPPORTED",
+    "primary_evidence": [
+      {
+        "passage_id": "52873726:abstract:0:1373:4ab34165e8d6",
+        "paper_id": "52873726",
+        "section": "abstract",
+        "text": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer. The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2. Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ. YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD). The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components. However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked. In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner. Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth. Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output.",
+        "score": 0.7598418593406677,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9097440242767334,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "cb9fb060086ba35ef3d4f7ea3a1a9aaec1840e3dcfc5379c199e6113c8d9fa01",
+    "verdict": "SUPPORTED",
+    "statements": [
+      {
+        "text": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer. The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2. Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ. YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD). The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components. However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked. In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner. Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth. Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output.",
+        "citation_ids": [
+          "52873726:abstract:0:1373:4ab34165e8d6"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

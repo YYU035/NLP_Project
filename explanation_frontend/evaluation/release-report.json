@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-09",
+  "branch": "kireeti",
+  "source_scope": "explanation_frontend only",
+  "benchmarks_revision": "90aaca109585c12c877367b1a08fe4dfee4a4de3",
+  "owner_tests": {
+    "raghavi": {
+      "owner": "raghavi",
+      "revision": "259d2a9e90fb8e9d5988f030a156733f4f3576d1",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "scratch_portability_patch": false,
+      "scratch_stable_cutoff_patch": false,
+      "total": 268,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 268
+    },
+    "naila": {
+      "owner": "naila",
+      "revision": "2bc7d81292313498fd70dd13656024d00cf3dda4",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "scratch_portability_patch": false,
+      "scratch_stable_cutoff_patch": false,
+      "total": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 13
+    },
+    "yuyue_current": {
+      "owner": "yuyue_current",
+      "revision": "90aaca109585c12c877367b1a08fe4dfee4a4de3",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": false,
+      "scratch_portability_patch": false,
+      "scratch_stable_cutoff_patch": false,
+      "total": 166,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 166
+    },
+    "chong_yao": {
+      "owner": "chong_yao",
+      "revision": "1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+      "exit_code": 0,
+      "network": "external blocked; loopback allowed for asyncio",
+      "initialization_adapter": true,
+      "scratch_portability_patch": false,
+      "scratch_stable_cutoff_patch": false,
+      "total": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 5
+    }
+  },
+  "actual_fixed_candidate_acceptance": {
+    "date": "2026-11-09",
+    "protocol": "8 seeded balanced SciFact dev claim/document examples, known annotated paper plus2 random distractors each. Actual retrieval/ranking/semantic/NLI/template/subset/replay; imported corpus boundary replaces external discovery.",
+    "not_a_quality_score": "Annotated paper is deliberately included; not retrieval accuracy or representative claim verification accuracy. Every case retained.",
+    "attempted": 8,
+    "passed": 8,
+    "cases": [
+      {
+        "claim_id": 230,
+        "gold_document_label": "SUPPORT",
+        "status": "passed",
+        "verdict": "SUPPORTED",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-230.json",
+        "sha256": "28c7ed465cb7b9c5d8d64a1cc1c9deaa093ac57ff752d0c4128862f67f778e5f",
+        "claim": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+        "seconds": 2.6996834000456147
+      },
+      {
+        "claim_id": 852,
+        "gold_document_label": "CONTRADICT",
+        "status": "passed",
+        "verdict": "CONTRADICTED",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-852.json",
+        "sha256": "7bbce549cc6292e59c9973758b747517c55eb99a88badb4a463429a0d6f8a38c",
+        "claim": "Non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment.",
+        "seconds": 1.0526403000112623
+      },
+      {
+        "claim_id": 70,
+        "gold_document_label": "SUPPORT",
+        "status": "passed",
+        "verdict": "SUPPORTED",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-70.json",
+        "sha256": "ac9a8d173b87af54760ae37118bf89eef36eea062348545f93b7000940720208",
+        "claim": "Activation of PPM1D suppresses p53 function.",
+        "seconds": 1.1967385999741964
+      },
+      {
+        "claim_id": 578,
+        "gold_document_label": "CONTRADICT",
+        "status": "passed",
+        "verdict": "CONTRADICTED",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-578.json",
+        "sha256": "378f6f02e208233af0f16c5442dce67d2a6c92d7bc3287ef9f5cfc8f3ad6db17",
+        "claim": "In mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+        "seconds": 1.306930300022941
+      },
+      {
+        "claim_id": 723,
+        "gold_document_label": "SUPPORT",
+        "status": "passed",
+        "verdict": "CONFLICTING",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-723.json",
+        "sha256": "19a89d48099de8cf79b77dc3b47332afdea82180e66130407365ff6520700930",
+        "claim": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+        "seconds": 1.2101127000059932
+      },
+      {
+        "claim_id": 452,
+        "gold_document_label": "CONTRADICT",
+        "status": "passed",
+        "verdict": "CONTRADICTED",
+        "run_status": "ok",
+        "passages": 2,
+        "export_path": "scifact-452.json",
+        "sha256": "c0ac0d8950bb753102eed8583b316c541a777290c603de1deff7654c47d8010f",
+        "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+        "seconds": 0.7102866999921389
+      },
+      {
+        "claim_id": 380,
+        "gold_document_label": "SUPPORT",
+        "status": "passed",
+        "verdict": "SUPPORTED",
+        "run_status": "ok",
+        "passages": 1,
+        "export_path": "scifact-380.json",
+        "sha256": "2afd82f88d4091e71193de9ec2733fb1baaee3f1d8f8be48f7b3b2fe98955f21",
+        "claim": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+        "seconds": 0.5868527999846265
+      },
+      {
+        "claim_id": 51,
+        "gold_document_label": "CONTRADICT",
+        "status": "passed",
+        "verdict": "CONTRADICTED",
+        "run_status": "ok",
+        "passages": 3,
+        "export_path": "scifact-51.json",
+        "sha256": "2dfa7c77773efc7cb77d48864d3f8b047e5a1af5564d5bb9cd6b51492728a923",
+        "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+        "seconds": 1.1788433999754488
+      }
+    ],
+    "seconds": 9.94245079997927
+  },
+  "efficiency": {
+    "date": "2026-11-09",
+    "condition": "Actual local CPU models already loaded; case230 fixed3-paper input. Timings are local observations under concurrent research jobs, not a controlled SLA.",
+    "first_verification_ms": 2748.6079999944195,
+    "first_verification_neural_forwards": 3,
+    "cached_subset_runs": 100,
+    "cached_subset_extra_neural_forwards": 0,
+    "cached_subset_p50_ms": 1.1418000212870538,
+    "cached_subset_p95_ms": 1.3348000356927514,
+    "replay_loads": 20,
+    "replay_p50_ms": 3.298650000942871,
+    "replay_p95_ms": 3.35869996342808,
+    "replay_extra_neural_forwards": 0,
+    "limits": "Verification and subset aggregation are different workloads. No speedup factor, production throughput or model accuracy is inferred."
+  },
+  "catalogue_recorded_smoke": {
+    "source": "recorded real discovery",
+    "claim": "The results of this study show that the expression of TNF-\u03b1 does not increase the risk of COVID-19 in older adults.",
+    "candidate_count": 32,
+    "verified_papers": 3,
+    "passages": 9,
+    "verdict": "CONTRADICTED",
+    "status": "ok",
+    "displayable": true,
+    "subset_verdict": "INSUFFICIENT",
+    "subset_ms": 23.294500017073005,
+    "elapsed_seconds": 13.899843299994245,
+    "model": {
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "max_length": 512,
+      "threshold": 0.5,
+      "seed": 42
+    },
+    "scientific_quality": "not independently evaluated"
+  },
+  "catalogue_live_smoke": {
+    "source": "live",
+    "claim": "Long-term exposure to fine particulate matter is associated with cardiovascular mortality.",
+    "candidate_count": 6,
+    "verified_papers": 3,
+    "passages": 5,
+    "verdict": "SUPPORTED",
+    "status": "partial",
+    "displayable": true,
+    "subset_verdict": "SUPPORTED",
+    "subset_ms": 2.886999980546534,
+    "elapsed_seconds": 83.84523449995322,
+    "model": {
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "max_length": 512,
+      "threshold": 0.5,
+      "seed": 42
+    },
+    "scientific_quality": "not independently evaluated"
+  },
+  "pdf": {
+    "kind": "Constructed text PDF plumbing check, actual local models; not scientific accuracy",
+    "verdict": "SUPPORTED",
+    "passages": 1,
+    "pages": [
+      1
+    ],
+    "grounding_and_replay": "passed"
+  },
+  "xai": {
+    "default": "Measured word-MASK occlusion",
+    "pilot_size": 4,
+    "ap": 0.8333333333333334,
+    "ap_random": 0.43833333333333335,
+    "top1": 0.75,
+    "top1_random": 0.175,
+    "ig": "Experimental; failed numerical studies retained"
+  },
+  "human_work_not_fabricated": [
+    "Human explanation reviews",
+    "Each of5 members records/reviews their segment",
+    "Final assembled video approval"
+  ],
+  "limits": [
+    "Owner benchmarks are pinned published artifacts, not independently rerun in full by the frontend.",
+    "Fixed-candidate acceptance includes a known annotated paper and is not retrieval or verifier accuracy.",
+    "Fresh public discovery had an OpenAlex429; downstream flow passed with correctly labelled partial status.",
+    "Four-case occlusion study is exploratory, includes a misclassification, and does not establish general XAI quality."
+  ],
+  "frontend_tests": {
+    "passed": 156,
+    "failures": 0,
+    "warnings": "3 Streamlit/Pandas library deprecation warnings; no functional failures"
+  },
+  "owner_suite_total_passed": 452,
+  "dependency_check": "passed",
+  "retrieval_integration_fix": "Stable cutoff-tie membership and finite-score guard in owned pinned retrieval copy; owner branch unchanged."
+}

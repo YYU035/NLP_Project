@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-11",
+  "default": "yuyue_primary",
+  "scope": "New Live/Selected search abstract verification and pipeline_smoke; PDF selector and direct LocalPipeline baseline unchanged.",
+  "software_tests": {
+    "passed": 177,
+    "dependency_check": "passed"
+  },
+  "real_model_cache_check": {
+    "policy": "yuyue_primary",
+    "initial_neural_forwards": 2,
+    "subset_changes": 20,
+    "extra_neural_forwards": 0,
+    "replay_roundtrip": true,
+    "scope": "Actual local models; source sample is functional, not an adjudicated accuracy case."
+  },
+  "live_primary_smoke": {
+    "source": "live",
+    "claim": "Long-term exposure to fine particulate matter is associated with cardiovascular mortality.",
+    "candidate_count": 9,
+    "verified_papers": 3,
+    "passages": 3,
+    "verdict": "SUPPORTED",
+    "status": "ok",
+    "displayable": true,
+    "subset_verdict": "SUPPORTED",
+    "subset_ms": 3.282699966803193,
+    "elapsed_seconds": 16.292374000011478,
+    "model": {
+      "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "max_length": 512,
+      "threshold": 0.5,
+      "seed": 42
+    },
+    "abstract_policy": "yuyue_primary",
+    "scientific_quality": "Functional check; this claim is not independently adjudicated"
+  },
+  "baseline_override": "EXPLANATION_ABSTRACT_POLICY=baseline; pipeline_smoke --baseline",
+  "versioned_provider": "explanation_frontend.primary_candidate:create_provider",
+  "summary_sha256": "aaeba5d1a4352c6c9162301fbee9b0e4269c53e15750204b7faad0d7bd8b5ea1"
+}

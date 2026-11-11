@@ -1,0 +1,44 @@
+{
+  "captured": "during execution, before complete result review",
+  "date": "2026-11-11",
+  "source_sha256": {
+    "context_adapter.py": "bc37bbac2c41fc8265ac777c255ca7cc25a6ba3fdc9b71db8b4b7ecac0a0fdf5",
+    "freeze_train.py": "5bfef8d025366e59614184d9395c343d0586c63d34f43e104aa75bb63db6951d",
+    "policy.py": "5f7818919c45c559c01cc66fcb8281d0b73988d6105cbf8cc546d76c29498b2e",
+    "run_local.py": "76f9e6926603b9198b46337714fa11ea0e1a038297d833ed258a5da2411b1ebb",
+    "train_gate.py": "cafe9e036d83d9fe718bf1c2238f162fc83fe5a4ac69247671d54e03188098ae"
+  },
+  "baseline_sha256": "c35ea3914f6f350c644e9a54917a99b7f008dda0b73f9050a7b8dba0d86d692c",
+  "training_choices_sha256": "0db1c603fac2edee0e9766fd4b6b56e9770c81b3601ced34e55d18a161626d29",
+  "model_files_sha256": {
+    "claim-verifier": {
+      "config.json": "7f9d420b616691c5b575bab8839719aefbddc656d8e1316519414b097ce43e3d",
+      "model.safetensors": "c03cd208bf920b4fbbb182a0535859a566e8acc3477d2b536bf87b769978524b",
+      "pinned_revision.txt": "190f690b357d26f9173b5808b08c97adbb287814d1eaec93554058ab2850a778",
+      "tokenizer.json": "7aa118770f066a74530d161c7d0b994d0629cc0ff3a0df213f184192773f960a"
+    },
+    "all-MiniLM-L6-v2": {
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "pinned_revision.txt": "541945f73661f7b6150e571f964fe72c78469298ba9e1abfc1707cc60c748745",
+      "pytorch_model.bin": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "1_Pooling\\config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+    },
+    "person3-semantic": {
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "download_manifest.json": "b3fd6d443091bfe10404f2fccf01ba4c4eca85839ebe19132679ac7ec05a858c",
+      "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "1_Pooling\\config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+    }
+  },
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1"
+  },
+  "execution": "CPU float32 pinned NLI; six Torch threads per process. Context ablations and gate training can run concurrently; no latency comparison or throughput claim.",
+  "scope": "Never change production defaults or baseline. All300 dev labels were already inspected previously; these are exploratory descriptive tests."
+}

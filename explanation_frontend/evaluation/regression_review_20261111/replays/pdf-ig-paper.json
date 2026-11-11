@@ -1,0 +1,158 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T04:24:44.083995+00:00",
+    "claim": "Integrated Gradients satisfies Sensitivity and Implementation Invariance.",
+    "created_at": "2026-11-10T04:24:44.083995Z",
+    "retrieved_at": "2026-11-10T04:24:44.083995Z",
+    "mode": "cached",
+    "source_snapshot_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+    "filters": {
+      "source_sha256": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+      "source": "Explicit local PDF upload",
+      "page_count": "11",
+      "pdf_evidence_json": "{\"schema_version\": \"person3-fulltext-1\", \"claim\": \"Integrated Gradients satisfies Sensitivity and Implementation Invariance.\", \"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"evidence_type\": \"full_text\", \"selection_configuration\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"passages\": [{\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6\", \"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"section\": \"full_text\", \"text\": \"Computing Integrated Gradients.\", \"score\": 0.7360728979110718}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607\", \"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"section\": \"full_text\", \"text\": \"Attributions generated\\nby integrated gradients satisfy Implementation Invariance\\nsince they are based only on the gradients of the function\\nrepresented by the network.\", \"score\": 0.7240352630615234}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e\", \"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"section\": \"full_text\", \"text\": \"Intuitively,\\nour technique combines the Implementation Invariance of\\nGradients along with the Sensitivity of techniques like LRP\\nor DeepLift.\", \"score\": 0.7197788953781128}], \"source_spans\": [{\"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"sentence_indices\": [39], \"start\": 4853, \"end\": 4884, \"text\": \"Computing Integrated Gradients.\", \"score\": 0.7360728979110718, \"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6\", \"page\": 5, \"page_text_sha256\": \"4e11c830db6f259c6af124332a06e584e38690aa3ea8c6b58a2673c27a1c6f5a\", \"source_sha256\": \"f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"source_url\": null, \"sentence_index_origin\": \"heuristic_page_segmentation\"}, {\"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"sentence_indices\": [27], \"start\": 3517, \"end\": 3684, \"text\": \"Attributions generated\\nby integrated gradients satisfy Implementation Invariance\\nsince they are based only on the gradients of the function\\nrepresented by the network.\", \"score\": 0.7240352630615234, \"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607\", \"page\": 3, \"page_text_sha256\": \"f1ba082e489104b9a332facce8f37b1431cd6ff5e0d51f9d2fef608d639aba18\", \"source_sha256\": \"f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"source_url\": null, \"sentence_index_origin\": \"heuristic_page_segmentation\"}, {\"paper_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"sentence_indices\": [8], \"start\": 949, \"end\": 1090, \"text\": \"Intuitively,\\nour technique combines the Implementation Invariance of\\nGradients along with the Sensitivity of techniques like LRP\\nor DeepLift.\", \"score\": 0.7197788953781128, \"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e\", \"page\": 3, \"page_text_sha256\": \"f1ba082e489104b9a332facce8f37b1431cd6ff5e0d51f9d2fef608d639aba18\", \"source_sha256\": \"f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"source_url\": null, \"sentence_index_origin\": \"heuristic_page_segmentation\"}], \"budget_checks\": [{\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6\", \"pair_tokens\": 18, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607\", \"pair_tokens\": 39, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e\", \"pair_tokens\": 39, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:3039:3091:8c7bef87cd32\", \"pair_tokens\": 21, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3141:3284:d9db4411151a\", \"pair_tokens\": 48, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:1148:1223:6f905d3c32e7\", \"pair_tokens\": 26, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p4:581:658:21508d973390\", \"pair_tokens\": 27, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p4:846:944:a7090bde82a2\", \"pair_tokens\": 32, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p2:4685:4746:9aa799223c0f\", \"pair_tokens\": 23, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p2:4747:4856:a1856d5e8cb7\", \"pair_tokens\": 52, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p1:508:604:0f80a03951dd\", \"pair_tokens\": 35, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p2:3567:3840:e439d8d52045\", \"pair_tokens\": 73, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p6:2581:2640:0276acf3a461\", \"pair_tokens\": 22, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p7:2719:2825:0e806915bf24\", \"pair_tokens\": 32, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p6:390:482:86cab4bd85ff\", \"pair_tokens\": 27, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p4:1721:1817:3ddcb4100a09\", \"pair_tokens\": 34, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p1:3599:3843:94e411e1dd06\", \"pair_tokens\": 55, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p1:3512:3598:5a8fdaada1f0\", \"pair_tokens\": 31, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p8:3125:3280:5c52ce6dc8d4\", \"pair_tokens\": 46, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p8:2439:2515:0aba979d88f9\", \"pair_tokens\": 28, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p7:4209:4372:48b791add881\", \"pair_tokens\": 52, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p10:3046:3122:f8ecdb70d398\", \"pair_tokens\": 33, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}, {\"passage_id\": \"pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p6:822:927:7b38c776a687\", \"pair_tokens\": 36, \"max_pair_tokens\": 512, \"accepted\": true, \"reason\": null, \"text_modified\": false, \"claim_modified\": false}], \"rejected_passages\": [], \"verifier_contract\": {\"owner\": \"Chong Yao\", \"source_commit\": \"1ac06b675e3d0719a63cb8efe98eda4f2c5fd576\", \"source_file\": \"claim_verifier/verifier.py\", \"max_pair_tokens\": 512, \"tokenizer_checkpoint\": \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\", \"tokenizer_revision\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"orientation\": \"premise=evidence text; hypothesis=original claim\", \"special_tokens\": true, \"policy\": \"reject complete over-budget passages; never trim source text or claim\"}, \"source_sha256\": \"f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1\", \"extraction\": {\"library\": \"PyMuPDF\", \"version\": \"2.1\", \"sort\": false, \"reading_order\": \"PDF content stream; visual review required\"}, \"status\": \"selected\", \"review_status\": \"human_review_pending\", \"limitations\": [\"PDF layout/reading order requires visual review\", \"No OCR or reconstruction of image tables\", \"Context windows never silently cross page boundaries\"]}",
+      "retrieval_timestamp": "unknown; local import time used for bookkeeping"
+    },
+    "search_complete": false,
+    "papers": {
+      "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1": {
+        "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+        "title": "Local uploaded PDF",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+        "source_status": "local_upload_unverified",
+        "is_open_access": null,
+        "has_fulltext": true,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1": {
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "title": "Local uploaded PDF",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "full_text",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6": {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "label": "NEUTRAL",
+          "confidence": 0.9946006536483765,
+          "truncated": false
+        },
+        "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607": {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "label": "NEUTRAL",
+          "confidence": 0.9940502047538757,
+          "truncated": false
+        },
+        "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e": {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "label": "NEUTRAL",
+          "confidence": 0.5128408074378967,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p5:4853:4884:5ded03bdb1e6",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "section": "full_text",
+          "text": "Computing Integrated Gradients.",
+          "score": 0.7360728979110718,
+          "page": 5,
+          "sentence_indices": [],
+          "source_version": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1"
+        },
+        {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:3517:3684:30bd057e7607",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "section": "full_text",
+          "text": "Attributions generated\nby integrated gradients satisfy Implementation Invariance\nsince they are based only on the gradients of the function\nrepresented by the network.",
+          "score": 0.7240352630615234,
+          "page": 3,
+          "sentence_indices": [],
+          "source_version": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1"
+        },
+        {
+          "passage_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1:pdf:p3:949:1090:5e935a507e8e",
+          "paper_id": "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1",
+          "section": "full_text",
+          "text": "Intuitively,\nour technique combines the Implementation Invariance of\nGradients along with the Sensitivity of techniques like LRP\nor DeepLift.",
+          "score": 0.7197788953781128,
+          "page": 3,
+          "sentence_indices": [],
+          "source_version": "f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1"
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Integrated Gradients satisfies Sensitivity and Implementation Invariance.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "passages": "person3_local_pdf_bounded",
+      "verification": "local_nli",
+      "pdf_review": "human_review_pending"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "ddeafbc4a7a8db9140c9494331d473e4a848e0c19c1770c0a0ab9d67e933e166",
+  "selected_paper_ids": [
+    "pdf:f7ebd6fea293c844b94c8ae86ad80e28f48b828d562a316841d4eab8fcd7dee1"
+  ],
+  "aggregation": {
+    "claim": "Integrated Gradients satisfies Sensitivity and Implementation Invariance.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "30a95ea82e1c8bb398cbc5e5a47e6f808e188591f645e25fc830752403b241c6",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Local PDF text and page references were extracted automatically; layout, source authenticity and scientific interpretation require human review.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD"
+    ]
+  }
+}

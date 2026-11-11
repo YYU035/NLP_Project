@@ -1,0 +1,12 @@
+--- a/retrieval/retriever.py
++++ b/retrieval/retriever.py
+@@ -24,8 +24,7 @@
+     k = min(k, len(scores))
+     if k <= 0:
+         return np.array([], dtype=int)
+-    idx = np.argpartition(-scores, k - 1)[:k]
+-    return idx[np.lexsort((idx, -scores[idx]))]
++    return np.lexsort((np.arange(len(scores)), -scores))[:k]
+ 
+ 
+ def rrf_fuse(rankings: dict[str, list[str]], k_rrf: int = 60) -> list[tuple[str, float]]:

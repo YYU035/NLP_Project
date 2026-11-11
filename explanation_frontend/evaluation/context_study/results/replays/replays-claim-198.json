@@ -1,0 +1,269 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T16:32:41.741191+00:00",
+    "claim": "CCL19 is absent within dLNs.",
+    "created_at": "2026-11-10T16:32:41.741191Z",
+    "retrieved_at": "2026-11-10T16:32:41.741191Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "research_policy": "protect_decisive",
+      "decision_arm": "bounded_abstract",
+      "auxiliary_inference": "Focused route always required. Context route may additionally be required; both actual input traces retained in local_traces. Replay displays the decisive arm."
+    },
+    "search_complete": false,
+    "papers": {
+      "13778710": {
+        "paper_id": "13778710",
+        "title": "Chemokine-like receptor 1 (CMKLR1) and chemokine (C-C motif) receptor-like 2 (CCRL2); two multifunctional receptors with unusual properties.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "2177022": {
+        "paper_id": "2177022",
+        "title": "Immobilized chemokine fields and soluble chemokine gradients cooperatively shape migration patterns of dendritic cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "15414628": {
+        "paper_id": "15414628",
+        "title": "Preventing bacterial DNA release and absent in melanoma 2 inflammasome activation by a Legionella effector functioning in membrane trafficking.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "5144381": {
+        "paper_id": "5144381",
+        "title": "Molecular model of the human 26S proteasome.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "29347970": {
+        "paper_id": "29347970",
+        "title": "CCR6 regulates the migration of inflammatory and regulatory T cells.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "13778710": {
+          "paper_id": "13778710",
+          "title": "Chemokine-like receptor 1 (CMKLR1) and chemokine (C-C motif) receptor-like 2 (CCRL2); two multifunctional receptors with unusual properties.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "2177022": {
+          "paper_id": "2177022",
+          "title": "Immobilized chemokine fields and soluble chemokine gradients cooperatively shape migration patterns of dendritic cells.",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9766275882720947,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "2177022:abstract:0:1111:60364dcf4ca3"
+          ]
+        },
+        "15414628": {
+          "paper_id": "15414628",
+          "title": "Preventing bacterial DNA release and absent in melanoma 2 inflammasome activation by a Legionella effector functioning in membrane trafficking.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "5144381": {
+          "paper_id": "5144381",
+          "title": "Molecular model of the human 26S proteasome.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "29347970": {
+          "paper_id": "29347970",
+          "title": "CCR6 regulates the migration of inflammatory and regulatory T cells.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "13778710:abstract:0:1950:bd255b528ddd": {
+          "passage_id": "13778710:abstract:0:1950:bd255b528ddd",
+          "paper_id": "13778710",
+          "label": "NEUTRAL",
+          "confidence": 0.972080409526825,
+          "truncated": false
+        },
+        "2177022:abstract:0:1111:60364dcf4ca3": {
+          "passage_id": "2177022:abstract:0:1111:60364dcf4ca3",
+          "paper_id": "2177022",
+          "label": "CONTRADICT",
+          "confidence": 0.9766275882720947,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "13778710:abstract:0:1950:bd255b528ddd",
+          "paper_id": "13778710",
+          "section": "abstract",
+          "text": "Chemokine-like receptor 1 (CMKLR1), also known as ChemR23, and chemokine (C-C motif) receptor-like 2 (CCRL2) are 7-transmembrane receptors that were cloned in the late 1990s based on their homology to known G-protein-coupled receptors. They were previously orphan receptors without any known biological roles; however, recent studies identified ligands for these receptors and their functions have begun to be unveiled. The plasma protein-derived chemoattractant chemerin is a ligand for CMKLR1 and activation of CMKLR1 with chemerin induces the migration of macrophages and dendritic cells (DCs) in vitro, suggesting a proinflammatory role. However, in vivo studies using CMKLR-deficient mice suggest an anti-inflammatory role for this receptor, possibly due to the recruitment of tolerogenic plasmacytoid DCs. Chemerin/CMKLR1 interaction also promotes adipogenesis and angiogenesis. The anti-inflammatory lipid mediator, resolving E1, is another CMKLR1 ligand and it inhibits leukocyte infiltration and proinflammatory gene expression. These divergent results suggest that CMKLR1 is a multifunctional receptor. The chemokine CCL5 and CCL19 are reported to bind to CCRL2. Like Duffy antigen for chemokine receptor (DARC), D6 and CCX-CKR, CCRL2 does not signal, but it constitutively recycles, potentially reducing local concentration of CCL5 and CCL19 and subsequent immune responses. Surprisingly, chemerin, a ligand for CMKLR1, is a ligand for CCRL2. CCRL2 binds chemerin and increases local chemerin concentration to efficiently present it to CMKLR1 on nearby cells, providing a link between CCRL2 and CMKLR1. Although these findings suggest an anti-inflammatory role, a recent study using CCRL2-deficient mice indicates a proinflammatory role; thus, CCRL2 may also be multifunctional. Further studies using CMKLR1- or CCRL2-deficient mice are needed to further define the role of these receptors in immune responses and other cellular processes.",
+          "score": 0.5362430214881897,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "2177022:abstract:0:1111:60364dcf4ca3",
+          "paper_id": "2177022",
+          "section": "abstract",
+          "text": "Chemokines orchestrate immune cell trafficking by eliciting either directed or random migration and by activating integrins in order to induce cell adhesion. Analyzing dendritic cell (DC) migration, we showed that these distinct cellular responses depended on the mode of chemokine presentation within tissues. The surface-immobilized form of the chemokine CCL21, the heparan sulfate-anchoring ligand of the CC-chemokine receptor 7 (CCR7), caused random movement of DCs that was confined to the chemokine-presenting surface because it triggered integrin-mediated adhesion. Upon direct contact with CCL21, DCs truncated the anchoring residues of CCL21, thereby releasing it from the solid phase. Soluble CCL21 functionally resembles the second CCR7 ligand, CCL19, which lacks anchoring residues and forms soluble gradients. Both soluble CCR7 ligands triggered chemotactic movement, but not surface adhesion. Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns closely resembling the cellular dynamics observed in secondary lymphoid organs.",
+          "score": 0.5481201410293579,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "CCL19 is absent within dLNs.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "2177022:abstract:0:1111:60364dcf4ca3",
+          "paper_id": "2177022",
+          "section": "abstract",
+          "text": "Chemokines orchestrate immune cell trafficking by eliciting either directed or random migration and by activating integrins in order to induce cell adhesion. Analyzing dendritic cell (DC) migration, we showed that these distinct cellular responses depended on the mode of chemokine presentation within tissues. The surface-immobilized form of the chemokine CCL21, the heparan sulfate-anchoring ligand of the CC-chemokine receptor 7 (CCR7), caused random movement of DCs that was confined to the chemokine-presenting surface because it triggered integrin-mediated adhesion. Upon direct contact with CCL21, DCs truncated the anchoring residues of CCL21, thereby releasing it from the solid phase. Soluble CCL21 functionally resembles the second CCR7 ligand, CCL19, which lacks anchoring residues and forms soluble gradients. Both soluble CCR7 ligands triggered chemotactic movement, but not surface adhesion. Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns closely resembling the cellular dynamics observed in secondary lymphoid organs.",
+          "score": 0.5481201410293579,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9766275882720947,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "87dfeef4063b4df09e5d0d14d0532531c626726b65e401bb4ee10d3706740cc2",
+  "selected_paper_ids": [
+    "13778710",
+    "15414628",
+    "2177022",
+    "29347970",
+    "5144381"
+  ],
+  "aggregation": {
+    "claim": "CCL19 is absent within dLNs.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "2177022:abstract:0:1111:60364dcf4ca3",
+        "paper_id": "2177022",
+        "section": "abstract",
+        "text": "Chemokines orchestrate immune cell trafficking by eliciting either directed or random migration and by activating integrins in order to induce cell adhesion. Analyzing dendritic cell (DC) migration, we showed that these distinct cellular responses depended on the mode of chemokine presentation within tissues. The surface-immobilized form of the chemokine CCL21, the heparan sulfate-anchoring ligand of the CC-chemokine receptor 7 (CCR7), caused random movement of DCs that was confined to the chemokine-presenting surface because it triggered integrin-mediated adhesion. Upon direct contact with CCL21, DCs truncated the anchoring residues of CCL21, thereby releasing it from the solid phase. Soluble CCL21 functionally resembles the second CCR7 ligand, CCL19, which lacks anchoring residues and forms soluble gradients. Both soluble CCR7 ligands triggered chemotactic movement, but not surface adhesion. Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns closely resembling the cellular dynamics observed in secondary lymphoid organs.",
+        "score": 0.5481201410293579,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9766275882720947,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "7ec446f8dcdb9d9698aa35207642c3bd4599d2bf815c1a75e72b21cd7bf502a2",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "Chemokines orchestrate immune cell trafficking by eliciting either directed or random migration and by activating integrins in order to induce cell adhesion. Analyzing dendritic cell (DC) migration, we showed that these distinct cellular responses depended on the mode of chemokine presentation within tissues. The surface-immobilized form of the chemokine CCL21, the heparan sulfate-anchoring ligand of the CC-chemokine receptor 7 (CCR7), caused random movement of DCs that was confined to the chemokine-presenting surface because it triggered integrin-mediated adhesion. Upon direct contact with CCL21, DCs truncated the anchoring residues of CCL21, thereby releasing it from the solid phase. Soluble CCL21 functionally resembles the second CCR7 ligand, CCL19, which lacks anchoring residues and forms soluble gradients. Both soluble CCR7 ligands triggered chemotactic movement, but not surface adhesion. Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns closely resembling the cellular dynamics observed in secondary lymphoid organs.",
+        "citation_ids": [
+          "2177022:abstract:0:1111:60364dcf4ca3"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

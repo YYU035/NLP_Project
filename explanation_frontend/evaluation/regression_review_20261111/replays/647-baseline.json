@@ -1,0 +1,271 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:37:54.992025+00:00",
+    "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+    "created_at": "2026-11-10T17:37:54.992025Z",
+    "retrieved_at": "2026-11-10T17:37:54.992025Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time",
+      "abstract_policy": "baseline",
+      "evaluation_scope": "Frozen209 internal audit; full-corpus RRFtop5; not fresh web search",
+      "claim_id": "647",
+      "replay_packaging": "Timestamp records packaging; predictions are reused from prior audit, no new inference.",
+      "context_configuration_json": "{\"policy\": \"semantic_focused\", \"min_paper_score\": null, \"base_selection\": {\"top_k\": 3, \"min_score\": 0.5, \"context_radius\": 0}, \"max_pair_tokens\": 512, \"scope\": \"Original frozen audit configuration; not fresh inference\"}"
+    },
+    "search_complete": false,
+    "papers": {
+      "15041758": {
+        "paper_id": "15041758",
+        "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "19945096": {
+        "paper_id": "19945096",
+        "title": "Why do patients with multimorbidity in England report worse experiences in primary care? Evidence from the General Practice Patient Survey",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24318630": {
+        "paper_id": "24318630",
+        "title": "Integration of mental health into primary healthcare in low-income countries: avoiding medicalization.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "15968271": {
+        "paper_id": "15968271",
+        "title": "The adverse consequences of unmet need among older persons living in the community: dual-eligible versus Medicare-only beneficiaries.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "24276304": {
+        "paper_id": "24276304",
+        "title": "The epidemiology of major depressive disorder: results from the National Comorbidity Survey Replication (NCS-R).",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "15041758": {
+          "paper_id": "15041758",
+          "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+          "verdict": "CONTRADICTED",
+          "confidence": 0.9992024302482605,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": null,
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": [
+            "15041758:abstract:2095:2253:b17595d863e3"
+          ]
+        },
+        "19945096": {
+          "paper_id": "19945096",
+          "title": "Why do patients with multimorbidity in England report worse experiences in primary care? Evidence from the General Practice Patient Survey",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24318630": {
+          "paper_id": "24318630",
+          "title": "Integration of mental health into primary healthcare in low-income countries: avoiding medicalization.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "15968271": {
+          "paper_id": "15968271",
+          "title": "The adverse consequences of unmet need among older persons living in the community: dual-eligible versus Medicare-only beneficiaries.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "24276304": {
+          "paper_id": "24276304",
+          "title": "The epidemiology of major depressive disorder: results from the National Comorbidity Survey Replication (NCS-R).",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "15041758:abstract:2095:2253:b17595d863e3": {
+          "passage_id": "15041758:abstract:2095:2253:b17595d863e3",
+          "paper_id": "15041758",
+          "label": "CONTRADICT",
+          "confidence": 0.9992024302482605,
+          "truncated": false
+        },
+        "15041758:abstract:0:157:c9e02d6ee4b5": {
+          "passage_id": "15041758:abstract:0:157:c9e02d6ee4b5",
+          "paper_id": "15041758",
+          "label": "NEUTRAL",
+          "confidence": 0.9443023800849915,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "15041758:abstract:2095:2253:b17595d863e3",
+          "paper_id": "15041758",
+          "section": "abstract",
+          "text": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "score": 0.5749698281288147,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "15041758:abstract:0:157:c9e02d6ee4b5",
+          "paper_id": "15041758",
+          "section": "abstract",
+          "text": "OBJECTIVE To evaluate the effectiveness of integrated care for chronic physical diseases and depression in reducing disability and improving quality of life.",
+          "score": 0.5439642667770386,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+      "aggregated_verdict": "CONTRADICTED",
+      "primary_evidence": [
+        {
+          "passage_id": "15041758:abstract:2095:2253:b17595d863e3",
+          "paper_id": "15041758",
+          "section": "abstract",
+          "text": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "score": 0.5749698281288147,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "global_confidence": 0.9992024302482605,
+      "verdict_delta_reason": "",
+      "status": "ok",
+      "sufficiency_cause": null
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "7f22d0387a147ee469f1f12a8adec6dbdc48bc51aa93b3beeb3ee468d755badc",
+  "selected_paper_ids": [
+    "15041758",
+    "15968271",
+    "19945096",
+    "24276304",
+    "24318630"
+  ],
+  "aggregation": {
+    "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+    "aggregated_verdict": "CONTRADICTED",
+    "primary_evidence": [
+      {
+        "passage_id": "15041758:abstract:2095:2253:b17595d863e3",
+        "paper_id": "15041758",
+        "section": "abstract",
+        "text": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+        "score": 0.5749698281288147,
+        "page": null,
+        "sentence_indices": [],
+        "source_version": null
+      }
+    ],
+    "global_confidence": 0.9992024302482605,
+    "verdict_delta_reason": "",
+    "status": "ok",
+    "sufficiency_cause": null
+  },
+  "explanation": {
+    "context_key": "7835c1812af332a5fd76a637066a9b34bfd04d7265ea6533679618107deca159",
+    "verdict": "CONTRADICTED",
+    "statements": [
+      {
+        "text": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+        "citation_ids": [
+          "15041758:abstract:2095:2253:b17595d863e3"
+        ]
+      }
+    ],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}

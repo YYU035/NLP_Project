@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-09",
+  "frontend_tests_passed": 136,
+  "yuyue_current_tests_passed": 163,
+  "owner_revision": "7ed93fa4be69c661422b33b6c88b949dd2636e12",
+  "actual_model_checks": [
+    "recorded search: 3 papers, 9 semantic passages, grounding/replay passed",
+    "fresh public search: 9 candidates, 3 papers, 9 semantic passages, grounding/replay passed",
+    "synthetic text PDF: exact page evidence, local NLI, replay passed"
+  ],
+  "benchmark_results": "Pinned published owner artifacts; not independently reproduced",
+  "attribution": {
+    "numerical_status": "unstable",
+    "relative_completeness_error": 0.3813977151565739,
+    "steps": 128,
+    "normal_word_scores_withheld": true
+  },
+  "scientific_quality_and_human_review": "pending"
+}

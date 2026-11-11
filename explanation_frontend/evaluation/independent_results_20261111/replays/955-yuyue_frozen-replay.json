@@ -1,0 +1,236 @@
+{
+  "export_version": "1.0",
+  "replay_mode": "cached",
+  "snapshot": {
+    "schema_version": "1.0",
+    "run_id": "2026-11-10T17:03:35.700208+00:00",
+    "claim": "Pioneer factor OCT3/4 interacts with major chromatin remodeling factors.",
+    "created_at": "2026-11-10T17:03:35.700208Z",
+    "retrieved_at": "2026-11-10T17:03:35.700208Z",
+    "mode": "cached",
+    "source_snapshot_id": "person4:1ac06b675e3d0719a63cb8efe98eda4f2c5fd576",
+    "filters": {
+      "retrieval_timestamp": "not_supplied; retrieved_at records import time"
+    },
+    "search_complete": false,
+    "papers": {
+      "11011905": {
+        "paper_id": "11011905",
+        "title": "Pioneer Transcription Factors Target Partial DNA Motifs on Nucleosomes to Initiate Reprogramming",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "4896726": {
+        "paper_id": "4896726",
+        "title": "Pioneer factor Pax7 deploys a stable enhancer repertoire for specification of cell fate",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "18998807": {
+        "paper_id": "18998807",
+        "title": "Facilitators and Impediments of the Pluripotency Reprogramming Factors' Initial Engagement with the Genome",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "2151983": {
+        "paper_id": "2151983",
+        "title": "Epigenetic switch involved in activation of pioneer factor FOXA1-dependent enhancers.",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      },
+      "13242763": {
+        "paper_id": "13242763",
+        "title": "Interaction between Oct3/4 and Cdx2 Determines Trophectoderm Differentiation",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "url": null,
+        "source_version": null,
+        "source_status": "unverified",
+        "is_open_access": null,
+        "has_fulltext": false,
+        "retrieval_scores": {}
+      }
+    },
+    "verification": {
+      "per_paper_verdicts": {
+        "11011905": {
+          "paper_id": "11011905",
+          "title": "Pioneer Transcription Factors Target Partial DNA Motifs on Nucleosomes to Initiate Reprogramming",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "4896726": {
+          "paper_id": "4896726",
+          "title": "Pioneer factor Pax7 deploys a stable enhancer repertoire for specification of cell fate",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "18998807": {
+          "paper_id": "18998807",
+          "title": "Facilitators and Impediments of the Pluripotency Reprogramming Factors' Initial Engagement with the Genome",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "2151983": {
+          "paper_id": "2151983",
+          "title": "Epigenetic switch involved in activation of pioneer factor FOXA1-dependent enhancers.",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        },
+        "13242763": {
+          "paper_id": "13242763",
+          "title": "Interaction between Oct3/4 and Cdx2 Determines Trophectoderm Differentiation",
+          "verdict": "INSUFFICIENT",
+          "confidence": 0.0,
+          "evidence_type": "abstract_only",
+          "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD",
+          "conflict_flag": false,
+          "supporting_passage_ids": [],
+          "contradicting_passage_ids": []
+        }
+      },
+      "per_passage_labels": {
+        "11011905:abstract:0:954:d57f419067b1": {
+          "passage_id": "11011905:abstract:0:954:d57f419067b1",
+          "paper_id": "11011905",
+          "label": "NEUTRAL",
+          "confidence": 0.9857808947563171,
+          "truncated": false
+        },
+        "4896726:abstract:0:989:9d9df45df04d": {
+          "passage_id": "4896726:abstract:0:989:9d9df45df04d",
+          "paper_id": "4896726",
+          "label": "NEUTRAL",
+          "confidence": 0.997068464756012,
+          "truncated": false
+        }
+      },
+      "processing_failures": [],
+      "evidence_passages": [
+        {
+          "passage_id": "11011905:abstract:0:954:d57f419067b1",
+          "paper_id": "11011905",
+          "section": "abstract",
+          "text": "Pioneer transcription factors (TFs) access silent chromatin and initiate cell-fate changes, using diverse types of DNA binding domains (DBDs). FoxA, the paradigm pioneer TF, has a winged helix DBD that resembles linker histone and thereby binds its target sites on nucleosomes and in compacted chromatin. Herein, we compare the nucleosome and chromatin targeting activities of Oct4 (POU DBD), Sox2 (HMG box DBD), Klf4 (zinc finger DBD), and c-Myc (bHLH DBD), which together reprogram somatic cells to pluripotency. Purified Oct4, Sox2, and Klf4 proteins can bind nucleosomes in vitro, and in vivo they preferentially target silent sites enriched for nucleosomes. Pioneer activity relates simply to the ability of a given DBD to target partial motifs displayed on the nucleosome surface. Such partial motif recognition can occur by coordinate binding between factors. Our findings provide insight into how pioneer factors can target naive chromatin sites.",
+          "score": 0.7112053632736206,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        },
+        {
+          "passage_id": "4896726:abstract:0:989:9d9df45df04d",
+          "paper_id": "4896726",
+          "section": "abstract",
+          "text": "Pioneer transcription factors establish new cell-fate competence by triggering chromatin remodeling. However, many features of pioneer action, such as their kinetics and stability, remain poorly defined. Here, we show that Pax7, by opening a unique repertoire of enhancers, is necessary and sufficient for specification of one pituitary lineage. Pax7 binds its targeted enhancers rapidly, but chromatin remodeling and gene activation are slower. Enhancers opened by Pax7 show a loss of DNA methylation and acquire stable epigenetic memory, as evidenced by binding of nonpioneer factors after Pax7 withdrawal. This work shows that transient Pax7 expression is sufficient for stable specification of cell identity. Analysis of Pax7 dynamics during pituitary lineage specification shows that Pax7 binds rapidly at uniquely marked heterochromatin pioneer sites and initiates chromatin opening that remains stable after Pax7 withdrawal, with loss of DNA hypermethylation at pioneered enhancers.",
+          "score": 0.7194783687591553,
+          "page": null,
+          "sentence_indices": [],
+          "source_version": null
+        }
+      ],
+      "model_settings": {
+        "checkpoint": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "max_length": 512,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    "provisional": {
+      "claim": "Pioneer factor OCT3/4 interacts with major chromatin remodeling factors.",
+      "aggregated_verdict": "INSUFFICIENT",
+      "primary_evidence": [],
+      "global_confidence": 0.0,
+      "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+      "status": "ok",
+      "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+    },
+    "stage_statuses": {
+      "verification": "imported",
+      "discovery": "not_supplied"
+    },
+    "explicit_replacements": {},
+    "discovery_context": null
+  },
+  "snapshot_hash": "6fd6b7be02974b89549cd0f6972a54595d3bd58835379f70178cc1efb70480be",
+  "selected_paper_ids": [
+    "11011905",
+    "13242763",
+    "18998807",
+    "2151983",
+    "4896726"
+  ],
+  "aggregation": {
+    "claim": "Pioneer factor OCT3/4 interacts with major chromatin remodeling factors.",
+    "aggregated_verdict": "INSUFFICIENT",
+    "primary_evidence": [],
+    "global_confidence": 0.0,
+    "verdict_delta_reason": "No papers provided decisive evidence above threshold.",
+    "status": "ok",
+    "sufficiency_cause": "NO_PASSAGE_ABOVE_THRESHOLD"
+  },
+  "explanation": {
+    "context_key": "ada900a0470a286e01be1301386b048a80e83963c2cfb7cb9815c399809dc3ab",
+    "verdict": "INSUFFICIENT",
+    "statements": [],
+    "correction": null,
+    "method": "template",
+    "model": null,
+    "prompt_version": null,
+    "limitations": [
+      "This result concerns only the selected retrieved evidence, not all scientific literature.",
+      "Search is incomplete; relevant evidence may be missing.",
+      "Insufficiency cause: NO_PASSAGE_ABOVE_THRESHOLD",
+      "Some selected evidence is abstract only; full-text findings were not inspected."
+    ]
+  }
+}
