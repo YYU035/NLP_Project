@@ -1,6 +1,6 @@
 # Scientific paper retrieval
 
-The retrieval module finds scientific papers and passes
+The retrieval module finds scientific papers for an NLP RAG project and passes
 normalized candidates to downstream ranking. It returns the original claim,
 paper metadata and retrieval provenance.
 
@@ -80,3 +80,7 @@ remaining relevance labels before deciding whether to enable arXiv relaxation.
 The [experiment summary](artifacts/README.md) explains the current choices.
 [Research scripts](scripts/README.md) support reproducing the comparisons;
 they are not required for normal retrieval.
+
+An optional [offline abstract-quality review](docs/abstract_quality.md) flags
+suspicious stored descriptions without changing retrieval results or text.
+Its categories are heuristics, not verified completeness or evidence judgments.
